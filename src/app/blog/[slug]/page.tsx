@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Footer, TopNav } from "@/components/blog/SiteChrome";
 import { MarkdownRenderer } from "@/components/blog/MarkdownRenderer";
+import ArticleSidebar from "@/components/blog/ArticleSidebar";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { FaqSection } from "@/components/FaqSection";
 import { FinalCta } from "@/components/FinalCta";
 import { getPost, getPostSlugs } from "@/lib/blog-server";
 
@@ -147,12 +149,29 @@ export default async function BlogPostPage({
         </div>
       </section>
 
-      {/* Body */}
+      {/* Body + Sidebar */}
       <section className="mx-auto max-w-[1200px] px-6 pt-6 pb-16 md:pt-10">
-        <article>
-          <MarkdownRenderer content={content} />
-        </article>
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_240px]">
+          <article className="min-w-0">
+            <MarkdownRenderer content={content} />
+          </article>
+
+          <ArticleSidebar
+            content={content}
+            title={meta.title}
+            slug={slug}
+          />
+        </div>
       </section>
+
+      {/* FAQ — site-wide FaqSection component */}
+      {meta.faqs && meta.faqs.length > 0 ? (
+        <FaqSection
+          eyebrow="FAQ"
+          title="Common Questions"
+          items={meta.faqs}
+        />
+      ) : null}
 
       <FinalCta />
       <Footer />

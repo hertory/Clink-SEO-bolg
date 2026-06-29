@@ -54,7 +54,7 @@ const TILES = [
   {
     title: "Your Data, Any Processor",
     body: "Connect once, route anywhere. Clink keeps your subscription data independent and portable, so you can add, swap, or combine providers without rewriting a line of code.",
-    img: tileLockin,
+    img: tileLockin.src,
   },
   {
     title: "Global Coverage",
@@ -98,12 +98,12 @@ const FEATURE_ROWS = [
     body: "Automate your entire revenue lifecycle. Handle complex subscriptions, recurring invoices, and customer self-service portals from a single dashboard.",
     link: "Discover Billing",
     href: "/products/billing",
-    img: featureBilling,
+    img: featureBilling.src,
   },
 ];
 
-const PARTNERS_A = [p2, p34, p35, p36, p37, p38, p40];
-const PARTNERS_B = [p41, p42, p43, p44, p45, p46, p47, p48];
+const PARTNERS_A = [p2.src, p34.src, p35.src, p36.src, p37.src, p38.src, p40.src];
+const PARTNERS_B = [p41.src, p42.src, p43.src, p44.src, p45.src, p46.src, p47.src, p48.src];
 
 type Quote = { name: string; brand: string; body: string; avatar: string };
 
@@ -144,7 +144,7 @@ const QUOTES: Quote[] = [
     name: "Veritas",
     brand: "Gazolab",
     body: "Since partnering with Clink, we have seen a clear improvement in payment success rates and overall revenue performance. Clink's intelligent routing and automated retries significantly reduce revenue loss from failed transactions.",
-    avatar: tGazolab,
+    avatar: tGazolab.src,
   },
   {
     name: "Kevin",
@@ -234,7 +234,7 @@ function Hero() {
                   "color-mix(in oklab, var(--accent) 35%, transparent)",
               }}
             >
-              <img src={p.icon} alt="" className="h-[18px] w-[18px]" />
+              <img src={p.icon.src} alt="" className="h-[18px] w-[18px]" />
               {p.label}
             </span>
           ))}
@@ -252,7 +252,7 @@ function Hero() {
             style={{ boxShadow: "var(--shadow-cta)" }}
           >
             <img
-              src={clawAvatar}
+              src={clawAvatar.src}
               alt=""
               className="h-7 w-7 rounded-full"
             />

@@ -9,6 +9,8 @@ const BLOG_DIR = path.join(ROOT, "content", "blog");
 const OUT_DIR = path.join(ROOT, "src", "data");
 const OUT_FILE = path.join(OUT_DIR, "blog-data.ts");
 
+interface FaqItem { q: string; a: string; }
+
 interface BlogPost {
   slug: string;
   title: string;
@@ -21,6 +23,7 @@ interface BlogPost {
   image?: string;
   readingMinutes: number;
   related: string[];
+  faqs?: FaqItem[];
 }
 
 /** Convert a Date or string to YYYY-MM-DD format */
@@ -35,6 +38,22 @@ function toDateString(value: unknown): string {
     if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
   }
   return "";
+}
+
+/** Extract FAQ items from markdown content. Returns [faqs, bodyWithoutFaq] */
+function extractFaqs(content: string): [FaqItem[], string] {
+  const faqIndex = content.search(/\n## FAQ\b/);
+  if (faqIndex === -1) return [[], content];
+
+  const faqSection = content.slice(faqIndex);
+  const bodyWithoutFaq = content.slice(0, faqIndex);
+
+  const faqs: FaqItem[] = [];
+  const matches = faqSection.matchAll(/### (.+?)\n\n([\s\S]*?)(?=\n### |$)/g);
+  for (const m of matches) {
+    faqs.push({ q: m[1].trim(), a: m[2].trim() });
+  }
+  return [faqs, bodyWithoutFaq];
 }
 
 function main() {
@@ -75,8 +94,11 @@ function main() {
     if (data.updated) post.updated = toDateString(data.updated);
     if (data.image) post.image = String(data.image);
 
+    const [faqs, bodyOnly] = extractFaqs(content);
+    if (faqs.length > 0) post.faqs = faqs;
+    contentMap[post.slug] = bodyOnly.trim();
+
     posts.push(post);
-    contentMap[post.slug] = content.trim();
   }
 
   // Sort by date descending

@@ -1,3 +1,5 @@
+export type FaqItem = { q: string; a: string };
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -10,6 +12,7 @@ export type BlogPost = {
   image?: string;
   readingMinutes: number;
   related: string[];
+  faqs?: FaqItem[];
 };
 
 /** Convert heading text to URL-safe id fragment */

@@ -7,7 +7,7 @@ import clawAvatar from "@/assets/clink/claw-avatar.svg";
 
 const NAV = [
   { label: "Home", href: "/" },
-  { label: "Clink for Claw", href: "/clink-for-claw", icon: clawAvatar },
+  { label: "Clink for Claw", href: "/clink-for-claw", icon: clawAvatar.src },
   { label: "Products", href: "/products" },
   { label: "Lovable", href: "/platforms/lovable" },
   { label: "Subscriptions", href: "/products/subscription-management" },
@@ -40,7 +40,7 @@ export default function TopNav() {
     >
       <div className="mx-auto flex h-[72px] max-w-[1200px] items-center justify-between px-6">
         <Link href="/" className="flex items-center">
-          <img src={navLogo} alt="Clink" className="h-6 w-auto" />
+          <img src={navLogo.src} alt="Clink" className="h-6 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {NAV.map((item) => (

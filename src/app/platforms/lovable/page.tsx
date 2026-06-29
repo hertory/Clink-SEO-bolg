@@ -183,7 +183,7 @@ function Hero() {
             className="group inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-[15px] font-semibold text-black transition-transform hover:-translate-y-0.5"
             style={{ boxShadow: "var(--shadow-cta)" }}
           >
-            <img src={clawAvatar} alt="" className="h-7 w-7 rounded-full" />
+            <img src={clawAvatar.src} alt="" className="h-7 w-7 rounded-full" />
             Get Agent-Ready in 1-Click
             <span className="transition-transform duration-200 group-hover:translate-x-1">
               →
