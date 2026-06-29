@@ -12,6 +12,19 @@ readingMinutes: 12
 related: []
 ---
 
+---
+
+## TL;DR
+
+Most SaaS teams start with one payment processor. It works until they expand globally, add usage-based billing, or discover involuntary churn eating 3-5% of monthly revenue.
+
+- Clink replaces fragmented PSP stacks with a single integration combining subscription billing, smart routing, tax compliance, and agent-ready payments
+- Supports 135+ currencies and 100+ local payment methods via REST API, SDK, or hosted checkout
+- Launched April 2026 with backing from Celtic and Baidu Ventures; customers include BlockSec, GeeLark, and Linkloud
+- First agent payment layer **Clink for Claw** enables autonomous AI-initiated payments for companies like ModelMax and PollyReach
+
+---
+
 ## The Fragmentation Tax: Why Global SaaS Payments Stay Broken
 
 Most SaaS teams start with one payment processor. It works — until it doesn't. You expand into Europe and suddenly need SEPA and iDEAL. A Japanese enterprise wants to pay via bank transfer. Your involuntary churn creeps up because cards expire and retry logic isn't smart enough. Before you know it, you're managing four PSPs, three billing systems, and a spreadsheet of tax registrations that keeps your CFO up at night.

@@ -13,7 +13,12 @@ related: ["what-is-clink", "mor-vs-psp"]
 
 ## TL;DR
 
-Most SaaS companies route every payment through a single PSP — and silently leak 3-5% of recurring revenue. Multi-PSP smart routing with real-time performance data, automatic failover, and issuer-specific optimization recovers that leakage without changing your product, pricing, or customer experience. This article explains how the routing layer works, what the numbers look like in practice, and how to decide whether you need it.
+Most SaaS companies route every payment through a single PSP — and silently leak 3-5% of recurring revenue.
+
+- Single-PSP setups accept structural revenue loss: regional card declines, suboptimal interchange routing, and no fallback when the primary acquirer degrades
+- Smart routing distributes transactions across multiple PSPs in real time based on issuer country, currency, historical performance, and cost
+- Automatic retry logic catches soft declines and reroutes through backup gateways before the customer ever sees a failure
+- Companies adopting multi-PSP routing report 3-5 percentage point improvements in **net approval rates** — which compounds directly into MRR for subscription businesses
 
 ---
 

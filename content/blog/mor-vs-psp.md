@@ -13,7 +13,12 @@ related: ["what-is-clink"]
 
 ## TL;DR
 
-Choosing between a Merchant of Record (MoR) and a Payment Service Provider (PSP) is the single most consequential decision in a SaaS payment stack. An MoR handles tax, compliance, refunds, and chargebacks as the legal seller — great for speed and simplicity, but you sacrifice merchant identity and control. A PSP gives you full ownership of the payment experience but shifts tax registration, multi-currency reconciliation, and compliance onto your team. The right choice depends on your incorporation country, your target markets, your billing complexity, and your tolerance for operational overhead.
+Choosing between a Merchant of Record (MoR) and a Payment Service Provider (PSP) is the single most consequential decision in a SaaS payment stack.
+
+- **An MoR** handles tax, compliance, refunds, and chargebacks as the legal seller — fast to launch but sacrifices merchant identity and control over payment routing
+- **A PSP** gives full ownership of checkout and invoices, but shifts tax registration, multi-currency reconciliation, and compliance onto your team
+- **The hybrid model** (Clink's approach) combines both: MoR coverage for emerging markets, PSP control for core geographies, and multi-PSP smart routing to optimize approval rates
+- This article offers a five-dimension decision framework, a cost comparison table, and a step-by-step playbook for choosing your model
 
 ---
 

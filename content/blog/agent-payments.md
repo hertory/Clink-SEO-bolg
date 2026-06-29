@@ -13,7 +13,12 @@ related: ["what-is-clink"]
 
 ## TL;DR
 
-AI agents are graduating from drafting emails to executing transactions. But when an agent hits a payment flow designed for humans — browser sessions, 3D Secure challenges, email verification, CAPTCHAs — the loop breaks. Agent-native payment infrastructure is the missing piece between autonomous AI and the real economy. This article maps the problem, the requirements, and the first production protocol addressing it.
+AI agents are graduating from drafting emails to executing transactions. But payment flows designed for humans — browser sessions, 3D Secure, CAPTCHAs — break when the customer is an LLM.
+
+- Traditional payment infrastructure assumes a human at a keyboard: browser sessions, email verification, manual approval. None of this works for autonomous agents
+- Agent-native payments require scoped spending caps, cryptographic authorization without browser sessions, and machine-readable audit trails
+- **Clink for Claw** is the first production agent payment protocol — ModelMax and PollyReach already use it to let agents autonomously top up credits, subscribe to services, and execute transactions within pre-set guardrails
+- Gartner predicts 15% of business decisions will be autonomous by 2028 — the payment layer needs to catch up now
 
 ---
 
