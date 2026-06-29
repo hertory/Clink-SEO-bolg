@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0%" stop-color="#FEFEFB"/>
+      <stop offset="100%" stop-color="#FAF9F7"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ED7039"/>
+      <stop offset="100%" stop-color="#EC7193"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ED7039" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ED7039" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-opacity="0.06"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="32" font-weight="700" fill="#0D1323">MoR vs PSP</text>
+  <text x="600" y="120" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#71717A">Choosing the Right Payment Infrastructure Model</text>
+
+  <!-- Left Card: MoR -->
+  <rect x="80" y="170" width="480" height="380" rx="24" fill="white" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <rect x="80" y="170" width="480" height="60" rx="24" fill="url(#brand)"/>
+  <rect x="80" y="206" width="480" height="24" fill="url(#brand)"/>
+  <text x="320" y="207" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="white">Merchant of Record</text>
+
+  <!-- MoR flow -->
+  <rect x="130" y="260" width="380" height="48" rx="10" fill="#F9F9F9" stroke="#EFEFEF"/>
+  <text x="320" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#0D1323" font-weight="600">Customer ’ Payment ’ <tspan fill="url(#brand)">MoR (Legal Seller)</tspan></text>
+
+  <!-- MoR items -->
+  <text x="150" y="350" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Tax registered in 60+ jurisdictions</text>
+  <text x="150" y="380" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Handles chargebacks &amp; disputes</text>
+  <text x="150" y="410" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Files and remits VAT / GST / Sales Tax</text>
+  <text x="150" y="440" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> One consolidated payout</text>
+  <text x="150" y="470" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Higher per-transaction fee (47%)</text>
+  <text x="150" y="500" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> MoR name on invoice</text>
+
+  <!-- Right Card: PSP -->
+  <rect x="640" y="170" width="480" height="380" rx="24" fill="white" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <rect x="640" y="170" width="480" height="60" rx="24" fill="#0D1323"/>
+  <rect x="640" y="206" width="480" height="24" fill="#0D1323"/>
+  <text x="880" y="207" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="white">Payment Service Provider</text>
+
+  <!-- PSP flow -->
+  <rect x="690" y="260" width="380" height="48" rx="10" fill="#F9F9F9" stroke="#EFEFEF"/>
+  <text x="880" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#0D1323" font-weight="600">Customer ’ Payment ’ <tspan fill="#0D1323" font-weight="700">PSP ’ </tspan><tspan fill="#0D1323" font-weight="700">You (Merchant)</tspan></text>
+
+  <!-- PSP items -->
+  <text x="710" y="350" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Lower per-transaction fee (2.9% + $0.30)</text>
+  <text x="710" y="380" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Your brand on invoices &amp; checkout</text>
+  <text x="710" y="410" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Full control over payment routing</text>
+  <text x="710" y="440" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Direct merchant relationship</text>
+  <text x="710" y="470" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> You handle tax registration &amp; filing</text>
+  <text x="710" y="500" font-family="Inter, sans-serif" font-size="13" fill="#3F3F46"> Liability for disputes &amp; compliance</text>
+
+  <!-- Connector -->
+  <line x1="560" y1="360" x2="640" y2="360" stroke="#EFEFEF" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="600" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A" transform="rotate(-90 600 350)">OR</text>
+
+  <!-- Bottom CTA label -->
+  <text x="600" y="600" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#71717A">Clink  Payment Infrastructure for an AI-Native World</text>
+</svg>
