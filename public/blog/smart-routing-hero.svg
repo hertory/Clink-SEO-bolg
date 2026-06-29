@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ED7039"/>
+      <stop offset="100%" stop-color="#EC7193"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.06"/></filter>
+    <marker id="a" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#ED7039"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="630" fill="#FEFEFB"/>
+
+  <!-- Title -->
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0D1323">Smart Payment Routing</text>
+  <text x="600" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" fill="#71717A">How Multi-PSP Orchestration Recovers 3-5% Revenue</text>
+
+  <!-- Single PSP (left - red theme) -->
+  <rect x="70" y="160" width="340" height="170" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="240" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#c0392b">Single PSP</text>
+
+  <rect x="120" y="225" width="240" height="36" rx="8" fill="#FEF2F2"/>
+  <text x="240" y="248" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#c0392b">Payment -&gt; Only One Acquirer</text>
+
+  <rect x="120" y="275" width="240" height="36" rx="8" fill="#F9F9F9"/>
+  <text x="240" y="298" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#71717A">Regional Declines = Lost Revenue</text>
+
+  <!-- Arrows between -->
+  <line x1="410" y1="245" x2="460" y2="245" stroke="#ED7039" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Multi-PSP (right - green theme) -->
+  <rect x="470" y="160" width="660" height="170" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="800" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#10B981">Multi-PSP Smart Routing</text>
+
+  <!-- 3 PSP boxes -->
+  <rect x="500" y="225" width="180" height="36" rx="8" fill="#F0FDF4"/>
+  <text x="590" y="248" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10B981">PSP A: US / EU Cards</text>
+  <rect x="710" y="225" width="180" height="36" rx="8" fill="#F0FDF4"/>
+  <text x="800" y="248" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10B981">PSP B: APAC / LATAM</text>
+  <rect x="920" y="225" width="180" height="36" rx="8" fill="#F0FDF4"/>
+  <text x="1010" y="248" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#10B981">PSP C: Fallback / Retry</text>
+
+  <rect x="500" y="275" width="600" height="36" rx="8" fill="url(#brand)" opacity=".08"/>
+  <text x="800" y="298" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#ED7039">Route by country, currency, issuer, and real-time performance</text>
+
+  <!-- Features row -->
+  <text x="600" y="385" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#0D1323">What Smart Routing Unlocks</text>
+
+  <rect x="70" y="420" width="250" height="72" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="195" y="448" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Automatic Failover</text>
+  <text x="195" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Retry via backup PSP before user sees failure</text>
+
+  <rect x="340" y="420" width="250" height="72" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="465" y="448" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Fee Optimization</text>
+  <text x="465" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Route to lowest-cost acquirer per transaction</text>
+
+  <rect x="610" y="420" width="250" height="72" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="735" y="448" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Regional Coverage</text>
+  <text x="735" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Best PSP per issuer country and currency</text>
+
+  <rect x="880" y="420" width="250" height="72" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="1005" y="448" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Recover 3-5% Revenue</text>
+  <text x="1005" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Revenue that single-PSP setups silently lose</text>
+
+  <!-- Result -->
+  <rect x="300" y="530" width="600" height="50" rx="12" fill="url(#brand)" opacity=".08"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" fill="#ED7039" font-weight="600">One integration. Multiple PSPs. Zero revenue leakage.</text>
+
+  <text x="600" y="615" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#B8B8BC">Clink - Payment Infrastructure for an AI-Native World</text>
+</svg>

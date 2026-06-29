@@ -1,134 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
   <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="750">
-      <stop offset="0%" stop-color="#FEFEFB"/>
-      <stop offset="100%" stop-color="#FAF9F7"/>
-    </linearGradient>
-    <linearGradient id="brand2" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ED7039"/>
       <stop offset="100%" stop-color="#EC7193"/>
     </linearGradient>
-    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#059669"/>
-    </linearGradient>
-    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.06"/></filter>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.06"/></filter>
+    <marker id="a" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <path d="M0 0 L8 3 L0 6 Z" fill="#ED7039"/>
     </marker>
   </defs>
 
-  <rect width="1200" height="750" fill="url(#bg2)"/>
+  <rect width="1200" height="750" fill="#FEFEFB"/>
 
   <text x="600" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#0D1323">Payment Infrastructure: Where Each Model Fits</text>
 
   <!-- MoR Block -->
-  <rect x="60" y="80" width="320" height="120" rx="16" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <circle cx="100" cy="110" r="20" fill="url(#brand2)" opacity="0.12"/>
+  <rect x="60" y="80" width="320" height="110" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <circle cx="100" cy="110" r="20" fill="#ED7039" opacity=".12"/>
   <text x="100" y="116" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#ED7039" font-weight="700">M</text>
   <text x="135" y="115" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#0D1323">Merchant of Record</text>
-  <text x="95" y="145" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Tax calculation &amp; remittance</text>
-  <text x="95" y="165" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Chargeback &amp; dispute management</text>
-  <text x="95" y="185" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Consolidated payouts</text>
+  <text x="95" y="142" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Tax calculation and remittance</text>
+  <text x="95" y="160" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Chargeback and dispute management</text>
+  <text x="95" y="178" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Consolidated payouts</text>
 
   <!-- PSP Block -->
-  <rect x="440" y="80" width="320" height="120" rx="16" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <circle cx="480" cy="110" r="20" fill="#0D1323" opacity="0.08"/>
+  <rect x="440" y="80" width="320" height="110" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <circle cx="480" cy="110" r="20" fill="#0D1323" opacity=".08"/>
   <text x="480" y="116" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#0D1323" font-weight="700">P</text>
   <text x="515" y="115" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#0D1323">Payment Service Provider</text>
-  <text x="475" y="145" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Card processing &amp; wallets</text>
-  <text x="475" y="165" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Tokenization &amp; PCI compliance</text>
-  <text x="475" y="185" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Fraud screening</text>
+  <text x="475" y="142" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Card processing and wallets</text>
+  <text x="475" y="160" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Tokenization and PCI compliance</text>
+  <text x="475" y="178" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Fraud screening</text>
 
-  <!-- Clink Block (center) -->
-  <rect x="820" y="80" width="320" height="120" rx="16" fill="url(#brand2)" filter="url(#shadow2)" opacity="0.95"/>
-  <circle cx="860" cy="110" r="20" fill="white" opacity="0.2"/>
-  <text x="860" y="116" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="white" font-weight="700">C</text>
-  <text x="895" y="114" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="white">Clink (Hybrid)</text>
-  <text x="855" y="145" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">MoR + PSP in one integration</text>
-  <text x="855" y="165" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">Your brand stays on invoice</text>
-  <text x="855" y="185" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">Multi-PSP smart routing</text>
+  <!-- Clink Block -->
+  <rect x="820" y="80" width="320" height="110" rx="16" fill="#ED7039" filter="url(#shadow)"/>
+  <circle cx="860" cy="110" r="20" fill="#fff" opacity=".2"/>
+  <text x="860" y="116" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#fff" font-weight="700">C</text>
+  <text x="895" y="114" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#fff">Clink (Hybrid)</text>
+  <text x="855" y="142" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,.85)">MoR + PSP in one integration</text>
+  <text x="855" y="160" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,.85)">Your brand stays on invoice</text>
+  <text x="855" y="178" font-family="Inter, sans-serif" font-size="12" fill="rgba(255,255,255,.85)">Multi-PSP smart routing</text>
 
-  <!-- Scenario Columns -->
-  <text x="600" y="260" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#0D1323">Which Model for Which Scenario?</text>
+  <!-- Decision section -->
+  <text x="600" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#0D1323">Which Model for Which Scenario?</text>
 
-  <!-- Scenario 1: Early Stage -->
-  <rect x="60" y="295" width="360" height="210" rx="16" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <rect x="60" y="295" width="360" height="48" rx="16" fill="#F9F9F9"/>
-  <rect x="60" y="319" width="360" height="24" fill="#F9F9F9"/>
-  <text x="240" y="326" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#0D1323">Early-Stage SaaS (Pre-PMF)</text>
-
-  <text x="95" y="375" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: MoR</text>
-  <text x="95" y="400" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46" font-weight="600">Why:</text>
-  <text x="97" y="420" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" No tax team or CPA budget</text>
-  <text x="97" y="438" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Need global coverage day one</text>
-  <text x="97" y="456" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Speed to market &gt; fee optimization</text>
-  <text x="97" y="474" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Simple billing model</text>
-
-  <rect x="260" y="475" width="140" height="24" rx="6" fill="url(#brand2)" opacity="0.08"/>
-  <text x="330" y="492" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#ED7039" font-weight="600">’ Go with MoR</text>
+  <!-- Scenario 1: Early -->
+  <rect x="60" y="285" width="360" height="195" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <rect x="60" y="285" width="360" height="44" rx="16" fill="#F9F9F9"/>
+  <rect x="60" y="305" width="360" height="24" fill="#F9F9F9"/>
+  <text x="240" y="314" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0D1323">Early-Stage SaaS (Pre-PMF)</text>
+  <text x="95" y="360" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: MoR</text>
+  <text x="95" y="384" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- No tax team or CPA budget</text>
+  <text x="95" y="401" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Need global coverage day one</text>
+  <text x="95" y="418" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Speed to market &gt; fee optimization</text>
+  <text x="95" y="435" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Simple billing model</text>
+  <rect x="260" y="452" width="140" height="22" rx="6" fill="#ED7039" opacity=".08"/>
+  <text x="330" y="468" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#ED7039" font-weight="600">Go with MoR</text>
 
   <!-- Scenario 2: Growing -->
-  <rect x="440" y="295" width="360" height="210" rx="16" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <rect x="440" y="295" width="360" height="48" rx="16" fill="#F9F9F9"/>
-  <rect x="440" y="319" width="360" height="24" fill="#F9F9F9"/>
-  <text x="620" y="326" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#0D1323">Scaling SaaS ($1M$10M ARR)</text>
-
-  <text x="475" y="375" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: Hybrid (Clink)</text>
-  <text x="475" y="400" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46" font-weight="600">Why:</text>
-  <text x="477" y="420" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Cost optimization matters at scale</text>
-  <text x="477" y="438" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Need brand on invoices</text>
-  <text x="477" y="456" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Multi-PSP routing reduces churn</text>
-  <text x="477" y="474" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Keep MoR for emerging markets</text>
-
-  <rect x="640" y="475" width="140" height="24" rx="6" fill="url(#brand2)"/>
-  <text x="710" y="492" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="white" font-weight="600">’ Go Hybrid</text>
+  <rect x="440" y="285" width="360" height="195" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <rect x="440" y="285" width="360" height="44" rx="16" fill="#F9F9F9"/>
+  <rect x="440" y="305" width="360" height="24" fill="#F9F9F9"/>
+  <text x="620" y="314" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0D1323">Scaling SaaS ($1M-$10M ARR)</text>
+  <text x="475" y="360" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: Hybrid (Clink)</text>
+  <text x="475" y="384" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Cost optimization matters at scale</text>
+  <text x="475" y="401" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Need brand on invoices</text>
+  <text x="475" y="418" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Multi-PSP routing reduces churn</text>
+  <text x="475" y="435" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Keep MoR for emerging markets</text>
+  <rect x="640" y="452" width="140" height="22" rx="6" fill="#ED7039"/>
+  <text x="710" y="468" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#fff" font-weight="600">Go Hybrid</text>
 
   <!-- Scenario 3: Enterprise -->
-  <rect x="820" y="295" width="320" height="210" rx="16" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <rect x="820" y="295" width="320" height="48" rx="16" fill="#F9F9F9"/>
-  <rect x="820" y="319" width="320" height="24" fill="#F9F9F9"/>
-  <text x="980" y="326" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#0D1323">Enterprise ($10M+ ARR)</text>
+  <rect x="820" y="285" width="320" height="195" rx="16" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <rect x="820" y="285" width="320" height="44" rx="16" fill="#F9F9F9"/>
+  <rect x="820" y="305" width="320" height="24" fill="#F9F9F9"/>
+  <text x="980" y="314" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0D1323">Enterprise ($10M+ ARR)</text>
+  <text x="855" y="360" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: PSP + Routing</text>
+  <text x="855" y="384" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Have in-house tax/compliance</text>
+  <text x="855" y="401" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Direct merchant relationships</text>
+  <text x="855" y="418" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Cost savings at volume</text>
+  <text x="855" y="435" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">- Complex billing models</text>
+  <rect x="1000" y="452" width="120" height="22" rx="6" fill="#0D1323" opacity=".06"/>
+  <text x="1060" y="468" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46" font-weight="600">Go PSP</text>
 
-  <text x="855" y="375" font-family="Inter, sans-serif" font-size="13" fill="#0D1323" font-weight="600">Recommended: PSP + Routing</text>
-  <text x="855" y="400" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46" font-weight="600">Why:</text>
-  <text x="857" y="420" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Have in-house tax/compliance</text>
-  <text x="857" y="438" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Direct merchant relationships</text>
-  <text x="857" y="456" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Cost savings at volume</text>
-  <text x="857" y="474" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46">" Complex billing models</text>
+  <!-- Flow section -->
+  <text x="600" y="535" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#0D1323">The Decision Flow</text>
 
-  <rect x="1000" y="475" width="120" height="24" rx="6" fill="#0D1323" opacity="0.06"/>
-  <text x="1060" y="492" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#3F3F46" font-weight="600">’ Go PSP</text>
+  <rect x="140" y="565" width="200" height="50" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="240" y="586" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Selling in 20+</text>
+  <text x="240" y="604" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">countries?</text>
+  <line x1="340" y1="590" x2="380" y2="590" stroke="#ED7039" stroke-width="2" marker-end="url(#a)"/>
 
-  <!-- Bottom: Decision Flow -->
-  <text x="600" y="565" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#0D1323">The Decision Flow</text>
+  <rect x="385" y="550" width="180" height="36" rx="8" fill="#ED7039" opacity=".08"/>
+  <text x="475" y="573" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ED7039">Yes = MoR / Hybrid</text>
+  <rect x="385" y="594" width="180" height="36" rx="8" fill="#0D1323" opacity=".04"/>
+  <text x="475" y="617" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3F3F46">No = PSP</text>
 
-  <!-- Flow boxes -->
-  <rect x="140" y="600" width="200" height="56" rx="12" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <text x="240" y="623" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Selling in 20+</text>
-  <text x="240" y="643" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">countries?</text>
+  <rect x="610" y="565" width="200" height="50" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="710" y="586" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Have in-house</text>
+  <text x="710" y="604" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">tax / compliance team?</text>
+  <line x1="810" y1="590" x2="850" y2="590" stroke="#ED7039" stroke-width="2" marker-end="url(#a)"/>
 
-  <line x1="340" y1="628" x2="380" y2="628" stroke="#ED7039" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="855" y="550" width="170" height="36" rx="8" fill="#0D1323" opacity=".04"/>
+  <text x="940" y="573" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3F3F46">Yes = PSP</text>
+  <rect x="855" y="594" width="170" height="36" rx="8" fill="#ED7039" opacity=".08"/>
+  <text x="940" y="617" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ED7039">No = MoR</text>
 
-  <rect x="385" y="580" width="180" height="40" rx="8" fill="url(#brand2)" opacity="0.08"/>
-  <text x="475" y="605" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ED7039">Yes ’ MoR / Hybrid</text>
-
-  <rect x="385" y="630" width="180" height="40" rx="8" fill="#0D1323" opacity="0.04"/>
-  <text x="475" y="655" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3F3F46">No ’ PSP</text>
-
-  <!-- Second column -->
-  <rect x="610" y="600" width="200" height="56" rx="12" fill="white" stroke="#EFEFEF" filter="url(#shadow2)"/>
-  <text x="710" y="623" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Have in-house</text>
-  <text x="710" y="643" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">tax/compliance team?</text>
-
-  <line x1="810" y1="628" x2="850" y2="628" stroke="#ED7039" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="855" y="580" width="170" height="40" rx="8" fill="#0D1323" opacity="0.04"/>
-  <text x="940" y="605" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3F3F46">Yes ’ PSP</text>
-
-  <rect x="855" y="630" width="170" height="40" rx="8" fill="url(#brand2)" opacity="0.08"/>
-  <text x="940" y="655" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ED7039">No ’ MoR</text>
-
-  <!-- Footer -->
-  <text x="600" y="730" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#B8B8BC">Clink  Unified Payment Infrastructure</text>
+  <text x="600" y="730" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#B8B8BC">Clink - Unified Payment Infrastructure</text>
 </svg>
