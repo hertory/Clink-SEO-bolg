@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ED7039"/>
+      <stop offset="100%" stop-color="#EC7193"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.06"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#FEFEFB"/>
+
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0D1323">What Is Clink?</text>
+  <text x="600" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" fill="#71717A">Payment Infrastructure for an AI-Native World</text>
+
+  <!-- Center hub -->
+  <rect x="420" y="160" width="360" height="100" rx="16" fill="url(#brand)" filter="url(#shadow)"/>
+  <text x="600" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#fff">Clink</text>
+  <text x="600" y="230" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="rgba(255,255,255,.9)">One integration. Full revenue stack.</text>
+
+  <!-- Four products -->
+  <rect x="70" y="320" width="250" height="90" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="195" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Global Payments</text>
+  <text x="195" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Checkout · 135+ currencies</text>
+
+  <rect x="340" y="320" width="250" height="90" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="465" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Smart Routing</text>
+  <text x="465" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Multi-PSP · auto retry</text>
+
+  <rect x="610" y="320" width="250" height="90" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="735" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Billing</text>
+  <text x="735" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Subscriptions · usage · portal</text>
+
+  <rect x="880" y="320" width="250" height="90" rx="12" fill="#fff" stroke="#EFEFEF" filter="url(#shadow)"/>
+  <text x="1005" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#0D1323">Clink for Claw</text>
+  <text x="1005" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#71717A">Agent-native payments</text>
+
+  <rect x="250" y="460" width="700" height="56" rx="12" fill="url(#brand)" opacity=".08"/>
+  <text x="600" y="494" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" fill="#ED7039" font-weight="600">Replace fragmented PSP stacks — keep processors interchangeable</text>
+
+  <text x="600" y="580" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#B8B8BC">Clink - Payment Infrastructure for an AI-Native World</text>
+</svg>

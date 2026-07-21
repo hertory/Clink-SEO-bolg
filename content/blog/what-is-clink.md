@@ -2,177 +2,127 @@
 title: "What Is Clink? Payment Infrastructure for an AI-Native World"
 description: "Clink is a unified payment infrastructure platform that combines subscription billing, smart payment routing, global tax compliance, and agent-ready payments. Learn how it helps SaaS teams replace fragmented PSP stacks with a single integration."
 slug: "what-is-clink"
-date: 2026-06-23
-updated: 2026-06-23
+date: "2026-06-23"
+updated: "2026-06-23"
 category: "Product"
-keywords: ["Clink", "payment infrastructure", "subscription billing", "payment orchestration", "global payment platform", "agentic payment"]
 author: "Clink Team"
-image: ""
-readingMinutes: 12
-related: []
----
-
+image: "/blog/what-is-clink-hero.svg"
 ---
 
 ## TL;DR
 
-Most SaaS teams start with one payment processor. It works until they expand globally, add usage-based billing, or discover involuntary churn eating 3-5% of monthly revenue.
-
-- Clink replaces fragmented PSP stacks with a single integration combining subscription billing, smart routing, tax compliance, and agent-ready payments
-- Supports 135+ currencies and 100+ local payment methods via REST API, SDK, or hosted checkout
-- Launched April 2026 with backing from Celtic and Baidu Ventures; customers include BlockSec, GeeLark, and Linkloud
-- First agent payment layer **Clink for Claw** enables autonomous AI-initiated payments for companies like ModelMax and PollyReach
-
----
+Most SaaS teams start with one payment processor. That works until they expand to a second country, add a third billing model, or realize their involuntary churn is eating 3-5% of monthly revenue. Clink is a unified payment infrastructure platform that replaces fragmented PSP stacks with a single integration -- combining subscription billing, smart routing across multiple processors, built-in tax compliance, and a first-of-its-kind agent payment layer called Clink for Claw. It is backed by Celtic and Baidu Ventures, launched in April 2026, and already serves AI-native companies like ModelMax and PollyReach alongside global SaaS teams including BlockSec, GeeLark, and Linkloud.
 
 ## The Fragmentation Tax: Why Global SaaS Payments Stay Broken
 
-Most SaaS teams start with one payment processor. It works — until it doesn't. You expand into Europe and suddenly need SEPA and iDEAL. A Japanese enterprise wants to pay via bank transfer. Your involuntary churn creeps up because cards expire and retry logic isn't smart enough. Before you know it, you're managing four PSPs, three billing systems, and a spreadsheet of tax registrations that keeps your CFO up at night.
+Every SaaS company eventually hits the same wall. You start with Stripe. It works beautifully for your first thousand customers in the US and Europe. Then a customer in Brazil reports that their local card keeps declining -- Boleto Bancario isn't supported, and the cards that do work get hit with a 40% decline rate from local issuers who flag cross-border charges as suspicious. Your Indonesia expansion plan stalls because GoPay and Dana are table stakes for that market and your processor doesn't touch either one. Your finance team spends three days a month reconciling invoices across five currencies while your engineering team wires up a fourth PSP integration, and your head of growth starts asking questions about involuntary churn numbers that nobody wants to put on a slide.
 
-This isn't a niche problem. **Every global SaaS company hits this wall.** Stripe is excellent at what it does, but it doesn't handle everything. Paddle takes on merchant-of-record complexity but locks you into its own tax engine. Chargebee manages subscriptions well but leaves payment routing to someone else. Spreedly orchestrates gateways but adds another vendor to your stack.
+This is not a hypothetical. It is the standard trajectory for any SaaS product that crosses borders. Take a company like BlockSec, a Web3 security platform and one of Clink's early customers. As their user base spread from North America to Asia and Europe, their single-processor setup began to crack in predictable ways: local payment method coverage gaps in Southeast Asia, regional card decline patterns that no amount of retry logic could fix, and a growing compliance burden around tax calculation that their processor's add-on tools were never designed to handle. The team was spending engineering cycles on payment plumbing instead of their core product. This story repeats across nearly every customer testimonial on Clink's site -- GeeLark, Linkloud, Virax.ai -- each describing the same structural problem from a different angle.
 
-The result is what we call the **fragmentation tax**: engineering time spent on payment integration instead of product, revenue leakage from suboptimal routing, compliance risk from patchwork tax handling, and operational overhead that scales with every new market.
+This is the fragmentation tax. It is not a single catastrophic failure. It is the accumulated cost of stitching together payment processors, billing logic, tax handlers, fraud tools, and subscription management -- each maintained as a separate integration, each with its own webhook signature and error semantics, each silently failing in a different market while your dashboard insists everything is fine. The architecture you built for your first thousand customers becomes the architecture that caps you at ten thousand.
 
----
+The numbers make the case. Involuntary churn from payment failures accounts for 20-40% of SaaS churn by most industry estimates. Each additional PSP integration costs engineering weeks and introduces new failure modes that compound geometrically as you add processors -- two PSPs is one reconciliation problem, three is seven, four is fourteen combinations of potential mismatch. Multi-currency tax compliance across jurisdictions is a full-time problem, not a checkbox you tick during onboarding. And none of this gets easier as you grow. It compounds.
+
+Clink was built to answer a simple question: what if you only had to integrate once?
+
 
 ## What Clink Actually Does
 
-Clink is a **unified payment infrastructure platform** — not another PSP, not another billing tool, not another tax compliance vendor. It brings together the four layers every global SaaS company needs into a single integration:
+Clink is a payment infrastructure layer that sits between your product and the payment processing ecosystem. You integrate Clink once -- through its REST API, hosted checkout page, or TypeScript and JavaScript SDKs -- and Clink handles the rest: routing transactions to the right processor, retrying failed payments automatically, managing subscriptions and customer portals, calculating and filing taxes, and maintaining PCI compliance. The architecture has one central design principle: your subscription data stays with you, independent of any payment processor. In a typical setup, your product talks to Clink's API to create checkout sessions, subscriptions, and customer records; Clink then routes each transaction to the appropriate PSP based on rules you configure -- Stripe for US cards, Airwallex for APAC, Adyen for European markets, or any combination that fits your coverage needs. You can add or remove PSPs without rewriting your billing logic, and if a processor goes down or a specific card type fails in a specific region, Clink's routing engine shifts traffic to a backup gateway automatically.
 
-1. **Global Payments**: Accept payments in 135+ currencies and 100+ local payment methods through one REST API, SDK, or hosted checkout.
-2. **Smart Routing**: Route transactions intelligently across multiple PSPs to optimize approval rates and reduce fees.
-3. **Subscription Billing**: Manage recurring revenue with usage-based pricing, tiered plans, and automated dunning.
-4. **Tax Compliance**: Automatically calculate, collect, and remit sales tax, VAT, and GST in 80+ jurisdictions.
-5. **Agent-Ready Payments**: Enable AI agents to initiate payments autonomously through the Clink for Claw protocol.
+This separation between billing logic and payment execution matters for more than just engineering convenience. When your subscription data lives in Stripe or Chargebee's proprietary models, migrating away means either a multi-month data export project with edge cases you will discover at 2 a.m. during cutover weekend, or accepting permanent vendor lock-in. When it lives in Clink's independent billing layer, the processors underneath become interchangeable. The same principle applies to developer workflows: Clink provides a test clock API that lets you simulate subscription renewals, billing cycle transitions, and payment failures in a sandbox environment -- so your team can verify retry logic and dunning sequences before they hit production, and your QA cycle does not depend on waiting for real calendar time to elapse.
 
-Instead of stitching together Stripe + Chargebee + Avalara + Spreedly, you connect to Clink once and get the full stack.
+This is the practical distinction between a payment processor and payment infrastructure. A processor handles one leg of the transaction. Infrastructure coordinates all of them, and preserves your ability to change your mind about which processors you use without rebuilding the revenue stack. Clink was founded by Patrick Wu and launched on April 30, 2026, with backing from Celtic and Baidu Ventures. The company's stated mission is to build payment rails for an economy where AI agents, not just humans, need to move money -- but the platform's immediate value addresses a more grounded reality: the SaaS payment stack, even in 2026, is still far too hard to assemble and far too expensive to change.
 
----
 
 ## The Four Products
 
-### Global Payments
+Clink organizes its capabilities into four product lines, each addressing a distinct layer of the revenue stack. Together they cover the full lifecycle of a payment -- from the moment a customer enters payment details to the recurring billing, tax filing, and (in the agent case) autonomous top-up that happens months later.
 
-Clink's payment acceptance layer supports credit and debit cards, digital wallets (Apple Pay, Google Pay), bank transfers, and local payment methods across 135+ currencies. You can integrate via:
+**Global Payments** covers the checkout experience and payment acceptance layer. It provides a hosted checkout page that you can embed with a few lines of JavaScript, supports 135+ currencies and over 100 local payment methods -- from major credit cards to region-specific options like iDEAL in the Netherlands, Boleto in Brazil, and GoPay in Indonesia -- and includes PCI DSS 4.0.1-compliant card vaulting and fraud prevention out of the box. For teams that want full control over the UX, a REST API and TypeScript SDK allow fully custom checkout flows that still benefit from Clink's routing and retry logic underneath. The hosted checkout is the fastest path to a working payment flow; the API is the path to a branded, differentiated experience.
 
-- **REST API** for full control over the checkout experience
-- **Embedded SDK** for a drop-in checkout hosted on your domain
-- **Hosted Checkout** for the fastest path to live, no frontend work required
+**Smart Routing** is the orchestration engine that turns multiple PSP connections from a maintenance burden into a strategic asset. Once you connect your processors -- Stripe, Airwallex, Adyen, and others -- Clink routes each transaction based on configurable rules: lowest processing cost, highest historical success rate for that card type in that region, geographic proximity to reduce latency, or any weighted combination. Automatic retry logic kicks in when a transaction fails: Clink detects the decline, identifies whether a different processor or payment method is likely to succeed based on historical patterns, and retries through the backup gateway -- all before the customer ever sees a failure message. The goal is simple to state and hard to engineer: recover the 2-5% of monthly recurring revenue that a single-processor setup silently loses to payment failures. For the mechanics and decision framework, see our deep dive on [smart payment routing](/blog/smart-routing).
 
-PCI-DSS Level 1 compliance comes out of the box. Tokenization, 3D Secure 2, and network token support are built into every integration.
+**Billing** handles the subscription lifecycle from trial through cancellation. You define products, prices (flat, tiered, usage-based, or hybrid), and billing cycles; Clink manages upgrades, downgrades, proration calculations, trial expirations, and cancellations. A customer-facing portal -- which you can embed or link to -- lets end users update payment methods, download invoices, and change plans without generating a support ticket. Built-in coupon logic supports promotional workflows with rules scoped to specific products, price points, or customer segments. And usage-based pricing -- the model increasingly common in AI and API products where customers pay per token, per compute minute, or per API call -- is a first-class billing primitive, not an add-on you configure through metered billing workarounds.
 
-### Smart Routing
-
-Most companies route all transactions through a single PSP. That's leaving money on the table. Different PSPs perform better in different regions, for different card types, at different times. Clink's smart routing engine:
-
-- Routes transactions to the PSP most likely to approve them based on real-time performance data
-- Falls back automatically if the primary PSP declines
-- Optimizes for interchange fees by routing debit transactions through lower-cost networks
-- Provides a unified reporting dashboard across all PSPs
-
-Early customers have seen **3-5% improvement in net approval rates** after enabling smart routing — which translates directly to revenue for subscription businesses where every lost renewal is recurring.
-
-### Billing
-
-Clink's billing engine is built for modern SaaS pricing models:
-
-- **Usage-based billing**: Meter and charge for API calls, seats, compute hours, or any custom metric
-- **Tiered and volume pricing**: Graduated tiers, package tiers, and volume discounts
-- **Hybrid models**: Combine fixed recurring charges with usage components
-- **Automated dunning**: Smart retry logic with configurable schedules reduces involuntary churn
-- **Invoice generation**: Branded, localized invoices with proper tax line items
-
-The billing engine integrates natively with the payment and tax layers, so there's no reconciliation gap between what you bill and what you collect.
-
-### Clink for Claw: Agent-Ready Payments
-
-This is the most forward-looking piece of the platform. As AI agents become more autonomous — booking travel, subscribing to tools, purchasing compute — they need to be able to **pay for things**. Clink for Claw is the first payments protocol designed for agent-initiated transactions.
-
-An AI agent using Clink for Claw can:
-- Request a payment capability scoped to a specific merchant, amount ceiling, and time window
-- Receive a cryptographically signed payment authorization
-- Complete a transaction without human intervention
-
-This isn't theoretical. Companies like **ModelMax** and **PollyReach** are already using Clink for Claw to enable agent-native payment flows in production.
-
----
+**Clink for Claw** is the forward-looking piece. It lets AI agents -- specifically agents running on the OpenClaw runtime -- initiate payments autonomously within pre-set spending limits and risk rules. An agent that runs out of API credits mid-task triggers an automatic top-up through the user's linked payment method, governed by per-task spending caps and merchant-type restrictions that the user configures once. This is still in Early Access as of June 2026, accessible through a request form, and represents Clink's thesis on where commerce is heading: from human-initiated checkout flows to agent-initiated transactions governed by programmable guardrails, where the payment layer is an API call rather than a form submission. We expand the protocol thesis in [AI agents need payments too](/blog/agent-payments).
 
 ## Who Already Uses Clink
 
-Clink launched in April 2026 and is already serving customers across security, infrastructure, and AI tooling:
+Clink's early customer base spans AI-native startups and established global SaaS companies -- a split that reflects the platform's dual bet on fixing today's payment infrastructure problems while building for the agent-driven commerce that the team believes is coming.
 
-- **BlockSec**: A blockchain security company using Clink for global subscription billing across 40+ countries
-- **GeeLark**: A cloud phone infrastructure provider that consolidated 4 PSPs into a single Clink integration  
-- **Linkloud**: An AI voice platform that uses Clink's usage-based billing to meter and charge for transcription minutes
-- **ModelMax**: An AI model marketplace using Clink for Claw to enable agent-to-agent payments
-- **PollyReach**: A social media automation platform using Clink's smart routing to optimize cross-border payment acceptance
+The following testimonials appear on clinkbill.com as of June 2026, alongside company logos. Ruby Xu of BlockSec, a Web3 security platform serving users across multiple continents, describes Clink's multi-payment-method coverage and responsiveness as critical infrastructure -- when your users span from North America to Southeast Asia, payment method coverage is not a feature, it is a retention requirement. Dominic from GeeLark, an anti-detection browser company with a globally distributed user base, highlights the combination of payment orchestration and subscription management: the team was previously managing payment success rates manually across processors, and Clink's automated routing and retry logic turned a recurring operational fire into a background process. JK at Linkloud, a cross-border growth consultancy that helps companies expand internationally, points to consolidated payment operations as a direct driver of operational efficiency -- fewer tools, fewer integration points, fewer places for revenue to leak.
 
----
+On the AI-native side, ModelMax, an LLM API gateway, uses Clink for Claw to let their agents automatically top up API credits when balances run low during long-running tasks -- eliminating the manual intervention that would otherwise make autonomous agent workflows impractical at scale. PollyReach, an AI voice service, is a launch partner exploring agent-initiated payments for voice-based commerce. Other named customers on the site include VoiSpark (AI voice), Gazolab (gaming analytics), Virax.ai (creative AI), ZingFront (ad analytics), and NovaSonic (audio tools) -- a deliberately broad portfolio that tests Clink's infrastructure across subscription models, geographies, and transaction volumes.
+
+On the developer side, Clink maintains documentation at docs.clinkbill.com with OpenAPI specs, TypeScript and JavaScript SDK references, a CLI tool for programmatic wallet and risk rule management, and an LLMs.txt file for AI-readable indexing -- the last being a deliberate signal of the team's bet that the next generation of developer workflows will be agent-mediated. The docs include a Quickstart that walks through creating a first checkout session, linking a PSP, and configuring webhook endpoints, with separate UAT and production environments so teams can test payment flows without touching real money.
+
 
 ## What Makes Clink Different
 
-It's fair to ask: how is this different from Stripe, Paddle, Chargebee, or Spreedly? Each of those tools excels at one layer of the problem. Clink is the first to unify all four.
+Every payment platform talks about being "all-in-one." The actual landscape breaks into four categories, and Clink competes across all of them simultaneously -- not by being the best at any one thing, but by making the combination the point. Understanding the distinctions between these categories is how you know whether Clink is the right fit or whether a more specialized tool would serve you better.
 
-| Layer | Stripe | Paddle | Chargebee | Spreedly | **Clink** |
-|-------|--------|--------|-----------|----------|-----------|
-| Payment acceptance | ✓ | ✓ | — | — | ✓ |
-| Smart routing | — | — | — | ✓ | ✓ |
-| Subscription billing | Partial | — | ✓ | — | ✓ |
-| Tax compliance | Partial | ✓ | Partial | — | ✓ |
-| Agent-ready payments | — | — | — | — | ✓ |
-| Single integration | — | — | — | — | ✓ |
+Compared to a single payment processor like Stripe or Adyen: Clink is not a processor. It is an orchestration layer that can route to multiple processors, including the ones you already use. If you are on Stripe today, connecting a second PSP through Clink gives you automatic failover without rewriting your Stripe integration -- Clink sits above the processors and coordinates traffic, while Stripe continues to handle settlement as it always has. The pitch is not "leave Stripe." It is "stop being dependent on one processor." For teams happy with a single processor in a single market, this is likely over-engineering. For teams managing recurring revenue across three or more regions, a single-processor setup is a recurring cost center.
 
-**Stripe** is a fantastic payment processor but its billing and tax products are secondary add-ons, not native layers. **Paddle** is great for companies that want to offload merchant-of-record responsibility, but you're locked into Paddle's tax engine and checkout. **Chargebee** handles complex subscription logic but relies on third-party gateways for actual payment processing. **Spreedly** does gateway orchestration but doesn't touch billing or tax. Clink combines all four layers natively.
+Compared to merchant-of-record services like Paddle or Lemon Squeezy: those platforms handle global tax by becoming the legal seller -- invoices carry their name, the customer relationship is mediated through the MoR, and you sacrifice direct control over the payment experience. This is genuinely the right model for some businesses, particularly solo founders and small teams who want zero tax liability. Clink takes the opposite approach: it keeps your brand on the invoice and your subscription data fully under your control, with built-in tax calculation and filing that does not require ceding merchant identity. The trade-off is that you remain the merchant of record, which means you carry the tax obligations -- Clink handles the calculation and filing mechanics, but the legal relationship is yours. Whether the tax remittance scope covers your specific jurisdictions should be confirmed directly. For the full decision framework, see [MoR vs PSP](/blog/mor-vs-psp).
 
----
+Compared to pure subscription billing platforms like Chargebee or Recurly: those tools excel at complex pricing models, revenue recognition, and dunning -- but they do not solve the payment performance problem. Routing, retries, and multi-PSP failover happen outside their scope, typically in a separate integration or custom middleware. Clink bakes routing into the billing layer, so a declined subscription renewal can automatically retry through a different processor without a separate engineering project. The overlap in billing features is significant, which means the decision between Clink and a Chargebee-style platform comes down to whether payment performance is strategic to your revenue or a solved problem you can outsource.
+
+Compared to pure payment orchestration platforms like Spreedly or Primer: those tools focus deeply on routing and tokenization, and they are very good at it -- but they leave billing logic, tax handling, and customer-facing portals to separate integrations. Clink includes those as first-party products, which means fewer integrations to maintain but also less flexibility to swap out individual components. The trade-off is breadth versus depth: Spreedly's routing engine has years of refinement on that single problem, while Clink's routing is one product among four. For teams that already have best-in-class billing and tax solutions and only need orchestration, a pure orchestration platform may be the sharper tool.
+
+The fifth dimension -- and the one no competitor currently addresses in a production offering -- is agent-ready payments. Clink for Claw, though early-stage and in Early Access as of mid-2026, represents a genuine bet that the next decade of digital commerce will involve AI agents spending money autonomously within guardrails. Whether that bet pays off depends on merchant adoption velocity and how effectively the fraud infrastructure around non-human transactions evolves, but it is a real point of differentiation in an otherwise crowded market.
+
 
 ## The Agent Economy Bet
 
-Looking beyond today's SaaS billing needs, there's a larger shift underway. AI agents are moving from "assistants that draft emails" to "autonomous actors that execute transactions." Gartner predicts that by 2028, 15% of day-to-day business decisions will be made autonomously by AI agents.
+Clink's most distinctive claim is not about what payments look like today -- it is about what they will look like when AI agents are the ones spending money, and the friction of human-in-the-loop authorization becomes the bottleneck.
 
-If agents are going to book services, purchase infrastructure, and subscribe to tools, they need a payment layer designed for machine-to-machine transactions. Traditional payment infrastructure assumes a human at the keyboard — a browser session with 3D Secure challenges, email verification, and CAPTCHAs. That model breaks down when the customer is an LLM.
+Consider a concrete scenario that is already functional, not speculative. An AI agent running on the OpenClaw runtime is executing a multi-step research task: it calls an LLM API for initial analysis, spins up a data enrichment service to cross-reference the results, and prepares a structured report. Midway through, the LLM API credit balance hits zero. In today's standard architecture, the task pauses, the user receives a push notification, manually opens a dashboard, approves a top-up, and restarts the workflow -- a 5-to-15-minute interruption that breaks the promise of autonomous execution. With Clink for Claw, the agent detects the low balance in real time, triggers a top-up transaction within the user's pre-set daily spending cap (50 dollars, 200 dollars, whatever threshold the user configured), and resumes the task -- all within seconds, all without human intervention.
 
-Clink for Claw is our bet on this future. It's a lightweight protocol that gives AI agents:
-- **Scoped payment capabilities** with programmable constraints
-- **Cryptographic authorization** that doesn't require browser sessions
-- **Audit trails** designed for non-repudiation in agent-initiated transactions
+The model is called Harness Payment, and its design philosophy is deliberately conservative. Users link a standard payment method -- a credit card stored in Clink's PCI-compliant vault -- and define two simple parameters: a spending limit (daily or per-task) and risk rules (which agent, which merchant types, which time windows). The agent operates within those guardrails, and the user never approves individual transactions. It is broadly comparable to how authorized users work on a credit card -- except the authorized user is an AI runtime, and the spending governance is programmatic rather than based on trust.
 
-We believe the companies that will win in the agent economy are the ones that start building agent-ready infrastructure now — not waiting until the use case is fully mature.
+This is not theoretical or a concept video. ModelMax, an LLM API gateway, is already using Clink for Claw in production to let AI agents automatically fund their API usage when credits run low -- eliminating the manual top-up interruption that would otherwise make long-running agent tasks impractical. PollyReach, an AI voice service, is another launch partner exploring agent-initiated transactions for voice-based commerce workflows. The OpenClaw skill repository on GitHub provides the open-source integration layer for agent runtimes to interface with Clink's payment session API.
 
----
+Whether agentic payments grow into a meaningful revenue category or remain a specialized niche depends on variables that are impossible to predict in mid-2026: how fast AI agents move from demos to production workloads at scale, whether fraud detection systems adapt to non-human transaction patterns, and whether regulatory frameworks around autonomous spending emerge as enablers or barriers. But the infrastructure exists now, and Clink is, at this moment, the only platform offering it alongside a full billing and orchestration stack -- a bet that the companies building the agent economy will want their payment layer from the same provider that handles their human transactions.
 
-## Why Now
+## How to Get Started
 
-The global SaaS market is projected to reach $900 billion by 2028. Cross-border SaaS revenue is growing 2.5x faster than domestic. At the same time, payment fragmentation is getting worse, not better — new local payment methods emerge every quarter, tax regulations multiply across jurisdictions, and the cost of maintaining multi-PSP infrastructure rises with every integration.
+Clink is available at clinkbill.com, with documentation at docs.clinkbill.com. The product operates on a Contact Sales model as of June 2026 -- there is no self-serve signup or public pricing page -- though the company emphasizes transparent, unified costs with no hidden fees. The onboarding path starts with a conversation about your current payment stack, expansion plans, and the specific problems you are trying to solve: multi-region coverage gaps, involuntary churn from payment failures, tax compliance overhead, or preparation for agent-driven payment workflows. That conversation is followed by a standard KYB process, PSP linking, and a guided integration with the engineering team.
 
-Meanwhile, the agent economy is transitioning from hype to production. Companies are deploying autonomous agents that need to transact. The infrastructure gap is real, and it's widening.
+For teams already on Stripe, a common first step is linking the existing Stripe account to Clink while keeping it as the primary processor, then gradually adding backup PSPs for specific regions as coverage needs emerge. This incremental approach means you do not need to migrate your entire payment stack at once -- you can prove the routing and retry logic on a subset of traffic before expanding. For teams building from scratch, the docs Quickstart takes you from zero to a working checkout session with a linked PSP in a single sitting, with the UAT environment available for testing payment flows without touching real funds.
 
-Clink was founded to close that gap. We're backed by **Celtic House Venture Partners** and **Baidu Ventures**, and we're building a team that understands both the payments industry and the frontier of AI infrastructure.
+What happens after integration is where the platform's value compounds. As your transaction volume grows, Clink's routing engine builds historical success-rate data per card type, per region, per processor -- which means the routing decisions get smarter over time without your team tuning parameters. The billing layer handles the subscription lifecycle, the customer portal reduces support ticket volume, and if and when you are ready to explore agent-driven payments, the Clink for Claw infrastructure is already part of the same integration. You do not need to re-platform to add agent capabilities later.
 
----
+If you are evaluating whether to migrate an existing payment stack or build a new one, the docs are the best place to spend your first fifteen minutes. If you want to understand how Clink would work in your specific stack -- which PSPs you would connect, how the routing rules would be configured, what the tax implications are for your jurisdictions -- the Contact Sales conversation is designed to answer those questions concretely rather than through generic product marketing.
+
+## Conclusion
+
+There is a version of the SaaS payment story where none of this matters yet. You are in one market, with one processor, and your churn from payment failures is low enough that the engineering cost of adding infrastructure exceeds the revenue you would recover. For that version of the story, Clink is premature -- keep your Stripe integration, revisit when you expand.
+
+There is another version, and it is the one that shows up in every customer testimonial on Clink's site: you are already in three markets, your finance team spends more time on payment reconciliation than financial analysis, your engineering backlog has a "PSP #3 integration" ticket that has been carried forward for three sprints, and you know -- even if you have not quantified it precisely -- that payment failures are quietly bleeding revenue every month. In that version, the fragmentation tax is already being paid, and the question is not whether to fix the stack but when and with what.
+
+Clink's bet is that this second version of the story is more common than the first, and becoming more so as SaaS companies launch globally from day one rather than expanding market by market over years. The addition of Clink for Claw -- the agent payment layer -- is a bet on a third version of the story, one where your payment infrastructure needs to handle not only human customers checking out in different currencies but AI agents spending money programmatically on their behalf. That version is still being written. But if the last two years of AI development are any guide, it will arrive faster than the payment stack is ready for.
 
 ## FAQ
 
-### Is Clink a payment processor?
+These are the questions that come up most often in conversations about Clink, drawn from the product documentation and common points of confusion between payment processors, orchestrators, and merchant-of-record services.
 
-No. Clink is a payment infrastructure layer that sits on top of multiple PSPs (payment service providers). We handle routing, billing, and compliance logic, then execute transactions through the best PSP for each specific payment. You get one integration, one dashboard, and one reconciliation feed — with the performance benefits of multi-PSP routing.
+**Is Clink a payment processor?**
 
-### Do I need to switch from Stripe to use Clink?
+No. Clink is a payment infrastructure layer that orchestrates transactions across processors. You still need at least one PSP connected (Stripe, Airwallex, Adyen, etc.) -- Clink routes to them and adds billing, tax, and retry logic on top.
 
-No. You can keep Stripe as one of your underlying PSPs. Clink connects to Stripe (and other processors) and routes transactions intelligently across them. You get better approval rates without ripping out your existing payment infrastructure.
+**Does Clink replace Stripe?**
 
-### How does Clink handle tax compliance?
+Clink does not replace Stripe -- it can connect to Stripe alongside other processors. If you are already on Stripe, linking your existing account to Clink adds multi-PSP failover and unified subscription management without rewriting your Stripe integration.
 
-Clink automatically calculates sales tax, VAT, and GST based on the customer's location and the product's tax category. We handle registration thresholds, rate changes, and filing remittance across 80+ jurisdictions. Tax logic is built into the billing engine, so every invoice is tax-compliant by default.
+**How does Clink handle global tax?**
 
-### What does "agent-ready payments" actually mean?
+Clink includes built-in tax calculation and claims automatic filing and remittance capabilities -- meaning the platform calculates the correct tax rate for each transaction based on the customer's location and product type, and handles the mechanics of filing those taxes with relevant authorities. The specific jurisdictions covered and whether Clink acts as the merchant of record (like Paddle) or as a tax facilitator (where you remain the legal seller) should be confirmed directly with the Clink team, as tax handling models vary significantly by region and your business's legal structure. This is one of the areas where a direct conversation during the evaluation process will give you more precise answers than public documentation.
 
-It means payments that don't require a human in the loop. Traditional payments assume a browser session with 3D Secure challenges, email verification, and manual approval. Clink for Claw provides a protocol for AI agents to request scoped payment authorizations, receive cryptographic approval, and complete transactions autonomously — with programmable constraints and full audit trails.
+**Who is Clink built for?**
 
-### How long does integration take?
+Clink targets global SaaS companies operating in multiple countries -- the pain threshold is typically around the point where a single PSP's coverage gaps start causing measurable revenue loss or where tax compliance across jurisdictions becomes a recurring engineering and legal burden. AI-native products that need usage-based billing (per-token, per-compute-minute, per-API-call) are another core audience, since metered pricing models require billing infrastructure that traditional subscription tools handle poorly. Teams building AI agent products that require autonomous payment capabilities -- where the agent itself needs to spend money within guardrails -- represent the third audience, and the one most closely aligned with Clink's longer-term thesis. Clink is not built for single-market, single-processor setups with no international expansion plans; for those teams, a direct processor integration with basic billing add-ons is likely simpler and more appropriate.
 
-Most teams go live within 2-3 weeks. The REST API and SDK integrations are designed for minimal implementation surface. Hosted Checkout can be live in days — just drop in a script tag and configure your products.
+**Is Clink publicly priced?**
 
-### Who is Clink for?
-
-Clink is built for B2B SaaS companies that sell globally and have outgrown their initial payment stack. If you're operating in multiple countries, managing subscriptions with complex pricing models, losing revenue to payment failures, or spending engineering time on tax compliance — Clink replaces that fragmented stack with a single integration.
+As of June 2026, Clink does not have a self-serve pricing page. The company operates on a Contact Sales model and emphasizes transparent, unified costs with no hidden fees. Specific rates should be discussed directly with the Clink team.

@@ -2,13 +2,12 @@
 title: "AI Agents Need Payments Too: The Case for Agent-Native Transaction Infrastructure"
 description: "When your customer is an LLM, browser sessions, 3D Secure challenges, and CAPTCHAs break down. Agent-native payment infrastructure is the missing layer in the autonomous AI stack."
 slug: "agent-payments"
-date: 2026-06-29
+date: "2026-06-29"
+updated: "2026-06-29"
 category: "Opinion"
-keywords: ["agent payments", "AI agent payments", "autonomous transactions", "agent-native infrastructure", "Clink for Claw", "agent economy", "AI commerce", "machine payments"]
 author: "Clink Team"
 image: "/blog/agent-payments-hero.svg"
 readingMinutes: 11
-related: ["what-is-clink"]
 ---
 
 ## TL;DR
@@ -97,7 +96,7 @@ This isn't just about debugging. It's about compliance, dispute resolution, and 
 
 ## Clink for Claw: The First Production Agent Payment Protocol
 
-Clink for Claw is the first protocol designed from the ground up for agent-initiated payments. It's not a retrofit — it doesn't try to make 3D Secure work for LLMs. It's a new authorization model built on programmable constraints, cryptographic signatures, and machine-readable audit trails.
+Clink for Claw is the first protocol designed from the ground up for agent-initiated payments. It's not a retrofit — it doesn't try to make 3D Secure work for LLMs. It's a new authorization model built on programmable constraints, cryptographic signatures, and machine-readable audit trails. It sits on the same portable billing and [smart payment routing](/blog/smart-routing) stack covered in [What Is Clink?](/blog/what-is-clink) — agent authorization is an additional layer, not a separate processor.
 
 ### How It Works
 
@@ -136,6 +135,12 @@ But here's what's missing from every market projection: the payment infrastructu
 
 ---
 
+## Conclusion
+
+The conversation about AI agents has been dominated by productivity: drafting, summarizing, generating. But the agents being deployed in 2026 are crossing a more consequential threshold. They're executing transactions — provisioning resources, subscribing to services, purchasing compute, and allocating budget. Each of these actions requires a payment — and every payment system in production today was designed for a human at the keyboard. Agent-native payment infrastructure isn't a feature. It's the missing layer that determines whether autonomous AI integrates with the real economy or stays confined to the sandbox. Clink for Claw is our answer to that gap.
+
+---
+
 ## FAQ
 
 ### Is Clink for Claw a separate product from Clink's payment infrastructure?
@@ -157,13 +162,3 @@ Clink for Claw supports both. For subscriptions, the capability token can author
 ### When will agent-native payments be mainstream?
 
 The infrastructure is being built now. Companies like ModelMax and PollyReach are already using Clink for Claw in production. But mainstream adoption requires two things: more agents that need to transact autonomously, and payment industry standards that recognize agent-initiated transactions as a distinct category. The first is happening rapidly. The second will take longer — but the companies building the infrastructure today will define the standards tomorrow.
-
----
-
-## Agents Aren't Just Writing Emails Anymore
-
-The conversation about AI agents has been dominated by productivity: drafting, summarizing, generating. But the agents being deployed in 2026 are crossing a more consequential threshold. They're executing transactions. They're provisioning resources, subscribing to services, purchasing compute, and allocating budget. Each of these actions requires a payment — and every payment system in production today was designed for a human at the keyboard.
-
-Agent-native payment infrastructure isn't a feature. It's the missing layer that determines whether autonomous AI integrates with the real economy or stays confined to the sandbox. The companies building this infrastructure today — the protocols, the authorization models, the audit frameworks — are building the rails for an economy where machines transact on behalf of humans, within constraints set by humans, with accountability traceable to humans.
-
-That economy is arriving faster than the payment industry is ready for. Clink for Claw is our answer to the gap.

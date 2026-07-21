@@ -2,13 +2,12 @@
 title: "Smart Payment Routing: How Multi-PSP Orchestration Recovers 3-5% Revenue"
 description: "Single-PSP setups leak 3-5% of recurring revenue through suboptimal routing. Multi-PSP orchestration with smart retry logic turns payment infrastructure from a cost center into a revenue lever."
 slug: "smart-routing"
-date: 2026-06-29
+date: "2026-06-29"
+updated: "2026-06-29"
 category: "Product"
-keywords: ["smart payment routing", "multi-PSP orchestration", "payment routing", "reduce payment failures", "involuntary churn", "payment optimization", "Stripe routing", "PSP failover"]
 author: "Clink Team"
 image: "/blog/smart-routing-hero.svg"
 readingMinutes: 13
-related: ["what-is-clink", "mor-vs-psp"]
 ---
 
 ## TL;DR
@@ -24,7 +23,7 @@ Most SaaS companies route every payment through a single PSP — and silently le
 
 ## How Single-PSP Routing Silently Leaks Revenue
 
-When you connect Stripe — or any single PSP — and call it done, you're accepting a structural revenue tax. Here's where the leakage comes from.
+When you connect Stripe — or any single PSP — and call it done, you're accepting a structural revenue tax. Here's where the leakage comes from. (For the broader platform context — billing, tax, and routing in one integration — see [What Is Clink?](/blog/what-is-clink).)
 
 ### Regional Decline Rate Disparities
 
@@ -139,7 +138,7 @@ Not every SaaS company needs multi-PSP routing today. Here's the decision framew
 
 ### 1. Cross-Border Transaction Volume
 
-If more than 20% of your revenue comes from customers outside your primary market, you're almost certainly leaving money on the table with single-PSP routing. Cross-border transactions carry higher decline rates (typically 3-8 percentage points higher than domestic) and higher interchange fees (often 1-1.5% more). Multi-PSP routing with local acquiring reduces both.
+If more than 20% of your revenue comes from customers outside your primary market, you're almost certainly leaving money on the table with single-PSP routing. Cross-border transactions carry higher decline rates (typically 3-8 percentage points higher than domestic) and higher interchange fees (often 1-1.5% more). Multi-PSP routing with local acquiring reduces both. Teams still deciding MoR vs direct PSP economics should read [MoR vs PSP](/blog/mor-vs-psp) first — routing is the lever after you pick the merchant model.
 
 ### 2. Regional Decline Rate Variance
 
@@ -152,6 +151,12 @@ If you already have two or more PSPs — even for different regions or different
 ### 4. Subscription or Recurring Revenue Model
 
 Smart routing produces the highest ROI for subscription businesses. Each recovered authorization becomes recurring revenue — not a one-time sale. A 4% improvement in authorization rate on subscription billing compounds month over month. For one-time transaction businesses, the benefit is still real but doesn't compound in the same way.
+
+---
+
+## Conclusion
+
+If regional decline gaps, multi-PSP sprawl without orchestration, or subscription involuntary churn are already visible in your metrics, single-PSP routing is a cost center — not a finished architecture. Clink's smart routing is available as part of the unified payment infrastructure platform described in [What Is Clink?](/blog/what-is-clink) — to see how multi-PSP routing would impact your authorization rates, [talk to our team](https://clinkbill.com/).
 
 ---
 
@@ -180,7 +185,3 @@ Clink is PCI-DSS Level 1 compliant. The routing engine never stores raw card num
 ### Can smart routing help with payment method coverage, not just card routing?
 
 Yes. While most routing discussions focus on card processing, smart routing also applies to alternative payment methods. If your PSP supports iDEAL in the Netherlands but not Boleto in Brazil, and another PSP supports Boleto but not iDEAL, the routing layer directs each customer to the PSP that supports their preferred payment method. This expands your effective payment method coverage without requiring every PSP to support every method.
-
----
-
-Clink's smart routing is available as part of the unified payment infrastructure platform. To see how multi-PSP routing would impact your specific authorization rates, [talk to our team](https://clink.dev).

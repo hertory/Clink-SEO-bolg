@@ -2,13 +2,12 @@
 title: "MoR vs PSP: How to Choose the Right Payment Infrastructure Model"
 description: "Merchant of Record vs Payment Service Provider — an honest, framework-driven comparison for SaaS teams deciding how to handle global payments, tax compliance, and operational overhead."
 slug: "mor-vs-psp"
-date: 2026-06-29
+date: "2026-06-29"
+updated: "2026-06-29"
 category: "Comparison"
-keywords: ["MoR vs PSP", "merchant of record", "payment service provider", "payment infrastructure", "SaaS payments", "Stripe vs Paddle", "MoR comparison", "global tax compliance", "payment orchestration"]
 author: "Clink Team"
 image: "/blog/mor-vs-psp-hero.svg"
 readingMinutes: 14
-related: ["what-is-clink"]
 ---
 
 ## TL;DR
@@ -101,7 +100,7 @@ A PSP lets you retain your brand on every touchpoint — checkout, invoice, stat
 
 ### 3. Multi-PSP Routing
 
-MoRs typically operate on a single underlying PSP or a limited set. If that PSP experiences degraded performance in a specific region, you cannot route around it. PSP-based infrastructure — especially with a smart routing layer like Clink — can shift transactions across acquirers to optimize approval rates. MoR users give up this knob entirely.
+MoRs typically operate on a single underlying PSP or a limited set. If that PSP experiences degraded performance in a specific region, you cannot route around it. PSP-based infrastructure — especially with a [smart payment routing](/blog/smart-routing) layer like Clink — can shift transactions across acquirers to optimize approval rates. MoR users give up this knob entirely.
 
 ---
 
@@ -136,7 +135,7 @@ Once you connect a second PSP, you've created:
 - Two sets of decline codes that mean slightly different things
 - No automatic failover when one PSP underperforms in a region
 
-Engineering teams end up building internal orchestration layers — which is exactly what Clink's smart routing was designed to replace. But most companies don't build them. They accept the revenue leakage.
+Engineering teams end up building internal orchestration layers — which is exactly what Clink's smart routing was designed to replace. But most companies don't build them. They accept the revenue leakage. For how portable billing and multi-PSP orchestration fit together, start with [What Is Clink?](/blog/what-is-clink).
 
 ---
 
@@ -200,7 +199,11 @@ A common pattern among Clink customers:
 2. **Grow**: As revenue concentrates in the US and EU, register as a merchant in those jurisdictions. Connect your own Stripe account to Clink's routing layer.
 3. **Optimize**: Route US/EU volume through your PSP for lower fees. Keep MoR coverage for emerging markets where registration isn't worth the overhead. Clink handles the routing, tax, and reconciliation across both models.
 
-This is the pragmatic answer to the MoR-vs-PSP question: don't choose. Use each where it's optimal, and let infrastructure handle the seams.
+---
+
+## Conclusion
+
+The pragmatic answer to the MoR-vs-PSP question is not a forced binary. Use each model where it is optimal, and let portable infrastructure handle the seams — so you can launch fast with MoR coverage and graduate core markets to direct PSP economics without rewriting your billing stack. When approval-rate recovery is the next bottleneck, pair this choice with [smart payment routing](/blog/smart-routing).
 
 ---
 
