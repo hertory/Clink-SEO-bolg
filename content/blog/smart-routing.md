@@ -1,162 +1,104 @@
 ---
-title: "Smart Payment Routing: How Multi-PSP Orchestration Recovers 3-5% Revenue"
-description: "Single-PSP setups leak 3-5% of recurring revenue through suboptimal routing. Multi-PSP orchestration with smart retry logic turns payment infrastructure from a cost center into a revenue lever."
+title: "Smart Payment Routing — How Multi-PSP Orchestration Recovers 3–5% Revenue"
+description: "Single-PSP stacks leak recurring revenue through regional declines and soft failures. Smart multi-PSP routing with intelligent retry turns payment rails into a recoverable MRR lever."
 slug: "smart-routing"
 date: "2026-06-29"
-updated: "2026-06-29"
+updated: "2026-07-23"
 category: "Product"
 author: "Clink Team"
-image: "/blog/smart-routing-hero.svg"
-readingMinutes: 13
+image: /blog/images/smart-routing.jpg
+readingMinutes: 14
 ---
 
 ## TL;DR
 
-Most SaaS companies route every payment through a single PSP — and silently leak 3-5% of recurring revenue.
-
-- Single-PSP setups accept structural revenue loss: regional card declines, suboptimal interchange routing, and no fallback when the primary acquirer degrades
-- Smart routing distributes transactions across multiple PSPs in real time based on issuer country, currency, historical performance, and cost
-- Automatic retry logic catches soft declines and reroutes through backup gateways before the customer ever sees a failure
-- Companies adopting multi-PSP routing report 3-5 percentage point improvements in **net approval rates** — which compounds directly into MRR for subscription businesses
+- Smart payment routing decides, per transaction, which connected PSP should attempt the charge—using rules and live performance data—so soft declines and weak regional paths do not silently erase subscription revenue your customers already intended to pay.
+- Single-PSP setups accept structural leakage: uneven authorization by country, one interchange path, incomplete network-token coverage, and weak fallback when the primary acquirer degrades or issuers temporarily flag the MID.
+- Multi-PSP routing with soft-decline retry through a different acquirer is what teams mean when they cite roughly **3–5 percentage point** net approval improvements; treat that as an industry and case range as of mid-2026, not a guaranteed Clink SLA for every mix.
+- Customer narratives on clinkbill.com as of June 2026 (BlockSec, GeeLark) describe regional recovery and consolidation of multiple PSPs under one orchestration layer with unified reconciliation.
+- Use the Decision Framework below before adding processors; pair merchant-model choice with [MoR vs PSP](/blog/mor-vs-psp) and platform context in [What Is Clink?](/blog/what-is-clink).
 
 ---
 
 ## How Single-PSP Routing Silently Leaks Revenue
 
-When you connect Stripe — or any single PSP — and call it done, you're accepting a structural revenue tax. Here's where the leakage comes from. (For the broader platform context — billing, tax, and routing in one integration — see [What Is Clink?](/blog/what-is-clink).)
+Connecting one PSP and declaring payments “done” is a product milestone and a structural tax. The leakage is not dramatic fraud—it is authorization variance, cost-blind pathing, token gaps, and soft declines that never see a second acquiring path. For the broader stack that embeds routing beside billing and tax, see [What Is Clink?](/blog/what-is-clink).
 
-### Regional Decline Rate Disparities
+No acquirer performs equally everywhere. A processor that is excellent on US consumer cards can underperform on Brazilian or Southeast Asian BINs because issuer relationships, local acquiring licenses, and intermediary hops differ. A six-point authorization gap on material regional ARR is recoverable revenue, not preference churn. Interchange and scheme costs also vary by debit network, commercial versus consumer classification, and whether a local acquirer can keep a transaction domestic; a single path accepts whatever rate and decline mix the processor assigns for that BIN and geography.
 
-No PSP performs equally well everywhere. Stripe might deliver a 93% authorization rate in the United States but drop to 87% in Brazil, 85% in India, and 82% in Southeast Asia. These aren't your customer's problem — they're the acquirer's problem. Different acquiring banks have different relationships with local issuing banks. A transaction that Adyen processes through its European banking relationships might route through three fewer intermediary banks than one processed through a US-centric acquirer, reducing both latency and decline probability.
+Network tokens improve recurring authorization because they track reissued PANs and often carry higher network trust—commonly discussed as a low-single-digit lift when coverage exists—but support is uneven by brand and region. Soft declines (issuer risk flags, temporary processing errors, some do-not-honor codes) are frequently estimated in the mid-teens to mid-twenties of decline volume; a single PSP’s fixed retry schedule rarely clears flags the way a retry on a different acquirer can. Hard declines (stolen, closed, pick-up) should not be blasted across gateways—retrying them burns fees and can harm merchant reputation scores.
 
-The numbers are not small: a 6-percentage-point gap in authorization rate on $500K in annual recurring revenue from a given region means $30K in recoverable revenue every year — revenue your customers *intended* to give you but couldn't because the payment plumbing failed.
-
-### Interchange Fee Optimization Blind Spots
-
-Card networks charge different interchange rates depending on how a transaction is routed. Debit cards routed through PIN-debit networks cost significantly less than the same cards routed through signature-debit networks. Commercial cards carry different rates than consumer cards. Cross-border transactions carry premiums that can be avoided by routing through a local acquirer.
-
-A single-PSP setup gives you one routing path. You accept whatever interchange rate the processor assigns. Multi-PSP routing lets you direct debit transactions to lower-cost networks, commercial cards to acquirers optimized for B2B interchange, and cross-border volume to processors with local acquiring licenses in the customer's country.
-
-### The Network Token Gap
-
-Network tokens — card network-issued tokens that replace raw PANs — improve authorization rates by 2-4% on recurring transactions because they stay current when cards are reissued, and card networks grant them higher trust scores. But not every PSP supports network tokens for every card brand, and even those that do may not provision them at the same speed or coverage.
-
-When your only PSP doesn't support network tokens for a specific card type in a specific region, those recurring charges fail at higher rates than they should. With multi-PSP routing, you can direct tokenizable transactions to the PSP best positioned to provision and use network tokens for that specific card brand and region.
-
-### The Soft Decline Problem
-
-About 15-25% of payment declines are "soft declines" — issuer risk flags, velocity checks, or temporary processing errors that can succeed on retry. A single PSP typically retries once, maybe twice, on a fixed schedule. A multi-PSP routing layer can retry intelligently — routing the retry through a different acquirer (which often clears the issuer's risk flag), adjusting the timing based on issuer response patterns, and varying the retry interval by card type and region.
+The business pattern is predictable. Month one, domestic cards look healthy. Month six, a growth market shows elevated soft declines on cross-border MIDs while local methods remain a backlog item. Month twelve, finance notices involuntary churn rising without a product regression. Nobody scheduled a “payments redesign” meeting; the tax accrued in the gaps between one path and the markets you are trying to win. That is the problem smart routing exists to shrink.
 
 ---
 
 ## What Smart Payment Routing Actually Does
 
-Smart routing sits between your application and your PSPs. It decides, for each individual transaction, which PSP to use — based on rules, performance data, or both.
+Smart routing sits between your application and your PSPs and chooses a path per attempt. The decision can be rule-based, performance-optimized, or both: send EUR volume to a strong European acquirer, pin Brazil to a local rail, shift away from a PSP whose authorization rate for a BIN family dropped this week, and shift back when it recovers. Rules alone fail open when the preferred PSP degrades—they keep pouring traffic into a sick path. Performance signals close that loop.
 
-### Rule-Based Routing vs. Performance-Optimized Routing
+Outcome handling matters as much as the first hop. Approvals settle and stop. Soft declines may retry immediately or on a schedule through a backup PSP, because a different acquiring MID often resets issuer risk scoring. Hard declines stop. Fallback chains—primary, secondary, tertiary—with decline-code maps per acquirer are what separate orchestration from “we have two Stripe accounts and a spreadsheet.” Without a shared decline vocabulary and a unified transaction log, operators cannot tell whether a retry recovered money or only multiplied fees.
 
-**Rule-based routing** is the entry point. You define static rules: "Route all EUR transactions to Adyen," "Route transactions over $1,000 through Checkout.com," "Route Brazilian customers through our local acquirer." Rules work until they don't — when a PSP degrades, your rules keep routing into it.
+BIN-level granularity is the advanced form. The first digits identify issuer and product; historical success by BIN × PSP becomes a ranking feature. That data only exists if you actually process through multiple rails and keep one ledger of attempts, codes, and settlements. Teams that add a second PSP without instrumenting success by region and BIN are collecting connectors, not building a routing system.
 
-**Performance-optimized routing** is the upgrade. The routing layer continuously monitors authorization rates by PSP, by region, by card BIN, and by time window. It routes each transaction to the PSP with the highest probability of approval for that specific combination of factors. When a PSP's authorization rate drops below a threshold in a region, traffic automatically shifts. When it recovers, traffic shifts back.
-
-### Soft Decline, Hard Decline, and the Fallback Chain
-
-Smart routing distinguishes between three outcomes and acts accordingly:
-
-- **Approval**: transaction settled. No further action.
-- **Soft decline** (issuer risk flag, insufficient funds, do-not-honor with retry potential): retry immediately on a different PSP. Many soft declines clear on the second attempt through a different acquirer because the issuer's risk model sees a different acquiring bank and resets its risk score.
-- **Hard decline** (stolen card, closed account, pick-up card): do not retry. Notify the customer. Routing the same payment through multiple PSPs after a hard decline wastes processing fees and risks issuer flags on the merchant account.
-
-The fallback chain is configurable: primary PSP, secondary PSP, tertiary PSP — with different retry intervals, different retry counts, and PSP-specific decline-code mapping so the routing engine knows which declines are retryable on which acquirers.
-
-### Geographic and Issuer-Specific Routing
-
-The most sophisticated routing layers operate at the card BIN level. The first six digits of a card identify the issuing bank and card type. A routing engine that maintains performance data at the BIN level knows that Bank A in Germany processes through Adyen with a 96% authorization rate but through Stripe at 91%, while Bank B in the same country works equally well through both. This granularity accumulates into meaningful revenue recovery at scale.
+In practice, a renewal for a Brazilian subscriber might try a local-capable acquirer first, fall back to a global PSP on a soft decline, and never touch a third path if the issuer returns a hard closed-account code. A US consumer renewal might stay on the primary domestic path unless that path’s rolling approval rate for the same BIN family dips below a threshold you set. The router’s job is not creativity; it is disciplined path selection under constraints you can audit.
 
 ---
 
-## The Numbers: What 3-5% Recovery Means
+## The Numbers: What 3–5% Recovery Means
 
-The 3-5% figure isn't hypothetical. It represents the net improvement in authorization rate when moving from single-PSP to multi-PSP smart routing — and for subscription businesses, every recovered authorization is recurring.
+The **3–5%** figure in this article’s title refers to **net improvement in authorization rate** (or recovered involuntary churn) when moving from naive single-path charging to multi-PSP smart routing with intelligent retry. It is an industry and case range discussed across orchestration vendors and customer narratives as of mid-2026—not Clink list pricing and not a promise for every card mix, ticket size, or fraud posture. Methodology differs by cohort; always prefer your own dashboard baselines over any published band.
 
-### The Churn Recovery Math
+Subscription math makes the range vivid. On $2M MRR with 5% involuntary churn from payment failure, $100K monthly is infrastructure leakage. Moving involuntary loss down by a few points recovers tens of thousands per month that compound into ARR. Even a one-point lift on a concentrated regional book can fund the engineering and PSP onboarding cost of a second rail within a quarter; a three-to-five-point lift on a global subscription mix is why routing shows up in board decks next to churn and NRR.
 
-Take a SaaS company with $2M MRR, 95% net revenue retention, and a 5% involuntary churn rate driven by payment failures. That's $100K in monthly revenue lost to payment infrastructure — not to customers choosing to leave, but to payments failing to process.
+BlockSec’s public-facing narrative on clinkbill.com as of June 2026 describes multi-country coverage pressure and routing-driven recovery—including Latin America authorization improvement and cross-border fee reduction in customer storytelling. Treat published testimonials as directional and as-of dated; they illustrate the problem class, not a transferable SLA. GeeLark, on the same site as of June 2026, describes consolidating four hard-coded regional PSPs into orchestrated failover with unified reconciliation and a few points of net approval lift. The shared lesson is operational as much as mathematical: multiple PSPs without routing are an ops tax; multiple PSPs with routing and a shared log are a performance layer.
 
-If smart routing reduces involuntary churn by 3-5 percentage points (from 5% to approximately 2% or better), that recovers $60K-$100K in monthly revenue that would otherwise be lost. Annually, that's $720K-$1.2M — from a change that requires no product modifications, no pricing adjustments, and no customer-facing UX changes.
-
-### BlockSec: Routing Across 40+ Countries
-
-BlockSec, a blockchain security company, serves customers in over 40 countries. Their single-PSP setup was delivering inconsistent authorization rates across emerging markets. After adopting Clink's smart routing with region-specific PSP routing:
-
-- Authorization rates in Latin America improved from 84% to 91%
-- Cross-border transaction fees dropped 12% through local acquiring routing
-- Monthly revenue leakage from payment failures decreased by 4.2%
-
-### GeeLark: Four PSPs Consolidated
-
-GeeLark, a cloud phone infrastructure provider, was already running four separate PSP integrations — but with no orchestration between them. Each region was hard-coded to a specific PSP with no fallback. When their primary European PSP experienced a three-hour processing degradation, transactions simply failed.
-
-After consolidating to Clink's routing layer while keeping all four PSP connections, GeeLark gained:
-- Automatic failover across PSPs, eliminating single-point-of-failure outages
-- A 3.8% net improvement in authorization rates through performance-based routing
-- Unified reconciliation across all four PSPs, eliminating the four-feed spreadsheet problem
+A useful internal experiment is narrower than a global rollout. Pick one region with material MRR and soft-decline share, add a single backup PSP, enable soft-decline failover only, and measure approval rate, retry fee cost, and reconciliation effort over thirty days. If the net recovered revenue exceeds the cost of the second connection and the ops load of dual settlement, expand rules. If it does not, you learned that your leakage is elsewhere—fraud filters, token coverage, or product-side involuntary churn—and you avoided a museum of connectors.
 
 ---
 
-## Smart Routing vs Payment Orchestration: What's the Difference?
+## Smart Routing vs Payment Orchestration
 
-The terms are often used interchangeably, but they describe different scopes of functionality.
+Payment orchestration and smart routing overlap in language and diverge in product scope. Orchestration platforms in the Spreedly or Primer class focus on gateway connectivity, vaulting across processors, static or light rules, and a unified transaction log. Those products are genuinely strong when you already own billing, tax, and customer portals elsewhere and only need rails. Depth of connectors, tokenization maturity, and processor-agnostic vaulting are real advantages; Clink does not pretend otherwise.
 
-### Payment Orchestration (Spreedly-style)
+Clink’s smart routing is positioned as a built-in layer beside billing: renewal retries can use per-customer history and decline semantics; tax calculation can stay aligned with settlement jurisdiction; reconciliation shares one model instead of matching four PSP exports to a billing CSV. Recovered authorizations compound more when billing, tax, and routing share state—especially for subscriptions, where a failed renewal is both a payment event and a lifecycle event. Spreedly-class depth on pure orchestration may still win for teams that want best-of-breed components and are willing to integrate billing separately. Clink’s bet is fewer integrations and shared state, not that pure orchestrators lack sophistication.
 
-Payment orchestration platforms like Spreedly focus on the gateway layer. They:
-- Connect to multiple PSPs through a single API
-- Handle tokenization and vaulting across gateways
-- Provide basic routing rules (static, rule-based)
-- Offer a unified transaction log across PSPs
+Choose on integration count and whether payment performance is strategic or already solved. If Chargebee or an in-house billing core already owns lifecycle and you only need multi-PSP failover, a pure orchestrator is often the sharper tool. If you are still stitching billing webhooks to processor exports and tax tools, embedding routing next to subscriptions reduces the surface area where retries and dunning disagree. The fair comparison is not “orchestration versus nothing”; it is orchestration-only versus orchestration-plus-billing under one subscription truth. Platform context for that second shape lives in [What Is Clink?](/blog/what-is-clink).
 
-What they don't do: billing, subscription management, tax compliance, dunning logic, or performance-optimized routing. Orchestration is a routing layer that sits between your application and your PSPs — but it's not integrated with the rest of your payment stack. You still need a billing system, a tax engine, and a subscription management layer — each with its own integration, data model, and reconciliation requirements.
+---
 
-### Smart Routing as a Built-in Layer
+## Decision Framework
 
-Clink's smart routing is natively integrated with the billing and subscription layer. This matters because:
+Use this framework before buying a second PSP or an orchestration layer. Each signal is independently useful; three or more firing together usually justifies a quarter’s priority.
 
-- **Dunning and retry logic shares data with the routing engine.** When a subscription renewal fails, the routing engine knows the customer's payment history, the decline code, and which PSPs have succeeded for this specific customer in the past. It can adjust retry timing and PSP selection accordingly — not based on generic rules, but on per-customer performance data.
+Cross-border share is the first filter. If more than about 20% of revenue sits outside your primary market, single-PSP decline and fee gaps are likely material. Cross-border cards often see several points higher decline and higher costs than domestic paths; local acquiring and method coverage are the usual remedies. Teams that treat “global” as a marketing claim while routing everything through one domestic MID are measuring aspiration, not authorization.
 
-- **Tax compliance is aware of routing decisions.** When a transaction routes through a local acquirer for fee optimization, the tax engine automatically applies the correct jurisdiction's tax rules. There's no gap between where the payment was processed and where tax should be calculated.
+Regional variance is the second. Export authorization by country for the last thirty to ninety days. Any region with meaningful MRR—for example, above a few thousand dollars monthly—under roughly 90% approval, or a spread above five points between best and worst regions, is a routing candidate. Absolute thresholds vary by vertical and fraud tolerance; the point is relative underperformance you can name, not a universal cutoff.
 
-- **Reconciliation is unified by design.** The billing system, routing engine, and tax engine share a single data model. There's no matching transaction IDs across four PSP feeds, a billing export, and a tax report.
+PSP count today is the third. Zero extras means start with portable billing and add rails later so you do not hard-code the first processor into subscription objects. Two or more hard-coded PSPs means you already pay the management tax—orchestration converts sprawl into failover and one reconciliation model. One happy domestic PSP with no expansion plan means wait; routing ROI is thin when variance is thin.
 
-The distinction matters because the revenue recovery from smart routing compounds when it's integrated with the rest of the payment stack. A 3% authorization rate improvement that's automatically reflected in billing, recognized in tax calculations, and reconciled in a single dashboard is an operational lever. The same improvement accessed through a separate orchestration layer requires engineering time to wire together.
+Revenue model is the fourth. Subscriptions amplify ROI because each recovered authorization recurs. One-time checkout still benefits from better first-attempt approval, but compounding is weaker. Usage-based and hybrid plans sit closer to subscriptions: failed top-ups and renewal-like cycles behave like recurring risk even when the catalog is metered.
+
+Merchant model is the fifth and should come first in sequence even though it appears last here. If you have not decided MoR versus direct PSP economics by market, settle that with [MoR vs PSP](/blog/mor-vs-psp); routing optimizes paths inside the legal and operational model you chose. Orchestrating across acquirers does not fix a seller-identity or tax-registration mismatch—it only chooses which rail executes the charge.
+
+If three or more signals fire, multi-PSP routing deserves roadmap space. If none fire, invest in product and revisit when expansion creates variance you can measure.
 
 ---
 
 ## How to Tell If You Need Multi-PSP Routing
 
-Not every SaaS company needs multi-PSP routing today. Here's the decision framework.
+Pull a thirty-day decline-code sample and label soft versus hard with your fraud and finance partners in the room. Soft volume without a second path is the cheapest experiment: add one backup PSP for a single region, enable soft-decline failover only, and measure approval lift, incremental fees, and support tickets before you write global rules. Instrument BIN-country-PSP success only after the second rail is live—otherwise you are tuning noise from a single path’s quirks.
 
-### 1. Cross-Border Transaction Volume
+Assign an owner for reconciliation before go-live. Routing without unified settlement views recreates the spreadsheet you meant to kill: two payout files, two fee vocabularies, and a monthly argument about which export is source of truth. Define decline-code maps per acquirer so the router knows which codes are retry-eligible and which are terminal. Document who can change weights and fallback order; unmanaged rule drift is how “smart” routing becomes opaque ops debt.
 
-If more than 20% of your revenue comes from customers outside your primary market, you're almost certainly leaving money on the table with single-PSP routing. Cross-border transactions carry higher decline rates (typically 3-8 percentage points higher than domestic) and higher interchange fees (often 1-1.5% more). Multi-PSP routing with local acquiring reduces both. Teams still deciding MoR vs direct PSP economics should read [MoR vs PSP](/blog/mor-vs-psp) first — routing is the lever after you pick the merchant model.
-
-### 2. Regional Decline Rate Variance
-
-Pull your PSP dashboard and compare authorization rates by country. If any region with meaningful revenue (>$5K MRR) shows authorization rates below 90%, you have recoverable leakage. A difference of more than 5 percentage points between your best and worst region is a strong signal that routing optimization will produce measurable results.
-
-### 3. Current PSP Count
-
-If you already have two or more PSPs — even for different regions or different payment methods — you have the raw material for smart routing. Adding an orchestration layer (or enabling Clink's routing across your existing PSPs) turns a multi-PSP situation from an operational burden into a revenue lever. Without routing, multiple PSPs are a cost center. With routing, they're a performance optimization platform.
-
-### 4. Subscription or Recurring Revenue Model
-
-Smart routing produces the highest ROI for subscription businesses. Each recovered authorization becomes recurring revenue — not a one-time sale. A 4% improvement in authorization rate on subscription billing compounds month over month. For one-time transaction businesses, the benefit is still real but doesn't compound in the same way.
+Avoid vanity complexity. Five PSPs with static geo pins and no soft-decline logic is not smart routing—it is a connector museum. Prefer two well-instrumented rails and a clear fallback chain over breadth you cannot monitor. Expand to a third processor when a named region or method gap remains after the first failover pair proves value. Revisit the Decision Framework quarterly as revenue mix shifts; a stack that was correctly single-PSP at $200K MRR can be incorrectly single-PSP at $2M with 30% outside the home market.
 
 ---
 
 ## Conclusion
 
-If regional decline gaps, multi-PSP sprawl without orchestration, or subscription involuntary churn are already visible in your metrics, single-PSP routing is a cost center — not a finished architecture. Clink's smart routing is available as part of the unified payment infrastructure platform described in [What Is Clink?](/blog/what-is-clink) — to see how multi-PSP routing would impact your authorization rates, [talk to our team](https://clinkbill.com/).
+Single-PSP architecture is correct until regional variance, soft-decline waste, or multi-PSP sprawl shows up in metrics—then it is a cost center wearing a “payments done” label. Smart routing recovers authorization by choosing paths and retries with intent, especially when billing shares state with the router so renewals, dunning, and tax stay aligned with settlement. Clink embeds that layer in the infrastructure described in [What Is Clink?](/blog/what-is-clink); pure orchestration platforms remain the right pick when you only need rails.
+
+To pressure-test your approval gaps and PSP mix, Contact Sales via [clinkbill.com](https://clinkbill.com/). API shape and webhook models live at [docs.clinkbill.com](https://docs.clinkbill.com/).
 
 ---
 
@@ -164,24 +106,24 @@ If regional decline gaps, multi-PSP sprawl without orchestration, or subscriptio
 
 ### Does smart routing work with my existing Stripe account?
 
-Yes. You keep your Stripe account. Clink's routing layer sits between your application and Stripe (plus any additional PSPs you connect). Stripe continues to process transactions as it always has — but now transactions that are more likely to succeed through a different PSP get routed there instead. There's no migration, no token export, and no disruption to your Stripe integration.
+Yes. Keep Stripe; a routing layer sits above it and any additional PSPs. Stripe continues to process the traffic sent to it. The point is selective pathing and failover, not replacing Stripe’s settlement role or abandoning the ecosystem and documentation strengths that made Stripe your first processor.
 
 ### How much engineering time does multi-PSP routing require?
 
-With Clink's smart routing, you integrate once — to the Clink API. The routing layer handles PSP connections, performance monitoring, failover logic, and reconciliation behind a single integration surface. Teams typically go live with multi-PSP routing within the same 2-3 week integration timeline as the core Clink platform. Building equivalent routing logic in-house typically takes 3-6 months of engineering time and requires ongoing maintenance as PSP APIs change.
+With Clink, teams integrate once to Clink’s API and configure connected PSPs behind that surface—often inside the same onboarding window as core billing. Building equivalent orchestration in-house commonly takes months plus ongoing API maintenance as processors change decline codes and webhook shapes. Exact timelines depend on PSP count, PCI posture, and how portable your current subscription objects are.
 
 ### What if I only have one PSP today?
 
-You can start with your existing PSP and add others over time. Clink's routing layer works with a single PSP — you get the integrated billing, tax, and subscription management stack immediately. As you add PSPs, the routing engine automatically incorporates them into the performance-optimized pathing. There's no "minimum PSP count" to get value.
+Start there. You still gain unified billing and tax on Clink; as you add PSPs, routing incorporates them. There is no minimum processor count for platform value—only for routing lift. Use the Decision Framework to decide when the second rail earns its keep.
 
 ### Does smart routing increase latency?
 
-The routing decision itself adds single-digit milliseconds. The transaction still processes through the selected PSP's standard payment flow. There's no additional round-trip to the customer. What does change: when a soft decline triggers a retry through a different PSP, the customer may see an additional 2-5 seconds of processing time. But they see a successful payment instead of a decline — and for subscription businesses, most retries happen on recurring charges where the customer isn't watching a spinner anyway.
+The decision itself is typically single-digit milliseconds. Soft-decline retries can add seconds the customer may or may not watch; for recurring charges, most retries happen off-session. The alternative is a failed renewal and a dunning email. Measure end-to-end checkout latency on first-attempt approvals separately from retry delay on soft declines so you do not conflate two different user experiences.
 
-### How does smart routing handle PCI compliance?
+### How does smart routing handle PCI?
 
-Clink is PCI-DSS Level 1 compliant. The routing engine never stores raw card numbers — it operates on tokens and references. Each connected PSP maintains its own PCI compliance for the transactions it processes. Adding PSPs to your routing configuration does not change your PCI scope.
+Clink states PCI DSS 4.0.1 / Level 1 posture on clinkbill.com as of June 2026; routing operates on tokens and references rather than raw PANs. Each PSP retains compliance for traffic it processes. Confirm current attestation during onboarding rather than relying on marketing summaries alone.
 
-### Can smart routing help with payment method coverage, not just card routing?
+### Can routing help with local payment methods, not only cards?
 
-Yes. While most routing discussions focus on card processing, smart routing also applies to alternative payment methods. If your PSP supports iDEAL in the Netherlands but not Boleto in Brazil, and another PSP supports Boleto but not iDEAL, the routing layer directs each customer to the PSP that supports their preferred payment method. This expands your effective payment method coverage without requiring every PSP to support every method.
+Yes. Method coverage differs by PSP. Routing can send a Dutch customer toward iDEAL-capable rails and a Brazilian customer toward PIX/Boleto-capable rails without requiring every processor to support every method. Method routing still needs product and checkout UX work—routing chooses the rail; your checkout must offer the method the customer expects.
