@@ -6,7 +6,7 @@ function FooterCol({
   items,
 }: {
   title: string;
-  items: [string, string][];
+  items: { label: string; href: string; external?: boolean }[];
 }) {
   return (
     <div>
@@ -14,14 +14,25 @@ function FooterCol({
         {title}
       </h4>
       <ul className="mt-4 space-y-3">
-        {items.map(([label, href]) => (
-          <li key={label}>
-            <Link
-              href={href}
-              className="text-sm text-foreground-muted transition-colors hover:text-foreground"
-            >
-              {label}
-            </Link>
+        {items.map((item) => (
+          <li key={item.label}>
+            {item.external ? (
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-foreground-muted transition-colors hover:text-foreground"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                href={item.href}
+                className="text-sm text-foreground-muted transition-colors hover:text-foreground"
+              >
+                {item.label}
+              </Link>
+            )}
           </li>
         ))}
       </ul>
@@ -38,52 +49,75 @@ export default function Footer() {
       <div className="mx-auto grid max-w-[1200px] grid-cols-2 gap-10 px-6 pt-20 pb-12 md:grid-cols-5">
         <div className="col-span-2 md:col-span-1">
           <img src={navLogo.src} alt="Clink" className="h-6 w-auto" />
-          <p className="mt-5 max-w-[220px] text-sm leading-relaxed text-foreground-muted">
-            Payment infrastructure for an AI-native world.
+          <p className="mt-5 max-w-[240px] text-sm leading-relaxed text-foreground-muted">
+            Global Payments for Humans and Agents.
           </p>
         </div>
+
         <FooterCol
-          title="Products"
+          title="Billing"
           items={[
-            ["Payments", "/products/payment"],
-            ["Smart Routing", "/products/routing"],
-            ["Billing", "/products/billing"],
-            ["Clink for Claw", "/clink-for-claw"],
+            { label: "Subscription", href: "/products/billing#subscription-management" },
+            { label: "Customer Portal", href: "/products/billing#customer-portal" },
+            { label: "Coupon", href: "/products/billing#coupon" },
+            { label: "Tax Compliance", href: "/products/billing#tax-compliance" },
           ]}
         />
+
         <FooterCol
-          title="Resources"
+          title="Smart Routing"
           items={[
-            ["Docs", "/docs"],
-            ["API Reference", "/docs/api"],
-            ["Changelog", "/changelog"],
-            ["Status", "/status"],
+            { label: "Dynamic Routing", href: "/products/routing#dynamic-routing" },
+            { label: "Automatic Retries", href: "/products/routing#automatic-retries" },
+            {
+              label: "Customizable Rules",
+              href: "/products/routing#customizable-routing-rules-with-priority",
+            },
           ]}
         />
+
         <FooterCol
-          title="Company"
+          title="Payment"
           items={[
-            ["About", "/about"],
-            ["Contact us", "/contact"],
-            ["Support", "/support"],
+            { label: "Hosted Checkout", href: "/products/payment#hosted-checkout" },
+            { label: "Global Coverage", href: "/products/payment#global-coverage" },
+            { label: "PCI Compliant", href: "/products/payment#pci-compliant" },
+            { label: "Fraud Prevention", href: "/products/payment#fraud-prevention" },
           ]}
         />
+
         <FooterCol
-          title="Legal"
+          title="Support"
           items={[
-            ["Terms", "/legal/terms"],
-            ["Privacy", "/legal/privacy"],
-            ["Cookies", "/legal/cookies"],
+            { label: "Blog", href: "/blog" },
+            {
+              label: "API Reference",
+              href: "https://docs.clinkbill.com/api-reference",
+              external: true,
+            },
+            {
+              label: "Documentation",
+              href: "https://docs.clinkbill.com/",
+              external: true,
+            },
           ]}
         />
       </div>
+
       <div
         className="border-t"
         style={{ borderColor: "var(--surface-stroke)" }}
       >
         <div className="mx-auto flex max-w-[1200px] flex-col items-center justify-between gap-3 px-6 py-6 text-xs text-foreground-subtle md:flex-row">
-          <p>© Clink Inc. 2026</p>
-          <p>Made for an AI-native world</p>
+          <p>Copyright © clinkbill.com All Rights Reserved.</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="hover:text-foreground">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-foreground">
+              Terms
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

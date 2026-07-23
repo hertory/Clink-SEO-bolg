@@ -1,7 +1,7 @@
 ---
 title: "How to Add Payments to a Lovable App — Paddle, Stripe, or Clink"
 description: "Add subscriptions and one-time payments to a Lovable app with built-in Paddle or Stripe—then know when Clink’s payment infrastructure and integ skills are the better next step."
-slug: "add-payments-lovable-app"
+slug: "how-to-add-payments-lovable-app"
 date: "2026-07-22"
 updated: "2026-07-22"
 category: "Product"
@@ -17,7 +17,7 @@ You can add payments to a Lovable app in three practical ways: Lovable’s built
 - Lovable’s built-in payments work through chat: ask the builder to add payments, pick Paddle or Stripe, test in preview, then go live — documented in Lovable’s [payments guide](https://docs.lovable.dev/features/payments)
 - Built-in payments require Pro (or higher), Lovable Cloud, and only **one** provider per project; switching providers does not migrate products or subscriptions
 - Paddle fits global SaaS and digital goods that want MoR-style tax handling; Stripe fits domestic-heavy sales, services, and teams that want processor-level control
-- Clink sits above processors: integrate once (catalog, checkout, webhooks), keep subscription data portable, and optionally connect Stripe or other PSPs without rewriting billing logic
+- Clink sits above processors: integrate once (catalog, checkout, webhooks), keep subscription data portable, and optionally connect Stripe or other PSPs without rewriting billing logic — **this is the canonical Clink integration guide**, referenced by our [Bolt](/blog/how-to-add-payments-bolt-app), [v0](/blog/how-to-add-payments-v0-app), and [Replit](/blog/how-to-add-payments-replit-app) guides
 - For vibe-coded / agent-built projects, install `clink-integ-skills` so a coding agent can run Secret Key setup, catalog import, checkout/subscription APIs, and webhook automation against Clink’s sandbox
 
 ---
@@ -61,6 +61,8 @@ Those rules make built-in payments excellent for shipping the first dollar. They
 ---
 
 ## Path C: Add Clink When You Outgrow a Single Provider
+
+> **This is the canonical Clink integration guide.** Our [Bolt](/blog/how-to-add-payments-bolt-app), [v0](/blog/how-to-add-payments-v0-app), and [Replit](/blog/how-to-add-payments-replit-app) payment guides reference this section for the complete Clink setup.
 
 Clink is not a Lovable plugin that replaces the chat “add payments” button. It is a **payment infrastructure** layer: you integrate Clink once for products, prices, checkout sessions, subscriptions, and webhooks; Clink can route to connected processors (including Stripe and others) while keeping billing data independent of any single PSP. That is the same “connect once, route anywhere” thesis described in [What Is Clink?](/blog/what-is-clink) and the revenue-recovery logic in [smart payment routing](/blog/smart-routing).
 
@@ -116,7 +118,7 @@ Use this matrix before you type “add payments” into Lovable chat — or befo
 | Need multi-PSP failover, portable billing, or agent-driven catalog/webhook automation | **Clink + integ skills** |
 | Need both MoR simplicity *and* multi-PSP routing later | Start built-in for speed, plan Clink graduation; do not assume automatic migration |
 
-Honest edge cases: if you are still on Lovable Free, you cannot use built-in payments until you upgrade. If the project uses your own Supabase instead of Lovable Cloud, built-in payments are not available — Clink (or a manual Stripe/Paddle integration outside Lovable’s toggle) becomes more relevant sooner. If you only need a one-time Payment Link for a weekend experiment, Stripe’s own links may be enough; the frameworks above matter when renewals and entitlements are core product.
+Honest edge cases: if you are still on Lovable Free, you cannot use built-in payments until you upgrade. If the project uses your own Supabase instead of Lovable Cloud, built-in payments are not available — Clink (or a manual Stripe/Paddle integration outside Lovable’s toggle) becomes more relevant sooner. if you only need a one-time Payment Link for a weekend experiment, Stripe's own links may be enough. If you are building on other vibe-coding platforms, see our guides for [Bolt.new](/blog/how-to-add-payments-bolt-app), [v0/Vercel](/blog/how-to-add-payments-v0-app), and [Replit](/blog/how-to-add-payments-replit-app), Stripe’s own links may be enough; the frameworks above matter when renewals and entitlements are core product.
 
 ---
 

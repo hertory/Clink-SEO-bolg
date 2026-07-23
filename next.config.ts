@@ -28,6 +28,21 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  async redirects() {
+    return [
+      {
+        source: "/blog/add-payments-lovable-app",
+        destination: "/blog/how-to-add-payments-lovable-app",
+        permanent: true,
+      },
+      {
+        source: "/clink-for-claw",
+        destination: "/agentic-payment",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
