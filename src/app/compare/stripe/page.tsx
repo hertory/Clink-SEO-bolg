@@ -41,7 +41,7 @@ export default function ClinkVsStripePage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Compare", href: "/compare" },
-          { label: "Stripe" },
+          { label: "Stripe", href: "/compare/stripe" },
         ]}
       />
       <Hero />

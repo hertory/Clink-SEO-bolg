@@ -4,6 +4,17 @@ import { Fragment } from "react";
 
 export type Crumb = { label: string; href?: string };
 
+// Absolute site origin for JSON-LD `item` URLs. Schema.org/Google requires
+// fully-qualified URLs here — relative paths ("/", "/blog") are rejected by
+// the Rich Results Test as "Invalid URL in field 'id'".
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://clink-ai.lovable.app";
+
+function toAbsoluteUrl(href: string): string {
+  if (/^https?:\/\//.test(href)) return href;
+  return `${SITE_URL}${href}`;
+}
+
 /**
  * Site-wide breadcrumb. Renders as a horizontal trail with `›` separators.
  * Last item is the current page (no link). Includes JSON-LD BreadcrumbList for SEO.
@@ -16,7 +27,7 @@ export function Breadcrumb({ items }: { items: Crumb[] }) {
       "@type": "ListItem",
       position: i + 1,
       name: c.label,
-      ...(c.href ? { item: c.href } : {}),
+      ...(c.href ? { item: toAbsoluteUrl(c.href) } : {}),
     })),
   };
 

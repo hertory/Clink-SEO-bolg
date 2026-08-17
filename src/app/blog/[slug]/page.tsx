@@ -75,7 +75,7 @@ export default async function BlogPostPage({
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: meta.title },
+          { label: meta.title, href: `/blog/${slug}` },
         ]}
       />
 

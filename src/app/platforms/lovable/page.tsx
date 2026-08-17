@@ -110,7 +110,7 @@ export default function LovablePlatformPage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Platforms" },
-          { label: "Lovable" },
+          { label: "Lovable", href: "/platforms/lovable" },
         ]}
       />
       <Hero />

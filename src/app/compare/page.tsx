@@ -30,7 +30,10 @@ export default function CompareIndex() {
     <div className="min-h-screen bg-background text-foreground antialiased">
       <TopNav />
       <Breadcrumb
-        items={[{ label: "Home", href: "/" }, { label: "Compare" }]}
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Compare", href: "/compare" },
+        ]}
       />
       <section className="mx-auto max-w-[1200px] px-6 pt-12 pb-10 md:pt-20">
         <p
