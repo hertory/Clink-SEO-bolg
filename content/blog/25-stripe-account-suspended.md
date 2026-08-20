@@ -7,7 +7,6 @@ updated: "2026-09-01"
 category: "Stripe Risk"
 secondaryCategory: "Guide"
 author: "Clink Team"
-image: "https://assets.skool.com/f/e44528d24bfe4d65b0a412441feaa489/151ebddadfae417e926535d012aa590cdb40d6ce9db3401fa2125a9ad96a7132"
 readingMinutes: 14
 ---
 

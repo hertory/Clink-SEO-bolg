@@ -7,7 +7,6 @@ updated: "2026-09-06"
 category: "Stripe Risk"
 secondaryCategory: "HowTo"
 author: "Clink Team"
-image: "https://www.hostmerchantservices.com/wp-content/uploads/2023/10/image-112-1536x620.png"
 readingMinutes: 13
 ---
 
