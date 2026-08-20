@@ -6,6 +6,7 @@ date: "2026-08-06"
 updated: "2026-08-06"
 category: "Product"
 author: "Clink Team"
+image: "https://img.sparkx.zone/uploads/MTAwMDJhZG1pbi1wcm9kdWN0MTc4MTI3NDc4MTYwOC00LnBuZw%3D%3D?_v=1781274781744"
 readingMinutes: 11
 ---
 

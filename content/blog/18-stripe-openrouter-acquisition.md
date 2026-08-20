@@ -7,6 +7,7 @@ updated: "2026-08-18"
 category: "Industry News"
 secondaryCategory: "Opinion"
 author: "Clink Team"
+image: "https://popularaitools.ai/blog/notebooklm-to-app-claude-code-2026/screenshots/openrouter.png"
 readingMinutes: 11
 ---
 

@@ -7,6 +7,7 @@ updated: "2026-09-04"
 category: "Stripe Risk"
 secondaryCategory: "Guide"
 author: "Clink Team"
+image: "https://b.stripecdn.com/docs-statics-srv/assets/hero.b90853ba8f835a66b5317a51783838ee.png"
 readingMinutes: 13
 ---
 

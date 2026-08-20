@@ -7,6 +7,7 @@ updated: "2026-09-02"
 category: "Stripe Risk"
 secondaryCategory: "Research"
 author: "Clink Team"
+image: "https://corepay.net/wp-content/uploads/Strip-terminated-merchant-account-scaled-e1727798925421.jpeg"
 readingMinutes: 14
 ---
 

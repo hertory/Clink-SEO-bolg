@@ -7,6 +7,7 @@ updated: "2026-08-05"
 category: "Industry News"
 secondaryCategory: "Opinion"
 author: "Clink Team"
+image: "https://blog.cloudflare.com/_image?f=webp&h=1495&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KZ517G703TJNQB9WCE3VG3BY.png&w=1920"
 readingMinutes: 12
 ---
 

@@ -7,6 +7,7 @@ updated: "2026-09-05"
 category: "Stripe Risk"
 secondaryCategory: "HowTo"
 author: "Clink Team"
+image: "https://av.sc.com/hk/content/images/hk-initiate-dispute-request-step6-new-en.jpg"
 readingMinutes: 13
 ---
 
