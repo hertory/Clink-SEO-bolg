@@ -6,7 +6,7 @@ date: "2026-08-05"
 updated: "2026-08-05"
 category: "Product"
 author: "Clink Team"
-image: "https://www.agent-skill.co/assets/skills-mp.png"
+image: "https://mintcdn.com/clink/wuscSS0Af1DU0dCs/images/agent/public_marketplace.png?w=2500&fit=max&auto=format&n=wuscSS0Af1DU0dCs&q=85&s=0ec4ff0ff1cfd4ce8576d6b74ea84900"
 readingMinutes: 11
 ---
 
