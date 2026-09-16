@@ -20,6 +20,12 @@ const PRODUCTS = [
 const RESOURCES = [
   { label: "Blog", href: "/blog", desc: "Guides on payments, billing, and agents" },
   {
+    label: "ARR Leaderboard",
+    href: "https://clink-seo-bolg.vercel.app/arr-leaderboard",
+    desc: "Sourced revenue rankings for AI companies",
+    external: true,
+  },
+  {
     label: "Documentation",
     href: "https://docs.clinkbill.com/",
     desc: "Quickstart, guides, and SDK docs",

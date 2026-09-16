@@ -33,6 +33,32 @@ export default function BlogIndex() {
         <p className="mt-5 max-w-[640px] text-lg leading-relaxed text-foreground-muted">
           Long-form essays and product deep-dives from the team building Clink.
         </p>
+        <a
+          href="https://clink-seo-bolg.vercel.app/arr-leaderboard"
+          className="mt-8 flex max-w-[760px] items-center justify-between gap-6 rounded-[20px] border bg-elev px-6 py-5 transition-transform hover:-translate-y-0.5"
+          style={{
+            borderColor: "var(--surface-stroke)",
+            boxShadow: "var(--shadow-card)",
+          }}
+        >
+          <span>
+            <span
+              className="block text-xs font-semibold uppercase"
+              style={{ color: "var(--accent)", letterSpacing: "0.14em" }}
+            >
+              Interactive resource
+            </span>
+            <span className="mt-2 block text-lg font-semibold text-foreground">
+              Explore the AI ARR Leaderboard
+            </span>
+            <span className="mt-1 block text-sm text-foreground-muted">
+              Compare sourced revenue milestones across the fastest-growing AI companies.
+            </span>
+          </span>
+          <span className="shrink-0 text-xl" style={{ color: "var(--accent)" }} aria-hidden>
+            →
+          </span>
+        </a>
       </section>
       <section className="mx-auto max-w-[1200px] px-6 pb-24">
         <div className="grid gap-6 md:grid-cols-2">
