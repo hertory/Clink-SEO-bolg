@@ -1,0 +1,177 @@
+{
+  "slug": "mercor",
+  "name": "Mercor",
+  "domain": "mercor.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/mercor",
+  "h1": "Mercor ARR: ~$2B Gross Annualized Revenue.",
+  "intro": "Mercor, the AI training-data marketplace staffed by elite contractors, hit over $2 billion in gross annualized revenue in June 2026 — double its pace at the start of the year, and gross before contractor payouts. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
+  "metaTitle": "Mercor ARR: ~$2B Gross Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Mercor revenue number: $2B gross annualized revenue in June 2026, the $1B mark in February, net-revenue estimates, the $20B valuation talks and funding rounds — with sources.",
+  "ogDescription": "From $0 to $1B+ in 24 months and $2B gross annualized — the full Mercor revenue timeline, sourced.",
+  "heroStats": [
+    ["~$2B", "Gross annualized revenue, Jun 2026"],
+    ["~$600M", "Estimated net revenue (take rate)"],
+    ["24 months", "From $1M to $2B gross ARR"],
+    ["~$20B", "Valuation in talks, Jul 2026"]
+  ],
+  "chartTitle": "The Mercor Gross Revenue Curve.",
+  "chartIntro": "Reported gross annualized run rate in USD millions — revenue before contractor payouts — 2025 to June 2026. The run rate roughly doubled between January and June 2026.",
+  "chartMax": 2200,
+  "chartSources": "Sources: The Information, Forbes, Sacra.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 1,
+      "note": "Founded by Brendan Foody and fellow Thiel Fellows; AI-vetted marketplace matches domain experts with AI labs.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025",
+      "arr": 25,
+      "note": "Raises a $30M Series A led by Benchmark at a $250M valuation.",
+      "source": "Forbes"
+    },
+    {
+      "label": "Oct '25",
+      "date": "October 2025",
+      "arr": 450,
+      "note": "Raises a $100M Series B at a $2B valuation, led by Felicis with Methane and others; gross run rate climbing fast.",
+      "source": "Forbes / Sacra"
+    },
+    {
+      "label": "End '25",
+      "date": "End of 2025",
+      "arr": 760,
+      "note": "Gross annualized revenue at roughly $760M; 2025 recognized revenue of $361M.",
+      "source": "The Information"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 1000,
+      "note": "Passes $1B gross annualized revenue — roughly $1M to $1B+ in about 24 months.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 2026",
+      "arr": 2000,
+      "note": "Over $2B in gross annualized revenue — double the start of the year. Net revenue is estimated closer to ~$600M given ~30% gross margins; H1 2026 recognized revenue was $614M.",
+      "source": "The Information"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 2000,
+      "note": "In talks to raise $500M at a $20B valuation. Investors call $1M to $2B ARR in 24 months the fastest growth trajectory in history.",
+      "source": "Forbes"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$1M → $2B gross ARR",
+      "value": "~24 months",
+      "source": "Sacra"
+    },
+    {
+      "label": "$760M → $2B gross ARR",
+      "value": "~6 months",
+      "source": "End 2025 → Jun 2026"
+    },
+    {
+      "label": "$1B → $2B gross ARR",
+      "value": "~4 months",
+      "source": "Feb 2026 → Jun 2026"
+    },
+    {
+      "label": "2025 net revenue",
+      "value": "$361M",
+      "source": "The Information"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$2B gross",
+      "source": "The Information, Jun 2026"
+    },
+    {
+      "label": "Basis",
+      "value": "Gross, before contractor payouts",
+      "source": "The Information"
+    },
+    {
+      "label": "Estimated net revenue",
+      "value": "~$600M",
+      "source": "~30% gross margins, 2026"
+    },
+    {
+      "label": "2025 recognized revenue",
+      "value": "$361M",
+      "source": "The Information"
+    },
+    {
+      "label": "H1 2026 recognized revenue",
+      "value": "$614M",
+      "source": "The Information"
+    },
+    {
+      "label": "Valuation in talks",
+      "value": "~$20B",
+      "source": "Forbes, Jul 2026"
+    },
+    {
+      "label": "Series B",
+      "value": "$100M at $2B",
+      "source": "Oct 2025"
+    },
+    {
+      "label": "Customers",
+      "value": "Frontier AI labs incl. OpenAI, Anthropic",
+      "source": "The Information"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, San Francisco",
+      "source": "Sacra"
+    }
+  ],
+  "modelTitle": "How Gross Bookings Became $2B.",
+  "modelParagraphs": [
+    "Mercor operates a marketplace: frontier AI labs — OpenAI and Anthropic among them — buy expert human data for model training, and Mercor matches, vets and manages the contractors doing the work. The headline $2B figure is gross annualized revenue, meaning it counts what flows through the platform to contractors; Mercor's net take is estimated closer to ~$600M at roughly 30% gross margins.",
+    "The distinction matters when comparing Mercor to peers: $361M of recognized 2025 revenue and $614M in the first half of 2026 are the net numbers. Growth depends on keeping the contractor side elastic — recruiting frontier-domain experts (PhDs, lawyers, bankers) fast enough to feed lab demand for increasingly specialized training data."
+  ],
+  "revenueMix": [
+    ["Gross marketplace volume", "~$2B annualized — total spend flowing through to contractors."],
+    ["Net take rate", "~30% gross margins put net revenue closer to ~$600M annualized."],
+    ["Frontier lab contracts", "Expert training data purchased by labs including OpenAI and Anthropic."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Mercor's ARR in 2026?",
+      "a": "Mercor hit over $2 billion in gross annualized revenue in June 2026, double its pace at the start of the year, according to The Information. The figure is gross — before contractor payouts — with net revenue estimated closer to ~$600 million given roughly 30% gross margins."
+    },
+    {
+      "q": "Why Is Mercor's ARR Reported as Gross?",
+      "a": "Because Mercor is a marketplace: the $2B counts the full annualized value of contractor work billed to AI labs, not just Mercor's fee. Recognized net revenue was $361M in 2025 and $614M in the first half of 2026 — the cleaner comparison to other companies' ARR."
+    },
+    {
+      "q": "How Fast Has Mercor Grown?",
+      "a": "From $1M to over $2B gross annualized revenue in about 24 months, passing $1B in February 2026 and $2B by June. Investors have called it the fastest growth trajectory in history."
+    },
+    {
+      "q": "What Is Mercor's Valuation?",
+      "a": "Mercor was valued at $2 billion at its $100M Series B in October 2025. In July 2026 Forbes reported talks to raise $500M at a $20B valuation — roughly 10x in nine months."
+    },
+    {
+      "q": "Who Are Mercor's Customers?",
+      "a": "Frontier AI labs, including OpenAI and Anthropic, which buy expert human data — from domain specialists like doctors, lawyers and bankers — for model training and evaluation."
+    }
+  ],
+  "ctaTitle": "Running an AI Marketplace? Get Paid Like Mercor.",
+  "ctaDescription": "A two-sided data marketplace means gross bookings, net payouts and contractor invoices. Clink handles checkout, subscription management and merchant-of-record tax so your billing matches the ledger.",
+  "ctaLabel": "Bill Your AI Marketplace",
+  "ctaHref": "/contact"
+}

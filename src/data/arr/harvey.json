@@ -1,0 +1,178 @@
+{
+  "slug": "harvey",
+  "name": "Harvey",
+  "domain": "harvey.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/harvey",
+  "h1": "Harvey ARR: $350M Selling AI to Law Firms.",
+  "intro": "Legal was supposed to be the slowest industry to buy AI. Harvey reached roughly $350 million in annual recurring revenue by July 2026, up from $195 million at the end of 2025 — an 80% climb in about six months. Here is the sourced revenue timeline.",
+  "metaTitle": "Harvey AI ARR 2026: $350M Revenue Timeline for Legal AI",
+  "metaDescription": "Harvey's revenue timeline: $100M ARR in August 2025, $195M at the end of 2025 and roughly $350M by July 2026 — every legal AI revenue figure sourced and dated.",
+  "ogDescription": "$195M to $350M ARR in six months — the sourced Harvey revenue timeline.",
+  "heroStats": [
+    [
+      "~$350M",
+      "Annual recurring revenue, Jul 2026"
+    ],
+    [
+      "+80%",
+      "Growth since January 2026"
+    ],
+    [
+      "~3 years",
+      "From founding to $100M ARR"
+    ],
+    [
+      "2022",
+      "Founded, San Francisco"
+    ]
+  ],
+  "chartTitle": "The Harvey Revenue Curve.",
+  "chartIntro": "Reported and estimated annual recurring revenue in USD millions, 2023 to 2026. Harvey sells seat-based and enterprise deployments into law firms and in-house legal teams.",
+  "chartMax": 350,
+  "chartSources": "Sources: Sacra, The Information, press reports.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 5,
+      "note": "Early deployments with Allen & Overy and PwC put Harvey inside elite firms.",
+      "source": "Press reports"
+    },
+    {
+      "label": "2024",
+      "date": "End of 2024",
+      "arr": 50,
+      "note": "Seat expansion across large law firms as workflow products ship.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Aug '25",
+      "date": "August 2025",
+      "arr": 100,
+      "note": "Crosses $100M ARR, roughly three years after founding.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 195,
+      "note": "$195M ARR as in-house legal teams join the customer base.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 350,
+      "note": "More than $350M ARR — over 80% growth since January 2026.",
+      "source": "The Information / Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Founded → $100M",
+      "value": "~3 years",
+      "source": "2022 → Aug 2025"
+    },
+    {
+      "label": "$100M → $195M",
+      "value": "~4 months",
+      "source": "Aug 2025 → Dec 2025"
+    },
+    {
+      "label": "$195M → $350M",
+      "value": "~7 months",
+      "source": "Dec 2025 → Jul 2026"
+    },
+    {
+      "label": "H1 2026 growth",
+      "value": "+80%",
+      "source": "Jan → Jul 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "~$350M",
+      "source": "Sacra, Jul 2026"
+    },
+    {
+      "label": "End of 2025",
+      "value": "$195M",
+      "source": "Sacra"
+    },
+    {
+      "label": "Time to $100M",
+      "value": "~3 years",
+      "source": "Aug 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2022",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Winston Weinberg",
+      "source": "Company"
+    },
+    {
+      "label": "Market",
+      "value": "Legal",
+      "source": "CB Insights"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Annual recurring revenue",
+      "source": "Reported"
+    }
+  ],
+  "modelTitle": "How Elite Law Firms Became the Sales Funnel.",
+  "modelParagraphs": [
+    "Law firms buy on trust, precedent and partner consensus, which normally makes them a brutal first market. Harvey inverted that by starting at the top: flagship deployments inside elite firms became the reference every other firm asked about, and legal's own conservatism turned into a moat once a name-brand firm had already signed.",
+    "Revenue is seat-heavy — lawyers are expensive, so a per-user license against billable hours is an easy justification — with enterprise agreements layered on for firm-wide rollouts and workflow products for specific practice areas. That mix is why Harvey's curve is slower to $100 million than a self-serve AI product, and steeper afterwards."
+  ],
+  "revenueMix": [
+    [
+      "Firm licenses",
+      "Seat-based access for legal professionals."
+    ],
+    [
+      "Enterprise agreements",
+      "Firm-wide and in-house legal rollouts."
+    ],
+    [
+      "Workflow products",
+      "Practice-area specific tooling."
+    ],
+    [
+      "Expansion",
+      "New offices, practices and geographies."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Harvey's ARR in 2026?",
+      "a": "Harvey reached roughly $350 million in annual recurring revenue by July 2026, up from $195 million at the end of 2025."
+    },
+    {
+      "q": "How Fast Did Harvey Reach $100M ARR?",
+      "a": "About three years — it crossed $100 million in August 2025, having been founded in 2022."
+    },
+    {
+      "q": "Who Uses Harvey?",
+      "a": "Large law firms and corporate in-house legal teams, starting with flagship deployments at elite firms that became reference customers for the rest of the market."
+    },
+    {
+      "q": "Why Do Law Firms Pay Seat Prices for an AI Product?",
+      "a": "Because a Harvey seat is measured against billable hours, not against other software. Licensing is per legal professional, with firm-wide enterprise agreements and practice-area workflow products layered on top."
+    },
+    {
+      "q": "How Does Harvey Compare With Other Vertical AI Companies?",
+      "a": "At roughly $350 million, Harvey is ahead of Sierra at about $200 million and Glean at $300 million-plus, but it took around three years to reach $100 million where horizontal coding tools did it in one."
+    }
+  ],
+  "ctaTitle": "Selling AI Into a Regulated Market?",
+  "ctaDescription": "Global law firms, global tax rules. Clink runs checkout, subscriptions and merchant-of-record tax coverage so billing never slows an expansion.",
+  "ctaLabel": "Sell to Law Firms",
+  "ctaHref": "/contact"
+}

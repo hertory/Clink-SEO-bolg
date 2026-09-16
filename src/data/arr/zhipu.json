@@ -1,0 +1,186 @@
+{
+  "slug": "zhipu",
+  "name": "Zhipu AI",
+  "domain": "zhipuai.cn",
+  "canonical": "https://clinkbill.com/arr-leaderboard/zhipu",
+  "h1": "Zhipu AI ARR: $1.6B Annualized and the First Chinese Lab Past $1B.",
+  "intro": "Zhipu AI (Z.ai) went from roughly $100M to a $1B annualized run rate in about five months, then reported an August 2026 run rate near $1.6B after its Hong Kong IPO. Every reported revenue figure below is traced to a public source — mostly earnings filings and 36Kr.",
+  "metaTitle": "Zhipu AI ARR: $1.6B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Zhipu AI (Z.ai) revenue number in one place: RMB 724M in FY2025 to a $1.6B annualized run rate by Aug 2026, with MRR, valuation and growth — with sources.",
+  "ogDescription": "From $100M to $1B annualized in five months — the Zhipu AI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$1.6B",
+      "Annualized run rate, Aug 2026"
+    ],
+    [
+      "~$133M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$67M → $1B",
+      "Annualized, in ~7 months"
+    ],
+    [
+      "~$92B",
+      "Market cap, 2513.HK"
+    ]
+  ],
+  "chartTitle": "The Zhipu AI Revenue Curve.",
+  "chartIntro": "Reported or estimated annualized run rate in USD millions, converted from RMB filings and press reports, 2024 to August 2026. Linear scale — which is exactly why the first two years look flat.",
+  "chartMax": 1760,
+  "chartSources": "Sources: Zhipu earnings (2513.HK), 36Kr, Bloomberg, Reuters, SCMP.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 45,
+      "note": "RMB ~310M of revenue (~$45M), leading China's independent general LLM developers with a 6.6% market share.",
+      "source": "HKEX prospectus / SCMP"
+    },
+    {
+      "label": "FY '25",
+      "date": "Full year 2025",
+      "arr": 105,
+      "note": "First post-IPO report: revenue up 131.9% YoY to RMB 724M (~$105M); full-year loss widened to ~RMB 4.7B.",
+      "source": "SCMP / earnings"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 67,
+      "note": "Annualized run rate reported around $67M as the GLM line monetized via API — the starting point of the year's curve.",
+      "source": "36Kr"
+    },
+    {
+      "label": "H1 '26",
+      "date": "Half-year 2026 results, Aug 31, 2026",
+      "arr": 900,
+      "note": "First-half revenue quintupled YoY (~+400%) with losses narrowing; API revenue averaged ~RMB 137.5M/month in H1.",
+      "source": "Reuters"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 17, 2026",
+      "arr": 1000,
+      "note": "Bloomberg: Z.ai on track to become the first China AI firm with $1B in annualized sales — roughly $100M to $1B in five months.",
+      "source": "Bloomberg"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 1600,
+      "note": "Annualizing August revenue implies a ~$1.6B run rate (~$133M/month). J.P. Morgan models ~RMB 5B full-year revenue and adjusted profit by 2028.",
+      "source": "36Kr / hellochinatech"
+    }
+  ],
+  "speed": [
+    {
+      "label": "FY2024 revenue",
+      "value": "~$45M",
+      "source": "HKEX prospectus"
+    },
+    {
+      "label": "FY2025 revenue",
+      "value": "~$105M (+132% YoY)",
+      "source": "SCMP, first post-IPO report"
+    },
+    {
+      "label": "$100M → $1B annualized",
+      "value": "~5 months",
+      "source": "Bloomberg, Jul 2026"
+    },
+    {
+      "label": "$1B → $1.6B annualized",
+      "value": "~1 month",
+      "source": "Jul → Aug 2026, 36Kr / earnings"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest annualized run rate",
+      "value": "$1.6B",
+      "source": "36Kr, Aug 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$133M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Market cap",
+      "value": "~$92B",
+      "source": "2513.HK, 2026"
+    },
+    {
+      "label": "FY2025 revenue",
+      "value": "RMB 724M (~$105M)",
+      "source": "First post-IPO report"
+    },
+    {
+      "label": "FY2025 net loss",
+      "value": "~RMB 4.7B (~$683M)",
+      "source": "SCMP"
+    },
+    {
+      "label": "2026 full-year consensus",
+      "value": "~RMB 5B revenue",
+      "source": "J.P. Morgan via Reuters"
+    },
+    {
+      "label": "Listing",
+      "value": "Hong Kong Stock Exchange, ticker 2513.HK",
+      "source": "HKEX"
+    },
+    {
+      "label": "Basis note",
+      "value": "RMB filings converted at prevailing rates; August figure is an annualization, not an audited ARR",
+      "source": "36Kr / earnings"
+    }
+  ],
+  "modelTitle": "How Discounted GLM Tokens Buy the Volume.",
+  "modelParagraphs": [
+    "Zhipu monetizes primarily through GLM API usage: developers pay per million tokens, with flag-ship GLM models priced at steep discounts to Western labs — historically on the order of $0.10–$0.60 per million input tokens. Enterprise contracts (finance, telecom, government SOEs) add licensing and private-deployment deals, and the consumer-facing Z.ai chatbot carries subscription tiers.",
+    "The economics are still aggressive: H1 2026 carried roughly 24.6% margins while the company spent heavily on compute, and FY2025 closed with a ~RMB 4.7B loss. The bet is that China's lowest-cost frontier API wins volume — J.P. Morgan expects adjusted profit only by 2028."
+  ],
+  "revenueMix": [
+    [
+      "Token-based API",
+      "GLM models billed per million tokens at aggressive China-market pricing."
+    ],
+    [
+      "Enterprise deployments",
+      "Private-model licensing and solutions for finance, telecom and SOE customers."
+    ],
+    [
+      "Consumer subscriptions",
+      "The Z.ai chatbot app with paid tiers."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Zhipu AI's ARR in 2026?",
+      "a": "Zhipu AI (Z.ai) reached roughly $1 billion in annualized revenue by July 2026, and annualizing August revenue implies about $1.6 billion — around $133 million of monthly run rate. Figures convert RMB filings and press reports; the August number is an annualization, not an audited ARR."
+    },
+    {
+      "q": "How Fast Did Zhipu AI Grow?",
+      "a": "From a ~$67M annualized run rate in February 2026 to $1B by July — about five months for the final $100M-to-$1B leg per Bloomberg. H1 2026 revenue quintupled year over year."
+    },
+    {
+      "q": "What Does Zhipu AI Actually Sell?",
+      "a": "Mostly GLM API access billed per token at some of the lowest frontier-model prices in the market, plus private enterprise deployments for Chinese finance, telecom and state-owned customers, and consumer subscriptions to the Z.ai chatbot."
+    },
+    {
+      "q": "Is Zhipu AI Profitable?",
+      "a": "No. FY2025 closed with a ~RMB 4.7 billion (~$683M) net loss despite revenue growing 132%, though H1 2026 losses narrowed as revenue quintupled. J.P. Morgan analysts model adjusted profitability by 2028."
+    },
+    {
+      "q": "What Is Zhipu AI's Valuation?",
+      "a": "The stock trades on the Hong Kong Stock Exchange under ticker 2513.HK, with a market capitalization around $92 billion in 2026 after a post-IPO share price surge of roughly 2,000%."
+    }
+  ],
+  "ctaTitle": "Selling AI Across Borders? Get Paid Like a Lab.",
+  "ctaDescription": "Winning volume on price leaves no room for billing overhead. Clink handles checkout, usage billing and merchant-of-record tax for token-scale APIs.",
+  "ctaLabel": "Bill Global Token Volume",
+  "ctaHref": "/contact"
+}

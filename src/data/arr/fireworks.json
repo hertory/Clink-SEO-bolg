@@ -1,0 +1,179 @@
+{
+  "slug": "fireworks",
+  "name": "Fireworks AI",
+  "domain": "fireworks.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/fireworks",
+  "h1": "Fireworks AI ARR: $1B+ and 5x in a Year.",
+  "intro": "Fireworks AI turned serving open-source models into a $1B+ annualized revenue run rate — up 5x in a year — and closed a $1.5B Series D at $17.5B to prove inference is its own market. Every reported ARR, funding and token-volume number is collected below, each traced back to a public source.",
+  "metaTitle": "Fireworks AI ARR: $1B+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Fireworks AI revenue number in one place: ~$280M ARR at Series C to $1B+ annualized in Jul 2026, 40T tokens a day, and the $17.5B Series D — with sources.",
+  "ogDescription": "From ~$280M to $1B+ in about a year — the full Fireworks AI timeline, sourced.",
+  "heroStats": [
+    [
+      "$1B+",
+      "Annualized revenue run rate, Jul 2026"
+    ],
+    [
+      "5x",
+      "Year-over-year growth"
+    ],
+    [
+      "40T+",
+      "Tokens served per day"
+    ],
+    [
+      "$17.5B",
+      "Valuation, Series D Jul 2026"
+    ]
+  ],
+  "chartTitle": "The Fireworks AI Revenue Curve.",
+  "chartIntro": "Annualized revenue run rate in USD millions, Series C through the Series D announcement.",
+  "chartMax": 1100,
+  "chartSources": "Sources: Fireworks, CNBC, Sacra, Quartz, Businesswire.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "2022",
+      "arr": 0,
+      "note": "Founded by Lin Qiao and ex-PyTorch colleagues from Meta to make open-model inference production-grade.",
+      "source": "Company"
+    },
+    {
+      "label": "Series C",
+      "date": "2025",
+      "arr": 280,
+      "note": "$250M Series C at a $4B valuation, with ~$280M ARR and 10T+ tokens served per day.",
+      "source": "Sacra / press"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 800,
+      "note": "Sacra estimated ARR near $800M, up from ~$305M at the end of 2025.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 16, 2026",
+      "arr": 1000,
+      "note": "Surpassed $1B in annualized revenue run rate — up ~5x year over year — serving more than 40 trillion tokens per day.",
+      "source": "Fireworks / CNBC"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 1000,
+      "note": "$1.505B Series D at a $17.5B valuation, led by Atreides Management, Index Ventures and TCV with NVIDIA participating — a ~4.4x valuation jump in about a year.",
+      "source": "Fireworks / CNBC"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $280M ARR",
+      "value": "~3 years",
+      "source": "2022 founding → Series C"
+    },
+    {
+      "label": "~$280M → $1B+ ARR",
+      "value": "~1 year",
+      "source": "Series C → Jul 2026"
+    },
+    {
+      "label": "Valuation $4B → $17.5B",
+      "value": "~1 year",
+      "source": "Series C → Series D"
+    },
+    {
+      "label": "Token volume growth",
+      "value": "10T → 40T+ / day",
+      "source": "Series C → Jul 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Annualized run rate",
+      "value": "$1B+",
+      "source": "Fireworks / CNBC, Jul 2026"
+    },
+    {
+      "label": "Growth",
+      "value": "~5x YoY",
+      "source": "CNBC, Jul 2026"
+    },
+    {
+      "label": "Tokens served",
+      "value": "40T+ / day",
+      "source": "Fireworks, Jul 2026"
+    },
+    {
+      "label": "Valuation",
+      "value": "$17.5B",
+      "source": "Series D, Jul 2026"
+    },
+    {
+      "label": "Series D",
+      "value": "$1.505B",
+      "source": "Fireworks, Jul 2026"
+    },
+    {
+      "label": "Backers",
+      "value": "NVIDIA, Atreides, Index, TCV",
+      "source": "Fireworks"
+    },
+    {
+      "label": "Founded",
+      "value": "2022, Redwood City",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Lin Qiao",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How 40 Trillion Daily Tokens Turn Into Revenue.",
+  "modelParagraphs": [
+    "Fireworks runs an inference cloud: per-token serverless APIs for open and custom models, plus dedicated capacity and fine-tuning for enterprises that want optimized private deployments. The wedge is cost and speed — serving open models on Fireworks' optimized stack undercuts closed frontier-model APIs, and the volume shows it: from 10T+ tokens per day at the Series C to more than 40 trillion per day at $1B+ annualized revenue in July 2026.",
+    "The next act is 'specialized intelligence' — custom enterprise models built on Fireworks' infrastructure, with planned distribution through Microsoft Foundry and Azure. The capital follows the revenue curve: a $250M Series C at $4B (~$280M ARR) was followed by a $1.505B Series D at $17.5B led by Atreides Management, Index Ventures and TCV, with NVIDIA staying on — roughly a 4.4x valuation jump in about a year as run rate grew ~5x."
+  ],
+  "revenueMix": [
+    [
+      "Per-token inference APIs",
+      "Serverless serving of open and fine-tuned models — the 40T tokens/day volume engine."
+    ],
+    [
+      "Dedicated capacity",
+      "Reserved optimized deployments for enterprises with predictable, heavy inference loads."
+    ],
+    [
+      "Custom model services",
+      "Fine-tuning and 'specialized intelligence' offerings, distributed via Microsoft Foundry/Azure."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Fireworks AI's ARR in 2026?",
+      "a": "Fireworks AI surpassed $1 billion in annualized revenue run rate in July 2026, disclosed alongside its $1.505B Series D. That is up roughly 5x year over year, with Sacra having estimated ~$800M ARR in May 2026 and ~$305M at the end of 2025."
+    },
+    {
+      "q": "How Fast Is Fireworks AI Growing?",
+      "a": "About 5x year over year as of July 2026. Token volume tells the same story: from 10T+ tokens served per day at the Series C (~$280M ARR) to more than 40 trillion per day at the $1B+ run rate."
+    },
+    {
+      "q": "What Is Fireworks AI's Valuation?",
+      "a": "$17.5 billion at the July 2026 Series D — $1.505 billion raised, led by Atreides Management, Index Ventures and TCV, with NVIDIA participating. That is a ~4.4x jump from the $4B Series C valuation roughly a year earlier."
+    },
+    {
+      "q": "How Does Fireworks AI Make Money?",
+      "a": "Per-token serverless inference APIs for open and custom models, dedicated optimized capacity for enterprise workloads, and fine-tuning services. It is expanding into custom 'specialized intelligence' enterprise models with planned availability via Microsoft Foundry and Azure."
+    },
+    {
+      "q": "How Does Fireworks Compare to Together AI and Baseten?",
+      "a": "All three sell AI inference, at different scales: Fireworks at $1B+ annualized ($17.5B valuation), Together AI at ~$1B revenue on $1.15B bookings ($8.3B), and Baseten at ~$600M ARR ($13B). Fireworks differentiates on inference optimization for open models and its NVIDIA-backed serving stack."
+    }
+  ],
+  "ctaTitle": "Serving Inference? Get Paid Like Fireworks Does.",
+  "ctaDescription": "Clink bills by the token — checkout, usage metering and merchant-of-record tax handling for inference clouds serving trillions of daily tokens.",
+  "ctaLabel": "Bill Token Volume",
+  "ctaHref": "/contact"
+}

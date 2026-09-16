@@ -1,0 +1,174 @@
+{
+  "slug": "fal",
+  "name": "fal.ai",
+  "domain": "fal.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/fal",
+  "h1": "fal.ai ARR: ~$400M on Pure Inference Economics.",
+  "intro": "fal.ai went from roughly $95M annualized revenue in mid-2025 to ~$400M by early 2026, on usage-based billing for hosting 600+ generative media models. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "fal.ai ARR: ~$400M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported fal.ai revenue number in one place: ~$95M mid-2025 to ~$400M annualized in 2026, implied MRR, valuation, funding history and ARR per employee — with sources.",
+  "ogDescription": "From ~$95M to ~$400M annualized in seven months — the full fal.ai revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$400M",
+      "Estimated ARR, early 2026"
+    ],
+    [
+      "~$33.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "1,000%+",
+      "Implied annual growth"
+    ],
+    [
+      "$4.5B",
+      "Valuation, Series C"
+    ]
+  ],
+  "chartTitle": "The fal.ai Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, mid-2025 to early 2026. Linear scale — the curve is nearly vertical, which is the point.",
+  "chartMax": 440,
+  "chartSources": "Sources: Sacra, ARR Club, Dealroom, Notable Capital.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 35,
+      "note": "Around $35M annualized revenue as the go-to serving layer for open-source image models like FLUX.",
+      "source": "ARR Club"
+    },
+    {
+      "label": "Jul '25",
+      "date": "July 2025",
+      "arr": 95,
+      "note": "Annualized revenue around $95M as video model serving starts compounding on top of image workloads.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Oct '25",
+      "date": "October 2025",
+      "arr": 300,
+      "note": "Annualized revenue roughly tripled from July to ~$300M; Sacra puts end-of-2025 at ~$285M, up 1,040% YoY.",
+      "source": "Sacra / ARR Club"
+    },
+    {
+      "label": "Late '25",
+      "date": "Late 2025",
+      "arr": 225,
+      "note": "$125M Series C at a $4.5B valuation — tripled from the prior round — with ARR doubling again since February.",
+      "source": "Notable Capital"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 400,
+      "note": "Annualized revenue doubled to ~$400M since October, with fal reportedly targeting a raise near an $8B valuation.",
+      "source": "Dealroom"
+    }
+  ],
+  "speed": [
+    {
+      "label": "~$35M → ~$95M ARR",
+      "value": "~6 months",
+      "source": "2024 → Jul 2025"
+    },
+    {
+      "label": "~$95M → ~$300M ARR",
+      "value": "~3 months",
+      "source": "Jul 2025 → Oct 2025"
+    },
+    {
+      "label": "~$285M → ~$400M ARR",
+      "value": "~2 months",
+      "source": "Dec 2025 → Feb 2026"
+    },
+    {
+      "label": "Implied annual growth",
+      "value": "1,000%+",
+      "source": "ARR Club: +1,259% YoY"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$400M",
+      "source": "Dealroom, Feb 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$33.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$4.5B, targeting ~$8B",
+      "source": "Series C / Dealroom"
+    },
+    {
+      "label": "Series C raised",
+      "value": "$125M",
+      "source": "Notable Capital"
+    },
+    {
+      "label": "Models hosted",
+      "value": "600+",
+      "source": "fal.ai platform"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Usage-based inference billing",
+      "source": "Sacra"
+    },
+    {
+      "label": "Founded",
+      "value": "2021",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Per-Request Inference Beats Seat Licenses.",
+  "modelParagraphs": [
+    "fal.ai sells inference, not seats. Developers pay per request — per image generated, per second of video rendered, per audio output — through metered API billing with volume discounts, on top of dedicated capacity plans for high-volume customers. fal hosts 600+ third-party and in-house optimized models (FLUX, Wan, and others), so revenue scales directly with tokens of media generated rather than with headcount of customers.",
+    "The economics are a spread business: fal's low-latency serving infrastructure reportedly runs media model workloads up to 10x more efficiently than stock deployments, and that efficiency gap is the margin. Because billing is pure consumption, revenue tracks the virality of customer apps — which is why the curve can double in two months, and why the company is a rare inference platform that grew into hundreds of millions of ARR without an enterprise sales team."
+  ],
+  "revenueMix": [
+    [
+      "Metered API inference",
+      "Pay-per-request billing across image, video and audio model endpoints."
+    ],
+    [
+      "Dedicated capacity",
+      "Reserved throughput for high-volume customers on top of usage pricing."
+    ],
+    [
+      "Model marketplace spread",
+      "Margin between serving efficiency and raw compute cost across 600+ hosted models."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is fal.ai's ARR in 2026?",
+      "a": "fal.ai's annualized revenue roughly doubled to ~$400 million by February 2026, up from ~$285M at the end of 2025 and ~$95M in mid-2025. The figure is a third-party estimate — fal has not published an official revenue disclosure."
+    },
+    {
+      "q": "How Fast Is fal.ai Growing?",
+      "a": "Annualized revenue went from roughly $95M in July 2025 to ~$300M by October 2025 and ~$400M by February 2026 — ARR Club puts implied annual growth at over 1,200%, among the fastest recorded for any AI infrastructure company."
+    },
+    {
+      "q": "What Is fal.ai's Valuation and How Much Has It Raised?",
+      "a": "fal raised a $125 million Series C at a $4.5 billion valuation, triple its prior round. In early 2026 it was reportedly targeting a new raise near an $8 billion valuation as revenue doubled to $400M annualized."
+    },
+    {
+      "q": "How Does fal.ai Make Money?",
+      "a": "Pure usage-based billing: developers pay per generated image, second of video or audio output through metered API pricing, with dedicated capacity for large customers. fal's margin comes from serving media models up to 10x more efficiently than standard deployments."
+    },
+    {
+      "q": "Is fal.ai's ARR Officially Disclosed?",
+      "a": "No. The ~$400M figure comes from third-party trackers such as Sacra, ARR Club and Dealroom, citing investor reporting. Treat it as an estimate — it is graded 'Estimated' on the Clink ARR Leaderboard."
+    }
+  ],
+  "ctaTitle": "Metering Usage? Bill It Like fal Does.",
+  "ctaDescription": "Per-request revenue needs per-request payments. Clink meters image, video and audio inference billing with merchant-of-record tax handling built in.",
+  "ctaLabel": "Meter Every Request",
+  "ctaHref": "/contact"
+}

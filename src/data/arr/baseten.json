@@ -1,0 +1,164 @@
+{
+  "slug": "baseten",
+  "name": "Baseten",
+  "domain": "baseten.co",
+  "canonical": "https://clinkbill.com/arr-leaderboard/baseten",
+  "h1": "Baseten ARR: ~$600M in a Single Quarter's Work.",
+  "intro": "Baseten roughly tripled its annualized revenue from ~$200M to ~$600M inside a single quarter at the turn of 2026, then closed a $1.5B round at a $13B valuation. Every reported revenue, funding and valuation number below is traced back to a public source.",
+  "metaTitle": "Baseten ARR: ~$600M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Baseten revenue number in one place: ~$200M in December 2025 to ~$600M by March 2026, implied MRR, the $13B Series F valuation and the full timeline — with sources.",
+  "ogDescription": "From ~$200M ARR in December 2025 to ~$600M in March 2026 — the full Baseten revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$600M",
+      "Annualized revenue, March 2026"
+    ],
+    [
+      "~$50M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$13B",
+      "Valuation, Series F Aug 2026"
+    ],
+    [
+      "~3x",
+      "ARR growth in a single quarter"
+    ]
+  ],
+  "chartTitle": "The Baseten Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, December 2025 to August 2026. Linear scale — which is why the pre-2026 curve barely registers.",
+  "chartMax": 660,
+  "chartSources": "Sources: The Information, Value Add VC, Sacra, Reuters.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 25,
+      "note": "Early traction on model-serving infrastructure after the Series C era. Third-party estimate — Baseten does not publish revenue.",
+      "source": "Sacra (estimate)"
+    },
+    {
+      "label": "Dec '25",
+      "date": "December 2025",
+      "arr": 200,
+      "note": "Annualized revenue of roughly $200M as frontier-model serving demand surges.",
+      "source": "Value Add VC / Sacra"
+    },
+    {
+      "label": "Mar '26",
+      "date": "March 2026",
+      "arr": 600,
+      "note": "~$600M annualized revenue — roughly tripling in a single quarter, an estimated ~19x year over year.",
+      "source": "The Information / Value Add VC"
+    },
+    {
+      "label": "Early '26",
+      "date": "Early 2026",
+      "arr": 600,
+      "note": "The Information reports Baseten in talks to raise ~$1B at an $11B valuation as Q1 revenue surges.",
+      "source": "The Information"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 600,
+      "note": "$1.5B Series F closed at a $13B valuation — one of the largest AI inference rounds ever — led by Altimeter and others.",
+      "source": "Company / press reports"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $200M ARR",
+      "value": "~7 years",
+      "source": "2019 founding → Dec 2025"
+    },
+    {
+      "label": "$200M → $600M ARR",
+      "value": "~3 months",
+      "source": "Dec 2025 → Mar 2026"
+    },
+    {
+      "label": "$11B → $13B valuation",
+      "value": "Months",
+      "source": "Early 2026 → Aug 2026"
+    },
+    {
+      "label": "Capital raised in 12 months pre-Series F",
+      "value": "~$525M",
+      "source": "Three rounds, 2025–2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported revenue",
+      "value": "~$600M annualized",
+      "source": "The Information, Mar 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$50M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$13B",
+      "source": "Series F, Aug 2026"
+    },
+    {
+      "label": "Series F",
+      "value": "$1.5B",
+      "source": "Altimeter and others, Aug 2026"
+    },
+    {
+      "label": "Growth rate",
+      "value": "~19x YoY",
+      "source": "Value Add VC / Sacra"
+    }
+  ],
+  "modelTitle": "How GPU-Minutes Become Production Serving Contracts.",
+  "modelParagraphs": [
+    "Baseten sells dedicated model-serving infrastructure priced by GPU-minute: customers reserve and consume GPU capacity (throughput-optimized for production serving) to run frontier and open-weight models behind predictable, production-grade SLAs. The load sits with enterprises and AI startups that need inference performance beyond what per-token APIs from labs offer — custom weights, custom latency, custom autoscaling.",
+    "The revenue base is concentrated among large AI consumers, which is exactly what made a 3x quarter possible: when a handful of major customers scale serving volume, committed GPU-minute spend scales with it. Analysts flag the flip side — GPU scarcity and the cost of dedicated capacity pressure margins, which is why the $13B valuation drew scrutiny alongside the $600M figure."
+  ],
+  "revenueMix": [
+    [
+      "GPU-minute serving",
+      "Consumption pricing on dedicated production inference capacity."
+    ],
+    [
+      "Enterprise contracts",
+      "Committed spend agreements with large AI consumers."
+    ],
+    [
+      "Model optimization",
+      "Performance engineering (TensorRT-LLM and related) bundled into serving deals."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Baseten's ARR in 2026?",
+      "a": "Baseten was reported at roughly $600 million in annualized revenue as of March 2026, up from about $200 million in December 2025 — a roughly 3x increase inside one quarter and an estimated ~19x year over year. That implies about $50 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Baseten Triple Its Revenue?",
+      "a": "About three months. Annualized revenue went from ~$200M in December 2025 to ~$600M in March 2026, driven by surging demand for dedicated frontier-model serving capacity."
+    },
+    {
+      "q": "How Does Baseten Charge Customers?",
+      "a": "Primarily by GPU-minute on dedicated serving capacity, wrapped in enterprise agreements with committed spend. Customers run custom and frontier models with production SLAs rather than renting tokens from a shared API."
+    },
+    {
+      "q": "What Is Baseten's Valuation?",
+      "a": "A $1.5 billion Series F in August 2026 valued Baseten at $13 billion, one of the largest AI inference rounds on record. The Information had reported talks at an $11 billion valuation earlier in 2026, before revenue momentum pushed the round higher."
+    },
+    {
+      "q": "How Much Has Baseten Raised in Total?",
+      "a": "The Series F follows roughly $525 million raised across three rounds in the preceding twelve months, including a $142 million Series D. The August 2026 round brings total funding well past the half-billion mark."
+    }
+  ],
+  "ctaTitle": "Serving Models at Scale? Bill Like Baseten Does.",
+  "ctaDescription": "GPU-minute pricing needs metering, not invoices. Clink adds usage-based billing, committed contracts and merchant-of-record tax handling for compute-heavy serving platforms.",
+  "ctaLabel": "Meter GPU Minutes",
+  "ctaHref": "/contact"
+}

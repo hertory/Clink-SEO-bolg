@@ -1,0 +1,164 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "domain": "synthesia.io",
+  "canonical": "https://clinkbill.com/arr-leaderboard/synthesia",
+  "h1": "Synthesia ARR: ~$150M and 90% of the Fortune 100.",
+  "intro": "Synthesia passed $100M ARR in April 2025 and now sits at an estimated ~$150M with roughly 90% of the Fortune 100 as customers. The latest figure is a research estimate — Synthesia discloses selectively — and every number below is traced back to a public source.",
+  "metaTitle": "Synthesia ARR: ~$150M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Synthesia revenue number in one place: $100M ARR in April 2025 to ~$150M in 2026, implied MRR, the $4B Series E valuation and the Fortune 100 footprint — with sources.",
+  "ogDescription": "From $100M ARR in April 2025 to ~$150M in 2026 — the full Synthesia revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$150M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$12.5M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$4B",
+      "Valuation, Series E Jan 2026"
+    ],
+    [
+      "90%",
+      "Of the Fortune 100 as customers"
+    ]
+  ],
+  "chartTitle": "The Synthesia Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized run rate in USD millions, 2023 to 2026. Synthesia discloses selectively — the $100M mark is company-confirmed, later points are estimates.",
+  "chartMax": 170,
+  "chartSources": "Sources: Synthesia, Sacra, Unite.ai, FirstMark, CNBC.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 40,
+      "note": "$90M Series C at a $1B valuation as enterprise AI video takes off. ARR estimated — Synthesia did not disclose revenue at the time.",
+      "source": "Company (funding); ARR estimate"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 70,
+      "note": "Enterprise expansion; roughly 60% of the Fortune 100 using the platform. Third-party estimate.",
+      "source": "Estimate"
+    },
+    {
+      "label": "Apr '25",
+      "date": "April 2025",
+      "arr": 100,
+      "note": "$100M ARR announced alongside Adobe's investment — the milestone the company itself confirmed.",
+      "source": "Synthesia"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 150,
+      "note": "~$150M ARR alongside a $200M Series E led by GV with Nvidia participating, at a $4B post-money valuation — nearly double the prior $2.1B.",
+      "source": "Sacra / FirstMark"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 150,
+      "note": "Company reportedly expects to cross $200M ARR within 2026; ~90% of the Fortune 100 now customers, including Microsoft, UBS and Ford.",
+      "source": "Unite.ai / StartupRiders"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~7.5 years",
+      "source": "2017 founding → Apr 2025"
+    },
+    {
+      "label": "$100M → ~$150M ARR",
+      "value": "~9 months",
+      "source": "Apr 2025 → Jan 2026"
+    },
+    {
+      "label": "$2.1B → $4B valuation",
+      "value": "~1 year",
+      "source": "2025 → Jan 2026"
+    },
+    {
+      "label": "Target: $200M ARR",
+      "value": "Within 2026",
+      "source": "Unite.ai"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$150M",
+      "source": "Sacra / StartupRiders estimate"
+    },
+    {
+      "label": "Confirmed ARR",
+      "value": "$100M+",
+      "source": "Company, Apr 2025"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$12.5M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$4B",
+      "source": "Series E led by GV, Jan 2026"
+    },
+    {
+      "label": "Fortune 100 penetration",
+      "value": "~90%",
+      "source": "StartupRiders, 2026"
+    }
+  ],
+  "modelTitle": "How Per-Seat Video Plans Scale in the Enterprise.",
+  "modelParagraphs": [
+    "Synthesia sells enterprise AI video on a per-seat SaaS model: corporate plans seat users at tiers from tens to hundreds of dollars per creator per month, with video minutes and avatar features metered on top. The buyer is L&D and corporate communications — training, onboarding and explainers produced in 140+ languages without camera crews — which is why the platform's claimed ~90% Fortune 100 penetration converts into durable, contracted revenue.",
+    "Enterprise add-ons deepen the mix: custom brand avatars, one-click translation, SOC 2-grade security and API access for embedding video generation into customer products. The January 2026 $200M Series E led by GV, with Nvidia participating, valued the company at $4 billion — roughly double the prior round — as it reportedly targets $200M ARR within the year."
+  ],
+  "revenueMix": [
+    [
+      "Per-seat SaaS",
+      "Tiered creator seats for enterprise L&D and communications teams."
+    ],
+    [
+      "Enterprise add-ons",
+      "Custom avatars, translation, security and API packages."
+    ],
+    [
+      "Platform/API usage",
+      "Video generation embedded into customer products via API."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Synthesia's ARR in 2026?",
+      "a": "Synthesia is estimated at roughly $150 million of ARR in 2026, up from the company-confirmed $100 million in April 2025. The company reportedly expects to cross $200 million within the year. That implies about $12.5 million of monthly recurring revenue."
+    },
+    {
+      "q": "When Did Synthesia Hit $100M ARR?",
+      "a": "April 2025, announced by the company alongside Adobe's investment. Synthesia had reportedly turned down a $3 billion takeover offer from Adobe around that period."
+    },
+    {
+      "q": "How Does Synthesia Make Money?",
+      "a": "Per-seat enterprise SaaS: tiered creator plans for L&D and communications teams, with metered video minutes and enterprise add-ons — custom avatars, 140+ language translation, security certifications and API access for product embedding."
+    },
+    {
+      "q": "What Is Synthesia's Valuation?",
+      "a": "$4 billion after a $200 million Series E led by GV (Google Ventures) with Nvidia participating, closed in January 2026 — nearly double the $2.1 billion valuation from the prior $180 million round."
+    },
+    {
+      "q": "How Many Big Companies Use Synthesia?",
+      "a": "Roughly 90% of the Fortune 100, including Microsoft, UBS and Ford, per 2026 reporting. The enterprise base is the core of the business model: training and communication video built by employees on contracted seats."
+    }
+  ],
+  "ctaTitle": "Selling AI Video to Enterprises? Collect Like SaaS.",
+  "ctaDescription": "Per-seat video plans with metered add-ons for the enterprise. Clink manages seat billing, overage metering and merchant-of-record tax as accounts expand.",
+  "ctaLabel": "Scale Seat-Based Billing",
+  "ctaHref": "/contact"
+}

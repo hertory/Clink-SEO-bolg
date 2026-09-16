@@ -1,0 +1,164 @@
+{
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "domain": "deepgram.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/deepgram",
+  "h1": "Deepgram ARR: ~$50M+ in Voice Infrastructure.",
+  "intro": "Deepgram has sold speech-to-text APIs to enterprises for a decade without ever publishing a revenue figure — it is carried here at an estimated ~$50M+ threshold, corroborated by a $1.3B Series C valuation in January 2026 and 1,300+ enterprise customers. The timeline below mixes funding milestones with clearly flagged third-party estimates.",
+  "metaTitle": "Deepgram ARR: ~$50M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "What is publicly known about Deepgram's revenue: ARR not precisely disclosed, estimated at the $50M threshold, alongside the $130M Series C at $1.3B and the full funding timeline — with sources.",
+  "ogDescription": "ARR not precisely disclosed; estimated at $50M — the Deepgram funding and traction timeline, sourced.",
+  "heroStats": [
+    [
+      "~$50M+",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "1,300+",
+      "Enterprise customers"
+    ],
+    [
+      "$1.3B",
+      "Valuation, Series C Jan 2026"
+    ],
+    [
+      "~10 years",
+      "From founding to unicorn"
+    ]
+  ],
+  "chartTitle": "The Deepgram Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, 2021 to 2026. ARR is not precisely disclosed; earlier points are illustrative third-party estimates, and the company's funding rounds are marked on the same axis.",
+  "chartMax": 60,
+  "chartSources": "Sources: Deepgram, Voicebot.ai, Reuters, Built In SF, Value Add VC. Estimates are not company disclosures.",
+  "milestones": [
+    {
+      "label": "2021",
+      "date": "2021",
+      "arr": 5,
+      "note": "Series A era, with Nvidia investing; early enterprise speech recognition API gains traction. Illustrative estimate only.",
+      "source": "Crunchbase News (funding); ARR illustrative"
+    },
+    {
+      "label": "Nov '22",
+      "date": "November 2022",
+      "arr": 10,
+      "note": "$72M Series B led by Madrona to 'define the future of AI speech understanding.' ARR not disclosed.",
+      "source": "Deepgram / Voicebot.ai"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 20,
+      "note": "Voice-agent builders adopt Deepgram's real-time speech-to-text as the voice AI stack forms. Illustrative estimate.",
+      "source": "Estimate"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 40,
+      "note": "$130M Series C at a $1.3B valuation led by AVP; acquires YC-backed OfOne for real-time voice automation; 2,000+ products 'Powered by Deepgram.'",
+      "source": "Deepgram / Reuters"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Estimated at the ~$50M threshold on the back of 1,300+ enterprise customers including Vapi and Granola. Third-party estimate.",
+      "source": "Value Add VC (estimate)"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Founded → unicorn",
+      "value": "~10 years",
+      "source": "2015 → Jan 2026"
+    },
+    {
+      "label": "Seed → Series C",
+      "value": "~8.5 years",
+      "source": "2017 → Jan 2026"
+    },
+    {
+      "label": "Enterprise customers",
+      "value": "1,300+",
+      "source": "Series C coverage, Jan 2026"
+    },
+    {
+      "label": "ARR disclosure",
+      "value": "Never published",
+      "source": "Carried at $50M estimate"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "~$50M+ (estimated)",
+      "source": "Value Add VC estimate; not disclosed"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.3B",
+      "source": "Series C, Jan 2026"
+    },
+    {
+      "label": "Series C",
+      "value": "$130M",
+      "source": "Led by AVP, Jan 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$220M+",
+      "source": "Through Series C, Jan 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2015, by Scott Stephenson",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Voice APIs Bill by the Second.",
+  "modelParagraphs": [
+    "Deepgram monetizes a speech AI platform on usage-based API pricing: per-minute or per-character rates for speech-to-text (including real-time streaming), text-to-speech and voice-agent APIs, with enterprise contracts layered on top for volume commitments, on-prem or VPC deployments and SLAs. Customers span voice-agent builders like Vapi and productivity tools like Granola — infrastructure that bills by the audio second.",
+    "The January 2026 Series C doubled down on the 'voice AI economy' thesis: acquiring YC-backed OfOne for real-time voice automation, and pointing at the $14–20B voice AI market growing roughly 30% a year. Because revenue tracks minutes transcribed rather than seats, Deepgram's top line compounds with its customers' call volume — the classic infrastructure revenue pattern."
+  ],
+  "revenueMix": [
+    [
+      "Usage-based API",
+      "Per-minute / per-character pricing for STT, TTS and voice-agent APIs."
+    ],
+    [
+      "Enterprise contracts",
+      "Volume commitments, VPC/on-prem deployments and SLAs."
+    ],
+    [
+      "Voice automation",
+      "OfOne acquisition adds real-time voice automation use cases."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Deepgram's ARR in 2026?",
+      "a": "Deepgram has not precisely disclosed its ARR. It is carried here at an estimated ~$50 million threshold, consistent with third-party research; the hard public anchors are a $1.3 billion valuation from a $130 million Series C in January 2026 and 1,300+ enterprise customers."
+    },
+    {
+      "q": "Why Is Deepgram's Revenue Only an Estimate?",
+      "a": "The company has never published revenue figures. Its funding milestones — $72M Series B in 2022 and $130M Series C at $1.3B in January 2026 — plus customer counts are the primary public signals used to frame the estimate."
+    },
+    {
+      "q": "How Does Deepgram Make Money?",
+      "a": "Usage-based API pricing for speech-to-text, text-to-speech and voice-agent infrastructure — billed per minute or per character — plus enterprise contracts with volume commitments and private deployments. Revenue scales with customers' audio volume, not seat counts."
+    },
+    {
+      "q": "What Is Deepgram's Valuation?",
+      "a": "$1.3 billion after a $130 million Series C led by AVP in January 2026, with participation from In-Q-Tel, Madrona, Tiger Global, Wing and Y Combinator. Total funding is roughly $220 million since the 2017 Y Combinator seed."
+    },
+    {
+      "q": "Who Uses Deepgram?",
+      "a": "1,300+ enterprises, including voice-agent platforms like Vapi and AI notetaker Granola, with over 2,000 products described as 'Powered by Deepgram' at the time of the Series C. It targets the $14–20B voice AI market growing roughly 30% annually."
+    }
+  ],
+  "ctaTitle": "Building Voice AI? Bill by the Minute.",
+  "ctaDescription": "Per-minute speech APIs need per-minute payments. Clink adds usage-based billing, enterprise contracts and merchant-of-record tax handling for voice infrastructure.",
+  "ctaLabel": "Bill by the Minute",
+  "ctaHref": "/contact"
+}

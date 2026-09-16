@@ -1,0 +1,185 @@
+{
+  "slug": "anthropic",
+  "name": "Anthropic",
+  "domain": "anthropic.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/anthropic",
+  "h1": "Anthropic ARR: $65B+ and Still Accelerating.",
+  "intro": "Anthropic went from roughly $87M annualized at the start of 2024 to a $65B+ revenue run rate by July 2026 — the steepest large-scale revenue ramp ever recorded in software. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Anthropic ARR: $65B+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Anthropic revenue number in one place: ~$87M ARR in early 2024 to $65B+ in July 2026, implied MRR, valuation, funding history and growth speed — with sources.",
+  "ogDescription": "From ~$87M ARR to $65B+ in under three years — the full Anthropic revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$65B+",
+      "Revenue run rate, Jul 2026"
+    ],
+    [
+      "~$5.4B",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "12 months",
+      "From launch to $100M ARR"
+    ],
+    [
+      "$965B",
+      "Valuation, May 2026 round"
+    ]
+  ],
+  "chartTitle": "The Anthropic Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, early 2024 to July 2026. Linear scale — the 2024 curve is almost invisible against the 2026 endpoint, which is the point.",
+  "chartMax": 71500,
+  "chartSources": "Sources: Anthropic, Reuters, Bloomberg, The Information, Sacra, CNBC.",
+  "milestones": [
+    {
+      "label": "Early '24",
+      "date": "Q1 2024",
+      "arr": 87,
+      "note": "Annualized run rate around $87M, roughly 18 months after the March 2023 launch.",
+      "source": "The Information / Sacra"
+    },
+    {
+      "label": "Q1 '24",
+      "date": "Q1 2024",
+      "arr": 100,
+      "note": "Crossed $100M ARR about 12 months after launch, on the strength of the Claude API and Slack's sales-assistant deal.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '24",
+      "date": "End of 2024",
+      "arr": 1000,
+      "note": "~$1B annualized run rate by year-end 2024 — roughly a 10x year.",
+      "source": "Reuters / The Information"
+    },
+    {
+      "label": "Mar '25",
+      "date": "March 2025",
+      "arr": 2500,
+      "note": "$3.5B Series E closed at a $61.5B post-money valuation as the run rate climbed past $2B.",
+      "source": "Anthropic"
+    },
+    {
+      "label": "Jul '25",
+      "date": "July 2025",
+      "arr": 5000,
+      "note": "~$5B ARR, with Claude Code's launch starting a coding-revenue flywheel.",
+      "source": "Reuters / CNBC"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 9000,
+      "note": "~$9B run-rate revenue at year-end, after a $13B Series F at $183B valuation in September.",
+      "source": "Anthropic / Reuters"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 30000,
+      "note": "Passed $30B annualized — briefly overtaking OpenAI's run rate on some trackers.",
+      "source": "CNBC / Sacra"
+    },
+    {
+      "label": "Jul '26",
+      "date": "End of July 2026",
+      "arr": 65000,
+      "note": "Revenue run rate topped $65 billion — roughly 7x in seven months — ahead of a widely reported IPO preparation.",
+      "source": "Reuters / Bloomberg"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~12 months",
+      "source": "Mar 2023 launch → Q1 2024"
+    },
+    {
+      "label": "$1B → $10B ARR",
+      "value": "~18 months",
+      "source": "Dec 2024 → mid 2026"
+    },
+    {
+      "label": "$10B → $65B ARR",
+      "value": "~7 months",
+      "source": "Dec 2025 → Jul 2026"
+    },
+    {
+      "label": "Valuation multiple",
+      "value": "$61.5B → $965B in 14 months",
+      "source": "Mar 2025 → May 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$65B+",
+      "source": "Reuters / Bloomberg, Aug 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$5.4B / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$965B",
+      "source": "May 2026 round, Reuters"
+    },
+    {
+      "label": "Claude Code run rate",
+      "value": "$2.5B+",
+      "source": "Reuters, Feb 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2021, San Francisco",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How API Tiers and Enterprise Deals Add Up.",
+  "modelParagraphs": [
+    "Anthropic monetizes through two engines: usage-based API pricing from $1 to $25 per million tokens across the Opus, Sonnet and Haiku model families, and consumer/enterprise subscriptions from $20/month Pro to $200/month Max plus custom enterprise seats. Claude Code — the agentic coding product — alone passed a $2.5B run rate by February 2026, and from June 2026 its programmatic usage moved to a dedicated credit pool billed at full API rates.",
+    "The enterprise and coding segments carry the growth: Frontier-model API contracts with large enterprises and cloud resales (AWS Bedrock, Google Vertex) dominate, with developer-tooling spend the fastest-compounding slice. That mix is what pushed revenue from ~$1B to $65B+ annualized in under two years."
+  ],
+  "revenueMix": [
+    [
+      "Usage-based API",
+      "Per-token pricing from $1–$25 per million tokens, the largest slice of revenue."
+    ],
+    [
+      "Coding products",
+      "Claude Code passed a $2.5B run rate within a year of launch."
+    ],
+    [
+      "Subscriptions & enterprise",
+      "$20–$200/month plans plus custom enterprise agreements and cloud resale."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Anthropic's ARR in 2026?",
+      "a": "Anthropic's annualized revenue run rate topped $65 billion by the end of July 2026, up from ~$9 billion at the end of 2025 and ~$1 billion a year before that. That implies roughly $5.4 billion of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Anthropic Reach $100M ARR?",
+      "a": "About 12 months after the March 2023 Claude launch — fast for an enterprise API business, though well behind consumer-viral companies like Lovable (8 months) on the same metric."
+    },
+    {
+      "q": "What Is Anthropic's Valuation?",
+      "a": "$965 billion post-money as of its May 2026 round, following a $13 billion Series F at $183 billion in September 2025 and a $30 billion raise at $380 billion in early 2026 — one of the fastest private-market re-ratings on record."
+    },
+    {
+      "q": "How Does Anthropic Make Money?",
+      "a": "Two ways: usage-based API billing at $1–$25 per million tokens, and subscriptions from $20/month Pro to $200/month Max plus enterprise agreements. Claude Code alone exceeded a $2.5 billion run rate by February 2026."
+    },
+    {
+      "q": "Did Anthropic Overtake OpenAI in Revenue?",
+      "a": "On several trackers, yes — at least temporarily. Anthropic crossed a $30B annualized run rate in early 2026 while OpenAI's standalone run rate sat near $25B in February 2026; both figures are third-party or press-reported, not audited."
+    }
+  ],
+  "ctaTitle": "Building on Claude? Get Paid Like a Platform.",
+  "ctaDescription": "Selling usage-based API tiers and $200/month Max plans? Clink runs the checkout, subscriptions and merchant-of-record tax handling behind them.",
+  "ctaLabel": "Bill Your API",
+  "ctaHref": "/contact"
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "gamma",
+  "name": "Gamma",
+  "domain": "gamma.app",
+  "canonical": "https://clinkbill.com/arr-leaderboard/gamma",
+  "h1": "Gamma ARR: $100M With 50 Employees and No Sales Team.",
+  "intro": "Gamma crossed $100M in annual recurring revenue in November 2025 — profitably, with roughly 50 employees and no sales team. Every reported ARR, valuation and user number is collected below, each traced back to a public source.",
+  "metaTitle": "Gamma ARR: $100M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Gamma revenue number in one place: $100M ARR at a $2.1B valuation, 70M+ users, ~50 employees and the freemium subscription model — with sources.",
+  "ogDescription": "$100M ARR, ~50 employees, no sales team — the full Gamma revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$100M",
+      "Reported ARR, Nov 2025"
+    ],
+    [
+      "~$8.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~50",
+      "Employees at $100M ARR"
+    ],
+    [
+      "$2.1B",
+      "Valuation, Series B Nov 2025"
+    ]
+  ],
+  "chartTitle": "The Gamma Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2024 to late 2025. Linear scale — profitability was maintained the whole way up.",
+  "chartMax": 110,
+  "chartSources": "Sources: Gamma, TechCrunch, GTM Newsletter, GetLatka.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "2022",
+      "arr": 1,
+      "note": "Founded in 2020 by Grant Lee, Jon Noronha and James Fox; the AI-native presentation product launches after nearly two years of iteration.",
+      "source": "Company / GTM Newsletter"
+    },
+    {
+      "label": "2024",
+      "date": "Late 2024",
+      "arr": 20,
+      "note": "Roughly $20M ARR on the back of a freemium loop: AI-generated decks, docs and websites with a viral free tier.",
+      "source": "GetLatka / Sacra"
+    },
+    {
+      "label": "Mid '25",
+      "date": "Mid 2025",
+      "arr": 50,
+      "note": "Reported ARR roughly doubles as Gamma passes tens of millions of users, still with no sales team and profitability sustained for two-plus years.",
+      "source": "GetLatka"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 10, 2025",
+      "arr": 100,
+      "note": "Crosses $100M ARR, profitably, with ~50 employees; raises $68M Series B led by Andreessen Horowitz at a $2.1B valuation.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 100,
+      "note": "User base grows past 70M, with reports of ~100M; an API release opens generation to third-party products.",
+      "source": "TechCrunch / company"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$20M ARR",
+      "value": "~2 years",
+      "source": "2022 → late 2024"
+    },
+    {
+      "label": "~$20M → $100M ARR",
+      "value": "~12 months",
+      "source": "Late 2024 → Nov 2025"
+    },
+    {
+      "label": "ARR per employee",
+      "value": "~$2M",
+      "source": "$100M / ~50 employees"
+    },
+    {
+      "label": "Implied MRR at $100M ARR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M",
+      "source": "TechCrunch, Nov 2025"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$2.1B",
+      "source": "Series B, Nov 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$87M",
+      "source": "TechCrunch, Nov 2025"
+    },
+    {
+      "label": "Employees",
+      "value": "~50",
+      "source": "TechCrunch, Nov 2025"
+    },
+    {
+      "label": "ARR per employee",
+      "value": "~$2M",
+      "source": "Derived"
+    },
+    {
+      "label": "Users",
+      "value": "70M+",
+      "source": "TechCrunch, Nov 2025"
+    },
+    {
+      "label": "Profitability",
+      "value": "Profitable 2+ years",
+      "source": "Founder, Nov 2025"
+    },
+    {
+      "label": "Sales team",
+      "value": "None",
+      "source": "GTM Newsletter"
+    }
+  ],
+  "modelTitle": "How a $10 Plan Monetizes 70M Users.",
+  "modelParagraphs": [
+    "Gamma runs a classic freemium consumer-SaaS model. The free tier grants a limited number of AI generation credits, which acts as the top of the funnel for its 70M+ users; paid plans start around $10/month (Plus) and step up to roughly $20/month per user (Pro), with credits metered on top for heavy generation. Students, creators and small teams make up most of the base — revenue is dominated by self-serve card payments, not contracts.",
+    "Because acquisition is product-led and organic, Gamma reached $100M ARR with ~50 employees, no sales team and two-plus years of profitability — roughly $2M of ARR per employee. The November 2025 API release adds a second motion: third-party products paying to embed Gamma's document-generation engine."
+  ],
+  "revenueMix": [
+    [
+      "Freemium subscriptions",
+      "Plus ~$10/month and Pro ~$20/month, self-serve checkout only."
+    ],
+    [
+      "AI generation credits",
+      "Metered credit packs billed on top of plan allowances."
+    ],
+    [
+      "API access",
+      "New in late 2025: generation embedded in third-party products."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Gamma's ARR in 2026?",
+      "a": "Gamma crossed $100 million in annual recurring revenue in November 2025, announced by founder Grant Lee alongside a $68M Series B. The company was profitable at the time, with roughly 50 employees."
+    },
+    {
+      "q": "How Fast Did Gamma Reach $100M ARR?",
+      "a": "About five years from founding (2020) and roughly three years from launch. ARR went from ~$20M in late 2024 to $100M by November 2025 — most of the growth compressed into the final twelve months."
+    },
+    {
+      "q": "How Does Gamma Make Money?",
+      "a": "Freemium subscriptions and AI credits. A free tier with limited credits feeds paid plans from about $10/month to roughly $20/month per user, with metered credit packs on top. A late-2025 API release opened a second, usage-based revenue line."
+    },
+    {
+      "q": "What Is Gamma's Valuation and How Much Has It Raised?",
+      "a": "A $68 million Series B led by Andreessen Horowitz in November 2025 valued Gamma at $2.1 billion. Total funding is around $87 million across three rounds."
+    },
+    {
+      "q": "How Efficient Is Gamma as a Business?",
+      "a": "Extremely. ~$100M of ARR on ~50 employees is roughly $2M of ARR per employee, achieved with no sales team and two-plus years of profitability — among the best ratios in software."
+    }
+  ],
+  "ctaTitle": "Selling Self-Serve? Get Paid Like Gamma.",
+  "ctaDescription": "Clink converts free tiers into $10 plans — freemium checkout, credit metering and merchant-of-record tax handling for consumer AI at scale.",
+  "ctaLabel": "Convert Freemium Users",
+  "ctaHref": "/contact"
+}

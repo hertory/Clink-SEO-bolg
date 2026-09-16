@@ -1,0 +1,172 @@
+{
+  "slug": "surge",
+  "name": "Surge AI",
+  "domain": "surgehq.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/surge",
+  "h1": "Surge AI ARR: $1.4B With Zero VC Funding.",
+  "intro": "Surge AI reached over $1 billion of revenue with roughly 110 employees and no outside capital — quietly out-earning its far better-funded rival Scale AI. Every reported revenue and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "Surge AI ARR: $1.4B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Surge AI revenue number in one place: $1B+ revenue in 2024, $1.4B annualized by Aug 2025, the $25B valuation talks and the first-ever capital raise — with sources.",
+  "ogDescription": "Bootstrapped to $1B+ revenue — the full Surge AI timeline, sourced.",
+  "heroStats": [
+    [
+      "$1.4B",
+      "Reported ARR, Aug 2025"
+    ],
+    [
+      "$1B+",
+      "2024 revenue, bootstrapped"
+    ],
+    [
+      "~110",
+      "Employees at $1B+ revenue"
+    ],
+    [
+      "~$25B",
+      "Valuation in funding talks"
+    ]
+  ],
+  "chartTitle": "The Surge AI Revenue Curve.",
+  "chartIntro": "Reported annualized revenue in USD millions. Surge discloses almost nothing, so the curve is built entirely from press reporting — which is why the points are sparse.",
+  "chartMax": 1540,
+  "chartSources": "Sources: Reuters, The Information, Forbes, GetLatka, Sacra.",
+  "milestones": [
+    {
+      "label": "2020",
+      "date": "2020",
+      "arr": 0,
+      "note": "Founded by Edwin Chen, a former Google and Twitter NLP lead, with no venture funding and a premium expert-labeling thesis.",
+      "source": "Company / Reuters"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 1000,
+      "note": "Over $1B of revenue in 2024 (Forbes reported ~$1.2B) — overtaking Scale AI's ~$870M with roughly 110 employees and zero VC money.",
+      "source": "Reuters / Forbes"
+    },
+    {
+      "label": "Jul '25",
+      "date": "July 1, 2025",
+      "arr": 1000,
+      "note": "Reuters reported Surge seeking up to $1B in capital — its first outside funding ever — partly to let employees and Chen sell shares.",
+      "source": "Reuters"
+    },
+    {
+      "label": "Aug '25",
+      "date": "August 2025",
+      "arr": 1400,
+      "note": "$1.4B in annualized revenue, with valuation talks around $25B — all while remaining bootstrapped and profitable.",
+      "source": "Reuters / Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $1B revenue",
+      "value": "~4 years",
+      "source": "2020 founding → 2024"
+    },
+    {
+      "label": "$1B → $1.4B annualized",
+      "value": "~8 months",
+      "source": "FY2024 → Aug 2025"
+    },
+    {
+      "label": "ARR per employee",
+      "value": "~$12.7M",
+      "source": "$1.4B / ~110 employees"
+    },
+    {
+      "label": "Outside capital raised",
+      "value": "$0",
+      "source": "Through Aug 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$1.4B",
+      "source": "Reuters / Sacra, Aug 2025"
+    },
+    {
+      "label": "2024 revenue",
+      "value": "$1B+ (~$1.2B per Forbes)",
+      "source": "Reuters / Forbes"
+    },
+    {
+      "label": "Employees",
+      "value": "~110",
+      "source": "Reuters"
+    },
+    {
+      "label": "ARR per employee",
+      "value": "~$12.7M",
+      "source": "Derived"
+    },
+    {
+      "label": "Valuation talks",
+      "value": "~$25B",
+      "source": "Reuters, Jul 2025"
+    },
+    {
+      "label": "Capital raise sought",
+      "value": "Up to $1B",
+      "source": "Reuters, Jul 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2020, San Francisco",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Edwin Chen",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Elite Human Feedback Commands Premium Contracts.",
+  "modelParagraphs": [
+    "Surge sells premium human data for frontier model training: RLHF feedback, expert evaluations and red-teaming. There is no public rate card — contracts are quoted per engagement based on task difficulty, expertise and volume. The economics rest on a deliberate choice to pay labelers above-market rates: approved 'Surgers' earn roughly $0.30-0.40 per working minute (about $18-24 per hour of active work), with some tasks paying $16-30 flat, versus cents-per-task crowdsourcing.",
+    "That premium labor pool is the moat. Surge's labelers are full-time-trained specialists — software engineers, PhDs, domain experts — which is why frontier labs pay up and why the company cleared $1B of revenue with about 110 people, an implied ~$12.7M of ARR per employee. Anthropic has publicly documented using Surge's RLHF platform, and OpenAI, Google, DeepMind and Microsoft are widely reported clients, though Surge publishes no customer list."
+  ],
+  "revenueMix": [
+    [
+      "Enterprise RLHF & evals",
+      "Per-engagement contracts for human feedback, expert evaluations and red-teaming."
+    ],
+    [
+      "Managed expert workforce",
+      "Trained specialist labelers, paid ~$18-24/hour of active work, rented as a service."
+    ],
+    [
+      "Data platform tooling",
+      "Labeling tooling bundled into engagements; the individual tool is free."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Surge AI's ARR?",
+      "a": "Surge AI reported $1.4 billion in annualized revenue as of August 2025, per Reuters. It generated over $1 billion of full-year 2024 revenue (Forbes reported roughly $1.2 billion), overtaking Scale AI's ~$870M."
+    },
+    {
+      "q": "How Is Surge AI Bootstrapped?",
+      "a": "Surge took zero venture capital from its 2020 founding through August 2025 and remained profitable. In July 2025, Reuters reported it was seeking up to $1 billion in outside capital for the first time — largely a liquidity event allowing employees and founder Edwin Chen to sell shares."
+    },
+    {
+      "q": "How Does Surge AI Compare to Scale AI?",
+      "a": "In 2024, Surge out-earned Scale AI ($1B+ vs ~$870M) with roughly 110 employees against Scale's 1,000+, while remaining independent. Scale then sold a 49% stake to Meta for $14.3B in June 2025, which triggered customer defections — a headwind Surge did not face."
+    },
+    {
+      "q": "Who Are Surge AI's Customers?",
+      "a": "Anthropic has publicly documented using Surge's RLHF platform. OpenAI, Google, DeepMind and Microsoft are widely reported clients, but Surge publishes no customer list. Pricing is enterprise-quoted per engagement based on task difficulty and expertise."
+    },
+    {
+      "q": "How Many People Work at Surge AI?",
+      "a": "Roughly 110 employees at $1B+ of revenue — an implied ~$12.7M of ARR per employee, among the highest ratios ever reported, a function of its premium expert-labeler model rather than mass crowdsourcing."
+    }
+  ],
+  "ctaTitle": "Training Frontier Models? Get Paid Like a Frontier Company.",
+  "ctaDescription": "No rate card, just quoted expert engagements. Clink handles invoicing, recurring billing and merchant-of-record tax so premium data deals close and collect cleanly.",
+  "ctaLabel": "Invoice Premium Data Deals",
+  "ctaHref": "/contact"
+}

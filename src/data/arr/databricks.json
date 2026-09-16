@@ -1,0 +1,62 @@
+{
+  "slug": "databricks",
+  "name": "Databricks",
+  "domain": "databricks.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/databricks",
+  "h1": "Databricks ARR: $6.9B and Growing 80% Year Over Year.",
+  "intro": "Databricks crossed a $6.9B annualized revenue run rate in June 2026, growing more than 80% year over year — rare velocity at nearly $7B in scale, driven by the convergence of its data warehouse and AI product lines.",
+  "metaTitle": "Databricks ARR: $6.9B Revenue, Run Rate and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Databricks revenue number in one place — from a $1.6B run rate in 2024 to $6.9B in June 2026, sourced.",
+  "ogDescription": "From $1.6B to $6.9B in two years at 80% growth — the full Databricks revenue timeline, sourced.",
+  "heroStats": [
+    ["$6.9B", "Disclosed revenue run rate, June 2026"],
+    ["+80%", "Year-over-year growth"],
+    ["$1.5B+", "Data warehousing ARR, June 2026"],
+    ["$134B", "Valuation, Feb 2026 round"]
+  ],
+  "chartTitle": "The Databricks Revenue Curve.",
+  "chartIntro": "Annualized revenue run rate in USD millions, fiscal year ending January 2024 to June 2026.",
+  "chartMax": 7600,
+  "chartSources": "Sources: Databricks newsroom, CNBC, Sacra, Constellation Research.",
+  "milestones": [
+    { "label": "Jan '24", "date": "Fiscal year ending January 2024", "arr": 1600, "note": "Annualized revenue run rate of roughly $1.6B, up more than 50% year over year.", "source": "Databricks / Sacra" },
+    { "label": "Jan '25", "date": "Fiscal year ending January 2025", "arr": 3000, "note": "Exited the fiscal year at a $3B run rate, up ~60% year over year.", "source": "Databricks" },
+    { "label": "Dec '24", "date": "December 2024", "arr": 3000, "note": "Raised a $10B Series J at a $62B valuation — the largest private round of its kind — alongside a $5B debt facility.", "source": "Databricks newsroom" },
+    { "label": "Aug '25", "date": "August 2025", "arr": 3700, "note": "Run rate reached $3.7B as the AI product line scaled.", "source": "Constellation Research" },
+    { "label": "Feb '26", "date": "February 2026", "arr": 5400, "note": "Surpassed a $5.4B run rate, growing more than 65% YoY; data warehousing and AI products each crossed $1B.", "source": "Databricks newsroom" },
+    { "label": "Jun '26", "date": "June 2026", "arr": 6900, "note": "Crossed $6.9B annualized, up more than 80% year over year; data warehousing alone passed $1.5B ARR.", "source": "CNBC / Databricks" }
+  ],
+  "speed": [
+    { "label": "$1B → $2B ARR", "value": "~12 months", "source": "FY2024 → FY2025" },
+    { "label": "$3B → $5.4B ARR", "value": "~12 months", "source": "Jan 2025 → Feb 2026" },
+    { "label": "$5.4B → $6.9B ARR", "value": "~4 months", "source": "Feb 2026 → Jun 2026" },
+    { "label": "Growth at scale", "value": "+80% YoY at ~$7B", "source": "Jun 2026, company-disclosed" }
+  ],
+  "facts": [
+    { "label": "Latest disclosed ARR", "value": "$6.9B", "source": "CNBC / Databricks, Jun 2026" },
+    { "label": "Valuation", "value": "$134B", "source": "~$5B round, Feb 2026" },
+    { "label": "Newer strategic round", "value": "$5B at $190B", "source": "CNBC, Aug 2026" },
+    { "label": "AI products run rate", "value": "$1.4B (~26% of revenue)", "source": "Q4 FY2025" }
+  ],
+  "modelTitle": "How Consumption Contracts Turn Compute Into ARR.",
+  "modelParagraphs": [
+    "Databricks monetizes through a consumption-based platform contract: customers pay for compute as they run data engineering, warehousing, and AI workloads on the Lakehouse. Enterprise agreements are typically annual commitments drawn down by usage, which is why revenue re-accelerated as AI training and inference workloads landed on existing contracts.",
+    "The mix has shifted meaningfully toward AI: AI products crossed a $1.4B run rate (roughly a quarter of revenue) by early 2026, while the classic data warehousing line separately passed $1.5B ARR in June 2026."
+  ],
+  "revenueMix": [
+    ["Consumption platform contracts", "Usage-based compute across data engineering, streaming, and machine learning workloads."],
+    ["Data warehousing", "Serverless warehouse product line, $1.5B+ ARR as of June 2026."],
+    ["AI products (Mosaic AI, AgentBricks)", "$1.4B run rate by Q4 FY2025 — the fastest-growing line."]
+  ],
+  "faqs": [
+    { "q": "What Is Databricks' ARR in 2026?", "a": "Databricks disclosed a $6.9 billion annualized revenue run rate in June 2026, growing more than 80% year over year." },
+    { "q": "How Fast Is Databricks Growing?", "a": "Growth re-accelerated from ~50-60% in 2024-2025 to more than 80% year over year by June 2026, driven by AI workloads on the Lakehouse platform." },
+    { "q": "What Is Databricks' Valuation?", "a": "Databricks was valued at $134B in a ~$5B round in February 2026, then raised a $5B strategic round at a $190B valuation in August 2026." },
+    { "q": "How Does Databricks Make Money?", "a": "Primarily consumption-based enterprise contracts: customers commit to annual spend and draw it down as they run data and AI workloads on the platform." },
+    { "q": "Is Databricks Publicly Traded?", "a": "No. Databricks remains private and has delayed its IPO while raising successive private rounds ($43B → $62B → $134B → $190B between 2023 and 2026)." }
+  ],
+  "ctaTitle": "Building on Databricks? Get Paid Like a Platform.",
+  "ctaDescription": "Annual consumption commitments drawn down by live usage — billing has to reconcile both. Clink handles checkout, subscription management and merchant-of-record tax for consumption platforms.",
+  "ctaLabel": "Bill by Consumption",
+  "ctaHref": "/contact"
+}

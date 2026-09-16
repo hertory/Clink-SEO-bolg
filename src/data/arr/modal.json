@@ -1,0 +1,171 @@
+{
+  "slug": "modal",
+  "name": "Modal",
+  "domain": "modal.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/modal",
+  "h1": "Modal ARR: ~$300M in Serverless Compute.",
+  "intro": "Modal turned per-second serverless billing for GPUs into roughly $300M of annualized revenue in about four years. Every reported ARR, funding and valuation number below is traced back to a public source — with the caveat that Modal itself has never published a revenue figure, so the latest number is a research estimate.",
+  "metaTitle": "Modal ARR: ~$300M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Modal revenue number in one place: ~$50M in mid-2025 to ~$300M by April 2026, implied MRR, the $4.65B valuation and the full funding timeline — with sources.",
+  "ogDescription": "From ~$50M ARR in mid-2025 to ~$300M in 2026 — the full Modal revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$300M",
+      "Estimated ARR, April 2026"
+    ],
+    [
+      "~$25M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$4.65B",
+      "Valuation, May 2026 round"
+    ],
+    [
+      "~6x",
+      "Annualized revenue growth in 12 months"
+    ]
+  ],
+  "chartTitle": "The Modal Revenue Curve.",
+  "chartIntro": "Estimated and reported annualized run rate in USD millions, 2024 to 2026. Modal does not disclose revenue; figures are press reports and third-party estimates.",
+  "chartMax": 330,
+  "chartSources": "Sources: Business Insider, Reuters, Sacra, The Information, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 10,
+      "note": "Early revenue as the serverless GPU platform finds product-market fit with open-model inference workloads. Third-party estimate.",
+      "source": "Sacra (estimate)"
+    },
+    {
+      "label": "Mid '25",
+      "date": "Mid-2025",
+      "arr": 50,
+      "note": "Around $50M annualized revenue as Modal is reported raising at a multi-billion valuation.",
+      "source": "Business Insider"
+    },
+    {
+      "label": "Sep '25",
+      "date": "September 2025",
+      "arr": 60,
+      "note": "~$60M annualized revenue alongside an $87M Series B led by Lux Capital at a $1.1B post-money valuation.",
+      "source": "Reuters / Lux Capital"
+    },
+    {
+      "label": "Dec '25",
+      "date": "December 2025",
+      "arr": 119,
+      "note": "~$119M annualized by year-end — roughly doubling in six months on inference and AI-agent sandbox demand.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 300,
+      "note": "Sacra estimates ~$300M annualized revenue as AI coding-agent workloads explode on the platform.",
+      "source": "Sacra"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 300,
+      "note": "$355M new round at a $4.65B valuation, driven partly by AI coding workloads. Total funding ~$466M.",
+      "source": "Reuters"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $50M ARR",
+      "value": "~3 years",
+      "source": "2022 founding → mid-2025"
+    },
+    {
+      "label": "$50M → $119M ARR",
+      "value": "~6 months",
+      "source": "Mid-2025 → Dec 2025"
+    },
+    {
+      "label": "$60M → $300M ARR",
+      "value": "~7 months",
+      "source": "Sep 2025 → Apr 2026"
+    },
+    {
+      "label": "$1.1B → $4.65B valuation",
+      "value": "~8 months",
+      "source": "Sep 2025 → May 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$300M",
+      "source": "Sacra estimate, Apr 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$25M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$4.65B",
+      "source": "Reuters, May 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$466M",
+      "source": "Tracxn"
+    },
+    {
+      "label": "Founder & CEO",
+      "value": "Erik Bernhardsson",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Per-Second GPU Billing Adds Up.",
+  "modelParagraphs": [
+    "Modal sells fully metered serverless compute: functions run on demand in containers and customers pay per second of GPU or CPU time — from small A10 and L40S instances up to H100s — with no clusters to manage, no minimum commitments and idle capacity billed at nothing. Published pricing is per-second on each GPU class, which makes Modal the default way to serve open-weight model inference without negotiating a cloud contract.",
+    "The second engine is agentic workloads: Modal's sandbox primitives let AI coding agents spin up isolated environments thousands of times per minute, and batch, fine-tuning and training jobs ride the same per-second metering. Because revenue tracks actual compute consumed rather than seat counts, Modal's top line scales directly with its customers' token and agent volume — the pattern behind the ~6x jump from mid-2025 to early 2026."
+  ],
+  "revenueMix": [
+    [
+      "Per-second GPU inference",
+      "Metered GPU time across A10, L40S, A100 and H100 classes; no minimums."
+    ],
+    [
+      "Agent sandboxes",
+      "Isolated execution environments billed by the second for AI coding agents."
+    ],
+    [
+      "Batch & fine-tuning",
+      "Training and bulk-processing jobs on the same usage-based meter."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Modal's ARR in 2026?",
+      "a": "Modal does not publish revenue. Sacra estimated roughly $300 million of annualized revenue by April 2026, up from about $119 million at the end of 2025 and about $50 million in mid-2025 — implying roughly $25 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Reliable Is the $300M Modal ARR Number?",
+      "a": "It is a third-party research estimate, not a company disclosure. The anchors are press reports of ~$50M annualized revenue in mid-2025, ~$60M at the September 2025 Series B, and ~$119M by December 2025, which make the ~$300M figure directionally consistent."
+    },
+    {
+      "q": "How Does Modal Charge Customers?",
+      "a": "Pure usage-based billing: per-second metered GPU and CPU time with no clusters to provision and no idle charges. Published rates vary by GPU class (A10, L40S, A100, H100), and the same meter covers inference, fine-tuning, batch jobs and agent sandboxes."
+    },
+    {
+      "q": "What Is Modal's Valuation?",
+      "a": "A $355 million round in May 2026 valued Modal at $4.65 billion, per Reuters — up from a $1.1 billion post-money valuation at its $87 million Series B led by Lux Capital just eight months earlier. Total funding is roughly $466 million."
+    },
+    {
+      "q": "Who Uses Modal?",
+      "a": "Teams serving open-weight model inference and, increasingly, AI coding agents that rent isolated sandboxes at high frequency. The May 2026 round was driven in part by demand from agent workloads running on the platform."
+    }
+  ],
+  "ctaTitle": "Building on Serverless AI? Get Paid Like Infrastructure.",
+  "ctaDescription": "Per-second GPU billing is unforgiving — your metering has to match. Clink pairs usage-based subscriptions with checkout and merchant-of-record tax for serverless platforms.",
+  "ctaLabel": "Meter Your Compute",
+  "ctaHref": "/contact"
+}

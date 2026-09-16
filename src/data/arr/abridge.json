@@ -1,0 +1,191 @@
+{
+  "slug": "abridge",
+  "name": "Abridge",
+  "domain": "abridge.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/abridge",
+  "h1": "Abridge ARR: $100M+ in 18 Months, From $6M.",
+  "intro": "Abridge went from roughly $6M of ARR in early 2024 to $100M+ by mid-2025 — one of the fastest enterprise ramps in healthcare software — and its valuation doubled twice within five months. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Abridge ARR: $100M+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Abridge revenue number in one place: $6M to $100M+ ARR in 18 months, $117M contracted ARR, $5.3B valuation and 150+ health systems — with sources.",
+  "ogDescription": "$6M to $100M+ ARR in 18 months — the full Abridge revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$100M+",
+      "Reported ARR, mid-2025"
+    ],
+    [
+      "18 months",
+      "$6M → $100M+ ARR"
+    ],
+    [
+      "$117M",
+      "Contracted ARR, Q1 2025"
+    ],
+    [
+      "$5.3B",
+      "Valuation, Series E Jun 2025"
+    ]
+  ],
+  "chartTitle": "The Abridge Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, early 2024 to mid-2025. Linear scale — the clinical documentation market does the accelerating.",
+  "chartMax": 110,
+  "chartSources": "Sources: Sacra, Value Add VC, company disclosures.",
+  "milestones": [
+    {
+      "label": "Early '24",
+      "date": "Early 2024",
+      "arr": 6,
+      "note": "Founded in 2018 by cardiologist Dr. Shiv Rao; the ambient AI scribe begins converting pilots into enterprise contracts, with roughly $19M ARR reported during 2024.",
+      "source": "Sacra / Value Add VC"
+    },
+    {
+      "label": "Feb '24",
+      "date": "February 2024",
+      "arr": 10,
+      "note": "$150M Series C led by Kleiner Perkins and Lightspeed values Abridge around $1B as health-system adoption accelerates.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Dec '24",
+      "date": "End of 2024",
+      "arr": 60,
+      "note": "ARR reaches $60M by year-end 2024, with 20,000+ clinicians documenting through the platform and Epic integration widening the funnel.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025",
+      "arr": 75,
+      "note": "$250M Series D at a $2.75B valuation — the valuation doubles in under a year.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "May '25",
+      "date": "May 2025",
+      "arr": 100,
+      "note": "Crosses $100M ARR — up from ~$6M eighteen months earlier — with contracted ARR reaching $117M in Q1 2025.",
+      "source": "Sacra / Value Add VC"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 100,
+      "note": "$300M Series E led by Andreessen Horowitz values Abridge at $5.3B — a second valuation doubling in four months — with 150+ enterprise health systems deployed.",
+      "source": "Company / Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$6M → $60M ARR",
+      "value": "~10 months",
+      "source": "Early 2024 → Dec 2024"
+    },
+    {
+      "label": "$6M → $100M+ ARR",
+      "value": "18 months",
+      "source": "Early 2024 → May 2025"
+    },
+    {
+      "label": "$2.75B → $5.3B valuation",
+      "value": "4 months",
+      "source": "Feb 2025 → Jun 2025"
+    },
+    {
+      "label": "Implied MRR at $100M ARR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M+",
+      "source": "Sacra / Value Add VC, mid-2025"
+    },
+    {
+      "label": "Contracted ARR",
+      "value": "$117M",
+      "source": "Q1 2025"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$5.3B",
+      "source": "Series E, Jun 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "$757M+",
+      "source": "Sacra"
+    },
+    {
+      "label": "Health systems",
+      "value": "150+",
+      "source": "Company, 2025"
+    },
+    {
+      "label": "Clinicians",
+      "value": "20,000+",
+      "source": "Sacra, 2024"
+    },
+    {
+      "label": "Founded",
+      "value": "2018, Pittsburgh",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Dr. Shiv Rao",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Per-Clinician Contracts Reach Eight Figures.",
+  "modelParagraphs": [
+    "Abridge sells enterprise contracts to health systems, priced per clinician per month for ambient clinical documentation — ambient listening during patient visits turns into structured, specialty-tuned notes and billing-ready coding suggestions. Health systems typically roll it out to hundreds or thousands of clinicians at once, which is why a single expansion can move revenue in eight-figure steps.",
+    "The distribution moat is Epic: a native partnership makes Abridge the default scribe option inside the EHR most large US health systems already run, so revenue compounds through system-wide deals rather than bottom-up adoption. Contracted ARR of $117M against $100M+ recognized ARR in Q1 2025 shows a signed backlog running ahead of deployment — the usual leading indicator in enterprise healthcare."
+  ],
+  "revenueMix": [
+    [
+      "Per-clinician subscriptions",
+      "Enterprise contracts billed monthly per documenting clinician."
+    ],
+    [
+      "System-wide rollouts",
+      "Health-system agreements spanning hundreds to thousands of seats."
+    ],
+    [
+      "Coding intelligence",
+      "Structured-note and coding-suggestion layers expanding contract value."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Abridge's ARR in 2026?",
+      "a": "Abridge crossed $100M in ARR in May 2025 — up from roughly $6M eighteen months earlier — with contracted ARR of $117M in Q1 2025. The company has continued expanding its clinical AI platform since, with no newer precise figure published."
+    },
+    {
+      "q": "How Fast Did Abridge Reach $100M ARR?",
+      "a": "Eighteen months, from roughly $6M in early 2024 to $100M+ by May 2025 — passing $60M at the end of 2024 along the way, and converting pilots across 150+ health systems into system-wide contracts."
+    },
+    {
+      "q": "How Does Abridge Make Money?",
+      "a": "Enterprise contracts priced per clinician per month for ambient AI clinical documentation, with system-wide rollouts at large US health systems. Epic integration and structured coding suggestions expand contract value beyond the base scribe."
+    },
+    {
+      "q": "What Is Abridge's Valuation and How Much Has It Raised?",
+      "a": "A $300 million Series E led by Andreessen Horowitz in June 2025 valued Abridge at $5.3 billion — a second doubling in four months after the $2.75B Series D in February 2025. Total funding exceeds $757M."
+    },
+    {
+      "q": "Is Abridge's ARR Officially Disclosed?",
+      "a": "No. The $100M+ and $117M contracted-ARR figures come from Sacra and Value Add VC reporting on investor information — a 'Reported' grade on the Clink ARR Leaderboard, not a company statement."
+    }
+  ],
+  "ctaTitle": "Selling to Enterprise? Get Paid Like Abridge.",
+  "ctaDescription": "Clink handles enterprise subscription billing, seat-based invoicing and merchant-of-record tax compliance for clinical AI — so health-system rollouts never wait on payments.",
+  "ctaLabel": "Bill Health Systems",
+  "ctaHref": "/contact"
+}

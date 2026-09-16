@@ -1,0 +1,209 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "domain": "cursor.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/cursor",
+  "h1": "Cursor ARR: $4B+ and a $60B Acquisition by SpaceX.",
+  "intro": "Anysphere's AI code editor went from a $1M run rate in 2023 to more than $4 billion in annualized revenue by June 2026 — and then agreed to a $60 billion all-stock acquisition by SpaceX. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
+  "metaTitle": "Cursor ARR: $4B+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Cursor (Anysphere) revenue number: $1M to $100M ARR in 12 months, $4B+ annualized revenue in June 2026, the $60B SpaceX acquisition, implied MRR, funding rounds and valuation — with sources.",
+  "ogDescription": "From $100M ARR in a year to $4B+ and a $60B SpaceX buyout — the full Cursor revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$4B+",
+      "Reported ARR, June 2026"
+    ],
+    [
+      "~$333M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "12 months",
+      "From launch to $100M ARR"
+    ],
+    [
+      "$60B",
+      "SpaceX all-stock acquisition, Jun 2026"
+    ]
+  ],
+  "chartTitle": "The Cursor Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2023 to June 2026. The curve is close to vertical at the end — the run rate went from $2B in February 2026 to $4B+ by the time SpaceX agreed to acquire the company.",
+  "chartMax": 4400,
+  "chartSources": "Sources: Reuters, Bloomberg, TechCrunch, Sacra, Value Add VC.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 1,
+      "note": "Anysphere ships Cursor as an AI-native fork of VS Code; first paid seats land.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Early '24",
+      "date": "Early 2024",
+      "arr": 10,
+      "note": "Developer word-of-mouth compounds; individual Pro seats carry nearly all revenue.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Late '24",
+      "date": "Late 2024",
+      "arr": 100,
+      "note": "$100M ARR roughly 12 months after the first million — one of the fastest ramps ever recorded in software.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 500,
+      "note": "$900M Series C at a $9.9B valuation; enterprise seats become a real second engine.",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 1000,
+      "note": "$2.3B Series D led by Accel and Coatue at a $29.3B valuation.",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 2000,
+      "note": "Past $2B annualized revenue, with the run rate reportedly doubling over the previous three months.",
+      "source": "Bloomberg via TechCrunch"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 3000,
+      "note": "SpaceX preempts a planned $2B fundraise at roughly $50B, offering to buy the company later in the year or pay a $10B fee.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 2026",
+      "arr": 4000,
+      "note": "Past $4B annualized revenue — and SpaceX agrees to acquire Anysphere in a $60 billion all-stock deal, days after its own IPO.",
+      "source": "Reuters"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~12 months",
+      "source": "Sacra"
+    },
+    {
+      "label": "$100M → $1B ARR",
+      "value": "~12 months",
+      "source": "Late 2024 → Nov 2025"
+    },
+    {
+      "label": "$1B → $4B ARR",
+      "value": "~7 months",
+      "source": "Nov 2025 → Jun 2026"
+    },
+    {
+      "label": "Founded → $60B exit",
+      "value": "~4 years",
+      "source": "2022 → Jun 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$4B+",
+      "source": "Jun 2026, at acquisition"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$333M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Acquisition",
+      "value": "$60B, all-stock, by SpaceX",
+      "source": "Reuters, Jun 2026"
+    },
+    {
+      "label": "Pre-deal valuation",
+      "value": "~$29.3B → ~$50B talks",
+      "source": "Series D Nov 2025; TechCrunch Apr 2026"
+    },
+    {
+      "label": "Series D",
+      "value": "$2.3B, Accel + Coatue",
+      "source": "Nov 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2022, by four MIT students",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Product",
+      "value": "AI-native code editor and coding agent",
+      "source": "Company"
+    },
+    {
+      "label": "Primary model",
+      "value": "Per-seat subscription + usage",
+      "source": "Company pricing"
+    },
+    {
+      "label": "2026 revenue forecast",
+      "value": "$6B+ by year-end",
+      "source": "Press reports, 2026"
+    }
+  ],
+  "modelTitle": "How Seat Licenses Scaled to $4B.",
+  "modelParagraphs": [
+    "Cursor sells developer seats. A free tier gets people writing code inside the editor, a Pro plan around $20/month unlocks the frontier models, and business plans add seat management, pooled usage and privacy controls. Because the buyer is an individual engineer first, adoption spreads inside a company long before procurement is involved.",
+    "On top of seats sits usage: heavy agent runs consume model tokens, and Cursor bills the overage. That is also the margin pressure point — the company pays frontier labs for inference, so gross margin depends on routing work to the cheapest model that still ships correct code."
+  ],
+  "revenueMix": [
+    [
+      "Individual Pro seats",
+      "~$20/month, bought by developers without procurement."
+    ],
+    [
+      "Team and business plans",
+      "Seat administration, pooled usage and privacy modes."
+    ],
+    [
+      "Usage overage",
+      "Agent-heavy work billed on top of the seat price."
+    ],
+    [
+      "Enterprise agreements",
+      "Custom contracts as bottom-up adoption converts."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Cursor's ARR in 2026?",
+      "a": "Cursor surpassed $4 billion in annualized revenue by June 2026, up from $2 billion in February 2026. That implies roughly $333 million of monthly recurring revenue, and press reports around the acquisition pointed to a forecast above $6 billion by the end of 2026."
+    },
+    {
+      "q": "How Fast Did Cursor Reach $100M ARR?",
+      "a": "About twelve months from its first meaningful revenue — at the time a record pace, later beaten by Lovable's eight months."
+    },
+    {
+      "q": "Did SpaceX Really Buy Cursor for $60 Billion?",
+      "a": "Reuters reported in June 2026 that SpaceX agreed to acquire Anysphere, Cursor's parent, in a $60 billion all-stock deal, days after SpaceX's own IPO. The deal began as an option: in April 2026 SpaceX offered to either buy the company later in the year or pay a $10 billion fee, preempting a planned $2 billion fundraise."
+    },
+    {
+      "q": "What Was Cursor's Valuation Before the Acquisition?",
+      "a": "A $2.3 billion Series D led by Accel and Coatue in November 2025 valued Anysphere at $29.3 billion. By April 2026 the company was in talks to raise at roughly $50 billion — the SpaceX deal then cleared that mark at $60 billion."
+    },
+    {
+      "q": "Why Do Developers Pay for Cursor When the Models Are Available Elsewhere?",
+      "a": "Cursor sells the editor and agent workflow around the models, not the models themselves. Pricing is mostly per-seat — a free tier, a Pro plan around $20/month and business plans with seat management — with usage-heavy agent work billed on top and enterprise contracts following bottom-up adoption."
+    }
+  ],
+  "ctaTitle": "Shipping an AI Coding Product? Get Paid Like Cursor.",
+  "ctaDescription": "Seat licenses this large deserve payment infrastructure to match. Clink handles checkout, subscriptions and merchant-of-record tax handling for developer tools.",
+  "ctaLabel": "Ship Faster with Clink",
+  "ctaHref": "/contact"
+}

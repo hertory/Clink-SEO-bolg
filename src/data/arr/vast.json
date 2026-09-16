@@ -1,0 +1,179 @@
+{
+  "slug": "vast",
+  "name": "VAST Data",
+  "domain": "vastdata.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/vast",
+  "h1": "VAST Data ARR: $500M+ of Committed Revenue Powering AI Factories.",
+  "intro": "VAST Data built the storage layer for AI factories — the systems that keep tens of thousands of GPUs fed with data — and crossed $500M of committed ARR on the way to a $30B valuation. Every reported ARR, bookings and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "VAST Data ARR: $500M+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported VAST Data revenue number in one place: $200M ARR in early 2025, $500M+ committed ARR, ~$4B cumulative bookings and the $30B Series F — with sources.",
+  "ogDescription": "From $200M to $500M+ committed ARR — the full VAST Data timeline, sourced.",
+  "heroStats": [
+    [
+      "$500M+",
+      "Committed ARR, 2026"
+    ],
+    [
+      "~$4B",
+      "Cumulative bookings"
+    ],
+    [
+      "$30B",
+      "Valuation, Series F"
+    ],
+    [
+      "$9.1B → $30B",
+      "Valuation jump in ~2 years"
+    ]
+  ],
+  "chartTitle": "The VAST Data Revenue Curve.",
+  "chartIntro": "Committed annual recurring revenue in USD millions. VAST reports committed ARR — contracted revenue not yet recognized — which is why the figure runs ahead of recognized revenue.",
+  "chartMax": 550,
+  "chartSources": "Sources: VAST Data, Calcalist, PitchBook, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2016",
+      "date": "2016",
+      "arr": 0,
+      "note": "Founded by Renen Hallak and Jeff Denworth to rethink storage around shared-everything architecture for unstructured data.",
+      "source": "Company"
+    },
+    {
+      "label": "Dec '23",
+      "date": "December 2023",
+      "arr": 100,
+      "note": "Series E at a $9.1B valuation — nearly triple its prior round — as AI data platform demand accelerated.",
+      "source": "VAST Data"
+    },
+    {
+      "label": "Early '25",
+      "date": "Early 2025",
+      "arr": 200,
+      "note": "Crossed $200M of ARR and hit a $1B annual order rate in Q1 2025, with projections to triple ARR within a year.",
+      "source": "Calcalist / press"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 500,
+      "note": "Over $500M in committed ARR, ~$4B in cumulative bookings and over $2B in cumulative revenue.",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "2026",
+      "date": "Series F, 2026",
+      "arr": 500,
+      "note": "~$1B Series F (primary + secondary) at a $30B valuation — NVIDIA among the backers, and reportedly the largest private round in Israeli tech history.",
+      "source": "VAST Data"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $200M ARR",
+      "value": "~8 years",
+      "source": "2016 founding → early 2025"
+    },
+    {
+      "label": "$200M → $500M+ committed ARR",
+      "value": "~1 year",
+      "source": "Early 2025 → 2026"
+    },
+    {
+      "label": "Valuation $9.1B → $30B",
+      "value": "~2 years",
+      "source": "Dec 2023 → 2026"
+    },
+    {
+      "label": "Annual order rate",
+      "value": "$1B",
+      "source": "Q1 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Committed ARR",
+      "value": "$500M+",
+      "source": "New Market Pitch, 2026"
+    },
+    {
+      "label": "Cumulative bookings",
+      "value": "~$4B",
+      "source": "Press reports, 2026"
+    },
+    {
+      "label": "Cumulative revenue",
+      "value": "$2B+",
+      "source": "Press reports, 2026"
+    },
+    {
+      "label": "Valuation",
+      "value": "$30B",
+      "source": "Series F, 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$1.4B equity",
+      "source": "PitchBook"
+    },
+    {
+      "label": "Key partner",
+      "value": "NVIDIA (AI factories)",
+      "source": "VAST Data"
+    },
+    {
+      "label": "Founded",
+      "value": "2016, New York",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Renen Hallak",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Committed Storage Contracts Reached $500M ARR.",
+  "modelParagraphs": [
+    "VAST sells software-defined storage as a subscription: a unified platform for unstructured data (file, object, database) licensed by capacity, deployed on customers' hardware. The AI boom changed the demand curve — every 'AI factory' running thousands of GPUs needs storage that can feed them, and VAST positioned itself as the data layer for those builds, particularly through its deep NVIDIA partnership in AI factory reference architectures.",
+    "The metric VAST leads with is committed ARR — contracted recurring revenue, which reached $500M+ in 2026 alongside ~$4B in cumulative bookings and $2B+ in cumulative revenue. The gap between committed and recognized is timing: large multi-year deployments get booked upfront and recognized over the contract. A ~$1B Series F at a $30B valuation — NVIDIA among the backers — marked the jump from $9.1B in December 2023."
+  ],
+  "revenueMix": [
+    [
+      "Storage subscriptions",
+      "Software licenses billed by capacity on customer hardware, the core recurring line."
+    ],
+    [
+      "AI factory data platforms",
+      "Large multi-year deployments co-sold through the NVIDIA AI factory ecosystem."
+    ],
+    [
+      "Support & services",
+      "Enterprise support bundled into committed contracts."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is VAST Data's ARR in 2026?",
+      "a": "VAST Data reports over $500 million in committed ARR as of 2026, up from $200M in early 2025. Committed ARR is contracted recurring revenue — alongside ~$4B in cumulative bookings and $2B+ in cumulative revenue."
+    },
+    {
+      "q": "What Does 'Committed ARR' Mean for VAST?",
+      "a": "It counts contracted recurring revenue, not yet-recognized revenue. Large multi-year deployments are booked when signed and recognized over the contract term, so committed ARR runs ahead of recognized revenue — the basis note on VAST's figure reflects exactly this."
+    },
+    {
+      "q": "How Fast Did VAST Data Grow?",
+      "a": "From $200M ARR in early 2025 — with a $1B annual order rate in Q1 2025 — to $500M+ of committed ARR roughly a year later, hitting its projection to triple ARR within a year."
+    },
+    {
+      "q": "What Is VAST Data's Valuation?",
+      "a": "A ~$1B Series F (primary and secondary, ~$1B total transaction value) valued VAST at $30 billion, up from $9.1B in December 2023. NVIDIA is a backer, and the round was reportedly the largest private financing in Israeli tech history."
+    },
+    {
+      "q": "Who Buys From VAST Data?",
+      "a": "Enterprises and AI infrastructure operators building large-scale GPU clusters — including neoclouds and AI factories built around NVIDIA reference architectures — where VAST's shared-everything storage platform feeds data to tens of thousands of accelerators."
+    }
+  ],
+  "ctaTitle": "Selling the AI Stack? Get Paid Like VAST Does.",
+  "ctaDescription": "Committed storage contracts booked years ahead need billing that keeps up. Clink handles recurring invoicing, subscription management and merchant-of-record tax for capacity deals.",
+  "ctaLabel": "Bill Capacity Contracts",
+  "ctaHref": "/contact"
+}

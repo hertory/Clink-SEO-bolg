@@ -1,0 +1,164 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "domain": "cohere.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/cohere",
+  "h1": "Cohere ARR: ~$500M in Enterprise and Sovereign AI.",
+  "intro": "Cohere went from ~$13M of revenue in 2023 to a ~$500M annualized run rate in 2026 by refusing to build a chatbot — its business is private, secure LLM deployments for enterprises and governments. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Cohere ARR: ~$500M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Cohere revenue number in one place: ~$13M revenue in 2023 to ~$500M ARR in 2026, implied MRR, valuation, funding history and enterprise model pricing — with sources.",
+  "ogDescription": "From ~$13M to ~$500M ARR — the full Cohere enterprise-AI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$500M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$41.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~$240M",
+      "Reported ARR at end of 2025"
+    ],
+    [
+      "$6.5B",
+      "Valuation, Aug 2025 round"
+    ]
+  ],
+  "chartTitle": "The Cohere Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized run rate in USD millions, 2023 to 2026. 2026 is a third-party estimate; earlier points are press-reported.",
+  "chartMax": 550,
+  "chartSources": "Sources: Cohere, CNBC, Sacra, Presenc AI, The Information.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 13,
+      "note": "~$13M of revenue from early API customers on Embed, Rerank and the first Command models.",
+      "source": "Press reports / Sacra"
+    },
+    {
+      "label": "Jul '24",
+      "date": "July 2024",
+      "arr": 50,
+      "note": "$500M Series D at a $5.5B valuation, with revenue reported in the tens of millions as the enterprise pivot took hold.",
+      "source": "Cohere / TechCrunch"
+    },
+    {
+      "label": "Aug '25",
+      "date": "August 2025",
+      "arr": 200,
+      "note": "$500M raised at a $6.8B valuation led by Radical Ventures with NVIDIA and Salesforce Ventures, as ARR passed $200M.",
+      "source": "Cohere"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 240,
+      "note": "Surpassed its $200M ARR target, closing 2025 at ~$240M with 70–80% gross margins on private deployments.",
+      "source": "CNBC"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 500,
+      "note": "Third-party estimates put the run rate near $500M as sovereign-AI contracts (governments running models on-prem) scale; an IPO has been reportedly discussed for 2026.",
+      "source": "Presenc AI"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~5 years",
+      "source": "2019 founding → ~2024"
+    },
+    {
+      "label": "$100M → $240M ARR",
+      "value": "~12 months",
+      "source": "~2024 → end of 2025"
+    },
+    {
+      "label": "$240M → $500M ARR",
+      "value": "~12 months",
+      "source": "End 2025 → 2026 (est.)"
+    },
+    {
+      "label": "Revenue multiple 2023→2026",
+      "value": "~38x",
+      "source": "$13M → ~$500M (est.)"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$500M",
+      "source": "Presenc AI, 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$41.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$6.5B",
+      "source": "Aug 2025 round"
+    },
+    {
+      "label": "Total raised",
+      "value": "$1B+",
+      "source": "Series C through E"
+    },
+    {
+      "label": "Founded",
+      "value": "2019, Toronto",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Sovereign Deployments Replace Consumer Subscriptions.",
+  "modelParagraphs": [
+    "Cohere sells to enterprises and governments, not consumers. API pricing is deliberately cheap relative to frontier labs: Command A at roughly $1.00 per million input tokens, Command R at $0.15/$0.60 per million input/output, Aya Expanse at $0.50/$1.50, Embed at $0.10 per million tokens and Rerank at $2.00 per 1,000 searches. North, its agentic platform, and Maestro-style orchestration sit on top.",
+    "The real margin engine is private deployment: Cohere runs its models inside customers' own cloud VPCs or entirely on-premise — including sovereign installs for national governments — where contracts are large, sticky and carry 70–80% gross margins. That willingness to stay out of the consumer race is why Cohere's valuation-to-ARR ratio is among the most conservative on this leaderboard."
+  ],
+  "revenueMix": [
+    [
+      "Private enterprise deployments",
+      "On-prem and VPC contracts with 70–80% gross margins; the margin engine."
+    ],
+    [
+      "Usage-based API",
+      "Command, Embed and Rerank priced from $0.10–$1.00 per million tokens."
+    ],
+    [
+      "Sovereign AI",
+      "National-government installs running Cohere models in-country."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Cohere's ARR in 2026?",
+      "a": "Third-party estimates put Cohere's annualized run rate near $500 million in 2026, up from ~$240M at the end of 2025 (when it beat its own $200M target) and just ~$13M in 2023. Cohere itself has not published an official ARR figure."
+    },
+    {
+      "q": "How Does Cohere Make Money?",
+      "a": "Enterprise and government contracts: private deployments of its models inside customer VPCs or fully on-premise, plus a usage-based API (Command A at ~$1.00 per million input tokens, Embed at $0.10, Rerank at $2.00 per 1,000 searches)."
+    },
+    {
+      "q": "Why Doesn't Cohere Have a Chatbot?",
+      "a": "Deliberate strategy. Cohere skipped the consumer race to focus on secure, private enterprise and sovereign AI, which it argues wins larger, stickier contracts with better margins — and avoids competing head-on with OpenAI and Google."
+    },
+    {
+      "q": "What Is Cohere's Valuation and How Much Has It Raised?",
+      "a": "$6.5–6.8 billion as of its August 2025 round ($500M led by Radical Ventures, with NVIDIA and Salesforce Ventures), after a $500M Series D at $5.5B in July 2024 and a $2.2B valuation in 2023. Total raised exceeds $1 billion."
+    },
+    {
+      "q": "Is Cohere Planning an IPO?",
+      "a": "A 2026 IPO has been reported as under discussion, which would make it one of the first pure-play enterprise LLM companies to list. The company has not officially confirmed timing."
+    }
+  ],
+  "ctaTitle": "Building on Cohere? Get Paid Like a Platform.",
+  "ctaDescription": "Clink supports private-deployment contract billing, usage-based invoicing and merchant-of-record tax handling — payments built for enterprises and governments, not just consumers.",
+  "ctaLabel": "Sell Sovereign AI",
+  "ctaHref": "/contact"
+}

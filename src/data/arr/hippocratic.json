@@ -1,0 +1,164 @@
+{
+  "slug": "hippocratic",
+  "name": "Hippocratic AI",
+  "domain": "hippocraticai.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/hippocratic",
+  "h1": "Hippocratic AI ARR: ~$50M+ at the Safety-First Frontier.",
+  "intro": "Hippocratic AI builds patient-facing clinical agents and has never precisely disclosed revenue — it is carried here at an estimated ~$50M+ threshold, backed by a $3.5B Series C valuation and 10 million patient calls. The timeline below mixes funding milestones with clearly flagged third-party estimates.",
+  "metaTitle": "Hippocratic AI ARR: ~$50M Revenue, Funding and Growth Timeline (2026)",
+  "metaDescription": "What is publicly known about Hippocratic AI's revenue: ARR not precisely disclosed, estimated at the $50M threshold, alongside the $1.64B and $3.5B funding rounds and 10M patient calls — with sources.",
+  "ogDescription": "ARR not precisely disclosed; estimated at $50M — the Hippocratic AI funding and traction timeline, sourced.",
+  "heroStats": [
+    [
+      "~$50M+",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "10M+",
+      "Patient calls completed"
+    ],
+    [
+      "$3.5B",
+      "Valuation, Series C Nov 2025"
+    ],
+    [
+      "$404M",
+      "Total funding raised"
+    ]
+  ],
+  "chartTitle": "The Hippocratic AI Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, 2024 to 2026. ARR is not precisely disclosed; earlier points are illustrative third-party estimates, and the company's funding rounds are marked on the same axis.",
+  "chartMax": 60,
+  "chartSources": "Sources: Hippocratic AI, SiliconANGLE, Fierce Healthcare, Presenc AI. Estimates are not company disclosures.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 2,
+      "note": "Founded by Munjal Shah with a safety-focused LLM for healthcare; revenue negligible. Illustrative estimate only.",
+      "source": "Company (founding); ARR illustrative"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 5,
+      "note": "Early hospital pilots for patient-facing non-diagnostic agents. Illustrative estimate — ARR not disclosed.",
+      "source": "Estimate"
+    },
+    {
+      "label": "Jan '25",
+      "date": "January 2025",
+      "arr": 15,
+      "note": "$141M Series B at a $1.64B valuation makes Hippocratic a unicorn; an agent app store lets clinicians build their own agents.",
+      "source": "Fierce Healthcare"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 3, 2025",
+      "arr": 35,
+      "note": "$126M Series C at a $3.5B valuation led by Avenir Growth; total funding reaches $404M. ARR still undisclosed.",
+      "source": "Hippocratic AI / SiliconANGLE"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Estimated at the ~$50M threshold as the company passes 10 million patient calls and expands into nurse workflows and life sciences. Third-party estimate.",
+      "source": "Presenc AI (estimate)"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Founded → unicorn",
+      "value": "~18 months",
+      "source": "2023 → Jan 2025"
+    },
+    {
+      "label": "Unicorn → $3.5B valuation",
+      "value": "10 months",
+      "source": "Jan 2025 → Nov 2025"
+    },
+    {
+      "label": "0 → 10M patient calls",
+      "value": "~2 years",
+      "source": "Launch → 2026"
+    },
+    {
+      "label": "ARR disclosure",
+      "value": "Never published",
+      "source": "Carried at $50M estimate"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "~$50M+ (estimated)",
+      "source": "Presenc AI estimate; not disclosed"
+    },
+    {
+      "label": "Valuation (Series B)",
+      "value": "$1.64B",
+      "source": "Series B, Jan 2025"
+    },
+    {
+      "label": "Valuation (Series C)",
+      "value": "$3.5B",
+      "source": "Series C, Nov 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "$404M",
+      "source": "Six rounds through Nov 2025"
+    },
+    {
+      "label": "Patient calls",
+      "value": "10M+",
+      "source": "Company, 2026"
+    }
+  ],
+  "modelTitle": "How Hospitals Pay Agents by the Interaction.",
+  "modelParagraphs": [
+    "Hippocratic AI sells patient-facing clinical agents to hospitals and health systems on enterprise contracts — agents that handle non-diagnostic tasks like appointment prep, medication reminders, follow-up check-ins and chronic-care outreach, staffed against the roughly 1.2 million-nurse shortfall in the U.S. Healthcare organizations pay per deployment and per interaction volume rather than per seat.",
+    "The 2025 app store opened a second channel: clinicians design and publish their own agents, and Hippocratic takes the underlying platform spend. Series C funds were earmarked for M&A, product development and international expansion — a signal that the company is consolidating the patient-communication stack while revenue remains below disclosure scale."
+  ],
+  "revenueMix": [
+    [
+      "Hospital enterprise contracts",
+      "Per-deployment and per-interaction pricing for patient-facing agents."
+    ],
+    [
+      "Agent app store",
+      "Clinician-built agents monetized through the platform."
+    ],
+    [
+      "Life sciences expansion",
+      "Pharma-facing agents for outreach and trials, added post-Series C."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Hippocratic AI's ARR in 2026?",
+      "a": "Hippocratic AI has not precisely disclosed its ARR. It is carried here at an estimated ~$50 million threshold, consistent with third-party research; the company's most concrete traction numbers are 10 million+ patient calls and a $3.5 billion valuation."
+    },
+    {
+      "q": "Why Is Hippocratic AI's Revenue Only an Estimate?",
+      "a": "The company has never published revenue, margin or burn figures. Its funding rounds — $141M Series B at $1.64B in January 2025 and $126M Series C at $3.5B in November 2025 — are the primary public signals, and analysts derive revenue context from those multiples."
+    },
+    {
+      "q": "How Does Hippocratic AI Make Money?",
+      "a": "Enterprise contracts with hospitals and health systems for patient-facing, non-diagnostic agents — priced per deployment and per interaction — plus an app store where clinicians build agents and Hippocratic monetizes the underlying platform usage."
+    },
+    {
+      "q": "What Is Hippocratic AI's Valuation?",
+      "a": "$3.5 billion after a $126 million Series C led by Avenir Growth on November 3, 2025, up from $1.64 billion at the January 2025 Series B. Total funding stands at $404 million across six rounds."
+    },
+    {
+      "q": "What Does Hippocratic AI Actually Do?",
+      "a": "It builds safety-focused generative AI agents for patient-facing healthcare communication — appointment prep, medication reminders, follow-ups and chronic-care check-ins — positioned against the roughly 1.2 million-nurse shortage in U.S. healthcare, with expansion into nurse workflows and life sciences in 2026."
+    }
+  ],
+  "ctaTitle": "Building Healthcare Agents? Monetize Every Interaction.",
+  "ctaDescription": "Clink bills healthcare agents by the interaction — enterprise contracts, usage invoicing and merchant-of-record tax handling for clinical AI deployments.",
+  "ctaLabel": "Bill Healthcare Agents",
+  "ctaHref": "/contact"
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "mistral",
+  "name": "Mistral",
+  "domain": "mistral.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/mistral",
+  "h1": "Mistral ARR: $400M in Sovereign, Open-Weight AI.",
+  "intro": "Mistral went from ~$16M annualized at the end of 2024 to a $400M revenue run rate by January 2026 — roughly 20x in a year — on enterprise API usage and Europe's sovereign-AI buildout. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Mistral ARR: $400M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Mistral AI revenue number in one place: ~$16M ARR at end-2024 to $400M by January 2026, implied MRR, valuation, funding history and model pricing — with sources.",
+  "ogDescription": "From ~$16M ARR to $400M in about a year — the full Mistral revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$400M",
+      "Revenue run rate, Jan 2026"
+    ],
+    [
+      "~$33.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~20x",
+      "Year-over-year growth"
+    ],
+    [
+      "€21B",
+      "Valuation, Sept 2026 Series D"
+    ]
+  ],
+  "chartTitle": "The Mistral Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, end of 2024 to January 2026. Linear scale — the 20x jump compresses everything before late 2025 into a flat line.",
+  "chartMax": 440,
+  "chartSources": "Sources: Mistral, Financial Times, Sacra, TechCrunch, Reuters.",
+  "milestones": [
+    {
+      "label": "Dec '24",
+      "date": "End of 2024",
+      "arr": 16,
+      "note": "~$16M annualized run rate at year-end 2024, roughly 18 months after the June 2023 founding — slow by AI-lab standards, before the enterprise motion matured.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Sep '25",
+      "date": "September 2025",
+      "arr": 100,
+      "note": "€1.7B Series C co-led by ASML and a16z valued Mistral at €12B (~$13.8B) as the run rate climbed toward nine figures.",
+      "source": "Mistral / TechCrunch"
+    },
+    {
+      "label": "Dec '25",
+      "date": "December 2025",
+      "arr": 312,
+      "note": "~$312M annualized per Sacra, with revenue roughly 20x year-over-year per CEO Arthur Mensch's 'north of $400mn' framing a month later.",
+      "source": "Sacra / FT"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 400,
+      "note": "Sacra estimates Mistral hit $400M ARR; the FT reported revenue 'north of $400mn,' up from ~$20M a year earlier.",
+      "source": "Sacra / FT"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 2026",
+      "arr": 400,
+      "note": "€3B (~$3.5B) Series D at a ~€21B (~$24B) valuation led by Samsung Electronics, with a stated target of €1B revenue for 2026.",
+      "source": "TechCrunch / Reuters"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~2.5 years",
+      "source": "Jun 2023 founding → mid-2025"
+    },
+    {
+      "label": "$100M → $400M ARR",
+      "value": "~7 months",
+      "source": "Mid 2025 → Jan 2026"
+    },
+    {
+      "label": "YoY growth at $400M",
+      "value": "~20x",
+      "source": "FT, early 2026"
+    },
+    {
+      "label": "2026 revenue target",
+      "value": "€1B",
+      "source": "Company target via press reports"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$400M",
+      "source": "Sacra / FT, Jan 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$33.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "€21B (~$24B)",
+      "source": "Series D, Sep 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "~€6B",
+      "source": "Since founding, 2023"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Paris",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Sovereign AI Deals Became the Growth Engine.",
+  "modelParagraphs": [
+    "Mistral monetizes three ways: a usage-based API (la Plateforme) with tiered pricing per million tokens across its open-weight model families; Le Chat subscriptions on the consumer side, including Pro and Team plans around the $15–30/month range; and — the fastest-growing slice — custom enterprise and sovereign contracts in which governments and industrials (Airbus, BMW, ASML among the named partners) pay for private deployments and dedicated capacity.",
+    "The sovereign-AI positioning is the differentiator: European governments and national champions buy Mistral specifically because its open weights can run in-country and in-house. That drove the enterprise book from ~$20M to $400M annualized in about a year, backed by commitments like €1.2B in Swedish data-center capacity."
+  ],
+  "revenueMix": [
+    [
+      "Usage-based API",
+      "Per-token pricing on open-weight model families via La Plateforme."
+    ],
+    [
+      "Enterprise & sovereign contracts",
+      "Private in-country deployments for governments and industrials — the growth engine."
+    ],
+    [
+      "Le Chat subscriptions",
+      "Consumer and team plans at roughly $15–30/month."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Mistral's ARR in 2026?",
+      "a": "Mistral's annualized revenue run rate reached $400 million by January 2026, per Sacra estimates and FT reporting of CEO Arthur Mensch's figures — up from ~$16M at the end of 2024, roughly a 20x year. The company targets €1 billion of revenue for 2026."
+    },
+    {
+      "q": "How Fast Did Mistral Grow?",
+      "a": "From ~$100M annualized in mid-2025 to $400M by January 2026 — about seven months for a 4x — and roughly 20x year-over-year at the $400M mark."
+    },
+    {
+      "q": "How Does Mistral Make Money?",
+      "a": "Usage-based API pricing on its open-weight models, Le Chat consumer subscriptions (~$15–30/month tiers), and custom enterprise and sovereign contracts — private in-country deployments for governments and industrials like Airbus, BMW and ASML."
+    },
+    {
+      "q": "What Is Mistral's Valuation and How Much Has It Raised?",
+      "a": "A €3 billion (~$3.5B) Series D in September 2026 valued Mistral at ~€21 billion (~$24B), up from €12B in September 2025. Total raised is roughly €6 billion since its 2023 founding, with ASML among the strategic backers."
+    },
+    {
+      "q": "Why Do Governments Choose Mistral?",
+      "a": "Open weights. Mistral's models can be deployed inside national infrastructure and audited, which is the core requirement for sovereign-AI procurement in Europe — a wedge closed labs like OpenAI and Anthropic structurally cannot offer."
+    }
+  ],
+  "ctaTitle": "Building on Mistral? Get Paid Like a Platform.",
+  "ctaDescription": "Open-weight models sold through usage APIs, consumer plans and sovereign deployments. Clink provides the checkout, metering and merchant-of-record tax handling behind all of it.",
+  "ctaLabel": "Sell Sovereign AI Plans",
+  "ctaHref": "/contact"
+}

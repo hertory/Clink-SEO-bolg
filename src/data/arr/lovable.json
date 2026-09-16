@@ -1,0 +1,252 @@
+{
+  "slug": "lovable",
+  "name": "Lovable",
+  "domain": "lovable.dev",
+  "canonical": "https://clinkbill.com/arr-leaderboard/lovable",
+  "h1": "Lovable ARR: $500M+ and Still Compounding.",
+  "intro": "Lovable went from its first dollar to a $500M annualized run rate in roughly 19 months — the fastest revenue ramp on record in software. Every reported ARR, MRR, funding and headcount number is collected below, each traced back to a public source.",
+  "metaTitle": "Lovable ARR: $500M+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Lovable revenue number in one place: $1M ARR in 8 days to $500M+ in 2026, implied MRR, valuation, headcount and ARR per employee — with sources.",
+  "ogDescription": "From $1M ARR in 8 days to $500M+ — the full Lovable revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$500M+",
+      "Reported ARR, June 2026"
+    ],
+    [
+      "~$41.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "8 months",
+      "From launch to $100M ARR"
+    ],
+    [
+      "$6.6B",
+      "Valuation, Series B Dec 2025"
+    ]
+  ],
+  "chartTitle": "The Lovable Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, December 2024 to June 2026. Linear scale — which is exactly why the first year looks flat.",
+  "chartMax": 500,
+  "chartSources": "Sources: Lovable, TechCrunch, Business Insider, Sifted, Sacra.",
+  "milestones": [
+    {
+      "label": "Dec '24",
+      "date": "December 2024 · 8 days after launch",
+      "arr": 1,
+      "note": "First $1M ARR eight days after the public launch.",
+      "source": "ARR Club"
+    },
+    {
+      "label": "Dec '24",
+      "date": "December 2024 · week 4",
+      "arr": 4,
+      "note": "$4M ARR in the first four weeks.",
+      "source": "The Signal"
+    },
+    {
+      "label": "Jan '25",
+      "date": "January 2025 · day 60",
+      "arr": 10,
+      "note": "$10M ARR in 60 days with a team of 15.",
+      "source": "ARR Club"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025 · day 90",
+      "arr": 17,
+      "note": "500K users and 30K paying customers, on roughly $2M burned.",
+      "source": "ARR Club"
+    },
+    {
+      "label": "Mar '25",
+      "date": "March 2025 · day 120",
+      "arr": 30,
+      "note": "18 employees — over $1M of ARR per person.",
+      "source": "Elena Verna"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 75,
+      "note": "45 employees. Lovable folded the Team tier into the cheaper Pro tier and gave up $1.5M ARR in a day.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Jul '25",
+      "date": "July 23, 2025",
+      "arr": 100,
+      "note": "Fastest company in history to $100M ARR — 8 months. 2.3M users, 180K paying.",
+      "source": "lovable.dev/blog/agent"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 200,
+      "note": "Doubled in ~3.9 months, around 120 employees.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '25",
+      "date": "December 2025",
+      "arr": 250,
+      "note": "$330M Series B closed at a $6.6B valuation, led by CapitalG and Menlo's Anthology fund.",
+      "source": "Lovable / Sacra"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 300,
+      "note": "Enterprise push lands Klarna, HubSpot and others.",
+      "source": "Business Insider"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 400,
+      "note": "+33% in a single month with ~146 employees — $2.77M ARR per employee.",
+      "source": "Business Insider"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 9, 2026",
+      "arr": 500,
+      "note": "Past $500M annualized run rate, 1M new projects a week, 50M+ projects built.",
+      "source": "TechCrunch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $1M ARR",
+      "value": "8 days",
+      "source": "Dec 2024"
+    },
+    {
+      "label": "$0 → $10M ARR",
+      "value": "60 days",
+      "source": "Jan 2025"
+    },
+    {
+      "label": "$0 → $100M ARR",
+      "value": "8 months",
+      "source": "Jul 2025"
+    },
+    {
+      "label": "$100M → $500M ARR",
+      "value": "~10.5 months",
+      "source": "Jul 2025 → Jun 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$500M+",
+      "source": "TechCrunch, Jun 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$41.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$6.6B",
+      "source": "Series B, Dec 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "$545M+",
+      "source": "$15M pre-seed + $200M A + $330M B"
+    },
+    {
+      "label": "Employees",
+      "value": "~146",
+      "source": "TechCrunch, Feb 2026"
+    },
+    {
+      "label": "ARR per employee",
+      "value": "~$2.77M",
+      "source": "Derived"
+    },
+    {
+      "label": "Registered users",
+      "value": "~8M",
+      "source": "Sacra, 2026"
+    },
+    {
+      "label": "Paying customers",
+      "value": "180K",
+      "source": "Reported Jul 2025"
+    },
+    {
+      "label": "Projects built",
+      "value": "50M+ · 1M new / week",
+      "source": "TechCrunch, Jun 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "Nov 2023, Stockholm",
+      "source": "Sacra"
+    },
+    {
+      "label": "Public launch",
+      "value": "Nov 2024",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "CEO",
+      "value": "Anton Osika",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How $20 Plans and $50 Credits Compound.",
+  "modelParagraphs": [
+    "Lovable monetizes with a tiered subscription that starts around $20/month and runs to roughly $100/month, plus custom enterprise agreements. On top of the plan sits credit-based usage: a simple game might burn about $1 of credits, a complex app $50 or more. The free tier ships with hosting, which turns every abandoned side project into a future upgrade.",
+    "Subscriptions carry the bulk of revenue — enough that in June 2025 Lovable deliberately wrote off $1.5M of ARR in a single day by folding its Team tier into the cheaper Pro plan. Enterprise arrived later, with Klarna and HubSpot among the named logos."
+  ],
+  "revenueMix": [
+    [
+      "Tiered subscriptions",
+      "$20/mo entry, ~$100/mo premium, custom enterprise plans."
+    ],
+    [
+      "Usage credits",
+      "AI generation billed by consumption, so revenue tracks app complexity."
+    ],
+    [
+      "Freemium hosting",
+      "Free builds and hosting seed a land-and-expand upgrade path."
+    ],
+    [
+      "Enterprise contracts",
+      "Named customers include Klarna and HubSpot."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Lovable's ARR in 2026?",
+      "a": "Lovable said it passed $500 million in annualized revenue run rate on June 9, 2026, up from $400 million in February 2026 and $100 million in July 2025. That implies roughly $41.7 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Lovable Reach $100M ARR?",
+      "a": "Eight months after its public launch in November 2024 — the fastest software company on record to that milestone, ahead of previously reported record-holders such as Cursor and Wiz."
+    },
+    {
+      "q": "What Does a Lovable Subscription Actually Include?",
+      "a": "Tiered plans from around $20/month up to about $100/month, plus custom enterprise agreements, with usage-based credits for AI generation on top. A free tier with hosting seeds the land-and-expand motion into paid teams."
+    },
+    {
+      "q": "What Is Lovable's Valuation and How Much Has It Raised?",
+      "a": "A $330 million Series B in December 2025 led by CapitalG and Menlo Ventures' Anthology fund valued Lovable at $6.6 billion. That followed a $200 million Series A led by Accel at $1.8 billion in July 2025."
+    },
+    {
+      "q": "How Many People Work at Lovable?",
+      "a": "About 146 employees as of February 2026, which works out to roughly $2.77 million of ARR per employee — among the highest ratios ever reported in software."
+    }
+  ],
+  "ctaTitle": "Building on Lovable? Get Paid Like Lovable.",
+  "ctaDescription": "Clink turns $20 plans and $50 credit burns into revenue — checkout, subscriptions and merchant-of-record tax handling for apps built from prompts.",
+  "ctaLabel": "Monetize Every App",
+  "ctaHref": "/platforms/lovable"
+}

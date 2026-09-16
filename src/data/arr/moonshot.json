@@ -1,0 +1,169 @@
+{
+  "slug": "moonshot",
+  "name": "Moonshot AI",
+  "domain": "moonshot.cn",
+  "canonical": "https://clinkbill.com/arr-leaderboard/moonshot",
+  "h1": "Moonshot AI ARR: $1B Annualized, $300M→$1B in Two Months.",
+  "intro": "Moonshot AI, the Beijing lab behind Kimi, told investors its annual recurring revenue passed $1 billion in August 2026 — more than 3x in roughly two months after the release of Kimi K3. The reported timeline below is assembled from Dealroom, 36Kr and Bloomberg reporting; RMB figures are converted to USD.",
+  "metaTitle": "Moonshot AI ARR: $1B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Moonshot AI (Kimi) revenue number in one place: ~$200M annualized in Apr 2026 to $1B ARR in Aug 2026, valuation, funding and the $2B year-end target — with sources.",
+  "ogDescription": "$300M to $1B ARR in two months on the back of Kimi K3 — the Moonshot AI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$1B",
+      "ARR, Aug 2026"
+    ],
+    [
+      "~$83M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$300M → $1B",
+      "In roughly 2 months"
+    ],
+    [
+      "~$50B",
+      "Valuation, 2026"
+    ]
+  ],
+  "chartTitle": "The Moonshot AI Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, converted from RMB press reports, April 2025 to August 2026. Linear scale — which is exactly why the first year looks flat.",
+  "chartMax": 1100,
+  "chartSources": "Sources: Dealroom, 36Kr, Bloomberg, TechRepublic.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 25,
+      "note": "Estimated annualized revenue in the tens of millions of dollars, almost entirely Kimi chatbot subscriptions — before the API and agent push.",
+      "source": "36Kr (est.)"
+    },
+    {
+      "label": "Apr '25",
+      "date": "April 2025",
+      "arr": 75,
+      "note": "Reported annualized revenue around RMB 500M+ (~$75M) as Kimi monetized subscriptions and early API volume.",
+      "source": "36Kr"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 200,
+      "note": "~$200M annualized revenue run rate told to investors as the Kimi API and coding-agent usage ramped.",
+      "source": "Dealroom / Bloomberg"
+    },
+    {
+      "label": "Jun–Jul '26",
+      "date": "June–July 2026",
+      "arr": 300,
+      "note": "~$300M ARR; the company raised $3.5 billion at a ~$35 billion valuation in July — roughly 117x that ARR.",
+      "source": "Dealroom / Bloomberg"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 1000,
+      "note": "Annual recurring revenue topped $1 billion — a >3x jump in about two months, attributed largely to the Kimi K3 release. Year-end target: $2B annualized.",
+      "source": "Dealroom"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~2 years (est.)",
+      "source": "2024 → 2026, 36Kr (no clean disclosure)"
+    },
+    {
+      "label": "$200M → $300M annualized",
+      "value": "~2–3 months",
+      "source": "Apr → Jun/Jul 2026"
+    },
+    {
+      "label": "$300M → $1B ARR",
+      "value": "~2 months",
+      "source": "Jul → Aug 2026, post-Kimi K3"
+    },
+    {
+      "label": "Stated year-end target",
+      "value": "$2B annualized by Dec 2026",
+      "source": "Dealroom"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "$1B",
+      "source": "Dealroom / company to investors, Aug 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$83M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "~$50B",
+      "source": "2026 reporting; $3.5B raise at ~$35B in Jul 2026"
+    },
+    {
+      "label": "Capital raised (Jul 2026 round)",
+      "value": "$3.5B",
+      "source": "Bloomberg"
+    },
+    {
+      "label": "Key growth driver",
+      "value": "Kimi K3 model release",
+      "source": "Dealroom, Aug 2026"
+    },
+    {
+      "label": "Basis note",
+      "value": "Figures from company statements to investors reported by Dealroom/36Kr; earlier points are estimates",
+      "source": "Dealroom / 36Kr"
+    }
+  ],
+  "modelTitle": "How Kimi Subscriptions and Token APIs Split the Revenue.",
+  "modelParagraphs": [
+    "Moonshot monetizes Kimi two ways: consumer subscriptions to the Kimi chatbot (a low-priced China-market tier, historically around RMB 49–99/month) and a token-based API for K-series models, now increasingly sold into coding-agent and enterprise workloads. The August surge was API-led, driven by Kimi K3 adoption among agent platforms and overseas developers paying per million tokens at aggressive discounts to US labs.",
+    "The company's $3.5 billion mid-2026 raise at ~117x the then-current ARR prices in continued hypergrowth — management's own target of $2 billion annualized by December 2026 implies another doubling in four months."
+  ],
+  "revenueMix": [
+    [
+      "Token-based API",
+      "K-series models billed per million tokens; coding-agent and enterprise usage drove the 2026 surge."
+    ],
+    [
+      "Consumer subscriptions",
+      "Paid tiers of the Kimi chatbot, priced in RMB for the China market."
+    ],
+    [
+      "Enterprise deployments",
+      "Direct model contracts with Chinese enterprise customers."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Moonshot AI's ARR in 2026?",
+      "a": "Moonshot AI told investors its annual recurring revenue passed $1 billion in August 2026, up from about $300 million in June–July — a more than 3x jump attributed largely to the Kimi K3 release. Management targets $2 billion annualized by year-end."
+    },
+    {
+      "q": "How Fast Did Moonshot AI Grow?",
+      "a": "Roughly $200M annualized in April 2026, ~$300M by June–July, then $1B in August — the steepest leg came in about two months after Kimi K3 shipped. Earlier figures are estimates from Chinese press; the lab has never filed a clean public revenue timeline."
+    },
+    {
+      "q": "What Does Moonshot AI Actually Sell?",
+      "a": "Subscriptions to the Kimi chatbot plus token-based API access to its K-series models, with 2026 growth concentrated in coding-agent and enterprise API usage priced well below comparable US frontier models."
+    },
+    {
+      "q": "What Is Moonshot AI's Valuation?",
+      "a": "About $50 billion per 2026 reporting. In July 2026 the company raised $3.5 billion at a roughly $35 billion valuation — about 117x the ~$300M ARR it reported at the time. A Hong Kong listing is reportedly under consideration."
+    },
+    {
+      "q": "How Does This Compare With Other Chinese AI Labs?",
+      "a": "Moonshot's $1B ARR in August 2026 put it in the same tier as DeepSeek and Zhipu's mid-year run rates, though Zhipu annualized to ~$1.6B the same month. All three monetize via low-priced APIs and report through press and filings rather than standard ARR disclosures."
+    }
+  ],
+  "ctaTitle": "Building Agents on Kimi? Monetize Them With Clink.",
+  "ctaDescription": "Low-cost chatbot subscriptions and a token API growing at once. Clink handles subscription checkout, usage billing and merchant-of-record tax as both engines scale.",
+  "ctaLabel": "Bill Token Usage",
+  "ctaHref": "/contact"
+}

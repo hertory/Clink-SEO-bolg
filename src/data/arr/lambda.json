@@ -1,0 +1,179 @@
+{
+  "slug": "lambda",
+  "name": "Lambda",
+  "domain": "lambda.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/lambda",
+  "h1": "Lambda ARR: ~$1.5B From Deep Learning Cloud to Superintelligence Cloud.",
+  "intro": "Lambda spent a decade renting GPUs to ML researchers before demand for AI compute turned it into a multi-billion-dollar infrastructure company. Every reported revenue, funding and deal number is collected below, each traced back to a public source.",
+  "metaTitle": "Lambda ARR: ~$1.5B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Lambda revenue number in one place: ~$425M run rate in late 2024 to a ~$1.5B 2026 expectation, the $1.5B Series E, the Microsoft deal and a $12B+ pre-IPO valuation — with sources.",
+  "ogDescription": "From researcher GPU rentals to a ~$1.5B revenue expectation — the full Lambda timeline, sourced.",
+  "heroStats": [
+    [
+      "~$1.5B",
+      "2026 revenue expectation"
+    ],
+    [
+      "$500M",
+      "Reported run rate, May 2025"
+    ],
+    [
+      "$1.5B+",
+      "Series E, Nov 2025"
+    ],
+    [
+      "$12B+",
+      "Valuation in pre-IPO talks"
+    ]
+  ],
+  "chartTitle": "The Lambda Revenue Curve.",
+  "chartIntro": "Reported run rate and expected revenue in USD millions, December 2024 through 2026. The 2026 figure is an expectation reported to investors, not a disclosed actual.",
+  "chartMax": 1650,
+  "chartSources": "Sources: Lambda, TechCrunch, Sacra, TechFundingNews, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "Dec '24",
+      "date": "December 2024",
+      "arr": 425,
+      "note": "Revenue run rate of roughly $425M, powered almost entirely by cloud GPU rental.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025",
+      "arr": 425,
+      "note": "$480M Series D with NVIDIA participating, at a ~$2.5B valuation per PitchBook — total equity funding reached ~$863M.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "May '25",
+      "date": "May 2025",
+      "arr": 500,
+      "note": "$500M run rate, with cloud GPU rental revenue growing nearly 100% year over year.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 500,
+      "note": "$1.5B+ Series E led by TWG Global and USIT, closed after a multibillion-dollar Microsoft deal. Total funding passed $2B.",
+      "source": "Lambda / TechCrunch"
+    },
+    {
+      "label": "2026",
+      "date": "2026 expectation",
+      "arr": 1500,
+      "note": "~$1.5B revenue expectation as contracted capacity scales, with a ~$3B pre-IPO round at a $12B+ valuation reportedly in talks.",
+      "source": "New Market Pitch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $425M run rate",
+      "value": "~11 years",
+      "source": "2012 founding → Dec 2024"
+    },
+    {
+      "label": "$425M → $500M run rate",
+      "value": "~5 months",
+      "source": "Dec 2024 → May 2025"
+    },
+    {
+      "label": "Valuation ~$2.5B → $12B+",
+      "value": "~1.5 years",
+      "source": "Feb 2025 → 2026 talks"
+    },
+    {
+      "label": "GPU cloud growth",
+      "value": "~100% YoY",
+      "source": "May 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "2026 revenue expectation",
+      "value": "~$1.5B",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "Run rate, May 2025",
+      "value": "$500M",
+      "source": "Sacra"
+    },
+    {
+      "label": "Total funding",
+      "value": "$2B+",
+      "source": "TechCrunch / Tracxn"
+    },
+    {
+      "label": "Series E",
+      "value": "$1.5B+ (Nov 2025)",
+      "source": "Lambda"
+    },
+    {
+      "label": "Valuation in talks",
+      "value": "$12B+ pre-IPO",
+      "source": "TechFundingNews"
+    },
+    {
+      "label": "Key customer",
+      "value": "Microsoft (multibillion $)",
+      "source": "TechCrunch, Nov 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2012, San Jose",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Stephen Balaban",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How One Microsoft Contract Flipped the GPU Model.",
+  "modelParagraphs": [
+    "Lambda sells GPU compute two ways: on-demand cloud rental at published hourly rates and large reserved-capacity contracts with hyperscalers and enterprises. The growth inflection came from the second category — most visibly a multibillion-dollar deal with Microsoft signed before the November 2025 Series E, which turned Lambda from a spot-market GPU vendor into a contracted capacity provider.",
+    "The capital cycle explains the pace. Lambda raised over $1.5B from TWG Global and USIT in November 2025 to build what it calls 'superintelligence cloud' infrastructure, bringing total funding past $2 billion. Revenue roughly tripled from the ~$425M run rate of late 2024 to a ~$1.5B expectation for 2026, and the company is reportedly negotiating a pre-IPO round of up to $3B at a $12B-plus valuation."
+  ],
+  "revenueMix": [
+    [
+      "Reserved enterprise capacity",
+      "Multibillion-dollar multi-year contracts, anchored by the Microsoft deal."
+    ],
+    [
+      "On-demand GPU cloud",
+      "Hourly rental of H100/B200-class instances, the original core business."
+    ],
+    [
+      "On-premises systems",
+      "Lambda workstations and GPU servers sold to labs and enterprises."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Lambda's ARR in 2026?",
+      "a": "Lambda's 2026 revenue expectation is roughly $1.5 billion, per figures reported to investors. That follows a ~$425M revenue run rate in December 2024 and $500M by May 2025. The figure is an expectation, not a company-disclosed audited run rate."
+    },
+    {
+      "q": "How Fast Did Lambda Grow?",
+      "a": "Cloud GPU rental revenue grew nearly 100% year over year as of May 2025, when the company reported a $500M run rate. From there, contracted deals — above all the multibillion-dollar Microsoft agreement — carry the trajectory toward ~$1.5B in 2026."
+    },
+    {
+      "q": "How Much Has Lambda Raised?",
+      "a": "Over $2 billion. The $480M Series D in February 2025 included NVIDIA; the $1.5B+ Series E in November 2025 was led by TWG Global and USIT. A pre-IPO round of up to ~$3B at a $12B+ valuation has been reported as in talks."
+    },
+    {
+      "q": "Who Are Lambda's Biggest Customers?",
+      "a": "The most consequential publicly reported deal is with Microsoft, signed ahead of the Series E and described as worth billions. Beyond that, Lambda's customer base spans AI labs, enterprises and researchers renting cloud GPUs or buying on-premises systems."
+    },
+    {
+      "q": "What Does Lambda Actually Sell?",
+      "a": "GPU compute. On-demand cloud instances at hourly rates, reserved enterprise capacity under multi-year contracts, and Lambda-branded GPU workstations and servers for customers who want the hardware on premises."
+    }
+  ],
+  "ctaTitle": "Building on Rented Compute? Own the Payment Layer.",
+  "ctaDescription": "Clink is the payment rails for GPU clouds — reserved-capacity contracts, on-demand metering and merchant-of-record tax handling in one layer.",
+  "ctaLabel": "Bill Reserved Compute",
+  "ctaHref": "/contact"
+}

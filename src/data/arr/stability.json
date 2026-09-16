@@ -1,0 +1,181 @@
+{
+  "slug": "stability",
+  "name": "Stability AI",
+  "domain": "stability.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/stability",
+  "h1": "Stability AI ARR: ~$90M, Rebuilt After the 2024 Crisis.",
+  "intro": "Stability AI's revenue has never been cleanly disclosed. Third-party estimates (Sacra, Presenc AI) put it near $90M annualized in 2026 — a fraction of its former $4B peak valuation, which repriced to ~$300M in a down round. The timeline below is assembled from estimates and press reporting.",
+  "metaTitle": "Stability AI ARR: ~$90M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every estimated Stability AI revenue number in one place: ~$1.5M (2022) → ~$50M (2024) → ~$90M ARR (2026), pricing, the down round and the James Cameron era — with sources.",
+  "ogDescription": "~$90M estimated ARR after the down round — the Stability AI revenue timeline as far as it can be sourced.",
+  "heroStats": [
+    [
+      "~$90M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$7.5M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~$300M",
+      "Valuation, down round"
+    ],
+    [
+      "7B+",
+      "Images generated with Stable Diffusion"
+    ]
+  ],
+  "chartTitle": "The Stability AI Revenue Curve (Estimated).",
+  "chartIntro": "Third-party estimated annualized revenue in USD millions, 2022 to 2026. Stability has never published audited revenue; treat every point as an estimate.",
+  "chartMax": 100,
+  "chartSources": "Sources: Sacra, Presenc AI, Fueler statistics, FourWeekMBA — none company-audited.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "Full year 2022",
+      "arr": 1.5,
+      "note": "~$1.5M of revenue in the Stable Diffusion launch year; a ~$100M round at a ~$1B valuation funded the open-source bet.",
+      "source": "Sacra (est.)"
+    },
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 8,
+      "note": "~$8M estimated despite peak hype — monetization lagged far behind the 7B+ images the open models enabled.",
+      "source": "Sacra (est.)"
+    },
+    {
+      "label": "Mar '24",
+      "date": "March 2024",
+      "arr": 20,
+      "note": "Founder Emad Mostaque resigned as CEO after reporting pressure; Sacra estimated ~$50M trailing revenue and reported unpaid tax and cloud bills.",
+      "source": "Sacra / press"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 50,
+      "note": "~$50M estimated revenue under new CEO Prem Akkaraju, with WPP investing and James Cameron joining the board; growth ran above 65% into 2025.",
+      "source": "Sacra (est.)"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 65,
+      "note": "Valuation repriced sharply downward (reported ~$300M down round) while the subscription and API pivot kept growth in the 65%+ range.",
+      "source": "Presenc AI (est.)"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 90,
+      "note": "Current estimates put annualized revenue at ~$90M, carried by the Stable Diffusion API, membership licenses and 'Stability AI Solutions' enterprise work.",
+      "source": "Presenc AI (est.)"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$8M ARR",
+      "value": "~18 months (est.)",
+      "source": "2022 → 2023 estimates"
+    },
+    {
+      "label": "$8M → ~$50M",
+      "value": "~2 years (est.)",
+      "source": "2023 → 2024 estimates"
+    },
+    {
+      "label": "$50M → ~$90M",
+      "value": "~2 years (est.)",
+      "source": "2024 → 2026 estimates, 65%+ growth"
+    },
+    {
+      "label": "Valuation, peak → 2026",
+      "value": "~$4B → ~$300M",
+      "source": "Press / Presenc AI"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$90M",
+      "source": "Presenc AI, 2026 (est.)"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$7.5M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "~$300M (down round)",
+      "source": "Presenc AI, 2026"
+    },
+    {
+      "label": "Estimated 2024 revenue",
+      "value": "~$50M",
+      "source": "Sacra (est.)"
+    },
+    {
+      "label": "Growth into 2025",
+      "value": "65%+",
+      "source": "Sacra"
+    },
+    {
+      "label": "Images generated",
+      "value": "7B+ via Stable Diffusion",
+      "source": "Company, mid-2026"
+    },
+    {
+      "label": "Basis note",
+      "value": "Company never disclosed audited revenue; third-party estimates.",
+      "source": "Sacra / Presenc AI"
+    }
+  ],
+  "modelTitle": "How Free Models Became Paid API Credits.",
+  "modelParagraphs": [
+    "Stability monetizes the models it once gave away. Usage-based API credits for Stable Diffusion and the image, video, audio and 3D model families are now the primary revenue driver; membership and developer subscription plans — self-hosting licenses for commercial use — account for over 70% of revenue, with tiers historically starting near $20/month for creators and custom pricing for licensed self-hosting.",
+    "On top sits 'Stability AI Solutions': custom and private model fine-tuning plus consulting for enterprises scaling creative production, with WPP among the named strategic investors and partners. The pivot from open-source evangelism to metered access is what stabilized the business — but at a ~$300M valuation, the market is pricing it as a niche infrastructure play, not the category leader its open models created."
+  ],
+  "revenueMix": [
+    [
+      "Membership & self-hosting licenses",
+      "Over 70% of revenue — commercial-use licenses and developer plans for running models in-house."
+    ],
+    [
+      "Usage-based API",
+      "Credit-based access to Stable Diffusion and image/video/audio/3D models in the cloud."
+    ],
+    [
+      "Enterprise solutions",
+      "Custom model training and consulting ('Stability AI Solutions'); WPP is a strategic partner."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Stability AI's ARR in 2026?",
+      "a": "Not officially disclosed. Third-party estimates (Presenc AI, Sacra) put annualized revenue around $90 million in 2026, up from roughly $50M estimated for 2024 — with growth above 65% into 2025."
+    },
+    {
+      "q": "How Much Revenue Did Stability AI Make at Peak Hype?",
+      "a": "Surprisingly little: an estimated ~$1.5M in 2022 and ~$8M in 2023, despite Stable Diffusion powering billions of images. Monetization lagged the open-source distribution by years."
+    },
+    {
+      "q": "What Happened to Stability AI's Valuation?",
+      "a": "It collapsed from a ~$4B peak to a reported ~$300M down round, after founder Emad Mostaque's March 2024 exit and reporting on unpaid bills. The company survived by pivoting to paid API access, licenses and enterprise work under new leadership, with WPP investing and James Cameron joining the board."
+    },
+    {
+      "q": "What Does Stability AI Actually Sell?",
+      "a": "Usage-based API credits, membership and self-hosting commercial licenses (over 70% of revenue combined), and 'Stability AI Solutions' — custom model training and consulting for enterprise creative production."
+    },
+    {
+      "q": "How Reliable Are These Revenue Estimates?",
+      "a": "Low confidence — Stability has never published audited revenue. All figures on this page are third-party estimates triangulated from investor reports and press, and should be treated as directional."
+    }
+  ],
+  "ctaTitle": "Selling Open Models? Monetize Them With Clink.",
+  "ctaDescription": "Open-source heritage, paid API credits, enterprise fine-tuning on top. Clink adds checkout, subscription management and merchant-of-record tax across the whole ladder.",
+  "ctaLabel": "Sell Model Credits",
+  "ctaHref": "/contact"
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "domain": "perplexity.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/perplexity",
+  "h1": "Perplexity ARR: $750M and Still Compounding.",
+  "intro": "Perplexity turned an AI answer engine into one of the largest consumer subscription businesses built since ChatGPT. Research estimates put its annualized revenue at roughly $750 million in August 2026, up from about $232 million at the end of 2025. Here is the sourced revenue timeline.",
+  "metaTitle": "Perplexity ARR 2026: $750M Annualized Revenue Timeline, Sourced",
+  "metaDescription": "Every publicly reported Perplexity revenue figure: $232M at the end of 2025, $500M in April 2026 and roughly $750M by August 2026 — with sources, dates and growth math.",
+  "ogDescription": "From $232M to roughly $750M annualized in eight months — the sourced Perplexity revenue timeline.",
+  "heroStats": [
+    [
+      "~$750M",
+      "Annualized revenue, Aug 2026"
+    ],
+    [
+      "~3x",
+      "Growth in eight months"
+    ],
+    [
+      "2022",
+      "Founded, San Francisco"
+    ],
+    [
+      "Estimated",
+      "Source tier: research estimate"
+    ]
+  ],
+  "chartTitle": "The Perplexity Revenue Curve.",
+  "chartIntro": "Estimated annualized revenue in USD millions, 2023 to 2026. Perplexity monetizes through consumer and enterprise subscriptions plus a growing commerce and advertising layer.",
+  "chartMax": 750,
+  "chartSources": "Sources: Sacra, Financial Times, Reuters, CNBC.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 5,
+      "note": "Perplexity Pro launches as a paid subscription on top of the free answer engine.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "End of 2024",
+      "arr": 50,
+      "note": "Subscription growth accelerates as the product expands beyond search into research workflows.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 232,
+      "note": "Around $232M annualized as enterprise plans and publisher partnerships scale.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 500,
+      "note": "$500M annualized reported after a pricing shift, up roughly 335% year over year.",
+      "source": "Financial Times / Reuters"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 750,
+      "note": "Roughly $750M annualized, driven by higher-tier subscriptions and commerce integrations.",
+      "source": "Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$1M → $100M",
+      "value": "~22 months",
+      "source": "2023 → 2025"
+    },
+    {
+      "label": "$232M → $500M",
+      "value": "~4 months",
+      "source": "Dec 2025 → Apr 2026"
+    },
+    {
+      "label": "$500M → $750M",
+      "value": "~4 months",
+      "source": "Apr 2026 → Aug 2026"
+    },
+    {
+      "label": "Year-over-year",
+      "value": "~3x",
+      "source": "2025 → 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "~$750M",
+      "source": "Sacra, Aug 2026"
+    },
+    {
+      "label": "Prior figure",
+      "value": "$500M",
+      "source": "FT, Apr 2026"
+    },
+    {
+      "label": "End of 2025",
+      "value": "$232M",
+      "source": "Sacra"
+    },
+    {
+      "label": "Founded",
+      "value": "2022",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Aravind Srinivas",
+      "source": "Company"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Annualized run rate",
+      "source": "Research estimate"
+    },
+    {
+      "label": "Primary model",
+      "value": "Consumer + enterprise subscriptions",
+      "source": "Sacra"
+    }
+  ],
+  "modelTitle": "How Subscriptions, API Usage and In-Answer Commerce Stack.",
+  "modelParagraphs": [
+    "The core business is a consumer subscription: a free answer engine that converts heavy users into Pro and Max tiers priced per month. That is a volume game — millions of queries feeding a small but compounding paid conversion rate — and it is why Perplexity's revenue curve looks more like a consumer app than an enterprise SaaS ladder.",
+    "On top of that sits an enterprise tier for teams that want sourced answers over internal and licensed content, plus newer commerce and advertising surfaces where a shopping intent inside an answer becomes a transaction. The strategic bet is that answers, not links, become the place purchases start — the same bet that makes agentic checkout infrastructure relevant."
+  ],
+  "revenueMix": [
+    [
+      "Pro subscriptions",
+      "Monthly consumer plans on the free answer engine."
+    ],
+    [
+      "Enterprise plans",
+      "Team seats with internal-content grounding."
+    ],
+    [
+      "Commerce",
+      "Shopping and checkout surfaces inside answers."
+    ],
+    [
+      "API access",
+      "Sonar API usage billed per request."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Perplexity's ARR in 2026?",
+      "a": "Research estimates put Perplexity at roughly $750 million in annualized revenue as of August 2026, up from about $500 million in April 2026 and $232 million at the end of 2025."
+    },
+    {
+      "q": "Is Perplexity Profitable?",
+      "a": "No public figure confirms profitability. Inference and content licensing costs are substantial, and the company has continued to raise capital through 2026."
+    },
+    {
+      "q": "What Are Perplexity Subscribers Actually Paying For?",
+      "a": "Faster models, higher limits and research features inside Pro and Max plans. Around that sit enterprise seats, API usage, and an emerging commerce and advertising layer placed inside answers rather than beside them."
+    },
+    {
+      "q": "How Fast Did Perplexity Reach $100M ARR?",
+      "a": "Roughly 22 months from its first meaningful subscription revenue in 2023 — fast for a consumer product, though slower than coding tools like Cursor and Lovable."
+    },
+    {
+      "q": "How Does Perplexity's Revenue Compare With OpenAI's?",
+      "a": "Not closely. OpenAI is reported in the billions of annualized revenue, so Perplexity at roughly $750 million is a fraction of it — the interesting comparison is growth rate, where Perplexity roughly tripled between the end of 2025 and August 2026."
+    }
+  ],
+  "ctaTitle": "Monetizing an AI Product?",
+  "ctaDescription": "Subscribers, API tiers and advertisers all pay differently. Clink unifies checkout and subscription management while carrying merchant-of-record tax for each revenue stream.",
+  "ctaLabel": "Monetize the Answer Engine",
+  "ctaHref": "/contact"
+}

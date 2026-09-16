@@ -18,7 +18,7 @@ const hanken = Hanken_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://clink-ai.lovable.app",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://clinkbill.com",
   ),
   title: {
     default: "Clink — Payment Infrastructure for an AI-Native World",

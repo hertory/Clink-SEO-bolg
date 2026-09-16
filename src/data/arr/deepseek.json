@@ -1,0 +1,164 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "domain": "deepseek.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/deepseek",
+  "h1": "DeepSeek ARR: ~$500M After a 10x Year.",
+  "intro": "DeepSeek — the Hangzhou lab behind the R1 shock of January 2025 — generated $70M+ of revenue in the first seven months of 2026, roughly 10x all of 2025, putting its annualized run rate near $500M with API prices a fraction of US frontier labs. Every reported figure is collected below, each traced back to a public source; no audited financials have been published.",
+  "metaTitle": "DeepSeek ARR: ~$500M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported DeepSeek revenue number in one place: ~$12M annualized at end-2025 to ~$500M by August 2026, implied MRR, valuation, IPO plans and API pricing — with sources.",
+  "ogDescription": "From ~$12M annualized to ~$500M — the full DeepSeek revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$500M",
+      "Estimated ARR, Aug 2026"
+    ],
+    [
+      "~$41.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~10x",
+      "Revenue growth in 7 months"
+    ],
+    [
+      "~$1.5B",
+      "Round in talks, 2026"
+    ]
+  ],
+  "chartTitle": "The DeepSeek Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized run rate in USD millions, 2024 to August 2026. All figures are third-party estimates; DeepSeek has published no audited financials.",
+  "chartMax": 550,
+  "chartSources": "Sources: Sacra, The Information, AI Weekly, Ainvest.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 5,
+      "note": "A research lab first: annualized revenue estimated in the single-digit millions, with the chatbot free and API priced near cost.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Jan '25",
+      "date": "January 2025",
+      "arr": 10,
+      "note": "The R1 release makes DeepSeek a household name; the app tops US app stores and API sign-ups surge, with one reported service outage day generating notable revenue spikes.",
+      "source": "Press reports"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 12,
+      "note": "Sacra estimates just $12M annualized at end-2025 — surprisingly small given the fame, reflecting aggressively subsidized pricing.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Mid '26",
+      "date": "First 7 months of 2026",
+      "arr": 120,
+      "note": "$70–71M of revenue booked in ~7 months — roughly 10x all of 2025 — with 70–80% gross margins as the price subsidies eased.",
+      "source": "The Information / AI Weekly"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 500,
+      "note": "Sacra estimates ~$500M annualized; reports describe a ~$1.5B raise in talks and IPO preparations targeting 2027, or possibly late 2026.",
+      "source": "Sacra / AI Weekly"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $10M ARR",
+      "value": "~2 years",
+      "source": "2023 lab launch → 2025"
+    },
+    {
+      "label": "$12M → $500M ARR",
+      "value": "~8 months",
+      "source": "End 2025 → Aug 2026 (est.)"
+    },
+    {
+      "label": "Revenue growth, 2026",
+      "value": "~10x in 7 months",
+      "source": "The Information / AI Weekly"
+    },
+    {
+      "label": "Valuation multiple",
+      "value": "~7x in 4 months",
+      "source": "Reported talks, 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$500M",
+      "source": "Sacra, Aug 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$41.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Gross margins",
+      "value": "70–80%",
+      "source": "The Information, 2026"
+    },
+    {
+      "label": "Audited financials",
+      "value": "None published",
+      "source": "Ainvest caveat, 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Hangzhou (by High-Flyer)",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How 30x-Cheaper Tokens Still Clear 70% Margins.",
+  "modelParagraphs": [
+    "DeepSeek monetizes almost entirely through usage-based API billing, priced dramatically below US frontier labs — historically around 30x cheaper than OpenAI on comparable workloads, with chat free on web and mobile. The strategy was deliberately to subsidize price to win developers; as subsidies eased through 2026, reported gross margins ran at 70–80%, unusually strong for a lab competing on cost.",
+    "There are no subscriptions and no enterprise salesforce — the revenue is raw token volume at extreme efficiency, enabled by in-house infrastructure and training-cost innovations. That is also why revenue stayed tiny (est. ~$12M annualized at end-2025) even after R1 made the brand globally famous, and why it then compounded ~10x in seven months once pricing normalized."
+  ],
+  "revenueMix": [
+    [
+      "Usage-based API",
+      "Token billing priced ~30x below US frontier labs; the entire business."
+    ],
+    [
+      "Free chatbot",
+      "Consumer app generates no direct revenue — it is the distribution engine."
+    ],
+    [
+      "No enterprise motion",
+      "No subscriptions or enterprise contracts reported to date."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is DeepSeek's ARR in 2026?",
+      "a": "Sacra estimates DeepSeek hit ~$500 million in annualized revenue by August 2026, up from just ~$12M at the end of 2025. Reported booked revenue of $70–71M in the first seven months of 2026 — about 10x all of 2025 — supports the run-rate estimate. No audited financials have been published."
+    },
+    {
+      "q": "How Does DeepSeek Make Money?",
+      "a": "Almost entirely usage-based API billing, priced roughly 30x below OpenAI on comparable workloads, with the consumer chatbot free. There is no subscription tier and no reported enterprise sales motion."
+    },
+    {
+      "q": "Is DeepSeek Profitable?",
+      "a": "Reportedly close to it — press reports cite 70–80% gross margins on API revenue as of 2026, a function of extreme infrastructure efficiency rather than premium pricing. Audited figures do not exist publicly."
+    },
+    {
+      "q": "What Is DeepSeek's Valuation?",
+      "a": "Reports describe a ~$1.5 billion raise in talks at valuations from roughly $71B to $74B — a ~7x jump in four months. These rest on unverified revenue estimates; analysts caution no audited financials back them."
+    },
+    {
+      "q": "Is DeepSeek Going Public?",
+      "a": "Reports indicate DeepSeek is preparing an IPO filing, with a listing targeted for 2027 or possibly as early as late 2026, alongside its first external capital raise — a shift from pure research lab to commercial company."
+    }
+  ],
+  "ctaTitle": "Building on DeepSeek? Get Paid Like a Platform.",
+  "ctaDescription": "Competing on price per million tokens means margins live in the billing. Clink handles usage metering, checkout and merchant-of-record tax handling.",
+  "ctaLabel": "Monetize API Usage",
+  "ctaHref": "/contact"
+}

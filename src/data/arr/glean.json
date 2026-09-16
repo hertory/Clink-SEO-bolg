@@ -1,0 +1,177 @@
+{
+  "slug": "glean",
+  "name": "Glean",
+  "domain": "glean.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/glean",
+  "h1": "Glean ARR: $300M+ After Tripling in 15 Months.",
+  "intro": "Glean, the enterprise AI search and work assistant, disclosed surpassing $300 million in annualized revenue in May 2026 — roughly tripling from $100M in 15 months, up about 89% year over year. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
+  "metaTitle": "Glean ARR: $300M+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Glean revenue number: $300M+ ARR in May 2026, +89% YoY, the $100M-to-$300M ramp, implied MRR, the $7.2B valuation and funding rounds — with sources.",
+  "ogDescription": "From $100M to $300M+ ARR in 15 months — the full Glean revenue timeline, sourced.",
+  "heroStats": [
+    ["$300M+", "Disclosed ARR, May 2026"],
+    ["~$25M", "Implied monthly recurring revenue"],
+    ["15 months", "From $100M to $300M ARR"],
+    ["$7.2B", "Valuation, Series F"]
+  ],
+  "chartTitle": "The Glean Revenue Curve.",
+  "chartIntro": "Disclosed annualized run rate in USD millions, 2024 to May 2026. Enterprise ARR moves in bigger, slower steps than consumer AI — but the last 15 months tripled the base.",
+  "chartMax": 340,
+  "chartSources": "Sources: Glean, TechCrunch, Value Add VC.",
+  "milestones": [
+    {
+      "label": "2019",
+      "date": "2019",
+      "arr": 1,
+      "note": "Founded by Arvind Jain, ex-Google Distinguished Engineer, to unify enterprise knowledge behind AI search.",
+      "source": "Company"
+    },
+    {
+      "label": "Feb '24",
+      "date": "February 2024",
+      "arr": 40,
+      "note": "Raises a $100M Series D at a $1.03B valuation as enterprise search demand accelerates.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Sep '24",
+      "date": "September 2024",
+      "arr": 80,
+      "note": "Raises a $260M Series E at a $4.6B valuation led by Altimeter and Craft.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025",
+      "arr": 100,
+      "note": "Discloses $100M ARR, having roughly doubled in the previous year.",
+      "source": "Glean"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 150,
+      "note": "Raises a $150M Series F at a $7.2B valuation.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Early '26",
+      "date": "Early 2026",
+      "arr": 200,
+      "note": "Crosses $200M ARR roughly five months before the next disclosure.",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "May '26",
+      "date": "May 28, 2026",
+      "arr": 300,
+      "note": "Discloses surpassing $300M annualized revenue — up ~89% YoY, triple the $100M mark in 15 months. Win rates rise from 66% on simple tasks to 73% on complex ones.",
+      "source": "Glean"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$100M → $200M ARR",
+      "value": "~10 months",
+      "source": "Feb 2025 → early 2026"
+    },
+    {
+      "label": "$100M → $300M ARR",
+      "value": "15 months",
+      "source": "Glean, May 2026"
+    },
+    {
+      "label": "Year-over-year growth",
+      "value": "~89%",
+      "source": "Glean, May 2026"
+    },
+    {
+      "label": "Series D → Series F valuation",
+      "value": "7x in 16 months",
+      "source": "$1.03B → $7.2B"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest disclosed ARR",
+      "value": "$300M+",
+      "source": "Glean, May 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$25M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$7.2B",
+      "source": "Series F, Jun 2025"
+    },
+    {
+      "label": "Series F",
+      "value": "$150M",
+      "source": "TechCrunch, Jun 2025"
+    },
+    {
+      "label": "Series E",
+      "value": "$260M at $4.6B",
+      "source": "Sep 2024"
+    },
+    {
+      "label": "YoY growth",
+      "value": "~89%",
+      "source": "Glean, May 2026"
+    },
+    {
+      "label": "Win rate",
+      "value": "66% → 73% on complex tasks",
+      "source": "Glean, May 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2019, Palo Alto",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Arvind Jain",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How a Context Graph Justifies Enterprise Pricing.",
+  "modelParagraphs": [
+    "Glean sells enterprise agreements priced on seats and usage of its work AI platform. Its defensibility claim is the context graph: permission-aware connections across every company app that make answers usable where generic chatbots hallucinate. That infrastructure-first position lets Glean price above point solutions and expand from search into agents that act on company knowledge.",
+    "The company reports that its win rate increases with deal complexity — 66% on simpler tasks versus 73% on complex, multi-step ones — and that customers consolidating AI tooling cut inference costs by roughly 30%. The competitive frame is increasingly Microsoft, with Glean arguing that cross-app context beats the incumbent's single-suite view."
+  ],
+  "revenueMix": [
+    ["Enterprise seat agreements", "Per-seat pricing on the work AI platform, sold top-down to CIOs."],
+    ["Platform usage", "Agent and assistant consumption across connected company apps."],
+    ["AI consolidation", "Customers folding point tools into Glean, cutting inference costs ~30%."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Glean's ARR in 2026?",
+      "a": "Glean disclosed surpassing $300 million in annualized revenue on May 28, 2026 — up about 89% year over year and roughly triple the $100M it disclosed in February 2025. That implies around $25 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Glean Triple Its ARR?",
+      "a": "Fifteen months, from $100M (February 2025) to $300M+ (May 2026), passing $200M roughly five months before the latest disclosure."
+    },
+    {
+      "q": "What Is Glean's Valuation?",
+      "a": "A $150 million Series F in June 2025 valued Glean at $7.2 billion, up from $4.6 billion at its $260 million Series E in September 2024 and $1.03 billion in February 2024."
+    },
+    {
+      "q": "How Does Glean Make Money?",
+      "a": "Enterprise seat and usage agreements on its work AI platform. Its pitch is the permission-aware context graph across every company app, which it says drives rising win rates on complex deals and ~30% inference-cost savings for customers consolidating AI tools."
+    },
+    {
+      "q": "Who Does Glean Compete With?",
+      "a": "Increasingly Microsoft in enterprise AI search, along with point-solution chatbots. Glean argues its cross-app, permission-aware context beats single-suite assistants — and reports winning 73% of complex, multi-step deals."
+    }
+  ],
+  "ctaTitle": "Selling AI to Enterprises? Get Paid Like Glean.",
+  "ctaDescription": "Clink handles enterprise agreement billing, seat-plus-usage invoicing and merchant-of-record tax handling — so platform pricing never outgrows your payments stack.",
+  "ctaLabel": "Close Enterprise Contracts",
+  "ctaHref": "/contact"
+}

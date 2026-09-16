@@ -1,0 +1,158 @@
+{
+  "slug": "coderabbit",
+  "name": "CodeRabbit",
+  "domain": "coderabbit.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/coderabbit",
+  "h1": "CodeRabbit ARR: ~$50M and a $1.5B Valuation.",
+  "intro": "CodeRabbit turned AI code review into a category — free for open source, paid per seat for everything else — reaching an estimated ~$50M annualized run rate and a $1.5B valuation by August 2026. Every publicly reported revenue, funding and adoption number is collected below, each traced back to a source.",
+  "metaTitle": "CodeRabbit ARR: ~$50M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported CodeRabbit revenue number: ~$50M ARR estimate in 2026, the $143M Series C at $1.5B valuation, the $60M Series B, implied MRR and pricing — with sources.",
+  "ogDescription": "From a code-review bot to ~$50M ARR and a $1.5B valuation — the CodeRabbit timeline, sourced.",
+  "heroStats": [
+    ["~$50M", "Estimated ARR, 2026"],
+    ["~$4.2M", "Implied monthly recurring revenue"],
+    ["$1.5B", "Valuation, Series C Aug 2026"],
+    ["Free", "For open source, forever"]
+  ],
+  "chartTitle": "The CodeRabbit Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, 2024 to 2026. CodeRabbit has not disclosed exact revenue; the ~$50M figure is a third-party estimate at the top of the seed-to-Series-C trajectory.",
+  "chartMax": 60,
+  "chartSources": "Sources: New Market Pitch, Reuters, Sacra, CodeRabbit newsroom.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 1,
+      "note": "Founded by Harjot Gill; launches AI-powered code review that critiques every pull request on GitHub and GitLab.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 10,
+      "note": "Open-source reviews free forever drives bottom-up adoption across startups; paid seats follow inside teams.",
+      "source": "Company"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 25,
+      "note": "Raises a $60M Series B led by Scale Venture Partners at a $550M valuation, roughly two years after founding.",
+      "source": "Reuters / Sacra"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Estimated past ~$50M annualized run rate as AI code review becomes a default pull-request check.",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 12, 2026",
+      "arr": 50,
+      "note": "Raises a $143M Series C at a $1.5B valuation, with Scale Venture Partners, NVentures (NVIDIA) and CRV participating; commits $10M+ to keep reviews free for open source.",
+      "source": "Reuters / Axios"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Founding → Series B",
+      "value": "~2 years",
+      "source": "2023 → 2025"
+    },
+    {
+      "label": "Series B → Series C valuation",
+      "value": "~2.7x",
+      "source": "$550M → $1.5B"
+    },
+    {
+      "label": "Open-source reviews",
+      "value": "Free, $10M+ committed",
+      "source": "Series C announcement"
+    },
+    {
+      "label": "ARR trajectory",
+      "value": "$10M → ~$50M in 2 years",
+      "source": "Estimated"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$50M",
+      "source": "New Market Pitch, 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$4.2M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.5B",
+      "source": "Series C, Aug 2026"
+    },
+    {
+      "label": "Series C",
+      "value": "$143M",
+      "source": "Reuters, Aug 2026"
+    },
+    {
+      "label": "Series B",
+      "value": "$60M at $550M",
+      "source": "2025"
+    },
+    {
+      "label": "Investors",
+      "value": "Scale VC, NVentures (NVIDIA), CRV",
+      "source": "Series C, Aug 2026"
+    },
+    {
+      "label": "Open source policy",
+      "value": "Free reviews, $10M+ committed",
+      "source": "Company"
+    },
+    {
+      "label": "Category",
+      "value": "AI code review",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Free Public Reviews Fund $12 Seats.",
+  "modelParagraphs": [
+    "CodeRabbit sells per-seat subscriptions for AI code review. Reviews on public open-source repositories are free indefinitely — a deliberate $10M+ annual investment that makes the product the default check on countless pull requests. Paid plans for private repositories run from around $12 to $24 per user per month, with enterprise agreements adding compliance, on-prem options and priority models.",
+    "The open-source wedge is the growth engine: every free review on a public repo is a demonstration to everyone watching that repository, and teams convert to paid seats when they bring the same reviewer into private work. Because CodeRabbit rides on top of GitHub and GitLab rather than replacing them, distribution costs stay low and the product attaches to an existing workflow."
+  ],
+  "revenueMix": [
+    ["Per-seat subscriptions", "Roughly $12–$24 per user per month for private repositories."],
+    ["Enterprise agreements", "Compliance, on-prem deployment and priority model access."],
+    ["Open-source funnel", "Free public-repo reviews convert watching teams into paid seats."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is CodeRabbit's ARR in 2026?",
+      "a": "CodeRabbit has not disclosed exact revenue. Third-party estimates put its annualized run rate at roughly $50 million in 2026, implying about $4.2 million of monthly recurring revenue. Treat the figure as an estimate."
+    },
+    {
+      "q": "What Is CodeRabbit's Valuation?",
+      "a": "A $143 million Series C in August 2026 valued CodeRabbit at $1.5 billion, with Scale Venture Partners, NVIDIA's NVentures and CRV participating. That is up from a $550 million valuation at its $60 million Series B in 2025."
+    },
+    {
+      "q": "How Does CodeRabbit Price Its Product?",
+      "a": "Per-seat subscription plans from roughly $12 to $24 per user per month, plus custom enterprise agreements. Reviews on public open-source repositories are free forever, backed by a company commitment of over $10 million to keep it that way."
+    },
+    {
+      "q": "Why Is CodeRabbit Free for Open Source?",
+      "a": "Free open-source reviews are both mission and acquisition strategy: every public pull request becomes a public demo, and the developers watching those repositories bring CodeRabbit into private, paid work. The Series C committed $10 million or more annually to sustain it."
+    },
+    {
+      "q": "How Does CodeRabbit Fit With AI Coding Agents Like Cursor or Copilot?",
+      "a": "It complements them. Agents write more code faster, which increases the volume of pull requests needing review; CodeRabbit sits in the review step across GitHub, GitLab and other forges rather than inside any one editor."
+    }
+  ],
+  "ctaTitle": "Shipping a DevTool? Get Paid Like CodeRabbit.",
+  "ctaDescription": "Clink runs freemium-to-paid checkout, per-seat subscriptions and merchant-of-record tax handling for developer tools whose free tier is the funnel.",
+  "ctaLabel": "Monetize Your DevTool",
+  "ctaHref": "/contact"
+}

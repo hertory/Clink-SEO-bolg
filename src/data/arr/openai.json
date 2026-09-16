@@ -1,0 +1,164 @@
+{
+  "slug": "openai",
+  "name": "OpenAI",
+  "domain": "openai.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/openai",
+  "h1": "OpenAI ARR: ~$25B and a $852B Valuation.",
+  "intro": "OpenAI turned ChatGPT into the fastest-scaling consumer subscription in history and layered a usage-based API business on top — from ~$6B annualized in 2024 to a ~$25B run rate by February 2026. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "OpenAI ARR: ~$25B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported OpenAI revenue number in one place: ~$6B ARR in 2024 to ~$25B by February 2026, implied MRR, valuation, funding history and growth speed — with sources.",
+  "ogDescription": "From ~$6B ARR to ~$25B — the full OpenAI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$25B",
+      "Reported ARR, Feb 2026"
+    ],
+    [
+      "~$2.1B",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "36 months",
+      "From launch to $100M ARR"
+    ],
+    [
+      "$852B",
+      "Valuation, May 2026 round"
+    ]
+  ],
+  "chartTitle": "The OpenAI Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2024 to February 2026. Linear scale — the earliest points are dwarfed by the 2026 endpoint, which is the point.",
+  "chartMax": 27500,
+  "chartSources": "Sources: OpenAI, CNBC, The Information, Sacra, Value Add VC, ARR Club.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "Late 2023",
+      "arr": 1600,
+      "note": "Annualized run rate reached ~$1.6B, two years after ChatGPT's November 2022 launch and the $20/month ChatGPT Plus rollout.",
+      "source": "The Information / Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 6000,
+      "note": "~$6B in annualized revenue as ChatGPT subscriptions and API usage both compounded.",
+      "source": "The Information / Sacra"
+    },
+    {
+      "label": "Mar '25",
+      "date": "March 2025",
+      "arr": 8000,
+      "note": "~$8B ARR, growing at roughly 200% annualized, powered by ChatGPT Plus/Pro and the API.",
+      "source": "The Information"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 20000,
+      "note": "CFO Sarah Friar confirmed OpenAI crossed a $20B annualized run rate — up 300%+ YoY — though booked 2025 revenue was ~$13.07B against a ~$20.9B operating loss.",
+      "source": "OpenAI / CNBC"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 25000,
+      "note": "~$25B ARR as the company restructured around Microsoft and closed its May 2026 round at an $852B valuation.",
+      "source": "CNBC / Value Add VC"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~36 months",
+      "source": "2019 API era → late 2022"
+    },
+    {
+      "label": "$1B → $10B ARR",
+      "value": "~24 months",
+      "source": "Late 2023 → late 2025"
+    },
+    {
+      "label": "$10B → $20B ARR",
+      "value": "~12 months",
+      "source": "End 2024 → end 2025"
+    },
+    {
+      "label": "YoY growth at $20B",
+      "value": "300%+",
+      "source": "CFO Sarah Friar, end of 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$25B",
+      "source": "CNBC / Value Add VC, Feb 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$2.1B / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$852B",
+      "source": "Series H, May 2026"
+    },
+    {
+      "label": "2025 operating loss",
+      "value": "~$20.9B",
+      "source": "Reported financials, 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2015, San Francisco",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How $20 ChatGPT Plans Fund a $13B Year.",
+  "modelParagraphs": [
+    "OpenAI monetizes consumer subscriptions first — ChatGPT Plus at $20/month and Pro at $200/month, plus Team and Enterprise seats — with the usage-based API (per-token pricing across GPT model tiers) as the second engine. ChatGPT became the fastest-scaling consumer subscription ever, and weekly-active users in the hundreds of millions convert at the $20 tier at meaningful rates.",
+    "The cost structure is the caveat: booked 2025 revenue was ~$13.07B against a ~$20.9B operating loss, so the run-rate headline and the P&L diverge sharply. Enterprise contracts and API usage carry much higher gross margins than inference-heavy consumer plans, and the mix shifts steadily toward enterprise."
+  ],
+  "revenueMix": [
+    [
+      "ChatGPT subscriptions",
+      "$20/mo Plus and $200/mo Pro plans, the consumer engine."
+    ],
+    [
+      "Usage-based API",
+      "Per-token GPT pricing for developers and enterprises."
+    ],
+    [
+      "Enterprise agreements",
+      "Custom ChatGPT Enterprise and API contracts with large organizations."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is OpenAI's ARR in 2026?",
+      "a": "OpenAI's annualized run rate reached roughly $25 billion by February 2026, up from ~$8 billion in March 2025 and ~$6 billion in 2024. CFO Sarah Friar confirmed the company crossed $20B annualized at the end of 2025. Some mid-2026 trackers put the run rate near $40B; the conservative reported figure is used here."
+    },
+    {
+      "q": "How Fast Did OpenAI Reach $100M ARR?",
+      "a": "About 36 months. OpenAI's API-era revenue grew slowly before ChatGPT, and the $100M milestone came in the run-up to the November 2022 launch — slow by AI-startup standards, before the steepest consumer ramp in history followed."
+    },
+    {
+      "q": "Is OpenAI Profitable?",
+      "a": "No. Booked 2025 revenue was ~$13.07 billion against an operating loss of roughly $20.9 billion — the loss exceeded the revenue. Inference costs, especially on consumer subscriptions, remain the core margin problem."
+    },
+    {
+      "q": "What Is OpenAI's Valuation and How Much Has It Raised?",
+      "a": "$852 billion as of its May 2026 round, following the Microsoft restructuring. OpenAI is the most valuable private AI company and has raised tens of billions across rounds, including corporate and debt-financed compute commitments."
+    },
+    {
+      "q": "How Does OpenAI Make Money?",
+      "a": "Consumer subscriptions ($20/month Plus, $200/month Pro), usage-based API billing per token, and custom ChatGPT Enterprise contracts. Subscriptions dominate volume; API and enterprise deals dominate margin."
+    }
+  ],
+  "ctaTitle": "Building on OpenAI? Get Paid Like a Platform.",
+  "ctaDescription": "Consumer plans at $20 and $200 a month, plus per-token APIs. Clink runs the checkout, subscription management and merchant-of-record tax underneath a mix like that.",
+  "ctaLabel": "Build on Clink",
+  "ctaHref": "/contact"
+}

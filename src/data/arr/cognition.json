@@ -1,0 +1,170 @@
+{
+  "slug": "cognition",
+  "name": "Cognition",
+  "domain": "cognition.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/cognition",
+  "h1": "Cognition ARR: ~$900M After a 13x Year.",
+  "intro": "Cognition, the company behind Devin and the Windsurf acquisition, grew its run rate roughly 13x in twelve months — from under $70M in late 2025 to nearly $900M by September 2026, when it raised $2B at a $48B valuation. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
+  "metaTitle": "Cognition ARR: ~$900M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Cognition (Devin) revenue number: ~$900M ARR and $48B valuation in September 2026, the 13x-in-12-months ramp, implied MRR, the Windsurf acquisition and funding rounds — with sources.",
+  "ogDescription": "From Devin's launch to ~$900M ARR and a $48B valuation — the full Cognition revenue timeline, sourced.",
+  "heroStats": [
+    ["~$900M", "Reported ARR, September 2026"],
+    ["~$75M", "Implied monthly recurring revenue"],
+    ["13x", "Run-rate growth in 12 months"],
+    ["$48B", "Valuation, Series E Sep 2026"]
+  ],
+  "chartTitle": "The Cognition Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, late 2025 to September 2026. Nearly all of the curve is the last twelve months — a 13x ramp that took the company from under $70M to nearly $900M.",
+  "chartMax": 990,
+  "chartSources": "Sources: TechCrunch, Reuters, Bloomberg, SiliconANGLE.",
+  "milestones": [
+    {
+      "label": "Nov '23",
+      "date": "November 2023",
+      "arr": 0,
+      "note": "Founded by Scott Wu and team; applies reasoning models to long-horizon software engineering.",
+      "source": "Company"
+    },
+    {
+      "label": "Mar '24",
+      "date": "March 2024",
+      "arr": 1,
+      "note": "Devin, billed as the first AI software engineer, launches and goes viral.",
+      "source": "Company"
+    },
+    {
+      "label": "Jul '25",
+      "date": "July 2025",
+      "arr": 50,
+      "note": "Cognition acquires Windsurf's IDE business after OpenAI's failed bid, adding an enterprise distribution channel.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Sep '25",
+      "date": "September 2025",
+      "arr": 70,
+      "note": "Raises $400M at a $10.2B valuation; the run rate is still under $100M.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 492,
+      "note": "Raises $1B at a $26B post-money valuation with run-rate revenue at $492M.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 8, 2026",
+      "arr": 900,
+      "note": "Raises $2B at $48B — nearly double the May valuation — with run-rate revenue at roughly $900M, a 13x increase in twelve months. The company remains loss-making, with compute the main cost.",
+      "source": "TechCrunch / Reuters"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Devin launch → $100M ARR",
+      "value": "~18 months",
+      "source": "Mar 2024 → 2025"
+    },
+    {
+      "label": "$100M → $500M ARR",
+      "value": "~12 months",
+      "source": "2025 → May 2026"
+    },
+    {
+      "label": "$492M → $900M ARR",
+      "value": "~4 months",
+      "source": "May 2026 → Sep 2026"
+    },
+    {
+      "label": "12-month growth",
+      "value": "~13x",
+      "source": "TechCrunch, Sep 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$900M",
+      "source": "TechCrunch, Sep 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$75M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$48B",
+      "source": "Series E, Sep 2026"
+    },
+    {
+      "label": "Series E",
+      "value": "$2B raised",
+      "source": "TechCrunch, Sep 2026"
+    },
+    {
+      "label": "Prior round",
+      "value": "$1B at $26B post",
+      "source": "May 2026"
+    },
+    {
+      "label": "Acquisition",
+      "value": "Windsurf IDE business, Jul 2025",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Profitability",
+      "value": "Loss-making; compute-driven",
+      "source": "TechCrunch, Sep 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "Nov 2023, San Francisco",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Scott Wu",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Devin Seats and Agent Usage Bill Together.",
+  "modelParagraphs": [
+    "Cognition monetizes Devin and the Windsurf IDE through seat subscriptions and usage-based agent billing. Devin's autonomous, long-running tasks consume large amounts of model compute, so heavy users pay beyond their base plan — which is also why the company stays loss-making: its own compute bill is the primary cost driver.",
+    "The Windsurf acquisition added a conventional per-seat IDE business and enterprise distribution. Investors in the September 2026 round cited this combination — autonomous agents plus an incumbent-style developer footprint — as the reason AI coding is not being treated as a winner-take-all market against Cursor, GitHub Copilot and Claude Code."
+  ],
+  "revenueMix": [
+    ["Devin subscriptions", "Seat plans for autonomous engineering agents, with usage beyond the base quota."],
+    ["Usage-based agent billing", "Long-running tasks billed by compute consumption."],
+    ["Windsurf IDE seats", "Per-seat editor revenue and enterprise distribution from the July 2025 acquisition."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Cognition's ARR in 2026?",
+      "a": "Cognition's run-rate revenue reached roughly $900 million by September 2026, up from $492 million in May 2026 and under $70 million a year earlier — about 13x growth in twelve months. That implies around $75 million of monthly recurring revenue."
+    },
+    {
+      "q": "What Is Cognition's Valuation?",
+      "a": "A $2 billion Series E in September 2026 valued Cognition at $48 billion, nearly double the $26 billion post-money valuation from its $1 billion raise just four months earlier, in May 2026."
+    },
+    {
+      "q": "Is Cognition Profitable?",
+      "a": "No. Despite the revenue ramp, reporting around the September 2026 round describes the company as still operating at a loss, with model compute for Devin's autonomous tasks the primary cost driver."
+    },
+    {
+      "q": "How Did the Windsurf Acquisition Change Cognition's Business?",
+      "a": "In July 2025, after OpenAI's bid for Windsurf collapsed, Cognition bought Windsurf's IDE business. That added a per-seat editor with an enterprise customer base on top of Devin, giving Cognition both an agent product and an incumbent-style distribution channel."
+    },
+    {
+      "q": "How Does Devin's Pricing Work?",
+      "a": "Devin is sold on seat subscriptions with usage-based billing beyond the included quota, since autonomous tasks consume variable amounts of compute. The Windsurf side is conventional per-seat editor pricing. Enterprise agreements layer seat administration and security requirements on top."
+    }
+  ],
+  "ctaTitle": "Building an AI Agent? Get Paid Like Cognition.",
+  "ctaDescription": "Agents that bill by the task need payments by the task. Clink combines seat subscriptions with usage metering and merchant-of-record tax handling.",
+  "ctaLabel": "Bill Agent Usage",
+  "ctaHref": "/contact"
+}

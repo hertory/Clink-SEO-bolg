@@ -1,0 +1,202 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "canonical": "https://clinkbill.com/arr-leaderboard/elevenlabs",
+  "h1": "ElevenLabs ARR: $600M From Voice Alone.",
+  "intro": "ElevenLabs turned synthetic speech into one of the fastest-scaling AI businesses outside the frontier labs: roughly $600 million of annualized revenue by mid-2026, three years after its public beta. Here is every reported revenue, funding and valuation figure, with sources.",
+  "metaTitle": "ElevenLabs ARR: $600M Revenue, Growth Timeline and Valuation (2026)",
+  "metaDescription": "Every publicly reported ElevenLabs revenue number: $100M ARR in 2024, $330M in 2025, ~$600M annualized in 2026, implied MRR, the $500M Series D and the $11B valuation — with sources.",
+  "ogDescription": "From a 2023 beta to ~$600M annualized — the full ElevenLabs revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$600M",
+      "Reported ARR, mid-2026"
+    ],
+    [
+      "~$50M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~3 years",
+      "From public beta to $600M ARR"
+    ],
+    [
+      "$11B",
+      "Valuation, Series D Feb 2026"
+    ]
+  ],
+  "chartTitle": "The ElevenLabs Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized run rate in USD millions, 2023 to 2026. Growth is unusually steady for AI — roughly a doubling a year rather than a single vertical spike.",
+  "chartMax": 600,
+  "chartSources": "Sources: ElevenLabs, TechCrunch, Bloomberg, Sacra, TNW.",
+  "milestones": [
+    {
+      "label": "Jan '23",
+      "date": "January 2023",
+      "arr": 1,
+      "note": "Public beta launches; the first viral wave arrives with a voice-cloning misuse story attached.",
+      "source": "Postbeam"
+    },
+    {
+      "label": "2023",
+      "date": "End of 2023",
+      "arr": 25,
+      "note": "Creator and dubbing use cases carry early self-serve revenue.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "End of 2024",
+      "arr": 100,
+      "note": "Roughly 380% year-over-year growth as the API becomes the main distribution channel.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '25",
+      "date": "December 2025",
+      "arr": 330,
+      "note": "CEO Mati Staniszewski confirms the company crossed $330M ARR during the year.",
+      "source": "Bloomberg via TechCrunch"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 4, 2026",
+      "arr": 420,
+      "note": "$500M Series D led by Sequoia at an $11B valuation — more than triple the prior year's mark.",
+      "source": "Workd"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 500,
+      "note": "ARR passes $500M as enterprise voice-agent partnerships expand.",
+      "source": "Digital Market Reports"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 2026",
+      "arr": 600,
+      "note": "Around $600M annualized revenue in under three years from the public beta.",
+      "source": "Sacra / TNW"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~2 years",
+      "source": "2023 → 2024"
+    },
+    {
+      "label": "$100M → $330M ARR",
+      "value": "~12 months",
+      "source": "2024 → Dec 2025"
+    },
+    {
+      "label": "$330M → $600M ARR",
+      "value": "~6 months",
+      "source": "Dec 2025 → Jun 2026"
+    },
+    {
+      "label": "Growth rate",
+      "value": "~380% y/y",
+      "source": "Sacra, 2024"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$600M",
+      "source": "Sacra / TNW, 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$50M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$11B",
+      "source": "Series D, Feb 2026"
+    },
+    {
+      "label": "Series D",
+      "value": "$500M, led by Sequoia",
+      "source": "Feb 2026"
+    },
+    {
+      "label": "Growth rate",
+      "value": "~380% y/y",
+      "source": "Sacra, 2024"
+    },
+    {
+      "label": "Founded",
+      "value": "2022",
+      "source": "Sacra"
+    },
+    {
+      "label": "Headquarters",
+      "value": "New York, United States",
+      "source": "Sacra"
+    },
+    {
+      "label": "CEO",
+      "value": "Mati Staniszewski",
+      "source": "Company"
+    },
+    {
+      "label": "Core products",
+      "value": "TTS, dubbing, voice agents",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Character Subscriptions and Voice APIs Layer Up.",
+  "modelParagraphs": [
+    "ElevenLabs sells voice in two directions at once. Creators buy self-serve subscriptions billed in characters of generated speech, from a free tier up to studio plans — a cheap, high-volume funnel fed by hackathons, creator payouts and viral demos. Enterprises buy the API, where dubbing, audiobooks and real-time voice agents are billed by usage and locked in with annual commitments.",
+    "The API is where the money compounds. Once a support agent or a media pipeline speaks with an ElevenLabs voice, swapping providers means re-recording a brand, so retention holds even as model prices fall. The cost side mirrors Cursor's: inference is a real COGS line, so margin depends on running its own models efficiently rather than reselling someone else's."
+  ],
+  "revenueMix": [
+    [
+      "Creator subscriptions",
+      "Character-based plans from free to studio tiers."
+    ],
+    [
+      "API usage",
+      "Per-character and per-minute billing for developers."
+    ],
+    [
+      "Voice agents",
+      "Real-time conversational voice sold into support and sales."
+    ],
+    [
+      "Enterprise contracts",
+      "Dubbing and audiobook pipelines on annual commitments."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is ElevenLabs' ARR in 2026?",
+      "a": "Around $600 million of annualized revenue as of mid-2026, up from the $330 million the CEO confirmed for 2025. That implies roughly $50 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did ElevenLabs Grow?",
+      "a": "Roughly two years from its January 2023 public beta to $100 million ARR, then $330 million by the end of 2025 and about $600 million by mid-2026 — close to a doubling each year."
+    },
+    {
+      "q": "Does ElevenLabs Charge per Seat or per Usage?",
+      "a": "Usage first. Self-serve subscriptions are metered by characters of generated audio, API revenue scales with dubbing, audiobooks and real-time voice agents, and enterprise contracts sit on top of the same meter rather than replacing it."
+    },
+    {
+      "q": "What Is ElevenLabs' Valuation?",
+      "a": "An $11 billion valuation set by a $500 million Series D led by Sequoia Capital in February 2026, more than triple the valuation a year earlier."
+    },
+    {
+      "q": "Why Do ElevenLabs Revenue Figures Differ Between Sources?",
+      "a": "The 2025 figure of $330 million was confirmed by the CEO, while the mid-2026 figure of around $600 million comes from research estimates and reporting rather than an audited disclosure. This page keeps the two apart, and derived numbers such as implied MRR are labelled as estimates."
+    }
+  ],
+  "ctaTitle": "Selling AI Voice or Media? Bill It With Clink.",
+  "ctaDescription": "Voice subscriptions and usage credits often land in the same account. Clink handles hybrid billing, checkout and merchant-of-record tax for audio APIs.",
+  "ctaLabel": "Monetize Voice APIs",
+  "ctaHref": "/contact"
+}

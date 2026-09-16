@@ -1,0 +1,178 @@
+{
+  "slug": "sierra",
+  "name": "Sierra",
+  "domain": "sierra.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/sierra",
+  "h1": "Sierra ARR: $200M in Nine Quarters.",
+  "intro": "Bret Taylor's customer-service agent company took seven quarters to reach its first $100 million of annualized revenue — then doubled it in two. Sierra hit roughly $200 million ARR in May 2026 at a $15.8 billion valuation. Here is the sourced timeline.",
+  "metaTitle": "Sierra AI ARR 2026: $200M Annualized Revenue Timeline, Sourced",
+  "metaDescription": "Sierra's revenue timeline: $26M at the end of 2024, $100M in November 2025 and $200M by May 2026, at a $15.8B valuation — every figure sourced and dated.",
+  "ogDescription": "$100M to $200M ARR in two quarters — the sourced Sierra revenue timeline.",
+  "heroStats": [
+    [
+      "$200M",
+      "Annualized revenue, May 2026"
+    ],
+    [
+      "2 quarters",
+      "To double from $100M"
+    ],
+    [
+      "$15.8B",
+      "Valuation, Series E May 2026"
+    ],
+    [
+      "2023",
+      "Founded, San Francisco"
+    ]
+  ],
+  "chartTitle": "The Sierra Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized recurring revenue in USD millions, 2024 to 2026. Sierra sells outcome-priced customer-service agents to enterprises, not seats.",
+  "chartMax": 200,
+  "chartSources": "Sources: Sacra, CNBC, Crypto Briefing.",
+  "milestones": [
+    {
+      "label": "Feb '24",
+      "date": "February 2024",
+      "arr": 1,
+      "note": "Sierra launches publicly with conversational agents for enterprise customer service.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '24",
+      "date": "End of 2024",
+      "arr": 26,
+      "note": "About $26M ARR from early enterprise deployments priced per resolution.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 100,
+      "note": "Crosses $100M ARR — seven quarters after public launch.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 130,
+      "note": "Roughly $130M ARR heading into year three.",
+      "source": "Sacra"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 200,
+      "note": "$200M annualized after a first-ever $50M quarter; $950M Series E values Sierra above $15B.",
+      "source": "CNBC / Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $100M",
+      "value": "~21 months",
+      "source": "Feb 2024 → Nov 2025"
+    },
+    {
+      "label": "$100M → $200M",
+      "value": "~6 months",
+      "source": "Nov 2025 → May 2026"
+    },
+    {
+      "label": "Best quarter",
+      "value": "+$50M ARR",
+      "source": "Q1 2026"
+    },
+    {
+      "label": "Valuation step",
+      "value": "$10B → $15.8B",
+      "source": "Fall 2025 → May 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "$200M",
+      "source": "Sacra, May 2026"
+    },
+    {
+      "label": "Valuation",
+      "value": "$15.8B",
+      "source": "Series E, May 2026"
+    },
+    {
+      "label": "Latest round",
+      "value": "$950M",
+      "source": "Tiger Global / GV"
+    },
+    {
+      "label": "Total funding",
+      "value": "~$1.58B",
+      "source": "Sacra"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Bret Taylor",
+      "source": "Company"
+    },
+    {
+      "label": "Pricing model",
+      "value": "Per resolved conversation",
+      "source": "Sacra"
+    }
+  ],
+  "modelTitle": "How Sierra Prices an Agent.",
+  "modelParagraphs": [
+    "Sierra does not sell seats and mostly does not sell usage. It sells outcomes: customers pay per conversation the agent actually resolves. That aligns the vendor with the buyer's real metric — deflected tickets — and it makes contract value grow with support volume instead of headcount, which is exactly the wrong direction for a legacy per-agent license.",
+    "The catch is that outcome pricing only works with heavy implementation. Sierra bundles configuration and ongoing optimization into multi-year enterprise agreements, which is why the first $100 million took seven quarters and the second took two: the hard part is the first deployment in each account, and everything after that compounds."
+  ],
+  "revenueMix": [
+    [
+      "Outcome pricing",
+      "Billed per successfully resolved conversation."
+    ],
+    [
+      "Enterprise contracts",
+      "Multi-year agreements with large support orgs."
+    ],
+    [
+      "Implementation",
+      "Configuration and tuning bundled into the deal."
+    ],
+    [
+      "Expansion",
+      "New channels and languages inside existing accounts."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Sierra's ARR?",
+      "a": "Sierra reached roughly $200 million in annualized recurring revenue in May 2026, double the $100 million it reported in November 2025."
+    },
+    {
+      "q": "How Fast Did Sierra Reach $100M ARR?",
+      "a": "About 21 months from its February 2024 public launch — seven quarters — then it doubled to $200 million in the following two quarters."
+    },
+    {
+      "q": "How Does Sierra Charge for Its AI Agents?",
+      "a": "Primarily outcome-based pricing: customers pay per conversation the agent resolves, inside multi-year enterprise agreements that include implementation."
+    },
+    {
+      "q": "What Is Sierra Worth?",
+      "a": "More than $15 billion — a $950 million Series E led by Tiger Global and GV in May 2026 priced the company at roughly $15.8 billion."
+    },
+    {
+      "q": "If an Agent Fails to Resolve a Ticket, Does the Customer Still Pay?",
+      "a": "Under outcome pricing the billable event is a resolved conversation, so an escalation to a human is not what the customer is charged for. Exact definitions of resolution sit inside multi-year enterprise contracts and are not public."
+    }
+  ],
+  "ctaTitle": "Billing for Agent Outcomes?",
+  "ctaDescription": "Agents priced per resolved conversation don't fit legacy billing. Clink meters outcomes, manages the plans and carries merchant-of-record tax for conversational products.",
+  "ctaLabel": "Bill by Conversation",
+  "ctaHref": "/contact"
+}

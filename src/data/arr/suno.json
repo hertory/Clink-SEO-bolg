@@ -1,0 +1,181 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "domain": "suno.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/suno",
+  "h1": "Suno ARR: $300M and 2 Million Paying Subscribers.",
+  "intro": "Suno disclosed $300M in annual recurring revenue and 2 million paid subscribers in February 2026, up from a reported ~$200M run rate three months earlier. Every disclosed ARR, valuation and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "Suno ARR: $300M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Suno revenue number in one place: $200M to $300M ARR in three months, 2M paid subscribers, $5.4B valuation and the funding history — with sources.",
+  "ogDescription": "$200M to $300M ARR in three months — the full Suno revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$300M",
+      "Disclosed ARR, Feb 2026"
+    ],
+    [
+      "2M",
+      "Paid subscribers"
+    ],
+    [
+      "3 months",
+      "$200M → $300M ARR"
+    ],
+    [
+      "$5.4B",
+      "Valuation, Series D Jun 2026"
+    ]
+  ],
+  "chartTitle": "The Suno Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2024 to February 2026. Linear scale — the last three months do most of the work.",
+  "chartMax": 330,
+  "chartSources": "Sources: Suno, TechCrunch, Billboard, Music Business Worldwide, Sacra.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 5,
+      "note": "Consumer music generation goes viral after launch; early consumer subscription revenue begins.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "May '24",
+      "date": "May 2024",
+      "arr": 20,
+      "note": "$125M Series B as v3 output quality drives a wave of viral adoption.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Mar '25",
+      "date": "March 2025",
+      "arr": 100,
+      "note": "$250M in cumulative funding across rounds; the company reached a $2.45B valuation in February 2025.",
+      "source": "Sacra / Billboard"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 200,
+      "note": "Reported ~$200M annualized run rate, driven by Pro and Premier consumer subscriptions.",
+      "source": "TechCrunch / Sacra"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 25, 2026",
+      "arr": 300,
+      "note": "CEO Mikey Shulman discloses $300M ARR and 2M paid subscribers, with strong retention — +50% in three months.",
+      "source": "TechCrunch / Billboard"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 2026",
+      "arr": 300,
+      "note": "$400M Series D led by Bond Capital at a $5.4B post-money valuation — more than double the valuation seven months earlier.",
+      "source": "Value Add VC / Sacra"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$100M ARR",
+      "value": "~2 years",
+      "source": "2023 → 2025"
+    },
+    {
+      "label": "~$100M → $200M ARR",
+      "value": "~8 months",
+      "source": "Mar 2025 → Nov 2025"
+    },
+    {
+      "label": "$200M → $300M ARR",
+      "value": "3 months",
+      "source": "Nov 2025 → Feb 2026"
+    },
+    {
+      "label": "Implied MRR at $300M ARR",
+      "value": "~$25M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest disclosed ARR",
+      "value": "$300M",
+      "source": "TechCrunch, Feb 2026"
+    },
+    {
+      "label": "Paid subscribers",
+      "value": "2M",
+      "source": "CEO Mikey Shulman, Feb 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$25M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$5.4B",
+      "source": "Series D, Jun 2026"
+    },
+    {
+      "label": "Series D raised",
+      "value": "$400M",
+      "source": "Bond Capital, Jun 2026"
+    },
+    {
+      "label": "Songs created",
+      "value": "~3.2M per day",
+      "source": "Company, 2026"
+    },
+    {
+      "label": "CEO",
+      "value": "Mikey Shulman",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How $10 Subscribers Become $300M.",
+  "modelParagraphs": [
+    "Suno is a consumer subscription business. Pricing runs from a free tier with daily credits through Pro at roughly $10/month (or $8 annualized) to Premier at about $30/month, with credit packs for heavier generation. Two million paid subscribers at an average somewhere between those tiers is what produces the $300M annual figure — meaning nearly all revenue comes from individuals, not enterprise licensing.",
+    "That consumer concentration is deliberate: Suno's growth loop is viral song creation and sharing, so revenue compounds with social distribution rather than a sales team. The unresolved variable is the record-industry litigation filed in June 2024, which remains the principal risk to a model built on training and generating music at scale."
+  ],
+  "revenueMix": [
+    [
+      "Consumer subscriptions",
+      "Pro ~$10/month and Premier ~$30/month tiers carry the bulk of revenue."
+    ],
+    [
+      "Credit packs",
+      "Pay-as-you-go credits for users who outgrow plan allowances."
+    ],
+    [
+      "Free-to-paid funnel",
+      "Daily free credits convert viral creators into 2M paying subscribers."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Suno's ARR in 2026?",
+      "a": "Suno's CEO disclosed $300 million in annual recurring revenue and 2 million paid subscribers in February 2026, up from a reported ~$200M run rate in November 2025. That implies roughly $25 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Suno Grow From $200M to $300M ARR?",
+      "a": "Three months. The ~$200M run rate was reported in November 2025 and the $300M disclosure came on February 25-26, 2026 — a 50% increase in a single quarter, driven by consumer subscriptions."
+    },
+    {
+      "q": "How Does Suno Make Money?",
+      "a": "Consumer subscriptions. Plans run from a free tier through Pro at roughly $10/month to Premier at about $30/month, plus credit packs. With 2 million paying subscribers, nearly all of the $300M ARR comes from individuals rather than enterprise licensing."
+    },
+    {
+      "q": "What Is Suno's Valuation and How Much Has It Raised?",
+      "a": "A $400 million Series D led by Bond Capital in June 2026 valued Suno at $5.4 billion post-money — more than double its $2.45B valuation from February 2025. The company has raised roughly $650M across rounds."
+    },
+    {
+      "q": "Is Suno's ARR Officially Disclosed?",
+      "a": "Yes. The $300M ARR and 2 million paid subscriber figures were disclosed by CEO and co-founder Mikey Shulman in February 2026 and reported by TechCrunch, Billboard and Music Business Worldwide — a 'Disclosed' grade on the Clink ARR Leaderboard."
+    }
+  ],
+  "ctaTitle": "Selling Subscriptions? Get Paid Like Suno.",
+  "ctaDescription": "Viral song-sharing turns listeners into $10 subscribers. Clink adds subscription checkout, plan management and merchant-of-record tax so consumer revenue scales without a sales team.",
+  "ctaLabel": "Monetize Your Music App",
+  "ctaHref": "/contact"
+}

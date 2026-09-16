@@ -1,0 +1,167 @@
+{
+  "slug": "evenup",
+  "name": "EvenUp",
+  "domain": "evenup.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/evenup",
+  "h1": "EvenUp ARR: $100M for AI-Prepared Injury Cases.",
+  "intro": "EvenUp reached $100M in annual recurring revenue in July 2026 — a reported 5x in about two years — on usage-based contracts with personal injury law firms. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "EvenUp ARR: $100M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported EvenUp revenue number in one place: $100M ARR at a $2B valuation, 200,000+ cases resolved and the demand-letter business model — with sources.",
+  "ogDescription": "5x to $100M ARR in two years — the full EvenUp revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$100M",
+      "Reported ARR, Jul 2026"
+    ],
+    [
+      "~$8.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "5x",
+      "Growth in ~2 years"
+    ],
+    [
+      "$2B+",
+      "Valuation"
+    ]
+  ],
+  "chartTitle": "The EvenUp Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2023 to July 2026. Linear scale — the curve is built from the law-firm usage ramp.",
+  "chartMax": 110,
+  "chartSources": "Sources: ARR Club, Sacra, company disclosures, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "October 2023",
+      "arr": 10,
+      "note": "Founded in 2018; $50M Series C backed by Bessemer and a16z as its demand-package product becomes standard tooling for personal injury firms.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Oct '24",
+      "date": "October 2024",
+      "arr": 25,
+      "note": "$135M Series D values EvenUp above $1B; the platform has by then contributed to resolutions across 200,000+ cases.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Oct '25",
+      "date": "October 2025",
+      "arr": 50,
+      "note": "Valuation exceeds $2B after $385M raised within 24 months across four rounds; platform output has supported more than $10B in claimed damages.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 100,
+      "note": "Reaches $100M ARR — roughly 5x in two years — cited among the fastest-growing companies to the milestone and a top-three AI-native legal startup by revenue.",
+      "source": "ARR Club / New Market Pitch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$25M ARR",
+      "value": "~6 years",
+      "source": "2018 → Oct 2024"
+    },
+    {
+      "label": "~$20M → $100M ARR",
+      "value": "~2 years",
+      "source": "2024 → Jul 2026"
+    },
+    {
+      "label": "Reported growth",
+      "value": "5x in ~2 years",
+      "source": "ARR Club"
+    },
+    {
+      "label": "Implied MRR at $100M ARR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M",
+      "source": "ARR Club, Jul 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$2B+",
+      "source": "Oct 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "$385M",
+      "source": "Four rounds in 24 months"
+    },
+    {
+      "label": "Cases resolved",
+      "value": "200,000+",
+      "source": "Company, 2025"
+    },
+    {
+      "label": "Damages supported",
+      "value": "$10B+ claimed",
+      "source": "Company, 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2018, San Francisco",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Per-Case Billing Tracks Plaintiff Caseloads.",
+  "modelParagraphs": [
+    "EvenUp sells to personal injury law firms on a hybrid of subscriptions and per-case usage: firms pay recurring platform fees for the case-preparation workspace, plus metered pricing for demand packages, medical-record analysis and life-care plans generated per matter. Because each case consumed is billable, revenue tracks firm caseloads — when a plaintiff firm grows, its EvenUp spend grows with it.",
+    "The product sits on structured medical records: EvenUp ingests millions of treatment records per matter stream, extracts injuries and damages, and produces demand letters and settlement documentation. Reported outcomes — 200,000+ cases resolved and more than $10B in claimed damages supported — are the sales engine in a legal market where per-case economics are well understood by buyers."
+  ],
+  "revenueMix": [
+    [
+      "Per-case usage",
+      "Metered fees for demand packages and case documents per matter."
+    ],
+    [
+      "Platform subscriptions",
+      "Recurring workspace and case-preparation fees for injury firms."
+    ],
+    [
+      "Record intelligence",
+      "Medical-record ingestion and analysis billed as part of case output."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is EvenUp's ARR in 2026?",
+      "a": "EvenUp reached $100 million in annual recurring revenue by July 2026, per ARR Club-based reporting — roughly 5x growth in about two years. That implies about $8.3M of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did EvenUp Reach $100M ARR?",
+      "a": "The company spent its first six years building distribution, then compounded: from roughly $20-25M in late 2024 to $100M by July 2026, a reported 5x in two years that ranks it among the fastest legal AI companies to the milestone."
+    },
+    {
+      "q": "How Does EvenUp Make Money?",
+      "a": "Hybrid contracts with personal injury firms: recurring platform subscriptions plus metered, per-case fees for AI-generated demand packages, medical-record analysis and settlement documentation."
+    },
+    {
+      "q": "What Is EvenUp's Valuation and How Much Has It Raised?",
+      "a": "EvenUp's valuation exceeded $2 billion as of October 2025, after raising $385 million across four rounds in 24 months. A $135M Series D in October 2024 had first valued it above $1 billion."
+    },
+    {
+      "q": "Is EvenUp's ARR Officially Disclosed?",
+      "a": "No. The $100M figure comes from ARR Club and New Market Pitch reporting rather than a company statement — a 'Reported' grade on the Clink ARR Leaderboard."
+    }
+  ],
+  "ctaTitle": "Billing Per Case? Get Paid Like EvenUp.",
+  "ctaDescription": "Clink combines recurring platform fees with metered per-case billing and merchant-of-record tax handling — payments built for hybrid legal-tech revenue.",
+  "ctaLabel": "Bill Per Case",
+  "ctaHref": "/contact"
+}

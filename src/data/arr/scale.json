@@ -1,0 +1,174 @@
+{
+  "slug": "scale",
+  "name": "Scale AI",
+  "domain": "scale.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/scale",
+  "h1": "Scale AI ARR: $1B+ After the Meta Deal Reset.",
+  "intro": "Scale AI rode the data-labeling boom to ~$2B of revenue, sold half of itself to Meta, and then watched 2026 guidance get cut from $4B to just over $1B as its biggest AI-lab customers walked. Every reported revenue, valuation and guidance number is collected below, each traced back to a public source.",
+  "metaTitle": "Scale AI ARR: $1B+ Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Scale AI revenue number in one place: $290M in 2022 to ~$2B in 2025, the $14.3B Meta stake, the customer exodus and the 2026 guidance reset to $1B+ — with sources.",
+  "ogDescription": "From $290M to $2B — and back to a $1B+ guidance floor. The full Scale AI timeline, sourced.",
+  "heroStats": [
+    [
+      "$1B+",
+      "2026 revenue guidance"
+    ],
+    [
+      "~$2B",
+      "2025 revenue (est.)"
+    ],
+    [
+      "$14.3B",
+      "Meta's 49% stake, Jun 2025"
+    ],
+    [
+      "$29B",
+      "Valuation at Meta deal"
+    ]
+  ],
+  "chartTitle": "The Scale AI Revenue Curve.",
+  "chartIntro": "Reported and estimated revenue in USD millions, 2022 through 2026 guidance. 2026 shows the reset: guidance was cut from a projected $4B to just over $1B after the Meta deal.",
+  "chartMax": 2200,
+  "chartSources": "Sources: Sacra, Value Add VC, The Information, Meta, Scale.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "Full year 2022",
+      "arr": 290,
+      "note": "Roughly $290M of revenue, built on data labeling for autonomous vehicles before the LLM era took over.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 870,
+      "note": "$870M of revenue, with an annualized run rate around $1.5B by year-end; a May 2024 round valued the company at $13.8B.",
+      "source": "Sacra / The Information"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 870,
+      "note": "Meta paid $14.3B for a 49% non-voting stake at a $29B valuation. CEO Alexandr Wang left to lead Meta's superintelligence unit.",
+      "source": "Meta / Value Add VC"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 2000,
+      "note": "Estimated ~$2B of revenue. Scale called 2025 its 'strongest financial year ever' — but OpenAI and Google began pulling business over the Meta association.",
+      "source": "Sacra / Scale"
+    },
+    {
+      "label": "2026",
+      "date": "2026 guidance",
+      "arr": 1000,
+      "note": "Guidance slashed from an earlier $4B projection to just over $1B after major AI-lab customers defected — with snapshots suggesting a partial recovery toward ~$2B annualized by mid-2026.",
+      "source": "Sacra / Value Add VC"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $290M revenue",
+      "value": "6 years",
+      "source": "2016 founding → 2022"
+    },
+    {
+      "label": "$290M → ~$2B revenue",
+      "value": "3 years",
+      "source": "2022 → 2025"
+    },
+    {
+      "label": "Valuation $13.8B → $29B",
+      "value": "~13 months",
+      "source": "May 2024 → Jun 2025"
+    },
+    {
+      "label": "2026 guidance vs 2025 plan",
+      "value": "$4B → $1B+",
+      "source": "Post-Meta reset"
+    }
+  ],
+  "facts": [
+    {
+      "label": "2026 revenue guidance",
+      "value": "$1B+",
+      "source": "Sacra / Value Add VC"
+    },
+    {
+      "label": "2025 revenue (est.)",
+      "value": "~$2B",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024 revenue",
+      "value": "$870M",
+      "source": "Sacra / The Information"
+    },
+    {
+      "label": "Meta investment",
+      "value": "$14.3B for 49%",
+      "source": "Meta, Jun 2025"
+    },
+    {
+      "label": "Valuation",
+      "value": "$29B",
+      "source": "Meta deal, Jun 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2016, San Francisco",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Jason Droege (post-Meta deal)",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Data Labeling Became a $2B Business.",
+  "modelParagraphs": [
+    "Scale sells the human side of AI: data labeling and RLHF for model training, expert evaluations, plus government and enterprise AI applications. Revenue grew from $290M in 2022 to ~$2B in 2025 as every frontier lab became a customer — and its list price model is engagement-based, with large multi-year contracts for training data pipelines and evaluation.",
+    "The Meta deal inverted the business. Meta's $14.3B purchase of a 49% non-voting stake in June 2025 — which also took CEO Alexandr Wang to Meta — made Scale's rivals its owner's rivals. OpenAI and Google pulled back their business, and 2026 guidance was cut from a projected $4B to just over $1B, the steepest reversal reported for the company. Scale has since leaned on enterprise and government contracts and new business lines, with third-party snapshots suggesting a run rate recovering toward ~$2B annualized by June 2026."
+  ],
+  "revenueMix": [
+    [
+      "Data labeling & RLHF",
+      "Training data pipelines and expert human feedback for AI labs — the historical core."
+    ],
+    [
+      "Enterprise & government AI",
+      "Applied AI engagements, including public-sector contracts, now carrying more weight post-Meta deal."
+    ],
+    [
+      "Evaluation & model ops",
+      "Model evaluation services for labs and enterprises shipping AI products."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Scale AI's ARR in 2026?",
+      "a": "Scale AI's 2026 revenue guidance is just over $1 billion, down from earlier projections of $4B for 2026. In 2025 the company generated an estimated ~$2B of revenue. Third-party snapshots suggest the run rate recovered toward ~$2B annualized by mid-2026."
+    },
+    {
+      "q": "Why Did Scale AI's 2026 Guidance Get Cut?",
+      "a": "The Meta deal. When Meta bought a 49% stake for $14.3B in June 2025, Scale's largest AI-lab customers — OpenAI and Google among them — pulled back business over vendor-independence concerns. The resulting reset took 2026 guidance from $4B to $1B+."
+    },
+    {
+      "q": "What Did Meta Pay for Scale AI?",
+      "a": "$14.3 billion for a 49% non-voting stake, valuing Scale at $29 billion — more than double its $13.8B May 2024 mark. Meta also hired CEO Alexandr Wang to lead its superintelligence unit; Scale continued as an independent company under new CEO Jason Droege."
+    },
+    {
+      "q": "How Does Scale AI Make Money?",
+      "a": "Primarily data labeling and RLHF services sold to AI labs under engagement-based contracts, plus enterprise and government AI applications and model evaluation services. The data engine for autonomous vehicles was the original business."
+    },
+    {
+      "q": "How Fast Did Scale AI Grow?",
+      "a": "Revenue roughly tripled from $290M in 2022 to $870M in 2024, then reached an estimated ~$2B in 2025. The 2026 guidance reset to $1B+ marks the first contraction in the company's reported trajectory."
+    }
+  ],
+  "ctaTitle": "Selling Data to Labs? Get Paid Like a Lab Supplier.",
+  "ctaDescription": "Enterprise data contracts are negotiated, not self-serve. Clink handles invoicing, recurring billing and merchant-of-record tax so a multi-year services book stays collection-clean.",
+  "ctaLabel": "Invoice Enterprise Contracts",
+  "ctaHref": "/contact"
+}

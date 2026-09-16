@@ -1,0 +1,191 @@
+{
+  "slug": "crusoe",
+  "name": "Crusoe",
+  "domain": "crusoe.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/crusoe",
+  "h1": "Crusoe ARR: ~$2.2B From Wasted Energy to AI Real Estate.",
+  "intro": "Crusoe started by burning otherwise-flared natural gas to mine Bitcoin, then pivoted into one of the largest AI data center developers in the United States. Every reported revenue, funding and contract number is collected below, each traced back to a public source.",
+  "metaTitle": "Crusoe ARR: ~$2.2B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Crusoe revenue number in one place: ~$30M in 2023 to a ~$2.2B 2026 forecast, the Abilene Stargate build-out, $15B financing and valuation — with sources.",
+  "ogDescription": "From flared-gas Bitcoin mining to a ~$2.2B 2026 revenue forecast — the full Crusoe timeline, sourced.",
+  "heroStats": [
+    [
+      "~$2.2B",
+      "2026 revenue forecast"
+    ],
+    [
+      "~$2B",
+      "2025 projected revenue"
+    ],
+    [
+      "1.2 GW",
+      "Planned Abilene campus capacity"
+    ],
+    [
+      "~$10B",
+      "Valuation, Series E Oct 2025"
+    ]
+  ],
+  "chartTitle": "The Crusoe Revenue Curve.",
+  "chartIntro": "Reported and projected revenue in USD millions, 2023 through 2026. The 2026 figure is a forecast presented to investors, not a disclosed actual.",
+  "chartMax": 2420,
+  "chartSources": "Sources: Crusoe, Sacra, Reuters, SiliconANGLE, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 30,
+      "note": "Roughly $30M of revenue, still dominated by the legacy Bitcoin and flared-gas energy business.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 276,
+      "note": "Revenue of $276M as the first AI data center leasing contracts came online — roughly 9x year over year.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Dec '24",
+      "date": "December 2024",
+      "arr": 276,
+      "note": "$600M Series D closed at a $2.8B valuation, led by Founders Fund with NVIDIA and Fidelity.",
+      "source": "Crusoe"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 2000,
+      "note": "Projected ~$2B of revenue (~7x growth), driven largely by the Abilene campus leased to OpenAI via Oracle.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Oct '25",
+      "date": "October 2025",
+      "arr": 2000,
+      "note": "$1.375B Series E co-led by Mubadala lifted the valuation to roughly $10B — up from $2.8B in under a year.",
+      "source": "Reuters"
+    },
+    {
+      "label": "2026",
+      "date": "2026 forecast",
+      "arr": 2200,
+      "note": "~$2.2B revenue forecast presented to investors, with Abilene reaching full ~1.2 GW scale by mid-2026.",
+      "source": "New Market Pitch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $276M revenue",
+      "value": "6 years",
+      "source": "2018 founding → 2024"
+    },
+    {
+      "label": "$276M → ~$2B revenue",
+      "value": "1 year",
+      "source": "2024 → 2025"
+    },
+    {
+      "label": "Valuation $2.8B → $10B",
+      "value": "~10 months",
+      "source": "Dec 2024 → Oct 2025"
+    },
+    {
+      "label": "First Stargate phase energized",
+      "value": "200+ MW",
+      "source": "Abilene, H1 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "2026 revenue forecast",
+      "value": "~$2.2B",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "2025 projected revenue",
+      "value": "~$2B",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024 revenue",
+      "value": "$276M",
+      "source": "Sacra"
+    },
+    {
+      "label": "Valuation",
+      "value": "~$10B (Series E)",
+      "source": "Reuters, Oct 2025"
+    },
+    {
+      "label": "Total equity raised",
+      "value": "$2.5B+",
+      "source": "Crunchbase"
+    },
+    {
+      "label": "Abilene campus",
+      "value": "1.2 GW planned",
+      "source": "Crusoe"
+    },
+    {
+      "label": "Data center financing",
+      "value": "$15B JV + $3.4B debt",
+      "source": "Blue Owl / press reports"
+    },
+    {
+      "label": "Founded",
+      "value": "2018, Denver",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Chase Lochmiller",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Leased Data Center Shells Became $2.2B.",
+  "modelParagraphs": [
+    "Crusoe no longer makes most of its money selling wasted energy — it makes it leasing AI data center capacity. The anchor contract is Abilene, Texas: the flagship site of OpenAI's Stargate build-out, leased through Oracle, with the first 980,000 sq ft / 200+ MW phase energized in the first half of 2025 and 64,000 NVIDIA GB200 GPUs expected on site by 2026. Oracle's Stargate commitments are what turn a construction project into a multi-year, contracted revenue stream.",
+    "The balance sheet, not the P&L, carries the model. Crusoe and Blue Owl Capital formed a $15B joint venture with Primary Digital to fund Abilene's second phase, and closed a separate $3.4B debt deal for the site. Around the edges the company still runs its original climate-aligned energy business and managed GPU cloud, but the 2026 forecast of ~$2.2B is essentially a data center leasing business measured against a $30B-plus valuation target in pre-IPO talks."
+  ],
+  "revenueMix": [
+    [
+      "AI data center leasing",
+      "Long-term contracted capacity, anchored by Oracle's Stargate lease at Abilene."
+    ],
+    [
+      "Energy & Bitcoin legacy",
+      "Flared-gas power generation and the original mining business, now a minority of revenue."
+    ],
+    [
+      "Managed GPU cloud",
+      "Crusoe Cloud rents GPU capacity on Crusoe-operated infrastructure."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Crusoe's ARR in 2026?",
+      "a": "Crusoe's 2026 revenue forecast, presented to investors, is roughly $2.2 billion. That follows a projected ~$2 billion for 2025 and $276 million of actual 2024 revenue — a figure that reflects data center leasing commitments rather than classic subscription ARR."
+    },
+    {
+      "q": "How Did Crusoe Grow From $30M to $2B in Two Years?",
+      "a": "The pivot from flared-gas Bitcoin mining to AI data centers. The first AI leasing contracts landed in 2024 ($276M revenue), and the Abilene campus — the anchor site of OpenAI and Oracle's Stargate project — energized its first 200+ MW phase in the first half of 2025, driving projected 2025 revenue to about $2 billion."
+    },
+    {
+      "q": "What Is Crusoe's Role in Stargate?",
+      "a": "Crusoe built and operates the Abilene, Texas campus that serves as the first Stargate site. It is developing the campus to 1.2 GW of total capacity, with 64,000 NVIDIA GB200 GPUs expected by 2026, leased to OpenAI through Oracle."
+    },
+    {
+      "q": "What Is Crusoe's Valuation and How Much Has It Raised?",
+      "a": "A $1.375 billion Series E co-led by Mubadala in October 2025 valued Crusoe at roughly $10 billion, up from $2.8 billion at its December 2024 Series D. Total equity funding exceeds $2.5 billion, with a further $15B joint venture and $3.4B of debt financing for Abilene, and a $30-40B valuation reportedly discussed in pre-IPO talks."
+    },
+    {
+      "q": "Is the ~$2.2B Figure Real ARR?",
+      "a": "No. It is a 2026 revenue forecast presented to investors, dominated by contracted data center leasing. It is classified here as Reported, not Disclosed — Crusoe has not published audited run-rate figures, and leasing revenue is recognized differently from subscription ARR."
+    }
+  ],
+  "ctaTitle": "Building the Next Crusoe? Get Paid Like Infrastructure.",
+  "ctaDescription": "Clink is the payment rails for AI infrastructure — long-term contract billing, invoicing and merchant-of-record tax handling built for capacity sellers.",
+  "ctaLabel": "Bill Data Center Leases",
+  "ctaHref": "/contact"
+}

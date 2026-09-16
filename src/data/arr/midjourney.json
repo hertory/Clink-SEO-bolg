@@ -1,0 +1,174 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "domain": "midjourney.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/midjourney",
+  "h1": "Midjourney ARR: ~$500M, Zero Funding, Profitable Since Year One.",
+  "intro": "Midjourney has never disclosed a revenue figure. Everything below comes from third-party estimates — Forbes, Sacra, GetLatka and Value Add VC — which converge on roughly $500M of annualized revenue in 2026, earned entirely from flat subscriptions with zero outside funding.",
+  "metaTitle": "Midjourney ARR: ~$500M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every estimated Midjourney revenue number in one place: ~$200M (2023) → ~$300M (2024) → ~$500M (2026), pricing, profitability and headcount — all from third-party sources.",
+  "ogDescription": "~$500M estimated ARR with zero funding — the Midjourney revenue timeline as far as it can be sourced.",
+  "heroStats": [
+    [
+      "~$500M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$42M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$0",
+      "Outside capital raised"
+    ],
+    [
+      "Profitable",
+      "Since roughly month 6"
+    ]
+  ],
+  "chartTitle": "The Midjourney Revenue Curve (Estimated).",
+  "chartIntro": "Third-party estimated annualized revenue in USD millions, 2022 to 2026. Midjourney has never disclosed revenue; treat every point as an estimate with a wide error band.",
+  "chartMax": 550,
+  "chartSources": "Sources: Forbes, Sacra, GetLatka, Value Add VC — none company-disclosed.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "July 2022 · launch year",
+      "arr": 20,
+      "note": "Open beta in July 2022; trackers estimated revenue passed $1M/month within the first weeks of paid access.",
+      "source": "GetLatka (est.)"
+    },
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 200,
+      "note": "Widely cited estimate of ~$200M annualized revenue — achieved with no sales team, no paid marketing and roughly 40 employees.",
+      "source": "Forbes / Value Add VC (est.)"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 300,
+      "note": "Estimates cluster around $300M for 2024, up ~50% YoY, as the subscriber base approached 20M registered users.",
+      "source": "Sacra / Value Add VC (est.)"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 400,
+      "note": "Estimates around $400M+, up roughly a third YoY; the company stayed fully bootstrapped and profitable.",
+      "source": "Value Add VC (est.)"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 500,
+      "note": "Current third-party estimates put annualized revenue at ~$500M — roughly $4.7M of revenue per employee on 40–107 staff.",
+      "source": "Value Add VC / Sacra (est.)"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$200M ARR",
+      "value": "~18 months (est.)",
+      "source": "Launch Jul 2022 → FY2023 estimates"
+    },
+    {
+      "label": "$200M → $300M",
+      "value": "~1 year",
+      "source": "2023 → 2024 estimates"
+    },
+    {
+      "label": "$300M → ~$500M",
+      "value": "~2 years",
+      "source": "2024 → 2026 estimates"
+    },
+    {
+      "label": "Profitability",
+      "value": "Since ~month 6",
+      "source": "Value Add VC"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$500M",
+      "source": "Value Add VC, 2026 (est.)"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$42M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Outside funding",
+      "value": "$0 — fully bootstrapped",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Registered users",
+      "value": "~20M",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Employees",
+      "value": "40–107 (reported range)",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Revenue per employee",
+      "value": "~$4.7M",
+      "source": "Derived"
+    },
+    {
+      "label": "Basis note",
+      "value": "Company never disclosed revenue; third-party estimates.",
+      "source": "Value Add VC / Sacra"
+    }
+  ],
+  "modelTitle": "How Discord Subscriptions Became the Entire Business.",
+  "modelParagraphs": [
+    "Midjourney sells exactly one thing: flat-rate subscriptions through Discord and its web app. Four tiers run roughly $10, $30 and $60 per month, with a ~$120 'Mega' tier at the top — billed monthly or at a ~20% annual discount. There is no free tier (only limited web trials), no API product, and no enterprise contracts.",
+    "Because there is no sales motion and no paid acquisition, effectively all revenue is self-serve subscription — an unusually pure model that has kept the company profitable since around its sixth month, at roughly $4.7M of estimated revenue per employee."
+  ],
+  "revenueMix": [
+    [
+      "Flat subscriptions",
+      "~$10 / $30 / $60 per month, plus a ~$120 Mega tier; monthly or ~20% discounted annual billing."
+    ],
+    [
+      "No API, no enterprise",
+      "Unlike peers, Midjourney sells no developer API or contracts — subscriptions are the entire business."
+    ],
+    [
+      "Zero-cost distribution",
+      "No sales team or paid marketing; Discord and word of mouth carry acquisition."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Midjourney's ARR in 2026?",
+      "a": "Unknown officially — Midjourney has never disclosed revenue. Third-party estimates (Forbes, Sacra, GetLatka, Value Add VC) put annualized revenue around $500 million in 2026, up from ~$300M estimated for 2024 and ~$200M for 2023."
+    },
+    {
+      "q": "How Much Funding Has Midjourney Raised?",
+      "a": "Zero. Midjourney is fully bootstrapped, has no sales team and no paid marketing, and has reported profitability since roughly its sixth month of operation."
+    },
+    {
+      "q": "What Does Midjourney Charge?",
+      "a": "Four flat subscription tiers of roughly $10, $30 and $60 per month plus a ~$120 Mega tier, billed monthly or annually at about a 20% discount. There is no free tier and no API."
+    },
+    {
+      "q": "How Reliable Are These Revenue Estimates?",
+      "a": "They are not company-confirmed. Figures are triangulated from subscriber counts, pricing and analyst models, and different trackers estimate 2024–2025 revenue anywhere from $300M to $500M+. Treat the timeline as directional."
+    },
+    {
+      "q": "How Big Is the Midjourney Team?",
+      "a": "Reports place headcount between roughly 40 and 107 people. At ~$500M estimated revenue, that is about $4.7 million per employee — among the highest ratios ever reported in software."
+    }
+  ],
+  "ctaTitle": "Bootstrapping an AI Product? Monetize It With Clink.",
+  "ctaDescription": "Four flat-rate tiers, no sales team, profitable since month six. Clink adds subscription checkout and merchant-of-record tax so a self-serve creative tool can charge in every market.",
+  "ctaLabel": "Monetize Creative Subscriptions",
+  "ctaHref": "/contact"
+}

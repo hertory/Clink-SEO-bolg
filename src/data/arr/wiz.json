@@ -1,0 +1,202 @@
+{
+  "slug": "wiz",
+  "name": "Wiz",
+  "domain": "wiz.io",
+  "canonical": "https://clinkbill.com/arr-leaderboard/wiz",
+  "h1": "Wiz ARR: $1B Before the $32B Exit.",
+  "intro": "Wiz held the record every AI company is now chasing: $100 million of ARR in eighteen months. It kept compounding to more than $1 billion before Google closed a $32 billion all-cash acquisition in March 2026 — the largest cybersecurity deal ever. Here is the full reported revenue timeline.",
+  "metaTitle": "Wiz ARR: $1B Revenue Timeline and the $32B Google Deal (2026)",
+  "metaDescription": "Every publicly reported Wiz revenue number: $100M ARR in 18 months, $350M, $500M and past $1B before Google's $32B acquisition closed in March 2026 — with sources.",
+  "ogDescription": "$100M ARR in 18 months, past $1B before a $32B exit — the full Wiz revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$1B+",
+      "ARR before the acquisition closed"
+    ],
+    [
+      "18 months",
+      "From launch to $100M ARR"
+    ],
+    [
+      "$32B",
+      "Google acquisition, closed Mar 2026"
+    ],
+    [
+      "2020",
+      "Founded, Tel Aviv and New York"
+    ]
+  ],
+  "chartTitle": "The Wiz Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized recurring revenue in USD millions, 2020 to 2026. Wiz is the pre-AI benchmark: enterprise contracts, not self-serve, at a speed nobody had matched before.",
+  "chartMax": 1000,
+  "chartSources": "Sources: Wiz, Sacra, TechCrunch, Value Add VC, Product Market Fit.",
+  "milestones": [
+    {
+      "label": "2020",
+      "date": "2020",
+      "arr": 1,
+      "note": "Four ex-Microsoft cloud security engineers found Wiz and sell the first agentless scans.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2021",
+      "date": "18 months after launch",
+      "arr": 100,
+      "note": "$100M ARR in eighteen months — the fastest software company ever to that milestone at the time.",
+      "source": "Product Market Fit"
+    },
+    {
+      "label": "2022",
+      "date": "2022",
+      "arr": 200,
+      "note": "Fortune 100 logos compound as the agentless model displaces incumbent scanners.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 350,
+      "note": "Per-workload pricing scales with customers' cloud footprints instead of seat counts.",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "Jul '24",
+      "date": "July 2024",
+      "arr": 450,
+      "note": "Wiz rejects a reported $23B offer from Google and prepares for an IPO instead.",
+      "source": "Acquiry"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 500,
+      "note": "Around $500M ARR with roughly 216% year-over-year growth reported for the prior year.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Mar '26",
+      "date": "March 11, 2026",
+      "arr": 1000,
+      "note": "Past $1B ARR as Google's $32B all-cash acquisition closes — the largest cybersecurity deal on record.",
+      "source": "Value Add VC / TechCrunch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "18 months",
+      "source": "2020 → 2021"
+    },
+    {
+      "label": "$100M → $500M ARR",
+      "value": "~4 years",
+      "source": "2021 → Jun 2025"
+    },
+    {
+      "label": "$500M → $1B ARR",
+      "value": "~9 months",
+      "source": "Jun 2025 → Mar 2026"
+    },
+    {
+      "label": "Founded → $32B exit",
+      "value": "~5.5 years",
+      "source": "2020 → Mar 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "ARR before close",
+      "value": "$1B+",
+      "source": "Value Add VC, 2026"
+    },
+    {
+      "label": "Time to $100M ARR",
+      "value": "18 months",
+      "source": "Product Market Fit"
+    },
+    {
+      "label": "Acquisition price",
+      "value": "$32B, all cash",
+      "source": "Google, closed Mar 2026"
+    },
+    {
+      "label": "Rejected offer",
+      "value": "$23B",
+      "source": "July 2024"
+    },
+    {
+      "label": "Growth rate",
+      "value": "~216% y/y",
+      "source": "Sacra, 2024"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$1.9B",
+      "source": "Sacra"
+    },
+    {
+      "label": "Founded",
+      "value": "2020",
+      "source": "Sacra"
+    },
+    {
+      "label": "CEO",
+      "value": "Assaf Rappaport",
+      "source": "Company"
+    },
+    {
+      "label": "Pricing model",
+      "value": "Per protected cloud workload",
+      "source": "Value Add VC"
+    }
+  ],
+  "modelTitle": "How Billing per Workload Beat Selling Seats.",
+  "modelParagraphs": [
+    "Wiz never sold seats. It charged enterprises per protected cloud workload across AWS, Azure and GCP, which means revenue grew automatically as customers' own infrastructure grew — no upsell conversation required. Agentless scanning made the first deployment a same-day exercise, so proof-of-value happened before procurement.",
+    "That combination produced land-and-expand contracts measured in millions rather than hundreds of dollars, and it is why an enterprise security company could out-run consumer software to $100 million. It is also the model AI companies are now reverse-engineering: usage that compounds with the customer, priced against a budget line that already exists."
+  ],
+  "revenueMix": [
+    [
+      "Per-workload licensing",
+      "Priced against cloud footprint, not headcount."
+    ],
+    [
+      "Multi-cloud coverage",
+      "One contract spanning AWS, Azure and GCP."
+    ],
+    [
+      "Land and expand",
+      "Agentless deployment proves value before procurement."
+    ],
+    [
+      "Enterprise renewals",
+      "Multi-year commitments with Fortune 100 accounts."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Was Wiz's ARR?",
+      "a": "Wiz passed $1 billion in annual recurring revenue before Google's acquisition closed in March 2026, up from roughly $500 million in mid-2025."
+    },
+    {
+      "q": "How Fast Did Wiz Reach $100M ARR?",
+      "a": "Eighteen months from launch in 2020 — the fastest software company ever to that milestone at the time, a record later beaten by Cursor at twelve months and Lovable at eight."
+    },
+    {
+      "q": "Why Did Wiz Price per Cloud Workload Instead of per Seat?",
+      "a": "Because the thing being protected was infrastructure, not people. Enterprise licensing was priced per protected cloud workload across AWS, Azure and GCP, so contract value grew with each customer's cloud footprint instead of its headcount."
+    },
+    {
+      "q": "How Much Did Google Pay for Wiz?",
+      "a": "$32 billion in an all-cash transaction, announced in March 2025 and closed on March 11, 2026. Wiz had rejected a reported $23 billion offer from Google in July 2024."
+    },
+    {
+      "q": "Why Is Wiz on an AI Growth Leaderboard?",
+      "a": "Because it set the benchmark every AI company is measured against. Wiz's eighteen months to $100 million ARR was the reference point until AI-native products started beating it in 2025 and 2026."
+    }
+  ],
+  "ctaTitle": "Build Fast, Bill Faster.",
+  "ctaDescription": "Enterprise revenue that grows with the customer's own footprint needs billing without friction. Clink runs checkout, subscription renewals and merchant-of-record tax without a payments team.",
+  "ctaLabel": "Charge per Workload",
+  "ctaHref": "/contact"
+}

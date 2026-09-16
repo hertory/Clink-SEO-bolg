@@ -1,0 +1,158 @@
+{
+  "slug": "emergent",
+  "name": "Emergent",
+  "domain": "emergent.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/emergent",
+  "h1": "Emergent ARR: ~$120M and Growing 70% in Four Months.",
+  "intro": "Emergent, the agentic app-building platform, went from launch to a reported ~$120M annualized run rate in roughly two years — growing about 70% in four months on its way to a $1.5B valuation. Every publicly reported revenue, funding and usage number is collected below, each traced back to a source.",
+  "metaTitle": "Emergent ARR: ~$120M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Emergent (emergent.ai) revenue number: ~$120M ARR in July 2026, +70% in four months, the $130M Series C at $1.5B, implied MRR and usage metrics — with sources.",
+  "ogDescription": "From launch to ~$120M ARR and a $1.5B valuation — the Emergent revenue timeline, sourced.",
+  "heroStats": [
+    ["~$120M", "Reported ARR, July 2026"],
+    ["~$10M", "Implied monthly recurring revenue"],
+    ["+70%", "Run-rate growth in 4 months"],
+    ["$1.5B", "Valuation, Series C"]
+  ],
+  "chartTitle": "The Emergent Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2025 to July 2026. Company-reported figures — the ~$120M mark came roughly 70% above the level four months earlier.",
+  "chartMax": 140,
+  "chartSources": "Sources: TechCrunch, Tech in Asia, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 1,
+      "note": "Emergent launches as an agentic, AI-native app development platform built on Anthropic's Claude models.",
+      "source": "Company / Tech in Asia"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 15,
+      "note": "Early consumer and prosumer adoption compounds; reports of a $70M round from SoftBank and Khosla Ventures.",
+      "source": "Press reports"
+    },
+    {
+      "label": "Early '26",
+      "date": "Early 2026",
+      "arr": 70,
+      "note": "Revenue and active users grow roughly 4x in six months as the platform becomes a mainstream vibe-coding destination.",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 120,
+      "note": "Past ~$120M annualized run rate — about 70% higher than four months earlier — with 200,000+ paying customers and 12M+ apps built.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 120,
+      "note": "Raises a $130M Series C at a $1.5B valuation — unicorn status roughly a year after launch, taking total funding to ~$230M.",
+      "source": "Tech in Asia"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $70M ARR",
+      "value": "~18 months",
+      "source": "2024 → early 2026"
+    },
+    {
+      "label": "4-month growth",
+      "value": "+70%",
+      "source": "New Market Pitch, Jul 2026"
+    },
+    {
+      "label": "6-month growth",
+      "value": "~4x users and revenue",
+      "source": "Company-reported"
+    },
+    {
+      "label": "Launch → unicorn",
+      "value": "~1 year",
+      "source": "Series C"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$120M",
+      "source": "TechCrunch, Jul 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$10M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.5B",
+      "source": "Series C, 2026"
+    },
+    {
+      "label": "Series C",
+      "value": "$130M",
+      "source": "Tech in Asia"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$230M",
+      "source": "Company-reported"
+    },
+    {
+      "label": "Paying customers",
+      "value": "200,000+",
+      "source": "Company-reported, 2026"
+    },
+    {
+      "label": "Apps built",
+      "value": "12M+",
+      "source": "Company-reported"
+    },
+    {
+      "label": "Underlying models",
+      "value": "Anthropic Claude",
+      "source": "Press reports"
+    }
+  ],
+  "modelTitle": "How Every Generated App Becomes a Subscription.",
+  "modelParagraphs": [
+    "Emergent monetizes a conversational build surface: users describe an app, agents produce a production-ready application, and revenue comes from subscription plans plus credits for agent usage. Because each build consumes model tokens — mostly via Anthropic's Claude — plan price and usage credits have to clear Emergent's own inference bill, the same margin dynamic as every other vibe-coding platform.",
+    "The customer base skews broader than developer tools: 200,000+ paying customers and 12M+ apps built point to non-technical founders and operators shipping internal tools, storefronts and consumer apps. That volume keeps average revenue per user modest but the aggregate run rate compounding."
+  ],
+  "revenueMix": [
+    ["Subscription plans", "Tiered monthly plans for individual builders and teams."],
+    ["Usage credits", "Agent builds and app operations billed by consumption."],
+    ["Paying-customer volume", "200K+ paying users at a modest average revenue per user."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Emergent's ARR in 2026?",
+      "a": "Emergent reported an annualized run rate of roughly $120 million as of July 2026, about 70% above its level four months earlier. That implies around $10 million of monthly recurring revenue. Figures are company-reported."
+    },
+    {
+      "q": "How Big Is Emergent's Valuation?",
+      "a": "A $130 million Series C valued Emergent at $1.5 billion — unicorn status roughly a year after launch, bringing total funding to approximately $230 million. Earlier rounds included reported backing from SoftBank and Khosla Ventures."
+    },
+    {
+      "q": "How Does Emergent Make Money?",
+      "a": "Through subscription plans plus usage-based credits for agent builds. Each app generated on the platform consumes model tokens — largely Anthropic's Claude — so Emergent's gross margin depends on usage credits covering its own inference costs."
+    },
+    {
+      "q": "Who Uses Emergent?",
+      "a": "More than 200,000 paying customers have built over 12 million applications. The base skews toward non-technical founders and operators building internal tools, storefronts and consumer apps rather than professional engineering teams."
+    },
+    {
+      "q": "How Does Emergent Compare to Lovable or Cursor?",
+      "a": "All three sell AI app-building, but at different points on the curve: Lovable passed $500M annualized in June 2026, Cursor passed $4B, and Emergent sits around $120M with faster recent percentage growth. Emergent's differentiation is full agentic production apps rather than code editing."
+    }
+  ],
+  "ctaTitle": "Building With Agents? Get Paid Like Emergent.",
+  "ctaDescription": "Clink is the payment rails for prompt-built apps — every generated product gets checkout, subscriptions and merchant-of-record tax handling from day one.",
+  "ctaLabel": "Charge From Day One",
+  "ctaHref": "/contact"
+}

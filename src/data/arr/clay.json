@@ -1,0 +1,163 @@
+{
+  "slug": "clay",
+  "name": "Clay",
+  "domain": "clay.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/clay",
+  "h1": "Clay ARR: $150M and a $7.1B Valuation.",
+  "intro": "Clay, the AI-powered go-to-market platform, reached an estimated $150M annualized run rate by May 2026 and raised a $115M Series D at a $7.1B valuation with more than 17,000 teams building on it. Every publicly reported revenue, funding and adoption number is collected below, each traced back to a source.",
+  "metaTitle": "Clay ARR: $150M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Clay revenue number: ~$150M ARR estimate in May 2026, the $115M Series D at $7.1B, the $3.1B extension round, implied MRR and pricing — with sources.",
+  "ogDescription": "From GTM engineering cult to ~$150M ARR and a $7.1B valuation — the Clay revenue timeline, sourced.",
+  "heroStats": [
+    ["$150M", "Estimated ARR, May 2026"],
+    ["~$12.5M", "Implied monthly recurring revenue"],
+    ["17,000+", "Teams building on Clay"],
+    ["$7.1B", "Valuation, Series D"]
+  ],
+  "chartTitle": "The Clay Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, 2024 to May 2026. Clay has not disclosed exact revenue; figures are third-party estimates consistent with its valuation trajectory.",
+  "chartMax": 170,
+  "chartSources": "Sources: Sacra, Clay, Value Add VC, Wellington-led Series D reporting.",
+  "milestones": [
+    {
+      "label": "2017",
+      "date": "2017",
+      "arr": 1,
+      "note": "Founded in New York; early years spent on data enrichment before pivoting to a programmable GTM workspace.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Jan '24",
+      "date": "January 2024",
+      "arr": 20,
+      "note": "Raises a $46M Series B led by Sequoia at a $1.25B valuation as GTM engineering takes off.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Aug '25",
+      "date": "August 2025",
+      "arr": 100,
+      "note": "Raises a $40M Series B extension at a $3.1B valuation — 2.5x in 19 months — with an estimated ~$100M run rate.",
+      "source": "Value Add VC"
+    },
+    {
+      "label": "May '26",
+      "date": "May 2026",
+      "arr": 150,
+      "note": "Estimated past $150M annualized run rate as agencies and in-house GTM teams standardize on Claygent-powered workflows.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 2026",
+      "arr": 150,
+      "note": "Raises a $115M Series D led by Wellington Management at a $7.1B valuation — more than double the 2025 mark — with 17,000+ teams on the platform.",
+      "source": "Value Add VC"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$20M → ~$100M ARR",
+      "value": "~19 months",
+      "source": "Jan 2024 → Aug 2025"
+    },
+    {
+      "label": "$100M → ~$150M ARR",
+      "value": "~9 months",
+      "source": "Aug 2025 → May 2026"
+    },
+    {
+      "label": "Series B → Series D valuation",
+      "value": "5.7x in 20 months",
+      "source": "$1.25B → $7.1B"
+    },
+    {
+      "label": "Teams on platform",
+      "value": "17,000+",
+      "source": "Series D, Sep 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "$150M",
+      "source": "Sacra, May 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$12.5M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$7.1B",
+      "source": "Series D, Sep 2026"
+    },
+    {
+      "label": "Series D",
+      "value": "$115M, Wellington",
+      "source": "Sep 2026"
+    },
+    {
+      "label": "Series B",
+      "value": "$46M at $1.25B, Sequoia",
+      "source": "Jan 2024"
+    },
+    {
+      "label": "Series B extension",
+      "value": "$40M at $3.1B",
+      "source": "Aug 2025"
+    },
+    {
+      "label": "Teams",
+      "value": "17,000+",
+      "source": "Series D reporting"
+    },
+    {
+      "label": "Founded",
+      "value": "2017, New York",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Kareem Amin",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Seats and Credits Price GTM Automation.",
+  "modelParagraphs": [
+    "Clay sells monthly subscriptions priced on seats and credits: plans run from roughly $134 to $800 per month, with every enrichment, waterall and AI-agent run consuming credits. That makes Clay's revenue a function of how deeply GTM teams automate on the platform — heavier Claygent research and agent workflows burn more credits per seat.",
+    "Distribution is bottom-up through a practitioner community — the self-described GTM engineering movement — plus an agency ecosystem that builds client workflows on Clay. A free tier seeds individual users; team plans and enterprise agreements convert as workflows become core infrastructure for outbound sales and marketing."
+  ],
+  "revenueMix": [
+    ["Seat + credit subscriptions", "Plans from roughly $134 to $800 per month, priced by usage."],
+    ["Agent and enrichment credits", "Claygent research and data enrichment billed by consumption."],
+    ["Agency ecosystem", "GTM agencies building and reselling client workflows on Clay."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Clay's ARR in 2026?",
+      "a": "Clay's annualized run rate is estimated at roughly $150 million as of May 2026, per Sacra — up from an estimated ~$100M in August 2025. Clay has not disclosed exact revenue, so treat the figure as a third-party estimate."
+    },
+    {
+      "q": "What Is Clay's Valuation?",
+      "a": "A $115 million Series D led by Wellington Management in September 2026 valued Clay at $7.1 billion — more than double the $3.1B valuation from its $40M Series B extension in August 2025, and up from $1.25B at the Sequoia-led Series B in January 2024."
+    },
+    {
+      "q": "How Does Clay Price Its Product?",
+      "a": "Monthly subscriptions combining seats and credits, from roughly $134 to $800 per month, with enterprise agreements on top. Enrichments, waterfalls and Claygent agent runs consume credits, so revenue scales with how much GTM work teams automate."
+    },
+    {
+      "q": "What Is GTM Engineering and Why Does It Matter for Clay?",
+      "a": "GTM engineering is the practice of building automated sales and marketing workflows out of data tools — and Clay is its standard platform. The practitioner community and agency ecosystem give Clay bottom-up distribution that conventional sales-intelligence vendors lack."
+    },
+    {
+      "q": "How Does Claygent Change Clay's Business?",
+      "a": "Claygent puts an AI research agent inside the same credit system, letting teams replace manual prospect research at scale. It deepens usage per account and ties Clay's revenue growth directly to AI agent adoption rather than seat count alone."
+    }
+  ],
+  "ctaTitle": "Automating GTM With AI? Get Paid Like Clay.",
+  "ctaDescription": "Clink meters credits the way agents burn them — checkout, subscription management and merchant-of-record tax handling for seat-plus-usage GTM tools.",
+  "ctaLabel": "Bill Seats and Credits",
+  "ctaHref": "/contact"
+}

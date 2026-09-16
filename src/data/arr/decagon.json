@@ -1,0 +1,179 @@
+{
+  "slug": "decagon",
+  "name": "Decagon",
+  "domain": "decagon.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/decagon",
+  "h1": "Decagon ARR: $100M in AI Customer Service Agents.",
+  "intro": "Decagon reached $100M in annual recurring revenue in July 2026, three years after founding — tripling its valuation to $4.5B in under six months along the way. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Decagon ARR: $100M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Decagon revenue number in one place: $30M annualized in 2025 to $100M ARR in 2026, $4.5B valuation and the enterprise agent model — with sources.",
+  "ogDescription": "$30M to $100M ARR in about a year — the full Decagon revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$100M",
+      "Reported ARR, Jul 2026"
+    ],
+    [
+      "~$8.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "3x YoY",
+      "Reported growth"
+    ],
+    [
+      "$4.5B",
+      "Valuation, Series D Jan 2026"
+    ]
+  ],
+  "chartTitle": "The Decagon Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2024 to July 2026. Linear scale — enterprise contract ramp does most of the work after each funding step.",
+  "chartMax": 110,
+  "chartSources": "Sources: Decagon, The Information, Newcomer, Value Add VC, Sacra.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "October 2024",
+      "arr": 8,
+      "note": "$65M Series B at a $650M valuation as early enterprise customers like Notion, Rippling, Eventbrite and Substack deploy support agents in production.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Early '25",
+      "date": "Early 2025",
+      "arr": 30,
+      "note": "The Information reports annualized revenue above $30M during valuation talks for the next round.",
+      "source": "The Information"
+    },
+    {
+      "label": "Jun '25",
+      "date": "June 2025",
+      "arr": 40,
+      "note": "$131M Series C at a $1.5B valuation, led by Accel, as the product expands from support into the full customer-experience surface.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 70,
+      "note": "$250M Series D led by Coatue and Index Ventures triples the valuation to $4.5B in under six months.",
+      "source": "Decagon / Value Add VC"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 2026",
+      "arr": 100,
+      "note": "Reaches $100M ARR — roughly 3x year over year — with a model that avoids forward-deployed engineers and scales agent resolution rates instead.",
+      "source": "Newcomer / Value Add VC"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$30M ARR",
+      "value": "~18 months",
+      "source": "2023 → early 2025"
+    },
+    {
+      "label": "~$30M → $100M ARR",
+      "value": "~18 months",
+      "source": "Early 2025 → Jul 2026"
+    },
+    {
+      "label": "Reported growth",
+      "value": "3x YoY",
+      "source": "Value Add VC, 2026"
+    },
+    {
+      "label": "Implied MRR at $100M ARR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M",
+      "source": "Newcomer / Value Add VC, Jul 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$4.5B",
+      "source": "Series D, Jan 2026"
+    },
+    {
+      "label": "Series D raised",
+      "value": "$250M",
+      "source": "Coatue / Index Ventures"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$480M+",
+      "source": "Sacra"
+    },
+    {
+      "label": "Named customers",
+      "value": "Notion, Rippling, Eventbrite, Substack",
+      "source": "Company"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Jesse Zhang",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Per-Resolution Billing Beats Per-Seat Pricing.",
+  "modelParagraphs": [
+    "Decagon sells enterprise AI agents under per-resolution and subscription hybrid contracts: customers pay a platform fee plus a metered rate for each customer conversation the agent resolves, with pricing typically negotiated in the tens of thousands of dollars per month. Because billing tracks resolutions rather than seats, Decagon's revenue compounds as agent quality and automation rates rise — a direct incentive to keep improving the model.",
+    "The go-to-market deliberately skips the forward-deployed-engineer pattern common among agent startups: the platform is designed for ops teams to configure and monitor agents themselves, which keeps gross margin intact as enterprise accounts scale from pilot to production across support, onboarding and the broader customer-experience stack."
+  ],
+  "revenueMix": [
+    [
+      "Per-resolution billing",
+      "Metered pricing for each customer conversation resolved by the agent."
+    ],
+    [
+      "Platform subscriptions",
+      "Enterprise fees for the agent platform, tooling and monitoring."
+    ],
+    [
+      "Expansion use cases",
+      "From support into onboarding and the full customer-experience surface."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Decagon's ARR in 2026?",
+      "a": "Decagon reached $100 million in annual recurring revenue by July 2026, per Newcomer-sourced reporting — roughly 3x year over year, up from ~$30M annualized in early 2025. That implies about $8.3M of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Decagon Reach $100M ARR?",
+      "a": "About three years from founding in 2023. Revenue was above $30M annualized by early 2025 and grew roughly 3x in the following eighteen months, aided by enterprise contracts with companies like Notion, Rippling and Substack."
+    },
+    {
+      "q": "How Does Decagon Make Money?",
+      "a": "Enterprise hybrid contracts: a platform subscription plus per-resolution metered billing for each customer conversation the AI agent handles. Revenue scales with automation rates rather than seats, so growth compounds with model quality."
+    },
+    {
+      "q": "What Is Decagon's Valuation and How Much Has It Raised?",
+      "a": "A $250 million Series D led by Coatue and Index Ventures in January 2026 tripled Decagon's valuation to $4.5 billion in under six months, following a $131M Series C at $1.5B in June 2025. Total funding exceeds $480M."
+    },
+    {
+      "q": "Is Decagon's ARR Officially Disclosed?",
+      "a": "No. The $100M figure comes from Newcomer-based reporting and trackers such as Value Add VC and Sacra — a 'Reported' grade on the Clink ARR Leaderboard, not a company statement."
+    }
+  ],
+  "ctaTitle": "Billing AI Agents? Get Paid Like Decagon.",
+  "ctaDescription": "Clink meters outcomes, not seats — per-resolution billing, enterprise invoicing and merchant-of-record tax handling for agent companies pricing on automation rates.",
+  "ctaLabel": "Bill Per Resolution",
+  "ctaHref": "/contact"
+}

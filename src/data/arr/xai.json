@@ -1,0 +1,157 @@
+{
+  "slug": "xai",
+  "name": "xAI",
+  "domain": "x.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/xai",
+  "h1": "xAI ARR: ~$500M Standalone AI Revenue.",
+  "intro": "xAI's standalone AI business — Grok subscriptions plus the API — reached roughly $500M in annualized revenue by mid-2026, up from ~$350M in 2025, with a stated target of $2B for the year. Every reported ARR, funding and valuation number is collected below, each traced back to a public source. Figures exclude X advertising revenue.",
+  "metaTitle": "xAI ARR: ~$500M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported xAI revenue number in one place: ~$100M ARR in 2024 to ~$500M standalone AI revenue in mid-2026, implied MRR, valuation, funding history and Grok pricing — with sources.",
+  "ogDescription": "From ~$100M ARR to ~$500M standalone AI revenue — the full xAI timeline, sourced.",
+  "heroStats": [
+    [
+      "~$500M",
+      "Standalone AI ARR, mid-2026"
+    ],
+    [
+      "~$41.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$2B",
+      "Stated 2026 revenue target"
+    ],
+    [
+      "$230B",
+      "Valuation, Jan 2026 (pre-merger)"
+    ]
+  ],
+  "chartTitle": "The xAI Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions for the standalone AI business (Grok subscriptions and API, excluding X advertising), 2024 to mid-2026.",
+  "chartMax": 550,
+  "chartSources": "Sources: Sacra, Bloomberg, Value Add VC, The Information.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 100,
+      "note": "~$100M annualized revenue, mostly Grok subscriptions bundled with X Premium+ after the Grok launch in November 2023.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2025",
+      "date": "Full-year 2025",
+      "arr": 350,
+      "note": "The Grok product business generated ~$350M of revenue in 2025 on the standalone basis used here.",
+      "source": "Sacra / Value Add VC"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 400,
+      "note": "$20B raised at a reported ~$230B valuation — one of the largest private AI rounds ever — as the run rate approached $500M.",
+      "source": "Bloomberg / Sacra"
+    },
+    {
+      "label": "Mid '26",
+      "date": "Mid-2026",
+      "arr": 500,
+      "note": "Standalone AI ARR of roughly $500M, with company targets of ~$2B for 2026; burn of $1B+ per year remains the key concern.",
+      "source": "Value Add VC / Bloomberg"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~12 months",
+      "source": "Nov 2023 Grok launch → 2024"
+    },
+    {
+      "label": "$100M → $350M ARR",
+      "value": "~12 months",
+      "source": "2024 → 2025"
+    },
+    {
+      "label": "$350M → $500M ARR",
+      "value": "~6 months",
+      "source": "End 2025 → mid 2026"
+    },
+    {
+      "label": "2026 target",
+      "value": "$2B (4x)",
+      "source": "Company target via press reports"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "~$500M (standalone AI)",
+      "source": "Value Add VC / Bloomberg, mid-2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$41.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$230B (pre-merger)",
+      "source": "$20B round, Jan 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "$40B+",
+      "source": "Across rounds, incl. compute-linked structures"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, San Francisco",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How SuperGrok Tiers Stack From $30 to $300.",
+  "modelParagraphs": [
+    "xAI monetizes two ways. Consumer subscriptions run from free to SuperGrok at $30/month, SuperGrok Plus at $100/month and SuperGrok Heavy at $300/month, distributed through the X app. The API is usage-based: flagship Grok models price around $2.00 per million input tokens and $6.00 per million output tokens, with smaller models at roughly $1.25/$2.50.",
+    "The revenue-definition question matters more for xAI than any other lab: reported figures range from ~$350M (Grok product business, 2025) to ~$1B (internally discussed run rate including related-entity deals) to ~$3.8B (Sacra's end-2025 estimate counting X/Tesla-adjacent arrangements). This page uses the conservative standalone basis — Grok subscriptions plus API only, excluding X advertising — which reached ~$500M by mid-2026."
+  ],
+  "revenueMix": [
+    [
+      "Grok subscriptions",
+      "Free to $300/month tiers via X; the largest slice of standalone revenue."
+    ],
+    [
+      "Usage-based API",
+      "~$2–$6 per million tokens on flagship Grok models, growing with agentic workloads."
+    ],
+    [
+      "Excluded: X advertising",
+      "Ad revenue from the merged X entity is not counted in this ARR figure."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is xAI's ARR in 2026?",
+      "a": "xAI's standalone AI business — Grok subscriptions plus the API — generated roughly $500 million in annualized revenue by mid-2026, up from ~$350M in 2025. The company has reportedly targeted ~$2B for 2026. Figures here exclude X advertising revenue."
+    },
+    {
+      "q": "Why Do Reported xAI Revenue Numbers Vary So Much?",
+      "a": "Because the perimeter varies. The Grok product business alone made ~$350M in 2025; an internally discussed ~$1B run rate included X-adjacent deals; and Sacra's ~$3.8B end-2025 estimate counted arrangements with Elon Musk-affiliated companies. This page uses the conservative standalone basis."
+    },
+    {
+      "q": "How Does xAI Make Money?",
+      "a": "Consumer Grok subscriptions from free to $300/month (SuperGrok Heavy) and usage-based API pricing of roughly $2.00/$6.00 per million input/output tokens on flagship models, with cheaper smaller models below that."
+    },
+    {
+      "q": "What Is xAI's Valuation and How Much Has It Raised?",
+      "a": "A $20 billion raise in January 2026 came at a reported ~$230 billion valuation (pre-merger), bringing total raised above $40 billion including compute-linked structures. The xAI–X merger complicates standalone comparisons."
+    },
+    {
+      "q": "Is xAI Profitable?",
+      "a": "No. Press reports put burn at $1 billion or more per year against ~$500M of standalone ARR, with heavy GPU and data-center spend the dominant cost."
+    }
+  ],
+  "ctaTitle": "Building on Grok? Get Paid Like a Platform.",
+  "ctaDescription": "Subscription tiers from free to $300 a month, plus a per-token API. Clink handles the checkout, plan management and merchant-of-record tax across the ladder.",
+  "ctaLabel": "Price Tiered Subscriptions",
+  "ctaHref": "/contact"
+}

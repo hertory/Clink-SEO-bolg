@@ -1,0 +1,174 @@
+{
+  "slug": "fluidstack",
+  "name": "Fluidstack",
+  "domain": "fluidstack.io",
+  "canonical": "https://clinkbill.com/arr-leaderboard/fluidstack",
+  "h1": "Fluidstack ARR: ~$660M From GPU Tenant-Operator to Google's TPU Landlord.",
+  "intro": "Fluidstack went from a tiny GPU resale marketplace to the tenant-operator behind Anthropic's $50B data center build-out and the first external operator of Google TPU capacity. Every reported revenue, contract and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "Fluidstack ARR: ~$660M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Fluidstack revenue number in one place: $180M ARR to a ~$660M 2026 projection, the Anthropic $50B data center deal, Google lease backstops and an $18B valuation — with sources.",
+  "ogDescription": "From $180M ARR to Anthropic's $50B build-out partner — the full Fluidstack timeline, sourced.",
+  "heroStats": [
+    [
+      "~$660M",
+      "2026 projected revenue"
+    ],
+    [
+      "$50B",
+      "Anthropic data center program"
+    ],
+    [
+      "$18B",
+      "Valuation, Sep 2026"
+    ],
+    [
+      "$1.5B",
+      "Raised led by Jane Street"
+    ]
+  ],
+  "chartTitle": "The Fluidstack Revenue Curve.",
+  "chartIntro": "Reported ARR and projected revenue in USD millions. The 2026 figure is a projection driven by contracted data center deals, not a disclosed actual.",
+  "chartMax": 730,
+  "chartSources": "Sources: Sacra, Forbes, Anthropic, Data Center Dynamics, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 180,
+      "note": "Reached $180M ARR as a GPU capacity marketplace and tenant-operator, with average contracts around $340K.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 180,
+      "note": "Became the first known operator of Google TPU capacity outside Google itself; newer contracts signed at $20-25M of revenue per MW on multi-year terms.",
+      "source": "Forbes / SAVRN"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 2025",
+      "arr": 180,
+      "note": "Anthropic announced a $50B investment in US AI data centers built with Fluidstack in Texas and New York, alongside a 1GW+ Google Cloud deal for up to 1 million TPUs.",
+      "source": "Anthropic"
+    },
+    {
+      "label": "2026",
+      "date": "2026 projection",
+      "arr": 660,
+      "note": "~$660M projected revenue as the Anthropic sites and Google TPU contracts ramp.",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 2026",
+      "arr": 660,
+      "note": "Raised $1.5B led by Jane Street at an $18B valuation — up from ~$10B earlier in the year.",
+      "source": "Forbes"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$180M → ~$660M revenue",
+      "value": "~2 years",
+      "source": "2024 → 2026 projection"
+    },
+    {
+      "label": "Contract value per MW",
+      "value": "$20-25M",
+      "source": "Multi-year terms, 2025"
+    },
+    {
+      "label": "Valuation ~$10B → $18B",
+      "value": "~6 months",
+      "source": "Early 2026 → Sep 2026"
+    },
+    {
+      "label": "Anthropic program",
+      "value": "$50B",
+      "source": "Nov 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "2026 projected revenue",
+      "value": "~$660M",
+      "source": "New Market Pitch"
+    },
+    {
+      "label": "ARR, 2024",
+      "value": "$180M",
+      "source": "Sacra"
+    },
+    {
+      "label": "Valuation",
+      "value": "$18B",
+      "source": "Forbes, Sep 2026"
+    },
+    {
+      "label": "Latest round",
+      "value": "$1.5B (Jane Street)",
+      "source": "Forbes, Sep 2026"
+    },
+    {
+      "label": "Anthropic program",
+      "value": "$50B, TX + NY",
+      "source": "Anthropic, Nov 2025"
+    },
+    {
+      "label": "Google backstop",
+      "value": "Leases guaranteed vs default",
+      "source": "Financial Post"
+    },
+    {
+      "label": "Avg contract value (early)",
+      "value": "~$340K",
+      "source": "Sacra"
+    }
+  ],
+  "modelTitle": "How Renting TPU Shells Yields $25M Per Megawatt.",
+  "modelParagraphs": [
+    "Fluidstack is a tenant-operator: it leases data center shells, fills them with accelerators — mostly Google TPUs — and rents the capacity to AI labs under multi-year contracts. Early deals averaged around $340K; by 2025 new contracts were being signed at $20-25M of revenue per MW of IT capacity, which is how a $180M ARR business projected ~$660M for 2026 once the large sites landed.",
+    "The company's leverage is its relationship stack. Google backstops Fluidstack's data center leases — agreeing to take over payments if Fluidstack defaults — which underpins roughly $35B in TPU chip deals tied to Anthropic. Anthropic itself committed $50B to US data centers built with Fluidstack in Texas and New York. A $1.5B round led by Jane Street in September 2026 valued the company at $18B, up from roughly $10B earlier in the year."
+  ],
+  "revenueMix": [
+    [
+      "Contracted data center capacity",
+      "Multi-year leases to AI labs at $20-25M of revenue per MW, anchored by Anthropic."
+    ],
+    [
+      "TPU-as-a-service",
+      "Operating Google TPU capacity — the first external operator of Google's AI chips."
+    ],
+    [
+      "GPU cloud marketplace",
+      "The original on-demand GPU rental business, now a minority of revenue."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Fluidstack's ARR in 2026?",
+      "a": "Fluidstack's 2026 projected revenue is roughly $660 million, per figures reported to investors, up from $180M of ARR in 2024. The figure is a projection driven by contracted data center capacity, classified here as Reported."
+    },
+    {
+      "q": "How Did Fluidstack Grow From $180M to ~$660M?",
+      "a": "Contract size. Early deals averaged ~$340K; by 2025 Fluidstack was signing multi-year contracts at $20-25M of revenue per MW. The inflection was Anthropic's November 2025 announcement of a $50B US data center program built with Fluidstack in Texas and New York."
+    },
+    {
+      "q": "What Is Fluidstack's Relationship With Google?",
+      "a": "Fluidstack is the first known operator of Google TPU capacity outside Google, effectively a test bed for Google selling its AI chips as an NVIDIA alternative. Google also backstops Fluidstack's data center leases — taking over payments if Fluidstack defaults — underpinning ~$35B in TPU deals tied to Anthropic."
+    },
+    {
+      "q": "What Is Fluidstack's Valuation?",
+      "a": "A $1.5 billion round led by Jane Street in September 2026 valued Fluidstack at $18 billion, up from marks around $10B earlier in 2026 that had been secured by GPU assets."
+    },
+    {
+      "q": "Who Are Fluidstack's Customers?",
+      "a": "Anthropic is the anchor — the $50B Texas and New York build-out — alongside other AI labs renting contracted capacity. Google is the strategic counterparty on the TPU side, backstopping leases tied to roughly $35B of chip deals."
+    }
+  ],
+  "ctaTitle": "Building AI Infrastructure? Get Paid Like a Landlord.",
+  "ctaDescription": "Multi-year capacity contracts need serious invoicing. Clink handles contract billing, recurring payments and merchant-of-record tax handling for infrastructure landlords.",
+  "ctaLabel": "Bill TPU Capacity",
+  "ctaHref": "/contact"
+}

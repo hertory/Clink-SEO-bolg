@@ -1,0 +1,174 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "domain": "runwayml.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/runway",
+  "h1": "Runway ARR: $200M, Doubled in Five Months.",
+  "intro": "Runway's annual recurring revenue hit $200 million in September 2026 — roughly double where it stood five months earlier — confirmed by co-CEO Anastasis Germanidis and reported by Bloomberg. Enterprise expansion with net revenue retention above 300% carried the ramp. Every reported figure below is traced to a public source.",
+  "metaTitle": "Runway ARR: $200M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Runway revenue number in one place: $100M to $200M ARR in five months, 300%+ net retention, $5.3B valuation and Gen-4 — with sources.",
+  "ogDescription": "$100M to $200M ARR in five months — the Runway revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$200M",
+      "ARR, September 2026"
+    ],
+    [
+      "~$16.7M",
+      "Monthly recurring revenue"
+    ],
+    [
+      "300%+",
+      "Net revenue retention"
+    ],
+    [
+      "$5.3B",
+      "Valuation, 2026"
+    ]
+  ],
+  "chartTitle": "The Runway Revenue Curve.",
+  "chartIntro": "Reported annual recurring revenue in USD millions, 2023 to September 2026. Linear scale — which is exactly why the first two years look flat.",
+  "chartMax": 220,
+  "chartSources": "Sources: Bloomberg, PYMNTS, Briefs, Techmeme, company statements.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 20,
+      "note": "Estimated run rate in the tens of millions as Gen-2 subscriptions and early API access monetized; Runway pivoted the company fully to generative video.",
+      "source": "Press estimates"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 50,
+      "note": "Growth into the tens of millions of ARR on Gen-3 Alpha, with film-industry adoption (The Oscar-winning 'Everything Everywhere' VFX lineage) and enterprise pilots expanding.",
+      "source": "Press estimates"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 90,
+      "note": "Approaching ~$100M annualized by year-end as Gen-4 shipped and enterprise contracts scaled; a ~$400M round priced the company in the $3–5B range.",
+      "source": "Press estimates"
+    },
+    {
+      "label": "Apr–May '26",
+      "date": "April–May 2026",
+      "arr": 100,
+      "note": "Crossed ~$100M ARR — the milestone that, per Bloomberg-reported figures, doubled to $200M within five months.",
+      "source": "Bloomberg (implied)"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 2026",
+      "arr": 200,
+      "note": "Co-CEO Anastasis Germanidis confirmed $200M ARR, roughly doubling in five months. Net revenue retention above 300%; one Fortune 20 customer grew usage 17x.",
+      "source": "Bloomberg / PYMNTS"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$50M ARR",
+      "value": "~2 years (est.)",
+      "source": "2023–2024 press estimates"
+    },
+    {
+      "label": "$50M → ~$100M",
+      "value": "~1 year (est.)",
+      "source": "2025 → Apr/May 2026"
+    },
+    {
+      "label": "$100M → $200M ARR",
+      "value": "5 months",
+      "source": "Apr/May → Sep 2026, Bloomberg"
+    },
+    {
+      "label": "Net revenue retention",
+      "value": "300%+",
+      "source": "Company, Sep 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "$200M",
+      "source": "Bloomberg / PYMNTS, Sep 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$16.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$5.3B",
+      "source": "2026 reporting"
+    },
+    {
+      "label": "Capital raised",
+      "value": "~$400M",
+      "source": "Press"
+    },
+    {
+      "label": "Net revenue retention",
+      "value": "300%+",
+      "source": "Runway, Sep 2026"
+    },
+    {
+      "label": "Flagship customer proof point",
+      "value": "Fortune 20 customer, 17x usage growth",
+      "source": "Runway, Sep 2026"
+    },
+    {
+      "label": "Co-CEOs",
+      "value": "Cristóbal Valenzuela & Anastasis Germanidis",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Creator Credits Compound Into Enterprise Contracts.",
+  "modelParagraphs": [
+    "Runway monetizes through two engines. Self-serve subscriptions for creators and creative teams run from roughly $12–15/month entry plans to ~$76–95/month unlimited-tier options, billed by credits for video generations. On top, the API sells Gen-4 and Aleph models per second of generated video to developers, ad agencies and media platforms.",
+    "The 2026 acceleration is enterprise-led: management credits net revenue retention above 300% — driven by customers expanding from pilots into production pipelines — with one Fortune 20 customer scaling usage 17x. Advertising and entertainment budgets, not individual creators, now carry the growth."
+  ],
+  "revenueMix": [
+    [
+      "Creator subscriptions",
+      "Credit-based plans from roughly $12–15/month up to ~$95/month unlimited tiers."
+    ],
+    [
+      "Video generation API",
+      "Gen-4 and Aleph models billed per second of video for developers and platforms."
+    ],
+    [
+      "Enterprise contracts",
+      "300%+ net retention; a Fortune 20 customer grew usage 17x."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Runway's ARR in 2026?",
+      "a": "$200 million in annual recurring revenue as of September 2026, confirmed by co-CEO Anastasis Germanidis and reported by Bloomberg — roughly double the ~$100M level of five months earlier."
+    },
+    {
+      "q": "How Fast Is Runway Growing?",
+      "a": "ARR doubled in roughly five months (about $100M in April–May 2026 to $200M in September). The ramp is enterprise-led, with net revenue retention above 300% and one Fortune 20 customer growing usage 17x."
+    },
+    {
+      "q": "What Does Runway Actually Sell?",
+      "a": "Credit-based subscriptions for creators (roughly $12–15/month entry, up to ~$95/month unlimited tiers), a per-second API for its Gen-4 and Aleph video models, and direct enterprise contracts with media and advertising companies."
+    },
+    {
+      "q": "What Is Runway's Valuation?",
+      "a": "About $5.3 billion as of 2026, on roughly $400 million of total funding raised — pricing the company at about 26x its current ARR."
+    },
+    {
+      "q": "How Does Runway Compare With Other AI Video Companies?",
+      "a": "Runway's disclosed $200M ARR is the largest confirmed figure among AI video startups — ahead of Luma's ~$80M estimate and OpenAI's Sora, which is not separately reported. Luma's $4B and Runway's $5.3B valuations are in a similar range."
+    }
+  ],
+  "ctaTitle": "Building on Video Models? Monetize With Clink.",
+  "ctaDescription": "Credit-based plans for creators, expanding contracts for studios. Clink handles both — usage billing, checkout and merchant-of-record tax as pilots turn into production pipelines.",
+  "ctaLabel": "Bill Creative Teams",
+  "ctaHref": "/contact"
+}

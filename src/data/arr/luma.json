@@ -1,0 +1,181 @@
+{
+  "slug": "luma",
+  "name": "Luma AI",
+  "domain": "lumalabs.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/luma",
+  "h1": "Luma AI ARR: ~$80M Estimated on a $4B Valuation.",
+  "intro": "Luma AI has never disclosed an ARR figure. Third-party estimates put it near $80M annualized in 2026, while the company raised a $900M Series C led by Saudi Arabia's Humain at a $4B+ valuation to fund the Project Mars supercluster. The timeline below blends those estimates with disclosed funding events.",
+  "metaTitle": "Luma AI ARR: ~$80M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every reported and estimated Luma AI revenue number in one place: Dream Machine's 30M users, ~$80M estimated ARR, the $900M Humain round and $4B valuation — with sources.",
+  "ogDescription": "~$80M estimated ARR, 30M Dream Machine users, $4B valuation — the Luma AI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$80M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$6.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$4B+",
+      "Valuation, Series C Nov 2025"
+    ],
+    [
+      "30M+",
+      "Dream Machine users"
+    ]
+  ],
+  "chartTitle": "The Luma AI Revenue Curve (Estimated).",
+  "chartIntro": "Third-party estimated annualized run rate in USD millions, 2023 to 2026. Luma has never disclosed revenue; treat every point as an estimate with a wide error band.",
+  "chartMax": 90,
+  "chartSources": "Sources: Sacra, a16z Top 100, Silicon Valley Invest Club, CNBC — ARR not company-disclosed.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 5,
+      "note": "Luma built its name on NeRF capture (Luma API, Genie) with only early monetization; a16z listed its models among the most-used on inference platforms.",
+      "source": "a16z / Sacra (est.)"
+    },
+    {
+      "label": "Jun '24",
+      "date": "June 2024",
+      "arr": 20,
+      "note": "Dream Machine launches and goes viral, becoming one of the fastest-adopted AI video products of 2024; early subscription revenue begins.",
+      "source": "Company / press (est.)"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 35,
+      "note": "Estimated run rate in the tens of millions as Dream Machine subscriptions and Ray2 model API usage ramp.",
+      "source": "Sacra (est.)"
+    },
+    {
+      "label": "Aug '25",
+      "date": "August 2025",
+      "arr": 50,
+      "note": "Sacra reports Luma seeking ~$1.1B at a $3.2B valuation as Dream Machine passes tens of millions of users and 2025 revenue runs in the tens of millions.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Nov '25",
+      "date": "November 19, 2025",
+      "arr": 65,
+      "note": "$900M Series C led by Saudi AI firm Humain at a $4B+ valuation — a ~13x step-up — to fund the Project Mars supercluster in Saudi Arabia.",
+      "source": "CNBC"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 80,
+      "note": "Current estimates put annualized revenue near ~$80M across Dream Machine subscriptions and the Ray-series video API for enterprise and marketers.",
+      "source": "Sacra / morphed.app (est.)"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → ~$35M ARR",
+      "value": "~18 months (est.)",
+      "source": "Dream Machine launch Jun 2024 → FY2024 est."
+    },
+    {
+      "label": "$35M → ~$65M",
+      "value": "~1 year (est.)",
+      "source": "2024 → Nov 2025 estimates"
+    },
+    {
+      "label": "$65M → ~$80M",
+      "value": "~1 year (est.)",
+      "source": "Nov 2025 → 2026 estimates"
+    },
+    {
+      "label": "Valuation step-up",
+      "value": "$3.2B → $4B+ in 3 months",
+      "source": "Sacra Aug 2025 → CNBC Nov 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$80M",
+      "source": "Sacra / morphed.app, 2026 (est.)"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$6.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$4B+",
+      "source": "Series C, Nov 2025"
+    },
+    {
+      "label": "Series C",
+      "value": "$900M led by Humain",
+      "source": "CNBC, Nov 2025"
+    },
+    {
+      "label": "Total funding",
+      "value": "$1B+",
+      "source": "CNBC"
+    },
+    {
+      "label": "Dream Machine users",
+      "value": "30M+",
+      "source": "Company / press"
+    },
+    {
+      "label": "Basis note",
+      "value": "ARR not precisely disclosed; estimate.",
+      "source": "Sacra / a16z"
+    }
+  ],
+  "modelTitle": "How Creator Plans Fund a Per-Second Video API.",
+  "modelParagraphs": [
+    "Luma monetizes Dream Machine with tiered subscriptions — self-serve plans historically running from roughly $10/month for casual creators to ~$100/month for heavy professionals, billed by generation counts — plus a free tier that seeds the funnel among its 30M+ users. The consumer and prosumer plans carry most of today's revenue.",
+    "The larger bet is API and enterprise: the Ray-series video models are sold per second of generation to developers, agencies and platforms, and the Humain partnership ties Luma to sovereign compute in Saudi Arabia — Project Mars capacity that underwrites enterprise-scale video generation. Revenue today is modest relative to the $4B valuation; the round is priced on the enterprise ramp ahead."
+  ],
+  "revenueMix": [
+    [
+      "Dream Machine subscriptions",
+      "Tiered creator plans from roughly $10 to ~$100/month with a free tier for its 30M+ users."
+    ],
+    [
+      "Video generation API",
+      "Ray-series models billed per second of generated video for developers and platforms."
+    ],
+    [
+      "Enterprise & sovereign deals",
+      "Humain-backed capacity and enterprise contracts for marketer-scale video production."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Luma AI's ARR in 2026?",
+      "a": "Luma has never disclosed ARR. Third-party estimates put it around $80 million annualized in 2026, up from an estimated tens of millions in 2024–2025. The company's confirmed numbers are users (30M+ on Dream Machine) and funding, not revenue."
+    },
+    {
+      "q": "How Much Has Luma AI Raised and at What Valuation?",
+      "a": "A $900 million Series C led by Saudi AI firm Humain in November 2025 valued Luma at $4 billion+, a ~13x step-up from the $3.2B it was reportedly seeking in August 2025. Total funding exceeds $1 billion."
+    },
+    {
+      "q": "What Does Luma AI Actually Sell?",
+      "a": "Dream Machine video-generation subscriptions for creators and professionals, a per-second API for its Ray-series video models, and enterprise capacity — anchored by the Humain partnership and the Project Mars supercluster in Saudi Arabia."
+    },
+    {
+      "q": "How Reliable Are These Revenue Estimates?",
+      "a": "Low confidence — Luma has not published revenue figures. The ARR points here are third-party estimates (Sacra, a16z ecosystem trackers) triangulated from users, pricing and funding disclosures; treat them as directional."
+    },
+    {
+      "q": "How Does Luma Compare With Runway and Other AI Video Startups?",
+      "a": "Runway disclosed $200M ARR in September 2026 — roughly 2.5x Luma's estimated run rate — though Luma's $4B valuation is comparable to Runway's $5.3B. Luma's differentiation is sovereign compute via Humain and consumer reach via Dream Machine."
+    }
+  ],
+  "ctaTitle": "Building Video AI Products? Monetize Them With Clink.",
+  "ctaDescription": "Creator plans on one side, a per-second video API on the other. Clink meters both, manages the subscriptions and carries merchant-of-record tax in every market.",
+  "ctaLabel": "Bill Video Generation",
+  "ctaHref": "/contact"
+}

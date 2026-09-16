@@ -1,0 +1,172 @@
+{
+  "slug": "skild",
+  "name": "Skild AI",
+  "domain": "skild.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/skild",
+  "h1": "Skild AI ARR: $100M Just 10 Months After First Deployment.",
+  "intro": "Skild AI reached $100M in annualized revenue run rate in September 2026 — just ten months after its first commercial deployment — after tripling its valuation to $14B in January. Every reported ARR, funding and valuation number is collected below, each traced back to a public source.",
+  "metaTitle": "Skild AI ARR: $100M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Skild AI revenue number in one place: $100M run rate 10 months after first deployment, $14B valuation and the Skild Brain robotics model — with sources.",
+  "ogDescription": "$100M run rate ten months after first deployment — the full Skild AI revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$100M",
+      "Reported ARR, Sep 2026"
+    ],
+    [
+      "~$8.3M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "10 months",
+      "First deployment → $100M ARR"
+    ],
+    [
+      "$14B",
+      "Valuation, Jan 2026"
+    ]
+  ],
+  "chartTitle": "The Skild AI Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, late 2025 to September 2026. Linear scale — the timeline is short because the commercial clock only started in late 2025.",
+  "chartMax": 110,
+  "chartSources": "Sources: Bloomberg, company disclosures, TNW.",
+  "milestones": [
+    {
+      "label": "Jul '24",
+      "date": "July 2024",
+      "arr": 5,
+      "note": "Carnegie Mellon spinout raises a $300M Series A from SoftBank and Jeff Bezos at a $1.5B valuation to build the 'Skild Brain' general-purpose robot foundation model.",
+      "source": "TechCrunch / Reuters"
+    },
+    {
+      "label": "2025",
+      "date": "Mid 2025",
+      "arr": 10,
+      "note": "Valuation climbs to $4.7B during 2025 as partnerships and pilot programs form, ahead of the first commercial deployment around late 2025.",
+      "source": "Bloomberg"
+    },
+    {
+      "label": "Jan '26",
+      "date": "January 2026",
+      "arr": 40,
+      "note": "Raises $1.4B at a $14B valuation — roughly triple the prior mark — with early commercial contracts ramping across logistics and manufacturing robots.",
+      "source": "Bloomberg"
+    },
+    {
+      "label": "Sep '26",
+      "date": "September 10, 2026",
+      "arr": 100,
+      "note": "Bloomberg reports Skild AI at $100M in annualized revenue run rate — just ten months after its first commercial deployment, an unprecedented ramp for robotics software.",
+      "source": "Bloomberg"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $100M ARR",
+      "value": "10 months",
+      "source": "First commercial deployment, late 2025"
+    },
+    {
+      "label": "$1.5B → $14B valuation",
+      "value": "18 months",
+      "source": "Jul 2024 → Jan 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "$1.4B+",
+      "source": "Bloomberg, Jan 2026"
+    },
+    {
+      "label": "Implied MRR at $100M ARR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M",
+      "source": "Bloomberg, Sep 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$8.3M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$14B",
+      "source": "Jan 2026 round"
+    },
+    {
+      "label": "Total raised",
+      "value": "$1.4B+",
+      "source": "Bloomberg"
+    },
+    {
+      "label": "Core product",
+      "value": "Skild Brain foundation model",
+      "source": "Company"
+    },
+    {
+      "label": "Time to $100M",
+      "value": "10 months",
+      "source": "Bloomberg, Sep 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Carnegie Mellon spinout",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Deepak Pathak",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How One Licensed Brain Bills Every Robot.",
+  "modelParagraphs": [
+    "Skild AI licenses the Skild Brain — a general-purpose robot foundation model — to enterprises deploying robots in logistics, manufacturing and other physical-work environments. Revenue comes from per-robot or fleet licensing fees plus development contracts, so each robot running the software carries recurring licensing revenue rather than a one-time hardware sale.",
+    "The model is 'one brain, any robot': a single software stack that generalizes across robot form factors and environments, which lets Skild sell the same product into multiple verticals instead of building bespoke systems per customer. That licensing structure explains how revenue can hit $100M run rate within ten months of first deployment — fleet deals scale the software across thousands of robots at once."
+  ],
+  "revenueMix": [
+    [
+      "Per-robot licensing",
+      "Recurring software fees for every robot running the Skild Brain."
+    ],
+    [
+      "Fleet deployment contracts",
+      "Enterprise agreements scaling the model across logistics and manufacturing fleets."
+    ],
+    [
+      "Development partnerships",
+      "Custom work adapting the foundation model to new robot form factors."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Skild AI's ARR in 2026?",
+      "a": "Bloomberg reported on September 10, 2026 that Skild AI reached $100 million in annualized revenue run rate — just ten months after its first commercial deployment. That implies roughly $8.3M of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did Skild AI Reach $100M ARR?",
+      "a": "Ten months from first commercial deployment in late 2025 to $100M run rate — widely covered as the fastest revenue ramp ever reported in robotics software."
+    },
+    {
+      "q": "What Is Skild AI's Valuation and How Much Has It Raised?",
+      "a": "Skild raised $1.4 billion at a $14 billion valuation in January 2026 — roughly triple its prior $4.7B mark and up from $1.5B at its July 2024 Series A backed by SoftBank and Jeff Bezos."
+    },
+    {
+      "q": "How Does Skild AI Make Money?",
+      "a": "Licensing the Skild Brain foundation model to enterprises: per-robot or fleet software fees plus development contracts, so revenue scales with the number of robots running the software in logistics, manufacturing and other physical environments."
+    },
+    {
+      "q": "Is Skild AI's ARR Officially Disclosed?",
+      "a": "It is company-sourced but reported rather than published in a statement: the $100M figure comes via Bloomberg's September 2026 reporting — a 'Reported' grade on the Clink ARR Leaderboard."
+    }
+  ],
+  "ctaTitle": "Building Robotics Software? Get Paid Like Skild.",
+  "ctaDescription": "Per-robot and fleet licenses across many verticals, one brain. Clink provides recurring licensing billing and merchant-of-record tax at fleet scale.",
+  "ctaLabel": "Bill Robot Fleets",
+  "ctaHref": "/contact"
+}

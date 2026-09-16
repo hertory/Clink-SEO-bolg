@@ -1,0 +1,186 @@
+{
+  "slug": "minimax",
+  "name": "MiniMax",
+  "domain": "minimaxi.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/minimax",
+  "h1": "MiniMax ARR: $800M Annualized, ~80% From Enterprise.",
+  "intro": "MiniMax went from $79M of total 2025 revenue — disclosed in its Hong Kong IPO prospectus — to more than $800M of annualized recurring revenue by August 2026, with roughly 80% from enterprise customers. Every reported figure below is traced to filings, Dealroom and 36Kr; HKD/RMB figures are converted to USD.",
+  "metaTitle": "MiniMax ARR: $800M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported MiniMax revenue number in one place: $30.5M in 2024 and $79M in 2025 (IPO prospectus) to $800M+ ARR in Aug 2026, with MRR, valuation and revenue mix — with sources.",
+  "ogDescription": "From $79M of 2025 revenue to $800M+ ARR — the MiniMax revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$800M+",
+      "ARR, Aug 2026"
+    ],
+    [
+      "~$67M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "~80%",
+      "Of ARR from enterprise"
+    ],
+    [
+      "~HK$81B",
+      "Market cap post-IPO"
+    ]
+  ],
+  "chartTitle": "The MiniMax Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, from the HKEX prospectus and post-IPO reporting, 2023 to August 2026. Linear scale — which is exactly why the first three years look flat.",
+  "chartMax": 880,
+  "chartSources": "Sources: MiniMax HKEX prospectus, BigGo/36Kr, Dealroom, Dolphin Research.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "Full year 2023",
+      "arr": 3.5,
+      "note": "Total revenue of just $3.5 million, per the Hong Kong IPO prospectus — the company was still pre-commercial.",
+      "source": "HKEX prospectus"
+    },
+    {
+      "label": "2024",
+      "date": "Full year 2024",
+      "arr": 30.5,
+      "note": "Revenue grew ~9x to $30.5 million as Talkie, Hailuo and the MiniMax API began monetizing.",
+      "source": "HKEX prospectus"
+    },
+    {
+      "label": "2025",
+      "date": "Full year 2025",
+      "arr": 79,
+      "note": "Revenue up 159% YoY to $79 million (RMB ~535M); gross margin expanded to 25.4%. IPO priced for a January 2026 Hong Kong debut, raising up to ~$539M.",
+      "source": "HKEX prospectus / Reuters"
+    },
+    {
+      "label": "Feb '26",
+      "date": "February 2026",
+      "arr": 200,
+      "note": "Analyst estimates put ARR around $150–250M as the company pivoted toward its AI platform and agent model.",
+      "source": "Dolphin Research (est.)"
+    },
+    {
+      "label": "H1 '26",
+      "date": "Half-year 2026 results",
+      "arr": 400,
+      "note": "H1 revenue of $117M, up 283% YoY (some sources cite up to 703% growth on an annualized basis), with enterprise already over 60% of the mix.",
+      "source": "BigGo / 36Kr"
+    },
+    {
+      "label": "Aug '26",
+      "date": "August 2026",
+      "arr": 800,
+      "note": "ARR surpassed $800 million, roughly 80% from enterprise customers; management projects $800M–$1B ARR for full-year 2026 — nearly 20x total 2025 revenue.",
+      "source": "BigGo / 36Kr"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $30M revenue",
+      "value": "2 years",
+      "source": "FY2024, HKEX prospectus"
+    },
+    {
+      "label": "$30M → $79M revenue",
+      "value": "1 year (+159%)",
+      "source": "FY2025, HKEX prospectus"
+    },
+    {
+      "label": "$200M → $800M ARR",
+      "value": "~6 months",
+      "source": "Feb → Aug 2026, 36Kr / BigGo"
+    },
+    {
+      "label": "FY2025 revenue → Aug 2026 ARR",
+      "value": "~10x in 8 months",
+      "source": "Derived"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "$800M+",
+      "source": "H1 2026 report / 36Kr, Aug 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$67M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Market cap",
+      "value": "~HK$81B",
+      "source": "HKEX, 2026"
+    },
+    {
+      "label": "FY2025 revenue",
+      "value": "$79M (+159% YoY)",
+      "source": "HKEX prospectus"
+    },
+    {
+      "label": "FY2025 gross margin",
+      "value": "25.4%",
+      "source": "HKEX prospectus"
+    },
+    {
+      "label": "Enterprise share of ARR",
+      "value": "~80%",
+      "source": "H1 2026 report"
+    },
+    {
+      "label": "IPO",
+      "value": "Hong Kong, Jan 2026, up to ~$539M raised",
+      "source": "Reuters / HKEXnews"
+    },
+    {
+      "label": "Basis note",
+      "value": "FY2023–25 are audited revenue, not ARR; 2026 figures are company-reported ARR",
+      "source": "HKEX / 36Kr"
+    }
+  ],
+  "modelTitle": "How Enterprise Contracts Outgrew the Consumer Apps.",
+  "modelParagraphs": [
+    "MiniMax runs a multi-modal portfolio — the MiniMax LLMs (M2/M2.5), Hailuo video, and consumer apps like Talkie — monetized through a token-based API, enterprise contracts, and subscription apps. Enterprise is now the engine: roughly 80% of the August 2026 ARR, up from over 60% of H1 2026 revenue, sold as direct model access and agent deployments.",
+    "Notably, open-sourcing M2 and M2.5 — and cutting M2.5 inference costs by more than 50% — has so far grown rather than cannibalized revenue, as enterprise adoption followed the models. The 2025 base was still thin ($79M of revenue at a 25.4% gross margin, against ~$180M of nine-month R&D spend), which makes the 2026 ARR ramp the decisive test."
+  ],
+  "revenueMix": [
+    [
+      "Enterprise model access",
+      "~80% of ARR — direct contracts and agent deployments on MiniMax and M-series models."
+    ],
+    [
+      "Token-based API",
+      "Self-serve developer access across text, video (Hailuo) and audio models."
+    ],
+    [
+      "Consumer subscription apps",
+      "Talkie and companion products; historically the largest consumer line."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is MiniMax's ARR in 2026?",
+      "a": "MiniMax's annualized recurring revenue surpassed $800 million in August 2026, per its H1 2026 reporting, with roughly 80% coming from enterprise customers. Management projects $800M–$1B ARR for full-year 2026 — nearly 20x its total 2025 revenue."
+    },
+    {
+      "q": "How Much Revenue Did MiniMax Report Before the ARR Surge?",
+      "a": "Per its Hong Kong IPO prospectus: $3.5M in 2023, $30.5M in 2024 (~9x growth), and $79M in 2025 (+159% YoY) at a 25.4% gross margin. Those are audited revenue figures, not ARR."
+    },
+    {
+      "q": "What Does MiniMax Actually Sell?",
+      "a": "Token-based API access to its M-series language models plus Hailuo video and audio models, enterprise model deployments, and consumer subscription apps such as Talkie. Enterprise is now the dominant line."
+    },
+    {
+      "q": "Did Open-Sourcing Its Models Hurt MiniMax's Revenue?",
+      "a": "No — open-sourcing M2 and M2.5, alongside cutting M2.5 inference costs by more than 50%, coincided with accelerating enterprise adoption. ARR kept climbing to $800M+ after the open-source pivot."
+    },
+    {
+      "q": "What Is MiniMax's Valuation?",
+      "a": "MiniMax listed on the Hong Kong Stock Exchange in January 2026, raising up to roughly $539 million, and trades at a market capitalization around HK$81 billion as of 2026. It is also pursuing an A-share listing."
+    }
+  ],
+  "ctaTitle": "Monetizing a Multi-Modal AI Product? Get Paid With Clink.",
+  "ctaDescription": "Token APIs, enterprise contracts and consumer apps on one revenue line. Clink meters usage, manages subscription plans and takes on merchant-of-record tax across all three.",
+  "ctaLabel": "Monetize Your Model APIs",
+  "ctaHref": "/contact"
+}

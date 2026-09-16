@@ -1,0 +1,178 @@
+{
+  "slug": "replit",
+  "name": "Replit",
+  "domain": "replit.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/replit",
+  "h1": "Replit ARR: $525M From Vibe Coding.",
+  "intro": "Replit spent nine years as a browser IDE, then Agent turned it into one of the fastest-growing software businesses of the AI era. Research estimates put annualized revenue at roughly $525 million in April 2026, up from about $300 million at the end of 2025, at a $9 billion valuation.",
+  "metaTitle": "Replit ARR 2026: $525M Annualized Revenue and $9B Valuation",
+  "metaDescription": "Replit's revenue timeline: ~$10M ARR in 2024, $150M by late 2025, $300M at year end and roughly $525M in April 2026 — every figure sourced and dated.",
+  "ogDescription": "From ~$10M to ~$525M annualized in about two years — the sourced Replit revenue timeline.",
+  "heroStats": [
+    [
+      "~$525M",
+      "Annualized revenue, Apr 2026"
+    ],
+    [
+      "$9B",
+      "Valuation, Series D Mar 2026"
+    ],
+    [
+      "2016",
+      "Founded, San Francisco"
+    ],
+    [
+      "Estimated",
+      "Source tier: research estimate"
+    ]
+  ],
+  "chartTitle": "The Replit Revenue Curve.",
+  "chartIntro": "Reported and estimated annualized revenue in USD millions, 2023 to 2026. The inflection is Agent: text-to-app generation converted a developer tool into a self-serve product for non-developers.",
+  "chartMax": 525,
+  "chartSources": "Sources: Replit, Sacra, TechCrunch.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 5,
+      "note": "Replit is a subscription IDE with hosting; revenue comes from prosumer plans.",
+      "source": "Sacra"
+    },
+    {
+      "label": "2024",
+      "date": "End of 2024",
+      "arr": 10,
+      "note": "Around $10M ARR before Agent ships — a normal developer-tools business.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Sep '25",
+      "date": "September 2025",
+      "arr": 150,
+      "note": "On track for roughly $150M annualized as Agent adoption compounds; $3B valuation round.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Dec '25",
+      "date": "End of 2025",
+      "arr": 300,
+      "note": "About $300M annualized as usage-based Agent billing scales past seat subscriptions.",
+      "source": "Sacra"
+    },
+    {
+      "label": "Apr '26",
+      "date": "April 2026",
+      "arr": 525,
+      "note": "Roughly $525M annualized; $400M Series D at a $9B valuation closed in March 2026.",
+      "source": "Sacra / TechCrunch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$10M → $150M",
+      "value": "~9 months",
+      "source": "Dec 2024 → Sep 2025"
+    },
+    {
+      "label": "$150M → $300M",
+      "value": "~3 months",
+      "source": "Sep 2025 → Dec 2025"
+    },
+    {
+      "label": "$300M → $525M",
+      "value": "~4 months",
+      "source": "Dec 2025 → Apr 2026"
+    },
+    {
+      "label": "Valuation, 3x",
+      "value": "6 months",
+      "source": "$3B → $9B"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest ARR",
+      "value": "~$525M",
+      "source": "Sacra, Apr 2026"
+    },
+    {
+      "label": "Valuation",
+      "value": "$9B",
+      "source": "Series D, Mar 2026"
+    },
+    {
+      "label": "Latest round",
+      "value": "$400M",
+      "source": "Georgian Partners, Mar 2026"
+    },
+    {
+      "label": "Gross margin",
+      "value": "~85%",
+      "source": "Sacra"
+    },
+    {
+      "label": "Founded",
+      "value": "2016",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Amjad Masad",
+      "source": "Company"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Annualized run rate",
+      "source": "Research estimate"
+    }
+  ],
+  "modelTitle": "How Replit Turned Agents Into Revenue.",
+  "modelParagraphs": [
+    "Replit's old business was seats: a subscription for a browser IDE. Agent changed the unit of value from a seat to a task. Users now pay for effort — checkpoints, builds, deployments — which means revenue rises with what people ship rather than with how many accounts they open. That is the single biggest reason the curve bent in 2025.",
+    "The second lever is who buys. Text-to-app pulled in marketers, operators and founders with no engineering background, then self-serve plans laddered them into higher-ACV team and enterprise tiers, with distribution through cloud marketplaces on top. It is the same motion Lovable runs, and the same reason these companies need payments infrastructure that works the moment a non-developer wants to charge for what they built."
+  ],
+  "revenueMix": [
+    [
+      "Agent usage",
+      "Effort-based billing on generated work."
+    ],
+    [
+      "Subscriptions",
+      "Core, Teams and Enterprise plans."
+    ],
+    [
+      "Deployments",
+      "Hosting and always-on app runtime."
+    ],
+    [
+      "Marketplaces",
+      "Distribution via cloud marketplaces."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Replit's ARR in 2026?",
+      "a": "Research estimates put Replit at roughly $525 million in annualized revenue as of April 2026, up from about $300 million at the end of 2025."
+    },
+    {
+      "q": "What Is Replit Valued At?",
+      "a": "$9 billion, set by a $400 million Series D led by Georgian Partners in March 2026 — three times its $3 billion valuation six months earlier."
+    },
+    {
+      "q": "What Does Replit Charge for Beyond the Subscription?",
+      "a": "Usage-based Agent billing and hosted deployments. A plan buys access, but the bill scales with how much agent work is run and how much of the resulting app stays online, with enterprise plans and cloud marketplace distribution on top."
+    },
+    {
+      "q": "How Does Replit Compare to Lovable and Cursor?",
+      "a": "All three monetize AI-generated software. Cursor is the largest at $2B+, Replit is around $525M and Lovable around $500M, but Lovable reached $100M ARR fastest at eight months."
+    },
+    {
+      "q": "Who Is Actually Building on Replit?",
+      "a": "A mix of solo builders and non-technical teams shipping internal tools with Agent, plus engineering organisations that arrive through cloud marketplace agreements rather than self-serve signup."
+    }
+  ],
+  "ctaTitle": "Shipping Apps That Need to Charge?",
+  "ctaDescription": "Apps built by agents still need to charge humans. Clink adds checkout, subscription management and merchant-of-record tax to whatever your builder ships.",
+  "ctaLabel": "See Clink for Lovable",
+  "ctaHref": "/platforms/lovable"
+}

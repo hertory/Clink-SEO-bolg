@@ -1,0 +1,164 @@
+{
+  "slug": "ai21",
+  "name": "AI21 Labs",
+  "domain": "ai21.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/ai21",
+  "h1": "AI21 Labs ARR: ~$350M in Enterprise LLMs.",
+  "intro": "AI21 Labs — the Tel Aviv lab founded in 2019, older than most of this leaderboard — reached a ~$350M estimated annualized run rate in 2026 by selling efficient enterprise LLMs: the Jamba model family, the Maestro orchestration platform and the Wordtune writing product. Every reported figure is collected below, each traced back to a public source; AI21 has not officially disclosed revenue.",
+  "metaTitle": "AI21 Labs ARR: ~$350M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported AI21 Labs revenue number in one place: Series B in 2022 to a ~$350M estimated ARR in 2026, implied MRR, valuation, funding history and the Jamba business model — with sources.",
+  "ogDescription": "From a 2019 founding to ~$350M estimated ARR — the full AI21 Labs revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "~$350M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$29.2M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$300M",
+      "Series D, May 2025"
+    ],
+    [
+      "$1.5B",
+      "Valuation"
+    ]
+  ],
+  "chartTitle": "The AI21 Labs Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions, 2023 to 2026. AI21 has never officially disclosed revenue — all points are third-party estimates.",
+  "chartMax": 390,
+  "chartSources": "Sources: Presenc AI, PM Insights, Forge Global, Turing Post, company announcements.",
+  "milestones": [
+    {
+      "label": "2019",
+      "date": "2019",
+      "arr": 0,
+      "note": "Founded in Tel Aviv by Yoav Shoham, Ori Goshen and Amnon Shashua — one of the earliest dedicated LLM companies, predating the current wave by four years.",
+      "source": "Company"
+    },
+    {
+      "label": "2023",
+      "date": "November 2023",
+      "arr": 20,
+      "note": "~$208M Series C at a ~$1.4B valuation, with revenue estimated in the low tens of millions from the Wordtune consumer product and early enterprise API deals.",
+      "source": "AI21 / press reports"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 30,
+      "note": "The Jamba family — the first production hybrid SSM-Transformer LLMs — ships in 2024, opening long-context enterprise workloads; revenue estimated in the tens of millions.",
+      "source": "Company / press reports"
+    },
+    {
+      "label": "May '25",
+      "date": "May 2025",
+      "arr": 50,
+      "note": "$300M Series D from Google and Nvidia; third-party estimates put 2025 revenue around $50M as the company pivots toward Maestro, its enterprise AI-orchestration platform.",
+      "source": "Forge Global / PM Insights"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 350,
+      "note": "Third-party estimates put the annualized run rate near $350M as Jamba-based enterprise deployments and Maestro scale — a figure AI21 itself has not confirmed.",
+      "source": "Presenc AI"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $10M ARR",
+      "value": "~4 years",
+      "source": "2019 founding → ~2023"
+    },
+    {
+      "label": "$20M → $50M ARR",
+      "value": "~18 months",
+      "source": "2023 → mid-2025 (est.)"
+    },
+    {
+      "label": "$50M → $350M ARR",
+      "value": "~12 months",
+      "source": "2025 → 2026 (est.)"
+    },
+    {
+      "label": "Revenue multiple 2023→2026",
+      "value": "~17x",
+      "source": "$20M → ~$350M (est.)"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$350M",
+      "source": "Presenc AI, 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$29.2M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.5B",
+      "source": "Series D, May 2025"
+    },
+    {
+      "label": "Total raised",
+      "value": "~$636M",
+      "source": "Across 7 rounds, May 2025"
+    },
+    {
+      "label": "Founded",
+      "value": "2019, Tel Aviv",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Cheap Jamba Tokens Win Enterprise Workloads.",
+  "modelParagraphs": [
+    "AI21's model is enterprise efficiency: the Jamba family (hybrid SSM-Transformer architecture) is sold on a usage-based API with per-token pricing positioned well below frontier-lab rates, optimized for long-context, high-throughput workloads where cost per million tokens is the buying criterion. Jamba models are also offered open-weight for private deployment, mirroring the sovereign/enterprise playbook.",
+    "Two adjacent products round out the mix: Maestro, an agentic orchestration platform that composes AI21 and third-party models into enterprise workflows (the strategic focus of the 2025 Google/Nvidia-backed round), and Wordtune, the consumer writing assistant that was AI21's first product and still contributes a consumer revenue base."
+  ],
+  "revenueMix": [
+    [
+      "Jamba enterprise API",
+      "Per-token usage pricing for long-context, high-throughput workloads."
+    ],
+    [
+      "Maestro orchestration",
+      "Agentic enterprise platform composing models into workflows."
+    ],
+    [
+      "Wordtune subscriptions",
+      "Consumer writing product — the original revenue base."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is AI21 Labs' ARR in 2026?",
+      "a": "Third-party estimates put AI21 Labs at roughly $350 million in annualized revenue for 2026, up from an estimated ~$50M in 2025. AI21 itself has never officially disclosed revenue, so this figure should be treated as an estimate."
+    },
+    {
+      "q": "How Does AI21 Labs Make Money?",
+      "a": "Three ways: usage-based API pricing on the Jamba model family (efficient hybrid SSM-Transformer LLMs sold well below frontier-lab rates), the Maestro agentic orchestration platform for enterprises, and Wordtune consumer subscriptions."
+    },
+    {
+      "q": "What Is AI21 Labs' Valuation and How Much Has It Raised?",
+      "a": "About $1.5 billion, following a $300 million Series D in May 2025 backed by Google and Nvidia. Total raised across seven rounds is roughly $636 million, after a ~$208M Series C at ~$1.4B in November 2023."
+    },
+    {
+      "q": "Why Is AI21's Architecture Different?",
+      "a": "Jamba is the first production-grade hybrid of Mamba-style state-space models and Transformers, giving it a much larger effective context window at far lower memory and cost per token — the efficiency argument that wins cost-sensitive enterprise buyers."
+    },
+    {
+      "q": "How Does AI21 Compare to Other AI Labs by Revenue?",
+      "a": "Its ~$350M estimated ARR puts it in the same band as Mistral ($400M, Jan 2026) and Cohere (~$500M est.) but far behind OpenAI (~$25B) and Anthropic ($65B+) — a reminder that the enterprise-efficiency segment of the LLM market is an order of magnitude smaller than the frontier-consumer segment."
+    }
+  ],
+  "ctaTitle": "Building on AI21? Get Paid Like a Platform.",
+  "ctaDescription": "Clink is the payment rails for token-metered enterprise APIs — usage billing, committed spend and merchant-of-record tax handling built for cost-per-million-token businesses.",
+  "ctaLabel": "Price Your Tokens",
+  "ctaHref": "/contact"
+}

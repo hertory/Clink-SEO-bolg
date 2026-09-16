@@ -1,0 +1,179 @@
+{
+  "slug": "together",
+  "name": "Together AI",
+  "domain": "together.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/together",
+  "h1": "Together AI ARR: ~$1B on $1.15B of Bookings.",
+  "intro": "Together AI built a cloud around open-source models — faster inference, dedicated capacity and custom fine-tunes — and tripled its valuation in under 18 months on the way to $1.15B of annual bookings. Every reported revenue, bookings and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "Together AI ARR: ~$1B Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported Together AI revenue number in one place: $1.15B annual bookings, ~$1B revenue estimates, the $800M Series C at $8.3B and the 500 MW data center footprint — with sources.",
+  "ogDescription": "$1.15B in annual bookings, ~$1B in revenue — the full Together AI timeline, sourced.",
+  "heroStats": [
+    [
+      "~$1B",
+      "Estimated revenue, 2026"
+    ],
+    [
+      "$1.15B+",
+      "Annual bookings, Jul 2026"
+    ],
+    [
+      "$8.3B",
+      "Valuation, Series C Jul 2026"
+    ],
+    [
+      "~500 MW",
+      "Data center capacity"
+    ]
+  ],
+  "chartTitle": "The Together AI Revenue Curve.",
+  "chartIntro": "Annualized bookings and outside revenue estimates in USD millions. Together discloses bookings rather than net ARR, so the curve mixes the two — the distinction matters.",
+  "chartMax": 1270,
+  "chartSources": "Sources: TechCrunch, Sacra, Together AI, New Market Pitch.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "2022",
+      "arr": 0,
+      "note": "Founded by academics from Stanford, Berkeley and the University of Washington around the open-source model ecosystem.",
+      "source": "Company"
+    },
+    {
+      "label": "Nov '23",
+      "date": "November 2023",
+      "arr": 10,
+      "note": "$102M Series A at a ~$1.25B valuation, riding demand for open-model training and inference infrastructure.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Feb '25",
+      "date": "February 2025",
+      "arr": 110,
+      "note": "$305M Series B led by General Catalyst at a $3.3B valuation, with revenue run rate reported around $110M annualized.",
+      "source": "TechCrunch / Sacra"
+    },
+    {
+      "label": "Jul '26",
+      "date": "July 1, 2026",
+      "arr": 1150,
+      "note": "$800M Series C led by Aramco Ventures with NVIDIA and Salesforce at an $8.3B valuation, on annual bookings exceeding $1.15B and ~500 MW of data center capacity.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Jul '26",
+      "date": "2026 estimates",
+      "arr": 1000,
+      "note": "Outside estimates put revenue at roughly $1B — below the $1.15B bookings figure, which includes signed contracts not yet recognized as revenue.",
+      "source": "Sacra / New Market Pitch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$0 → $110M run rate",
+      "value": "~2.5 years",
+      "source": "2022 founding → Feb 2025"
+    },
+    {
+      "label": "$110M → $1.15B bookings",
+      "value": "~17 months",
+      "source": "Feb 2025 → Jul 2026"
+    },
+    {
+      "label": "Valuation $3.3B → $8.3B",
+      "value": "~17 months",
+      "source": "Feb 2025 → Jul 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "$1.2B+",
+      "source": "Through Series C, Jul 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Annual bookings",
+      "value": "$1.15B+",
+      "source": "TechCrunch, Jul 2026"
+    },
+    {
+      "label": "Estimated revenue",
+      "value": "~$1B",
+      "source": "Sacra / outside estimates"
+    },
+    {
+      "label": "Valuation",
+      "value": "$8.3B",
+      "source": "Series C, Jul 2026"
+    },
+    {
+      "label": "Series C",
+      "value": "$800M",
+      "source": "TechCrunch, Jul 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "$1.2B+",
+      "source": "Crunchbase"
+    },
+    {
+      "label": "Data center capacity",
+      "value": "~500 MW",
+      "source": "TechCrunch, Jul 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2022, San Francisco",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Vipul Ved Prakash",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Token Inference and Dedicated GPUs Bill Out.",
+  "modelParagraphs": [
+    "Together monetizes open-source and custom models three ways: serverless inference APIs billed per token, dedicated GPU capacity for large customers, and training/fine-tuning services. The pitch to enterprises is cost — running open models on Together's optimized stack is marketed as significantly cheaper than closed frontier-model APIs, which is what pulled in enterprise demand for the $1.15B of annual bookings cited at the July 2026 Series C.",
+    "The bookings-versus-revenue gap is the number to watch. The $1.15B figure counts signed contracts booked annually; outside estimates put recognized revenue at roughly $1B. Behind both sits heavy capex — roughly 500 MW of data center capacity and an $800M Series C led by Aramco Ventures with NVIDIA and Salesforce, nearly tripling the $3.3B valuation set just 17 months earlier."
+  ],
+  "revenueMix": [
+    [
+      "Inference APIs",
+      "Per-token serverless serving of open and fine-tuned models, the volume engine."
+    ],
+    [
+      "Dedicated capacity",
+      "Reserved GPU deployments under multi-year enterprise contracts — the bookings driver."
+    ],
+    [
+      "Training & fine-tuning",
+      "Custom model development and optimization services for enterprise clients."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Together AI's ARR in 2026?",
+      "a": "Together AI reported annual bookings exceeding $1.15 billion at its July 2026 Series C. Outside estimates place actual revenue at roughly $1 billion — the gap reflects signed bookings not yet recognized as revenue, which is why the figure is classified as Reported rather than Disclosed."
+    },
+    {
+      "q": "How Fast Did Together AI Grow?",
+      "a": "From a run rate reported around $110M annualized at its February 2025 Series B to $1.15B of annual bookings by July 2026 — roughly a 10x increase in about 17 months, with the valuation tripling from $3.3B to $8.3B over the same period."
+    },
+    {
+      "q": "How Much Has Together AI Raised?",
+      "a": "Over $1.2 billion: a $102M Series A in November 2023 at ~$1.25B, a $305M Series B led by General Catalyst in February 2025 at $3.3B, and an $800M Series C led by Aramco Ventures with NVIDIA and Salesforce in July 2026 at $8.3B."
+    },
+    {
+      "q": "Bookings vs Revenue — What's the Difference Here?",
+      "a": "Bookings ($1.15B+) is the annualized value of signed customer contracts. Revenue (~$1B by outside estimates) is what is actually recognized. Together leads with bookings; the distinction is why its revenue figure carries a Reported tier and an explicit basis note."
+    },
+    {
+      "q": "How Does Together AI Make Money?",
+      "a": "Per-token serverless inference APIs for open and custom models, dedicated GPU capacity sold under multi-year enterprise contracts, and training/fine-tuning services. Roughly 500 MW of data center capacity underpins the offering, positioning Together as the cost-efficient open-model cloud."
+    }
+  ],
+  "ctaTitle": "Running Open Models? Get Paid Like Together Does.",
+  "ctaDescription": "Serverless tokens, dedicated GPUs and training services on one invoice. Clink meters each, manages the plans and handles merchant-of-record tax.",
+  "ctaLabel": "Monetize Inference APIs",
+  "ctaHref": "/contact"
+}

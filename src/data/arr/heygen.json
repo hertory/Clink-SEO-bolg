@@ -1,0 +1,179 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "domain": "heygen.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/heygen",
+  "h1": "HeyGen ARR: $200M, Doubled in Eight Months, Without Burn.",
+  "intro": "HeyGen crossed $200M in annual recurring revenue in June 2026 — roughly 2x in eight months, on a capital-efficient model that has stayed near profitability since its earliest days. Every reported ARR and funding number is collected below, each traced back to a public source.",
+  "metaTitle": "HeyGen ARR: $200M Revenue, MRR and Growth Timeline (2026)",
+  "metaDescription": "Every publicly reported HeyGen revenue number in one place: $1M to $35M in 18 months, doubled to $200M ARR in eight months, 30M+ users and the funding history — with sources.",
+  "ogDescription": "Doubled to $200M ARR in eight months without burning capital — the full HeyGen revenue timeline, sourced.",
+  "heroStats": [
+    [
+      "$200M",
+      "Disclosed ARR, Jun 2026"
+    ],
+    [
+      "~$16.7M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "8 months",
+      "Time to double ARR"
+    ],
+    [
+      "30M+",
+      "Users"
+    ]
+  ],
+  "chartTitle": "The HeyGen Revenue Curve.",
+  "chartIntro": "Reported annualized run rate in USD millions, 2024 to June 2026. Linear scale — the second half of the curve is the story.",
+  "chartMax": 220,
+  "chartSources": "Sources: HeyGen, Upstarts Media, Sacra, company LinkedIn.",
+  "milestones": [
+    {
+      "label": "2022",
+      "date": "2022",
+      "arr": 5,
+      "note": "Founded by Joshua Xu (ex-Snap AI) in 2020 as Movio, rebranded HeyGen in 2023; early avatar video product finds product-market fit with SMBs.",
+      "source": "Company / Sacra"
+    },
+    {
+      "label": "Mid '24",
+      "date": "Mid 2024",
+      "arr": 35,
+      "note": "Grew from $1M to over $35M ARR in 18 months while flirting with profitability — notable in an era of AI startups burning billions.",
+      "source": "Company / Tanay Jaipuria"
+    },
+    {
+      "label": "Jun '24",
+      "date": "June 2024",
+      "arr": 35,
+      "note": "$60M Series A led by Benchmark at a $500M valuation — a rare bootstrapped-adjacent raise after years of near-zero outside capital.",
+      "source": "TechCrunch"
+    },
+    {
+      "label": "Late '25",
+      "date": "Late 2025",
+      "arr": 100,
+      "note": "Crossed ~$100M ARR, closing in on pure rival Synthesia (then ~$150M) as the enterprise avatar-video market consolidates.",
+      "source": "Sacra / Upstarts Media"
+    },
+    {
+      "label": "Jun '26",
+      "date": "June 2026",
+      "arr": 200,
+      "note": "Company discloses $200M ARR — roughly 2x in eight months — alongside 30M+ users and continued capital efficiency.",
+      "source": "HeyGen / Upstarts Media"
+    }
+  ],
+  "speed": [
+    {
+      "label": "$1M → $35M ARR",
+      "value": "18 months",
+      "source": "2022 → mid-2024"
+    },
+    {
+      "label": "~$100M → $200M ARR",
+      "value": "8 months",
+      "source": "Late 2025 → Jun 2026"
+    },
+    {
+      "label": "$0 → $100M ARR",
+      "value": "~5 years",
+      "source": "2020 → late 2025"
+    },
+    {
+      "label": "Implied MRR at $200M ARR",
+      "value": "~$16.7M / month",
+      "source": "Derived from ARR"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest disclosed ARR",
+      "value": "$200M",
+      "source": "HeyGen / Upstarts Media, Jun 2026"
+    },
+    {
+      "label": "Implied MRR",
+      "value": "~$16.7M / month",
+      "source": "Derived from ARR"
+    },
+    {
+      "label": "Users",
+      "value": "30M+",
+      "source": "Company, Jun 2026"
+    },
+    {
+      "label": "Total raised",
+      "value": "$60M",
+      "source": "Series A led by Benchmark, Jun 2024"
+    },
+    {
+      "label": "Series A valuation",
+      "value": "$500M",
+      "source": "TechCrunch, Jun 2024"
+    },
+    {
+      "label": "Capital efficiency",
+      "value": "~2x ARR growth without burn",
+      "source": "Upstarts Media"
+    },
+    {
+      "label": "Founded",
+      "value": "2020, Los Angeles",
+      "source": "Company"
+    },
+    {
+      "label": "CEO",
+      "value": "Joshua Xu",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "How Rendering Credits Push $29 Creators Up-Tier.",
+  "modelParagraphs": [
+    "HeyGen monetizes with tiered SaaS subscriptions plus usage credits. Plans run from a free tier through Creator at roughly $29/month to Team at about $39/seat/month, with enterprise contracts for API access, custom avatars and higher rendering volume. Rendering minutes act as a consumption throttle: heavier video production pushes customers up-tier or into credit top-ups, so revenue scales with content output rather than just seats.",
+    "The customer base spans self-serve creators and enterprise teams doing training, localization and personalized video at scale — avatar translation across 100+ languages is the marquee feature. What makes the model notable is efficiency: the company reached $200M ARR on a single $60M Series A, growing 2x in eight months without the burn typical of AI video peers."
+  ],
+  "revenueMix": [
+    [
+      "Tiered subscriptions",
+      "Creator ~$29/month, Team ~$39/seat/month, custom enterprise plans."
+    ],
+    [
+      "Usage credits",
+      "Rendering minutes and API consumption billed beyond plan allowances."
+    ],
+    [
+      "Enterprise API",
+      "Custom avatars, localization and volume video generation under contract."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What Is HeyGen's ARR in 2026?",
+      "a": "HeyGen disclosed it crossed $200 million in annual recurring revenue in June 2026, roughly doubling in eight months. That implies about $16.7 million of monthly recurring revenue."
+    },
+    {
+      "q": "How Fast Did HeyGen Reach $200M ARR?",
+      "a": "It grew from $1M to over $35M ARR in its first 18 months of scale, crossed ~$100M in late 2025, and doubled to $200M in the eight months to June 2026 — while remaining near profitability throughout."
+    },
+    {
+      "q": "What Does a HeyGen Subscription Cost?",
+      "a": "Tiered plans run from a free tier through Creator at roughly $29/month to Team at about $39/seat/month, with usage credits for rendering minutes and custom enterprise agreements for API volume and bespoke avatars."
+    },
+    {
+      "q": "How Much Money Has HeyGen Raised?",
+      "a": "About $60 million — a Series A led by Benchmark in June 2024 at a $500M valuation. The company reached $200M ARR four times that valuation while staying near profitability, one of the most capital-efficient AI video businesses reported."
+    },
+    {
+      "q": "Is HeyGen's ARR Officially Disclosed?",
+      "a": "Yes. The $200M figure was announced by HeyGen itself in June 2026 and covered by Upstarts Media — a 'Disclosed' grade on the Clink ARR Leaderboard."
+    }
+  ],
+  "ctaTitle": "Building Video AI? Get Paid Like HeyGen.",
+  "ctaDescription": "Clink meters rendering credits, seat upgrades and API contracts with merchant-of-record tax handling — payments that keep up with 2x-in-eight-months growth.",
+  "ctaLabel": "Upsell Usage Credits",
+  "ctaHref": "/contact"
+}
