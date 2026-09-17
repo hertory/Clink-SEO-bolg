@@ -1,256 +1,301 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
-import navLogo from "@/assets/clink/nav-logo.svg";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import { ChevronDown, ArrowRight } from "lucide-react";
 
-const PRODUCTS = [
-  { label: "Billing", href: "/products/billing", desc: "Subscriptions, portals, and tax" },
-  { label: "Payment", href: "/products/payment", desc: "Hosted checkout and global coverage" },
-  { label: "Smart Routing", href: "/products/routing", desc: "Dynamic routing and automatic retries" },
+/**
+ * Mirrors the clinkbill.com main-site navbar: logo / Skill Marketplace (New) /
+ * Products mega-dropdown / Resources dropdown / Contact us, plus
+ * Login (dashboard) and Get Started (register) pill buttons.
+ * Dropdowns open on hover (CSS group), matching the main-site interaction.
+ */
+
+const PRODUCT_GROUPS = [
+  {
+    text: "Billing",
+    link: "/products/billing",
+    items: [
+      { text: "Subscription", link: "/products/billing#subscription-management" },
+      { text: "Customer Portal", link: "/products/billing#customer-portal" },
+      { text: "Coupon", link: "/products/billing#coupon" },
+      { text: "Tax Compliance", link: "/products/billing#tax-compliance" },
+    ],
+  },
+  {
+    text: "Smart Routing",
+    link: "/products/routing",
+    items: [
+      { text: "Dynamic Routing", link: "/products/routing#dynamic-routing" },
+      { text: "Automatic Retries", link: "/products/routing#automatic-retries" },
+      {
+        text: "Customizable Rules",
+        link: "/products/routing#customizable-routing-rules-with-priority",
+      },
+    ],
+  },
+  {
+    text: "Payment",
+    link: "/products/payment",
+    items: [
+      { text: "Hosted Checkout", link: "/products/payment#hosted-checkout" },
+      { text: "Global Coverage", link: "/products/payment#global-coverage" },
+      { text: "PCI Compliant", link: "/products/payment#pci-compliant" },
+      { text: "Fraud Prevention", link: "/products/payment#fraud-prevention" },
+    ],
+  },
 ];
 
 const RESOURCES = [
-  { label: "Blog", href: "/blog", desc: "Guides on payments, billing, and agents" },
-  {
-    label: "ARR Leaderboard",
-    href: "https://clink-seo-bolg.vercel.app/arr-leaderboard",
-    desc: "Sourced revenue rankings for AI companies",
-    external: true,
-  },
-  {
-    label: "Documentation",
-    href: "https://docs.clinkbill.com/",
-    desc: "Quickstart, guides, and SDK docs",
-    external: true,
-  },
-  {
-    label: "API Reference",
-    href: "https://docs.clinkbill.com/api-reference",
-    desc: "REST endpoints and webhooks",
-    external: true,
-  },
+  { text: "Document", link: "https://docs.clinkbill.com/" },
+  { text: "API", link: "https://docs.clinkbill.com/api-reference/introduction" },
+  { text: "Blog", link: "/blog" },
+  { text: "ARR Leaderboard", link: "/arr-leaderboard" },
 ];
 
-const LOGIN_URL = "https://uat-dashboard.clinkbill.com/auth/login";
+const LOGIN_URL = "https://dashboard.clinkbill.com";
 const GET_STARTED_URL = "https://uat-dashboard.clinkbill.com/auth/register";
 
+const NAV_LINK =
+  "inline-flex h-10 items-center justify-center text-base leading-normal font-normal font-heading transition-colors duration-200 text-[rgba(63,63,70,1)] hover:text-[rgba(63,63,70,1)] focus-visible:text-[rgba(63,63,70,1)]";
+const NAV_TRIGGER =
+  "inline-flex h-10 items-center text-base leading-normal font-normal font-heading text-center transition-colors duration-200 text-[rgba(63,63,70,1)] hover:text-[rgba(63,63,70,1)] [&>svg]:ml-1 [&>svg]:size-3.5 [&>svg]:transition-transform [&>svg]:duration-200";
+
 export default function TopNav() {
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 80);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
-    <header
-      className={`sticky top-0 z-50 w-full transition-colors duration-300 ${
-        scrolled ? "backdrop-blur-md" : ""
-      }`}
-      style={{
-        background: scrolled
-          ? "color-mix(in oklab, var(--background) 75%, transparent)"
-          : "transparent",
-        borderBottom: scrolled
-          ? "1px solid var(--surface-stroke)"
-          : "1px solid transparent",
-      }}
-    >
-      <div className="mx-auto flex h-[72px] max-w-[1200px] items-center justify-between px-6">
-        <Link href="/" className="flex items-center">
-          <img src={navLogo.src} alt="Clink" className="h-6 w-auto" />
+    <header className="sticky top-0 z-50 w-full border-b border-transparent bg-[#f7f7f7]/95 backdrop-blur-md">
+      <div className="relative mx-auto flex h-[72px] max-w-[1200px] items-center justify-between px-6">
+        <Link href="/" className="flex shrink-0 items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/resource/home-new/footer-logo.svg"
+            width={88}
+            height={32}
+            alt="clink-logo"
+            className="h-7 w-auto"
+          />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
-          <Link
-            href="/skills"
-            className="inline-flex items-center gap-1.5 text-[15px] text-foreground-muted transition-colors hover:text-foreground"
-          >
+        <nav className="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-8 lg:flex" aria-label="Main">
+          <Link href="/skills" className={`${NAV_LINK} relative`}>
             Skill Marketplace
-            <span className="rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-600 dark:text-emerald-400">
+            <span className="absolute -top-0.5 -right-6 inline-flex h-4 items-center rounded-full bg-gradient-to-r from-[#ed7039] to-[#ec7193] px-1.5 text-[10px] font-semibold uppercase leading-none tracking-wide text-white">
               New
             </span>
           </Link>
 
-          <DropdownMenu>
-            <DropdownMenuTrigger className="inline-flex items-center gap-1 text-[15px] text-foreground-muted outline-none transition-colors hover:text-foreground">
+          <div className="group/products relative">
+            <button type="button" className={NAV_TRIGGER}>
               Products
-              <ChevronDown className="h-3.5 w-3.5 opacity-70" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="w-[280px] p-2">
-              {PRODUCTS.map((item) => (
-                <DropdownMenuItem key={item.href} asChild>
-                  <Link
-                    href={item.href}
-                    className="flex cursor-pointer flex-col items-start gap-0.5 rounded-md px-3 py-2.5"
-                  >
-                    <span className="text-sm font-medium text-foreground">{item.label}</span>
-                    <span className="text-xs text-foreground-muted">{item.desc}</span>
-                  </Link>
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <DropdownMenu>
-            <DropdownMenuTrigger className="inline-flex items-center gap-1 text-[15px] text-foreground-muted outline-none transition-colors hover:text-foreground">
-              Resources
-              <ChevronDown className="h-3.5 w-3.5 opacity-70" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="w-[300px] p-2">
-              {RESOURCES.map((item) => (
-                <DropdownMenuItem key={item.href} asChild>
-                  {item.external ? (
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex cursor-pointer flex-col items-start gap-0.5 rounded-md px-3 py-2.5"
-                    >
-                      <span className="text-sm font-medium text-foreground">{item.label}</span>
-                      <span className="text-xs text-foreground-muted">{item.desc}</span>
-                    </a>
-                  ) : (
+              <ChevronDown className="transition-transform duration-200 group-hover/products:rotate-180" />
+            </button>
+            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 translate-y-1 pt-1 opacity-0 transition-all duration-150 group-hover/products:visible group-hover/products:translate-y-0 group-hover/products:opacity-100">
+              <div className="flex w-[740px] items-start gap-5 rounded-[12px] border border-[#e7e7e7] bg-white p-5 font-heading shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
+                {PRODUCT_GROUPS.map((group) => (
+                  <div key={group.text} className="flex w-[220px] shrink-0 flex-col gap-3">
                     <Link
-                      href={item.href}
-                      className="flex cursor-pointer flex-col items-start gap-0.5 rounded-md px-3 py-2.5"
+                      href={group.link}
+                      className="flex h-6 w-full items-center px-1 text-base font-medium leading-6 whitespace-nowrap text-[#3f3f46] transition-colors duration-150 hover:text-[#28251e]"
                     >
-                      <span className="text-sm font-medium text-foreground">{item.label}</span>
-                      <span className="text-xs text-foreground-muted">{item.desc}</span>
+                      {group.text}
                     </Link>
-                  )}
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
+                    <div className="flex w-full flex-col gap-1">
+                      {group.items.map((item) => (
+                        <Link
+                          key={item.text}
+                          href={item.link}
+                          className="group flex h-8 w-full items-center rounded-sm p-1 transition-colors duration-150 hover:bg-[#f9f9f9]"
+                        >
+                          <span className="text-base font-normal leading-6 whitespace-nowrap text-[#3f3f46] transition-colors duration-150 group-hover:text-[#28251e]">
+                            {item.text}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
 
-          <Link
-            href="/contact"
-            className="text-[15px] text-foreground-muted transition-colors hover:text-foreground"
-          >
+          <div className="group/resources relative">
+            <button type="button" className={NAV_TRIGGER}>
+              Resources
+              <ChevronDown className="transition-transform duration-200 group-hover/resources:rotate-180" />
+            </button>
+            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 translate-y-1 pt-1 opacity-0 transition-all duration-150 group-hover/resources:visible group-hover/resources:translate-y-0 group-hover/resources:opacity-100">
+              <div className="flex w-[260px] flex-col gap-3 overflow-hidden rounded-[12px] border border-[#e7e7e7] bg-white p-5 font-heading shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
+                <div className="flex w-[220px] flex-col gap-1">
+                  {RESOURCES.map((item) => {
+                    const external = /^https?:\/\//.test(item.link);
+                    return external ? (
+                      <a
+                        key={item.text}
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex h-8 w-full items-center rounded-sm p-1 transition-colors duration-150 hover:bg-[#f9f9f9]"
+                      >
+                        <span className="text-base font-normal leading-6 whitespace-nowrap text-[#3f3f46] transition-colors duration-150 group-hover:text-[#28251e]">
+                          {item.text}
+                        </span>
+                      </a>
+                    ) : (
+                      <Link
+                        key={item.text}
+                        href={item.link}
+                        className="group flex h-8 w-full items-center rounded-sm p-1 transition-colors duration-150 hover:bg-[#f9f9f9]"
+                      >
+                        <span className="text-base font-normal leading-6 whitespace-nowrap text-[#3f3f46] transition-colors duration-150 group-hover:text-[#28251e]">
+                          {item.text}
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <Link href="/contact" className={NAV_LINK}>
             Contact us
           </Link>
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <a
             href={LOGIN_URL}
-            className="inline-flex h-9 items-center rounded-full border px-4 text-sm font-medium text-foreground transition-colors hover:bg-elev"
-            style={{ borderColor: "var(--surface-stroke)" }}
+            className="inline-flex h-9 shrink-0 cursor-pointer items-center rounded-full border border-zinc-300 bg-transparent px-6 text-[15px] font-medium text-[rgba(63,63,70,1)] shadow-none transition-colors hover:bg-zinc-100 hover:text-[rgba(63,63,70,1)]"
           >
             Login
           </a>
           <a
             href={GET_STARTED_URL}
-            className="inline-flex h-9 items-center rounded-full bg-foreground px-4 text-sm font-medium text-background transition-opacity hover:opacity-90"
+            className="inline-flex h-9 shrink-0 cursor-pointer items-center gap-1 rounded-full bg-[#161616] px-6 text-[15px] font-medium text-white shadow-none transition-colors hover:bg-[#161616] hover:text-white hover:opacity-90"
           >
             Get Started
+            <ArrowRight className="size-4" aria-hidden="true" />
           </a>
         </div>
 
         <button
           type="button"
-          className="inline-flex h-9 w-9 items-center justify-center rounded-md border lg:hidden"
-          style={{ borderColor: "var(--surface-stroke)" }}
+          className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-zinc-300 bg-white text-[rgba(63,63,70,1)] lg:hidden"
           aria-label="Toggle menu"
           onClick={() => setMobileOpen((v) => !v)}
         >
           <span className="sr-only">Menu</span>
-          <div className="flex flex-col gap-1">
-            <span className="block h-0.5 w-4 bg-foreground" />
-            <span className="block h-0.5 w-4 bg-foreground" />
-            <span className="block h-0.5 w-4 bg-foreground" />
-          </div>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+            {mobileOpen ? (
+              <>
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </>
+            ) : (
+              <>
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+              </>
+            )}
+          </svg>
         </button>
       </div>
 
       {mobileOpen ? (
-        <div
-          className="border-t px-6 py-4 lg:hidden"
-          style={{
-            borderColor: "var(--surface-stroke)",
-            background: "var(--background)",
-          }}
-        >
-          <div className="flex flex-col gap-4">
-            <Link href="/skills" className="text-sm text-foreground" onClick={() => setMobileOpen(false)}>
+        <div className="border-t border-[#e7e7e7] bg-white px-5 py-6 lg:hidden">
+          <div className="flex flex-col gap-6">
+            <Link
+              href="/skills"
+              onClick={() => setMobileOpen(false)}
+              className="relative inline-flex w-fit items-center text-lg font-medium text-[rgba(63,63,70,1)]"
+            >
               Skill Marketplace
+              <span className="absolute -top-1 -right-7 inline-flex h-4 items-center rounded-full bg-gradient-to-r from-[#ed7039] to-[#ec7193] px-1.5 text-[10px] font-semibold uppercase leading-none tracking-wide text-white">
+                New
+              </span>
             </Link>
-            <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground-subtle">
+
+            <details className="group">
+              <summary className="cursor-pointer list-none text-lg font-medium text-[rgba(63,63,70,1)]">
                 Products
-              </p>
-              <div className="flex flex-col gap-2 pl-2">
-                {PRODUCTS.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="text-sm text-foreground-muted"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
+              </summary>
+              <div className="mt-4 flex flex-col gap-3 pl-4">
+                {PRODUCT_GROUPS.map((group) => (
+                  <div key={group.text} className="flex flex-col gap-2">
+                    <Link
+                      href={group.link}
+                      onClick={() => setMobileOpen(false)}
+                      className="text-base font-medium text-[rgba(63,63,70,1)]"
+                    >
+                      {group.text}
+                    </Link>
+                    <div className="flex flex-col gap-2 pl-4">
+                      {group.items.map((item) => (
+                        <Link
+                          key={item.text}
+                          href={item.link}
+                          onClick={() => setMobileOpen(false)}
+                          className="text-base font-normal text-[rgba(63,63,70,1)]"
+                        >
+                          {item.text}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
-            </div>
-            <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-foreground-subtle">
+            </details>
+
+            <details className="group">
+              <summary className="cursor-pointer list-none text-lg font-medium text-[rgba(63,63,70,1)]">
                 Resources
-              </p>
-              <div className="flex flex-col gap-2 pl-2">
+              </summary>
+              <div className="mt-4 flex flex-col gap-3 pl-4">
                 {RESOURCES.map((item) =>
-                  item.external ? (
+                  /^https?:\/\//.test(item.link) ? (
                     <a
-                      key={item.href}
-                      href={item.href}
+                      key={item.text}
+                      href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-foreground-muted"
+                      className="text-base font-normal text-[rgba(63,63,70,1)]"
                     >
-                      {item.label}
+                      {item.text}
                     </a>
                   ) : (
                     <Link
-                      key={item.href}
-                      href={item.href}
-                      className="text-sm text-foreground-muted"
+                      key={item.text}
+                      href={item.link}
                       onClick={() => setMobileOpen(false)}
+                      className="text-base font-normal text-[rgba(63,63,70,1)]"
                     >
-                      {item.label}
+                      {item.text}
                     </Link>
                   ),
                 )}
               </div>
-            </div>
-            <Link href="/contact" className="text-sm text-foreground" onClick={() => setMobileOpen(false)}>
+            </details>
+
+            <Link
+              href="/contact"
+              onClick={() => setMobileOpen(false)}
+              className="text-lg font-medium text-[rgba(63,63,70,1)]"
+            >
               Contact us
             </Link>
-            <div className="flex gap-3 pt-2">
-              <a
-                href={LOGIN_URL}
-                className="inline-flex h-9 flex-1 items-center justify-center rounded-full border text-sm font-medium"
-                style={{ borderColor: "var(--surface-stroke)" }}
-              >
-                Login
-              </a>
-              <a
-                href={GET_STARTED_URL}
-                className="inline-flex h-9 flex-1 items-center justify-center rounded-full bg-foreground text-sm font-medium text-background"
-              >
-                Get Started
-              </a>
-            </div>
+
+            <button
+              type="button"
+              onClick={() => {
+                window.location.href = LOGIN_URL;
+              }}
+              className="h-auto w-full cursor-pointer rounded-xl border border-zinc-300 bg-white py-3 text-[14px] leading-4 font-medium text-[rgba(63,63,70,1)]"
+            >
+              Login
+            </button>
           </div>
         </div>
       ) : null}
