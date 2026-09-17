@@ -53,9 +53,6 @@ export const metadata: Metadata = {
       "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/18dd3f91-da87-4482-bf73-5ea6107f179e/id-preview-3c642657--349f2cc3-12b9-424a-a847-fd37e46110f7.lovable.app-1782192840053.png",
     ],
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({
