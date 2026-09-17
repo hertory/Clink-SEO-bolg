@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FaqSection } from "@/components/FaqSection";
 import { FinalCta } from "@/components/FinalCta";
 import { getPost, getPostSlugs } from "@/lib/blog-server";
+import { VisaPartnershipPage } from "@/components/blog/VisaPartnershipPage";
 
 export async function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -68,6 +69,12 @@ export default async function BlogPostPage({
     content = post.content;
   } catch {
     notFound();
+  }
+
+  // Special case: 1:1 replica of the prototype standalone page (own header,
+  // sections and styles) instead of the standard markdown article layout.
+  if (slug === "clink-and-visa-partner-on-intelligent-commerce") {
+    return <VisaPartnershipPage />;
   }
 
   return (
