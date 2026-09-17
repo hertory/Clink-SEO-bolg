@@ -7,40 +7,44 @@ category: "Agentic Payments"
 secondaryCategory: "Product"
 author: "Julie Wang"
 image: /blog/images/clink-and-visa-partner-on-intelligent-commerce.png
-readingMinutes: 5
+readingMinutes: 6
 ---
 
 Today we are announcing that Clink is partnering with Visa to bring **Visa Intelligent Commerce** to **Clink Agentic Wallet**. The integration pairs Visa's capabilities for trusted, AI-initiated transactions — agent-specific payment tokens, authenticated payment instructions, and transaction controls — with the user-controlled wallet we built for Clink Agentic Payments.
 
-For users, this means one wallet that lets an AI agent complete purchases on their behalf — with clear authorization, spending limits, and a record of every transaction. For merchants and developers, it means agent-initiated Visa transactions through a single Clink integration.
+AI agents can already help people search, compare, and decide what to buy. When it comes time to pay, the rails are still built for humans. This partnership closes that gap: with clear authorization, spending limits, and a record of every transaction, an agent can now complete the purchase on the user's behalf.
+
+Visa brings its global network, tokenization of credentials, secure authentication, and transaction controls. Clink brings the agent wallet, scoped authorizations, risk controls, and visibility into every transaction.
+
+Users stay in control. Agents receive only delegated authority. Every payment is attributable, auditable, and visible through the wallet.
 
 ## A Safer Way for Agents to Pay
 
-Most payment interfaces assume a human on the other end: a checkout page, a bank app, a one-time code. An AI agent works differently. It does not browse to a payment page, it should never hold raw card credentials, and it needs permission that is narrow enough to be safe yet complete enough to finish the task.
+Payments today are designed for humans: bank apps, checkout pages, and SMS codes. AI agents work differently. They search across merchants, compare options, and often determine the final price only after interacting with the merchant's system. When it is time to pay, they need authority that is narrow enough to be safe and complete enough to finish the task.
 
-That is what **Clink Agentic Wallet** does. It turns a task into a payment authority: the user decides what the agent may buy, how much it may spend, and how long that permission stays valid. The agent never sees more than it needs to see.
+That is what Clink Agentic Wallet does. It turns a task into a payment authority: the user decides what the agent may buy, how much it may spend, and how long the permission stays valid. The agent never sees more than it needs to see.
 
 ## Visa Intelligent Commerce for an Agent Wallet
 
-[Visa Intelligent Commerce](https://www.visa.com/en-us/solutions/intelligent-commerce) is Visa's portfolio of capabilities for trusted AI-initiated transactions: agent-specific payment tokens, authenticated payment instructions, transaction controls, and commerce signals that AI experiences can use.
+[Visa Intelligent Commerce](https://www.visa.com/en-us/solutions/intelligent-commerce) is Visa's capability portfolio for trusted AI-initiated transactions: agent-specific payment tokens, authenticated payment instructions, transaction controls, and commerce signals that AI experiences can use.
 
-In this partnership, those capabilities meet Clink Agentic Wallet. Visa supplies the network side of trust — tokenized credentials, secure authentication, and transaction controls. Clink supplies the user side — the wallet itself, scoped authorizations, risk controls, and a clear record of what every agent did.
+An agent wallet is the user-facing layer that connects a payment method with agent identity, spending authority, and transaction visibility. Together, the two turn an AI agent from a shopping assistant into a payment-capable participant. Visa supplies the network side of trust — tokenized credentials, secure authentication, and transaction controls. Clink supplies the user side — the wallet itself, scoped authorizations, risk controls, and a clear record of what every agent did.
 
 ## From Intent to Payment
 
-### 1. Connect a Visa card
+### Connect a Visa card
 
-The user links a Visa card to the wallet. Credentials are tokenized on connection, so no agent ever handles the raw card details.
+The user links a Visa card to Clink Agentic Wallet. Credentials are tokenized at connection, so no agent ever handles raw card details.
 
-### 2. Authorize the purchase
+### Authorize the purchase
 
 The user defines what the agent may buy, the spending limit, and how long the authorization is valid.
 
-### 3. Complete the task
+### Complete the task
 
 When payment is needed, the agent requests payment authority for that specific purchase — not a blank check — and completes the task within the agreed scope.
 
-### 4. Process and record
+### Process and record
 
 Visa's network processes the transaction with its authentication and controls. Clink records it, so the user can see exactly what was bought, by which agent, and why.
 
@@ -48,38 +52,55 @@ Visa's network processes the transaction with its authentication and controls. C
 
 The integration is live on three surfaces today.
 
-### Commerce — Shopify, globally
+**01 · COMMERCE**
 
-Agents can complete checkout on Shopify stores worldwide, turning a shopping intent into a paid order without a human-run checkout flow.
+### Shopify, globally
 
-### Local — offline pickup in APAC
+Agents complete checkout on Shopify stores worldwide — no human-run checkout flow required.
 
-Selected coffee and food partners in APAC accept agent-placed orders for offline pickup: the agent orders and pays, the user walks in and collects.
+**02 · LOCAL**
 
-### API — tokens and paid tools
+### Offline pickup, APAC
 
-API products such as model tokens and paid tools can be purchased per use, so agent workflows keep running instead of stalling on a top-up.
+Selected coffee and food partners in APAC accept agent-placed orders for offline pickup. The agent orders and pays; the user walks in and collects. The wallet returns a pickup code or order status, and handles receipts along the way.
+
+**03 · API**
+
+### Tokens and paid tools
+
+API products — model tokens and paid tools — can be purchased per use, so agent workflows keep running instead of stalling on a top-up.
+
+For merchants, Clink turns product discovery into completed transactions, with the same risk controls and reporting as any other channel. For agent builders, the same wallet can move from a single demo task to production traffic without re-architecting payments.
 
 ## What Clink and Visa Bring Together
 
-| Visa | Clink |
-|------|-------|
-| Global acceptance network | Agent wallet |
-| Tokenization of credentials | Scoped authorizations |
-| Secure authentication | Risk controls |
-| Transaction controls | Transaction-level visibility |
+![Visa](/blog/images/visa-brand-mark-blue.svg)
 
-Together: one integration for merchants and developers, one wallet for users.
+Visa contributes the network side: a global acceptance network, tokenization of credentials, secure authentication, and transaction controls for AI-initiated payments.
+
+![Clink](/blog/images/clink-wordmark-full-color.png)
+
+Clink contributes the wallet side: Clink Agentic Wallet, scoped authorizations, risk controls, transaction-level visibility, and one integration for merchants and developers.
+
+For developers, the integration means one API surface: create an authorization, attach it to an agent, and let Clink handle the payment mechanics. The Clink Payment Skill and the Agentic Payments documentation cover the details.
+
+![Clink Agent Wallet dashboard showing Visa card setup, agent authorization, risk controls, and transaction management](/blog/images/clink-wallet-dashboard.png)
 
 ## A Wallet for the Agent Economy
 
-Users will not adopt a separate payment setup for every agent they run. The natural shape of the agent economy is delegated authority — one wallet where any agent can act within the limits the user set, and where every transaction is visible and attributable.
+We believe people should be able to use one wallet across many AI agents — not a separate payment setup for every assistant, tool, or runtime they adopt.
+
+That is the shape of the agent economy: delegated authority, granted once, visible everywhere, and revocable at any time.
 
 That is what we are building with Visa as Clink Agentic Wallet: user-controlled, network-trusted, and ready for the interfaces where commerce actually happens next.
 
 ## Build the Next Payment Interface with Us
 
 If you are building agents, agent-run storefronts, or payment flows where the buyer is a machine, we would like to talk. Install the [Clink Payment Skill](https://github.com/clinkbillcom/agentic-payment-skills), or explore [Clink Agentic Payments](https://clinkbill.com/agentic-payment).
+
+![Julie Wang](/blog/images/julie-wang.png)
+
+**Julie Wang** — Co-founder at Clink. Building global payments for humans and agents.
 
 ## FAQ
 
