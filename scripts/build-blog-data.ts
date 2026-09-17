@@ -20,6 +20,7 @@ interface BlogPost {
   category: string;
   keywords: string[];
   author: string;
+  authorImage?: string;
   image?: string;
   readingMinutes: number;
   related: string[];
@@ -96,6 +97,7 @@ function main() {
 
     if (data.updated) post.updated = toDateString(data.updated);
     if (data.image) post.image = String(data.image);
+    if (data.authorImage) post.authorImage = String(data.authorImage);
 
     const [faqs, bodyOnly] = extractFaqs(content);
     if (faqs.length > 0) post.faqs = faqs;

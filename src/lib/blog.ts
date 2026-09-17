@@ -9,6 +9,7 @@ export type BlogPost = {
   category: string;
   keywords: string[];
   author: string;
+  authorImage?: string;
   image?: string;
   readingMinutes: number;
   related: string[];

@@ -2,6 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import Link from "next/link";
 import { useState } from "react";
 import { plainText } from "@/lib/blog";
@@ -179,7 +180,11 @@ const components: Components = {
 export function MarkdownRenderer({ content }: { content: string }) {
   return (
     <div className="max-w-[720px]">
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
+        components={components}
+      >
         {content}
       </ReactMarkdown>
     </div>

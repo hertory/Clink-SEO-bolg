@@ -6,6 +6,7 @@ date: "2026-09-17"
 category: "Agentic Payments"
 secondaryCategory: "Product"
 author: "Julie Wang"
+authorImage: /blog/images/julie-wang.png
 image: /blog/images/clink-and-visa-partner-on-intelligent-commerce.png
 readingMinutes: 6
 ---
@@ -32,55 +33,65 @@ An agent wallet is the user-facing layer that connects a payment method with age
 
 ## From Intent to Payment
 
-### Connect a Visa card
-
-The user links a Visa card to Clink Agentic Wallet. Credentials are tokenized at connection, so no agent ever handles raw card details.
-
-### Authorize the purchase
-
-The user defines what the agent may buy, the spending limit, and how long the authorization is valid.
-
-### Complete the task
-
-When payment is needed, the agent requests payment authority for that specific purchase — not a blank check — and completes the task within the agreed scope.
-
-### Process and record
-
-Visa's network processes the transaction with its authentication and controls. Clink records it, so the user can see exactly what was bought, by which agent, and why.
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:28px 0">
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">01</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Connect a Visa card</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">The user links a Visa card to Clink Agentic Wallet. Credentials are tokenized at connection, so no agent ever handles raw card details.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">02</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Authorize the purchase</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">The user defines what the agent may buy, the spending limit, and how long the authorization is valid.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">03</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Complete the task</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">When payment is needed, the agent requests payment authority for that specific purchase — not a blank check — and completes the task within the agreed scope.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">04</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Process and record</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">Visa's network processes the transaction with its authentication and controls. Clink records it, so the user can see exactly what was bought, by which agent, and why.</p>
+</div>
+</div>
 
 ## From an Agent Wallet to Real Merchant Checkout
 
 The integration is live on three surfaces today.
 
-**01 · COMMERCE**
-
-### Shopify, globally
-
-Agents complete checkout on Shopify stores worldwide — no human-run checkout flow required.
-
-**02 · LOCAL**
-
-### Offline pickup, APAC
-
-Selected coffee and food partners in APAC accept agent-placed orders for offline pickup. The agent orders and pays; the user walks in and collects. The wallet returns a pickup code or order status, and handles receipts along the way.
-
-**03 · API**
-
-### Tokens and paid tools
-
-API products — model tokens and paid tools — can be purchased per use, so agent workflows keep running instead of stalling on a top-up.
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:28px 0">
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">01 · Commerce</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Shopify, globally</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">Agents complete checkout on Shopify stores worldwide — no human-run checkout flow required.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">02 · Local</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Offline pickup, APAC</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">Selected coffee and food partners in APAC accept agent-placed orders for offline pickup. The agent orders and pays; the user walks in and collects. The wallet returns a pickup code or order status, and handles receipts along the way.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:20px 22px;background:#fafafa">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;color:var(--accent,#ea580c)">03 · API</div>
+<div style="font-size:17px;font-weight:600;margin:8px 0 6px;color:#18181b">Tokens and paid tools</div>
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">API products — model tokens and paid tools — can be purchased per use, so agent workflows keep running instead of stalling on a top-up.</p>
+</div>
+</div>
 
 For merchants, Clink turns product discovery into completed transactions, with the same risk controls and reporting as any other channel. For agent builders, the same wallet can move from a single demo task to production traffic without re-architecting payments.
 
 ## What Clink and Visa Bring Together
 
-![Visa](/blog/images/visa-brand-mark-blue.svg)
-
-Visa contributes the network side: a global acceptance network, tokenization of credentials, secure authentication, and transaction controls for AI-initiated payments.
-
-![Clink](/blog/images/clink-wordmark-full-color.png)
-
-Clink contributes the wallet side: Clink Agentic Wallet, scoped authorizations, risk controls, transaction-level visibility, and one integration for merchants and developers.
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:28px 0">
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:22px 24px;background:#fafafa">
+<img src="/blog/images/visa-brand-mark-blue.svg" alt="Visa" style="display:block;height:26px;width:auto;margin-bottom:12px" />
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">Visa contributes the network side: a global acceptance network, tokenization of credentials, secure authentication, and transaction controls for AI-initiated payments.</p>
+</div>
+<div style="border:1px solid #e4e4e7;border-radius:16px;padding:22px 24px;background:#fafafa">
+<img src="/blog/images/clink-wordmark-full-color.png" alt="Clink" style="display:block;height:26px;width:auto;margin-bottom:12px" />
+<p style="font-size:14.5px;line-height:1.65;color:#52525b;margin:0">Clink contributes the wallet side: Clink Agentic Wallet, scoped authorizations, risk controls, transaction-level visibility, and one integration for merchants and developers.</p>
+</div>
+</div>
 
 For developers, the integration means one API surface: create an authorization, attach it to an agent, and let Clink handle the payment mechanics. The Clink Payment Skill and the Agentic Payments documentation cover the details.
 
@@ -97,10 +108,6 @@ That is what we are building with Visa as Clink Agentic Wallet: user-controlled,
 ## Build the Next Payment Interface with Us
 
 If you are building agents, agent-run storefronts, or payment flows where the buyer is a machine, we would like to talk. Install the [Clink Payment Skill](https://github.com/clinkbillcom/agentic-payment-skills), or explore [Clink Agentic Payments](https://clinkbill.com/agentic-payment).
-
-![Julie Wang](/blog/images/julie-wang.png)
-
-**Julie Wang** — Co-founder at Clink. Building global payments for humans and agents.
 
 ## FAQ
 

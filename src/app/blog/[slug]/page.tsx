@@ -101,13 +101,22 @@ export default async function BlogPostPage({
               {meta.description}
             </p>
             <div className="mt-7 flex items-center gap-3">
-              <div
-                className="flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold text-foreground"
-                style={{ background: "var(--accent-soft)" }}
-                aria-hidden
-              >
-                {meta.author.charAt(0)}
-              </div>
+              {meta.authorImage ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={meta.authorImage}
+                  alt={meta.author}
+                  className="h-9 w-9 rounded-full object-cover"
+                />
+              ) : (
+                <div
+                  className="flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold text-foreground"
+                  style={{ background: "var(--accent-soft)" }}
+                  aria-hidden
+                >
+                  {meta.author.charAt(0)}
+                </div>
+              )}
               <p className="text-sm text-foreground-muted">
                 <span className="font-semibold text-foreground">
                   By {meta.author}
