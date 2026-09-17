@@ -159,3 +159,7 @@ You cannot receive Stripe webhooks in WebContainer preview—there is no public 
 ### When should I move beyond Bolt’s built-in Stripe?
 
 When one processor is a structural constraint: multi-region decline rates, billing logic that must leave Supabase Edge Functions, or subscription data that must survive a platform migration. Until then, built-in Stripe is the rational choice. Ground the infrastructure option in [What Is Clink?](/blog/what-is-clink) and follow the integrate path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+
+### Does Bolt’s Stripe integration require Supabase?
+
+Yes for the default flow. Bolt runs Stripe secrets inside Supabase Edge Functions, so a project needs Supabase or Bolt Database—Firebase is not supported—and Bolt will prompt you to add a database if none exists. That coupling is also why checkout and webhook logic ship as Edge Functions you can read rather than as client-side code.

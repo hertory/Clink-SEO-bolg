@@ -133,3 +133,7 @@ Clink fits global SaaS facing coverage gaps or tax complexity, AI products that 
 ### Is Clink publicly priced?
 
 No public pricing page exists as of June 2026. Clink uses Contact Sales; discuss rates and packaging directly with the team rather than inferring percentages from competitors.
+
+### Does Clink support usage-based billing?
+
+Yes. Clink’s Billing product line supports flat, tiered, usage-based, and hybrid pricing, including metered models for AI and API products that charge by tokens, compute, or calls. Because the meter and subscription state live in Clink’s billing layer rather than inside one processor, usage-based plans use the same checkout, routing, and retry infrastructure as flat plans.

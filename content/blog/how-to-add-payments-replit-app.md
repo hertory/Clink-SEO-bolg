@@ -154,3 +154,7 @@ Open the Publish pane, install the Replit Integrated Payments app, select your l
 ### Can I use Stripe on Replit’s free Starter plan?
 
 Not through Replit’s built-in integration. The Agent will prompt an upgrade. As an alternative on any plan tier, use the Clink path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app)—Clink’s billing infrastructure does not depend on Replit’s Core/Pro Stripe gate. For product context see [What Is Clink?](/blog/what-is-clink).
+
+### Does Replit support mobile in-app purchases?
+
+Yes, through RevenueCat. Replit’s Agent surface can wire RevenueCat for native mobile subscriptions, which handles Apple and Google in-app purchase flows that Stripe alone cannot satisfy under App Store rules, and Shopify for physical goods. Each provider keeps its own webhook contract and subscription state—there is no built-in orchestrator that makes Whop, Stripe, and RevenueCat look like one entitlement system.

@@ -42,14 +42,17 @@ function toDateString(value: unknown): string {
 
 /** Extract FAQ items from markdown content. Returns [faqs, bodyWithoutFaq] */
 function extractFaqs(content: string): [FaqItem[], string] {
-  const faqIndex = content.search(/\n## FAQ\b/);
+  const faqIndex = content.search(/\r?\n## FAQ\b/);
   if (faqIndex === -1) return [[], content];
 
   const faqSection = content.slice(faqIndex);
   const bodyWithoutFaq = content.slice(0, faqIndex);
 
   const faqs: FaqItem[] = [];
-  const matches = faqSection.matchAll(/### (.+?)\n\n([\s\S]*?)(?=\n### |$)/g);
+  // Tolerate CRLF line endings so content edited on Windows still extracts.
+  const matches = faqSection.matchAll(
+    /### (.+?)\r?\n\r?\n([\s\S]*?)(?=\r?\n### |$)/g,
+  );
   for (const m of matches) {
     faqs.push({ q: m[1].trim(), a: m[2].trim() });
   }

@@ -167,3 +167,7 @@ Install [clink-integ-skills](https://github.com/clinkbillcom/clink-integ-skills)
 ### When should I leave Lovable’s built-in payments?
 
 When one provider is a structural limit—multi-region decline rates, need for portable subscription data, agent-automated catalog and webhook pipelines, or a compliance posture that no longer fits a single built-in connector. Until then, shipping on Paddle or Stripe through Lovable is the rational move.
+
+### Can I migrate Paddle or Stripe subscriptions from Lovable to Clink later?
+
+Not automatically. Lovable’s built-in path allows only one provider per project, and switching providers does not migrate catalog or subscriptions; moving to Clink is a planned billing cutover like any re-platforming. You can ship on the built-in toggle first and re-platform to Clink when single-provider limits show up—just budget time for the migration rather than assuming the subscriptions follow.

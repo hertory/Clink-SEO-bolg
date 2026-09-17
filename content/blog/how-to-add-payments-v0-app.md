@@ -175,3 +175,7 @@ No. The Stripe Marketplace integration is available on Vercel plans including fr
 ### Can I use both Stripe and Paddle in the same v0 app?
 
 Not as a built-in multi-provider orchestrator. You can run both as separate code paths with separate webhook contracts and subscription states. Unified routing and portable subscription data are the job of infrastructure such as Clink—see [What Is Clink?](/blog/what-is-clink) and the integrate path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+
+### Does installing Stripe from the Vercel Marketplace set up webhooks too?
+
+No. The Marketplace integration provisions API keys as environment variables but does not create webhook endpoints. You register endpoints in the Stripe Dashboard per environment and store the matching signing secrets in Vercel—so a dashboard that looks fine on keys is not evidence that webhooks are configured.
