@@ -6,14 +6,14 @@ import { FinalCta } from "@/components/FinalCta";
 import { getAllPosts } from "@/lib/blog-server";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Payment Infrastructure & Agent Payments Blog",
   description:
-    "Essays, product deep-dives, and field notes on payment infrastructure, subscription billing, and the agent economy.",
+    "Guides and analysis on payment infrastructure, subscription billing, smart routing, and the agent economy — from the team building Clink.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Blog — Clink",
+    title: "Blog — Payment Infrastructure & Agent Payments Insights | Clink",
     description:
-      "Essays, product deep-dives, and field notes on payment infrastructure, subscription billing, and the agent economy.",
+      "Guides and analysis on payment infrastructure, subscription billing, smart routing, and the agent economy — from the team building Clink.",
     url: "/blog",
   },
 };
