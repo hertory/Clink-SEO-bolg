@@ -4,9 +4,17 @@ import { Fragment } from "react";
 
 export type Crumb = { label: string; href?: string };
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://clinkbill.com";
+
+function absoluteUrl(href: string) {
+  return href.startsWith("http") ? href : `${SITE_URL}${href}`;
+}
+
 /**
  * Site-wide breadcrumb. Renders as a horizontal trail with `›` separators.
- * Last item is the current page (no link). Includes JSON-LD BreadcrumbList for SEO.
+ * Last item is the current page (no link, but may carry `href` for JSON-LD).
+ * JSON-LD BreadcrumbList emits absolute URLs (Google requirement); the last
+ * item should pass its own `href` so the current page gets an `item` too.
  */
 export function Breadcrumb({ items }: { items: Crumb[] }) {
   const jsonLd = {
@@ -16,7 +24,7 @@ export function Breadcrumb({ items }: { items: Crumb[] }) {
       "@type": "ListItem",
       position: i + 1,
       name: c.label,
-      ...(c.href ? { item: c.href } : {}),
+      ...(c.href ? { item: absoluteUrl(c.href) } : {}),
     })),
   };
 

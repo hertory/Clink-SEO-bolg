@@ -20,14 +20,17 @@ export async function generateMetadata({
   const { slug } = await params;
   try {
     const { meta } = getPost(slug);
+    const canonical = `/blog/${slug}`;
     return {
       title: `${meta.title} — Clink`,
       description: meta.description,
       keywords: meta.keywords.join(", "),
+      alternates: { canonical },
       openGraph: {
         type: "article",
         title: `${meta.title} — Clink`,
         description: meta.description,
+        url: canonical,
         publishedTime: meta.date,
         authors: [meta.author],
         ...(meta.image ? { images: [meta.image] } : {}),
@@ -75,7 +78,7 @@ export default async function BlogPostPage({
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: meta.title },
+          { label: meta.title, href: `/blog/${slug}` },
         ]}
       />
 

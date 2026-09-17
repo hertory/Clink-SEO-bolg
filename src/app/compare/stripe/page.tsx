@@ -10,7 +10,7 @@ import { PricingCompare } from "@/components/compare/PricingCompare";
 import { SplitRow } from "@/components/compare/SplitRow";
 import { stripeCompare } from "@/lib/compare/stripe";
 
-const CANONICAL = "https://clink-ai.lovable.app/compare/stripe";
+const CANONICAL = "/compare/stripe";
 
 const heroImageUrl = stripeCompare.hero.image.src;
 
@@ -41,7 +41,7 @@ export default function ClinkVsStripePage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Compare", href: "/compare" },
-          { label: "Stripe" },
+          { label: "Stripe", href: "/compare/stripe" },
         ]}
       />
       <Hero />

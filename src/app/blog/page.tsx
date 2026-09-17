@@ -9,10 +9,12 @@ export const metadata: Metadata = {
   title: "Blog — Clink",
   description:
     "Essays, product deep-dives, and field notes on payment infrastructure, subscription billing, and the agent economy.",
+  alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog — Clink",
     description:
       "Essays, product deep-dives, and field notes on payment infrastructure, subscription billing, and the agent economy.",
+    url: "/blog",
   },
 };
 
@@ -21,7 +23,7 @@ export default function BlogIndex() {
     <div className="min-h-screen bg-background text-foreground antialiased">
       <TopNav />
       <Breadcrumb
-        items={[{ label: "Home", href: "/" }, { label: "Blog" }]}
+        items={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }]}
       />
       <section className="mx-auto max-w-[1200px] px-6 pt-12 pb-12 md:pt-16">
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-foreground-subtle">

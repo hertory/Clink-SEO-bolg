@@ -11,10 +11,12 @@ export const metadata: Metadata = {
   title: "Add Payments to Your Lovable App — Clink",
   description:
     "Ship global payments inside your Lovable app with Clink. Merchant-of-Record coverage, smart routing, subscription billing, and an agent-ready integration skill — from prompt to revenue.",
+  alternates: { canonical: "/platforms/lovable" },
   openGraph: {
     title: "Add Payments to Your Lovable App — Clink",
     description:
       "From prompt to global revenue. Clink brings MoR payments, smart routing, and subscription billing to apps built with Lovable.",
+    url: "/platforms/lovable",
   },
 };
 
@@ -110,7 +112,7 @@ export default function LovablePlatformPage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Platforms" },
-          { label: "Lovable" },
+          { label: "Lovable", href: "/platforms/lovable" },
         ]}
       />
       <Hero />

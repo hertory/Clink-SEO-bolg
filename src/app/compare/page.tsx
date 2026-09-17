@@ -21,8 +21,9 @@ export const metadata: Metadata = {
     title: "Compare Clink — Payment Platform Comparisons",
     description:
       "Side-by-side comparisons between Clink and other payment platforms.",
+    url: "/compare",
   },
-  alternates: { canonical: "https://clink-ai.lovable.app/compare" },
+  alternates: { canonical: "/compare" },
 };
 
 export default function CompareIndex() {
@@ -30,7 +31,10 @@ export default function CompareIndex() {
     <div className="min-h-screen bg-background text-foreground antialiased">
       <TopNav />
       <Breadcrumb
-        items={[{ label: "Home", href: "/" }, { label: "Compare" }]}
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Compare", href: "/compare" },
+        ]}
       />
       <section className="mx-auto max-w-[1200px] px-6 pt-12 pb-10 md:pt-20">
         <p
