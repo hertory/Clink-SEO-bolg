@@ -23,13 +23,13 @@ export async function generateMetadata({
     const { meta } = getPost(slug);
     const canonical = `/blog/${slug}`;
     return {
-      title: `${meta.title} — Clink`,
+      title: meta.title,
       description: meta.description,
       keywords: meta.keywords.join(", "),
       alternates: { canonical },
       openGraph: {
         type: "article",
-        title: `${meta.title} — Clink`,
+        title: meta.title,
         description: meta.description,
         url: canonical,
         publishedTime: meta.date,

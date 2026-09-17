@@ -6,7 +6,7 @@ import { FinalCta } from "@/components/FinalCta";
 import { getAllPosts } from "@/lib/blog-server";
 
 export const metadata: Metadata = {
-  title: "Blog — Clink",
+  title: "Blog",
   description:
     "Essays, product deep-dives, and field notes on payment infrastructure, subscription billing, and the agent economy.",
   alternates: { canonical: "/blog" },
