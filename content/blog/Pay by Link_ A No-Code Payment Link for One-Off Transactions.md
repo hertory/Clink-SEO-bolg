@@ -6,7 +6,6 @@ date: "2026-08-17"
 updated: "2026-08-17"
 category: "Product"
 author: "Clink Team"
-image: /blog/images/pay-by-link.jpg
 readingMinutes: 10
 ---
 

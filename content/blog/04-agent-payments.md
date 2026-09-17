@@ -7,6 +7,7 @@ updated: "2026-07-23"
 category: "Agentic Payments"
 secondaryCategory: "Opinion"
 author: "Clink Team"
+image: /blog/images/agent-payments.jpg
 readingMinutes: 12
 ---
 
