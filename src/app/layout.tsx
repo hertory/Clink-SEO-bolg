@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter, Hanken_Grotesk } from "next/font/google";
+import { Inter, Hanken_Grotesk, DM_Sans, Manrope } from "next/font/google";
 import "./globals.css";
 
 const GA_MEASUREMENT_ID =
@@ -17,6 +17,21 @@ const hanken = Hanken_Grotesk({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-heading",
+  display: "swap",
+});
+
+// Blog reader domain fonts (Julie's prototype design: DM Sans body + Manrope headings)
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-dm-sans",
+  display: "swap",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-manrope",
   display: "swap",
 });
 
@@ -68,7 +83,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${hanken.variable}`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${hanken.variable} ${dmSans.variable} ${manrope.variable}`}
+    >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>

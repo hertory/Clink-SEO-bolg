@@ -17,7 +17,7 @@ function ImageWithFallback({ src, alt }: { src?: string | Blob; alt?: string }) 
     return (
       <div
         className="flex items-center justify-center rounded-xl border bg-elev-2 py-16 text-sm text-foreground-muted"
-        style={{ borderColor: "var(--surface-stroke)" }}
+        style={{ borderColor: "var(--reader-line)" }}
       >
         {alt || "Image"}
       </div>
@@ -29,7 +29,7 @@ function ImageWithFallback({ src, alt }: { src?: string | Blob; alt?: string }) 
       src={srcStr}
       alt={alt || ""}
       loading="lazy"
-      className="rounded-xl"
+      className="rounded-[14px]"
       onError={() => setError(true)}
     />
   );
@@ -43,7 +43,8 @@ const components: Components = {
     return (
       <h2
         id={id}
-        className="scroll-mt-28 mt-16 mb-4 text-[28px] md:text-[32px] font-semibold tracking-[-0.02em] leading-[1.2] text-foreground"
+        className="scroll-mt-28 mt-16 mb-4 text-[28px] md:text-[33px] font-semibold tracking-[-0.03em] leading-[1.15] text-foreground"
+        style={{ fontFamily: "var(--font-manrope), Inter, sans-serif" }}
         {...props}
       >
         {children}
@@ -56,7 +57,8 @@ const components: Components = {
     return (
       <h3
         id={id}
-        className="scroll-mt-28 mt-10 mb-3 text-[20px] md:text-[22px] font-semibold tracking-[-0.01em] text-foreground"
+        className="scroll-mt-28 mt-10 mb-3 text-[20px] md:text-[22px] font-semibold tracking-[-0.015em] text-foreground"
+        style={{ fontFamily: "var(--font-manrope), Inter, sans-serif" }}
         {...props}
       >
         {children}
@@ -64,7 +66,10 @@ const components: Components = {
     );
   },
   p: ({ children }) => (
-    <p className="mt-6 text-[17px] leading-[1.75] text-foreground-muted">
+    <p
+      className="mt-6 text-[18px] leading-[1.78]"
+      style={{ color: "var(--reader-ink-2)" }}
+    >
       {children}
     </p>
   ),
@@ -72,12 +77,18 @@ const components: Components = {
     if (!href) return <span>{children}</span>;
     const isInternal =
       href.startsWith("/") || href.startsWith("#");
+    const linkClass =
+      "font-medium underline underline-offset-4 transition-colors";
+    const linkStyle = {
+      color: "var(--reader-ink)",
+      textDecorationColor: "var(--reader-line-strong)",
+    } as const;
     if (isInternal) {
       return (
         <Link
           href={href}
-          className="font-medium underline underline-offset-4 decoration-foreground-subtle/40 hover:decoration-foreground transition-colors"
-          style={{ color: "var(--accent)" }}
+          className={`${linkClass} hover:[text-decoration-color:var(--reader-coral)]`}
+          style={linkStyle}
         >
           {children}
         </Link>
@@ -88,8 +99,8 @@ const components: Components = {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="font-medium underline underline-offset-4 decoration-foreground-subtle/40 hover:decoration-foreground transition-colors"
-        style={{ color: "var(--accent)" }}
+        className={`${linkClass} hover:[text-decoration-color:var(--reader-coral)]`}
+        style={linkStyle}
       >
         {children}
       </a>
@@ -97,21 +108,32 @@ const components: Components = {
   },
   img: ({ src, alt }) => <ImageWithFallback src={src} alt={alt} />,
   strong: ({ children }) => (
-    <strong className="font-semibold text-foreground">{children}</strong>
+    <strong
+      className="font-semibold"
+      style={{ color: "var(--reader-ink)" }}
+    >
+      {children}
+    </strong>
   ),
   hr: () => (
     <hr
       className="my-12 border-0 border-t"
-      style={{ borderColor: "var(--surface-stroke)" }}
+      style={{ borderColor: "var(--reader-line)" }}
     />
   ),
   ul: ({ children }) => (
-    <ul className="mt-6 space-y-2 pl-6 text-[17px] leading-[1.75] text-foreground-muted list-disc">
+    <ul
+      className="mt-6 space-y-2 pl-6 text-[18px] leading-[1.78] list-disc"
+      style={{ color: "var(--reader-ink-2)" }}
+    >
       {children}
     </ul>
   ),
   ol: ({ children }) => (
-    <ol className="mt-6 space-y-2 pl-6 text-[17px] leading-[1.75] text-foreground-muted list-decimal">
+    <ol
+      className="mt-6 space-y-2 pl-6 text-[18px] leading-[1.78] list-decimal"
+      style={{ color: "var(--reader-ink-2)" }}
+    >
       {children}
     </ol>
   ),
@@ -119,7 +141,7 @@ const components: Components = {
   blockquote: ({ children }) => (
     <blockquote
       className="border-l-2 pl-6 md:pl-8 mt-8 mb-8"
-      style={{ borderColor: "var(--foreground-subtle)" }}
+      style={{ borderColor: "var(--reader-coral)" }}
     >
       {children}
     </blockquote>
@@ -137,8 +159,14 @@ const components: Components = {
       );
     }
     return (
-      <code className={`block overflow-x-auto rounded-xl p-5 text-[14px] leading-relaxed font-mono ${className || ""}`}
-        style={{ backgroundColor: "var(--color-surface-subtle)" }}>
+      <code
+        className={`block overflow-x-auto rounded-[14px] border p-5 text-[14px] leading-relaxed font-mono ${className || ""}`}
+        style={{
+          backgroundColor: "#fff",
+          borderColor: "var(--reader-line)",
+          boxShadow: "var(--shadow-float-1)",
+        }}
+      >
         {children}
       </code>
     );
@@ -148,7 +176,7 @@ const components: Components = {
     <div className="mt-6 mb-6 overflow-x-auto">
       <table
         className="w-full text-left text-[15px] leading-relaxed"
-        style={{ borderColor: "var(--surface-stroke)" }}
+        style={{ borderColor: "var(--reader-line)" }}
       >
         {children}
       </table>
@@ -157,12 +185,12 @@ const components: Components = {
   thead: ({ children }) => <thead>{children}</thead>,
   tbody: ({ children }) => <tbody>{children}</tbody>,
   tr: ({ children }) => (
-    <tr style={{ borderColor: "var(--surface-stroke)" }}>{children}</tr>
+    <tr style={{ borderColor: "var(--reader-line)" }}>{children}</tr>
   ),
   th: ({ children }) => (
     <th
       className="px-4 py-3 font-semibold text-foreground border-b"
-      style={{ borderColor: "var(--surface-stroke)" }}
+      style={{ borderColor: "var(--reader-line)" }}
     >
       {children}
     </th>
@@ -170,7 +198,7 @@ const components: Components = {
   td: ({ children }) => (
     <td
       className="px-4 py-3 text-foreground-muted border-b"
-      style={{ borderColor: "var(--surface-stroke)" }}
+      style={{ borderColor: "var(--reader-line)" }}
     >
       {children}
     </td>

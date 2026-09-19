@@ -93,14 +93,21 @@ export default async function BlogPostPage({
       <section className="mx-auto max-w-[1200px] px-6 pt-8 pb-10 md:pt-12 md:pb-14">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-12 lg:gap-16">
           <div>
-            <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-foreground-subtle">
+            <div
+              className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em]"
+              style={{ color: "var(--reader-coral)" }}
+            >
               <span>{meta.category}</span>
               <span>·</span>
               <span>{meta.readingMinutes} min read</span>
             </div>
             <h1
-              className="mt-5 font-semibold tracking-[-0.02em] leading-[1.08] text-foreground"
-              style={{ fontSize: "clamp(30px, 4.2vw, 48px)" }}
+              className="mt-5 font-semibold leading-[1.08] text-foreground"
+              style={{
+                fontSize: "clamp(30px, 4.2vw, 48px)",
+                fontFamily: "var(--font-manrope), Inter, sans-serif",
+                letterSpacing: "-0.035em",
+              }}
             >
               {meta.title}
             </h1>
@@ -139,10 +146,10 @@ export default async function BlogPostPage({
 
           {/* Cover image */}
           <div
-            className="overflow-hidden rounded-[24px] border bg-elev-2"
+            className="overflow-hidden rounded-[16px] border bg-elev-2"
             style={{
-              borderColor: "var(--surface-stroke)",
-              boxShadow: "var(--shadow-card)",
+              borderColor: "var(--reader-line)",
+              boxShadow: "var(--shadow-float-1)",
             }}
           >
             <div className="aspect-[1200/630] w-full">
