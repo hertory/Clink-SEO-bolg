@@ -71,10 +71,10 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  // Special case: 1:1 replica of the prototype standalone page (own header,
-  // sections and styles) instead of the standard markdown article layout.
+  // Special case: 1:1 replica of the prototype standalone page (Julie's
+  // design) wrapped in the generic site chrome instead of the markdown layout.
   if (slug === "clink-and-visa-partner-on-intelligent-commerce") {
-    return <VisaPartnershipPage />;
+    return <VisaPartnershipPage title={meta.title} slug={slug} />;
   }
 
   return (
