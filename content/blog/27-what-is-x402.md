@@ -59,7 +59,7 @@ The design goal is **transport-native**: payment should not require out-of-band 
 
 ## Facilitators, Networks, and Stablecoins
 
-x402 deliberately separates **protocol** from **settlement infrastructure**. A **facilitator** verifies signatures, submits transactions, and may perform compliance screening—without necessarily taking custody of buyer funds.
+x402 deliberately separates **protocol** from [settlement infrastructure](/blog/ai-agent-payments-infrastructure). A **facilitator** verifies signatures, submits transactions, and may perform compliance screening—without necessarily taking custody of buyer funds.
 
 Coinbase's [CDP facilitator](https://docs.cdp.coinbase.com/x402/core-concepts/facilitator) is the most documented production path, supporting networks including Base, Polygon, Arbitrum, and Solana with varying EIP-3009, Permit2, and SPL capabilities. Pricing models (for example, free tiers plus per-transaction fees) are facilitator-specific, not protocol-mandated.
 

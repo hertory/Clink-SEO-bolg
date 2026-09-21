@@ -91,7 +91,7 @@ The checklist below is ordered deliberately. Steps early in the list protect evi
 
 6. **Reduce new risk surface while under review.** Pause aggressive paid acquisition that spikes volume, hold optional product launches that change your processing profile, and avoid running large manual charges that look unlike your historical pattern unless Stripe requested them.
 
-7. **Address open disputes and refund requests proactively.** Elevated dispute rates are among the fastest paths from payout hold to payments pause. Issuing good-faith refunds where appropriate is often cheaper than chargebacks — but do not refund your way into insolvency; document your plan.
+7. **Address open disputes and refund requests proactively.** Elevated dispute rates are among the fastest paths from payout hold to payments pause. Issuing good-faith refunds where appropriate is often cheaper than chargebacks — but do not refund your way into insolvency; document your plan. If you are unsure what formally counts as one, start with [what a Stripe dispute is](/blog/what-is-stripe-dispute).
 
 8. **Communicate with customers if fulfillment or billing is affected.** Payment pauses break subscription renewals silently. A short status page or targeted email reduces chargebacks driven by "I thought I canceled" confusion.
 

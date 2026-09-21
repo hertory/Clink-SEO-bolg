@@ -94,7 +94,7 @@ Card networks operate monitoring programs that fine acquirers when merchants exc
 
 Visa's **VAMP** (Visa Acquirer Monitoring Program), effective in its current form from April 2025 with enforcement ramping through 2025, tracks monthly dispute and fraud counts and ratios. For most regions outside CEMEA, the non-compliant **VAMP ratio threshold is 0.5%** — disputes plus EFW fraud count divided by captured payment count — with excessive thresholds at **1.5%** ratio or **1,500** count (whichever applies per region). CEMEA thresholds differ; Stripe's monitoring-programs documentation is the authoritative reference for your account's region.
 
-Mastercard ECM and AusPayNet use separate formulas. **Won disputes still count** toward ratios — programs measure creation, not outcome. Stripe may restrict accounts before formal program letters arrive; see [Why Stripe Closes Accounts](/blog/why-stripe-closes-accounts) and [Stripe Chargeback Rate Threshold](/blog/stripe-chargeback-rate-threshold). Treat **0.5%** as early warning and sub-0.3% as a healthy SaaS target.
+Mastercard ECM and AusPayNet use separate formulas. **Won disputes still count** toward ratios — programs measure creation, not outcome. Stripe may restrict accounts before formal program letters arrive; see [Why Stripe Closes Accounts](/blog/why-stripe-closes-accounts). Treat **0.5%** as early warning and sub-0.3% as a healthy SaaS target.
 
 ---
 

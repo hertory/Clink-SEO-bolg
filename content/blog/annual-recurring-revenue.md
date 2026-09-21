@@ -23,7 +23,7 @@ readingMinutes: 10
 
 Annual recurring revenue (ARR) is the annualized value of the predictable, recurring revenue a company expects to collect from subscriptions and contracts over the next twelve months. It is the dominant growth metric in SaaS because it measures the revenue that renews by design, separating the core subscription business from one-off fees, professional services, and other non-recurring income.
 
-Salesforce, Corporate Finance Institute, and Wall Street Prep converge on the same definition: ARR represents expected yearly recurring revenue from subscription-based services, typically derived from the most recent month or quarter annualized. The consistency across sources reflects how central the metric has become—investors, boards, and benchmark reports speak in ARR the way earlier software eras spoke in bookings or seats. It is a forward-looking proxy for business health, not an accounting result, and it is deliberately not a GAAP number.
+Salesforce, Corporate Finance Institute, and Wall Street Prep converge on the same definition: ARR represents expected yearly recurring revenue from subscription-based services, typically derived from the most recent month or quarter annualized. The consistency across sources reflects how central the metric has become—investors, boards, and [benchmark reports](/blog/best-ai-companies-by-arr) speak in ARR the way earlier software eras spoke in bookings or seats. It is a forward-looking proxy for business health, not an accounting result, and it is deliberately not a GAAP number.
 
 The distinction that matters most appears in the contrast with total revenue. Total revenue includes everything: subscriptions, one-time purchases, setup fees, professional services. ARR includes only the recurring slice. A company can grow total revenue while ARR stalls, or grow ARR while total revenue dips on fewer one-time projects. For a subscription business, the recurring slice is the asset that compounds, which is why leadership reports both but prices the company on ARR.
 
@@ -33,7 +33,7 @@ ARR matters because it collapses the messy detail of a subscription book into a 
 
 ## How to Calculate ARR: The Formula and What Adjusts It
 
-The base formula is intentionally simple: annual recurring revenue equals monthly recurring revenue multiplied by twelve. ARR = MRR × 12. When the business runs on annual contracts, the same result comes from summing the annual value of every active subscription directly.
+The base formula is intentionally simple: annual recurring revenue equals [monthly recurring revenue](/blog/monthly-recurring-revenue) multiplied by twelve. ARR = MRR × 12. When the business runs on annual contracts, the same result comes from summing the annual value of every active subscription directly.
 
 The refinement that finance teams use, and that most definitions include, adds the three forces that move ARR between reporting periods: expansion revenue from upgrades and add-ons, contraction from downgrades, and churned revenue from cancellations. The fuller expression is: ARR = (MRR × 12) + expansion − contraction − churn. The base formula describes a static month; the refined formula describes a living subscription book.
 
@@ -75,7 +75,7 @@ The practical implication is that ARR trustworthiness is not improved by better 
 
 **"ARR includes all signed contracts."** Multi-year contracted value enters ARR only as it recurs; a signed but not-yet-billing annual contract is pipeline, not ARR. Booking revenue ahead of recurrence is how growth decks inflate.
 
-**"Higher ARR is always better."** The denominator matters. ARR growth combined with weakening net revenue retention—more expansion masked by even more churn—is a deteriorating engine wearing a growth costume. Investors read ARR growth alongside retention precisely because the two together reveal whether the growth is durable.
+**"Higher ARR is always better."** The denominator matters. ARR growth combined with weakening [net revenue retention](/blog/net-revenue-retention)—more expansion masked by even more churn—is a deteriorating engine wearing a growth costume. Investors read ARR growth alongside retention precisely because the two together reveal whether the growth is durable.
 
 ---
 

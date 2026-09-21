@@ -26,7 +26,7 @@ Merchants can enter an amount, currency, product or service name, and payer emai
 
 Pay by Link provides a hosted checkout that can be created directly from the Clink Dashboard.
 
-Instead of building a product page, cart, or checkout flow, a merchant enters the payment details and generates a URL. The payer opens the link and completes the transaction through a hosted Clink checkout.
+Instead of building a product page, cart, or checkout flow, a merchant enters the payment details and generates a URL. The payer opens the link and completes the transaction through a [hosted Clink checkout](/blog/what-is-clink).
 
 The transaction does not depend on the merchant having a storefront or an active checkout integration in production.
 
@@ -80,7 +80,7 @@ For products that require a programmatic checkout flow, merchants can continue t
 
 ### Which currencies and payment methods are supported?
 
-Clink supports payments across **135+ currencies and 100+ local payment methods**, covering both global and market-specific payment options.
+Clink supports payments across **135+ currencies and 100+ [local payment methods](/blog/smart-routing)**, covering both global and market-specific payment options.
 
 Payment method availability can vary depending on factors such as the selected currency and payer location.
 

@@ -113,7 +113,7 @@ MPP matters when your product is consumed by **software runtimes**, not only hum
 
 **Risk teams** get SPT limits and merchant scoping instead of sharing raw payment methods with agent code.
 
-**Gaps remain:** enterprise procurement, tax invoicing, and multi-currency accounting may still require your existing subscription stack—[smart routing](/blog/smart-routing) for human renewals and MPP for agent usage can coexist. MPP does not replace [MoR vs PSP](/blog/mor-vs-psp) decisions; it adds a collection mode.
+**Gaps remain:** enterprise procurement, tax invoicing, and multi-currency accounting may still require your existing subscription stack—[smart routing](/blog/smart-routing) for human renewals and MPP for agent usage can coexist. MPP does not replace [MoR vs PSP](/blog/mor-vs-psp) decisions; it adds a collection mode. Why machine buyers need payment rails distinct from human checkout is the broader category argument in [agent payments](/blog/agent-payments).
 
 Clink's [Agentic Payments](https://clinkbill.com/agentic-payment) (Early Access) addresses the **buyer-side harness**—scoped caps and audit for agents spending on third-party APIs—while MPP addresses the **seller-side** HTTP charge. Complementary layers in a growing stack.
 

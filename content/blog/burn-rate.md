@@ -47,7 +47,7 @@ Three input rules keep the calculation honest. First, use cash-basis numbers, no
 
 Three numbers get conflated in board decks, and the conflation produces bad decisions. Burn rate is a speed, runway is a duration, and net loss is an accounting construct—they measure different things even though they move together.
 
-Runway converts burn into a deadline: cash on hand divided by monthly net burn. It is the number that forces prioritization because it is expressed in months rather than dollars. A common benchmark in venture practice is to raise before runway drops below eighteen to twenty-four months, because a raise takes three to six months of diligence and the next eight to twelve months of that runway are needed to demonstrate the milestones the round prices. Runway is only as reliable as the burn number feeding it, which is why the same teams that recompute burn monthly often discover their runway was overstated by revenue lumpiness.
+[Runway](/blog/runway) converts burn into a deadline: cash on hand divided by monthly net burn. It is the number that forces prioritization because it is expressed in months rather than dollars. A common benchmark in venture practice is to raise before runway drops below eighteen to twenty-four months, because a raise takes three to six months of diligence and the next eight to twelve months of that runway are needed to demonstrate the milestones the round prices. Runway is only as reliable as the burn number feeding it, which is why the same teams that recompute burn monthly often discover their runway was overstated by revenue lumpiness.
 
 Net loss is a GAAP concept that mixes in non-cash items—depreciation, stock-based compensation, amortization—that do not touch the bank account. A company can report a large net loss while burning little cash, or show a paper profit while cash drains. Burn rate is deliberately cruder: it tracks the actual cash position, which is why investors treat it as the survival metric rather than the elegance metric.
 
@@ -63,7 +63,7 @@ This is where burn analysis for SaaS diverges from the textbook version. The tex
 
 The failure mechanism is often invisible until it is large. Card expiry, insufficient funds, and soft declines produce failed payment attempts that, without retry logic, convert directly into involuntary churn—customers who did not choose to leave but stop paying anyway. Industry estimates commonly place payment-related loss at a material share of total SaaS churn, often cited in a 20–40% band depending on cohort and methodology. When that loss hits a startup near the end of its runway, the math is brutal: a 3% monthly revenue leak is not a rounding error, it is roughly a third of annual revenue walking out the door.
 
-For subscription teams, the honest version of runway modeling looks like a range. Model one scenario where net burn holds at current levels, one where MRR grows at plan, and one where involuntary churn rises because renewal failures go unaddressed. The spread between those scenarios is the real risk the board should discuss—not the single number that fits on one slide.
+For subscription teams, the honest version of runway modeling looks like a range. Model one scenario where net burn holds at current levels, one where [MRR](/blog/monthly-recurring-revenue) grows at plan, and one where involuntary churn rises because renewal failures go unaddressed. The spread between those scenarios is the real risk the board should discuss—not the single number that fits on one slide.
 
 ---
 

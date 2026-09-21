@@ -56,7 +56,7 @@ The tax shell problem is the first. Authorities see the MoR as the seller. As AR
 
 Checkout and statement recognition is the second. Customers who do not recognize “Paddle,” “Lemon Squeezy,” or another MoR on a statement file friendly-fraud disputes more often than buyers who see your brand. MoR platforms know this and invest in dispute ops—that is a real advantage—but you still trade brand equity at the payment layer. For B2B procurement teams that match vendors to legal entities, third-party seller names create friction that no marketing site can fully erase. Some teams mitigate with clear descriptor suffixes and in-app invoice education; those tactics help, but they do not restore full merchant identity the way a direct PSP path does when brand trust is part of the sale.
 
-Routing control is the third. Many MoR stacks run on a limited underlying acquiring set. When performance degrades in a region, you cannot freely shift traffic to another acquirer the way a multi-PSP orchestration layer can. If approval-rate recovery is strategic, read the mechanics in [smart payment routing](/blog/smart-routing); MoR users often give up that knob entirely in exchange for the compliance shell. The trade is coherent early on—compliance bandwidth bought with less rail control—but it becomes costly when a single region’s soft-decline rate starts to move NRR and you discover the MoR’s acquiring mix is not something you can retune.
+Routing control is the third. Many MoR stacks run on a limited underlying acquiring set. When performance degrades in a region, you cannot freely shift traffic to another acquirer the way a multi-PSP orchestration layer can. If approval-rate recovery is strategic, read the mechanics in smart payment routing; MoR users often give up that knob entirely in exchange for the compliance shell. The trade is coherent early on—compliance bandwidth bought with less rail control—but it becomes costly when a single region’s soft-decline rate starts to move NRR and you discover the MoR’s acquiring mix is not something you can retune.
 
 None of this makes MoR “bad.” Paddle and peers remain excellent when the job is ship globally without a tax team. It makes MoR a model with a graduation curve you should design for.
 
@@ -106,7 +106,7 @@ That pattern fails when the first integration hard-codes MoR checkout and custom
 
 ## Conclusion
 
-MoR versus PSP is the wrong forced choice for most global SaaS teams. Choose MoR where compliance bandwidth is the constraint; choose PSP where brand, pricing complexity, and mature-market economics dominate; expect to need both as you grow. Build on portable subscription data so graduation is a policy change, not a platform migration. When the next bottleneck is soft declines and regional approval rates, pair this decision with [smart payment routing](/blog/smart-routing).
+MoR versus PSP is the wrong forced choice for most global SaaS teams. Choose MoR where compliance bandwidth is the constraint; choose PSP where brand, pricing complexity, and mature-market economics dominate; expect to need both as you grow. Build on portable subscription data so graduation is a policy change, not a platform migration. When the next bottleneck is soft declines and regional approval rates, pair this decision with smart payment routing.
 
 To map your markets and hybrid boundary against Clink’s stack, Contact Sales via [clinkbill.com](https://clinkbill.com/).
 

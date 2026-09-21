@@ -16,7 +16,7 @@ readingMinutes: 14
 - Single-PSP setups accept structural leakage: uneven authorization by country, one interchange path, incomplete network-token coverage, and weak fallback when the primary acquirer degrades or issuers temporarily flag the MID.
 - Multi-PSP routing with soft-decline retry through a different acquirer is what teams mean when they cite roughly **3–5 percentage point** net approval improvements; treat that as an industry and case range as of mid-2026, not a guaranteed Clink SLA for every mix.
 - Customer narratives on clinkbill.com as of June 2026 (BlockSec, GeeLark) describe regional recovery and consolidation of multiple PSPs under one orchestration layer with unified reconciliation.
-- Use the Decision Framework below before adding processors; pair merchant-model choice with [MoR vs PSP](/blog/mor-vs-psp) and platform context in [What Is Clink?](/blog/what-is-clink).
+- Use the Decision Framework below before adding processors; pair merchant-model choice with [MoR vs PSP](/blog/mor-vs-psp) and platform context in What Is Clink?.
 
 ---
 
@@ -62,7 +62,7 @@ Payment orchestration and smart routing overlap in language and diverge in produ
 
 Clink’s smart routing is positioned as a built-in layer beside billing: renewal retries can use per-customer history and decline semantics; tax calculation can stay aligned with settlement jurisdiction; reconciliation shares one model instead of matching four PSP exports to a billing CSV. Recovered authorizations compound more when billing, tax, and routing share state—especially for subscriptions, where a failed renewal is both a payment event and a lifecycle event. Spreedly-class depth on pure orchestration may still win for teams that want best-of-breed components and are willing to integrate billing separately. Clink’s bet is fewer integrations and shared state, not that pure orchestrators lack sophistication.
 
-Choose on integration count and whether payment performance is strategic or already solved. If Chargebee or an in-house billing core already owns lifecycle and you only need multi-PSP failover, a pure orchestrator is often the sharper tool. If you are still stitching billing webhooks to processor exports and tax tools, embedding routing next to subscriptions reduces the surface area where retries and dunning disagree. The fair comparison is not “orchestration versus nothing”; it is orchestration-only versus orchestration-plus-billing under one subscription truth. Platform context for that second shape lives in [What Is Clink?](/blog/what-is-clink).
+Choose on integration count and whether payment performance is strategic or already solved. If Chargebee or an in-house billing core already owns lifecycle and you only need multi-PSP failover, a pure orchestrator is often the sharper tool. If you are still stitching billing webhooks to processor exports and tax tools, embedding routing next to subscriptions reduces the surface area where retries and dunning disagree. The fair comparison is not “orchestration versus nothing”; it is orchestration-only versus orchestration-plus-billing under one subscription truth. Platform context for that second shape lives in What Is Clink?.
 
 ---
 
@@ -78,7 +78,7 @@ PSP count today is the third. Zero extras means start with portable billing and 
 
 Revenue model is the fourth. Subscriptions amplify ROI because each recovered authorization recurs. One-time checkout still benefits from better first-attempt approval, but compounding is weaker. Usage-based and hybrid plans sit closer to subscriptions: failed top-ups and renewal-like cycles behave like recurring risk even when the catalog is metered.
 
-Merchant model is the fifth and should come first in sequence even though it appears last here. If you have not decided MoR versus direct PSP economics by market, settle that with [MoR vs PSP](/blog/mor-vs-psp); routing optimizes paths inside the legal and operational model you chose. Orchestrating across acquirers does not fix a seller-identity or tax-registration mismatch—it only chooses which rail executes the charge.
+Merchant model is the fifth and should come first in sequence even though it appears last here. If you have not decided MoR versus direct PSP economics by market, settle that with MoR vs PSP; routing optimizes paths inside the legal and operational model you chose. Orchestrating across acquirers does not fix a seller-identity or tax-registration mismatch—it only chooses which rail executes the charge.
 
 If three or more signals fire, multi-PSP routing deserves roadmap space. If none fire, invest in product and revisit when expansion creates variance you can measure.
 
@@ -96,7 +96,7 @@ Avoid vanity complexity. Five PSPs with static geo pins and no soft-decline logi
 
 ## Conclusion
 
-Single-PSP architecture is correct until regional variance, soft-decline waste, or multi-PSP sprawl shows up in metrics—then it is a cost center wearing a “payments done” label. Smart routing recovers authorization by choosing paths and retries with intent, especially when billing shares state with the router so renewals, dunning, and tax stay aligned with settlement. Clink embeds that layer in the infrastructure described in [What Is Clink?](/blog/what-is-clink); pure orchestration platforms remain the right pick when you only need rails.
+Single-PSP architecture is correct until regional variance, soft-decline waste, or multi-PSP sprawl shows up in metrics—then it is a cost center wearing a “payments done” label. Smart routing recovers authorization by choosing paths and retries with intent, especially when billing shares state with the router so renewals, dunning, and tax stay aligned with settlement. Clink embeds that layer in the infrastructure described in What Is Clink?; pure orchestration platforms remain the right pick when you only need rails.
 
 To pressure-test your approval gaps and PSP mix, Contact Sales via [clinkbill.com](https://clinkbill.com/). API shape and webhook models live at [docs.clinkbill.com](https://docs.clinkbill.com/).
 

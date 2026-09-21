@@ -72,7 +72,7 @@ Stripe’s manual review weighs new information against everything already on fi
 
 **Fulfillment and service delivery proof.** For physical goods: supplier invoices, tracking numbers, delivery confirmation, and return policy published on-site. For digital goods and SaaS: access logs, license delivery records, onboarding emails, and refund policy. For marketplaces or agencies: flow diagrams showing who sells to whom and how chargebacks are handled.
 
-**Dispute and chargeback remediation plan.** If disputes triggered the action, include current dispute rate, counts by reason code, copies of representment packets that won, and process changes — clearer billing descriptors, cancellation flows, proactive refund rules, 3D Secure on high-risk segments. Pair metrics with dates showing improvement after changes went live.
+**Dispute and chargeback remediation plan.** If disputes triggered the action, include current dispute rate, counts by reason code, copies of representment packets that won, and process changes — clearer billing descriptors, cancellation flows, proactive refund rules, 3D Secure on high-risk segments. Pair metrics with dates showing improvement after changes went live. For the prevention tactics that produce those metrics, see these [chargeback prevention tactics](/blog/stripe-chargeback-prevention).
 
 **Website and policy compliance.** Live URLs for terms of service, privacy policy, refund policy, and contact information. Screenshots with timestamps if you recently fixed gaps Stripe flagged. Cross-check restricted-business categories against [Stripe’s prohibited and restricted businesses list](https://stripe.com/legal/restricted-businesses) before asserting compliance.
 
