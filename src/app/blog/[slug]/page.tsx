@@ -8,6 +8,7 @@ import { FaqSection } from "@/components/FaqSection";
 import { FinalCta } from "@/components/FinalCta";
 import { getPost, getPostSlugs } from "@/lib/blog-server";
 import { VisaPartnershipPage } from "@/components/blog/VisaPartnershipPage";
+import { ReadingProgress } from "@/components/blog/ReadingProgress";
 
 export async function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -80,6 +81,7 @@ export default async function BlogPostPage({
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
       <TopNav />
+      <ReadingProgress />
 
       <Breadcrumb
         items={[
@@ -89,104 +91,100 @@ export default async function BlogPostPage({
         ]}
       />
 
-      {/* Hero — grid: copy + cover */}
-      <section className="mx-auto max-w-[1200px] px-6 pt-8 pb-10 md:pt-12 md:pb-14">
-        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-12 lg:gap-16">
-          <div>
-            <div
-              className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em]"
-              style={{ color: "var(--reader-coral)" }}
-            >
-              <span>{meta.category}</span>
-              <span>·</span>
-              <span>{meta.readingMinutes} min read</span>
-            </div>
+      {/* Masthead — Visa-style editorial header (full-bleed grid lines) */}
+      <section
+        className="border-b"
+        style={{
+          borderColor: "var(--reader-line)",
+          backgroundImage:
+            "linear-gradient(90deg, transparent calc(25% - 1px), rgba(23,23,25,.045) 25%, transparent calc(25% + 1px)), linear-gradient(90deg, transparent calc(75% - 1px), rgba(23,23,25,.045) 75%, transparent calc(75% + 1px))",
+        }}
+      >
+        <div className="mx-auto max-w-[1200px] px-6 pb-12 pt-10">
+          <p className="text-sm" style={{ color: "var(--reader-ink-3)" }}>
+            {meta.updated
+              ? `Updated ${formatDate(meta.updated)}`
+              : formatDate(meta.date)}
+          </p>
+          <div className="mt-6 grid items-start gap-10 lg:grid-cols-[minmax(0,700px)_1fr] lg:gap-16">
             <h1
-              className="mt-5 font-semibold leading-[1.08] text-foreground"
+              className="font-semibold text-foreground"
               style={{
-                fontSize: "clamp(30px, 4.2vw, 48px)",
+                fontSize: "clamp(42px, 5vw, 64px)",
+                lineHeight: 1.02,
+                letterSpacing: "-0.05em",
                 fontFamily: "var(--font-manrope), Inter, sans-serif",
-                letterSpacing: "-0.035em",
+                textWrap: "balance",
               }}
             >
               {meta.title}
             </h1>
-            <p className="mt-5 text-[17px] leading-relaxed text-foreground-muted md:text-lg">
-              {meta.description}
-            </p>
-            <div className="mt-7 flex items-center gap-3">
-              {meta.authorImage ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={meta.authorImage}
-                  alt={meta.author}
-                  className="h-9 w-9 rounded-full object-cover"
-                />
-              ) : (
-                <div
-                  className="flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold text-foreground"
-                  style={{ background: "var(--accent-soft)" }}
-                  aria-hidden
-                >
-                  {meta.author.charAt(0)}
-                </div>
-              )}
-              <p className="text-sm text-foreground-muted">
-                <span className="font-semibold text-foreground">
-                  By {meta.author}
-                </span>
-                {meta.updated ? (
-                  <> · Updated {formatDate(meta.updated)}</>
-                ) : (
-                  <> · {formatDate(meta.date)}</>
-                )}
+            <div className="flex flex-col gap-7 lg:pt-2">
+              <p
+                className="text-[19px] leading-[1.6]"
+                style={{ color: "var(--reader-ink-2)" }}
+              >
+                {meta.description}
               </p>
-            </div>
-          </div>
-
-          {/* Cover image */}
-          <div
-            className="overflow-hidden rounded-[16px] border bg-elev-2"
-            style={{
-              borderColor: "var(--reader-line)",
-              boxShadow: "var(--shadow-float-1)",
-            }}
-          >
-            <div className="aspect-[1200/630] w-full">
-              {meta.image ? (
-                <img
-                  src={meta.image}
-                  alt={meta.title}
-                  width={1200}
-                  height={630}
-                  className="h-full w-full object-cover"
-                />
-              ) : (
-                <div
-                  className="h-full w-full"
-                  style={{
-                    background:
-                      "radial-gradient(ellipse 80% 60% at 50% 30%, var(--accent-soft) 0%, transparent 70%)",
-                  }}
-                />
-              )}
+              <div className="flex items-center gap-3">
+                {meta.authorImage ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={meta.authorImage}
+                    alt={meta.author}
+                    className="h-11 w-11 rounded-full object-cover"
+                  />
+                ) : (
+                  <div
+                    className="flex h-11 w-11 items-center justify-center rounded-full text-base font-semibold text-foreground"
+                    style={{ background: "var(--accent-soft)" }}
+                    aria-hidden
+                  >
+                    {meta.author.charAt(0)}
+                  </div>
+                )}
+                <div>
+                  <p
+                    className="text-[15px] font-semibold"
+                    style={{ color: "var(--reader-ink)" }}
+                  >
+                    {meta.author}
+                  </p>
+                  <p className="text-xs" style={{ color: "var(--reader-ink-3)" }}>
+                    {meta.readingMinutes} minute read
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Body + Sidebar */}
-      <section className="mx-auto max-w-[1200px] px-6 pt-6 pb-16 md:pt-10">
-        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_240px]">
+      {/* Eyebrow row */}
+      <section className="border-b" style={{ borderColor: "var(--reader-line)" }}>
+        <div className="mx-auto max-w-[1200px] px-6 py-5">
+          <p
+            className="text-xs font-semibold uppercase tracking-[0.18em]"
+            style={{ color: "var(--reader-coral)" }}
+          >
+            {meta.category}
+          </p>
+        </div>
+      </section>
+
+      {/* Body + Sidebar (sidebar LEFT, Visa-style) */}
+      <section className="mx-auto max-w-[1200px] px-6 pb-16 pt-10 md:pt-12">
+        <div className="grid gap-12 lg:grid-cols-[240px_minmax(0,1fr)]">
+          <div className="order-last lg:order-first">
+            <ArticleSidebar
+              content={content}
+              title={meta.title}
+              slug={slug}
+            />
+          </div>
           <article className="min-w-0">
             <MarkdownRenderer content={content} />
           </article>
-
-          <ArticleSidebar
-            content={content}
-            title={meta.title}
-            slug={slug}
-          />
         </div>
       </section>
 

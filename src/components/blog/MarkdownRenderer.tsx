@@ -43,8 +43,11 @@ const components: Components = {
     return (
       <h2
         id={id}
-        className="scroll-mt-28 mt-16 mb-4 text-[28px] md:text-[33px] font-semibold tracking-[-0.03em] leading-[1.15] text-foreground"
-        style={{ fontFamily: "var(--font-manrope), Inter, sans-serif" }}
+        className="scroll-mt-28 mt-16 mb-4 font-semibold tracking-[-0.03em] leading-[1.15] text-foreground"
+        style={{
+          fontSize: "clamp(28px, 3.5vw, 37px)",
+          fontFamily: "var(--font-manrope), Inter, sans-serif",
+        }}
         {...props}
       >
         {children}
