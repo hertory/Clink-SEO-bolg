@@ -16,7 +16,7 @@ readingMinutes: 11
 - **Instant Checkout** ("Buy it in ChatGPT") launched in **September 2025** with **Etsy live day one**; by **March 2026** OpenAI **deprioritized standalone in-chat checkout** in favor of **product discovery + merchant-owned checkout**—the **ACP protocol itself continues** on [agenticcommerce.dev](https://agenticcommerce.dev).
 - Stable spec **2026-04-17** adds cart, product feed, orders, authentication, and MCP bindings; merchants implement five **`/checkout_sessions`** REST endpoints and accept **Shared Payment Tokens (SPT)** at `complete`.
 - Shopify announced **1M+ merchants** in the pipeline, but only roughly **12–30 Shopify brands** ever went live for in-chat checkout before the pivot—feed syndication (Shopify/Etsy auto-integrated as of mid-2026) matters more than raw pipeline size.
-- ACP is **retail agent commerce**—distinct from [x402](/blog/what-is-x402)/[MPP](/blog/what-is-machine-payments-protocol) API micropayments and from [UCP](/blog/what-is-universal-commerce-protocol)'s Google-led full-journey model. For which ChatGPT and Meta surfaces are live today, see our [AI channel status list](/blog/agentic-commerce-agent-channels).
+- ACP is **retail agent commerce**—distinct from x402/MPP API micropayments and from [UCP](/blog/what-is-universal-commerce-protocol)'s Google-led full-journey model. For which ChatGPT and Meta surfaces are live today, see our AI channel status list.
 
 ---
 
@@ -83,7 +83,7 @@ ACP also specifies **product feeds** (JSONL/CSV) so agents can discover catalog 
 
 Two open protocols dominate **retail agent checkout** in 2026, from overlapping but distinct coalitions:
 
-| Dimension | **ACP** | **[UCP](/blog/what-is-universal-commerce-protocol)** |
+| Dimension | **ACP** | **UCP** |
 |-----------|---------|--------|
 | Maintainers | OpenAI, Stripe | Google, Shopify |
 | Primary surfaces | ChatGPT discovery (+ historic Instant Checkout) | Google AI Mode, Gemini, Copilot |
@@ -99,7 +99,7 @@ ACP does not replace your existing storefront; it adds an **agent-addressable ch
 
 ## ACP vs x402, MPP, and AP2
 
-- **ACP vs [x402](/blog/what-is-x402)/[MPP](/blog/what-is-machine-payments-protocol):** ACP is **retail cart checkout** with line items and orders. x402/MPP gate **individual HTTP resources**—API calls, files, tool invocations. A SaaS API company bills agents via MPP; a DTC brand sells via ACP.
+- **ACP vs [x402](/blog/what-is-x402)/MPP:** ACP is **retail cart checkout** with line items and orders. x402/MPP gate **individual HTTP resources**—API calls, files, tool invocations. A SaaS API company bills agents via MPP; a DTC brand sells via ACP.
 - **ACP vs [AP2](/blog/what-is-ap2-agent-payments-protocol):** AP2 provides mandate-based authorization evidence; ACP provides checkout session APIs. Future compositions may attach AP2 mandates to ACP `complete` calls for audit-heavy enterprise retail.
 
 If your product is **B2B subscription software**, ACP is rarely the first integration—unless you distribute through agent marketplaces selling packaged offerings. Your core billing remains subscriptions, [smart routing](/blog/smart-routing), and human checkout; ACP is a **new demand channel**, not a billing replacement.
@@ -112,7 +112,7 @@ If your product is **B2B subscription software**, ACP is rarely the first integr
 
 **Marketplace operators** may expose ACP gateways so third-party sellers accept agent checkout without each seller building custom integrations.
 
-**SaaS and API companies** should prioritize [MPP](/blog/what-is-machine-payments-protocol) or [x402](/blog/what-is-x402) for metered access; ACP only matters if you sell **sku-shaped products** through ChatGPT-class surfaces.
+**SaaS and API companies** should prioritize MPP or x402 for metered access; ACP only matters if you sell **sku-shaped products** through ChatGPT-class surfaces.
 
 **Compliance and ops teams** should note: seller of record stays with the merchant; platform fees and dispute paths follow Stripe/OpenAI published terms—verify current fee schedules and pilot eligibility rather than assuming GA economics.
 
@@ -122,7 +122,7 @@ If your product is **B2B subscription software**, ACP is rarely the first integr
 
 ACP is the **open commerce protocol for ChatGPT-era agent retail**—checkout APIs, delegated payment tokens, and product feeds that let merchants keep backend systems while agents handle discovery and (where enabled) purchase orchestration. After the **March 2026 product pivot**, the durable merchant play is **feed quality and syndication**, with checkout APIs ready when platforms re-enable in-chat completion.
 
-Build ACP feeds if ChatGPT discovery is a channel you can serve with accurate catalog data. Build MPP/x402 if your buyers are agents consuming APIs. Build [UCP](/blog/what-is-universal-commerce-protocol) alongside ACP if Google and Copilot surfaces matter too. The agent economy is multi-protocol by design—not a single checkout winner.
+Build ACP feeds if ChatGPT discovery is a channel you can serve with accurate catalog data. Build MPP/x402 if your buyers are agents consuming APIs. Build UCP alongside ACP if Google and Copilot surfaces matter too. The agent economy is multi-protocol by design—not a single checkout winner.
 
 To see which surfaces, platforms, and PSPs are **Live versus waitlist** as of September 2026—without rereading every operator changelog—use our [AI channel status list](/blog/agentic-commerce-agent-channels), [commerce platform enablement list](/blog/agentic-commerce-merchant-stack-cms), and [PSP agentic product list](/blog/agentic-commerce-merchant-stack-psp). For feed mechanics, continue to our [ChatGPT merchant setup guide](/blog/how-to-sell-on-chatgpt).
 
@@ -144,7 +144,7 @@ An SPT is a **scoped, limited-use payment credential** (`vt_…`) authorizing a 
 
 ### Do Shopify merchants need a separate ACP integration?
 
-Shopify's agent strategy spans **ACP (ChatGPT)** and **[UCP](/blog/what-is-universal-commerce-protocol) (Google)**. Implementation paths differ; many merchants will enable agent checkout through platform tooling rather than raw REST gateways.
+Shopify's agent strategy spans **ACP (ChatGPT)** and **UCP (Google)**. Implementation paths differ; many merchants will enable agent checkout through platform tooling rather than raw REST gateways.
 
 ### Is ACP production-ready for all merchants?
 
@@ -152,4 +152,4 @@ ACP specs are **beta** and actively maintained (stable **2026-04-17**). ChatGPT 
 
 ### Can B2B SaaS use ACP for subscription billing?
 
-ACP models **checkout sessions and one-time/delegated charges** for agent retail—not recurring B2B subscription lifecycle (dunning, seat expansion, invoicing). SaaS teams should use existing billing infrastructure for core revenue and [MPP](/blog/what-is-machine-payments-protocol) for agent API access where relevant.
+ACP models **checkout sessions and one-time/delegated charges** for agent retail—not recurring B2B subscription lifecycle (dunning, seat expansion, invoicing). SaaS teams should use existing billing infrastructure for core revenue and MPP for agent API access where relevant.

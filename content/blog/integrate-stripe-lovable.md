@@ -14,7 +14,7 @@ readingMinutes: 14
 
 - To integrate Stripe with Lovable in 2026, prefer **built-in Lovable Payments** on Lovable Cloud: chat-driven catalog setup, Payments tab for test/live and go-live, then claim the sandbox Stripe account before real charges—legacy Supabase Edge Functions remain only when Cloud is unavailable.
 - Built-in Stripe needs **Pro or higher**, **Lovable Cloud**, and **one** provider per project; checkout is embedded, styling and payment methods live in the Stripe Dashboard ([Lovable payments docs](https://docs.lovable.dev/features/payments)).
-- Still deciding Paddle vs Stripe vs portable infrastructure? Start at [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app)—this article deep-dives Stripe ops only.
+- Still deciding Paddle vs Stripe vs portable infrastructure? Start at How to Add Payments to a Lovable App—this article deep-dives Stripe ops only.
 - Test with `4242 4242 4242 4242` (and 3DS / decline cards) in preview on the built-in path; legacy Supabase cannot run Stripe in preview—deploy first.
 - Never paste a Stripe Secret Key into chat; use Lovable’s **Add API Key** form (`sk_...` or restricted `rk_...`).
 
@@ -24,7 +24,7 @@ readingMinutes: 14
 
 A Lovable preview without a charge is still a prototype. The moment you need recurring revenue, tiered access, or a one-time purchase tied to a user, Stripe is the processor most teams already trust—and the one Lovable treats as a first-class built-in option alongside Paddle. Integrating Stripe closes the loop from prompt to product: authenticate, pick a plan, pay, then gate features from subscription state.
 
-Stripe fits Lovable builders who sell **services** as well as digital goods, who want **processor-level control** over billing logic, or who run **domestic-heavy** card volume where pay-as-you-go economics often beat flat Merchant of Record pricing. Paddle remains strong when you want MoR-style tax handling for a global digital catalog; Stripe is strong when you accept more tax and compliance responsibility yourself, or when you use Stripe’s optional Managed Payments where available. For the full MoR vs PSP trade-off, see [MoR vs PSP](/blog/mor-vs-psp). For the three-path decision (Paddle, Stripe, Clink), stay on the hub: [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app). This guide owns Stripe operations—built-in versus legacy, testing, and go-live—not the catalog choice itself.
+Stripe fits Lovable builders who sell **services** as well as digital goods, who want **processor-level control** over billing logic, or who run **domestic-heavy** card volume where pay-as-you-go economics often beat flat Merchant of Record pricing. Paddle remains strong when you want MoR-style tax handling for a global digital catalog; Stripe is strong when you accept more tax and compliance responsibility yourself, or when you use Stripe’s optional Managed Payments where available. For the full MoR vs PSP trade-off, see [the MoR vs PSP comparison](/blog/mor-vs-psp). For the three-path decision (Paddle, Stripe, Clink), stay on [the Lovable payments hub guide](/blog/how-to-add-payments-lovable-app). This guide owns Stripe operations—built-in versus legacy, testing, and go-live—not the catalog choice itself.
 
 Lovable launched **Lovable Payments** in April 2026 with native Stripe and Paddle support, collapsing hours of webhook wiring into a conversational flow. That speed does not remove engineering judgment. You still need auth, entitlements, legal pages, and a test plan before real money moves. Stripe’s strength here is familiarity and control: Dashboard-level payment methods, customer portal, and the same pay-as-you-go rates Lovable documents for the built-in path—Lovable does not add fees on top of Stripe’s standard rates ([FAQ](https://docs.lovable.dev/features/payments)).
 
@@ -48,7 +48,7 @@ Pick built-in unless Cloud or workspace policy blocks it. Pick legacy only when 
 
 ## Decision Framework: Stay on Built-in Stripe or Graduate
 
-Use this framework after you know Stripe is the processor you want—not before you have compared Paddle. If that comparison is still open, return to [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+Use this framework after you know Stripe is the processor you want—not before you have compared Paddle. If that comparison is still open, return to How to Add Payments to a Lovable App.
 
 | Situation | Decision |
 |-----------|----------|
@@ -56,7 +56,7 @@ Use this framework after you know Stripe is the processor you want—not before 
 | Need MoR tax handling for global digital catalog | **Paddle built-in** (see hub article)—not this Stripe deep dive |
 | External Supabase required by policy or existing data | **Legacy Edge Functions** |
 | Existing Stripe catalog and history you refuse to recreate | **Connect existing account** |
-| One processor, one Cloud webhook contract, or multi-region soft declines become a structural limit | **Graduate to Clink** — link from hub; see [What Is Clink?](/blog/what-is-clink) and [smart payment routing](/blog/smart-routing) |
+| One processor, one Cloud webhook contract, or multi-region soft declines become a structural limit | **Graduate to Clink** when you outgrow sandbox mode — [the What Is Clink? platform overview](/blog/what-is-clink) covers the full platform, and [the smart routing article](/blog/smart-routing) the failover mechanics |
 
 A practical rule: if early revenue concentrates in markets Stripe covers well and you are comfortable owning tax posture, built-in Stripe is the rational default. If international digital sales dominate and you want MoR semantics, do not force Stripe for ideology—use Paddle or revisit the MoR vs PSP frame. Graduation is about architecture, not brand preference: when renewals, regions, and routing rules outgrow a single built-in connector, payment **infrastructure** differs from a **processor toggle**.
 
@@ -122,7 +122,7 @@ On legacy paths, treating HTTP 200 from a checkout redirect as “paid” withou
 
 Built-in Stripe through Lovable is the right first move for most vibe-coded SaaS: fast, documented, and without extra Lovable fees on Stripe’s rates. Stripe’s strengths—Dashboard control, embedded checkout, familiar test cards, and a clear claim-to-live path—are real. The limitation is architectural: **one payment provider per project**, webhooks and subscription data coupled to Lovable Cloud, and no native multi-PSP failover if international decline rates hurt revenue.
 
-That is where payment infrastructure differs from a processor toggle. When renewals, regions, and routing rules outgrow a single built-in connector, graduate using the Clink path documented in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app), and ground the product model in [What Is Clink?](/blog/what-is-clink). Until those limits appear, integrate Stripe inside Lovable, ship, and measure. Graduate billing infrastructure when the cost of staying on one processor exceeds the cost of migration.
+That is where payment infrastructure differs from a processor toggle. When renewals, regions, and routing rules outgrow a single built-in connector, graduate using the Clink path documented in How to Add Payments to a Lovable App, and ground the product model in What Is Clink?. Until those limits appear, integrate Stripe inside Lovable, ship, and measure. Graduate billing infrastructure when the cost of staying on one processor exceeds the cost of migration.
 
 ---
 
@@ -138,7 +138,7 @@ Lovable creates and manages a Stripe sandbox for you. You **claim** it and compl
 
 ### Can I use both Stripe and Paddle in the same Lovable project?
 
-No. Only **one** built-in provider is active per project. Switching requires disconnecting the current provider, removing old provider code with Lovable’s help, and setting up the new one—products and subscriptions do not migrate. Choose between them on the hub guide: [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+No. Only **one** built-in provider is active per project. Switching requires disconnecting the current provider, removing old provider code with Lovable’s help, and setting up the new one—products and subscriptions do not migrate. Choose between them on the hub guide: How to Add Payments to a Lovable App.
 
 ### How do I add my Stripe Secret Key safely?
 
@@ -150,4 +150,4 @@ Not through built-in payments. Stripe and Paddle are the only built-in providers
 
 ### When should I leave Lovable’s built-in Stripe?
 
-When one processor is a structural constraint: multi-PSP routing for approval rates, portable subscription data across providers, or agent-driven catalog and webhook automation at scale. Until then, built-in Stripe is the rational default. See [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app) for the broader decision and the Clink path, and [smart payment routing](/blog/smart-routing) for why failover matters at volume.
+When one processor is a structural constraint: multi-PSP routing for approval rates, portable subscription data across providers, or agent-driven catalog and webhook automation at scale. Until then, built-in Stripe is the rational default. See How to Add Payments to a Lovable App for the broader decision and the Clink path, and smart payment routing for why failover matters at volume.

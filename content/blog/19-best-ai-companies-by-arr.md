@@ -105,7 +105,7 @@ Not every AI revenue tracker serves the same decision. Before you paste a rank i
 | **Competitive intel: "Who has budget to undercut on API pricing?"** | AI Business run-rate ranks + gross/net flags | Absolute scale signals pricing power; check whether peer is gross-inflated |
 | **Operational planning: "What ARR can we count on next quarter?"** | Your billing system, not external trackers | Contracted vs collected; involuntary churn adjustments—see below |
 
-**AI Business** is optimized for a periodic **absolute leaderboard**—who earns the most right now. Use it when the narrative is market structure and concentration (the 86% top-two share, for example). **ARR Club** and **Sacra** excel at **company-level profiles** with revenue bands, growth context, and revision trails—better when you are writing an investor memo footnote comparing one private peer. **Report AI Index** helps when you need a **macro time series** rather than a single month's top ten. None of these replace your internal [ARR definition](/blog/annual-recurring-revenue); they sit upstream in the information supply chain as third-party estimates of other people's businesses.
+**AI Business** is optimized for a periodic **absolute leaderboard**—who earns the most right now. Use it when the narrative is market structure and concentration (the 86% top-two share, for example). **ARR Club** and **Sacra** excel at **company-level profiles** with revenue bands, growth context, and revision trails—better when you are writing an investor memo footnote comparing one private peer. **Report AI Index** helps when you need a **macro time series** rather than a single month's top ten. None of these replace your internal ARR definition; they sit upstream in the information supply chain as third-party estimates of other people's businesses.
 
 This article focuses on **who earns the most**, not on reviewing trackers as products—that is a separate comparison. The framework above is the moat: absolute rank for scale questions, profile trackers for peer bands, internal billing for decisions that trigger payroll and infra spend.
 
@@ -113,7 +113,7 @@ This article focuses on **who earns the most**, not on reviewing trackers as pro
 
 ## Reading the Rankings as a SaaS Operator
 
-If you run billing for an AI-native SaaS product, the leaderboard numbers are context—not your chart of accounts. Your **operational ARR** is built from subscription records: active plans, seat counts, usage tiers, expansion and contraction events, and churn recognized when contracts end. That definition, spelled out in our [annual recurring revenue](/blog/annual-recurring-revenue) guide, differs from a press run rate in three ways that matter for forecasting.
+If you run billing for an AI-native SaaS product, the leaderboard numbers are context—not your chart of accounts. Your **operational ARR** is built from subscription records: active plans, seat counts, usage tiers, expansion and contraction events, and churn recognized when contracts end. That definition, spelled out in our annual recurring revenue guide, differs from a press run rate in three ways that matter for forecasting.
 
 First, **contracted vs collected**. A customer on an annual plan contributes full contract value to contracted ARR, but failed renewals and soft declines create **involuntary churn**—revenue you booked in the model but never collected. Foundation labs reporting API gross spend do not face the same card-decline mechanics as a $20/month self-serve SaaS, but most application-layer AI products do. Leaderboard scale does not tell you whether a competitor's net retention is healthy; your own billing source of truth does.
 
@@ -157,7 +157,7 @@ No. Nearly all figures for private AI companies are **estimates** from trackers 
 
 ### How should a SaaS team use AI ARR rankings in planning?
 
-Use them for **competitive context and market sizing**, not for internal forecasting. Compare net-to-net where possible, note gross-vs-net asymmetry for labs, and keep board metrics tied to your billing source of truth. Pair external scale data with your own [ARR](/blog/annual-recurring-revenue), retention, and collection rates when making pricing, hiring, or infra decisions.
+Use them for **competitive context and market sizing**, not for internal forecasting. Compare net-to-net where possible, note gross-vs-net asymmetry for labs, and keep board metrics tied to your billing source of truth. Pair external scale data with your own ARR, retention, and collection rates when making pricing, hiring, or infra decisions.
 
 ### What is the best source for AI company revenue data?
 

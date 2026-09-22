@@ -11,17 +11,17 @@ readingMinutes: 14
 
 ## TL;DR
 
-- **Agentic commerce supported platforms CMS** refers to the e-commerce and content-management systems that expose catalog, checkout, or payment surfaces an AI agent can call—via open protocols ([ACP](/blog/what-is-agentic-commerce-protocol), [UCP](/blog/what-is-universal-commerce-protocol), MCP) or platform-native channels—not merely "stores that accept Stripe."
+- **Agentic commerce supported platforms CMS** refers to the e-commerce and content-management systems that expose catalog, checkout, or payment surfaces an AI agent can call—via open protocols (ACP, UCP, MCP) or platform-native channels—not merely "stores that accept Stripe."
 - As of **September 2026**, **Shopify** is the only major SaaS platform with **live** multi-channel agentic storefronts (ChatGPT discovery, Copilot Checkout, Google UCP); **Adobe Commerce**, **Wix**, and **WooCommerce** are **partial or rolling out**; **91APP AgentOne** is an **enterprise operations agent**, not an ACP/UCP consumer storefront; **SHOPLINE** has **no official agentic enablement** found in public documentation.
 - **Custom**, **POS**, and **booking** stacks can participate by publishing a UCP profile at `/.well-known/ucp` and wiring checkout REST or MCP endpoints—typically with a PSP translation layer such as Stripe ACS.
-- This list covers the **CMS / commerce platform layer** only. Which AI surfaces your buyers use is in our [ChatGPT, Copilot, and Gemini channel status list](/blog/agentic-commerce-agent-channels); which PSP translates protocol messages is in our [Stripe ACS, Adyen Agentic, and Worldpay enablement list](/blog/agentic-commerce-merchant-stack-psp).
+- This list covers the **CMS / commerce platform layer** only. Which AI surfaces your buyers use is in our [ChatGPT, Copilot, and Gemini channel status list](/blog/agentic-commerce-agent-channels); which PSP translates protocol messages is in our Stripe ACS, Adyen Agentic, and Worldpay enablement list.
 - **Last verified: September 2026.** Protocol status changes quickly; confirm against platform changelogs before production commitments.
 
 ---
 
 ## What Is the Merchant Stack in Agentic Commerce?
 
-The **merchant stack** in agentic commerce is everything on the seller side that lets an AI agent—or an agent channel acting on behalf of a buyer—discover products, negotiate a cart, and complete payment without breaking merchant-of-record rules. It sits below buyer surfaces such as [ChatGPT discovery and Copilot Checkout](/blog/agentic-commerce-agent-channels) and above the [PSP rails that mint Shared Payment Tokens](/blog/agentic-commerce-merchant-stack-psp).
+The **merchant stack** in agentic commerce is everything on the seller side that lets an AI agent—or an agent channel acting on behalf of a buyer—discover products, negotiate a cart, and complete payment without breaking merchant-of-record rules. It sits below buyer surfaces such as ChatGPT discovery and Copilot Checkout and above the [PSP rails that mint Shared Payment Tokens](/blog/agentic-commerce-merchant-stack-psp).
 
 A complete stack typically includes four layers: your **commerce platform** (Shopify, Adobe Commerce, headless CMS, custom API), a **catalog syndication or feed path** (Shopify Catalog, OpenAI product feed, Google Merchant Center), a **checkout or delegated-payment interface** (ACP checkout sessions, UCP native checkout, MCP tools), and a **PSP or tokenization layer** (Stripe Agentic Commerce Suite, Adyen Agentic, Visa Intelligent Commerce). The CMS row in industry decks is the first layer—whether your storefront software ships agentic enablement or forces you to build it.
 
@@ -108,7 +108,7 @@ Third, **confusing enterprise ops agents with consumer storefront agents**. 91AP
 
 Fourth, **ignoring feed and inventory SLAs**. OpenAI's March 2026 pivot toward merchant-owned checkout cited catalog accuracy, tax, and stock sync—not lack of buyer demand. Platforms with live discovery (Shopify Catalog, OpenAI JSONL feeds) still drop ineligible SKUs without loud errors. Agentic commerce is an operational discipline, not a marketing toggle.
 
-Fifth, **bounding retail vs API sellers incorrectly**. SaaS and API products billing developers belong under [MPP / x402](/blog/what-is-machine-payments-protocol)—machine payments for agent-to-service spend—not retail CMS enablement. Listing your API on a ChatGPT retail feed is the wrong integration model.
+Fifth, **bounding retail vs API sellers incorrectly**. SaaS and API products billing developers belong under MPP / x402—machine payments for agent-to-service spend—not retail CMS enablement. Listing your API on a ChatGPT retail feed is the wrong integration model.
 
 ---
 
@@ -116,15 +116,15 @@ Fifth, **bounding retail vs API sellers incorrectly**. SaaS and API products bil
 
 This article maps **CMS and commerce platforms**—the software where merchants manage catalog, cart, and storefront policy. Two adjacent layers have their own reference tables and should not be inferred from the rows above.
 
-**Payment processors and acquirers.** A WooCommerce store might process cards through Stripe but still lack WooCommerce's Stripe agentic extension; conversely, live Stripe ACS does not auto-enroll Shopify Agentic Storefronts. See our [processor-by-processor breakdown of Stripe ACS, Adyen Agentic, Nuvei, and Antom](/blog/agentic-commerce-merchant-stack-psp) for regions, waitlists, and product names.
+**Payment processors and acquirers.** A WooCommerce store might process cards through Stripe but still lack WooCommerce's Stripe agentic extension; conversely, live Stripe ACS does not auto-enroll Shopify Agentic Storefronts. See our processor-by-processor breakdown of Stripe ACS, Adyen Agentic, Nuvei, and Antom for regions, waitlists, and product names.
 
-**Buyer-facing AI surfaces.** ChatGPT, Gemini, Copilot, and messaging apps each impose different protocol and regional requirements. Our [channel-by-channel live status list](/blog/agentic-commerce-agent-channels) covers those surfaces—not repeated here to avoid stale duplication.
+**Buyer-facing AI surfaces.** ChatGPT, Gemini, Copilot, and messaging apps each impose different protocol and regional requirements. Our channel-by-channel live status list covers those surfaces—not repeated here to avoid stale duplication.
 
 **Identity and card-network layers.** Visa Intelligent Commerce, Trusted Agent Protocol (TAP), and Mastercard Agent Pay sit beneath PSP tokenization for many in-agent payment flows. Merchants rarely integrate these directly from a CMS admin panel; PSPs and platforms abstract them.
 
 **Clink and third-party orchestration.** Payment orchestration and agentic payment infrastructure providers may connect multiple PSPs to agent protocols—that is a routing layer, not a CMS category. No inference should be drawn that any orchestration vendor natively enables every platform in the table unless publicly documented per platform.
 
-When scoping a project, sequence the checklist: (1) target [AI shopping surfaces from our live-status list](/blog/agentic-commerce-agent-channels), (2) confirm your platform row in the table above, (3) [enroll a PSP agentic product such as Stripe ACS or Adyen Agentic](/blog/agentic-commerce-merchant-stack-psp), (4) feed/inventory ops. Skipping step 2 and jumping to PSP signup is how teams discover—months later—that catalog never syndicated.
+When scoping a project, sequence the checklist: (1) target AI shopping surfaces from our live-status list, (2) confirm your platform row in the table above, (3) enroll a PSP agentic product such as Stripe ACS or Adyen Agentic, (4) feed/inventory ops. Skipping step 2 and jumping to PSP signup is how teams discover—months later—that catalog never syndicated.
 
 ---
 
@@ -132,9 +132,9 @@ When scoping a project, sequence the checklist: (1) target [AI shopping surfaces
 
 **Agentic commerce supported platforms CMS** is not a yes/no property of your e-commerce vendor—it is a matrix of **enablement path**, **protocol**, and **verified status** that changes by platform and by quarter. Shopify remains the only major SaaS platform with live, multi-channel Agentic Storefronts spanning UCP and ACP as of September 2026. Adobe Commerce, Wix, and WooCommerce occupy partial or rolling-out territory worth tracking if you are already on those stacks. 91APP AgentOne and SHOPLINE illustrate APAC deck entries that do **not** map one-to-one to global consumer agent checkout—AgentOne is enterprise operations; SHOPLINE lacks public agentic documentation.
 
-Before committing engineering budget, confirm your platform row matches the [AI shopping surfaces you are targeting](/blog/agentic-commerce-agent-channels), then verify your [PSP exposes a named agentic product—not just card processing](/blog/agentic-commerce-merchant-stack-psp). Custom and headless merchants can participate today via UCP profiles and OpenAI feeds, but ownership of feed freshness and checkout APIs stays in-house. Retail agentic commerce rewards operational rigor more than protocol logos on a slide.
+Before committing engineering budget, confirm your platform row matches the AI shopping surfaces you are targeting, then verify your PSP exposes a named agentic product—not just card processing. Custom and headless merchants can participate today via UCP profiles and OpenAI feeds, but ownership of feed freshness and checkout APIs stays in-house. Retail agentic commerce rewards operational rigor more than protocol logos on a slide.
 
-For how the platform, channel, and PSP layers fit together, see the [agent payments hub](/blog/agent-payments).
+For how the platform, channel, and PSP layers fit together, see the agent payments hub.
 
 Teams building agent payment guardrails alongside commerce enablement can explore [Clink's agentic payment infrastructure](https://clinkbill.com/agentic-payment) (Early Access as of mid-2026)—a routing and policy layer adjacent to, not a replacement for, platform-native Agentic Storefronts or ACS enrollment.
 

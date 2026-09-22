@@ -14,9 +14,9 @@ readingMinutes: 11
 
 - **UCP (Universal Commerce Protocol)** is an open standard **co-developed by Google and Shopify** (announced January 2026) for AI agents to **discover, negotiate, and transact** with any merchant across the full shopping journey.
 - UCP supports **capability negotiation**—merchants declare what they offer (checkout, loyalty, fulfillment extensions); agents and merchants agree on handlers per transaction, including **Google Pay**, **Shop Pay**, and third-party PSPs.
-- Transports include **REST**, **GraphQL**, **JSON-RPC**, **MCP**, and **A2A**; UCP is compatible with [AP2](/blog/what-is-ap2-agent-payments-protocol), MCP, and A2A per Google's launch materials.
+- Transports include **REST**, **GraphQL**, **JSON-RPC**, **MCP**, and **A2A**; UCP is compatible with AP2, MCP, and A2A per Google's launch materials.
 - **Google AI Mode** and **Gemini** checkout for eligible U.S. retailers is the first major consumer surface; **Microsoft Copilot** embedded checkout and **Shopify Agentic Storefronts** extend distribution.
-- For Shopify merchants, UCP is the **default agent commerce rail** for Google surfaces—distinct from [ACP](/blog/what-is-agentic-commerce-protocol)'s ChatGPT-first checkout model. Buyer surfaces that consume UCP and ACP are catalogued in our [AI channel live-status reference](/blog/agentic-commerce-agent-channels).
+- For Shopify merchants, UCP is the **default agent commerce rail** for Google surfaces—distinct from [ACP](/blog/what-is-agentic-commerce-protocol)'s ChatGPT-first checkout model. Buyer surfaces that consume UCP and ACP are catalogued in our AI channel live-status reference.
 
 ---
 
@@ -94,7 +94,7 @@ UCP launched with unusual retail and payments breadth:
 
 Both protocols enable agent checkout; coalition and scope differ:
 
-| | **UCP** | **[ACP](/blog/what-is-agentic-commerce-protocol)** |
+| | **UCP** | **ACP** |
 |---|---------|------|
 | Leaders | Google + Shopify | OpenAI + Stripe |
 | Journey scope | Full commerce (discovery → post-purchase) | Checkout sessions + delegated payment |
@@ -110,8 +110,8 @@ Merchants already on Shopify get UCP pathways for Google surfaces through platfo
 
 UCP addresses **retail commerce semantics** (carts, loyalty, fulfillment)—not raw HTTP micropayments:
 
-- **[AP2](/blog/what-is-ap2-agent-payments-protocol):** Authorization mandates; Google states UCP compatibility—AP2 evidence can accompany UCP checkout completion.
-- **[x402](/blog/what-is-x402) / [MPP](/blog/what-is-machine-payments-protocol):** Pay-per-HTTP-resource for APIs and tools. UCP may consume these for digital goods, but core UCP is sku-and-cart commerce.
+- **AP2:** Authorization mandates; Google states UCP compatibility—AP2 evidence can accompany UCP checkout completion.
+- **x402 / MPP:** Pay-per-HTTP-resource for APIs and tools. UCP may consume these for digital goods, but core UCP is sku-and-cart commerce.
 - **[agent payments](/blog/agent-payments) essay:** UCP assumes agents eventually spend within delegated authority; AP2 and wallet guardrails ([Cloudflare Wallets](/blog/cloudflare-wallets-agent-payments)) supply the buyer-side policy envelope.
 
 SaaS companies selling **API access** should implement MPP/x402 first. **Shopify DTC brands** should implement UCP for Google agent discovery. Enterprise platforms may implement all layers.
@@ -137,7 +137,7 @@ UCP does **not** replace Shopify Payments or human checkout; it adds **agent-add
 
 UCP is Google's and Shopify's bid to make **agent commerce a protocol problem, not an N×M integration problem**. Capability negotiation, handler extensibility, and multi-transport support reflect real retail complexity—discounts, loyalty, regional payments—that thin HTTP 402 models alone do not capture.
 
-Treat UCP as the **full-journey commerce standard** for Google-aligned surfaces; pair it with [AP2](/blog/what-is-ap2-agent-payments-protocol) for authorization evidence and with [MPP](/blog/what-is-machine-payments-protocol) and [x402](/blog/what-is-x402) where API micropayments matter. The agentic payments stack is complementary by design—UCP is the retail spine for merchants who already live in Shopify and Google ecosystems.
+Treat UCP as the **full-journey commerce standard** for Google-aligned surfaces; pair it with AP2 for authorization evidence and with MPP and x402 where API micropayments matter. The agentic payments stack is complementary by design—UCP is the retail spine for merchants who already live in Shopify and Google ecosystems.
 
 Implementation planning often starts with **who is live today**: our [Gemini and Copilot channel list](/blog/agentic-commerce-agent-channels), [Shopify and headless platform list](/blog/agentic-commerce-merchant-stack-cms), and [Stripe ACS and Adyen Agentic PSP list](/blog/agentic-commerce-merchant-stack-psp) answer that question without conflating protocol specs with operator enrollment.
 
@@ -159,11 +159,11 @@ Shopify co-developed UCP and provides the primary merchant tooling, but the spec
 
 ### How is UCP different from ACP?
 
-[ACP](/blog/what-is-agentic-commerce-protocol) is OpenAI/Stripe's checkout protocol for ChatGPT Instant Checkout. UCP is Google/Shopify's broader **full-journey commerce** protocol for AI Mode, Gemini, Copilot, and multi-transport integrations. Many large merchants may support both over time.
+ACP is OpenAI/Stripe's checkout protocol for ChatGPT Instant Checkout. UCP is Google/Shopify's broader **full-journey commerce** protocol for AI Mode, Gemini, Copilot, and multi-transport integrations. Many large merchants may support both over time.
 
 ### Does UCP replace AP2 or x402?
 
-No. UCP handles **commerce sessions and capabilities**. [AP2](/blog/what-is-ap2-agent-payments-protocol) handles **authorization mandates**; [x402](/blog/what-is-x402)/[MPP](/blog/what-is-machine-payments-protocol) handle **HTTP-native machine payments**. Google describes them as compatible layers.
+No. UCP handles **commerce sessions and capabilities**. AP2 handles **authorization mandates**; x402/MPP handle **HTTP-native machine payments**. Google describes them as compatible layers.
 
 ### Where can I read the UCP specification?
 

@@ -15,7 +15,7 @@ readingMinutes: 11
 - **MPP (Machine Payments Protocol)** is an open, HTTP-native standard **co-authored by Stripe and Tempo**, launched **March 18, 2026**, for programmatic agent-to-service payments.
 - MPP uses **`402 Payment Required`** challenges like [x402](/blog/what-is-x402), but adds **lifecycle primitives**: subscriptions, streaming usage, cancellations, and reconciliation—plus **multi-method settlement** (stablecoins, cards via Shared Payment Tokens, BNPL).
 - **Tempo**, a payments-focused L1 blockchain, is MPP's default stablecoin settlement network (~500ms finality, sub-cent fees); Stripe merchants can accept MPP via **PaymentIntents** in a few lines of code.
-- MPP sits in Stripe's **Agentic Commerce Suite** alongside [ACP](/blog/what-is-agentic-commerce-protocol), MCP integrations, and x402 support—MPP is the **merchant-grade machine payment wire** for existing Stripe accounts.
+- MPP sits in Stripe's **Agentic Commerce Suite** alongside ACP, MCP integrations, and x402 support—MPP is the **merchant-grade machine payment wire** for existing Stripe accounts.
 - For B2B SaaS on Stripe, MPP is the path to **bill agents** without rebuilding fraud, dispute, and accounting plumbing.
 
 ---
@@ -24,7 +24,7 @@ readingMinutes: 11
 
 The **Machine Payments Protocol (MPP)** is an open standard for agents and services to coordinate payments programmatically over HTTP. [Stripe announced MPP](https://stripe.com/blog/machine-payments-protocol) on March 18, 2026—the same day Tempo's mainnet went live—describing it as an "internet-native way for agents to pay" for microtransactions, recurring charges, streaming usage, and more.
 
-MPP is not a Stripe-only proprietary API, though Stripe is a primary implementer. Tempo co-authored the normative specification and documents MPP as the default way to charge on Tempo's chain. The protocol extends the bare [x402](/blog/what-is-x402) pattern with **payment lifecycle semantics** merchants need in production: not just "pay once per request," but subscriptions, session-based streaming, balance reconciliation, and cancellation.
+MPP is not a Stripe-only proprietary API, though Stripe is a primary implementer. Tempo co-authored the normative specification and documents MPP as the default way to charge on Tempo's chain. The protocol extends the bare x402 pattern with **payment lifecycle semantics** merchants need in production: not just "pay once per request," but subscriptions, session-based streaming, balance reconciliation, and cancellation.
 
 If x402 is the HTTP payment handshake, MPP is the **full merchant stack expression** of that handshake for teams already on Stripe—or willing to settle stablecoins on Tempo.
 
@@ -123,9 +123,9 @@ Clink's [Agentic Payments](https://clinkbill.com/agentic-payment) (Early Access)
 
 MPP is Stripe and Tempo's answer to a specific question: **how do registered merchants bill agents with the same fraud, dispute, and ops tooling they use for humans—without a checkout page?** HTTP 402 challenges, Shared Payment Tokens, and Tempo stablecoin settlement make that answer concrete.
 
-Evaluate MPP if you are on Stripe and agent traffic is becoming material. Evaluate [x402](/blog/what-is-x402) if you need maximum facilitator neutrality or lightweight agent-to-agent transfers. Evaluate [AP2](/blog/what-is-ap2-agent-payments-protocol) when authorization audit trails are non-negotiable. The agent payment future is layered; MPP is the merchant-native layer.
+Evaluate MPP if you are on Stripe and agent traffic is becoming material. Evaluate x402 if you need maximum facilitator neutrality or lightweight agent-to-agent transfers. Evaluate AP2 when authorization audit trails are non-negotiable. The agent payment future is layered; MPP is the merchant-native layer.
 
-**Retail catalog checkout** on ChatGPT, Gemini, or Copilot uses [ACP](/blog/what-is-agentic-commerce-protocol) and [UCP](/blog/what-is-universal-commerce-protocol)—not MPP. For live enablement by surface, platform, and processor, see our [AI shopping channel list](/blog/agentic-commerce-agent-channels), [commerce platform enablement list](/blog/agentic-commerce-merchant-stack-cms), and [PSP agentic product list](/blog/agentic-commerce-merchant-stack-psp) rather than inferring status from MPP documentation alone.
+**Retail catalog checkout** on ChatGPT, Gemini, or Copilot uses ACP and [UCP](/blog/what-is-universal-commerce-protocol)—not MPP. For live enablement by surface, platform, and processor, see our [AI shopping channel list](/blog/agentic-commerce-agent-channels), [the platform enablement reference](/blog/agentic-commerce-merchant-stack-cms), and [the PSP delegated-checkout roster](/blog/agentic-commerce-merchant-stack-psp) rather than inferring status from MPP documentation alone.
 
 ---
 
@@ -149,8 +149,8 @@ Tempo is the default stablecoin settlement chain, but MPP supports **multiple me
 
 ### How does MPP relate to ACP?
 
-[ACP](/blog/what-is-agentic-commerce-protocol) handles **retail checkout sessions** for agent surfaces like ChatGPT. MPP handles **HTTP resource payments** for APIs and services. Stripe ships both; use case determines which to implement first.
+ACP handles **retail checkout sessions** for agent surfaces like ChatGPT. MPP handles **HTTP resource payments** for APIs and services. Stripe ships both; use case determines which to implement first.
 
 ### Can small API providers use MPP without Stripe?
 
-MPP is designed for Stripe merchant accounts and Tempo settlement. Lightweight sellers may start with [x402](/blog/what-is-x402) facilitators; graduate to MPP when Stripe merchant tooling becomes necessary.
+MPP is designed for Stripe merchant accounts and Tempo settlement. Lightweight sellers may start with x402 facilitators; graduate to MPP when Stripe merchant tooling becomes necessary.

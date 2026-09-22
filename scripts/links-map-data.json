@@ -1,0 +1,1882 @@
+[
+ {
+  "file": "04-agent-payments.md",
+  "slug": "agent-payments",
+  "title": "AI Agents Need Payments Too — Agent-Native Transaction Rails",
+  "date": "2026-06-29",
+  "category": "Agentic Payments",
+  "words": 2630,
+  "outlinks": [
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "What Is Clink?",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "OpenRouter acquisition",
+    "href": "stripe-openrouter-acquisition"
+   },
+   {
+    "anchor": "Live status for ChatGPT, Copilot, Gemini, and messaging chan",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "Shopify, Adobe, WooCommerce, and APAC platform enablement pa",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "Stripe ACS, Adyen Agentic, Worldpay, and other PSP agentic p",
+    "href": "agentic-commerce-merchant-stack-psp"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "ChatGPT merchant setup guide",
+    "href": "how-to-sell-on-chatgpt"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "cloudflare-wallets-agent-payments",
+   "what-is-skill-marketplace",
+   "clink-launches-skill-marketplace",
+   "stripe-openrouter-acquisition",
+   "best-ai-companies-by-arr",
+   "fastest-growing-ai-companies-arr",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp",
+   "clink-and-visa-partner-on-intelligent-commerce",
+   "clink-launches-agent-wallet",
+   "what-is-ai-agent-wallet",
+   "ai-agent-payments-infrastructure",
+   "ai-agent-spending-limits",
+   "clink-wallet-vs-cloudflare-wallets",
+   "what-is-clink"
+  ],
+  "density": 4.6,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "15-cloudflare-wallets-agent-payments.md",
+  "slug": "cloudflare-wallets-agent-payments",
+  "title": "Guardrails Pattern: Why Cloudflare Wallets Matter for Agent Payments",
+  "date": "2026-08-04",
+  "category": "Industry News",
+  "words": 2624,
+  "outlinks": [
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "what is Clink",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "our breakdown of the reported Stripe-OpenRouter acquisition",
+    "href": "stripe-openrouter-acquisition"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-skill-marketplace",
+   "stripe-openrouter-acquisition",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-universal-commerce-protocol",
+   "ai-agent-payments-infrastructure",
+   "clink-wallet-vs-cloudflare-wallets"
+  ],
+  "density": 1.5,
+  "cluster": "industry-news"
+ },
+ {
+  "file": "16-what-is-skill-marketplace.md",
+  "slug": "what-is-skill-marketplace",
+  "title": "What Is a Skill Marketplace? — How AI Agents Discover, Install, and Pay for Skills",
+  "date": "2026-08-05",
+  "category": "Product",
+  "words": 2475,
+  "outlinks": [
+   {
+    "anchor": "AI agents need payment rails of their own",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "wallet-based agent payments are forming around specific plat",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "Clink Launches Skill Marketplace",
+    "href": "clink-launches-skill-marketplace"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "clink-launches-skill-marketplace",
+   "clink-launches-agent-wallet"
+  ],
+  "density": 1.2,
+  "cluster": "core"
+ },
+ {
+  "file": "17-clink-launches-skill-marketplace.md",
+  "slug": "clink-launches-skill-marketplace",
+  "title": "Clink Launches Skill Marketplace — Monetize Agent Skills Natively",
+  "date": "2026-08-06",
+  "category": "Product",
+  "words": 2331,
+  "outlinks": [
+   {
+    "anchor": "What Is a Skill Marketplace?",
+    "href": "what-is-skill-marketplace"
+   },
+   {
+    "anchor": "payment infrastructure for an AI-native world",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "deeper argument for agent payment rails",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-skill-marketplace",
+   "clink-launches-agent-wallet"
+  ],
+  "density": 1.3,
+  "cluster": "core"
+ },
+ {
+  "file": "18-stripe-openrouter-acquisition.md",
+  "slug": "stripe-openrouter-acquisition",
+  "title": "Stripe OpenRouter Acquisition Reported at $7B+ — What It Means for Agent Payments",
+  "date": "2026-08-18",
+  "category": "Industry News",
+  "words": 2519,
+  "outlinks": [
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "Cloudflare Wallets analysis",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "what is Clink",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "Smart routing",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "cloudflare-wallets-agent-payments",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 1.6,
+  "cluster": "industry-news"
+ },
+ {
+  "file": "19-best-ai-companies-by-arr.md",
+  "slug": "best-ai-companies-by-arr",
+  "title": "AI Companies by ARR — The Absolute Revenue Leaderboard",
+  "date": "2026-08-19",
+  "category": "Comparison",
+  "words": 3383,
+  "outlinks": [
+   {
+    "anchor": "fastest-growing AI companies by ARR",
+    "href": "fastest-growing-ai-companies-arr"
+   },
+   {
+    "anchor": "annual recurring revenue",
+    "href": "annual-recurring-revenue"
+   },
+   {
+    "anchor": "monthly recurring revenue",
+    "href": "monthly-recurring-revenue"
+   },
+   {
+    "anchor": "burn rate",
+    "href": "burn-rate"
+   },
+   {
+    "anchor": "Clink",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "fastest-growing-ai-companies-arr",
+   "annual-recurring-revenue"
+  ],
+  "density": 2.1,
+  "cluster": "core"
+ },
+ {
+  "file": "20-fastest-growing-ai-companies-arr.md",
+  "slug": "fastest-growing-ai-companies-arr",
+  "title": "Fastest Growing AI Companies ARR — Velocity Ranked",
+  "date": "2026-08-20",
+  "category": "Comparison",
+  "words": 3365,
+  "outlinks": [
+   {
+    "anchor": "who has the most ARR?",
+    "href": "best-ai-companies-by-arr"
+   },
+   {
+    "anchor": "Annual recurring revenue",
+    "href": "annual-recurring-revenue"
+   },
+   {
+    "anchor": "net revenue retention",
+    "href": "net-revenue-retention"
+   },
+   {
+    "anchor": "burn rate",
+    "href": "burn-rate"
+   },
+   {
+    "anchor": "runway",
+    "href": "runway"
+   },
+   {
+    "anchor": "Clink",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "Agent-native products",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "best-ai-companies-by-arr"
+  ],
+  "density": 2.4,
+  "cluster": "core"
+ },
+ {
+  "file": "20-what-is-stripe-dispute.md",
+  "slug": "what-is-stripe-dispute",
+  "title": "What Is a Stripe Dispute — How Chargebacks and Payment Disputes Work",
+  "date": "2026-09-04",
+  "category": "Stripe Risk",
+  "words": 3532,
+  "outlinks": [
+   {
+    "anchor": "Stripe Account Suspended",
+    "href": "stripe-account-suspended"
+   },
+   {
+    "anchor": "How to Dispute a Stripe Charge",
+    "href": "how-to-dispute-stripe-charge"
+   },
+   {
+    "anchor": "Stripe Chargeback Prevention",
+    "href": "stripe-chargeback-prevention"
+   },
+   {
+    "anchor": "Why Stripe Closes Accounts",
+    "href": "why-stripe-closes-accounts"
+   },
+   {
+    "anchor": "Smart Routing",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 11,
+  "inbound": [
+   "how-to-dispute-stripe-charge",
+   "stripe-account-suspended",
+   "stripe-chargeback-prevention"
+  ],
+  "density": 1.4,
+  "cluster": "stripe-risk-disputes"
+ },
+ {
+  "file": "21-how-to-dispute-stripe-charge.md",
+  "slug": "how-to-dispute-stripe-charge",
+  "title": "How to Dispute Stripe Charge — Cardholder Steps, Timelines, and What Happens Next",
+  "date": "2026-09-05",
+  "category": "Stripe Risk",
+  "words": 3671,
+  "outlinks": [
+   {
+    "anchor": "Stripe Chargeback Prevention",
+    "href": "stripe-chargeback-prevention"
+   },
+   {
+    "anchor": "Stripe Account Suspended",
+    "href": "stripe-account-suspended"
+   },
+   {
+    "anchor": "What Is a Stripe Dispute",
+    "href": "what-is-stripe-dispute"
+   },
+   {
+    "anchor": "Smart Routing",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-stripe-dispute",
+   "stripe-chargeback-prevention"
+  ],
+  "density": 1.1,
+  "cluster": "stripe-risk-disputes"
+ },
+ {
+  "file": "25-stripe-account-suspended.md",
+  "slug": "stripe-account-suspended",
+  "title": "Stripe Account Suspended, Closed, or Frozen — What It Means and What to Do in the First 72 Hours",
+  "date": "2026-09-01",
+  "category": "Stripe Risk",
+  "words": 3778,
+  "outlinks": [
+   {
+    "anchor": "How to Appeal a Stripe Account Closure",
+    "href": "how-to-appeal-stripe-account-closure"
+   },
+   {
+    "anchor": "Why Stripe Closes Accounts",
+    "href": "why-stripe-closes-accounts"
+   },
+   {
+    "anchor": "what a Stripe dispute is",
+    "href": "what-is-stripe-dispute"
+   },
+   {
+    "anchor": "Smart Routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-stripe-dispute",
+   "how-to-dispute-stripe-charge",
+   "why-stripe-closes-accounts",
+   "how-to-appeal-stripe-account-closure",
+   "stripe-chargeback-prevention"
+  ],
+  "density": 1.3,
+  "cluster": "stripe-risk-accounts"
+ },
+ {
+  "file": "26-what-is-ap2-agent-payments-protocol.md",
+  "slug": "what-is-ap2-agent-payments-protocol",
+  "title": "What Is the AP2 Agent Payments Protocol? — Mandates and FIDO",
+  "date": "2026-09-07",
+  "category": "Agentic Payments",
+  "words": 1932,
+  "outlinks": [
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "Cloudflare Wallets",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "live AI shopping channel list",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "Shopify and headless platform enablement list",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "Stripe ACS and peer PSP product list",
+    "href": "agentic-commerce-merchant-stack-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-psp",
+   "what-is-ai-agent-wallet",
+   "ai-agent-spending-limits"
+  ],
+  "density": 5.2,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "27-what-is-x402.md",
+  "slug": "what-is-x402",
+  "title": "What Is x402 Agent Payments? — HTTP 402 Protocol Explained",
+  "date": "2026-09-08",
+  "category": "Agentic Payments",
+  "words": 1604,
+  "outlinks": [
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "settlement infrastructure",
+    "href": "ai-agent-payments-infrastructure"
+   },
+   {
+    "anchor": "Cloudflare Wallets",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "which AI surfaces are live",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "whether your storefront platform is enrolled",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "which PSP exposes delegated checkout",
+    "href": "agentic-commerce-merchant-stack-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "what-is-ai-agent-wallet",
+   "ai-agent-payments-infrastructure"
+  ],
+  "density": 6.9,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "28-what-is-machine-payments-protocol.md",
+  "slug": "what-is-machine-payments-protocol",
+  "title": "What Is Machine Payments Protocol MPP? — Stripe Agent Rails",
+  "date": "2026-09-09",
+  "category": "Agentic Payments",
+  "words": 1476,
+  "outlinks": [
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "AI shopping channel list",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "the platform enablement reference",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "the PSP delegated-checkout roster",
+    "href": "agentic-commerce-merchant-stack-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 6.8,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "29-what-is-agentic-commerce-protocol.md",
+  "slug": "what-is-agentic-commerce-protocol",
+  "title": "What Is Agentic Commerce Protocol ACP? — Instant Checkout",
+  "date": "2026-09-10",
+  "category": "Agentic Payments",
+  "words": 1725,
+  "outlinks": [
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "smart routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "AI channel status list",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "commerce platform enablement list",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "PSP agentic product list",
+    "href": "agentic-commerce-merchant-stack-psp"
+   },
+   {
+    "anchor": "ChatGPT merchant setup guide",
+    "href": "how-to-sell-on-chatgpt"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 5.8,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "30-why-stripe-closes-accounts.md",
+  "slug": "why-stripe-closes-accounts",
+  "title": "Why Stripe Closed or Suspended Your Account — Common Triggers Ranked by Frequency",
+  "date": "2026-09-02",
+  "category": "Stripe Risk",
+  "words": 3572,
+  "outlinks": [
+   {
+    "anchor": "Stripe Account Suspended",
+    "href": "stripe-account-suspended"
+   },
+   {
+    "anchor": "Stripe chargeback prevention guide",
+    "href": "stripe-chargeback-prevention"
+   },
+   {
+    "anchor": "How to Appeal a Stripe Account Closure",
+    "href": "how-to-appeal-stripe-account-closure"
+   },
+   {
+    "anchor": "Smart Payment Routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-stripe-dispute",
+   "stripe-account-suspended",
+   "how-to-appeal-stripe-account-closure",
+   "stripe-chargeback-prevention"
+  ],
+  "density": 1.4,
+  "cluster": "stripe-risk-accounts"
+ },
+ {
+  "file": "31-how-to-sell-on-chatgpt.md",
+  "slug": "how-to-sell-on-chatgpt",
+  "title": "How to Sell on ChatGPT in 2026 — Merchant Setup Guide",
+  "date": "2026-09-12",
+  "category": "Agentic Payments",
+  "words": 2422,
+  "outlinks": [
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "smart payment routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "AI channel live status",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "Shopify Agentic, WooCommerce, headless UCP profiles",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "Stripe ACS, Worldpay, and peers",
+    "href": "agentic-commerce-merchant-stack-psp"
+   }
+  ],
+  "faq": 15,
+  "inbound": [
+   "agent-payments",
+   "what-is-agentic-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 4.1,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "32-how-to-appeal-stripe-account-closure.md",
+  "slug": "how-to-appeal-stripe-account-closure",
+  "title": "How to Appeal Stripe Account Closed — Documents, Timeline, and Outcomes",
+  "date": "2026-09-03",
+  "category": "Stripe Risk",
+  "words": 3647,
+  "outlinks": [
+   {
+    "anchor": "Stripe Account Suspended",
+    "href": "stripe-account-suspended"
+   },
+   {
+    "anchor": "Why Stripe Closes Accounts",
+    "href": "why-stripe-closes-accounts"
+   },
+   {
+    "anchor": "chargeback prevention tactics",
+    "href": "stripe-chargeback-prevention"
+   },
+   {
+    "anchor": "Smart Routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "stripe-account-suspended",
+   "why-stripe-closes-accounts"
+  ],
+  "density": 1.4,
+  "cluster": "stripe-risk-accounts"
+ },
+ {
+  "file": "33-what-is-universal-commerce-protocol.md",
+  "slug": "what-is-universal-commerce-protocol",
+  "title": "What Is Universal Commerce Protocol UCP? — Google and Shopify",
+  "date": "2026-09-11",
+  "category": "Agentic Payments",
+  "words": 1546,
+  "outlinks": [
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "x402",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "MPP",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "Cloudflare Wallets",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "Gemini and Copilot channel list",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "Shopify and headless platform list",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "Stripe ACS and Adyen Agentic PSP list",
+    "href": "agentic-commerce-merchant-stack-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 5.8,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "34-agentic-commerce-agent-channels.md",
+  "slug": "agentic-commerce-agent-channels",
+  "title": "Agentic Commerce Agent Channels — Supported List (2026 Reference)",
+  "date": "2026-09-13",
+  "category": "Agentic Payments",
+  "words": 3373,
+  "outlinks": [
+   {
+    "anchor": "which storefront platforms expose Agentic Storefronts or UCP",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "ACP (Agentic Commerce Protocol)",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "UCP (Universal Commerce Protocol)",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "AP2",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "PSP agentic product list",
+    "href": "agentic-commerce-merchant-stack-psp"
+   },
+   {
+    "anchor": "agent payments hub",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "MPP/x402 machine payments",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "ChatGPT merchant setup guide",
+    "href": "how-to-sell-on-chatgpt"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-merchant-stack-cms",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 2.4,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "35-agentic-commerce-merchant-stack-cms.md",
+  "slug": "agentic-commerce-merchant-stack-cms",
+  "title": "Agentic Commerce Supported Platforms CMS — Merchant Stack (2026 Reference)",
+  "date": "2026-09-14",
+  "category": "Agentic Payments",
+  "words": 3098,
+  "outlinks": [
+   {
+    "anchor": "ChatGPT, Copilot, and Gemini channel status list",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "PSP rails that mint Shared Payment Tokens",
+    "href": "agentic-commerce-merchant-stack-psp"
+   },
+   {
+    "anchor": "machine/API payments (MPP)",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "ChatGPT merchant setup guide",
+    "href": "how-to-sell-on-chatgpt"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "UCP",
+    "href": "what-is-universal-commerce-protocol"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-psp"
+  ],
+  "density": 2.3,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "36-agentic-commerce-merchant-stack-psp.md",
+  "slug": "agentic-commerce-merchant-stack-psp",
+  "title": "Agentic Commerce Supported PSP Payment Processors — 2026 Reference",
+  "date": "2026-09-15",
+  "category": "Agentic Payments",
+  "words": 3284,
+  "outlinks": [
+   {
+    "anchor": "storefront enablement on Shopify, Adobe, or headless stacks",
+    "href": "agentic-commerce-merchant-stack-cms"
+   },
+   {
+    "anchor": "where buyers initiate checkout in ChatGPT, Copilot, or Gemin",
+    "href": "agentic-commerce-agent-channels"
+   },
+   {
+    "anchor": "MPP and x402",
+    "href": "what-is-machine-payments-protocol"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "step-by-step ChatGPT merchant setup guide",
+    "href": "how-to-sell-on-chatgpt"
+   },
+   {
+    "anchor": "ACP",
+    "href": "what-is-agentic-commerce-protocol"
+   },
+   {
+    "anchor": "OpenRouter acquisition",
+    "href": "stripe-openrouter-acquisition"
+   },
+   {
+    "anchor": "UCP profile",
+    "href": "what-is-universal-commerce-protocol"
+   },
+   {
+    "anchor": "agent wallet launch",
+    "href": "clink-launches-agent-wallet"
+   },
+   {
+    "anchor": "AP2 mandates",
+    "href": "what-is-ap2-agent-payments-protocol"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "how-to-sell-on-chatgpt",
+   "what-is-universal-commerce-protocol",
+   "agentic-commerce-agent-channels",
+   "agentic-commerce-merchant-stack-cms",
+   "ai-agent-payments-infrastructure"
+  ],
+  "density": 3.0,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "37-clink-and-visa-partner-on-intelligent-commerce.md",
+  "slug": "clink-and-visa-partner-on-intelligent-commerce",
+  "title": "Announcing Clink's Partnership with Visa Intelligent Commerce",
+  "date": "2026-09-17",
+  "category": "Agentic Payments",
+  "words": 1298,
+  "outlinks": [
+   {
+    "anchor": "agent payments overview",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 4,
+  "inbound": [
+   "clink-launches-agent-wallet",
+   "what-is-ai-agent-wallet",
+   "ai-agent-spending-limits",
+   "clink-wallet-vs-cloudflare-wallets"
+  ],
+  "density": 0.8,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "38-clink-launches-agent-wallet.md",
+  "slug": "clink-launches-agent-wallet",
+  "title": "Clink Agent Wallet: Now Live on Familiar Card Rails",
+  "date": "2026-09-22",
+  "category": "Agentic Payments",
+  "words": 2696,
+  "outlinks": [
+   {
+    "anchor": "what an AI agent wallet actually is",
+    "href": "what-is-ai-agent-wallet"
+   },
+   {
+    "anchor": "Clink and Visa's Intelligent Commerce collaboration",
+    "href": "clink-and-visa-partner-on-intelligent-commerce"
+   },
+   {
+    "anchor": "AI agent spending limits",
+    "href": "ai-agent-spending-limits"
+   },
+   {
+    "anchor": "Clink Skill Marketplace",
+    "href": "what-is-skill-marketplace"
+   },
+   {
+    "anchor": "Clink's Skill Marketplace launch",
+    "href": "clink-launches-skill-marketplace"
+   },
+   {
+    "anchor": "how agent payments work",
+    "href": "agent-payments"
+   },
+   {
+    "anchor": "the 2026 infrastructure landscape",
+    "href": "ai-agent-payments-infrastructure"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agentic-commerce-merchant-stack-psp",
+   "what-is-ai-agent-wallet",
+   "ai-agent-payments-infrastructure",
+   "ai-agent-spending-limits",
+   "clink-wallet-vs-cloudflare-wallets"
+  ],
+  "density": 2.6,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "39-what-is-ai-agent-wallet.md",
+  "slug": "what-is-ai-agent-wallet",
+  "title": "What Is an AI Agent Wallet? Two Families, One Map",
+  "date": "2026-09-23",
+  "category": "Agentic Payments",
+  "words": 2864,
+  "outlinks": [
+   {
+    "anchor": "AI agent payments infrastructure",
+    "href": "ai-agent-payments-infrastructure"
+   },
+   {
+    "anchor": "Clink and Visa partnering on Intelligent Commerce",
+    "href": "clink-and-visa-partner-on-intelligent-commerce"
+   },
+   {
+    "anchor": "AI agent spending limits",
+    "href": "ai-agent-spending-limits"
+   },
+   {
+    "anchor": "Agent Wallet launch announcement",
+    "href": "clink-launches-agent-wallet"
+   },
+   {
+    "anchor": "Clink wallet versus Cloudflare Wallets comparison",
+    "href": "clink-wallet-vs-cloudflare-wallets"
+   },
+   {
+    "anchor": "AP2 agent payments protocol",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "x402 payment standard",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "agent payments cluster",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "clink-launches-agent-wallet",
+   "ai-agent-payments-infrastructure",
+   "ai-agent-spending-limits",
+   "clink-wallet-vs-cloudflare-wallets"
+  ],
+  "density": 2.8,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "40-ai-agent-payments-infrastructure.md",
+  "slug": "ai-agent-payments-infrastructure",
+  "title": "AI Agent Payments Infrastructure — The 2026 Stack, Explained",
+  "date": "2026-09-24",
+  "category": "Agentic Payments",
+  "words": 3614,
+  "outlinks": [
+   {
+    "anchor": "what an AI agent wallet actually is",
+    "href": "what-is-ai-agent-wallet"
+   },
+   {
+    "anchor": "why Cloudflare Wallets matter for agent payments",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "Clink Wallet vs Cloudflare Wallets",
+    "href": "clink-wallet-vs-cloudflare-wallets"
+   },
+   {
+    "anchor": "setting spending limits for AI agents",
+    "href": "ai-agent-spending-limits"
+   },
+   {
+    "anchor": "how the x402 protocol works",
+    "href": "what-is-x402"
+   },
+   {
+    "anchor": "the PSP agentic enablement reference",
+    "href": "agentic-commerce-merchant-stack-psp"
+   },
+   {
+    "anchor": "the launch announcement",
+    "href": "clink-launches-agent-wallet"
+   },
+   {
+    "anchor": "the agent payments hub",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-x402",
+   "clink-launches-agent-wallet",
+   "what-is-ai-agent-wallet",
+   "ai-agent-spending-limits",
+   "clink-wallet-vs-cloudflare-wallets"
+  ],
+  "density": 2.2,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "40-stripe-chargeback-prevention.md",
+  "slug": "stripe-chargeback-prevention",
+  "title": "Stripe Chargeback Prevention — Fight Fraud and Win Representment",
+  "date": "2026-09-06",
+  "category": "Stripe Risk",
+  "words": 3447,
+  "outlinks": [
+   {
+    "anchor": "What Is a Stripe Dispute",
+    "href": "what-is-stripe-dispute"
+   },
+   {
+    "anchor": "Stripe account suspension",
+    "href": "stripe-account-suspended"
+   },
+   {
+    "anchor": "Why Stripe Closes Accounts",
+    "href": "why-stripe-closes-accounts"
+   },
+   {
+    "anchor": "How to Dispute a Stripe Charge",
+    "href": "how-to-dispute-stripe-charge"
+   },
+   {
+    "anchor": "Smart Routing",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 9,
+  "inbound": [
+   "what-is-stripe-dispute",
+   "how-to-dispute-stripe-charge",
+   "why-stripe-closes-accounts",
+   "how-to-appeal-stripe-account-closure"
+  ],
+  "density": 1.5,
+  "cluster": "stripe-risk-disputes"
+ },
+ {
+  "file": "41-ai-agent-spending-limits.md",
+  "slug": "ai-agent-spending-limits",
+  "title": "AI Agent Spending Limits: Control Patterns That Work",
+  "date": "2026-09-25",
+  "category": "Agentic Payments",
+  "words": 2982,
+  "outlinks": [
+   {
+    "anchor": "agent wallet taxonomy",
+    "href": "what-is-ai-agent-wallet"
+   },
+   {
+    "anchor": "agent payments infrastructure landscape",
+    "href": "ai-agent-payments-infrastructure"
+   },
+   {
+    "anchor": "AP2 protocol explainer",
+    "href": "what-is-ap2-agent-payments-protocol"
+   },
+   {
+    "anchor": "Clink Wallet vs Cloudflare Wallets",
+    "href": "clink-wallet-vs-cloudflare-wallets"
+   },
+   {
+    "anchor": "Clink launched its agent wallet",
+    "href": "clink-launches-agent-wallet"
+   },
+   {
+    "anchor": "Clink and Visa partnership",
+    "href": "clink-and-visa-partner-on-intelligent-commerce"
+   },
+   {
+    "anchor": "agentic payments hub",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "clink-launches-agent-wallet",
+   "what-is-ai-agent-wallet",
+   "ai-agent-payments-infrastructure",
+   "clink-wallet-vs-cloudflare-wallets",
+   "what-is-clink"
+  ],
+  "density": 2.3,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "44-clink-wallet-vs-cloudflare-wallets.md",
+  "slug": "clink-wallet-vs-cloudflare-wallets",
+  "title": "Clink Wallet vs Cloudflare Wallets: Two Paths",
+  "date": "2026-09-26",
+  "category": "Agentic Payments",
+  "words": 3217,
+  "outlinks": [
+   {
+    "anchor": "Cloudflare Wallets coverage",
+    "href": "cloudflare-wallets-agent-payments"
+   },
+   {
+    "anchor": "Clink Agent Wallet",
+    "href": "clink-launches-agent-wallet"
+   },
+   {
+    "anchor": "what an AI agent wallet is",
+    "href": "what-is-ai-agent-wallet"
+   },
+   {
+    "anchor": "partnership with Visa on Intelligent Commerce",
+    "href": "clink-and-visa-partner-on-intelligent-commerce"
+   },
+   {
+    "anchor": "AI agent spending limits",
+    "href": "ai-agent-spending-limits"
+   },
+   {
+    "anchor": "agent payments infrastructure",
+    "href": "ai-agent-payments-infrastructure"
+   },
+   {
+    "anchor": "agent payments",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "what-is-ai-agent-wallet",
+   "ai-agent-payments-infrastructure",
+   "ai-agent-spending-limits"
+  ],
+  "density": 2.2,
+  "cluster": "agentic-payments"
+ },
+ {
+  "file": "Pay by Link_ A No-Code Payment Link for One-Off Transactions.md",
+  "slug": "pay-by-link",
+  "title": "Pay by Link: Fast, Temporary Payment Links for Any Deal",
+  "date": "2026-08-17",
+  "category": "Product",
+  "words": 752,
+  "outlinks": [
+   {
+    "anchor": "hosted Clink checkout",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   }
+  ],
+  "faq": 7,
+  "inbound": [
+   "what-is-clink"
+  ],
+  "density": 2.7,
+  "cluster": "standalone"
+ },
+ {
+  "file": "annual-recurring-revenue.md",
+  "slug": "annual-recurring-revenue",
+  "title": "ARR Meaning — Annual Recurring Revenue, Explained",
+  "date": "2026-07-28",
+  "category": "Glossary",
+  "words": 2303,
+  "outlinks": [
+   {
+    "anchor": "benchmark reports",
+    "href": "best-ai-companies-by-arr"
+   },
+   {
+    "anchor": "monthly recurring revenue",
+    "href": "monthly-recurring-revenue"
+   },
+   {
+    "anchor": "net revenue retention",
+    "href": "net-revenue-retention"
+   },
+   {
+    "anchor": "smart routing article",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "what is a burn rate",
+    "href": "burn-rate"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "best-ai-companies-by-arr",
+   "fastest-growing-ai-companies-arr",
+   "monthly-recurring-revenue",
+   "net-revenue-retention"
+  ],
+  "density": 2.6,
+  "cluster": "glossary-metrics"
+ },
+ {
+  "file": "burn-rate.md",
+  "slug": "burn-rate",
+  "title": "What Is a Burn Rate? — Definition, Formula, and Runway",
+  "date": "2026-07-27",
+  "category": "Glossary",
+  "words": 2397,
+  "outlinks": [
+   {
+    "anchor": "Runway",
+    "href": "runway"
+   },
+   {
+    "anchor": "MRR",
+    "href": "monthly-recurring-revenue"
+   },
+   {
+    "anchor": "smart routing article",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "best-ai-companies-by-arr",
+   "fastest-growing-ai-companies-arr",
+   "annual-recurring-revenue",
+   "monthly-recurring-revenue",
+   "runway"
+  ],
+  "density": 1.7,
+  "cluster": "glossary-metrics"
+ },
+ {
+  "file": "how-to-add-payments-bolt-app.md",
+  "slug": "how-to-add-payments-bolt-app",
+  "title": "How to Add Payments to Bolt.new Apps — Stripe Built-in, Then Clink",
+  "date": "2026-07-24",
+  "category": "Product",
+  "words": 2632,
+  "outlinks": [
+   {
+    "anchor": "the hub guide",
+    "href": "how-to-add-payments-lovable-app"
+   },
+   {
+    "anchor": "our MoR vs PSP breakdown",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "How to Add Payments to v0 Apps",
+    "href": "how-to-add-payments-v0-app"
+   },
+   {
+    "anchor": "How to Add Payments to Replit Apps",
+    "href": "how-to-add-payments-replit-app"
+   },
+   {
+    "anchor": "our smart routing breakdown",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "the What Is Clink? product overview",
+    "href": "what-is-clink"
+   }
+  ],
+  "faq": 10,
+  "inbound": [
+   "how-to-add-payments-lovable-app",
+   "how-to-add-payments-replit-app"
+  ],
+  "density": 2.3,
+  "cluster": "lovable-series"
+ },
+ {
+  "file": "how-to-add-payments-lovable-app.md",
+  "slug": "how-to-add-payments-lovable-app",
+  "title": "How to Add Payments to a Lovable App — Paddle, Stripe, or Clink",
+  "date": "2026-07-22",
+  "category": "Product",
+  "words": 2600,
+  "outlinks": [
+   {
+    "anchor": "Integrate Stripe with Lovable",
+    "href": "integrate-stripe-lovable"
+   },
+   {
+    "anchor": "What Is Clink?",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "smart payment routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "Bolt",
+    "href": "how-to-add-payments-bolt-app"
+   },
+   {
+    "anchor": "v0",
+    "href": "how-to-add-payments-v0-app"
+   },
+   {
+    "anchor": "Replit",
+    "href": "how-to-add-payments-replit-app"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-replit-app",
+   "how-to-add-payments-v0-app",
+   "integrate-stripe-lovable"
+  ],
+  "density": 2.7,
+  "cluster": "lovable-series"
+ },
+ {
+  "file": "how-to-add-payments-replit-app.md",
+  "slug": "how-to-add-payments-replit-app",
+  "title": "How to Add Payments to Replit Apps — Stripe, Whop, Then Clink",
+  "date": "2026-07-26",
+  "category": "Product",
+  "words": 2504,
+  "outlinks": [
+   {
+    "anchor": "the Lovable payments guide",
+    "href": "how-to-add-payments-lovable-app"
+   },
+   {
+    "anchor": "our Clink platform primer",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "smart routing for multi-PSP recovery",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "the MoR vs PSP trade-off",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "How to Add Payments to Bolt.new Apps",
+    "href": "how-to-add-payments-bolt-app"
+   },
+   {
+    "anchor": "the v0 Marketplace walkthrough",
+    "href": "how-to-add-payments-v0-app"
+   }
+  ],
+  "faq": 10,
+  "inbound": [
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-lovable-app"
+  ],
+  "density": 2.4,
+  "cluster": "lovable-series"
+ },
+ {
+  "file": "how-to-add-payments-v0-app.md",
+  "slug": "how-to-add-payments-v0-app",
+  "title": "How to Add Payments to v0 Apps — Stripe, Paddle Kit, Then Clink",
+  "date": "2026-07-25",
+  "category": "Product",
+  "words": 2539,
+  "outlinks": [
+   {
+    "anchor": "our canonical Lovable walkthrough",
+    "href": "how-to-add-payments-lovable-app"
+   },
+   {
+    "anchor": "the MoR vs PSP framing",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "our What Is Clink? explainer",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "the smart routing guide",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 8,
+  "inbound": [
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-lovable-app",
+   "how-to-add-payments-replit-app"
+  ],
+  "density": 1.6,
+  "cluster": "lovable-series"
+ },
+ {
+  "file": "integrate-stripe-lovable.md",
+  "slug": "integrate-stripe-lovable",
+  "title": "Integrate Stripe with Lovable Apps — Built-in Payments and Go-Live Guide",
+  "date": "2026-07-23",
+  "category": "Product",
+  "words": 2730,
+  "outlinks": [
+   {
+    "anchor": "the MoR vs PSP comparison",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "the Lovable payments hub guide",
+    "href": "how-to-add-payments-lovable-app"
+   },
+   {
+    "anchor": "the What Is Clink? platform overview",
+    "href": "what-is-clink"
+   },
+   {
+    "anchor": "the smart routing article",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 11,
+  "inbound": [
+   "how-to-add-payments-lovable-app"
+  ],
+  "density": 1.5,
+  "cluster": "lovable-series"
+ },
+ {
+  "file": "monthly-recurring-revenue.md",
+  "slug": "monthly-recurring-revenue",
+  "title": "What Is MRR? — Monthly Recurring Revenue, Explained",
+  "date": "2026-07-29",
+  "category": "Glossary",
+  "words": 2279,
+  "outlinks": [
+   {
+    "anchor": "ARR",
+    "href": "annual-recurring-revenue"
+   },
+   {
+    "anchor": "runway",
+    "href": "runway"
+   },
+   {
+    "anchor": "what is a burn rate",
+    "href": "burn-rate"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "best-ai-companies-by-arr",
+   "annual-recurring-revenue",
+   "burn-rate",
+   "net-revenue-retention",
+   "runway"
+  ],
+  "density": 1.3,
+  "cluster": "glossary-metrics"
+ },
+ {
+  "file": "mor-vs-psp.md",
+  "slug": "mor-vs-psp",
+  "title": "MoR vs PSP — How to Choose the Right Payment Infrastructure Model",
+  "date": "2026-06-29",
+  "category": "Comparison",
+  "words": 2532,
+  "outlinks": [
+   {
+    "anchor": "smart payment routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "What Is Clink?",
+    "href": "what-is-clink"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "stripe-account-suspended",
+   "what-is-machine-payments-protocol",
+   "why-stripe-closes-accounts",
+   "how-to-sell-on-chatgpt",
+   "how-to-appeal-stripe-account-closure",
+   "pay-by-link",
+   "annual-recurring-revenue",
+   "burn-rate",
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-lovable-app",
+   "how-to-add-payments-replit-app",
+   "how-to-add-payments-v0-app",
+   "integrate-stripe-lovable",
+   "smart-routing",
+   "what-is-clink"
+  ],
+  "density": 0.8,
+  "cluster": "core"
+ },
+ {
+  "file": "net-revenue-retention.md",
+  "slug": "net-revenue-retention",
+  "title": "What Is NRR? — Net Revenue Retention, Explained",
+  "date": "2026-07-30",
+  "category": "Glossary",
+  "words": 2218,
+  "outlinks": [
+   {
+    "anchor": "MRR",
+    "href": "monthly-recurring-revenue"
+   },
+   {
+    "anchor": "ARR",
+    "href": "annual-recurring-revenue"
+   },
+   {
+    "anchor": "smart routing article",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "fastest-growing-ai-companies-arr",
+   "annual-recurring-revenue"
+  ],
+  "density": 1.4,
+  "cluster": "glossary-metrics"
+ },
+ {
+  "file": "runway.md",
+  "slug": "runway",
+  "title": "What Is Runway? — How Startup Cash Runway Works",
+  "date": "2026-07-31",
+  "category": "Glossary",
+  "words": 2252,
+  "outlinks": [
+   {
+    "anchor": "monthly burn rate",
+    "href": "burn-rate"
+   },
+   {
+    "anchor": "MRR",
+    "href": "monthly-recurring-revenue"
+   },
+   {
+    "anchor": "smart routing article",
+    "href": "smart-routing"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "fastest-growing-ai-companies-arr",
+   "burn-rate",
+   "monthly-recurring-revenue"
+  ],
+  "density": 1.3,
+  "cluster": "glossary-metrics"
+ },
+ {
+  "file": "smart-routing.md",
+  "slug": "smart-routing",
+  "title": "Smart Payment Routing — How Multi-PSP Orchestration Recovers 3–5% Revenue",
+  "date": "2026-06-29",
+  "category": "Product",
+  "words": 2562,
+  "outlinks": [
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "What Is Clink?",
+    "href": "what-is-clink"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "cloudflare-wallets-agent-payments",
+   "stripe-openrouter-acquisition",
+   "best-ai-companies-by-arr",
+   "fastest-growing-ai-companies-arr",
+   "what-is-stripe-dispute",
+   "how-to-dispute-stripe-charge",
+   "stripe-account-suspended",
+   "what-is-ap2-agent-payments-protocol",
+   "what-is-x402",
+   "what-is-machine-payments-protocol",
+   "what-is-agentic-commerce-protocol",
+   "why-stripe-closes-accounts",
+   "how-to-sell-on-chatgpt",
+   "how-to-appeal-stripe-account-closure",
+   "stripe-chargeback-prevention",
+   "annual-recurring-revenue",
+   "burn-rate",
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-lovable-app",
+   "how-to-add-payments-replit-app",
+   "how-to-add-payments-v0-app",
+   "integrate-stripe-lovable",
+   "mor-vs-psp",
+   "net-revenue-retention",
+   "runway",
+   "what-is-clink"
+  ],
+  "density": 0.8,
+  "cluster": "core"
+ },
+ {
+  "file": "what-is-clink.md",
+  "slug": "what-is-clink",
+  "title": "What Is Clink — Payment Infrastructure for an AI-Native World",
+  "date": "2026-06-23",
+  "category": "Product",
+  "words": 2670,
+  "outlinks": [
+   {
+    "anchor": "smart payment routing",
+    "href": "smart-routing"
+   },
+   {
+    "anchor": "MoR vs PSP",
+    "href": "mor-vs-psp"
+   },
+   {
+    "anchor": "no-code payment links",
+    "href": "pay-by-link"
+   },
+   {
+    "anchor": "pre-set spending limits",
+    "href": "ai-agent-spending-limits"
+   },
+   {
+    "anchor": "AI agents need payments too",
+    "href": "agent-payments"
+   }
+  ],
+  "faq": 6,
+  "inbound": [
+   "agent-payments",
+   "cloudflare-wallets-agent-payments",
+   "clink-launches-skill-marketplace",
+   "stripe-openrouter-acquisition",
+   "best-ai-companies-by-arr",
+   "fastest-growing-ai-companies-arr",
+   "pay-by-link",
+   "how-to-add-payments-bolt-app",
+   "how-to-add-payments-lovable-app",
+   "how-to-add-payments-replit-app",
+   "how-to-add-payments-v0-app",
+   "integrate-stripe-lovable",
+   "mor-vs-psp",
+   "smart-routing"
+  ],
+  "density": 1.9,
+  "cluster": "core"
+ }
+]

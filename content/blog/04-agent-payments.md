@@ -18,7 +18,7 @@ readingMinutes: 12
 - Three requirements define the category: programmable constraints, browserless cryptographic authorization, and machine-readable audit trails with task-level trace IDs—not a saved card plus a cron job.
 - **Clink for Claw** implements Harness Payment on Clink’s billing and [smart routing](/blog/smart-routing) stack; it is **Early Access** as of June 2026, with ModelMax and PollyReach cited on clinkbill.com as design partners.
 - Market forecasts about autonomous decisions outpace payment standards; infrastructure for scoped spend must lead, not wait for schemes to invent “agent” as a cardholder type.
-- **Retail agentic commerce** (ChatGPT, Gemini, Copilot checkout) has separate live-status references for [AI shopping channels](/blog/agentic-commerce-agent-channels), [storefront platform enablement](/blog/agentic-commerce-merchant-stack-cms), and [PSP delegated-checkout products](/blog/agentic-commerce-merchant-stack-psp)—distinct from the machine/API rails this essay emphasizes.
+- **Retail agentic commerce** (ChatGPT, Gemini, Copilot checkout) has separate live-status references for AI shopping channels, storefront platform enablement, and PSP delegated-checkout products—distinct from the machine/API rails this essay emphasizes.
 
 ---
 
@@ -58,7 +58,7 @@ If a vendor offers “agents can pay” without all three, you likely have a sav
 
 ## Clink for Claw: Early Access Agent Payment Protocol
 
-Clink for Claw is Clink’s protocol for agent-initiated payments. It is **Early Access** as of June 2026—not a claim of universal scheme adoption, not GA, and not a promise that every card network has invented a non-human cardholder type. It sits on the same portable billing and [smart routing](/blog/smart-routing) substrate as human checkout rather than inventing a second processor stack. The flow is intentionally boring: define scope, issue a signed capability, let the agent request a charge with a task trace ID, validate constraints, route and settle, append a signed audit chain.
+Clink for Claw is Clink’s protocol for agent-initiated payments. It is **Early Access** as of June 2026—not a claim of universal scheme adoption, not GA, and not a promise that every card network has invented a non-human cardholder type. It sits on the same portable billing and smart routing substrate as human checkout rather than inventing a second processor stack. The flow is intentionally boring: define scope, issue a signed capability, let the agent request a charge with a task trace ID, validate constraints, route and settle, append a signed audit chain.
 
 The **Harness Payment** model is the product metaphor. Freedom exists inside the rope; a hard stop exists beyond it. A $100 data-services scope can be ten $10 calls or one $100 call; $101 fails until a human widens the harness. Daily and per-task caps, merchant allowlists, and velocity limits are policy inputs, not prompt suggestions. Governance is the dial: lower the ceiling when a new agent ships; raise it when a workflow proves stable. Unbounded cards are not the alternative Clink is selling.
 

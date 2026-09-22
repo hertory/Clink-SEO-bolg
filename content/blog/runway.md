@@ -21,7 +21,7 @@ readingMinutes: 10
 
 ## What Is Runway? — A Working Definition
 
-Runway is the measure of how long a company can operate before its cash runs out, expressed in months. It is the survival metric of startup finance: the number that converts a cash balance and a monthly burn rate into a deadline the board can act on.
+Runway is the measure of how long a company can operate before its cash runs out, expressed in months. It is the survival metric of startup finance: the number that converts a cash balance and a [monthly burn rate](/blog/burn-rate) into a deadline the board can act on.
 
 The concept is borrowed from aviation—runway is how much distance you have to take off or stop—and the metaphor holds. A startup has a finite amount of cash, burns a portion of it every month, and runway describes how many of those months remain before the cash position forces a decision: raise, cut, or change the business. Carta, Investopedia, and Brex all converge on the same definition, which makes runway one of the more stable concepts in startup finance.
 
@@ -59,7 +59,7 @@ The corollary is the 12-month red line. Below a year of runway, every decision�
 
 A single runway number is an assumption wearing the costume of a fact. It assumes net burn holds steady, which it almost never does, and for subscription businesses the assumption is the most fragile one in the model: monthly revenue moves with renewals, expansions, downgrades, and payment failures, and each movement changes net burn without a single cost change.
 
-The failure mechanism is familiar to any founder who has watched a "sixteen months of runway" slide age into a "nine months" reality by the next quarter. The reasons are rarely exotic. A cohort of customers fails to renew. A round of downgrades arrives. A spike in failed renewals—cards expired, soft declines unretried—converts booked MRR into involuntary churn, and the revenue side of the net burn equation shrinks while costs stay flat. Each effect is small in a single month; compounded over a quarter, they rewrite the runway.
+The failure mechanism is familiar to any founder who has watched a "sixteen months of runway" slide age into a "nine months" reality by the next quarter. The reasons are rarely exotic. A cohort of customers fails to renew. A round of downgrades arrives. A spike in failed renewals—cards expired, soft declines unretried—converts booked [MRR](/blog/monthly-recurring-revenue) into involuntary churn, and the revenue side of the net burn equation shrinks while costs stay flat. Each effect is small in a single month; compounded over a quarter, they rewrite the runway.
 
 The honest version of runway planning is a range across three scenarios. Model one where net burn holds at current levels, one where revenue grows at plan, and one where involuntary churn rises because renewal failures go unaddressed. The spread between the scenarios is the real risk the board should discuss, and the scenario that matters for the raise calendar is the conservative one, not the base case.
 
@@ -85,7 +85,7 @@ Runway is a finance metric with an operational root, and for subscription busine
 
 This is the connection most runway explainers miss. When teams fix the inflow side—recovering failed renewals before they become involuntary churn, retrying soft declines on a backup path, keeping payment methods current—they extend runway without a single cost cut. The same causal chain that runs through burn rate runs through runway: failed collection → lower MRR → higher net burn → shorter runway. The mechanics of multi-path retry are covered in Clink's [smart routing article](/blog/smart-routing); this glossary entry only needs the framing, that runway is as much a collection problem as a cost problem.
 
-Teams evaluating infrastructure that unifies billing and payment routing should therefore ask a runway-focused question rather than a feature question: what happens to the model when renewal collection improves? Because subscription data and processor connections are separable in that architecture, retry policies apply consistently across markets, which makes the improvement auditable rather than anecdotal. Clink does not publish a public rate card as of June 2026; packaging is discussed through [Contact Sales](https://clinkbill.com/contact). For the cash-burn companion metric, see [what is a burn rate](/blog/burn-rate); for the revenue base behind the model, see [ARR meaning](/blog/annual-recurring-revenue).
+Teams evaluating infrastructure that unifies billing and payment routing should therefore ask a runway-focused question rather than a feature question: what happens to the model when renewal collection improves? Because subscription data and processor connections are separable in that architecture, retry policies apply consistently across markets, which makes the improvement auditable rather than anecdotal. Clink does not publish a public rate card as of June 2026; packaging is discussed through [Contact Sales](https://clinkbill.com/contact). For the cash-burn companion metric, see what is a burn rate; for the revenue base behind the model, see ARR meaning.
 
 ---
 

@@ -15,7 +15,7 @@ readingMinutes: 11
 - **x402** is an open standard for **internet-native payments over HTTP**, built around the **`402 Payment Required`** status code with machine-readable headers—not a redefinition of HTTP itself.
 - Coinbase incubated x402; on **April 2, 2026** the protocol moved to the **Linux Foundation x402 Foundation**, with **40+ member organizations** including Stripe, Visa, Google, Cloudflare, and Shopify by July 2026.
 - The flow is client–server native: a **resource server** returns payment terms; the **client** (human, app, or agent) signs a payload; a **facilitator** verifies and settles—often in stablecoins on networks like Base or Solana.
-- x402 complements [AP2](/blog/what-is-ap2-agent-payments-protocol) (authorization evidence), [MPP](/blog/what-is-machine-payments-protocol) (Stripe lifecycle extensions), and commerce protocols like [UCP](/blog/what-is-universal-commerce-protocol)—it is the **wire format for paying over HTTP**.
+- x402 complements AP2 (authorization evidence), [MPP](/blog/what-is-machine-payments-protocol) (Stripe lifecycle extensions), and commerce protocols like UCP—it is the **wire format for paying over HTTP**.
 - For API and SaaS sellers, x402 is the fastest path to **per-request micropayments** without API keys, billing accounts, or human checkout—when your buyers are agents.
 
 ---
@@ -51,7 +51,7 @@ The design goal is **transport-native**: payment should not require out-of-band 
 
 **x402 V2** (December 2025) standardized **`PAYMENT-REQUIRED`**, **`PAYMENT-SIGNATURE`**, and **`PAYMENT-RESPONSE`** headers with CAIP-2 network IDs, plus wallet **session** support for repeat access without full payment handshakes each time. Coinbase CDP reported **100M+** facilitated transactions on Base and Solana by early 2026—though Tier 1 media note much early volume may be test traffic; treat adoption metrics with source and date context.
 
-**AWS Bedrock AgentCore Payments** reached GA in **August 2026**, supporting x402 alongside [MPP](/blog/what-is-machine-payments-protocol) with a gateway catalog of paid endpoints—enterprise agents can pay for third-party APIs without custom billing integrations per vendor.
+**AWS Bedrock AgentCore Payments** reached GA in **August 2026**, supporting x402 alongside MPP with a gateway catalog of paid endpoints—enterprise agents can pay for third-party APIs without custom billing integrations per vendor.
 
 **Schemes** extend settlement patterns: `exact` (fixed price per access), `upto` (cap with usage-based settlement), and batch variants for high-frequency calls.
 
@@ -81,7 +81,7 @@ Governance moved to neutral ground when Coinbase completed its contribution and 
 
 Agent payment standards stack rather than collide:
 
-- **x402 vs [MPP](/blog/what-is-machine-payments-protocol):** x402 defines HTTP payment headers and settlement schemes; MPP (Stripe + Tempo) shares signature substrates (EIP-3009, Permit2) but adds **subscriptions, streaming charges, cancellations, and Stripe merchant tooling**. MPP is multi-method (stablecoin, card via Shared Payment Tokens, BNPL); x402 alone is the thinnest HTTP layer.
+- **x402 vs MPP:** x402 defines HTTP payment headers and settlement schemes; MPP (Stripe + Tempo) shares signature substrates (EIP-3009, Permit2) but adds **subscriptions, streaming charges, cancellations, and Stripe merchant tooling**. MPP is multi-method (stablecoin, card via Shared Payment Tokens, BNPL); x402 alone is the thinnest HTTP layer.
 - **x402 vs [AP2](/blog/what-is-ap2-agent-payments-protocol):** x402 moves value over HTTP; AP2 provides **verifiable mandate credentials** proving human-delegated authorization. Composable in high-compliance flows.
 - **x402 vs [ACP](/blog/what-is-agentic-commerce-protocol) / [UCP](/blog/what-is-universal-commerce-protocol):** Commerce protocols model retail checkout sessions, carts, and orders. x402 models **pay-per-request** at any HTTP addressable endpoint—including MCP tools and raw APIs.
 
@@ -107,9 +107,9 @@ Limitations remain real: dispute handling, tax, invoicing, and enterprise procur
 
 x402 turns HTTP into a payment-capable transport for the agent era. Neutral Linux Foundation governance, broad industry membership, and production facilitators make it the default reference for **machine-native micropayments** in 2026.
 
-API sellers should evaluate x402 when agent buyers cannot complete human checkout. Platform teams should treat it as complementary to [MPP](/blog/what-is-machine-payments-protocol) for Stripe-native lifecycle needs and to [AP2](/blog/what-is-ap2-agent-payments-protocol) when authorization audit trails matter. The protocol is mature enough to build against; operational details (facilitator choice, network, compliance) remain deployment-specific.
+API sellers should evaluate x402 when agent buyers cannot complete human checkout. Platform teams should treat it as complementary to MPP for Stripe-native lifecycle needs and to AP2 when authorization audit trails matter. The protocol is mature enough to build against; operational details (facilitator choice, network, compliance) remain deployment-specific.
 
-**Retail agentic commerce**—product feeds and delegated checkout on consumer AI surfaces—uses [ACP](/blog/what-is-agentic-commerce-protocol) and [UCP](/blog/what-is-universal-commerce-protocol), not x402 per SKU. If you sell SKUs through ChatGPT or Gemini, check [which AI surfaces are live](/blog/agentic-commerce-agent-channels), [whether your storefront platform is enrolled](/blog/agentic-commerce-merchant-stack-cms), and [which PSP exposes delegated checkout](/blog/agentic-commerce-merchant-stack-psp)—separate questions from HTTP 402 micropayments.
+**Retail agentic commerce**—product feeds and delegated checkout on consumer AI surfaces—uses ACP and UCP, not x402 per SKU. If you sell SKUs through ChatGPT or Gemini, check [which AI surfaces are live](/blog/agentic-commerce-agent-channels), [whether your storefront platform is enrolled](/blog/agentic-commerce-merchant-stack-cms), and [which PSP exposes delegated checkout](/blog/agentic-commerce-merchant-stack-psp)—separate questions from HTTP 402 micropayments.
 
 ---
 
@@ -129,7 +129,7 @@ Early implementations emphasize **stablecoins** on L2 networks for speed and cos
 
 ### How is x402 different from Stripe billing?
 
-Stripe Billing manages human subscriptions, invoices, and dunning. x402 gates **individual HTTP requests** with inline payment—closer to pay-per-call API monetization. Stripe also supports x402 and [MPP](/blog/what-is-machine-payments-protocol) as part of its agentic commerce stack.
+Stripe Billing manages human subscriptions, invoices, and dunning. x402 gates **individual HTTP requests** with inline payment—closer to pay-per-call API monetization. Stripe also supports x402 and MPP as part of its agentic commerce stack.
 
 ### Can x402 work with MCP tools?
 

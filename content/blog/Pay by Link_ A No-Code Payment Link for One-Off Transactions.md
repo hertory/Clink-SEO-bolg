@@ -32,7 +32,7 @@ The transaction does not depend on the merchant having a storefront or an active
 
 This makes Pay by Link suitable for transactions that are initiated outside a product’s standard purchase flow.
 
-API-based checkout remains appropriate for repeatable, product-embedded transactions such as SaaS subscriptions, marketplace purchases, or in-app payments. Pay by Link addresses a different type of transaction: payments created on demand for a specific customer or agreement.
+API-based checkout remains appropriate for repeatable, product-embedded transactions such as SaaS subscriptions — see [MoR vs PSP](/blog/mor-vs-psp) for who should own that relationship. Pay by Link addresses a different type of transaction: payments created on demand for a specific customer or agreement.
 
 ## Typical Use Cases
 
@@ -80,7 +80,7 @@ For products that require a programmatic checkout flow, merchants can continue t
 
 ### Which currencies and payment methods are supported?
 
-Clink supports payments across **135+ currencies and 100+ [local payment methods](/blog/smart-routing)**, covering both global and market-specific payment options.
+Clink supports payments across **135+ currencies and 100+ local payment methods**, covering both global and market-specific payment options.
 
 Payment method availability can vary depending on factors such as the selected currency and payer location.
 

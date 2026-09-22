@@ -15,7 +15,7 @@ readingMinutes: 11
 - **AP2 (Agent Payments Protocol)** is an open standard for verifiable agent-initiated payments, originally developed by Google and donated to the **FIDO Alliance** in April 2026 to keep it platform-agnostic and community-governed.
 - At its core, AP2 uses **Verifiable Digital Credentials (VDCs)** called **mandates**—cryptographically signed objects that record what a user authorized an agent to buy and how it may pay.
 - **v0.2** reorganized v0.1's Intent/Cart/Payment model into **Checkout Mandates** and **Payment Mandates**, each with **Open** (pre-authorized constraints) and **Closed** (finalized transaction) states—enabling **Human Not Present** autonomous purchases.
-- AP2 is a **trust and authorization layer**, not a checkout UI or HTTP transport; it complements [UCP](/blog/what-is-universal-commerce-protocol), [ACP](/blog/what-is-agentic-commerce-protocol), [x402](/blog/what-is-x402), and [MPP](/blog/what-is-machine-payments-protocol) rather than replacing them.
+- AP2 is a **trust and authorization layer**, not a checkout UI or HTTP transport; it complements UCP, ACP, [x402](/blog/what-is-x402), and MPP rather than replacing them.
 - For SaaS and API teams, AP2 matters when you need a **non-repudiable audit trail** linking human intent to agent execution—especially for regulated or high-value delegated spend.
 
 ---
@@ -77,11 +77,11 @@ Agentic payments in 2026 are a **stack of complementary protocols**, not a winne
 | Layer | Role | Examples |
 |-------|------|----------|
 | Commerce / checkout | Cart, catalog, order lifecycle | [UCP](/blog/what-is-universal-commerce-protocol), [ACP](/blog/what-is-agentic-commerce-protocol) |
-| Transport / settlement | Machine-readable payment over HTTP | [x402](/blog/what-is-x402), [MPP](/blog/what-is-machine-payments-protocol) |
+| Transport / settlement | Machine-readable payment over HTTP | x402, [MPP](/blog/what-is-machine-payments-protocol) |
 | Trust / authorization | Verifiable user intent and agent authority | **AP2**, Verifiable Intent |
 | Agent tooling | Tools, context, inter-agent messaging | MCP, A2A |
 
-[x402](/blog/what-is-x402) answers "how does an HTTP client pay for a 402 response?" [MPP](/blog/what-is-machine-payments-protocol) extends that transport with subscriptions, streaming, and Stripe merchant rails. [ACP](/blog/what-is-agentic-commerce-protocol) and [UCP](/blog/what-is-universal-commerce-protocol) define how agents complete retail checkout with merchants. **AP2** answers "can you prove the human authorized this agent to spend this much, on this merchant, for this cart?"
+x402 answers "how does an HTTP client pay for a 402 response?" MPP extends that transport with subscriptions, streaming, and Stripe merchant rails. ACP and UCP define how agents complete retail checkout with merchants. **AP2** answers "can you prove the human authorized this agent to spend this much, on this merchant, for this cart?"
 
 Implementations can compose these layers. A UCP checkout on Google AI Mode might use AP2 mandates for authorization evidence and Google Pay for settlement. An API seller using x402 might reference AP2-compatible credentials where audit requirements demand human-delegated spend proof.
 

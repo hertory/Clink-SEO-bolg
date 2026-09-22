@@ -16,13 +16,13 @@ readingMinutes: 14
 - Official policy may disclose only a **category of reason**, not the underlying signals: Stripe's [Unacceptable Risk Policy](https://stripe.com/gb/legal/unacceptable-risk-policy) states that post-review payout decisions can rely on **confidential criteria** necessary for risk management, and that law or regulators may restrict what Stripe can tell you.
 - By frequency in merchant reports and acquirer enforcement patterns as of 2026, the leading triggers are: **(1)** disputes/chargebacks and early fraud warnings under Visa VAMP, **(2)** prohibited or restricted-business mismatch, **(3)** sudden volume or ticket-size spikes, **(4)** KYC and identity verification failures, **(5)** geographic or behavioral anomalies, and **(6)** subscription, dropshipping, and long fulfillment-lag patterns that correlate with "service not received" disputes.
 - **Reversible review** usually shows Dashboard "Actions required," document upload prompts, or payout holds with a response path; **likely permanent closure** often follows repeated appeals denied, prohibited-industry rejection codes, or an explicit account-closure notice under the Unacceptable Risk Policy with a 120-day payout pause.
-- If your account is already restricted, start with [Stripe Account Suspended](/blog/stripe-account-suspended) for restriction types and first steps; for documentation and appeal sequencing, see [How to Appeal a Stripe Account Closure](/blog/how-to-appeal-stripe-account-closure).
+- If your account is already restricted, start with [Stripe Account Suspended](/blog/stripe-account-suspended) for restriction types and first steps; for documentation and appeal sequencing, see How to Appeal a Stripe Account Closure.
 
 ---
 
 If you searched **why stripe closed my account**, you are probably staring at a vague email, a greyed-out Dashboard, and a support reply that repeats policy language without naming the trigger. That experience is common—and it is partly by design. Stripe operates as a regulated payment aggregator with card-network obligations, fraud liability, and a portfolio of millions of merchants; a single high-risk account can create dispute fees, scheme fines, and reputational exposure that scale across the platform.
 
-This article ranks the triggers merchants most often encounter, separates what Stripe publishes from what forums claim, and explains which signals suggest a reversible review versus a path toward permanent closure. It does not promise reinstatement—no third party can—and it is not legal advice. For the full restriction taxonomy and a first-72-hour checklist, use the cluster hub [Stripe Account Suspended](/blog/stripe-account-suspended).
+This article ranks the triggers merchants most often encounter, separates what Stripe publishes from what forums claim, and explains which signals suggest a reversible review versus a path toward permanent closure. It does not promise reinstatement—no third party can—and it is not legal advice. For the full restriction taxonomy and a first-72-hour checklist, use the cluster hub Stripe Account Suspended.
 
 ---
 
@@ -164,7 +164,7 @@ Stripe often cites a **category of reason** and the **actions applied**—charge
 
 ### Can I get my Stripe account reopened after closure?
 
-**Sometimes, if appeals succeed.** The Unacceptable Risk Policy describes appeal paths where users may submit additional information for manual review, including possible reversal of closure decisions. Success is more likely when restrictions stem from fixable verification or dispute remediation than from prohibited-industry or fraud rejections. Follow the workflow in [How to Appeal a Stripe Account Closure](/blog/how-to-appeal-stripe-account-closure) and respond before deadlines pass.
+**Sometimes, if appeals succeed.** The Unacceptable Risk Policy describes appeal paths where users may submit additional information for manual review, including possible reversal of closure decisions. Success is more likely when restrictions stem from fixable verification or dispute remediation than from prohibited-industry or fraud rejections. Follow the workflow in How to Appeal a Stripe Account Closure and respond before deadlines pass.
 
 ### Is a 0.5% dispute rate enough to get banned?
 
@@ -172,7 +172,7 @@ Visa's published VAMP **non-compliant** ratio is **0.5%** once volume floors are
 
 ### What's the difference between suspended, restricted, and closed?
 
-**Suspended or restricted** usually means one or more capabilities—charges, payouts, or Connect features—are paused while Stripe reviews risk or verification. **Closed** means Stripe has commenced account termination under policies such as the Unacceptable Risk Policy, often with a **120-day payout pause** for refund and chargeback exposure. The hub article [Stripe Account Suspended](/blog/stripe-account-suspended) maps restriction types and first responses.
+**Suspended or restricted** usually means one or more capabilities—charges, payouts, or Connect features—are paused while Stripe reviews risk or verification. **Closed** means Stripe has commenced account termination under policies such as the Unacceptable Risk Policy, often with a **120-day payout pause** for refund and chargeback exposure. The hub article Stripe Account Suspended maps restriction types and first responses.
 
 ### Does using Clink or another processor prevent Stripe from closing my account?
 

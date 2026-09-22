@@ -16,7 +16,7 @@ readingMinutes: 14
 - An MoR is the legal seller: tax remittance, chargebacks, and faster global launch, typically at higher all-in fees and with third-party identity on invoices and statements.
 - A PSP processes on your behalf while you remain merchant: stronger brand control and economics in core markets, but tax registration, filing, and multi-method coverage land on your team.
 - The useful answer is often hybrid—MoR-style coverage where registration is not worth it, direct PSP economics where volume concentrates—on portable billing so you are not locked into one model forever.
-- Use the five-dimension framework below, then the playbook, before optimizing approval rates with [smart payment routing](/blog/smart-routing).
+- Use the five-dimension framework below, then the playbook, before optimizing approval rates with smart payment routing.
 
 ---
 
@@ -56,7 +56,7 @@ The tax shell problem is the first. Authorities see the MoR as the seller. As AR
 
 Checkout and statement recognition is the second. Customers who do not recognize “Paddle,” “Lemon Squeezy,” or another MoR on a statement file friendly-fraud disputes more often than buyers who see your brand. MoR platforms know this and invest in dispute ops—that is a real advantage—but you still trade brand equity at the payment layer. For B2B procurement teams that match vendors to legal entities, third-party seller names create friction that no marketing site can fully erase. Some teams mitigate with clear descriptor suffixes and in-app invoice education; those tactics help, but they do not restore full merchant identity the way a direct PSP path does when brand trust is part of the sale.
 
-Routing control is the third. Many MoR stacks run on a limited underlying acquiring set. When performance degrades in a region, you cannot freely shift traffic to another acquirer the way a multi-PSP orchestration layer can. If approval-rate recovery is strategic, read the mechanics in smart payment routing; MoR users often give up that knob entirely in exchange for the compliance shell. The trade is coherent early on—compliance bandwidth bought with less rail control—but it becomes costly when a single region’s soft-decline rate starts to move NRR and you discover the MoR’s acquiring mix is not something you can retune.
+Routing control is the third. Many MoR stacks run on a limited underlying acquiring set. When performance degrades in a region, you cannot freely shift traffic to another acquirer the way a multi-PSP orchestration layer can. If approval-rate recovery is strategic, read the mechanics in [smart payment routing](/blog/smart-routing); MoR users often give up that knob entirely in exchange for the compliance shell. The trade is coherent early on—compliance bandwidth bought with less rail control—but it becomes costly when a single region’s soft-decline rate starts to move NRR and you discover the MoR’s acquiring mix is not something you can retune.
 
 None of this makes MoR “bad.” Paddle and peers remain excellent when the job is ship globally without a tax team. It makes MoR a model with a graduation curve you should design for.
 

@@ -18,7 +18,7 @@ readingMinutes: 14
 - Opening a new Stripe account to evade a closure, sending emotional or duplicate tickets, or submitting incomplete documents are among the fastest ways to weaken your case and extend fund holds.
 - If primary processor support stalls, merchants need parallel payment continuity and a vendor relationship with human escalation paths — not a “guaranteed unban” service.
 
-This article covers the appeal workflow for merchants whose Stripe account has already been restricted or closed. For restriction types and first-72-hour actions, start with [Stripe Account Suspended](/blog/stripe-account-suspended). For why closures happen in the first place, see [Why Stripe Closes Accounts](/blog/why-stripe-closes-accounts).
+This article covers the appeal workflow for merchants whose Stripe account has already been restricted or closed. For restriction types and first-72-hour actions, start with [Stripe Account Suspended](/blog/stripe-account-suspended). For why closures happen in the first place, see Why Stripe Closes Accounts.
 
 ---
 
@@ -111,7 +111,7 @@ Merchant reports on forums, Trustpilot, and industry blogs frequently describe i
 
 Funds may not all return even after 120 days. Stripe’s policy explicitly allows releasing only part of the balance, continuing holds after formal review, or canceling payout of the remainder when unacceptable risk is deemed ongoing or when law requires it. Plan operating cash as if the held balance were unavailable until you receive written confirmation of release.
 
-If you are simultaneously handling partial processing restrictions, read [Stripe Account Suspended](/blog/stripe-account-suspended) for how payout holds differ from payment pauses — the appeal package overlaps, but cash-flow impact differs.
+If you are simultaneously handling partial processing restrictions, read Stripe Account Suspended for how payout holds differ from payment pauses — the appeal package overlaps, but cash-flow impact differs.
 
 ---
 
@@ -163,7 +163,7 @@ Document internal playbooks: who owns processor relationships, where credentials
 
 Appealing a Stripe account suspension or closure is a disciplined documentation exercise: read the notification carefully, submit a complete evidentiary package through the Dashboard and email channels Stripe specifies, and frame your case in calm, verifiable prose tied to the cited risk category. Official policy promises manual review and email outcomes; merchant experience often adds template denials, slow fund releases, and frontline support with limited escalation authority — plan for both possibilities.
 
-Clink does not offer Stripe “unban” services and cannot override Stripe risk decisions. When primary processor support fails, sustainable recovery means two things working together: **parallel payment continuity** through multi-PSP orchestration ([Smart Routing](/blog/smart-routing), [MoR vs PSP](/blog/mor-vs-psp)) so revenue keeps moving, and a **vendor relationship with human merchant support** for onboarding and RevOps teams who need escalation paths instead of automated ticket black holes. That is the operational model behind Clink’s Contact Sales onboarding — ongoing payment infrastructure with people accountable for your stack, not a workaround for Stripe’s risk queue.
+Clink does not offer Stripe “unban” services and cannot override Stripe risk decisions. When primary processor support fails, sustainable recovery means two things working together: **parallel payment continuity** through multi-PSP orchestration (Smart Routing, MoR vs PSP) so revenue keeps moving, and a **vendor relationship with human merchant support** for onboarding and RevOps teams who need escalation paths instead of automated ticket black holes. That is the operational model behind Clink’s Contact Sales onboarding — ongoing payment infrastructure with people accountable for your stack, not a workaround for Stripe’s risk queue.
 
 If you are restructuring payments after a restriction, talk to Clink via [clinkbill.com](https://clinkbill.com/) about linked PSP setup, routing, and billing continuity. API and integration references live at [docs.clinkbill.com](https://docs.clinkbill.com/).
 

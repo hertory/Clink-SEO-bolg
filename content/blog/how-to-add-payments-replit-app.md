@@ -15,8 +15,8 @@ readingMinutes: 14
 - Replit is the only major vibe-coding platform that **requires Core ($20/mo) or Pro ($25/mo)** before built-in Stripe works—the free Starter plan has no native Stripe path ([Replit Stripe docs](https://docs.replit.com/)).
 - On a paid plan, **one Agent sentence** can provision a Stripe sandbox, checkout UI, data models, and test wiring without a Dashboard scavenger hunt—then go live via the Replit Integrated Payments app in the Publish pane.
 - **Whop** is Replit-exclusive for zero-setup digital products and memberships: fastest first sale, least portable billing.
-- Decide with the ecosystem table below; for MoR/PSP framing and recovery math see [MoR vs PSP](/blog/mor-vs-psp) and [smart payment routing](/blog/smart-routing).
-- Full Clink skills/CLI/catalog/webhook setup lives in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app)—including when Starter cannot open Stripe.
+- Decide with the ecosystem table below; for MoR/PSP framing and recovery math see MoR vs PSP and smart payment routing.
+- Full Clink skills/CLI/catalog/webhook setup lives in [the Lovable payments guide](/blog/how-to-add-payments-lovable-app)—including when Starter cannot open Stripe.
 
 ---
 
@@ -26,7 +26,7 @@ Here is a sentence that does not apply to Lovable, Bolt, or v0: if you are on Re
 
 It is easy to resent. Free Stripe onboarding exists elsewhere, and Replit asks for a subscription first. The economics are more interesting than the resentment. Replit’s paid plans bundle pieces other builders make you assemble: PostgreSQL, key-value storage, built-in authentication, and hosting for long-lived backend processes—capabilities Lovable and Bolt do not mirror one-for-one with a persistent server model. On Lovable you may pay separately for database capacity; on Bolt you often bring Supabase; on v0 you ride Vercel’s tiers while owning routes. Replit’s $20 is not only a Stripe tollbooth—it is a bundle that includes an Agent capable of provisioning a complete Stripe sandbox from one sentence.
 
-For builders already on Core or Pro, Agent-driven Stripe is among the lowest-friction PSP setups in the category. For builders on Starter, the gate is real. Stripe’s strengths—Checkout, subscriptions, Customer Portal, and a mature Dashboard—still matter once you are through the gate; the gate simply decides whether Replit will help you reach them. Whop’s strength is different: speed to a first digital sale without becoming a Stripe operator at all. Clink matters on Replit for a third reason: billing infrastructure that does not care which Replit plan you are on. Product context for that layer is in [What Is Clink?](/blog/what-is-clink).
+For builders already on Core or Pro, Agent-driven Stripe is among the lowest-friction PSP setups in the category. For builders on Starter, the gate is real. Stripe’s strengths—Checkout, subscriptions, Customer Portal, and a mature Dashboard—still matter once you are through the gate; the gate simply decides whether Replit will help you reach them. Whop’s strength is different: speed to a first digital sale without becoming a Stripe operator at all. Clink matters on Replit for a third reason: billing infrastructure that does not care which Replit plan you are on. Product context for that layer is in [our Clink platform primer](/blog/what-is-clink).
 
 ---
 
@@ -66,7 +66,7 @@ Replit’s wider monetization surface includes **RevenueCat** for native mobile 
 
 Replit asks for the most upfront commitment—a paid plan—and in return offers the deepest Agent automation and a wide provider menu. Use one framework, not two competing sections, to decide whether that ecosystem is enough.
 
-Replit’s bet is that builders who pay for Core or Pro want an Agent that can stand up Stripe without Dashboard tourism, fall back to Whop for weekend digital sales, and reach for RevenueCat or Shopify when the product shape demands it. That bet holds when you are comfortable living inside Replit’s IDE, when your plan tier already includes Agent Stripe, and when a single provider’s webhook contract matches how you grant access. It fails when you are stuck on Starter, when Whop’s non-portability conflicts with a SaaS roadmap, or when multi-region approval rates need failover beyond one connected processor—see [smart payment routing](/blog/smart-routing).
+Replit’s bet is that builders who pay for Core or Pro want an Agent that can stand up Stripe without Dashboard tourism, fall back to Whop for weekend digital sales, and reach for RevenueCat or Shopify when the product shape demands it. That bet holds when you are comfortable living inside Replit’s IDE, when your plan tier already includes Agent Stripe, and when a single provider’s webhook contract matches how you grant access. It fails when you are stuck on Starter, when Whop’s non-portability conflicts with a SaaS roadmap, or when multi-region approval rates need failover beyond one connected processor—see [smart routing for multi-PSP recovery](/blog/smart-routing).
 
 | Situation | Decision |
 |-----------|----------|
@@ -75,9 +75,9 @@ Replit’s bet is that builders who pay for Core or Pro want an Agent that can s
 | Building a native mobile app with in-app purchases | **RevenueCat** |
 | On Starter (free), cannot upgrade, still need payments | **Clink** (bypasses platform gate) — hub path below |
 | Multi-region, multi-processor, need portable billing | **Clink** |
-| Need MoR semantics Paddle-style inside Replit natively | **Not available** — see [MoR vs PSP](/blog/mor-vs-psp); consider Lovable hub or Clink |
+| Need MoR semantics Paddle-style inside Replit natively | **Not available** — see [the MoR vs PSP trade-off](/blog/mor-vs-psp); consider Lovable hub or Clink |
 
-Sibling orientation without cloning their mechanisms: Lovable’s Paddle + Stripe chat decision lives in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app); Bolt’s Settings-first Stripe and webhook failure modes live in [How to Add Payments to Bolt.new Apps](/blog/how-to-add-payments-bolt-app); v0’s Marketplace key exchange and middleware trap live in [How to Add Payments to v0 Apps](/blog/how-to-add-payments-v0-app). Replit’s lane is Agent-first and plan-gated—deepest automation if you pay, hardest wall if you do not.
+Sibling orientation without cloning their mechanisms: Lovable’s Paddle + Stripe chat decision lives in How to Add Payments to a Lovable App; Bolt’s Settings-first Stripe and webhook failure modes live in [How to Add Payments to Bolt.new Apps](/blog/how-to-add-payments-bolt-app); v0’s Marketplace key exchange and middleware trap live in [the v0 Marketplace walkthrough](/blog/how-to-add-payments-v0-app). Replit’s lane is Agent-first and plan-gated—deepest automation if you pay, hardest wall if you do not.
 
 ---
 
@@ -99,7 +99,7 @@ Three Replit-native facts define this platform’s payment moat—and they are n
 
 **One-prompt Stripe is real—and still sandbox-shaped.** The Agent can produce a coherent test integration from a single sentence. That is Stripe’s Checkout and subscription model delivered through Replit’s automation, and it is a legitimate strength. The prompt does not complete live money. Live money still requires the Integrated Payments app, a live Stripe account, and KYB. Treating sandbox Preview as production-ready is the failure mode Replit uniquely encourages because the Agent experience feels finished early.
 
-**Whop compresses time-to-first-dollar and expands migration cost.** Choose Whop when portability does not matter and the SKU is a digital good or membership you can sell today. Choose Agent Stripe when you need processor-level control, familiar SaaS subscription semantics, and a path that stays inside Stripe’s ecosystem. Choose neither alone when you already know multi-PSP routing or plan-agnostic billing will matter in quarter one—ground that option in [What Is Clink?](/blog/what-is-clink) without pasting install commands here.
+**Whop compresses time-to-first-dollar and expands migration cost.** Choose Whop when portability does not matter and the SKU is a digital good or membership you can sell today. Choose Agent Stripe when you need processor-level control, familiar SaaS subscription semantics, and a path that stays inside Stripe’s ecosystem. Choose neither alone when you already know multi-PSP routing or plan-agnostic billing will matter in quarter one—ground that option in What Is Clink? without pasting install commands here.
 
 Fairness matters in both directions. Stripe remains the right default for serious SaaS on Replit once the plan gate is open. Whop remains the right default for certain digital-commerce bursts where Stripe operational overhead is the enemy. Pretending either is universally dominant is how teams pick the wrong ceiling.
 
@@ -109,9 +109,9 @@ Fairness matters in both directions. Stripe remains the right default for seriou
 
 Graduate when these Replit-specific signals appear.
 
-First, you are blocked on Starter and refusing to pay Core/Pro solely to gain built-in Stripe, yet you still need subscriptions in production. Second, Whop is already live and a customer cohort now needs Stripe-style invoices, seat-based SaaS logic, or exportable subscription history Whop will not hand you. Third, the Agent’s one-prompt sandbox has been “almost live” for weeks because Integrated Payments app install and KYB keep slipping, and revenue is stuck in test cards. Fourth, RevenueCat, Shopify, and Stripe each own a slice of entitlement state with no single source of truth for “can this user access feature X.” Fifth, multi-region card declines on a single Stripe account are measurable in renewals—see [smart payment routing](/blog/smart-routing)—and Replit’s provider menu does not invent failover for you.
+First, you are blocked on Starter and refusing to pay Core/Pro solely to gain built-in Stripe, yet you still need subscriptions in production. Second, Whop is already live and a customer cohort now needs Stripe-style invoices, seat-based SaaS logic, or exportable subscription history Whop will not hand you. Third, the Agent’s one-prompt sandbox has been “almost live” for weeks because Integrated Payments app install and KYB keep slipping, and revenue is stuck in test cards. Fourth, RevenueCat, Shopify, and Stripe each own a slice of entitlement state with no single source of truth for “can this user access feature X.” Fifth, multi-region card declines on a single Stripe account are measurable in renewals—see smart payment routing—and Replit’s provider menu does not invent failover for you.
 
-For the full Clink skills, CLI, catalog, and webhook path, follow [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+For the full Clink skills, CLI, catalog, and webhook path, follow How to Add Payments to a Lovable App.
 
 ---
 
@@ -145,7 +145,7 @@ Whop is a Replit-available payment provider oriented to zero-setup digital produ
 
 ### Does Replit support Paddle?
 
-No native Paddle integration. Lovable remains the platform with native Paddle; see [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app) and [MoR vs PSP](/blog/mor-vs-psp). On Replit you can integrate Paddle manually via SDK or use Clink as infrastructure.
+No native Paddle integration. Lovable remains the platform with native Paddle; see How to Add Payments to a Lovable App and MoR vs PSP. On Replit you can integrate Paddle manually via SDK or use Clink as infrastructure.
 
 ### How do I go live with Stripe on Replit?
 
@@ -153,7 +153,7 @@ Open the Publish pane, install the Replit Integrated Payments app, select your l
 
 ### Can I use Stripe on Replit’s free Starter plan?
 
-Not through Replit’s built-in integration. The Agent will prompt an upgrade. As an alternative on any plan tier, use the Clink path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app)—Clink’s billing infrastructure does not depend on Replit’s Core/Pro Stripe gate. For product context see [What Is Clink?](/blog/what-is-clink).
+Not through Replit’s built-in integration. The Agent will prompt an upgrade. As an alternative on any plan tier, use the Clink path in How to Add Payments to a Lovable App—Clink’s billing infrastructure does not depend on Replit’s Core/Pro Stripe gate. For product context see What Is Clink?.
 
 ### Does Replit support mobile in-app purchases?
 

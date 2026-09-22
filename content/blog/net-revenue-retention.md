@@ -37,7 +37,7 @@ The formula is deceptively short: NRR = (starting recurring revenue + expansion 
 
 The four forces in the numerator are the parts worth understanding. Expansion revenue comes from upgrades, additional seats, usage overages, and add-on products. Contraction is the reverse: downgrades, plan reductions, and seats removed. Churn is the revenue lost when customers cancel outright. A high NRR requires the first to outpace the second two, and each force has a different owner in the company.
 
-A worked example clarifies the mechanics. A company starts the year with $500,000 of MRR. Over the following twelve months, the same customers add $45,000 of expansion MRR, remove $15,000 through downgrades, and cancel $30,000 of MRR through churn. NRR = (500,000 + 45,000 − 15,000 − 30,000) ÷ 500,000 = 100%. The company retained its revenue but grew nothing from the base; every dollar of expansion was spent keeping the number flat.
+A worked example clarifies the mechanics. A company starts the year with $500,000 of [MRR](/blog/monthly-recurring-revenue). Over the following twelve months, the same customers add $45,000 of expansion MRR, remove $15,000 through downgrades, and cancel $30,000 of MRR through churn. NRR = (500,000 + 45,000 − 15,000 − 30,000) ÷ 500,000 = 100%. The company retained its revenue but grew nothing from the base; every dollar of expansion was spent keeping the number flat.
 
 Two measurement rules keep NRR honest. First, attribute every dollar to the customer cohort that existed at the start—revenue from new logos belongs to a different cohort and must be excluded, or NRR silently becomes a growth metric wearing a retention label. Second, use a consistent twelve-month window so seasonal expansion and contraction smooth out; a single quarter of expansion-heavy activity will otherwise flatter the number exactly when the board is making the most consequential decisions.
 
@@ -45,7 +45,7 @@ Two measurement rules keep NRR honest. First, attribute every dollar to the cust
 
 ## NRR vs GRR vs ARR: Reading the Retention Family
 
-NRR, gross revenue retention (GRR), and ARR answer different questions about the same customer base, and teams that blur them tell the wrong story. GRR asks "how much of the base simply stayed?"; NRR asks "did the base grow?"; ARR reports the absolute result.
+NRR, gross revenue retention (GRR), and [ARR](/blog/annual-recurring-revenue) answer different questions about the same customer base, and teams that blur them tell the wrong story. GRR asks "how much of the base simply stayed?"; NRR asks "did the base grow?"; ARR reports the absolute result.
 
 GRR excludes expansion entirely: it divides what the starting cohort still pays today (after contraction and churn, before expansion) by what it paid a year ago. A GRR of 90% means the company lost 10% of its base revenue to churn and downgrades, regardless of how much expansion the survivors delivered. GRR is the floor—the revenue that stays without any growth effort—and it is usually the more conservative, more stable number.
 
@@ -85,7 +85,7 @@ For subscription teams, NRR is the metric that most rewards clean billing archit
 
 The collection layer adds a second distortion that most retention glossaries miss: churn is not always a decision. A renewal that fails because a card expired or a soft decline went unretried converts into involuntary churn—revenue lost without the customer choosing to leave. Over a year, that gap sits inside the churn component of the NRR formula, quietly depressing the number and, with it, the growth story the deck is trying to tell.
 
-This is why NRR improvement is partly a payment infrastructure conversation. Automatic retries on soft declines, payment-method update flows, and routing that keeps renewals alive on a backup path all reduce the involuntary component of churn—which raises NRR without a single pricing or product change. Clink's billing layer is designed to keep subscription records and processor connections separate, so renewal state and retry behavior live in one auditable place; packaging is discussed via [Contact Sales](https://clinkbill.com/contact), as Clink does not publish a public rate card as of June 2026. For the mechanics of multi-path recovery, see the [smart routing article](/blog/smart-routing); for the revenue base NRR compounds, see [ARR meaning](/blog/annual-recurring-revenue).
+This is why NRR improvement is partly a payment infrastructure conversation. Automatic retries on soft declines, payment-method update flows, and routing that keeps renewals alive on a backup path all reduce the involuntary component of churn—which raises NRR without a single pricing or product change. Clink's billing layer is designed to keep subscription records and processor connections separate, so renewal state and retry behavior live in one auditable place; packaging is discussed via [Contact Sales](https://clinkbill.com/contact), as Clink does not publish a public rate card as of June 2026. For the mechanics of multi-path recovery, see the [smart routing article](/blog/smart-routing); for the revenue base NRR compounds, see ARR meaning.
 
 ---
 

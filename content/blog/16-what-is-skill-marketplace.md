@@ -41,7 +41,7 @@ It is worth being precise about what "payment-enabled" means, because it is a co
 
 The difference matters for two reasons. First, it widens the marketplace: a payment-enabled marketplace does not require every skill to charge money, it simply makes payment a first-class property of any skill that chooses to use it. Second, it changes what merchants must build. In a general marketplace, monetizing a skill means integrating a separate payment stack — which is why several skill marketplaces route creators through Stripe Connect. In a payment-native marketplace, settlement, recharge, and tips are infrastructure, not integration.
 
-This is the shift we explore in more depth in [Clink Launches Skill Marketplace — Monetize Agent Skills Natively](/blog/clink-launches-skill-marketplace). For the definitional question here: a payment-enabled skill marketplace is a reviewed catalog where payment behavior is part of the skill's contract with the buyer.
+This is the shift we explore in more depth in [Clink Launches Skill Marketplace](/blog/clink-launches-skill-marketplace). For the definitional question here: a payment-enabled skill marketplace is a reviewed catalog where payment behavior is part of the skill's contract with the buyer.
 
 ## How a Skill Marketplace Works: Publish → Review → Discover → Install
 

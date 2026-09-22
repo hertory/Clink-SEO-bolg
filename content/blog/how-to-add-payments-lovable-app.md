@@ -14,8 +14,8 @@ readingMinutes: 15
 
 - You can add payments to a Lovable app three ways: built-in **Paddle** (MoR-oriented global digital), built-in **Stripe** (PSP economics and control), or **Clink** as portable payment infrastructure when you need multi-PSP routing, durable subscription data, or agent-assisted integration via [clink-integ-skills](https://github.com/clinkbillcom/clink-integ-skills).
 - Lovable’s chat-driven payments require Pro (or higher), Lovable Cloud, and **one** built-in provider per project; switching providers does not migrate catalog or subscriptions ([Lovable payments docs](https://docs.lovable.dev/features/payments)).
-- Paddle fits international digital catalogs that want MoR-style tax handling; Stripe fits domestic-heavy or services volume and teams that want processor-level control—see [MoR vs PSP](/blog/mor-vs-psp).
-- **This article is the canonical Clink integration guide** for vibe-coded apps; [Bolt](/blog/how-to-add-payments-bolt-app), [v0](/blog/how-to-add-payments-v0-app), and [Replit](/blog/how-to-add-payments-replit-app) link here for the full Path C setup.
+- Paddle fits international digital catalogs that want MoR-style tax handling; Stripe fits domestic-heavy or services volume and teams that want processor-level control—see MoR vs PSP.
+- **This article is the canonical Clink integration guide** for vibe-coded apps; Bolt, v0, and Replit link here for the full Path C setup.
 - Stripe-only Lovable walkthroughs (built-in vs legacy, go-live) live in [Integrate Stripe with Lovable](/blog/integrate-stripe-lovable)—this page owns the three-path decision and the complete Clink skill flow.
 
 ---
@@ -42,7 +42,7 @@ Inside Lovable, Paddle checkout can run as an overlay or inline embed. Customer 
 
 Stripe through Lovable is the PSP path. You stay closer to a classic processor relationship: lower processing costs for many domestic card flows, support for services as well as digital goods, and optional MoR-style options on Stripe’s side where available. Lovable documents Stripe as using **standard Stripe pay-as-you-go rates** when connected through the built-in flow—same economics as wiring Stripe yourself, with Lovable handling schema, webhooks, and chat-driven setup ([Stripe integration docs](https://docs.lovable.dev/integrations/stripe)).
 
-Choose Stripe when early revenue concentrates in markets Stripe covers well, when you sell services (not only digital downloads), or when you want finer control over merchant identity and processor-level configuration. Checkout in Lovable’s Stripe path is embedded on the page; visual tweaks and payment-method configuration live in the Stripe Dashboard rather than in Lovable chat. For claim-sandbox, legacy Supabase, testing, and go-live detail, use the dedicated deep dive: [Integrate Stripe with Lovable](/blog/integrate-stripe-lovable).
+Choose Stripe when early revenue concentrates in markets Stripe covers well, when you sell services (not only digital downloads), or when you want finer control over merchant identity and processor-level configuration. Checkout in Lovable’s Stripe path is embedded on the page; visual tweaks and payment-method configuration live in the Stripe Dashboard rather than in Lovable chat. For claim-sandbox, legacy Supabase, testing, and go-live detail, use the dedicated deep dive: Integrate Stripe with Lovable.
 
 The architectural constraint that matters for graduation: Lovable allows **only one built-in provider per project**. You can switch from Paddle to Stripe (or the reverse), but products, prices, and subscriptions do not migrate. That limitation is fine for a first launch. It becomes expensive the moment you need a second acquirer, a backup route for soft declines, or billing logic that must survive a provider change—exactly when [smart payment routing](/blog/smart-routing) becomes relevant.
 
@@ -62,7 +62,7 @@ Those rules make built-in payments excellent for shipping the first dollar. They
 
 > **Canonical Clink integration.** Sibling guides for Bolt, v0, and Replit should link here for skills, CLI, catalog, and webhook setup—not restate this section.
 
-Clink is not a Lovable plugin that replaces the chat “add payments” button. It is a **payment infrastructure** layer: you integrate Clink once for products, prices, checkout sessions, subscriptions, and webhooks; Clink can route to connected processors (including Stripe and others) while keeping billing data independent of any single PSP. That is the same “connect once, route anywhere” thesis in [What Is Clink?](/blog/what-is-clink) and the revenue-recovery logic in [smart payment routing](/blog/smart-routing).
+Clink is not a Lovable plugin that replaces the chat “add payments” button. It is a **payment infrastructure** layer: you integrate Clink once for products, prices, checkout sessions, subscriptions, and webhooks; Clink can route to connected processors (including Stripe and others) while keeping billing data independent of any single PSP. That is the same “connect once, route anywhere” thesis in What Is Clink? and the revenue-recovery logic in smart payment routing.
 
 For Lovable and other agent-built apps, the practical entry point is open-source **[clink-integ-skills](https://github.com/clinkbillcom/clink-integ-skills)**. It is designed so a coding agent—not only a human dashboard operator—can integrate ClinkBill payments in a CLI-first workflow: Secret Key authentication, product catalog import, checkout or subscription APIs, webhook endpoint automation, signature verification, and sandbox validation. The default agent prompt is intentionally short:
 
@@ -100,7 +100,7 @@ clink webhook endpoint ensure \
 
 After `--save-secret`, sync `CLINK_WEBHOOK_SIGNING_KEY` into the app runtime and restart. Treat sandbox as the default environment until you explicitly promote to production. Official API contracts should be checked against [docs.clinkbill.com](https://docs.clinkbill.com/) (the skill’s docs loader uses the published llms export rather than inventing endpoints).
 
-What you gain versus staying on Lovable’s single built-in provider: portable catalog and subscription models, a single webhook contract, optional multi-PSP routing later, and an agent-native integration path that matches how Lovable apps are already built—by prompting an agent. Clink does not remove entitlements logic in your app; it gives that logic a durable payment backend. Pricing remains Contact Sales; there is no public self-serve rate card on the marketing site as of mid-2026 (C1).
+What you gain versus staying on Lovable’s single built-in provider: portable catalog and subscription models, a single webhook contract, optional multi-PSP routing later, and an agent-native integration path that matches how Lovable apps are already built—by prompting an agent. Clink does not remove entitlements logic in your app; it gives that logic a durable payment backend. Pricing remains Contact Sales; there is no public self-serve rate card on the marketing site as of mid-2026.
 
 ---
 

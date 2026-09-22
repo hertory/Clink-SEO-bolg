@@ -16,7 +16,7 @@ readingMinutes: 12
 - **Shopify merchants**: check **Settings → Sales channels → Agentic**—eligible U.S.-buyer stores are often **already syndicated** to ChatGPT via Shopify Catalog; ChatGPT sends buyers to your store checkout (in-app browser), not a mandatory in-chat cart.
 - **Etsy sellers**: catalogs are **auto-integrated**—no separate application at chatgpt.com/merchants.
 - **Everyone else**: apply at [chatgpt.com/merchants](https://chatgpt.com/merchants/), build an [OpenAI product feed](https://developers.openai.com/commerce/specs/file-upload/products), allow **`OAI-SearchBot`** in robots.txt, and refresh inventory at least daily.
-- You remain **merchant of record (MoR)**—refunds, chargebacks, and PSP fees stay on your stack; for MoR vs PSP framing see [MoR vs PSP](/blog/mor-vs-psp). Retail protocols ([ACP](/blog/what-is-agentic-commerce-protocol), [UCP](/blog/what-is-universal-commerce-protocol)) sit under the broader [agent payments](/blog/agent-payments) stack.
+- You remain **merchant of record (MoR)**—refunds, chargebacks, and PSP fees stay on your stack; for MoR vs PSP framing see [MoR vs PSP](/blog/mor-vs-psp). Retail protocols (ACP, UCP) sit under the broader agent payments stack.
 
 ---
 
@@ -42,7 +42,7 @@ Beyond organic discovery, OpenAI describes additional surfaces merchants may eva
 | **Etsy** seller | Auto-integrated catalog | Improve listings; no OpenAI application |
 | **Stripe retail** (headless, Wix, WooCommerce, BigCommerce) | [Agentic Commerce Suite](https://docs.stripe.com/agentic-commerce/for-sellers) waitlist | [Join waitlist](https://go.stripe.global/agentic-commerce-contact-sales) → Dashboard **Agentic commerce** |
 | **Custom storefront** (Magento, DTC, non-Shopify) | OpenAI merchant feed | [chatgpt.com/merchants](https://chatgpt.com/merchants/) application → SFTP feed |
-| **API / SaaS seller** (not retail SKUs) | Machine payments, not ChatGPT retail feeds | [MPP / x402](/blog/what-is-machine-payments-protocol)—different problem |
+| **API / SaaS seller** (not retail SKUs) | Machine payments, not ChatGPT retail feeds | [MPP](/blog/what-is-machine-payments-protocol) / [x402](/blog/what-is-x402)—different problem |
 
 If you also want **Buy buttons inside Google AI Mode**, that is a separate **[UCP](/blog/what-is-universal-commerce-protocol)** track (Merchant Center + engineering waitlist)—not required to appear in ChatGPT discovery.
 
@@ -132,7 +132,7 @@ When a shopper converts, send them to **your existing checkout**—Stripe, Adyen
 
 ## Stripe Merchants: Agentic Commerce Suite
 
-If your commerce stack runs on **Stripe** but not Shopify's one-click Agentic channel, the **Agentic Commerce Suite (ACS)** is Stripe's modular path to **discovery, checkout, and agentic payments** through a Dashboard workflow rather than hand-building all five [ACP](/blog/what-is-agentic-commerce-protocol) checkout endpoints on day one.
+If your commerce stack runs on **Stripe** but not Shopify's one-click Agentic channel, the **Agentic Commerce Suite (ACS)** is Stripe's modular path to **discovery, checkout, and agentic payments** through a Dashboard workflow rather than hand-building all five ACP checkout endpoints on day one.
 
 As of mid-2026, ACS is in **private preview**:
 
@@ -157,9 +157,9 @@ As of mid-2026, ACS is in **private preview**:
 | **Product feed** submission for discovery | No per-transaction feed fee stated on merchant page | Feed ops / engineering |
 | Historic **Instant Checkout** inside ChatGPT (pre-pivot, limited merchants) | Industry reporting cited **~4%** OpenAI platform fee on completed in-chat orders (Shopify spokesperson, Jan 2026) plus processing | Largely **deprecated path** for most brands |
 
-**Merchant of record does not change.** OpenAI is **not** MoR. You handle **refunds, chargebacks, tax remittance where applicable, and customer support** on your existing PSP relationship—same as your web store. Delegated payment tokens ([Shared Payment Tokens](/blog/what-is-agentic-commerce-protocol)) scope agent-initiated charges; they do not transfer legal seller obligations to OpenAI.
+**Merchant of record does not change.** OpenAI is **not** MoR. You handle **refunds, chargebacks, tax remittance where applicable, and customer support** on your existing PSP relationship—same as your web store. Delegated payment tokens (Shared Payment Tokens) scope agent-initiated charges; they do not transfer legal seller obligations to OpenAI.
 
-When **human web checkout** and **agent-surfaced orders** share one Stripe or multi-PSP stack, reconciliation and routing complexity rises—teams evaluating orchestration should read [smart payment routing](/blog/smart-routing) alongside this guide. Clink's human billing layer is separate from ChatGPT retail discovery; do not conflate **selling SKUs in ChatGPT** with **agents paying your API** ([MPP](/blog/what-is-machine-payments-protocol)).
+When **human web checkout** and **agent-surfaced orders** share one Stripe or multi-PSP stack, reconciliation and routing complexity rises—teams evaluating orchestration should read [smart payment routing](/blog/smart-routing) alongside this guide. Clink's human billing layer is separate from ChatGPT retail discovery; do not conflate **selling SKUs in ChatGPT** with **agents paying your API** (MPP).
 
 ---
 
@@ -194,7 +194,7 @@ When **human web checkout** and **agent-surfaced orders** share one Stripe or mu
 
 Selling on ChatGPT in 2026 is a **distribution and catalog hygiene** project first and a **new checkout UI** project second. Shopify and Etsy merchants should **verify Agentic or auto-sync status** before building custom feeds. Everyone else should **apply early**, **allow OAI-SearchBot**, and treat **fresh structured catalog data** as the product. Checkout stays **on your turf**—you keep MoR, your PSP, and your customer relationship; OpenAI's pivot made that explicit.
 
-For protocol depth behind the merchant surface, read [ACP](/blog/what-is-agentic-commerce-protocol) and the [agent payments](/blog/agent-payments) hub. For Google-native embedded checkout, see [UCP](/blog/what-is-universal-commerce-protocol)—a parallel track, not a substitute for ChatGPT discovery.
+For protocol depth behind the merchant surface, read ACP and the [agent payments](/blog/agent-payments) hub. For Google-native embedded checkout, see UCP—a parallel track, not a substitute for ChatGPT discovery.
 
 Before you build feeds, confirm **where** you want to appear ([AI channel live status](/blog/agentic-commerce-agent-channels)), **what platform** syndicates your catalog ([Shopify Agentic, WooCommerce, headless UCP profiles](/blog/agentic-commerce-merchant-stack-cms)), and **which PSP** handles delegated payment ([Stripe ACS, Worldpay, and peers](/blog/agentic-commerce-merchant-stack-psp)).
 
@@ -224,4 +224,4 @@ A **product feed** is a structured file (or platform syndication) with titles, p
 
 ### Is selling on ChatGPT the same as agent payments for my API?
 
-No. **ChatGPT retail discovery** targets **physical and digital goods sold as SKUs** via feeds and commerce protocols. **Agents paying for API usage** uses **[MPP](/blog/what-is-machine-payments-protocol)**, **[x402](/blog/what-is-x402)**, or similar **HTTP 402 / machine payment** flows—covered in the [agent payments](/blog/agent-payments) stack, not this merchant feed guide.
+No. **ChatGPT retail discovery** targets **physical and digital goods sold as SKUs** via feeds and commerce protocols. **Agents paying for API usage** uses **MPP**, **x402**, or similar **HTTP 402 / machine payment** flows—covered in the agent payments stack, not this merchant feed guide.

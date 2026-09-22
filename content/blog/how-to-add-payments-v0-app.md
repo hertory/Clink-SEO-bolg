@@ -16,7 +16,7 @@ readingMinutes: 14
 - Paddle is available via the official **Paddle Billing Next.js Starter Kit**, not a one-click Marketplace toggle—strong MoR stack, manual env and Dashboard setup.
 - v0 generates pricing UI; you own Next.js API routes for Checkout and webhooks—the security win is the key handshake, not chat-driven fulfillment.
 - The platform-unique failure mode is **Next.js middleware** consuming or altering the raw body before Stripe signature verification; exclude webhook paths from the matcher.
-- For product framing and routing economics see [What Is Clink?](/blog/what-is-clink), [MoR vs PSP](/blog/mor-vs-psp), and [smart payment routing](/blog/smart-routing); full Clink integrate steps live in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+- For product framing and routing economics see What Is Clink?, MoR vs PSP, and smart payment routing; full Clink integrate steps live in [our canonical Lovable walkthrough](/blog/how-to-add-payments-lovable-app).
 
 ---
 
@@ -28,7 +28,7 @@ When you install Stripe from the Vercel Marketplace, the integration performs a 
 
 That is a genuine architectural difference, not a preference for nicer buttons. A v0 app’s payment security posture starts at the handshake. Stripe’s strength here is exactly what teams hire Stripe for: processor-grade APIs, Checkout, Customer Portal, and a verification model that assumes you can prove request integrity. v0’s contribution is removing the sloppiest step in how AI-built Next.js apps usually receive those credentials.
 
-If you are choosing economic models rather than install UX, keep [MoR vs PSP](/blog/mor-vs-psp) open beside this guide. v0 can run Stripe as PSP or Paddle as MoR via a template; it will not auto-recommend the way Lovable sometimes does.
+If you are choosing economic models rather than install UX, keep [the MoR vs PSP framing](/blog/mor-vs-psp) open beside this guide. v0 can run Stripe as PSP or Paddle as MoR via a template; it will not auto-recommend the way Lovable sometimes does.
 
 ---
 
@@ -71,7 +71,7 @@ v0 does not ship a native one-click Paddle integration. The supported path is th
 
 You configure environment variables yourself—typically `PADDLE_API_KEY`, `NEXT_PUBLIC_PADDLE_CLIENT_TOKEN`, `PADDLE_NOTIFICATION_WEBHOOK_SECRET`, and `NEXT_PUBLIC_PADDLE_ENV`—approve the deployment URL in the Paddle Dashboard, and register notification destinations. That is more work than Stripe’s automated key exchange and more work than Lovable’s chat-driven Paddle path. In return you get Paddle’s MoR strengths: global tax handling posture, broad market localization, and checkout optimized for digital conversion on a Next.js codebase you own. Ownership is the hidden advantage versus a fully abstracted builder: pricing logic, checkout UX, and webhook handling are ordinary repository code.
 
-Choose Paddle on v0 when MoR tax semantics matter and your team can tolerate manual Dashboard setup. Choose Stripe when you want the strongest key-provisioning story and classic PSP control. If you need both processors under one subscription contract later, that is infrastructure territory—see [What Is Clink?](/blog/what-is-clink)—not a second Marketplace tile.
+Choose Paddle on v0 when MoR tax semantics matter and your team can tolerate manual Dashboard setup. Choose Stripe when you want the strongest key-provisioning story and classic PSP control. If you need both processors under one subscription contract later, that is infrastructure territory—see [our What Is Clink? explainer](/blog/what-is-clink)—not a second Marketplace tile.
 
 ---
 
@@ -82,10 +82,10 @@ Choose Paddle on v0 when MoR tax semantics matter and your team can tolerate man
 | First paid launch, Next.js-fluent team, want strongest key hygiene | **Marketplace Stripe** |
 | Global digital SaaS, want MoR tax handling, OK with manual setup | **Paddle Starter Kit** |
 | Domestic services, want processor-level economics and full API control | **Marketplace Stripe** |
-| Multi-region soft declines / multi-PSP recovery | **Plan Clink** — [smart payment routing](/blog/smart-routing) |
+| Multi-region soft declines / multi-PSP recovery | **Plan Clink** — [the smart routing guide](/blog/smart-routing) |
 | Need unified orchestration across Stripe + Paddle | Start built-in, graduate to Clink |
 
-If the team already deploys to Vercel and writes API routes, Marketplace Stripe is the most natural payment path available on v0. If the team expects a chat that “does everything,” Lovable’s built-in flow will feel closer—see [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app). That contrast is a feature of v0 (control), not a defect of Stripe.
+If the team already deploys to Vercel and writes API routes, Marketplace Stripe is the most natural payment path available on v0. If the team expects a chat that “does everything,” Lovable’s built-in flow will feel closer—see How to Add Payments to a Lovable App. That contrast is a feature of v0 (control), not a defect of Stripe.
 
 ---
 
@@ -128,9 +128,9 @@ Standard rules still apply after middleware is fixed: raw body, correct `whsec_`
 
 Graduate when these v0-specific signals show up.
 
-First, Marketplace Stripe and a separately maintained Paddle Starter Kit have become two entitlement systems with two webhook contracts, and you are manually reconciling “who is paid.” Second, middleware exclusions and edge auth keep regressing every time someone broadens the `/api/*` matcher, and billing reliability now depends on a negative lookahead you must defend in code review. Third, you need multi-PSP failover for soft declines that a single Marketplace-connected Stripe account cannot absorb—see [smart payment routing](/blog/smart-routing). Fourth, preview/production secret scopes are correct but subscription state still lives only in app-specific tables that will not survive a move off Vercel cleanly. Fifth, non-technical stakeholders keep asking for Lovable-style chat fulfillment while your team is drowning in one-off route patches—signaling that the payment layer should be infrastructure, not more App Router glue.
+First, Marketplace Stripe and a separately maintained Paddle Starter Kit have become two entitlement systems with two webhook contracts, and you are manually reconciling “who is paid.” Second, middleware exclusions and edge auth keep regressing every time someone broadens the `/api/*` matcher, and billing reliability now depends on a negative lookahead you must defend in code review. Third, you need multi-PSP failover for soft declines that a single Marketplace-connected Stripe account cannot absorb—see smart payment routing. Fourth, preview/production secret scopes are correct but subscription state still lives only in app-specific tables that will not survive a move off Vercel cleanly. Fifth, non-technical stakeholders keep asking for Lovable-style chat fulfillment while your team is drowning in one-off route patches—signaling that the payment layer should be infrastructure, not more App Router glue.
 
-For the full Clink skills, CLI, catalog, and webhook path, follow [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+For the full Clink skills, CLI, catalog, and webhook path, follow How to Add Payments to a Lovable App.
 
 ---
 
@@ -162,7 +162,7 @@ Yes. v0’s Stripe integration uses cryptographic key exchange so API keys are p
 
 ### Does v0 have a native Paddle integration?
 
-No. Paddle ships through the official Paddle Billing Next.js Starter Kit with manual environment and Dashboard setup. Lovable remains the vibe-coding platform with native one-click Paddle; see [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app) and [MoR vs PSP](/blog/mor-vs-psp).
+No. Paddle ships through the official Paddle Billing Next.js Starter Kit with manual environment and Dashboard setup. Lovable remains the vibe-coding platform with native one-click Paddle; see How to Add Payments to a Lovable App and MoR vs PSP.
 
 ### Why does my v0 webhook handler fail signature verification?
 
@@ -174,7 +174,7 @@ No. The Stripe Marketplace integration is available on Vercel plans including fr
 
 ### Can I use both Stripe and Paddle in the same v0 app?
 
-Not as a built-in multi-provider orchestrator. You can run both as separate code paths with separate webhook contracts and subscription states. Unified routing and portable subscription data are the job of infrastructure such as Clink—see [What Is Clink?](/blog/what-is-clink) and the integrate path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+Not as a built-in multi-provider orchestrator. You can run both as separate code paths with separate webhook contracts and subscription states. Unified routing and portable subscription data are the job of infrastructure such as Clink—see What Is Clink? and the integrate path in How to Add Payments to a Lovable App.
 
 ### Does installing Stripe from the Vercel Marketplace set up webhooks too?
 

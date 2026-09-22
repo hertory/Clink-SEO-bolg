@@ -16,7 +16,7 @@ readingMinutes: 11
 - OpenRouter is a model-routing gateway: one API key, 400+ models, roughly 8 million developers, and a reported ~5% platform fee on inference spend—three months after raising $113 million at a reported $1.3 billion valuation in May 2026.
 - The strategic read is vertical integration: Stripe already processed OpenRouter’s billing; owning the router folds metering, routing, and settlement into one company at the moment agentic software makes inference spend a core operating cost.
 - Developers worry about neutrality—OpenRouter’s pitch was model-agnostic routing—and SaaS teams should treat the reported deal as confirmation that the AI stack’s durable value is shifting toward gateways and billing rails, not just foundation models.
-- For merchants, the signal aligns with what Clink has argued in [agent payments](/blog/agent-payments) and [Cloudflare Wallets](/blog/cloudflare-wallets-agent-payments): autonomous buyers need policy-time guardrails and portable billing layers, not human checkout loops.
+- For merchants, the signal aligns with what Clink has argued in [agent payments](/blog/agent-payments) and Cloudflare Wallets: autonomous buyers need policy-time guardrails and portable billing layers, not human checkout loops.
 
 ---
 
@@ -70,7 +70,7 @@ For SaaS and platform teams, the takeaway is architectural. Inference is becomin
 
 Reported M&A at this scale is a category signal, not an action item on its own. Teams should read it alongside other August 2026 infrastructure moves—Cloudflare Wallets, x402 Foundation governance, Tempo mainnet—and ask whether their product assumes a human buyer, a single model vendor, or a single payment processor.
 
-**Segment agent traffic explicitly.** Agents that buy APIs, skills, or datasets need machine-readable authorization, scoped budgets, and audit trails—the requirements Clink outlined in [agent payments](/blog/agent-payments). Whether settlement runs over cards, stablecoins, or prepaid credits, the operating model is delegation with guardrails, not approval-time checkout.
+**Segment agent traffic explicitly.** Agents that buy APIs, skills, or datasets need machine-readable authorization, scoped budgets, and audit trails—the requirements Clink outlined in agent payments. Whether settlement runs over cards, stablecoins, or prepaid credits, the operating model is delegation with guardrails, not approval-time checkout.
 
 **Keep model and payment dependencies portable.** OpenRouter simplified multi-model access; a reported Stripe acquisition does not remove the need for a fallback path. Maintain credentials for critical models direct from providers where economics justify it, and maintain billing data outside any one PSP where regulations and risk policies allow.
 

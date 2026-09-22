@@ -15,8 +15,8 @@ readingMinutes: 13
 - **Stripe chargeback prevention** combines checkout hygiene (clear statement descriptors, receipt emails, visible cancellation flows), fraud tools (Stripe Radar rules, adaptive 3D Secure, proactive refunds), and dispute response (compelling evidence submitted once through the Dashboard before the network deadline) — because monitoring programs count disputes when funds leave your account, not when you win representment.
 - Early fraud warnings (EFWs), including Visa TC40 reports, are informational signals from issuers that do not require a response — but Stripe documents that roughly **80%** of EFWs convert into fraud disputes if you take no action, so refunding or investigating suspicious charges before a formal chargeback often costs less than fighting later.
 - For Visa fraud disputes under reason code **10.4**, [Visa Compelling Evidence 3.0](https://docs.stripe.com/disputes/best-practices#visa-ce-30) lets merchants prove prior legitimate history with matching IP, device, or account identifiers; subscription merchants more often see **13.2** (cancelled recurring) disputes, which require cancellation timestamps and policy evidence instead.
-- Elevated dispute rates feed Visa's VAMP program (non-compliant threshold **0.5%** dispute ratio in most regions) and can escalate to payout holds or account restrictions — see [Stripe Account Suspended](/blog/stripe-account-suspended) for restriction types and [Why Stripe Closes Accounts](/blog/why-stripe-closes-accounts) for escalation paths.
-- This article is the prevention-and-representment capstone of the dispute trilogy; for dispute mechanics start with [What Is a Stripe Dispute](/blog/what-is-stripe-dispute), and for cardholder-side steps see [How to Dispute a Stripe Charge](/blog/how-to-dispute-stripe-charge).
+- Elevated dispute rates feed Visa's VAMP program (non-compliant threshold **0.5%** dispute ratio in most regions) and can escalate to payout holds or account restrictions — see Stripe Account Suspended for restriction types and Why Stripe Closes Accounts for escalation paths.
+- This article is the prevention-and-representment capstone of the dispute trilogy; for dispute mechanics start with [What Is a Stripe Dispute](/blog/what-is-stripe-dispute), and for cardholder-side steps see How to Dispute a Stripe Charge.
 
 ---
 
@@ -84,7 +84,7 @@ SaaS and subscription merchants face a predictable dispute mix: **Visa 10.4** (c
 
 Send **renewal reminders** before capture with amount, date, and a one-click cancel link. Log every cancellation with timestamp and confirmation. Expose Stripe Billing's customer portal — hiding cancel behind support tickets invites 13.2 disputes. When support receives a cancel request, stop renewal immediately and refund per policy; goodwill refunds cost less than dispute fees plus ratio damage.
 
-Visa CE 3.0 applies primarily to **10.4** fraud disputes, not 13.2 cancelled recurring. Do not assume CE 3.0 autofill in the Dashboard replaces cancellation-policy evidence when the reason code is consumer-dispute category. Match your representment packet to the actual `reason` on the Dispute object — covered in [What Is a Stripe Dispute](/blog/what-is-stripe-dispute) for the full category taxonomy.
+Visa CE 3.0 applies primarily to **10.4** fraud disputes, not 13.2 cancelled recurring. Do not assume CE 3.0 autofill in the Dashboard replaces cancellation-policy evidence when the reason code is consumer-dispute category. Match your representment packet to the actual `reason` on the Dispute object — covered in What Is a Stripe Dispute for the full category taxonomy.
 
 ---
 
@@ -191,7 +191,7 @@ Often yes — if you believe the charge is true fraud and liability shift does n
 
 ### What dispute rate puts my Stripe account at risk?
 
-Visa's VAMP program flags many merchants at a **0.5%** monthly dispute-and-fraud ratio (non-compliant threshold), with excessive thresholds at **1.5%** in most regions — and early fraud warnings count in fraud calculations. Stripe may restrict payouts or pause payments at elevated dispute levels even before network program letters arrive; see [Stripe Account Suspended](/blog/stripe-account-suspended) for restriction types.
+Visa's VAMP program flags many merchants at a **0.5%** monthly dispute-and-fraud ratio (non-compliant threshold), with excessive thresholds at **1.5%** in most regions — and early fraud warnings count in fraud calculations. Stripe may restrict payouts or pause payments at elevated dispute levels even before network program letters arrive; see Stripe Account Suspended for restriction types.
 
 ### Can I guarantee winning a Stripe dispute?
 

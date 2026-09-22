@@ -11,11 +11,11 @@ readingMinutes: 14
 
 ## TL;DR
 
-- **Agent channels in agentic commerce** are the AI surfaces where a buyer—or a buyer's delegated agent—starts a retail journey: product discovery, cart assembly, checkout, and payment authorization. They sit above open protocols ([ACP](/blog/what-is-agentic-commerce-protocol), [UCP](/blog/what-is-universal-commerce-protocol), [AP2](/blog/what-is-ap2-agent-payments-protocol)) and merchant infrastructure—not inside your CMS.
+- **Agent channels in agentic commerce** are the AI surfaces where a buyer—or a buyer's delegated agent—starts a retail journey: product discovery, cart assembly, checkout, and payment authorization. They sit above open protocols (ACP, UCP, AP2) and merchant infrastructure—not inside your CMS.
 - As of September 2026, **live retail agent channels** with Tier 0 documentation cluster around **ChatGPT (U.S. discovery)**, **Microsoft Copilot Checkout**, **Google AI Mode / Gemini native checkout**, and **Meta Facebook ads with Stripe ACS**—all protocol-backed paths distinct from generic chat assistants.
-- **Messaging super-apps** (WhatsApp, LINE, Telegram, WeChat) support commerce through proprietary bot APIs or closed wallets; none publish official [ACP](/blog/what-is-agentic-commerce-protocol) or [UCP](/blog/what-is-universal-commerce-protocol) integrations as of this writing.
+- **Messaging super-apps** (WhatsApp, LINE, Telegram, WeChat) support commerce through proprietary bot APIs or closed wallets; none publish official ACP or UCP integrations as of this writing.
 - **Claude has no consumer shopping channel**; **Manus is a merchant-side builder**, not a buyer surface. **Enterprise and custom agents** via MCP and `/.well-known/ucp` profiles are the fastest path for B2B and headless merchants.
-- This list covers **retail agentic commerce only**—not [machine/API micro-payments](/blog/what-is-machine-payments-protocol) (MPP/x402). Status claims trace to official sources in the reference table below. Merchant-side enablement—[which storefront platforms expose Agentic Storefronts or UCP profiles](/blog/agentic-commerce-merchant-stack-cms) and [which PSPs ship delegated checkout products like Stripe ACS](/blog/agentic-commerce-merchant-stack-psp)—is documented in separate references scoped to those layers.
+- This list covers **retail agentic commerce only**—not machine/API micro-payments (MPP/x402). Status claims trace to official sources in the reference table below. Merchant-side enablement—[which storefront platforms expose Agentic Storefronts or UCP profiles](/blog/agentic-commerce-merchant-stack-cms) and which PSPs ship delegated checkout products like Stripe ACS—is documented in separate references scoped to those layers.
 
 ---
 
@@ -25,7 +25,7 @@ An **agent channel** is the buyer-facing AI interface where agentic commerce act
 
 In the retail stack, channels connect to **open protocols** and **payment rails** on the merchant side. [ACP (Agentic Commerce Protocol)](/blog/what-is-agentic-commerce-protocol), co-developed by OpenAI and Stripe, emphasizes product feeds, delegated checkout, and Stripe Shared Payment Tokens for ChatGPT-era flows. [UCP (Universal Commerce Protocol)](/blog/what-is-universal-commerce-protocol), co-developed by Google and Shopify, targets full-journey checkout on Gemini, Copilot, and merchant-published profiles. [AP2](/blog/what-is-ap2-agent-payments-protocol) adds payment mandates where Google surfaces require them. Visa Intelligent Commerce and Trusted Agent Protocol (TAP) address card-network identity and agent tokens—a layer adjacent to, not interchangeable with, any single channel UI.
 
-The distinction matters for roadmap sequencing. A **channel operator** (OpenAI, Microsoft, Google, Meta, Tencent) decides which merchants appear, which protocols are honored, and which regions qualify. A **merchant** implements catalog feeds, checkout APIs, and payment handlers so those operators can call them safely. A **PSP** such as Stripe ACS or Adyen Agentic translates between protocol messages and your existing payment stack. None of these roles collapses into the others: Shopify Agentic Storefronts can make you discoverable on ChatGPT while a separate UCP profile unlocks Gemini—two channel paths, two integration checklists. Platform and PSP rows are documented separately in our [commerce platform enablement list](/blog/agentic-commerce-merchant-stack-cms) and [PSP agentic product list](/blog/agentic-commerce-merchant-stack-psp).
+The distinction matters for roadmap sequencing. A **channel operator** (OpenAI, Microsoft, Google, Meta, Tencent) decides which merchants appear, which protocols are honored, and which regions qualify. A **merchant** implements catalog feeds, checkout APIs, and payment handlers so those operators can call them safely. A **PSP** such as Stripe ACS or Adyen Agentic translates between protocol messages and your existing payment stack. None of these roles collapses into the others: Shopify Agentic Storefronts can make you discoverable on ChatGPT while a separate UCP profile unlocks Gemini—two channel paths, two integration checklists. Platform and PSP rows are documented separately in our commerce platform enablement list and [PSP agentic product list](/blog/agentic-commerce-merchant-stack-psp).
 
 Confusing a **channel** with a **merchant tool** is the most common planning mistake in 2026 decks. Manus builds Shopify sites; Claude runs enterprise workflows; neither is a consumer checkout surface today. Likewise, connecting Stripe alone does not make you "agent-ready"—you still need ACS/ACP endpoints, a UCP profile, or a PSP translation layer documented for agent surfaces. Teams that treat "we use Stripe" as sufficient often discover—during Copilot or Gemini waitlist review—that delegated checkout and handler manifests were never implemented. The [agent payments hub](/blog/agent-payments) maps how these pieces fit together for engineering and RevOps teams evaluating 2026 roadmaps.
 
@@ -122,15 +122,15 @@ Visa Intelligent Commerce and TAP expanded the **identity and token** layer (ear
 
 This article maps **buyer-facing agent channels**—where a shopper or buyer-agent starts a retail journey. Merchant-side rows live elsewhere; do not infer platform or PSP status from the channel table above.
 
-**Commerce platforms and storefronts.** Whether Shopify Agentic Storefronts is Live, Adobe Commerce is rolling out UCP, or SHOPLINE has no public path—all of that is in our [CMS and commerce platform enablement reference](/blog/agentic-commerce-merchant-stack-cms).
+**Commerce platforms and storefronts.** Whether Shopify Agentic Storefronts is Live, Adobe Commerce is rolling out UCP, or SHOPLINE has no public path—all of that is in our CMS and commerce platform enablement reference.
 
-**Payment processors.** Whether Stripe ACS is Live in your region, Adyen Agentic is enterprise-only, or Worldpay documents ACP delegate APIs—that breakdown is in our [PSP agentic product reference](/blog/agentic-commerce-merchant-stack-psp). A Live ChatGPT row does not mean your acquirer enrolled ACS.
+**Payment processors.** Whether Stripe ACS is Live in your region, Adyen Agentic is enterprise-only, or Worldpay documents ACP delegate APIs—that breakdown is in our PSP agentic product reference. A Live ChatGPT row does not mean your acquirer enrolled ACS.
 
-**Machine and API payments.** SaaS API billing and agent-wallet micro-transactions belong under [MPP and x402](/blog/what-is-machine-payments-protocol)—not consumer AI shopping surfaces.
+**Machine and API payments.** SaaS API billing and agent-wallet micro-transactions belong under MPP and x402—not consumer AI shopping surfaces.
 
-**Operational setup.** Channel status tells you *where* to sell, not *how* to turn feeds on. After you pick a channel, follow our [ChatGPT merchant setup guide](/blog/how-to-sell-on-chatgpt) for syndication, OAI-SearchBot, and Shopify Agentic toggles.
+**Operational setup.** Channel status tells you *where* to sell, not *how* to turn feeds on. After you pick a channel, follow our ChatGPT merchant setup guide for syndication, OAI-SearchBot, and Shopify Agentic toggles.
 
-When scoping work, sequence: (1) channels from this table, (2) [storefront enablement on your CMS](/blog/agentic-commerce-merchant-stack-cms), (3) [PSP agentic enrollment](/blog/agentic-commerce-merchant-stack-psp), (4) feed and inventory ops.
+When scoping work, sequence: (1) channels from this table, (2) storefront enablement on your CMS, (3) PSP agentic enrollment, (4) feed and inventory ops.
 
 ---
 
@@ -140,7 +140,7 @@ When scoping work, sequence: (1) channels from this table, (2) [storefront enabl
 
 Build your merchant stack **from channel requirements backward**: feeds and ACS for ACP surfaces, UCP profiles and handlers for Google/Microsoft, and MCP or custom REST for enterprise agents. Revisit this table quarterly; OpenAI already pivoted once in 2026. If you are sequencing Q4 work, a pragmatic default for U.S. DTC brands is **parallel ACP discovery + UCP checkout**: ChatGPT and Meta ads on the ACP/Stripe ACS rail, Copilot and Gemini on UCP—accepting that handler manifests, tax display rules, and fraud signals differ per operator even when the same PSP backs both.
 
-For protocol definitions, see [ACP](/blog/what-is-agentic-commerce-protocol) and [UCP](/blog/what-is-universal-commerce-protocol) on the [agent payments hub](/blog/agent-payments). Once your channel shortlist is set, confirm your [storefront platform supports the right syndication path](/blog/agentic-commerce-merchant-stack-cms) and your [PSP exposes the matching agentic product](/blog/agentic-commerce-merchant-stack-psp) before filing engineering estimates.
+For protocol definitions, see ACP and UCP on the agent payments hub. Once your channel shortlist is set, confirm your storefront platform supports the right syndication path and your PSP exposes the matching agentic product before filing engineering estimates.
 
 Teams evaluating payment orchestration for multi-channel agent checkout can [contact Clink](https://clinkbill.com/contact) to discuss Early Access agent payment infrastructure—after channel and protocol scope is fixed.
 
@@ -170,4 +170,4 @@ Not officially. **Telegram** offers live Bot Payments on proprietary APIs. **WeC
 
 ### How is this list different from machine payments (MPP/x402)?
 
-This list covers **retail catalog checkout on consumer AI surfaces**. [Machine Payments Protocol (MPP)](/blog/what-is-machine-payments-protocol) and x402 address **API and agent-wallet micro-transactions** between services—not Gemini buying sneakers or Copilot completing a Merchant Center cart. Stack them separately in architecture reviews.
+This list covers **retail catalog checkout on consumer AI surfaces**. Machine Payments Protocol (MPP) and x402 address **API and agent-wallet micro-transactions** between services—not Gemini buying sneakers or Copilot completing a Merchant Center cart. Stack them separately in architecture reviews.

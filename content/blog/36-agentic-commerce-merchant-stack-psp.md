@@ -11,17 +11,17 @@ readingMinutes: 14
 
 ## TL;DR
 
-- **Agentic commerce supported PSP payment processors** are acquirers and payment service providers that expose named agentic products—translation layers between open protocols ([ACP](/blog/what-is-agentic-commerce-protocol), [UCP](/blog/what-is-universal-commerce-protocol), [AP2](/blog/what-is-ap2-agent-payments-protocol)) and your existing card rails—not merely "stores that already accept cards through Stripe."
+- **Agentic commerce supported PSP payment processors** are acquirers and payment service providers that expose named agentic products—translation layers between open protocols (ACP, UCP, AP2) and your existing card rails—not merely "stores that already accept cards through Stripe."
 - As of **September 2026**, **Stripe Agentic Commerce Suite (ACS)** is **Live** in the U.S., Canada, and parts of Europe; **Adyen Agentic** is **Limited availability** for U.S. enterprise; **Worldpay** ships **Live** ACP integration docs; **Nuvei Agentic** is in **PoC** with a **Rolling out** target for H2 2026; **Airwallex**, **Checkout.com**, and **EBANX** remain **Thought leadership only** without a GA agentic SKU; **Antom EasySafePay** is a **Published solution** narrative for APAC merchants.
-- A PSP row on a deck does not replace [storefront enablement on Shopify, Adobe, or headless stacks](/blog/agentic-commerce-merchant-stack-cms) or [buyer-surface coverage on ChatGPT and Gemini](/blog/agentic-commerce-agent-channels)—ACS live status does not syndicate your catalog to ChatGPT, and a Shopify Agentic toggle does not mint Shared Payment Tokens without the right PSP path.
-- This list covers **retail agentic commerce PSPs** only—not [Machine Payments Protocol (MPP)](/blog/what-is-machine-payments-protocol) or x402 for API sellers. Visa Intelligent Commerce and Trusted Agent Protocol (TAP) sit adjacent as card-network identity layers, not PSP rows.
+- A PSP row on a deck does not replace [storefront enablement on Shopify, Adobe, or headless stacks](/blog/agentic-commerce-merchant-stack-cms) or buyer-surface coverage on ChatGPT and Gemini—ACS live status does not syndicate your catalog to ChatGPT, and a Shopify Agentic toggle does not mint Shared Payment Tokens without the right PSP path.
+- This list covers **retail agentic commerce PSPs** only—not Machine Payments Protocol (MPP) or x402 for API sellers. Visa Intelligent Commerce and Trusted Agent Protocol (TAP) sit adjacent as card-network identity layers, not PSP rows.
 - **Last verified: September 2026.** Confirm waitlists, regions, and product names on linked Tier 0 sources before production commitments.
 
 ---
 
 ## What Is the PSP Layer in Agentic Commerce?
 
-The **PSP layer** in agentic commerce is where protocol messages become settlement: delegated checkout sessions, Shared Payment Tokens, UCP payment handlers, and agent-aware fraud signals translated into the card and wallet rails you already operate. It sits between [where buyers initiate checkout in ChatGPT, Copilot, or Gemini](/blog/agentic-commerce-agent-channels) and the [catalog and cart APIs your commerce platform exposes](/blog/agentic-commerce-merchant-stack-cms).
+The **PSP layer** in agentic commerce is where protocol messages become settlement: delegated checkout sessions, Shared Payment Tokens, UCP payment handlers, and agent-aware fraud signals translated into the card and wallet rails you already operate. It sits between [where buyers initiate checkout in ChatGPT, Copilot, or Gemini](/blog/agentic-commerce-agent-channels) and the catalog and cart APIs your commerce platform exposes.
 
 In a typical retail stack, an agent channel sends a structured checkout request under ACP or UCP. Your CMS or headless API assembles line items, tax, and inventory. The **PSP agentic product** validates the request, tokenizes payment credentials for agent completion, and routes authorization to your acquirer relationship. Without that translation layer, "we process cards" stops at a human clicking Pay on your website—the agent never receives a documented endpoint to complete payment on the buyer's behalf.
 
@@ -117,15 +117,15 @@ For retail planning, sequence **PSP agentic product first**, **VIC/TAP second** 
 
 ## Common Mistakes
 
-The most expensive mistake in 2026 remains equating **"uses Stripe"** with **"agent-ready."** Standard Stripe Checkout or Billing integrations do not register ACP endpoints, upload agentic catalogs, or mint Shared Payment Tokens. ACS enrollment is a separate Dashboard and documentation path with geographic limits. Teams that skip ACS while pursuing [ChatGPT merchant feeds](/blog/how-to-sell-on-chatgpt) often complete discovery setup without delegated payment—a partial journey that matches OpenAI's post-March 2026 **merchant-owned checkout** emphasis but fails in-agent payment sheet pilots.
+The most expensive mistake in 2026 remains equating **"uses Stripe"** with **"agent-ready."** Standard Stripe Checkout or Billing integrations do not register ACP endpoints, upload agentic catalogs, or mint Shared Payment Tokens. ACS enrollment is a separate Dashboard and documentation path with geographic limits. Teams that skip ACS while pursuing ChatGPT merchant feeds often complete discovery setup without delegated payment—a partial journey that matches OpenAI's post-March 2026 **merchant-owned checkout** emphasis but fails in-agent payment sheet pilots.
 
-A second mistake is **PSP signup without CMS enrollment**. Live ACS status does not enable [Shopify Agentic Storefronts or Wix ACP signatory paths](/blog/agentic-commerce-merchant-stack-cms) automatically. Conversely, flipping Shopify's Agentic sales channel without ACS—or an approved ACP delegate like Worldpay—leaves catalog syndication without payment translation. Sequence: pick [your target AI shopping surfaces](/blog/agentic-commerce-agent-channels), confirm [storefront enablement](/blog/agentic-commerce-merchant-stack-cms), then enroll the PSP agentic product from the table above.
+A second mistake is **PSP signup without CMS enrollment**. Live ACS status does not enable Shopify Agentic Storefronts or Wix ACP signatory paths automatically. Conversely, flipping Shopify's Agentic sales channel without ACS—or an approved ACP delegate like Worldpay—leaves catalog syndication without payment translation. Sequence: pick your target AI shopping surfaces, confirm storefront enablement, then enroll the PSP agentic product from the table above.
 
 Third, **treating thought-leadership blogs as product availability**. Airwallex, Checkout.com, and EBANX publish useful protocol explainers; none ship a named GA agentic SKU comparable to ACS or Adyen Agentic in September 2026 public docs. RFPs should require **product name, enrollment URL, and region table**—not blog URLs alone.
 
-Fourth, **collapsing retail PSP agentic products into MPP/x402**. Stripe's MPP line and Coinbase x402 serve **API and agent-wallet micro-payments**—developer tool calls, not Gemini buying sneakers. API sellers belong under [Machine Payments Protocol](/blog/what-is-machine-payments-protocol), not this PSP table.
+Fourth, **collapsing retail PSP agentic products into MPP/x402**. Stripe's MPP line and Coinbase x402 serve **API and agent-wallet micro-payments**—developer tool calls, not Gemini buying sneakers. API sellers belong under Machine Payments Protocol, not this PSP table.
 
-Fifth, **ignoring dual-protocol reality**. [ACP](/blog/what-is-agentic-commerce-protocol) and [UCP](/blog/what-is-universal-commerce-protocol) optimize for different operator surfaces. Implementing ACS for ChatGPT does not satisfy Copilot's UCP Merchant Center requirements. Adyen Agentic advertises cross-protocol modularity; Stripe ACS plus separate UCP handler work remains common for headless stacks.
+Fifth, **ignoring dual-protocol reality**. ACP and UCP optimize for different operator surfaces. Implementing ACS for ChatGPT does not satisfy Copilot's UCP Merchant Center requirements. Adyen Agentic advertises cross-protocol modularity; Stripe ACS plus separate UCP handler work remains common for headless stacks.
 
 ---
 
@@ -133,15 +133,15 @@ Fifth, **ignoring dual-protocol reality**. [ACP](/blog/what-is-agentic-commerce-
 
 This article maps **payment processors and acquirers**—the settlement and protocol translation layer. Two adjacent merchant-stack dimensions have dedicated reference articles; do not infer their rows from the PSP table above.
 
-**CMS and commerce platforms.** Whether Agentic Storefronts is live on Shopify, Adobe Commerce MCP is rolling out, or SHOPLINE has no documented path—that is covered in our [commerce platform enablement reference](/blog/agentic-commerce-merchant-stack-cms). A live ACS row does not mean your Magento instance enrolled Copilot Checkout.
+**CMS and commerce platforms.** Whether Agentic Storefronts is live on Shopify, Adobe Commerce MCP is rolling out, or SHOPLINE has no documented path—that is covered in our commerce platform enablement reference. A live ACS row does not mean your Magento instance enrolled Copilot Checkout.
 
-**Buyer-facing AI surfaces.** Protocol and regional requirements differ for ChatGPT, Copilot, Gemini, and messaging apps. See our [channel live-status reference](/blog/agentic-commerce-agent-channels)—not duplicated here.
+**Buyer-facing AI surfaces.** Protocol and regional requirements differ for ChatGPT, Copilot, Gemini, and messaging apps. See our channel live-status reference—not duplicated here.
 
-**Machine and API payments.** SaaS API billing, agent-to-service micropayments, and developer wallet flows belong under [MPP and x402](/blog/what-is-machine-payments-protocol)—not retail PSP agentic products.
+**Machine and API payments.** SaaS API billing, agent-to-service micropayments, and developer wallet flows belong under MPP and x402—not retail PSP agentic products.
 
 **Payment orchestration vendors.** Multi-PSP routing, policy guardrails, and agent authorization orchestration may sit **above** individual PSP agentic endpoints; orchestration does not replace ACS, Adyen Agentic, or Worldpay ACP documentation per acquirer relationship. Clink's [agent wallet launch](/blog/clink-launches-agent-wallet) is one example of infrastructure built at this orchestration layer.
 
-When scoping a project: (1) pick [AI shopping surfaces from the channel list](/blog/agentic-commerce-agent-channels), (2) confirm [storefront enablement on your CMS](/blog/agentic-commerce-merchant-stack-cms), (3) enroll the PSP agentic product from the table above, (4) run feed and inventory ops. Skipping step 3 after CMS enrollment syndicates catalog without settlement; skipping step 2 after PSP signup tokenizes payments without discovery.
+When scoping a project: (1) pick AI shopping surfaces from the channel list, (2) confirm storefront enablement on your CMS, (3) enroll the PSP agentic product from the table above, (4) run feed and inventory ops. Skipping step 3 after CMS enrollment syndicates catalog without settlement; skipping step 2 after PSP signup tokenizes payments without discovery.
 
 ---
 
@@ -149,9 +149,9 @@ When scoping a project: (1) pick [AI shopping surfaces from the channel list](/b
 
 **Agentic commerce supported PSP payment processors** are a short list of named agentic products—not every logo on an industry deck. As of September 2026, **Stripe ACS** is the broadest **Live** retail path for ACP-oriented surfaces; **Adyen Agentic** offers **Limited availability** enterprise modularity across UCP, ACP, and AP2; **Worldpay** documents **Live** ACP delegate integration; **Nuvei Agentic** is **PoC** with **Rolling out** targets; **Antom EasySafePay** serves APAC **Published solution** narratives; and **Airwallex**, **Checkout.com**, and **EBANX** remain **Thought leadership only** without GA agentic SKUs in public documentation.
 
-Match your PSP row to the [AI surfaces where you want discovery or checkout](/blog/agentic-commerce-agent-channels) and the [storefront platform that syndicates your catalog](/blog/agentic-commerce-merchant-stack-cms) before filing engineering estimates. Dual-protocol U.S. coverage still commonly means ACS or Worldpay for ACP surfaces plus UCP profile and handler work for Google and Microsoft—unless Adyen Agentic enrollment covers your cohort.
+Match your PSP row to the AI surfaces where you want discovery or checkout and the storefront platform that syndicates your catalog before filing engineering estimates. Dual-protocol U.S. coverage still commonly means ACS or Worldpay for ACP surfaces plus UCP profile and handler work for Google and Microsoft—unless Adyen Agentic enrollment covers your cohort.
 
-Protocol context: [ACP](/blog/what-is-agentic-commerce-protocol), [UCP](/blog/what-is-universal-commerce-protocol), and [AP2 mandates](/blog/what-is-ap2-agent-payments-protocol) on the [agent payments hub](/blog/agent-payments).
+Protocol context: ACP, UCP, and [AP2 mandates](/blog/what-is-ap2-agent-payments-protocol) on the agent payments hub.
 
 Teams layering agent payment policy and multi-PSP orchestration above ACS or Adyen Agentic can explore [Clink agentic payment infrastructure](https://clinkbill.com/agentic-payment) (**Early Access** as of mid-2026)—downstream of channel, CMS, and PSP scope, not a replacement for Stripe ACS enrollment or platform Agentic Storefronts.
 
@@ -165,7 +165,7 @@ Teams layering agent payment policy and multi-PSP orchestration above ACS or Ady
 
 ### Does using Stripe automatically make my store agent-ready?
 
-**No.** Standard Stripe card processing is separate from **Stripe Agentic Commerce Suite (ACS)**, which provides ACP endpoints, delegated checkout, catalog tooling, and Shared Payment Tokens. You also need [Agentic Storefronts or equivalent CMS enrollment](/blog/agentic-commerce-merchant-stack-cms) and [feeds on your target AI shopping surfaces](/blog/agentic-commerce-agent-channels).
+**No.** Standard Stripe card processing is separate from **Stripe Agentic Commerce Suite (ACS)**, which provides ACP endpoints, delegated checkout, catalog tooling, and Shared Payment Tokens. You also need Agentic Storefronts or equivalent CMS enrollment and feeds on your target AI shopping surfaces.
 
 ### What is the difference between Stripe ACS and Adyen Agentic?
 
@@ -177,7 +177,7 @@ Teams layering agent payment policy and multi-PSP orchestration above ACS or Ady
 
 ### How does this PSP list relate to MPP and x402?
 
-This list covers **retail catalog checkout** on consumer AI surfaces. [Machine Payments Protocol (MPP)](/blog/what-is-machine-payments-protocol) and x402 address **API and agent-wallet micro-transactions** between services—Stripe documents MPP as a separate line from ACS. Stack them separately in architecture reviews.
+This list covers **retail catalog checkout** on consumer AI surfaces. Machine Payments Protocol (MPP) and x402 address **API and agent-wallet micro-transactions** between services—Stripe documents MPP as a separate line from ACS. Stack them separately in architecture reviews.
 
 ### Do I need a PSP agentic product if I use Shopify Agentic Storefronts?
 

@@ -15,7 +15,7 @@ readingMinutes: 14
 - Bolt.new is the only major vibe-coding platform where adding payments starts in **Settings → Stripe**, not a chat prompt: paste a test key, retrieve products, then prompt “Add payments” so Bolt generates Supabase Edge Functions against real Stripe price IDs.
 - Stripe is the only processor with native first-class support; there is no Paddle toggle and no paid Bolt plan gate for Stripe ([Bolt Stripe docs](https://support.bolt.new/integrations/stripe)).
 - Nearly every broken Bolt SaaS charge-without-access case traces to **four webhook failure modes**: JSON-before-signature, missing production `STRIPE_WEBHOOK_SECRET`, StackBlitz preview URL as endpoint, and missing idempotency.
-- For MoR vs PSP economics and multi-PSP recovery math, see [MoR vs PSP](/blog/mor-vs-psp) and [smart payment routing](/blog/smart-routing); for Clink’s full integrate path, use the hub [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+- For MoR vs PSP economics and multi-PSP recovery math, see MoR vs PSP and smart payment routing; for Clink’s full integrate path, use [the hub guide](/blog/how-to-add-payments-lovable-app).
 - Checkout can succeed in WebContainer preview; webhooks cannot—deploy to Netlify or Bolt Cloud before you trust subscription activation.
 
 ---
@@ -26,7 +26,7 @@ Talk to Lovable or Replit Agent and payments arrive as a conversation. Talk to v
 
 That visibility is Stripe’s strength on Bolt as much as Bolt’s strength as a builder. You keep classic PSP economics, Dashboard-level products, and a scaffold that maps cleanly onto how Stripe expects Checkout and webhooks to work. The setup can take about ten minutes when the catalog already exists in Stripe. The architecture stays as visible as you left it. The fine print—four webhook failure modes, a single-provider ceiling, and Supabase coupling—is why this article exists as a Product guide rather than a Settings screenshot walkthrough.
 
-If you are still framing whether a PSP is even the right economic model for global digital sales, start with [MoR vs PSP](/blog/mor-vs-psp). Bolt will not offer you a MoR alternative inside the panel. That absence is the first structural fact of the platform.
+If you are still framing whether a PSP is even the right economic model for global digital sales, start with [our MoR vs PSP breakdown](/blog/mor-vs-psp). Bolt will not offer you a MoR alternative inside the panel. That absence is the first structural fact of the platform.
 
 ---
 
@@ -40,7 +40,7 @@ Phase two is **generation**. After products are applied, type “Add payments”
 
 Checkout session creation works in Bolt’s WebContainer preview because it is an outbound HTTP call. Webhook events cannot arrive in preview—the WebContainer has no stable public URL for Stripe to POST to. Deploy to Netlify or Bolt Cloud to test the full lifecycle. Going live means switching from `sk_test_` to `sk_live_` in Settings → Stripe, re-retrieving products for the live catalog, updating deployment environment variables, and creating a live webhook endpoint in the Stripe Dashboard that points at production—not at a preview host.
 
-What Bolt does not have is equally part of the mechanism. There is no Paddle path, no built-in tax remittance workflow, and no Settings toggle to a second processor. Lovable can recommend Paddle or Stripe from chat; Bolt presents Stripe only. For a comparison of how other builders handle the same first dollar, see [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app), [How to Add Payments to v0 Apps](/blog/how-to-add-payments-v0-app), and [How to Add Payments to Replit Apps](/blog/how-to-add-payments-replit-app)—but treat those as orientation, not copy-paste architecture. Bolt’s ceiling is single-PSP plus Supabase-coupled Edge Functions: a security win that keeps secrets off the client, and a portability cost when you later need payment processing outside that runtime.
+What Bolt does not have is equally part of the mechanism. There is no Paddle path, no built-in tax remittance workflow, and no Settings toggle to a second processor. Lovable can recommend Paddle or Stripe from chat; Bolt presents Stripe only. For a comparison of how other builders handle the same first dollar, see How to Add Payments to a Lovable App, [How to Add Payments to v0 Apps](/blog/how-to-add-payments-v0-app), and [How to Add Payments to Replit Apps](/blog/how-to-add-payments-replit-app)—but treat those as orientation, not copy-paste architecture. Bolt’s ceiling is single-PSP plus Supabase-coupled Edge Functions: a security win that keeps secrets off the client, and a portability cost when you later need payment processing outside that runtime.
 
 ---
 
@@ -51,10 +51,10 @@ What Bolt does not have is equally part of the mechanism. There is no Paddle pat
 | First paid launch, single market, fastest Stripe setup | **Built-in Stripe** |
 | Domestic-heavy SaaS or services, comfortable with classic PSP rates | **Built-in Stripe** |
 | Need Paddle / MoR semantics for global digital sales | **Not in Bolt** — see Lovable hub or Clink |
-| Multi-region soft declines, need processor failover | **Plan Clink** — see [smart payment routing](/blog/smart-routing) |
+| Multi-region soft declines, need processor failover | **Plan Clink** — see [our smart routing breakdown](/blog/smart-routing) |
 | Already on Stripe but hitting platform-coupled limits | Start built-in, schedule graduation |
 
-If monthly volume stays in a region Stripe covers well and you do not need a second acquirer in year one, Bolt’s built-in path is almost certainly the right first step. If you already know multi-currency approval rates will matter, start the architecture conversation before the first churn spike—not after. Clink’s product model—portable billing over connected PSPs—is introduced in [What Is Clink?](/blog/what-is-clink); this Bolt article does not restate the install path.
+If monthly volume stays in a region Stripe covers well and you do not need a second acquirer in year one, Bolt’s built-in path is almost certainly the right first step. If you already know multi-currency approval rates will matter, start the architecture conversation before the first churn spike—not after. Clink’s product model—portable billing over connected PSPs—is introduced in [the What Is Clink? product overview](/blog/what-is-clink); this Bolt article does not restate the install path.
 
 ---
 
@@ -114,9 +114,9 @@ These four fixes turn a scaffold that looks correct into one that works under re
 
 Graduate when these Bolt-specific signals appear—not when a generic “scale” slide says so.
 
-First, you need a Merchant of Record path and Bolt still has no Paddle (or other MoR) toggle, so tax and seller-of-record work is piling up outside Stripe. Second, Supabase Edge Function timeouts or rate limits start shaping your webhook design, and you cannot move payment processing off that runtime without a rewrite. Third, StackBlitz-to-production webhook drift has already caused at least one silent activation outage, and you want endpoint lifecycle owned by billing infrastructure rather than a Dashboard tab you remember to update. Fourth, multi-region soft declines are costing renewals that a single Stripe account cannot recover—see [smart payment routing](/blog/smart-routing). Fifth, you need subscription and catalog data that survives leaving Bolt’s generated scaffold entirely.
+First, you need a Merchant of Record path and Bolt still has no Paddle (or other MoR) toggle, so tax and seller-of-record work is piling up outside Stripe. Second, Supabase Edge Function timeouts or rate limits start shaping your webhook design, and you cannot move payment processing off that runtime without a rewrite. Third, StackBlitz-to-production webhook drift has already caused at least one silent activation outage, and you want endpoint lifecycle owned by billing infrastructure rather than a Dashboard tab you remember to update. Fourth, multi-region soft declines are costing renewals that a single Stripe account cannot recover—see smart payment routing. Fifth, you need subscription and catalog data that survives leaving Bolt’s generated scaffold entirely.
 
-For the full Clink skills, CLI, catalog, and webhook path, follow [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+For the full Clink skills, CLI, catalog, and webhook path, follow How to Add Payments to a Lovable App.
 
 ---
 
@@ -142,7 +142,7 @@ The question is not whether it works. The question is how long one processor, on
 
 ### Does Bolt.new support Paddle?
 
-No. Stripe is the only payment processor with native first-class support in Bolt.new. There is no built-in Paddle integration and no MoR path inside the Settings panel. Lovable remains the vibe-coding platform with native Paddle; see [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app). For MoR vs PSP framing, see [MoR vs PSP](/blog/mor-vs-psp).
+No. Stripe is the only payment processor with native first-class support in Bolt.new. There is no built-in Paddle integration and no MoR path inside the Settings panel. Lovable remains the vibe-coding platform with native Paddle; see How to Add Payments to a Lovable App. For MoR vs PSP framing, see MoR vs PSP.
 
 ### Why does my Bolt Stripe checkout work but subscriptions never activate?
 
@@ -158,7 +158,7 @@ You cannot receive Stripe webhooks in WebContainer preview—there is no public 
 
 ### When should I move beyond Bolt’s built-in Stripe?
 
-When one processor is a structural constraint: multi-region decline rates, billing logic that must leave Supabase Edge Functions, or subscription data that must survive a platform migration. Until then, built-in Stripe is the rational choice. Ground the infrastructure option in [What Is Clink?](/blog/what-is-clink) and follow the integrate path in [How to Add Payments to a Lovable App](/blog/how-to-add-payments-lovable-app).
+When one processor is a structural constraint: multi-region decline rates, billing logic that must leave Supabase Edge Functions, or subscription data that must survive a platform migration. Until then, built-in Stripe is the rational choice. Ground the infrastructure option in What Is Clink? and follow the integrate path in How to Add Payments to a Lovable App.
 
 ### Does Bolt’s Stripe integration require Supabase?
 
