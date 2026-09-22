@@ -36,7 +36,7 @@ export default function BlogIndex() {
           Long-form essays and product deep-dives from the team building Clink.
         </p>
         <a
-          href="https://clink-seo-bolg.vercel.app/arr-leaderboard"
+          href="/arr-leaderboard"
           className="mt-8 flex max-w-[760px] items-center justify-between gap-6 rounded-[20px] border bg-elev px-6 py-5 transition-transform hover:-translate-y-0.5"
           style={{
             borderColor: "var(--surface-stroke)",
