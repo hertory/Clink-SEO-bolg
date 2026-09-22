@@ -13,28 +13,38 @@ export function PostCard({ post }: { post: BlogPost }) {
   return (
     <a
       href={`/blog/${post.slug}`}
-      className="group block rounded-[32px] border bg-elev p-7 transition-all hover:-translate-y-1 md:p-8"
+      className="group block rounded-[16px] border bg-white p-7 transition-all hover:-translate-y-0.5"
       style={{
-        borderColor: "var(--surface-stroke)",
-        boxShadow: "var(--shadow-card)",
+        borderColor: "var(--reader-line)",
+        boxShadow: "var(--shadow-float-1)",
       }}
     >
-      <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-foreground-subtle">
+      <div
+        className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em]"
+        style={{ color: "var(--reader-coral)" }}
+      >
         <span>{post.category}</span>
         <span>·</span>
         <span>{formatDate(post.date)}</span>
-        <span>·</span>
-        <span>{post.readingMinutes} min read</span>
       </div>
-      <h3 className="mt-5 text-[22px] md:text-[26px] font-semibold tracking-[-0.01em] text-foreground">
+      <h3
+        className="mt-4 text-[20px] md:text-[22px] font-semibold leading-snug text-foreground"
+        style={{
+          fontFamily: "var(--font-manrope), Inter, sans-serif",
+          letterSpacing: "-0.01em",
+        }}
+      >
         {post.title}
       </h3>
-      <p className="mt-3 text-[15px] leading-relaxed text-foreground-muted">
+      <p
+        className="mt-3 text-[15px] leading-relaxed"
+        style={{ color: "var(--reader-ink-2)" }}
+      >
         {post.description}
       </p>
       <span
-        className="mt-6 inline-flex items-center gap-2 text-[15px] font-medium"
-        style={{ color: "var(--accent)" }}
+        className="mt-5 inline-flex items-center gap-2 text-[14px] font-medium"
+        style={{ color: "var(--reader-coral)" }}
       >
         Read article
         <span className="transition-transform duration-200 group-hover:translate-x-1">
