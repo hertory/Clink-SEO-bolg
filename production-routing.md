@@ -10,7 +10,7 @@
 
 | 职责 | 负责方 |
 | --- | --- |
-| 博客内容 / 视觉 / Next 代码 | 本仓库（`clink-ai` / `clink-ai-psi.vercel.app`） |
+| 博客内容 / 视觉 / Next 代码 | 本仓库（`clink-ai` / `clink-seo-bolg.vercel.app`） |
 | rewrite 规则 / `BLOG_ORIGIN` | 主站仓库 `clinkbill.com` |
 | 首页 / 产品页 / 定价等 | 主站仓库 |
 
@@ -58,7 +58,7 @@
 | --- | --- | --- |
 | **Rewrite** | 始终 `clinkbill.com` | 主站透明转发到子站 ✅ |
 | **反向代理** | 同上 | CDN / Nginx / Worker 层等价实现 |
-| **301 / 302** | 变为 `clink-ai-psi.vercel.app` | ❌ 损害品牌与 SEO |
+| **301 / 302** | 变为 `clink-seo-bolg.vercel.app` | ❌ 损害品牌与 SEO |
 
 ---
 
@@ -139,7 +139,7 @@ Preview 环境可指向 Preview Deployment URL。
 
 ## 7. `/_next` 冲突（必读）
 
-主站（`clinkbill.com`）与子站（`clink-ai-psi.vercel.app`）**都是 Next.js**。子站博客页面的 HTML 会请求 `/_next/static/...` 资源。
+主站（`clinkbill.com`）与子站（`clink-seo-bolg.vercel.app`）**都是 Next.js**。子站博客页面的 HTML 会请求 `/_next/static/...` 资源。
 
 ### 冲突场景
 
@@ -167,7 +167,7 @@ Preview 环境可指向 Preview Deployment URL。
 assetPrefix: "https://clink-seo-bolg.vercel.app",
 ```
 
-子站博客页面的所有 `/_next/static/...` 请求将直接指向 `clink-ai-psi.vercel.app`，无需主站转发任何 `/_next/*` 规则。代价是博客页面首次加载多一次 DNS 解析。
+子站博客页面的所有 `/_next/static/...` 请求将直接指向 `clink-seo-bolg.vercel.app`，无需主站转发任何 `/_next/*` 规则。代价是博客页面首次加载多一次 DNS 解析。
 
 ---
 

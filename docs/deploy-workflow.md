@@ -11,7 +11,7 @@
 |------|------|------|
 | **本仓库（部署仓 / SSOT）** | `E:\客户部署项目\clink-ai-main` | 唯一维护处：博客文章、ARR 榜单、页面代码 |
 | 线上仓 | `github.com/hertory/Clink-SEO-bolg`（`origin`，**SSH**） | push 即触发 Vercel 生产部署 |
-| Vercel 部署域 | `clink-ai-psi.vercel.app` | 本应用直连域（预览用） |
+| Vercel 部署域 | `clink-seo-bolg.vercel.app` | 本应用直连域（预览用） |
 | 正式域 | `clinkbill.com` | 主站（另一套 Pages Router 仓库）+ 本应用经 **CloudFront 反代** |
 | CloudFront 转发规则 | `/blog/*`、`/arr-leaderboard/*`、`/_next/*` | **其余路径（含 `/compare`、`/platforms`）正式域 404**，见 §7 |
 | 文档仓（知识库） | `E:\clients\clink` | 客户知识库、任务单、发布索引（`blog/README.md`）；**不放文章正文** |
