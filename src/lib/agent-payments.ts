@@ -4,6 +4,9 @@ import claudeCode from "@/data/agent-payments/claude-code.json";
 import codex from "@/data/agent-payments/codex.json";
 import openclaw from "@/data/agent-payments/openclaw.json";
 import workbuddy from "@/data/agent-payments/workbuddy.json";
+import trae from "@/data/agent-payments/trae.json";
+import chatgpt from "@/data/agent-payments/chatgpt.json";
+import manus from "@/data/agent-payments/manus.json";
 
 export type AgentPaymentVisual =
   | {
@@ -102,6 +105,9 @@ const PAGES: Record<string, AgentPaymentPage> = {
   codex: codex as unknown as AgentPaymentPage,
   openclaw: openclaw as unknown as AgentPaymentPage,
   workbuddy: workbuddy as unknown as AgentPaymentPage,
+  trae: trae as unknown as AgentPaymentPage,
+  chatgpt: chatgpt as unknown as AgentPaymentPage,
+  manus: manus as unknown as AgentPaymentPage,
 };
 
 export function getAgentPaymentSlugs(): string[] {

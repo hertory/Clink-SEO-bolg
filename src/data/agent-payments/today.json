@@ -1,6 +1,10 @@
 {
   "slug": "today",
-  "agent": { "name": "Today", "domain": "today.ai", "label": "Today" },
+  "agent": {
+    "name": "Today",
+    "domain": "today.ai",
+    "label": "Today"
+  },
   "meta": {
     "title": "Today.ai × Clink — Real-World Buying for a Personal Agent",
     "description": "See how Clink gives Today the ability to turn a natural-language request into an approved payment and a completed real-world purchase.",
@@ -37,10 +41,22 @@
           "heading": "What should I find for you?",
           "prompt": "Find the best option for my trip, under my budget, and available before Friday.",
           "tags": [
-            ["Goal", "Trip ready"],
-            ["Budget", "Set by you"],
-            ["Preference", "Best match"],
-            ["Timing", "Before Friday"]
+            [
+              "Goal",
+              "Trip ready"
+            ],
+            [
+              "Budget",
+              "Set by you"
+            ],
+            [
+              "Preference",
+              "Best match"
+            ],
+            [
+              "Timing",
+              "Before Friday"
+            ]
           ]
         }
       },
@@ -53,9 +69,18 @@
           "heading": "Purchase Approval",
           "subheading": "Secured by Clink",
           "rows": [
-            ["Merchant", "Approved merchant"],
-            ["Spending limit", "Set by you"],
-            ["Permission", "This purchase only"]
+            [
+              "Merchant",
+              "Approved merchant"
+            ],
+            [
+              "Spending limit",
+              "Set by you"
+            ],
+            [
+              "Permission",
+              "This purchase only"
+            ]
           ],
           "confirm": "Ready for your approval"
         }
@@ -69,10 +94,22 @@
           "heading": "Purchase Status",
           "subheading": "One conversation, complete context",
           "events": [
-            ["Request understood", "Complete"],
-            ["Payment authorized", "Complete"],
-            ["Order confirmed", "Complete"],
-            ["Fulfilment update", "Available in Today"]
+            [
+              "Request understood",
+              "Complete"
+            ],
+            [
+              "Payment authorized",
+              "Complete"
+            ],
+            [
+              "Order confirmed",
+              "Complete"
+            ],
+            [
+              "Fulfilment update",
+              "Available in Today"
+            ]
           ]
         }
       }
@@ -92,13 +129,46 @@
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
     "agents": [
-      { "name": "Today", "domain": "today.ai", "label": "Today" },
-      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
-      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
-      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
-      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
-      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
-      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
     ]
   },
   "useCases": {

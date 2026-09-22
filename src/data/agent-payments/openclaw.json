@@ -1,6 +1,10 @@
 {
   "slug": "openclaw",
-  "agent": { "name": "OpenClaw", "domain": "openclaw.ai", "label": "OpenClaw" },
+  "agent": {
+    "name": "OpenClaw",
+    "domain": "openclaw.ai",
+    "label": "OpenClaw"
+  },
   "meta": {
     "title": "OpenClaw × Clink — Real-World Errands With Scoped Payment Authority",
     "description": "OpenClaw runs around the clock. Clink gives it scoped payment authority for the errands you delegate—orders, pickups, and paid services.",
@@ -29,10 +33,22 @@
           "heading": "OpenClaw errand",
           "prompt": "Order my usual from the %Arabica near the office for a 4 p.m. pickup, under $15.",
           "tags": [
-            ["Errand", "Coffee pickup"],
-            ["Merchant", "Your usual"],
-            ["Budget", "Under $15"],
-            ["Timing", "4 p.m."]
+            [
+              "Errand",
+              "Coffee pickup"
+            ],
+            [
+              "Merchant",
+              "Your usual"
+            ],
+            [
+              "Budget",
+              "Under $15"
+            ],
+            [
+              "Timing",
+              "4 p.m."
+            ]
           ]
         }
       },
@@ -45,9 +61,18 @@
           "heading": "Errand Authorization",
           "subheading": "Valid until 4:30 p.m.",
           "rows": [
-            ["Merchant", "Approved for this errand"],
-            ["Amount", "Capped under $15"],
-            ["Validity", "Expires after pickup"]
+            [
+              "Merchant",
+              "Approved for this errand"
+            ],
+            [
+              "Amount",
+              "Capped under $15"
+            ],
+            [
+              "Validity",
+              "Expires after pickup"
+            ]
           ],
           "confirm": "Scoped to this errand only"
         }
@@ -61,10 +86,22 @@
           "heading": "Errand Status",
           "subheading": "From delegation to proof",
           "events": [
-            ["Order placed", "Complete"],
-            ["Payment authorized", "Complete"],
-            ["Pickup code received", "Complete"],
-            ["Receipt filed", "Available in OpenClaw"]
+            [
+              "Order placed",
+              "Complete"
+            ],
+            [
+              "Payment authorized",
+              "Complete"
+            ],
+            [
+              "Pickup code received",
+              "Complete"
+            ],
+            [
+              "Receipt filed",
+              "Available in OpenClaw"
+            ]
           ]
         }
       }
@@ -84,13 +121,46 @@
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
     "agents": [
-      { "name": "Today", "domain": "today.ai", "label": "Today" },
-      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
-      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
-      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
-      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
-      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
-      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
     ]
   },
   "useCases": {

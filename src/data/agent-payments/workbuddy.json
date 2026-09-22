@@ -1,6 +1,10 @@
 {
   "slug": "workbuddy",
-  "agent": { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+  "agent": {
+    "name": "WorkBuddy",
+    "domain": "workbuddy.ai",
+    "label": "WorkBuddy"
+  },
   "meta": {
     "title": "WorkBuddy × Clink — Office Purchases With Approval Rules",
     "description": "Clink gives WorkBuddy a controlled way to complete small office purchases—inside the budget and approval rules you set.",
@@ -29,10 +33,22 @@
           "heading": "WorkBuddy request",
           "prompt": "The design team needs a replacement drawing tablet under $400 before Thursday's review.",
           "tags": [
-            ["Team", "Design"],
-            ["Budget", "Under $400"],
-            ["Deadline", "Before Thursday"],
-            ["Type", "Replacement"]
+            [
+              "Team",
+              "Design"
+            ],
+            [
+              "Budget",
+              "Under $400"
+            ],
+            [
+              "Deadline",
+              "Before Thursday"
+            ],
+            [
+              "Type",
+              "Replacement"
+            ]
           ]
         }
       },
@@ -45,9 +61,18 @@
           "heading": "Purchase Approval",
           "subheading": "Rule applied automatically",
           "rows": [
-            ["Budget owner", "Design lead"],
-            ["Cap", "Rule cap applies"],
-            ["Purpose", "Replacement equipment"]
+            [
+              "Budget owner",
+              "Design lead"
+            ],
+            [
+              "Cap",
+              "Rule cap applies"
+            ],
+            [
+              "Purpose",
+              "Replacement equipment"
+            ]
           ],
           "confirm": "Within the submitted rule"
         }
@@ -61,10 +86,22 @@
           "heading": "Purchase Record",
           "subheading": "Request to receipt, one thread",
           "events": [
-            ["Request approved", "Complete"],
-            ["Purchase completed", "Complete"],
-            ["Delivery confirmed", "Complete"],
-            ["Receipt filed to request", "Complete"]
+            [
+              "Request approved",
+              "Complete"
+            ],
+            [
+              "Purchase completed",
+              "Complete"
+            ],
+            [
+              "Delivery confirmed",
+              "Complete"
+            ],
+            [
+              "Receipt filed to request",
+              "Complete"
+            ]
           ]
         }
       }
@@ -84,13 +121,46 @@
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
     "agents": [
-      { "name": "Today", "domain": "today.ai", "label": "Today" },
-      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
-      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
-      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
-      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
-      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
-      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
     ]
   },
   "useCases": {

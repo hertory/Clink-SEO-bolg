@@ -1,6 +1,10 @@
 {
   "slug": "claude-code",
-  "agent": { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+  "agent": {
+    "name": "Claude Code",
+    "domain": "claude.ai",
+    "label": "Claude Code"
+  },
   "meta": {
     "title": "Claude Code × Clink — Scoped Payments Inside the Terminal",
     "description": "Clink gives Claude Code a tokenized, per-purchase payment path, so an API top-up or a paid tool never stalls a coding session.",
@@ -29,10 +33,22 @@
           "heading": "What does the task need?",
           "prompt": "This migration needs the Pro tier of that transformation API. Find the cheapest option that covers 10k calls, and stay under $50.",
           "tags": [
-            ["Goal", "Unblock migration"],
-            ["Budget", "Under $50"],
-            ["Preference", "Cheapest coverage"],
-            ["Volume", "10k calls"]
+            [
+              "Goal",
+              "Unblock migration"
+            ],
+            [
+              "Budget",
+              "Under $50"
+            ],
+            [
+              "Preference",
+              "Cheapest coverage"
+            ],
+            [
+              "Volume",
+              "10k calls"
+            ]
           ]
         }
       },
@@ -45,9 +61,18 @@
           "heading": "Purchase Approval",
           "subheading": "Secured by Clink",
           "rows": [
-            ["Merchant", "Named in the instruction"],
-            ["Spending limit", "Capped per purchase"],
-            ["Scope", "This task only"]
+            [
+              "Merchant",
+              "Named in the instruction"
+            ],
+            [
+              "Spending limit",
+              "Capped per purchase"
+            ],
+            [
+              "Scope",
+              "This task only"
+            ]
           ],
           "confirm": "Approved before the call is made"
         }
@@ -61,10 +86,22 @@
           "heading": "Session Output",
           "subheading": "Payment and code, one log",
           "events": [
-            ["Dependency identified", "Complete"],
-            ["Purchase approved", "Complete"],
-            ["API access granted", "Complete"],
-            ["Receipt in session log", "Complete"]
+            [
+              "Dependency identified",
+              "Complete"
+            ],
+            [
+              "Purchase approved",
+              "Complete"
+            ],
+            [
+              "API access granted",
+              "Complete"
+            ],
+            [
+              "Receipt in session log",
+              "Complete"
+            ]
           ]
         }
       }
@@ -84,13 +121,46 @@
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
     "agents": [
-      { "name": "Today", "domain": "today.ai", "label": "Today" },
-      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
-      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
-      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
-      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
-      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
-      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
     ]
   },
   "useCases": {

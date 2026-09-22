@@ -1,0 +1,239 @@
+{
+  "slug": "chatgpt",
+  "agent": {
+    "name": "ChatGPT",
+    "domain": "chatgpt.com",
+    "label": "ChatGPT"
+  },
+  "meta": {
+    "title": "ChatGPT × Clink — Purchases Without Leaving the Chat",
+    "description": "Connect ChatGPT to Clink through MCP and let the conversation end with a completed purchase—approved in chat, paid through Clink, with no second app and no stored balance.",
+    "ogDescription": "ChatGPT gets you to the decision. Clink lets the same conversation carry the purchase through, inside limits you approve."
+  },
+  "hero": {
+    "kicker": "ChatGPT, Powered to Transact",
+    "h1": "ChatGPT Is the Chat You Already Have. Now It Can Finish the Purchase.",
+    "standfirst": "You already ask ChatGPT to compare options and decide what to buy. Clink connects through MCP connectors so the same conversation can carry the purchase through—approval in the chat, paid over familiar card rails, with no second app and no stored balance.",
+    "ctaLabel": "See How the Chat Pays",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Ask in the Chat",
+    "flowEnd": "Purchase Confirmed in Chat"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond the Reply",
+    "title": "The Chat Shouldn't End at 'You'll Need to Buy It Yourself.'",
+    "body": "ChatGPT already helps you decide. Clink adds a controlled payment path to the conversation you're already in, so the answer can become an approved purchase instead of a to-do.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From 'What Should I Get?' to Bought.",
+        "body": "Ask the way you always ask—comparisons, constraints, timing, budget—in the same thread. Clink carries your stated goal and cap into a purchase-ready choice, with no form to fill and no new interface to learn.",
+        "visual": {
+          "kind": "choice",
+          "heading": "Found the options. Should I get one?",
+          "prompt": "Get the one that fits the brief best—stay under my cap and have it arrive before Friday.",
+          "tags": [
+            [
+              "Thread",
+              "Same conversation"
+            ],
+            [
+              "Budget",
+              "Capped by you"
+            ],
+            [
+              "Pick",
+              "Your call"
+            ],
+            [
+              "Deadline",
+              "Before Friday"
+            ]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "The Approval Lands in the Conversation.",
+        "body": "Clink handles payment identity and authorization outside the chat, over the card rails you already use. Each purchase is bound to the merchant, amount cap, and validity you approved—and your card details never enter the conversation.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Approval requested in chat",
+          "subheading": "Secured by Clink",
+          "rows": [
+            [
+              "Merchant",
+              "Named in the request"
+            ],
+            [
+              "Amount cap",
+              "Set by you"
+            ],
+            [
+              "Validity",
+              "This purchase only"
+            ]
+          ],
+          "confirm": "Approve right in the thread"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "The Confirmation Comes Back as a Reply.",
+        "body": "A purchase is not the end of the conversation—it is a message in it. ChatGPT returns the order confirmation, fulfilment status, and the next step in the same thread where you asked.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Thread update",
+          "subheading": "The outcome lands where you asked",
+          "events": [
+            [
+              "Request in chat",
+              "Complete"
+            ],
+            [
+              "Approval confirmed",
+              "Complete"
+            ],
+            [
+              "Payment authorized",
+              "Complete"
+            ],
+            [
+              "Order status",
+              "Back in the thread"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put ChatGPT on It",
+    "title": "Where You Decide Can Also Be Where You Buy.",
+    "items": [
+      {
+        "icon": "Globe",
+        "title": "Research Behind Paid Sources",
+        "body": "When a proper answer needs a paid dataset or a locked article, ChatGPT can buy access per use and keep the research moving in one thread."
+      },
+      {
+        "icon": "FileText",
+        "title": "Buy a Report Mid-Conversation",
+        "body": "Deep in a thread comparing options? The decisive report or dataset is one approved purchase away, and the findings land back in the same chat."
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Order the Office Items You've Approved",
+        "body": "Agree on the list in chat, then let the order go through once—within the merchant and amount cap you set, with no card re-entry."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Get Event Tickets Within the Budget",
+        "body": "Planning in the chat? ChatGPT can find and buy tickets up to the cap you approved and post the confirmation back to the thread."
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Top Up a Service Your Workflow Depends On",
+        "body": "When a tool you run through ChatGPT runs dry, one approved purchase keeps it going—held to the top-up frequency you set."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Send a Gift Without Leaving the Chat",
+        "body": "Describe the person, the occasion, and the ceiling in plain language, and let the gift be chosen, approved, and bought inside the conversation."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "You Never Leave the Conversation.",
+    "description": "The chat you already use gains a payment step that stays under your control.",
+    "steps": [
+      {
+        "name": "Ask in Plain Language",
+        "text": "Describe what you need—options, budget, timing—in the same conversation where you would normally stop at advice."
+      },
+      {
+        "name": "Connect Clink in ChatGPT's Settings",
+        "text": "This is the ChatGPT difference: Clink is added as an MCP connector in ChatGPT's settings, and from then on every purchase asks for approval right in the conversation before anything is paid."
+      },
+      {
+        "name": "Get the Outcome in the Thread",
+        "text": "ChatGPT completes the purchase through Clink and posts the confirmation and fulfilment details back where you asked—without your card data entering the chat."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I Need a Paid ChatGPT Plan to Connect Payments?",
+      "a": "Connector availability follows what OpenAI supports on each ChatGPT plan, so access can differ between tiers. The Clink side is standard MCP—if your account can load connectors, it can connect to Clink. Plan requirements come from the ChatGPT side, not from Clink."
+    },
+    {
+      "q": "Does ChatGPT See My Card Details?",
+      "a": "No. Clink tokenizes the credential at connection and authorizes each purchase outside the conversation. ChatGPT sees only what the task needs—an approval and a confirmation—never your card number."
+    },
+    {
+      "q": "What Stops an Unwanted Purchase in the Chat?",
+      "a": "Every payment is authorized per purchase or per task, bound to the merchant, amount cap, and validity you approved. A risk layer can pause activity automatically, and anything outside the approved boundaries stops instead of spending."
+    }
+  ],
+  "finalCta": {
+    "title": "Let the Chat You Already Use Finish the Purchase.",
+    "description": "Connect ChatGPT to Clink through MCP and keep the whole purchase in the conversation—no second app, no stored balance."
+  }
+}

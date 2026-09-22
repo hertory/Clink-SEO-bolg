@@ -1,0 +1,239 @@
+{
+  "slug": "trae",
+  "agent": {
+    "name": "Trae",
+    "domain": "trae.ai",
+    "label": "Trae"
+  },
+  "meta": {
+    "title": "Trae × Clink — Scoped Payments for the SOLO Build",
+    "description": "Clink gives Trae a scoped purchase path with the cap set at build start, so a SOLO build that needs an API tier, a paid tool, or a checkout test keeps building instead of stopping.",
+    "ogDescription": "Trae already builds from a prompt to a preview. Clink adds the approved purchase step—capped at build start, scoped per purchase, and inside the build."
+  },
+  "hero": {
+    "kicker": "Trae, Powered to Transact",
+    "h1": "From Prompt to Shipped, Trae Can Cover the Paid Steps.",
+    "standfirst": "A SOLO build can go from prompt to preview deploy in one sitting—until the app needs something paid: an API tier, a checkout to test, a data source. Clink gives Trae a scoped purchase path, so the build keeps moving and the feature ships working.",
+    "ctaLabel": "See the Payment Step in the Build",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Build Hits a Paid Step",
+    "flowEnd": "Feature Ships Working"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond the Prompt",
+    "title": "Trae Can Carry the Purchase Inside the Build.",
+    "body": "SOLO turns a prompt into a working app, and working apps lean on paid pieces—API tiers, checkout flows, data sources. Clink gives Trae a controlled path from paid dependency to approved purchase to shipped feature.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Build Plan to the Right Paid Piece.",
+        "body": "Name the feature and the cap in the same message that starts the build. Trae can identify what the app actually needs—a tier, a data source, a payment flow to test—and bring back the option that fits the budget you set at build start.",
+        "visual": {
+          "kind": "choice",
+          "heading": "What does the build need?",
+          "prompt": "SOLO is building the storefront's recommendations. It needs the paid tier of that API before the feature can ship—find the option that fits the build budget.",
+          "tags": [
+            [
+              "Goal",
+              "Ship the feature"
+            ],
+            [
+              "Budget",
+              "Set at build start"
+            ],
+            [
+              "Preference",
+              "Fits the stack"
+            ],
+            [
+              "Timing",
+              "Before the preview deploy"
+            ]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "The Cap You Set at Build Start Holds.",
+        "body": "Before SOLO runs, you set what the build may spend and how often it can top up. Clink tokenizes your card at connection and releases it per purchase—merchant, amount, and validity bound to each approval, never a raw card in the IDE.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Purchase Approval",
+          "subheading": "Secured by Clink",
+          "rows": [
+            [
+              "Merchant",
+              "Approved merchant"
+            ],
+            [
+              "Build budget",
+              "Capped by you"
+            ],
+            [
+              "Scope",
+              "This build task only"
+            ]
+          ],
+          "confirm": "Approved without leaving the build"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "The Feature Ships. The Spend Stays on Record.",
+        "body": "A payment is not the outcome—a working feature is. The confirmation and the entitlement land beside the build, so the preview deploy shows the feature running and the record shows what it cost.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Build Timeline",
+          "subheading": "From paid step to shipped feature",
+          "events": [
+            [
+              "Paid dependency identified",
+              "Complete"
+            ],
+            [
+              "Purchase approved",
+              "Complete"
+            ],
+            [
+              "Build resumed",
+              "Complete"
+            ],
+            [
+              "Preview deploy",
+              "Feature working"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put Trae on It",
+    "title": "From Prompt to Shipped, Without the Procurement Detour.",
+    "items": [
+      {
+        "icon": "Rocket",
+        "title": "Buy the API Tier Mid-Build",
+        "body": "SOLO is a few steps from a working feature when it hits a paid API tier. Trae can buy the tier inside the build's cap and keep building toward the preview deploy."
+      },
+      {
+        "icon": "Store",
+        "title": "Test a Real Checkout on Your Storefront",
+        "body": "A storefront needs its payment path tested live, not mocked. Trae can complete a real purchase on supported checkout flows, including Shopify, within the scope you approved."
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Unlock the Paid Tool a Feature Calls For",
+        "body": "A search API, a paid data source, a gated service—the feature needs one to work. Trae can acquire it per use instead of shipping the feature half-built."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Keep a Client Project Inside Its Budget",
+        "body": "Set the cap and top-up frequency when the project starts. Mid-build purchases for the client's app stop at the line you drew, with a receipt for each one."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Prototype Without Procurement Tickets",
+        "body": "A weekend build should not wait on a purchase order. Trae can buy what the prototype needs under a cap you set, and every charge stays visible."
+      },
+      {
+        "icon": "FileText",
+        "title": "Receipts That Match the Client Invoice",
+        "body": "Each purchase resolves to the build, the approval, and the amount—line items you can pass straight through when the client bill goes out."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "The Budget Is Set Before SOLO Runs.",
+    "description": "Purchases happen inside the build flow—no checkout detour, no card in the IDE, no procurement ticket.",
+    "steps": [
+      {
+        "name": "Set the Build Budget First",
+        "text": "State the outcome and the limits before SOLO runs: the build budget, the top-up frequency, and any merchant constraints, in the same message that starts the build."
+      },
+      {
+        "name": "Approve Inside the Build Flow",
+        "text": "When the build reaches a paid step, the approval request appears in the flow you are already working in. Review the merchant, amount, and purpose—approving releases a scoped credential for that purchase only, and the build resumes without a checkout detour."
+      },
+      {
+        "name": "Ship With the Spend on Record",
+        "text": "The feature lands in the preview deploy, and the confirmation and entitlement stay attached to the build—ready for client billing or a later review."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can an IDE Agent Spend Safely on a Solo Budget?",
+      "a": "Yes, because the budget is yours and set before the build starts. Trae works against a per-purchase authorization—merchant, amount cap, and validity—on top of a card that is tokenized at connection. There is no stored balance, and a risk layer can auto-pause spending that falls outside your lines."
+    },
+    {
+      "q": "Does a Purchase Interrupt the SOLO Build?",
+      "a": "No. The approval appears inside the build flow you are already working in, and within the scope you set, the purchase completes without a detour to a checkout page. The build resumes on the same task, with the confirmation and entitlement attached when the feature ships."
+    },
+    {
+      "q": "Can Client Builds Stay on Their Own Budgets?",
+      "a": "Yes. Set the cap and the top-up frequency per project before the build starts, and every purchase resolves to that build. The receipts give you line items you can attach to the client invoice instead of reconciling a personal card statement."
+    }
+  ],
+  "finalCta": {
+    "title": "Give Trae the Purchase Step SOLO Was Missing.",
+    "description": "Connect Trae to scoped, capped payments and take SOLO builds from prompt to shipped app—paid steps included."
+  }
+}

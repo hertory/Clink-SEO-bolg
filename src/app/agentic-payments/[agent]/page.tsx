@@ -1,19 +1,41 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
+  ArrowDown,
+  BarChart3,
+  Boxes,
+  Calendar,
   Check,
+  CircleDollarSign,
+  CreditCard,
+  Database,
+  FileSearch,
+  FileText,
+  FlaskConical,
+  Gauge,
   Gift,
+  Globe,
   House,
+  KeyRound,
+  Layers,
   MapPin,
+  MessageCircle,
+  Moon,
   PackageCheck,
+  PiggyBank,
   Plane,
+  Receipt,
   RefreshCw,
+  Rocket,
+  Search,
   ShieldCheck,
   ShoppingBag,
-  CircleDollarSign,
   Sparkles,
+  Store,
+  Terminal,
+  Timer,
   WalletCards,
-  ArrowDown,
+  Zap,
 } from "lucide-react";
 import { Footer, TopNav } from "@/components/blog/SiteChrome";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -63,6 +85,29 @@ const USE_CASE_ICONS: Record<string, typeof House> = {
   RefreshCw,
   WalletCards,
   MapPin,
+  Zap,
+  Terminal,
+  Boxes,
+  Gauge,
+  Moon,
+  Receipt,
+  Rocket,
+  Store,
+  KeyRound,
+  PiggyBank,
+  FlaskConical,
+  FileText,
+  Globe,
+  ShoppingBag,
+  Calendar,
+  CreditCard,
+  MessageCircle,
+  Search,
+  Database,
+  BarChart3,
+  Timer,
+  Layers,
+  FileSearch,
 };
 
 const STEP_ICONS: Record<string, typeof ShieldCheck> = {
@@ -250,8 +295,8 @@ export default async function AgentPaymentsPage({
         </div>
       </section>
 
-      {/* MCP setup (shared product section) */}
-      <AgentSetupSection setup={page.setup} />
+      {/* MCP setup (shared product section; tab defaults to this page's agent) */}
+      <AgentSetupSection setup={page.setup} defaultAgent={page.agent.name} />
 
       {/* Use cases */}
       <section className="bg-elev">

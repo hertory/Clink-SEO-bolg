@@ -1,0 +1,239 @@
+{
+  "slug": "manus",
+  "agent": {
+    "name": "Manus",
+    "domain": "manus.im",
+    "label": "Manus"
+  },
+  "meta": {
+    "title": "Manus × Clink — Mission Budget Envelopes for Long-Horizon Agents",
+    "description": "Manus runs missions that span hours or days. Clink adds a mission-level budget envelope, so a paid dependency mid-mission never stalls the work.",
+    "ogDescription": "One envelope per mission: every purchase Manus makes is scoped, receipted, and auditable from kickoff to the final deliverable."
+  },
+  "hero": {
+    "kicker": "Manus, Powered to Transact",
+    "h1": "Manus Can Fund a Mission That Runs for Days.",
+    "standfirst": "A mission runs for hours or days, and the paid dependency lands mid-flight—a gated dataset on day two, a metered API steps from done. Clink gives Manus a mission-level budget envelope: approve it once, and every purchase inside the mission is scoped, receipted, and auditable.",
+    "ctaLabel": "See the Mission Envelope",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Envelope Set at Kickoff",
+    "flowEnd": "Mission Complete, Audit Ready"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond Single Tasks",
+    "title": "A Mission That Spans Days Needs a Budget That Does Too.",
+    "body": "Research, sourcing, and multi-vendor comparison unfold in phases over hours or days, and the paid dependency often appears mid-mission. Clink gives Manus a controlled path from dependency to purchase to delivered mission.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Mission Plan to the Right Purchase.",
+        "body": "Give Manus the mission goal, the envelope, and the deadline. Hours in, when a gated dataset or a metered API becomes the blocker, it can bring back the option that fits inside the mission's budget.",
+        "visual": {
+          "kind": "choice",
+          "heading": "Mission kickoff",
+          "prompt": "Compare the top three data vendors for our sourcing brief. If a step needs a paid report or a gated dataset, buy it inside the $200 mission envelope and finish the full comparison.",
+          "tags": [
+            [
+              "Goal",
+              "Vendor comparison"
+            ],
+            [
+              "Envelope",
+              "$200, set at kickoff"
+            ],
+            [
+              "Horizon",
+              "Runs this week"
+            ],
+            [
+              "Purchases",
+              "Scoped per mission"
+            ]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "One Envelope Covers the Whole Mission.",
+        "body": "Approve the envelope once at kickoff—merchant scope, amount cap, validity. Every purchase inside the mission is authorized against it, and anything outside pauses the mission instead of spending.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Mission Budget Envelope",
+          "subheading": "Approved at kickoff",
+          "rows": [
+            [
+              "Merchant scope",
+              "Named at kickoff"
+            ],
+            [
+              "Envelope cap",
+              "Set for the whole mission"
+            ],
+            [
+              "Validity",
+              "This mission only"
+            ]
+          ],
+          "confirm": "Every purchase stays inside it"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "The Mission Ends With a Full Audit Trail.",
+        "body": "A payment is not the outcome—the delivered mission is. Each purchase resolves to the step it unblocked, so the entire spend history reads like the mission log it belongs to.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Mission Review",
+          "subheading": "One timeline, mission-wide",
+          "events": [
+            [
+              "Paid dataset purchased",
+              "Within envelope"
+            ],
+            [
+              "Comparison completed",
+              "Complete"
+            ],
+            [
+              "Final report assembled",
+              "Complete"
+            ],
+            [
+              "Mission audit trail",
+              "Ready to export"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put Manus on It",
+    "title": "Long Missions Shouldn't Stall Mid-Flight at a Paywall.",
+    "items": [
+      {
+        "icon": "Search",
+        "title": "Source and Buy the Best-Fit Vendor Report",
+        "body": "Give Manus the sourcing brief. It compares the field, buys the report that fits, and keeps the purchase inside the mission's envelope."
+      },
+      {
+        "icon": "Database",
+        "title": "Buy a Gated Dataset Mid-Research",
+        "body": "When the research phase hits a dataset behind a paywall, Manus can purchase access under the kickoff cap and keep the analysis moving."
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Compare Vendors, Then Buy the Winner",
+        "body": "A multi-vendor comparison that ends in a purchase can run end to end—the evaluation and the winning buy in one mission."
+      },
+      {
+        "icon": "Timer",
+        "title": "Set a Standing Budget per Mission",
+        "body": "Assign every mission its own envelope at kickoff, so days-long work stays bounded no matter how many purchases it attempts."
+      },
+      {
+        "icon": "Layers",
+        "title": "Pay for Compute or Storage Mid-Mission",
+        "body": "A mission that needs more compute or storage halfway through can buy it per use instead of pausing until you are back."
+      },
+      {
+        "icon": "FileSearch",
+        "title": "Export One Audit Trail per Mission",
+        "body": "Every purchase resolves to the mission step it unblocked, so wrapping a mission means exporting one complete expense record."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "One Envelope per Mission, Approved at Kickoff.",
+    "description": "The budget spans the whole mission, so a purchase on day three follows the rules you set on day zero.",
+    "steps": [
+      {
+        "name": "Kick Off With the Envelope",
+        "text": "State the mission, the deadline, and the total budget in the same instruction that starts the work."
+      },
+      {
+        "name": "Approve the Mission-Level Envelope",
+        "text": "This is the long-horizon difference: merchant scope, amount cap, and validity are set once to span the mission. Every mid-mission purchase is authorized inside it, and the audit trail accumulates per mission."
+      },
+      {
+        "name": "Collect the Mission and Its Receipts",
+        "text": "The finished deliverable arrives with every purchase receipted against the envelope—review or export the whole mission's spend as one record."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How Do I Keep a Multi-Day Manus Mission From Overspending?",
+      "a": "Approve the mission envelope at kickoff. Every purchase inside the mission is authorized against that cap—merchant, amount, and validity—and budget plus top-up frequency caps bound the total. Anything outside the envelope pauses the mission instead of spending."
+    },
+    {
+      "q": "Does Manus See My Card Details?",
+      "a": "No. Clink tokenizes the card at connection—there is no stored balance—and releases a per-purchase credential against the approved instruction. Manus works with the mission's scope, never raw card data."
+    },
+    {
+      "q": "What Can Manus Buy Mid-Mission?",
+      "a": "API products paid per use—gated datasets and metered services fit the mission pattern—and purchases on supported commerce surfaces. Availability depends on the merchant and the options at each step of the mission."
+    }
+  ],
+  "finalCta": {
+    "title": "Give Manus the Budget to Finish the Mission.",
+    "description": "Connect Manus to Clink and approve one envelope that carries every purchase from kickoff to the final deliverable."
+  }
+}

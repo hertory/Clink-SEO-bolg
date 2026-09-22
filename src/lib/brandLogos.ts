@@ -55,6 +55,7 @@ import trae from "@/assets/logos/trae.ai.png";
 import workbuddy from "@/assets/logos/workbuddy.ai.png";
 import chatgpt from "@/assets/logos/chatgpt.com.png";
 import manus from "@/assets/logos/manus.im.png";
+import openclaw from "@/assets/logos/openclaw.ai.png";
 
 export const BRAND_LOGOS: Record<string, string> = {
   "anthropic.com": anthropic.src,
@@ -114,6 +115,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   "workbuddy.ai": workbuddy.src,
   "chatgpt.com": chatgpt.src,
   "manus.im": manus.src,
+  "openclaw.ai": openclaw.src,
 };
 
 export function brandLogo(domain?: string): string | undefined {

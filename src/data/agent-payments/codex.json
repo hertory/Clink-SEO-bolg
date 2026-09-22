@@ -1,6 +1,10 @@
 {
   "slug": "codex",
-  "agent": { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+  "agent": {
+    "name": "Codex",
+    "domain": "codex.com",
+    "label": "Codex"
+  },
   "meta": {
     "title": "Codex × Clink — Pre-Approved Payments for Async Agent Tasks",
     "description": "Codex runs tasks while you're away. Clink adds a scoped payment path approved up front, so the first paid API doesn't stall the run.",
@@ -29,10 +33,22 @@
           "heading": "Task brief",
           "prompt": "Evaluate these three log-parsing APIs against our sample set. If one requires a paid plan to test, buy the cheapest monthly tier under $30.",
           "tags": [
-            ["Goal", "Pick the best fit"],
-            ["Budget", "Under $30"],
-            ["Test data", "Provided"],
-            ["When", "Overnight run"]
+            [
+              "Goal",
+              "Pick the best fit"
+            ],
+            [
+              "Budget",
+              "Under $30"
+            ],
+            [
+              "Test data",
+              "Provided"
+            ],
+            [
+              "When",
+              "Overnight run"
+            ]
           ]
         }
       },
@@ -45,9 +61,18 @@
           "heading": "Task Payment Scope",
           "subheading": "Approved at task start",
           "rows": [
-            ["Merchant type", "Developer services"],
-            ["Spend ceiling", "Your brief sets it"],
-            ["Validity", "This run only"]
+            [
+              "Merchant type",
+              "Developer services"
+            ],
+            [
+              "Spend ceiling",
+              "Your brief sets it"
+            ],
+            [
+              "Validity",
+              "This run only"
+            ]
           ],
           "confirm": "Scope locked for the run"
         }
@@ -61,10 +86,22 @@
           "heading": "Run Review",
           "subheading": "Code and payments, one timeline",
           "events": [
-            ["Paid API purchased", "Within scope"],
-            ["Evaluation completed", "Complete"],
-            ["Recommendation written", "Complete"],
-            ["Receipts attached", "Ready for review"]
+            [
+              "Paid API purchased",
+              "Within scope"
+            ],
+            [
+              "Evaluation completed",
+              "Complete"
+            ],
+            [
+              "Recommendation written",
+              "Complete"
+            ],
+            [
+              "Receipts attached",
+              "Ready for review"
+            ]
           ]
         }
       }
@@ -84,13 +121,46 @@
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
     "agents": [
-      { "name": "Today", "domain": "today.ai", "label": "Today" },
-      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
-      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
-      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
-      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
-      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
-      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+      {
+        "name": "Today",
+        "domain": "today.ai",
+        "label": "Today"
+      },
+      {
+        "name": "Claude Code",
+        "domain": "claude.ai",
+        "label": "Claude Code"
+      },
+      {
+        "name": "Codex",
+        "domain": "codex.com",
+        "label": "Codex"
+      },
+      {
+        "name": "Trae",
+        "domain": "trae.ai",
+        "label": "Trae"
+      },
+      {
+        "name": "WorkBuddy",
+        "domain": "workbuddy.ai",
+        "label": "WorkBuddy"
+      },
+      {
+        "name": "ChatGPT",
+        "domain": "chatgpt.com",
+        "label": "ChatGPT"
+      },
+      {
+        "name": "Manus",
+        "domain": "manus.im",
+        "label": "Manus"
+      },
+      {
+        "name": "OpenClaw",
+        "domain": "openclaw.ai",
+        "label": "OpenClaw"
+      }
     ]
   },
   "useCases": {

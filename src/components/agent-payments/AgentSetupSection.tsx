@@ -13,8 +13,16 @@ type SetupData = AgentPaymentPage["setup"];
  * agent tabs + copyable connection snippet. Identical product-level content
  * across agent pages; the surrounding page copy is what gets customized.
  */
-export function AgentSetupSection({ setup }: { setup: SetupData }) {
-  const [activeAgent, setActiveAgent] = useState(setup.agents[0]);
+export function AgentSetupSection({
+  setup,
+  defaultAgent,
+}: {
+  setup: SetupData;
+  defaultAgent?: string;
+}) {
+  const initial =
+    setup.agents.find((a) => a.name === defaultAgent) ?? setup.agents[0];
+  const [activeAgent, setActiveAgent] = useState(initial);
   const [copied, setCopied] = useState(false);
 
   const setupText = `# ${setup.codeTitlePrefix} ${activeAgent.name}\n${setup.code}\n\n${setup.thenAskLabel}\n${setup.thenAsk}`;
