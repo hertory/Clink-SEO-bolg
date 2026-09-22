@@ -85,12 +85,11 @@ curl -sL https://clinkbill.com/blog/sitemap.xml | grep -c "<loc>"               
 | **重复 slug** | 带编号/不带编号双文件 = 列表页双卡片；提交前 `for f in content/blog/*.md; do grep -m1 '^slug:' $f; done \| sort \| uniq -d` 应为空 |
 | **lovable.app 残留** | 任何 canonical/og/robots/内链禁止再出现 `clink-ai.lovable.app` |
 | **正式域 404 的路径** | `/compare`、`/platforms/*` 未被 CloudFront 转发；`/blog/sitemap.xml` 已过滤它们；要上线这些页面需主站加转发规则 |
-| **canonical host** | 全站统一**裸域** `https://clinkbill.com`（metadataBase + ARR JSON 同口径）；www/裸域 301 未裁定，属主站侧 |
+| **canonical host** | 全站统一**裸域** `https://clinkbill.com`（metadataBase + ARR JSON 同口径）；✅ www → 裸域 301 已于 2026-09-22 上线（裁定=裸域，与全部既有口径一致，零改动） |
 | 主站 GA ID | `G-0YGZ90TPXH`，本应用 GA4 与主站同 ID 同 property |
 
 ## 8. 主站侧遗留（不归本仓库，提醒用）
 
-- www / 裸域 301 收敛（CloudFront/DNS；裁定后本仓 `metadataBase` + 50 个 ARR JSON 的 canonical 需同步）
 - 主站页面 canonical/og:url（主站仓库）
 - 主站 robots.txt 声明 `Sitemap: https://clinkbill.com/blog/sitemap.xml`（或 GSC 手动提交）
 - 主站 sitemap 补 `/agentic-payment`、`/skills`，移除 307 `/products` 与 `#fragment` 噪音
