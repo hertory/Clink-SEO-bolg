@@ -50,7 +50,6 @@ import luma from "@/assets/logos/lumalabs.ai.png";
 import deepgram from "@/assets/logos/deepgram.com.png";
 import today from "@/assets/logos/today.ai.png";
 import claudeCode from "@/assets/logos/claude.ai.png";
-import codex from "@/assets/logos/codex.com.png";
 import trae from "@/assets/logos/trae.ai.png";
 import workbuddy from "@/assets/logos/workbuddy.ai.png";
 import chatgpt from "@/assets/logos/chatgpt.com.png";
@@ -110,7 +109,6 @@ export const BRAND_LOGOS: Record<string, string> = {
   "deepgram.com": deepgram.src,
   "today.ai": today.src,
   "claude.ai": claudeCode.src,
-  "codex.com": codex.src,
   "trae.ai": trae.src,
   "workbuddy.ai": workbuddy.src,
   "chatgpt.com": chatgpt.src,
