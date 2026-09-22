@@ -20,7 +20,7 @@
 
 ## 2. 内容规则（SSOT：只在本仓库维护）
 
-- 文章路径：`content/blog/NN-{slug}.md`，**flat 无子目录**；NN 全局连续（下一号 24），文件名仅排序用，**slug 以 frontmatter 为准**。
+- 文章路径：`content/blog/NN-{slug}.md`，**flat 无子目录**；NN 全局连续（已用至 44；42/43/45 预留 P1 系列，下一号 46），文件名仅排序用，**slug 以 frontmatter 为准**。
 - Frontmatter 必填：`title / description / slug / date / category / author / readingMinutes`；可选：`updated / secondaryCategory / image`（**禁止 `keywords` / `related`**）。
 - **FAQ 必须用 `## FAQ` + `### 问题` 格式**：`scripts/build-blog-data.ts` 靠正则提取成结构化 FAQ（页面渲染 + JSON-LD）。用 `**加粗**` 或行尾格式不对会静默提取失败。
 - 同 slug 文件只能存在一份——重复文件会在列表页渲染两张卡片。
