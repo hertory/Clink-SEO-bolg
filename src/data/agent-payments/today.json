@@ -1,0 +1,177 @@
+{
+  "slug": "today",
+  "agent": { "name": "Today", "domain": "today.ai", "label": "Today" },
+  "meta": {
+    "title": "Today.ai × Clink — Real-World Buying for a Personal Agent",
+    "description": "See how Clink gives Today the ability to turn a natural-language request into an approved payment and a completed real-world purchase.",
+    "ogDescription": "Today understands what you need. Clink connects the products, payment approval, and fulfilment required to buy it."
+  },
+  "hero": {
+    "kicker": "Today, Powered to Transact",
+    "h1": "Today Can Buy What You Ask For.",
+    "standfirst": "Today understands what you need. Clink connects the products, payment approval, and fulfilment required to make it happen.",
+    "ctaLabel": "Watch Today Buy",
+    "ctaHref": "#demo",
+    "flowStart": "Ask Today",
+    "flowEnd": "Purchase Complete"
+  },
+  "demo": {
+    "eyebrow": "Recorded Demo",
+    "title": "See Today Complete a Real Purchase.",
+    "body": "A real request, a user-approved payment, and a completed merchant order—captured from start to finish.",
+    "badge": "Recorded Session",
+    "video": "/blog/videos/today-demo.mp4",
+    "poster": "/blog/images/today/poster.jpg"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond Answers",
+    "title": "Today Can Carry the Task All the Way Through.",
+    "body": "The conversation is only the beginning. Clink gives Today a controlled path from intent to transaction to outcome.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Request to the Right Choice.",
+        "body": "Tell Today the outcome you want—not the exact product page. It can carry your goal, budget, preferences, and location into a choice that is ready to buy.",
+        "visual": {
+          "kind": "choice",
+          "heading": "What should I find for you?",
+          "prompt": "Find the best option for my trip, under my budget, and available before Friday.",
+          "tags": [
+            ["Goal", "Trip ready"],
+            ["Budget", "Set by you"],
+            ["Preference", "Best match"],
+            ["Timing", "Before Friday"]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "Payments Stay Within Your Boundaries.",
+        "body": "Clink handles payment identity and approval while Today keeps working on the task. The purchase stays bound to the merchant, amount, and purpose you approved.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Purchase Approval",
+          "subheading": "Secured by Clink",
+          "rows": [
+            ["Merchant", "Approved merchant"],
+            ["Spending limit", "Set by you"],
+            ["Permission", "This purchase only"]
+          ],
+          "confirm": "Ready for your approval"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "Today Keeps Going After Checkout.",
+        "body": "A payment is not the outcome. Today can return the confirmation, fulfilment status, and next action directly in the conversation.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Purchase Status",
+          "subheading": "One conversation, complete context",
+          "events": [
+            ["Request understood", "Complete"],
+            ["Payment authorized", "Complete"],
+            ["Order confirmed", "Complete"],
+            ["Fulfilment update", "Available in Today"]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      { "name": "Today", "domain": "today.ai", "label": "Today" },
+      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
+      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
+      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put Today on It",
+    "title": "Ask for the Outcome. Let Today Handle the Buying.",
+    "items": [
+      {
+        "icon": "House",
+        "title": "Restock Household Essentials",
+        "body": "Tell Today what is running low and let it find a suitable replacement within your preferences."
+      },
+      {
+        "icon": "Gift",
+        "title": "Find a Last-Minute Gift",
+        "body": "Give Today the person, occasion, budget, and deadline. It can narrow the options and complete the purchase."
+      },
+      {
+        "icon": "Plane",
+        "title": "Get Ready for a Trip",
+        "body": "Ask Today for the items you still need and keep the entire purchase inside one clear budget."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Replace a Broken Item",
+        "body": "Describe what needs replacing. Today can identify the right match and arrange the next step."
+      },
+      {
+        "icon": "WalletCards",
+        "title": "Buy Within a Set Budget",
+        "body": "Set the outcome and the maximum spend. Today searches and acts without crossing the limit you approved."
+      },
+      {
+        "icon": "MapPin",
+        "title": "Arrange Pickup or Delivery",
+        "body": "Today can carry your preferred location and fulfilment method from the request through confirmation."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "You Set the Boundaries.",
+    "description": "Today can move the task forward without taking control away from you.",
+    "steps": [
+      {
+        "name": "Tell Today What You Need",
+        "text": "Describe the outcome, preferences, location, and budget in the same conversation you already use with Today."
+      },
+      {
+        "name": "Approve the Boundaries",
+        "text": "Review the merchant, amount, purpose, and payment method before the purchase is authorized through Clink."
+      },
+      {
+        "name": "Get the Completed Result",
+        "text": "Today continues the task and returns the order confirmation and fulfilment details without seeing your full card data."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Does Today See My Card Details?",
+      "a": "No. Clink handles payment credentials and authorization outside the conversation. Today receives only the information needed to complete your approved purchase."
+    },
+    {
+      "q": "Do I Stay in Control of Purchases?",
+      "a": "Yes. You set the merchant, amount, purpose, and other limits before a payment is authorized. Today can only continue within those boundaries."
+    },
+    {
+      "q": "What Can Today Buy With Clink?",
+      "a": "Today can complete purchases from commerce systems connected through Clink. Availability depends on the merchant, product, location, and fulfilment options for each request."
+    }
+  ],
+  "finalCta": {
+    "title": "Give Today the Power to Complete the Purchase.",
+    "description": "Connect Today to controlled payments and real-world commerce through Clink."
+  }
+}
