@@ -1,7 +1,7 @@
 # Clink 生产路由：主站 Rewrite / 反向代理
 
 > **读者**：负责 **`clinkbill.com` 主站** 的前端/全栈同学。  
-> **博客子站**：Next.js 15 项目，部署在 **`https://clink-ai-psi.vercel.app`**（本仓库）。  
+> **博客子站**：Next.js 15 项目，部署在 **`https://clink-seo-bolg.vercel.app`**（本仓库）。  
 > **目标**：用户访问 `https://clinkbill.com/blog` 和 `https://clinkbill.com/blog/:slug` 时**地址栏保持 `clinkbill.com`**，请求透明转发到子站，避免 302 到 `*.vercel.app`。
 
 ---
@@ -85,7 +85,7 @@
 // next.config.ts（clinkbill.com 主站仓库）
 import type { NextConfig } from "next";
 
-const BLOG_ORIGIN = process.env.BLOG_ORIGIN ?? "https://clink-ai-psi.vercel.app";
+const BLOG_ORIGIN = process.env.BLOG_ORIGIN ?? "https://clink-seo-bolg.vercel.app";
 
 const nextConfig: NextConfig = {
   async rewrites() {
@@ -112,7 +112,7 @@ export default nextConfig;
 
 ```bash
 # 主站 Vercel 项目
-BLOG_ORIGIN=https://clink-ai-psi.vercel.app
+BLOG_ORIGIN=https://clink-seo-bolg.vercel.app
 ```
 
 Preview 环境可指向 Preview Deployment URL。
@@ -124,11 +124,11 @@ Preview 环境可指向 Preview Deployment URL。
 ```json
 {
   "rewrites": [
-    { "source": "/blog", "destination": "https://clink-ai-psi.vercel.app/blog" },
-    { "source": "/blog/:slug", "destination": "https://clink-ai-psi.vercel.app/blog/:slug" },
-    { "source": "/_next/static/css/:path*", "destination": "https://clink-ai-psi.vercel.app/_next/static/css/:path*" },
-    { "source": "/_next/static/chunks/app/blog/:path*", "destination": "https://clink-ai-psi.vercel.app/_next/static/chunks/app/blog/:path*" },
-    { "source": "/_next/static/media/:path*", "destination": "https://clink-ai-psi.vercel.app/_next/static/media/:path*" }
+    { "source": "/blog", "destination": "https://clink-seo-bolg.vercel.app/blog" },
+    { "source": "/blog/:slug", "destination": "https://clink-seo-bolg.vercel.app/blog/:slug" },
+    { "source": "/_next/static/css/:path*", "destination": "https://clink-seo-bolg.vercel.app/_next/static/css/:path*" },
+    { "source": "/_next/static/chunks/app/blog/:path*", "destination": "https://clink-seo-bolg.vercel.app/_next/static/chunks/app/blog/:path*" },
+    { "source": "/_next/static/media/:path*", "destination": "https://clink-seo-bolg.vercel.app/_next/static/media/:path*" }
   ]
 }
 ```
@@ -164,7 +164,7 @@ Preview 环境可指向 Preview Deployment URL。
 如果精确转发仍不生效（主站版本与子站 chunk 哈希冲突），在子站 `next.config.ts` 中设置：
 
 ```ts
-assetPrefix: "https://clink-ai-psi.vercel.app",
+assetPrefix: "https://clink-seo-bolg.vercel.app",
 ```
 
 子站博客页面的所有 `/_next/static/...` 请求将直接指向 `clink-ai-psi.vercel.app`，无需主站转发任何 `/_next/*` 规则。代价是博客页面首次加载多一次 DNS 解析。
@@ -189,7 +189,7 @@ assetPrefix: "https://clink-ai-psi.vercel.app",
 - [ ] 无痕访问 `https://clinkbill.com/blog`，地址栏保持 `clinkbill.com`
 - [ ] 访问 `https://clinkbill.com/blog/mor-vs-psp`，地址栏保持 `clinkbill.com`
 - [ ] Network：文档 200，CSS/JS chunk 200，无大量 404
-- [ ] 与直接访问 `https://clink-ai-psi.vercel.app/blog` 同路径 HTML 一致
+- [ ] 与直接访问 `https://clink-seo-bolg.vercel.app/blog` 同路径 HTML 一致
 - [ ] view-source：canonical / `og:url` 指向 `clinkbill.com`，无 `vercel.app` 域泄漏
 - [ ] 主站产品路径（`/`、`/products`、`/contact` 等）不受影响，样式正常
 - [ ] `sitemap.xml` 中博客 URL 为 `clinkbill.com/blog/*`

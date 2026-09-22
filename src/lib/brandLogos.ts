@@ -48,6 +48,13 @@ import coderabbit from "@/assets/logos/coderabbit.ai.png";
 import hippocratic from "@/assets/logos/hippocraticai.com.png";
 import luma from "@/assets/logos/lumalabs.ai.png";
 import deepgram from "@/assets/logos/deepgram.com.png";
+import today from "@/assets/logos/today.ai.png";
+import claudeCode from "@/assets/logos/claude.ai.png";
+import codex from "@/assets/logos/codex.com.png";
+import trae from "@/assets/logos/trae.ai.png";
+import workbuddy from "@/assets/logos/workbuddy.ai.png";
+import chatgpt from "@/assets/logos/chatgpt.com.png";
+import manus from "@/assets/logos/manus.im.png";
 
 export const BRAND_LOGOS: Record<string, string> = {
   "anthropic.com": anthropic.src,
@@ -100,6 +107,13 @@ export const BRAND_LOGOS: Record<string, string> = {
   "hippocraticai.com": hippocratic.src,
   "lumalabs.ai": luma.src,
   "deepgram.com": deepgram.src,
+  "today.ai": today.src,
+  "claude.ai": claudeCode.src,
+  "codex.com": codex.src,
+  "trae.ai": trae.src,
+  "workbuddy.ai": workbuddy.src,
+  "chatgpt.com": chatgpt.src,
+  "manus.im": manus.src,
 };
 
 export function brandLogo(domain?: string): string | undefined {
