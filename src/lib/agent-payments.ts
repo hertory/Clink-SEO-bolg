@@ -1,5 +1,9 @@
 import "server-only";
 import today from "@/data/agent-payments/today.json";
+import claudeCode from "@/data/agent-payments/claude-code.json";
+import codex from "@/data/agent-payments/codex.json";
+import openclaw from "@/data/agent-payments/openclaw.json";
+import workbuddy from "@/data/agent-payments/workbuddy.json";
 
 export type AgentPaymentVisual =
   | {
@@ -55,7 +59,7 @@ export type AgentPaymentPage = {
     badge: string;
     video: string;
     poster: string;
-  };
+  } | null;
   capabilities: {
     eyebrow: string;
     title: string;
@@ -94,6 +98,10 @@ export type AgentPaymentPage = {
 
 const PAGES: Record<string, AgentPaymentPage> = {
   today: today as unknown as AgentPaymentPage,
+  "claude-code": claudeCode as unknown as AgentPaymentPage,
+  codex: codex as unknown as AgentPaymentPage,
+  openclaw: openclaw as unknown as AgentPaymentPage,
+  workbuddy: workbuddy as unknown as AgentPaymentPage,
 };
 
 export function getAgentPaymentSlugs(): string[] {

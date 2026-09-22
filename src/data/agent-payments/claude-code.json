@@ -1,0 +1,169 @@
+{
+  "slug": "claude-code",
+  "agent": { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+  "meta": {
+    "title": "Claude Code × Clink — Scoped Payments Inside the Terminal",
+    "description": "Clink gives Claude Code a tokenized, per-purchase payment path, so an API top-up or a paid tool never stalls a coding session.",
+    "ogDescription": "Claude Code already works across your repo. Clink adds the approved payment step—scoped, tokenized, and inside the terminal."
+  },
+  "hero": {
+    "kicker": "Claude Code, Powered to Transact",
+    "h1": "Claude Code Can Pay for What the Task Needs.",
+    "standfirst": "A coding agent that can refactor a repo still stops at the first paid API. Clink adds the approved payment step, so the task continues and the receipt lands in the same session.",
+    "ctaLabel": "See How the Payment Works",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Task Hits a Paywall",
+    "flowEnd": "Purchased and Unblocked"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond Refactors",
+    "title": "Claude Code Can Carry the Purchase Inside the Session.",
+    "body": "Coding tasks increasingly depend on paid dependencies—API credits, gated tools, metered services. Clink gives Claude Code a controlled path from dependency to purchase to unblocked work.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Stack Trace to the Right Service.",
+        "body": "Name the outcome and the cap, not the checkout page. Claude Code can identify the paid dependency the task actually needs and bring back the option that fits within the budget you set.",
+        "visual": {
+          "kind": "choice",
+          "heading": "What does the task need?",
+          "prompt": "This migration needs the Pro tier of that transformation API. Find the cheapest option that covers 10k calls, and stay under $50.",
+          "tags": [
+            ["Goal", "Unblock migration"],
+            ["Budget", "Under $50"],
+            ["Preference", "Cheapest coverage"],
+            ["Volume", "10k calls"]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "The Terminal Never Holds a Card.",
+        "body": "Clink tokenizes the credential at connection and releases it per purchase. Claude Code works with a scoped instruction bound to the merchant, the amount, and the purpose you approved—never the raw card.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Purchase Approval",
+          "subheading": "Secured by Clink",
+          "rows": [
+            ["Merchant", "Named in the instruction"],
+            ["Spending limit", "Capped per purchase"],
+            ["Scope", "This task only"]
+          ],
+          "confirm": "Approved before the call is made"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "Receipts Land Where the Code Lives.",
+        "body": "A payment is not the outcome. The confirmation, the usage entitlement, and the audit line land in the same session output your team already reviews.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Session Output",
+          "subheading": "Payment and code, one log",
+          "events": [
+            ["Dependency identified", "Complete"],
+            ["Purchase approved", "Complete"],
+            ["API access granted", "Complete"],
+            ["Receipt in session log", "Complete"]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“The migration is rate-limited. Buy the Pro tier of that API under $50 and keep going.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      { "name": "Today", "domain": "today.ai", "label": "Today" },
+      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
+      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
+      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put Claude Code on It",
+    "title": "Paid Dependencies Stop Being Stopping Points.",
+    "items": [
+      {
+        "icon": "Zap",
+        "title": "Restock API Credits Mid-Task",
+        "body": "A refactor hits a rate limit. Claude Code buys the credit pack inside the cap and continues instead of ending the session."
+      },
+      {
+        "icon": "Terminal",
+        "title": "Pay for a One-Off Dev Service",
+        "body": "A one-shot transformation or hosted check can be purchased per use, with the scope tied to that single call."
+      },
+      {
+        "icon": "Boxes",
+        "title": "Buy the Paid Tool the Task Calls For",
+        "body": "When the right MCP tool is gated behind a payment, Claude Code can acquire it for the task instead of skipping it."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Keep Experiments Inside a Budget",
+        "body": "Set the ceiling before the experiment starts. Usage-based purchases stop at the line you drew, not after."
+      },
+      {
+        "icon": "Moon",
+        "title": "Let Overnight Runs Self-Serve",
+        "body": "Long-running jobs that need a paid call at 3 a.m. proceed within the approved scope and show the receipt in the morning."
+      },
+      {
+        "icon": "Receipt",
+        "title": "Keep the Audit Trail in the Repo Workflow",
+        "body": "Every purchase resolves to the agent, the instruction, and the outcome—reviewable like any other change."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "You Set the Cap. Claude Code Stays Inside It.",
+    "description": "The payment step happens without leaving the terminal session, and without handing over a card.",
+    "steps": [
+      {
+        "name": "Describe the Task and the Cap",
+        "text": "State the outcome, the budget, and any merchant constraints in the same prompt that starts the work."
+      },
+      {
+        "name": "Approve the Scoped Purchase",
+        "text": "Review the merchant, amount, and purpose before the credential is released—the approval happens in the flow, without leaving the CLI."
+      },
+      {
+        "name": "Merge With the Receipt in Hand",
+        "text": "The confirmation and the usage entitlement land in the session output, ready for the pull request and the audit line."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can a Terminal Agent Be Trusted With a Card?",
+      "a": "It never sees one. The card is tokenized at connection, and Claude Code operates on a per-purchase instruction—scope, amount, and validity are set before any credential is released."
+    },
+    {
+      "q": "What Can Claude Code Buy?",
+      "a": "API products paid per use—model tokens and paid tools—and purchases on supported commerce surfaces. Availability depends on the merchant and the fulfilment options for each request."
+    },
+    {
+      "q": "What Happens If a Purchase Fails Mid-Task?",
+      "a": "The failure surfaces in the session instead of failing silently. Idempotency prevents double charges, and a retry within the approved scope is a new, auditable instruction."
+    }
+  ],
+  "finalCta": {
+    "title": "Give Claude Code the Missing Payment Step.",
+    "description": "Connect Claude Code to controlled, per-purchase payments and keep coding tasks moving through paid dependencies."
+  }
+}

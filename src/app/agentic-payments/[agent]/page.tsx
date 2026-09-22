@@ -170,42 +170,44 @@ export default async function AgentPaymentsPage({
         </div>
       </section>
 
-      {/* Demo */}
-      <section id="demo" className="scroll-mt-24 bg-elev">
-        <div className="mx-auto max-w-[1080px] px-6 py-20 md:py-28">
-          <div className="mx-auto max-w-[720px] text-center">
-            <p className="text-sm font-medium text-accent">{page.demo.eyebrow}</p>
-            <h2 className="mt-3 text-3xl font-semibold md:text-[44px] md:leading-[1.08]">
-              {page.demo.title}
-            </h2>
-            <p className="mt-5 text-base leading-relaxed text-foreground-muted md:text-lg">
-              {page.demo.body}
-            </p>
-          </div>
-          <div className="mx-auto mt-12 max-w-[920px] overflow-hidden rounded-[24px] border border-border bg-card shadow-sm">
-            <div className="flex items-center justify-between border-b border-border px-4 py-3 sm:px-5">
-              <span className="flex items-center gap-2 text-sm font-medium">
-                <BrandLogo name={page.agent.name} domain={page.agent.domain} size={22} />
-                {page.agent.name} in Action
-              </span>
-              <span className="flex items-center gap-2 text-xs font-medium text-foreground-muted">
-                <span className="size-2 rounded-full bg-accent" />
-                {page.demo.badge}
-              </span>
+      {/* Demo (only when the agent page ships a recorded session) */}
+      {page.demo ? (
+        <section id="demo" className="scroll-mt-24 bg-elev">
+          <div className="mx-auto max-w-[1080px] px-6 py-20 md:py-28">
+            <div className="mx-auto max-w-[720px] text-center">
+              <p className="text-sm font-medium text-accent">{page.demo.eyebrow}</p>
+              <h2 className="mt-3 text-3xl font-semibold md:text-[44px] md:leading-[1.08]">
+                {page.demo.title}
+              </h2>
+              <p className="mt-5 text-base leading-relaxed text-foreground-muted md:text-lg">
+                {page.demo.body}
+              </p>
             </div>
-            {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-            <video
-              src={page.demo.video}
-              poster={page.demo.poster}
-              muted
-              playsInline
-              controls
-              preload="metadata"
-              className="block aspect-video w-full bg-muted object-contain"
-            />
+            <div className="mx-auto mt-12 max-w-[920px] overflow-hidden rounded-[24px] border border-border bg-card shadow-sm">
+              <div className="flex items-center justify-between border-b border-border px-4 py-3 sm:px-5">
+                <span className="flex items-center gap-2 text-sm font-medium">
+                  <BrandLogo name={page.agent.name} domain={page.agent.domain} size={22} />
+                  {page.agent.name} in Action
+                </span>
+                <span className="flex items-center gap-2 text-xs font-medium text-foreground-muted">
+                  <span className="size-2 rounded-full bg-accent" />
+                  {page.demo.badge}
+                </span>
+              </div>
+              {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+              <video
+                src={page.demo.video}
+                poster={page.demo.poster}
+                muted
+                playsInline
+                controls
+                preload="metadata"
+                className="block aspect-video w-full bg-muted object-contain"
+              />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
 
       {/* Capabilities */}
       <section className="border-y border-border bg-background">
@@ -301,7 +303,7 @@ export default async function AgentPaymentsPage({
 
       {/* FAQ */}
       <FaqSection
-        title="Questions About Buying With Today."
+        title={`Questions About Buying With ${page.agent.name}.`}
         items={page.faqs}
       />
 

@@ -1,0 +1,169 @@
+{
+  "slug": "openclaw",
+  "agent": { "name": "OpenClaw", "domain": "openclaw.ai", "label": "OpenClaw" },
+  "meta": {
+    "title": "OpenClaw × Clink — Real-World Errands With Scoped Payment Authority",
+    "description": "OpenClaw runs around the clock. Clink gives it scoped payment authority for the errands you delegate—orders, pickups, and paid services.",
+    "ogDescription": "An always-on agent doesn't stop at answers. Clink gives OpenClaw scoped payment authority for orders, pickups, and paid services."
+  },
+  "hero": {
+    "kicker": "OpenClaw, Powered to Transact",
+    "h1": "OpenClaw Buys Within the Lines You Draw.",
+    "standfirst": "An always-on runtime doesn't stop at answers. Clink gives OpenClaw scoped payment authority for the errands you delegate—orders, pickups, and paid services.",
+    "ctaLabel": "See an Errand End to End",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Delegate the Errand",
+    "flowEnd": "Pickup Code Received"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond Reminders",
+    "title": "An Always-On Agent Can Carry Errands to Completion.",
+    "body": "OpenClaw is already running when the errand appears. Clink closes the last gap: a controlled way to pay for the order, the service, or the top-up the task calls for.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Errand to Executable Plan.",
+        "body": "Say the errand the way you'd text a friend. OpenClaw turns it into a plan—what to buy, from where, by when—and Clink turns the plan into an approvable payment.",
+        "visual": {
+          "kind": "choice",
+          "heading": "OpenClaw errand",
+          "prompt": "Order my usual from the %Arabica near the office for a 4 p.m. pickup, under $15.",
+          "tags": [
+            ["Errand", "Coffee pickup"],
+            ["Merchant", "Your usual"],
+            ["Budget", "Under $15"],
+            ["Timing", "4 p.m."]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "Authority That Expires With the Errand.",
+        "body": "Each errand gets its own authorization: merchant, amount, and a validity window. When the window closes, the authority closes with it—no standing card access.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Errand Authorization",
+          "subheading": "Valid until 4:30 p.m.",
+          "rows": [
+            ["Merchant", "Approved for this errand"],
+            ["Amount", "Capped under $15"],
+            ["Validity", "Expires after pickup"]
+          ],
+          "confirm": "Scoped to this errand only"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "Order Status Back in the Conversation.",
+        "body": "The errand ends with proof, not a promise: a pickup code, an order confirmation, or the fulfilment status—delivered where you asked OpenClaw.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Errand Status",
+          "subheading": "From delegation to proof",
+          "events": [
+            ["Order placed", "Complete"],
+            ["Payment authorized", "Complete"],
+            ["Pickup code received", "Complete"],
+            ["Receipt filed", "Available in OpenClaw"]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Order my usual %Arabica for a 4 p.m. pickup and send me the code.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      { "name": "Today", "domain": "today.ai", "label": "Today" },
+      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
+      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
+      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put OpenClaw on It",
+    "title": "Errands That End With Proof.",
+    "items": [
+      {
+        "icon": "MapPin",
+        "title": "Order Ahead on the Way",
+        "body": "Coffee, lunch, or a scheduled pickup—OpenClaw places the order and hands you the code before you arrive."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Restock the Essentials",
+        "body": "Household or workspace items that run out on a rhythm can be reordered inside a standing cap."
+      },
+      {
+        "icon": "Gift",
+        "title": "Find the Gift Inside the Budget",
+        "body": "Give the person, the occasion, and the ceiling. OpenClaw narrows the options and completes the approved purchase."
+      },
+      {
+        "icon": "Zap",
+        "title": "Pay for the Services the Agent Uses",
+        "body": "When an errand needs a paid API or tool, the purchase happens per use inside the same authorization."
+      },
+      {
+        "icon": "Plane",
+        "title": "Trip Prep Without Tab-Switching",
+        "body": "Adapters, SIMs, last-minute items—delegated as a list and purchased within one trip budget."
+      },
+      {
+        "icon": "WalletCards",
+        "title": "Standing Errands on a Weekly Cap",
+        "body": "Recurring errands run against a weekly allowance instead of a fresh approval every time."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "Say the Errand. Approve the Lines. Get the Proof.",
+    "description": "Three steps, and the errand ends with something you can act on—a code, an order, or a receipt.",
+    "steps": [
+      {
+        "name": "Say the Errand in Plain Words",
+        "text": "What to buy, from where, by when, and the ceiling—stated like a message to an assistant, not a checkout form."
+      },
+      {
+        "name": "Approve Merchant, Amount, and Window",
+        "text": "This is the OpenClaw difference: the authorization carries a validity window and expires with the errand, and pickup errands return a code you can act on."
+      },
+      {
+        "name": "Get the Pickup Code or the Receipt",
+        "text": "The errand closes with proof—pickup code, order confirmation, or receipt—filed where you can find it later."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is It Safe to Let an Always-On Agent Spend?",
+      "a": "Always-on does not mean unguarded. Every purchase is scoped to one errand, budgets and frequency caps apply across errands, and unusual patterns pause automatic funding until you review."
+    },
+    {
+      "q": "What Can OpenClaw Buy Today?",
+      "a": "Orders on supported commerce surfaces such as Shopify storefronts, pickup orders with connected partners in APAC, and API products paid per use. Availability depends on merchant and location."
+    },
+    {
+      "q": "Can I Revoke Access?",
+      "a": "Yes. Authorizations expire on their own, and you can revoke an agent's payment access at any time from the wallet. Past purchases remain visible for review."
+    }
+  ],
+  "finalCta": {
+    "title": "Give OpenClaw the Errands. Keep the Authority.",
+    "description": "Delegate real purchases with scoped, expiring payment authority—and get proof every time."
+  }
+}

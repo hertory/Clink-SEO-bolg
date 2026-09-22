@@ -1,0 +1,169 @@
+{
+  "slug": "codex",
+  "agent": { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+  "meta": {
+    "title": "Codex × Clink — Pre-Approved Payments for Async Agent Tasks",
+    "description": "Codex runs tasks while you're away. Clink adds a scoped payment path approved up front, so the first paid API doesn't stall the run.",
+    "ogDescription": "Codex works in the background. Clink makes sure the budget and scope are approved before the run starts—not after something stalls."
+  },
+  "hero": {
+    "kicker": "Codex, Powered to Transact",
+    "h1": "Codex Can Buy What the Run Needs—While You're Away.",
+    "standfirst": "Background tasks don't pause to ask. Clink lets you approve the payment scope before the run starts, so Codex can pass a paid dependency and keep the receipts in the task log.",
+    "ctaLabel": "See the Approval Model",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Brief With a Budget",
+    "flowEnd": "Run Completes With Receipts"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond the Sandbox",
+    "title": "Asynchronous Tasks Need Pre-Approved Payments.",
+    "body": "An agent that works while you're away cannot stop at every checkout. Clink moves the approval to task start: you define the scope, Codex operates inside it, and the run shows every line.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "The Brief Carries the Budget.",
+        "body": "State the outcome and the spend ceiling together. Codex carries both into the run, so a paid dependency is a decision the task can make against rules you already set.",
+        "visual": {
+          "kind": "choice",
+          "heading": "Task brief",
+          "prompt": "Evaluate these three log-parsing APIs against our sample set. If one requires a paid plan to test, buy the cheapest monthly tier under $30.",
+          "tags": [
+            ["Goal", "Pick the best fit"],
+            ["Budget", "Under $30"],
+            ["Test data", "Provided"],
+            ["When", "Overnight run"]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "Approved Up Front, Enforced at Payment.",
+        "body": "The scope you set at task start is what the payment honors—merchant type, amount, and purpose. Nothing outside that envelope is spendable, even when nobody is watching.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Task Payment Scope",
+          "subheading": "Approved at task start",
+          "rows": [
+            ["Merchant type", "Developer services"],
+            ["Spend ceiling", "Your brief sets it"],
+            ["Validity", "This run only"]
+          ],
+          "confirm": "Scope locked for the run"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "The Task Log Shows the Money.",
+        "body": "When you review the run, the payments sit next to the commits: what was bought, under which instruction, and what it unblocked.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Run Review",
+          "subheading": "Code and payments, one timeline",
+          "events": [
+            ["Paid API purchased", "Within scope"],
+            ["Evaluation completed", "Complete"],
+            ["Recommendation written", "Complete"],
+            ["Receipts attached", "Ready for review"]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“Evaluate the three APIs in the brief. If a paid tier is required to test, buy the cheapest monthly under $30.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      { "name": "Today", "domain": "today.ai", "label": "Today" },
+      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
+      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
+      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put Codex on It",
+    "title": "Overnight Runs Shouldn't Stop at a Checkout.",
+    "items": [
+      {
+        "icon": "Zap",
+        "title": "Keep Long Tasks Fed With Credits",
+        "body": "A run that needs more model capacity buys it inside the ceiling instead of ending incomplete."
+      },
+      {
+        "icon": "Boxes",
+        "title": "Buy a Paid Tool Mid-Run",
+        "body": "When the evaluation calls for a gated tool, Codex purchases access per use and keeps the output verifiable."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Stay Inside the Task Budget",
+        "body": "The ceiling from the brief is enforced at payment time—no judgment calls, no surprises in the log."
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Pay per Use, Skip New Subscriptions",
+        "body": "Per-purchase authorization means testing a service doesn't start a recurring relationship you have to unwind."
+      },
+      {
+        "icon": "Moon",
+        "title": "Night Runs Self-Serve",
+        "body": "Work scheduled outside office hours proceeds within the approved envelope and files everything for morning review."
+      },
+      {
+        "icon": "Receipt",
+        "title": "Receipts Where the Code Lives",
+        "body": "Payments appear in the run timeline next to the commits they unblocked—review is one pass, not two systems."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "Approve the Scope. Review the Run.",
+    "description": "The approval moves to the start of the task, which is what makes an unattended run safe.",
+    "steps": [
+      {
+        "name": "Write the Brief With the Budget",
+        "text": "Outcome, ceiling, and any merchant constraints go into the task brief itself—before the run begins."
+      },
+      {
+        "name": "Approve the Purchase Scope Up Front",
+        "text": "This is the asynchronous difference: the scope is locked before Codex starts, so mid-run purchases never need a human in the loop."
+      },
+      {
+        "name": "Review the Run and the Receipts",
+        "text": "Payments appear in the task timeline next to the work they unblocked, each traceable to the instruction that authorized it."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What Happens When Codex Needs to Pay While I'm Away?",
+      "a": "It can only pay inside the scope you approved at task start—merchant type, amount, and purpose. Anything outside that envelope pauses the task for your review instead of spending."
+    },
+    {
+      "q": "Does Codex See My Card Details?",
+      "a": "No. Clink tokenizes the credential at connection and releases a per-purchase credential against the approved instruction. Codex never handles raw card data."
+    },
+    {
+      "q": "Can I Cap the Total Spend per Task?",
+      "a": "Yes. The ceiling lives in the task brief and is enforced at payment time, so a run can be bounded regardless of how many purchases it attempts."
+    }
+  ],
+  "finalCta": {
+    "title": "Put Codex on Tasks That Need to Spend.",
+    "description": "Approve the payment scope up front and let unattended runs pass paid dependencies without stopping."
+  }
+}

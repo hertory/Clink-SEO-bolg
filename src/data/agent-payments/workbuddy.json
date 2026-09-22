@@ -1,0 +1,169 @@
+{
+  "slug": "workbuddy",
+  "agent": { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+  "meta": {
+    "title": "WorkBuddy × Clink — Office Purchases With Approval Rules",
+    "description": "Clink gives WorkBuddy a controlled way to complete small office purchases—inside the budget and approval rules you set.",
+    "ogDescription": "Office tasks rarely end at information. Clink gives WorkBuddy a controlled way to complete small purchases—within your rules."
+  },
+  "hero": {
+    "kicker": "WorkBuddy, Powered to Transact",
+    "h1": "WorkBuddy Can Handle the Purchase Part of Office Work.",
+    "standfirst": "Office tasks rarely end at information. Clink gives WorkBuddy a controlled way to complete small purchases—inside the budget and approval rules you set.",
+    "ctaLabel": "See an Office Purchase End to End",
+    "ctaHref": "#how-it-works",
+    "flowStart": "Request Filed",
+    "flowEnd": "Receipt Filed"
+  },
+  "capabilities": {
+    "eyebrow": "Beyond Answers",
+    "title": "Work Tasks End in Purchases. WorkBuddy Can Finish Them.",
+    "body": "Replacing a keyboard, settling a one-off fee, buying event supplies—these are the steps where tasks stall. Clink gives WorkBuddy a controlled way to finish them.",
+    "blocks": [
+      {
+        "eyebrow": "Understand",
+        "title": "From Request Form to Ready-to-Buy.",
+        "body": "Describe the need in the same place you assign the task. WorkBuddy turns it into a purchase with the item, the budget line, and the deadline attached.",
+        "visual": {
+          "kind": "choice",
+          "heading": "WorkBuddy request",
+          "prompt": "The design team needs a replacement drawing tablet under $400 before Thursday's review.",
+          "tags": [
+            ["Team", "Design"],
+            ["Budget", "Under $400"],
+            ["Deadline", "Before Thursday"],
+            ["Type", "Replacement"]
+          ]
+        }
+      },
+      {
+        "eyebrow": "Authorize",
+        "title": "Office Purchases With Approval Rules.",
+        "body": "The purchase carries the approval rule with it: the budget owner, the cap, and the purpose. WorkBuddy can only complete what the rule allows.",
+        "visual": {
+          "kind": "approval",
+          "heading": "Purchase Approval",
+          "subheading": "Rule applied automatically",
+          "rows": [
+            ["Budget owner", "Design lead"],
+            ["Cap", "Rule cap applies"],
+            ["Purpose", "Replacement equipment"]
+          ],
+          "confirm": "Within the submitted rule"
+        }
+      },
+      {
+        "eyebrow": "Complete",
+        "title": "Receipts Go Where Finance Looks.",
+        "body": "The purchase closes with the receipt attached to the request it came from, so finance reviews one thread instead of chasing screenshots.",
+        "visual": {
+          "kind": "completion",
+          "heading": "Purchase Record",
+          "subheading": "Request to receipt, one thread",
+          "events": [
+            ["Request approved", "Complete"],
+            ["Purchase completed", "Complete"],
+            ["Delivery confirmed", "Complete"],
+            ["Receipt filed to request", "Complete"]
+          ]
+        }
+      }
+    ]
+  },
+  "setup": {
+    "title": "Teach Your Agent to Buy.",
+    "body": "Connect the agent you already use to Clink through MCP. Connector setup is coming next.",
+    "primaryTab": "Connect With MCP",
+    "secondaryTab": "Clink Connector",
+    "secondaryBadge": "Coming Soon",
+    "codeTitlePrefix": "Connect Clink MCP to",
+    "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
+    "thenAskLabel": "# Then Just Ask",
+    "thenAsk": "“The design team needs a replacement tablet under $400 before Thursday. Handle the purchase.”",
+    "guideLabel": "Full Agent Setup Guide",
+    "guideHref": "https://docs.clinkbill.com/",
+    "footerNote": "MCP Available · Connector Coming Soon",
+    "agents": [
+      { "name": "Today", "domain": "today.ai", "label": "Today" },
+      { "name": "Claude Code", "domain": "claude.ai", "label": "Claude Code" },
+      { "name": "Codex", "domain": "codex.com", "label": "Codex" },
+      { "name": "Trae", "domain": "trae.ai", "label": "Trae" },
+      { "name": "WorkBuddy", "domain": "workbuddy.ai", "label": "WorkBuddy" },
+      { "name": "ChatGPT", "domain": "chatgpt.com", "label": "ChatGPT" },
+      { "name": "Manus", "domain": "manus.im", "label": "Manus" }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Put WorkBuddy on It",
+    "title": "Small Purchases Stop Being Small Delays.",
+    "items": [
+      {
+        "icon": "Boxes",
+        "title": "Restock Office Supplies",
+        "body": "Standing items ordered against a rule cap, without a purchase request form for every box."
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Settle One-Off SaaS Fees",
+        "body": "The quarterly tool renewal or single-seat fee gets paid and receipted against the right budget line."
+      },
+      {
+        "icon": "Gift",
+        "title": "Team Event Purchases Inside a Cap",
+        "body": "Offsite supplies and celebration budgets handled within the cap set for the occasion."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Replace Broken Equipment",
+        "body": "A failed keyboard or headset is replaced the day it fails, with the receipt attached to the request."
+      },
+      {
+        "icon": "Zap",
+        "title": "Pay per Use for AI Services",
+        "body": "Metered AI services used by the team are purchased per use inside the approved envelope."
+      },
+      {
+        "icon": "Receipt",
+        "title": "Keep Procurement Audit-Ready",
+        "body": "Every purchase resolves to the request, the rule, and the receipt—finance reviews one thread."
+      }
+    ]
+  },
+  "howTo": {
+    "eyebrow": "How-To Guide",
+    "title": "Describe the Need. Apply the Rules. File the Receipt.",
+    "description": "The approval rule travels with the purchase, which is what keeps office spending reviewable.",
+    "steps": [
+      {
+        "name": "Describe the Office Need",
+        "text": "What the team needs, the budget line, and the deadline—stated in the same channel where the task is assigned."
+      },
+      {
+        "name": "Apply the Approval Rules",
+        "text": "This is the workplace difference: the cap and the budget owner travel with the instruction, so WorkBuddy can only complete purchases the rule allows."
+      },
+      {
+        "name": "File the Receipt Automatically",
+        "text": "The purchase closes with the receipt attached to the original request, ready for finance review without a follow-up thread."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Who Approves Purchases in a Workplace Setting?",
+      "a": "The approval rule does. Each instruction carries the budget owner and the cap, and WorkBuddy can only complete purchases the rule allows—everything else waits for the owner."
+    },
+    {
+      "q": "Does WorkBuddy Hold Company Card Details?",
+      "a": "No. Clink tokenizes the payment credential and releases it per approved purchase. WorkBuddy operates on scope and instructions, never raw card data."
+    },
+    {
+      "q": "How Is Spending Kept Audit-Ready?",
+      "a": "Every purchase resolves to the request, the rule, and the receipt in one thread. Finance reviews the same record the team sees, without a separate reconciliation pass."
+    }
+  ],
+  "finalCta": {
+    "title": "Let WorkBuddy Finish the Purchase Part.",
+    "description": "Office purchases completed inside the approval rules you set—with the receipt filed where finance expects it."
+  }
+}
