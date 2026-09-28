@@ -4,6 +4,7 @@ import { FaqSection } from "@/components/FaqSection";
 import { FinalCta } from "@/components/FinalCta";
 import { ARR_COMPANIES } from "@/lib/arr/companies";
 import { ArrLeaderboardInteractive } from "@/components/arr/ArrLeaderboardInteractive";
+import { CheckoutReferralsSection } from "@/components/arr/CheckoutReferralsSection";
 
 const CANONICAL = "https://clinkbill.com/arr-leaderboard";
 
@@ -23,6 +24,10 @@ const FAQS = [
   {
     q: "Why is Lovable highlighted?",
     a: "Lovable holds the record for the fastest climb to $100M ARR in software history — 8 months from public launch — and we maintain a full sourced deep-dive page on its revenue trajectory.",
+  },
+  {
+    q: "What is the checkout referral section below the table?",
+    a: "Most AI companies never publish revenue. SimilarWeb tracks which domains send the most traffic into checkout.stripe.com — traffic that can only come from a buy button — so it works as a payment-intent signal for products that don't disclose ARR. We show the top 15 each month, cross-linked to the leaderboard where the domains overlap.",
   },
 ];
 
@@ -72,6 +77,7 @@ export default function ArrLeaderboardPage() {
       <Hero />
       <CriteriaSection />
       <ArrLeaderboardInteractive />
+      <CheckoutReferralsSection />
       <MethodNote />
       <FaqSection title="The Leaderboard, Answered." items={FAQS} />
       <FinalCta

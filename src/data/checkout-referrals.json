@@ -1,0 +1,146 @@
+{
+  "asOf": "Aug 2026",
+  "snapshotDate": "2026-09-28",
+  "monthTotalLabel": "34.63M",
+  "listedDomains": 95,
+  "listedShare": "61.2%",
+  "sourceLabel": "SimilarWeb via seo.web.cafe",
+  "sourceHref": "https://seo.web.cafe/referring/",
+  "rows": [
+    {
+      "rank": 1,
+      "domain": "higgsfield.ai",
+      "globalRank": "#1,228",
+      "share": "6.61%",
+      "visits": "2.29M",
+      "mom": "-15.04%",
+      "arrSlug": "higgsfield"
+    },
+    {
+      "rank": 2,
+      "domain": "suno.com",
+      "globalRank": "#495",
+      "share": "3.9%",
+      "visits": "1.35M",
+      "mom": "+53.21%",
+      "arrSlug": "suno"
+    },
+    {
+      "rank": 3,
+      "domain": "elevenlabs.io",
+      "globalRank": "#1,044",
+      "share": "3.64%",
+      "visits": "1.26M",
+      "mom": "+15.7%",
+      "arrSlug": "elevenlabs"
+    },
+    {
+      "rank": 4,
+      "domain": "opencode.ai",
+      "globalRank": "#3,100",
+      "share": "3.5%",
+      "visits": "1.21M",
+      "mom": "+73.89%",
+      "arrSlug": null
+    },
+    {
+      "rank": 5,
+      "domain": "paypal.com",
+      "globalRank": "#69",
+      "share": "3.46%",
+      "visits": "1.2M",
+      "mom": "-6.28%",
+      "arrSlug": null
+    },
+    {
+      "rank": 6,
+      "domain": "portal.nousresearch.com",
+      "globalRank": "—",
+      "share": "1.67%",
+      "visits": "578.7K",
+      "mom": "+7.66%",
+      "arrSlug": null
+    },
+    {
+      "rank": 7,
+      "domain": "sellvia.com",
+      "globalRank": "#36,621",
+      "share": "1.52%",
+      "visits": "525.4K",
+      "mom": "+15.8%",
+      "arrSlug": null
+    },
+    {
+      "rank": 8,
+      "domain": "kling.ai",
+      "globalRank": "#4,223",
+      "share": "1.34%",
+      "visits": "462.6K",
+      "mom": "-10.03%",
+      "arrSlug": null
+    },
+    {
+      "rank": 9,
+      "domain": "turboscribe.ai",
+      "globalRank": "#2,095",
+      "share": "1.25%",
+      "visits": "434.5K",
+      "mom": "-4.09%",
+      "arrSlug": null
+    },
+    {
+      "rank": 10,
+      "domain": "openart.ai",
+      "globalRank": "#5,217",
+      "share": "1.2%",
+      "visits": "414.8K",
+      "mom": "+14.78%",
+      "arrSlug": null
+    },
+    {
+      "rank": 11,
+      "domain": "meshy.ai",
+      "globalRank": "#4,260",
+      "share": "1.18%",
+      "visits": "408.1K",
+      "mom": "+48.75%",
+      "arrSlug": null
+    },
+    {
+      "rank": 12,
+      "domain": "csfloat.com",
+      "globalRank": "#3,281",
+      "share": "1.14%",
+      "visits": "395.1K",
+      "mom": "+6.29%",
+      "arrSlug": null
+    },
+    {
+      "rank": 13,
+      "domain": "fal.ai",
+      "globalRank": "#16,609",
+      "share": "1.05%",
+      "visits": "364.4K",
+      "mom": "+14.17%",
+      "arrSlug": "fal"
+    },
+    {
+      "rank": 14,
+      "domain": "app.trendtrack.io",
+      "globalRank": "—",
+      "share": "0.96%",
+      "visits": "332.2K",
+      "mom": "+63.61%",
+      "arrSlug": null
+    },
+    {
+      "rank": 15,
+      "domain": "app.gethookd.ai",
+      "globalRank": "—",
+      "share": "0.88%",
+      "visits": "306.1K",
+      "mom": "+19.06%",
+      "arrSlug": null
+    }
+  ]
+}
