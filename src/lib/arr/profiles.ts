@@ -50,6 +50,15 @@ import coderabbit from "@/data/arr/coderabbit.json";
 import hippocratic from "@/data/arr/hippocratic.json";
 import luma from "@/data/arr/luma.json";
 import deepgram from "@/data/arr/deepgram.json";
+import higgsfield from "@/data/arr/higgsfield.json";
+import glam from "@/data/arr/glam.json";
+import retell from "@/data/arr/retell.json";
+import viktor from "@/data/arr/viktor.json";
+import factory from "@/data/arr/factory.json";
+import parloa from "@/data/arr/parloa.json";
+import calai from "@/data/arr/calai.json";
+import heidi from "@/data/arr/heidi.json";
+import langdock from "@/data/arr/langdock.json";
 
 export type ArrMilestone = {
   /** Short axis label */
@@ -147,6 +156,15 @@ const SOURCES = [
   hippocratic,
   luma,
   deepgram,
+  higgsfield,
+  glam,
+  retell,
+  viktor,
+  factory,
+  parloa,
+  calai,
+  heidi,
+  langdock,
 ] as unknown as ArrProfile[];
 
 const ARR_PROFILES: Record<string, ArrProfile> = Object.fromEntries(

@@ -1,0 +1,158 @@
+{
+  "slug": "higgsfield",
+  "name": "Higgsfield",
+  "domain": "higgsfield.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/higgsfield",
+  "h1": "Higgsfield ARR: $100M in Six Months, a $5.4B Valuation by Year Two.",
+  "intro": "Higgsfield put cinematic camera motion — crash zooms, bullet time, crane shots — into consumer AI video generation, and monetized it with plain subscriptions. Two months after launch it was already at $11M ARR; six months in it crossed $100M; by 2026 a $400M Series B valued it at $5.4B. Every publicly reported number, with sources, is below.",
+  "metaTitle": "Higgsfield ARR: $100M Run Rate in 6 Months, $5.4B Valuation (2026)",
+  "metaDescription": "Higgsfield revenue timeline: $11M ARR two months after launch, $100M crossed in six months (Sep 2025), $50M funding round, $400M Series B at a $5.4B valuation in 2026 — with sources.",
+  "ogDescription": "Camera-motion AI video that went from $0 to $100M ARR in six months — the Higgsfield timeline, sourced.",
+  "heroStats": [
+    ["$100M", "ARR crossed, Sep 2025"],
+    ["6 months", "From launch to $100M"],
+    ["$5.4B", "Valuation, Series B 2026"],
+    ["2M+", "Monthly active users, 2025"]
+  ],
+  "chartTitle": "The Higgsfield Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions, 2025 to 2026. Higgsfield launched publicly in early 2025 and crossed $100M ARR by September 2025 — among the fastest ramps in consumer AI.",
+  "chartMax": 110,
+  "chartSources": "Sources: The Signal (readthesignal.co), PR Newswire, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded by Alex Mashrabov, former Head of Generative AI at Snap, to build controllable motion for AI video.",
+      "source": "Company"
+    },
+    {
+      "label": "May '25",
+      "date": "May 2025",
+      "arr": 11,
+      "note": "Two months after public launch, run rate already at $11M with over 2M monthly active users and 600K peak daily actives.",
+      "source": "The Signal"
+    },
+    {
+      "label": "Sep '25",
+      "date": "September 2025",
+      "arr": 50,
+      "note": "Announces a $50M funding round alongside the milestone of crossing $50M ARR roughly five months after launch.",
+      "source": "The Signal"
+    },
+    {
+      "label": "Late '25",
+      "date": "Late 2025",
+      "arr": 100,
+      "note": "Crosses $100M annualized run rate about six months post-launch — a pace matched only by a handful of AI companies.",
+      "source": "The Signal / Leonis"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 100,
+      "note": "Raises a $400M Series B at a $5.4B valuation as its Soul image model and cinematic video tools extend the platform.",
+      "source": "PR Newswire"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~5 months",
+      "source": "Sep 2025 round announcement"
+    },
+    {
+      "label": "Launch → $100M ARR",
+      "value": "~6 months",
+      "source": "The Signal, 2025"
+    },
+    {
+      "label": "Monthly revenue growth",
+      "value": "40x in early months",
+      "source": "The Signal"
+    },
+    {
+      "label": "MAU at month two",
+      "value": "2M+, 600K peak DAU",
+      "source": "The Signal, May 2025"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported ARR",
+      "value": "$100M+",
+      "source": "The Signal, late 2025"
+    },
+    {
+      "label": "Time to $100M",
+      "value": "~6 months from launch",
+      "source": "The Signal / Leonis Capital"
+    },
+    {
+      "label": "Valuation",
+      "value": "$5.4B",
+      "source": "Series B, 2026"
+    },
+    {
+      "label": "Series B",
+      "value": "$400M",
+      "source": "PR Newswire, 2026"
+    },
+    {
+      "label": "Prior round",
+      "value": "$50M",
+      "source": "September 2025"
+    },
+    {
+      "label": "Founder",
+      "value": "Alex Mashrabov (ex-Snap)",
+      "source": "Company"
+    },
+    {
+      "label": "Signature products",
+      "value": "Cinematic video, Soul image model",
+      "source": "Company"
+    },
+    {
+      "label": "Category",
+      "value": "AI video generation",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Camera Moves Nobody Else Had, Sold as Subscriptions.",
+  "modelParagraphs": [
+    "Higgsfield's wedge was motion control: presets like bullet time, crash zoom and crane shots that made AI video look like it was shot with real camera rigs, at a moment when most generators returned static, drone-like clips. That specificity — a film-school feature list rather than a generic text-to-video box — is what turned social creators into paying subscribers within weeks of launch.",
+    "Revenue comes from consumer subscription tiers plus credit packs for renders, the standard consumer-AI stack. The paid funnel is powered by the product's own output: every cinematic clip posted to TikTok or Instagram is an ad, which is how the company reached millions of monthly actives on unusually short timelines. The Soul image model and sketch-to-image tools widened the subscription beyond video."
+  ],
+  "revenueMix": [
+    ["Consumer subscriptions", "Monthly and annual tiers for video and image generation."],
+    ["Credit packs", "Pay-as-you-go renders on top of subscription allowances."],
+    ["Creator flywheel", "Output posted to social doubles as acquisition, keeping paid-UA share efficient."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Higgsfield's ARR in 2026?",
+      "a": "Higgsfield crossed $100M annualized run rate roughly six months after launching, in late 2025. Exact current revenue has not been disclosed since; treat anything above $100M as an estimate pending the next company milestone."
+    },
+    {
+      "q": "How Did Higgsfield Grow So Fast?",
+      "a": "A specific product wedge (cinematic camera-motion presets), a consumer subscription with a free tier, and organic distribution through the clips its own users post to social media. Two months post-launch it reported $11M ARR and more than 2M monthly active users."
+    },
+    {
+      "q": "What Is Higgsfield's Valuation?",
+      "a": "A $400M Series B in 2026 valued the company at $5.4B, up from the $50M round announced in September 2025 alongside its $50M ARR milestone."
+    },
+    {
+      "q": "Who Founded Higgsfield?",
+      "a": "Alex Mashrabov, former Head of Generative AI at Snap, founded the company in 2023. The founding thesis was controllable motion for AI video rather than generic text-to-video generation."
+    },
+    {
+      "q": "How Does Higgsfield Make Money?",
+      "a": "Consumer subscriptions for video and image generation, supplemented by credit packs for additional renders. Free-tier output circulates on social platforms and doubles as the acquisition channel."
+    }
+  ],
+  "ctaTitle": "Selling Consumer AI Subscriptions? Bill Like Higgsfield.",
+  "ctaDescription": "Clink runs subscription checkout, dunning and global card payments for AI products whose growth curve is measured in months — with usage-based credit billing when renders overage.",
+  "ctaLabel": "Bill Your AI App",
+  "ctaHref": "/contact"
+}

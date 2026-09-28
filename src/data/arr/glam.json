@@ -1,0 +1,151 @@
+{
+  "slug": "glam",
+  "name": "Glam AI",
+  "domain": "glam.ai",
+  "canonical": "https://clinkbill.com/arr-leaderboard/glam",
+  "h1": "Glam AI ARR: ~$72M from Restyling Photos at Consumer Scale.",
+  "intro": "Glam AI turns casual phone photos into studio-grade edits — retouching, restyling and viral effects — and sells it as a consumer subscription with heavy paid acquisition. Third-party measurement put it at roughly $72M ARR in 2026, with Leonis Capital charting about nineteen months from launch to $50M. The reported numbers are below.",
+  "metaTitle": "Glam AI ARR: ~$72M Revenue for the AI Photo Editor (2026)",
+  "metaDescription": "Glam AI revenue: ~$72M ARR per third-party measurement in 2026, ~19 months from launch to $50M per Leonis Capital, consumer subscriptions plus credit sales — with sources.",
+  "ogDescription": "AI photo editing at consumer scale: ~$72M ARR measured — the Glam AI timeline, sourced.",
+  "heroStats": [
+    ["~$72M", "Measured ARR, 2026"],
+    ["19 months", "Launch to $50M, per Leonis"],
+    ["Consumer", "App-store subscription model"],
+    ["Paid UA", "TikTok / Meta ad engine"]
+  ],
+  "chartTitle": "The Glam AI Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions. Glam AI has not formally disclosed revenue; the curve follows third-party measurement cited in 2026 and Leonis Capital's time-to-$50M tracking.",
+  "chartMax": 75,
+  "chartSources": "Sources: Spectrum measurement (cited 2026), Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded by serial consumer-app entrepreneur Victor Shaburov to apply generative AI to casual photo and video editing.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 10,
+      "note": "Viral one-tap effects — restyling, enhancement, themed transformations — spread through TikTok, feeding an ad-driven acquisition engine.",
+      "source": "Estimated"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 40,
+      "note": "Reaches $50M annualized run rate roughly nineteen months after launch, per Leonis Capital's tracking of fastest AI ramps.",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 72,
+      "note": "Third-party measurement pegs Glam AI among the top consumer AI apps by revenue signal, at roughly $72M ARR.",
+      "source": "Spectrum"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~19 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Measured run rate",
+      "value": "~$72M",
+      "source": "Spectrum, 2026"
+    },
+    {
+      "label": "Acquisition",
+      "value": "Paid social at scale",
+      "source": "Company ads"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Third-party measurement",
+      "source": "—"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest measured ARR",
+      "value": "~$72M",
+      "source": "Spectrum, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~19 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founder",
+      "value": "Victor Shaburov",
+      "source": "Company"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Company"
+    },
+    {
+      "label": "Products",
+      "value": "AI photo & video editing apps",
+      "source": "Company"
+    },
+    {
+      "label": "Model",
+      "value": "Consumer subscriptions + credits",
+      "source": "App stores"
+    },
+    {
+      "label": "Disclosed revenue",
+      "value": "None; figures measured",
+      "source": "—"
+    },
+    {
+      "label": "Category",
+      "value": "Consumer AI editing",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "One-Tap Effects, Subscription Traps Avoided the Honest Way: Volume.",
+  "modelParagraphs": [
+    "Glam AI's product surface is deliberately shallow: pick a photo, tap an effect, get a studio-looking result. The depth is in the funnel economics — hundreds of ad variants on TikTok and Meta matched to viral effects, each paying back on the first subscription period. Consumer AI editing is a margin war fought in ad dashboards, and Glam operationalized it.",
+    "Revenue is app-store subscriptions with trial-to-paid conversion, plus one-off credit purchases for premium renders. Effects double as ad creative — the output is the marketing — which keeps content costs near zero while the effect library refreshes acquisition continuously."
+  ],
+  "revenueMix": [
+    ["App subscriptions", "Auto-renewing weekly/monthly plans with trial funnels on the app stores."],
+    ["Credit purchases", "One-off payments for premium effects and renders."],
+    ["Ad-powered growth", "Paid UA against viral effects whose output is the ad creative itself."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Glam AI's ARR in 2026?",
+      "a": "Roughly $72 million, per third-party revenue measurement cited in 2026. Glam AI has not disclosed exact figures; Leonis Capital independently charts it at about nineteen months from launch to $50M. Treat both as measured estimates."
+    },
+    {
+      "q": "What Does Glam AI Make?",
+      "a": "Consumer apps for AI photo and video editing — retouching, restyling and themed viral effects applied to casual phone photos in one tap, sold via app-store subscriptions."
+    },
+    {
+      "q": "How Does Glam AI Grow So Fast?",
+      "a": "A paid-acquisition engine on TikTok and Meta: viral effects generate ad creative organically, hundreds of variants are tested continuously, and subscription payback is engineered into the first billing period."
+    },
+    {
+      "q": "Who Founded Glam AI?",
+      "a": "Victor Shaburov, a serial consumer-app entrepreneur, founded the company in 2023. The playbook is consumer-app funnel discipline applied to generative editing."
+    },
+    {
+      "q": "How Is This Different from Midjourney-Style Tools?",
+      "a": "Midjourney serves creators who prompt; Glam serves mainstream users who tap. The unit of value is a shareable edited photo in seconds, monetized through app-store subscriptions rather than creator plans."
+    }
+  ],
+  "ctaTitle": "Consumer AI Apps Live and Die on Subscription Revenue.",
+  "ctaDescription": "Clink runs trial-to-paid subscription billing, one-off credit checkout and recovery on failed renewals for consumer AI apps scaling on paid acquisition.",
+  "ctaLabel": "Bill Your App",
+  "ctaHref": "/contact"
+}

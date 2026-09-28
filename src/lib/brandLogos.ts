@@ -55,6 +55,15 @@ import workbuddy from "@/assets/logos/workbuddy.ai.png";
 import chatgpt from "@/assets/logos/chatgpt.com.png";
 import manus from "@/assets/logos/manus.im.png";
 import openclaw from "@/assets/logos/openclaw.ai.png";
+import higgsfield from "@/assets/logos/higgsfield.ai.png";
+import viktor from "@/assets/logos/viktor.com.png";
+import factory from "@/assets/logos/factory.com.png";
+import parloa from "@/assets/logos/parloa.com.png";
+import glam from "@/assets/logos/glam.ai.png";
+import calai from "@/assets/logos/calai.app.png";
+import heidi from "@/assets/logos/heidihealth.com.png";
+import retell from "@/assets/logos/retellai.com.png";
+import langdock from "@/assets/logos/langdock.com.png";
 
 export const BRAND_LOGOS: Record<string, string> = {
   "anthropic.com": anthropic.src,
@@ -114,6 +123,15 @@ export const BRAND_LOGOS: Record<string, string> = {
   "chatgpt.com": chatgpt.src,
   "manus.im": manus.src,
   "openclaw.ai": openclaw.src,
+  "higgsfield.ai": higgsfield.src,
+  "viktor.com": viktor.src,
+  "factory.com": factory.src,
+  "parloa.com": parloa.src,
+  "glam.ai": glam.src,
+  "calai.app": calai.src,
+  "heidihealth.com": heidi.src,
+  "retellai.com": retell.src,
+  "langdock.com": langdock.src,
 };
 
 export function brandLogo(domain?: string): string | undefined {

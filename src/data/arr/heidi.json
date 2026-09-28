@@ -1,0 +1,151 @@
+{
+  "slug": "heidi",
+  "name": "Heidi",
+  "domain": "heidihealth.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/heidi",
+  "h1": "Heidi ARR: ~$50M and a $1.26B Valuation for the AI Medical Scribe.",
+  "intro": "Heidi is an AI medical scribe that drafts clinical notes from the consultation so doctors stop typing through appointments. Australian press reports a revenue surge putting it among the top AI scribes globally, Leonis Capital charts roughly twenty-six months from launch to $50M, and a $470M raise in 2026 valued it at $1.26B. The sourced numbers are below.",
+  "metaTitle": "Heidi Health ARR: ~$50M Revenue, $470M Raise, $1.26B Valuation (2026)",
+  "metaDescription": "Heidi Health revenue: ~$50M run rate reported as it rivals the top AI scribes, $470M fresh funding at a $1.26B valuation in 2026 — with sources.",
+  "ogDescription": "The Australian AI scribe that rivals the giants: ~$50M ARR and a $1.26B valuation — the Heidi timeline, sourced.",
+  "heroStats": [
+    ["~$50M", "Reported run rate, 2026"],
+    ["26 months", "Launch to $50M, per Leonis"],
+    ["$470M", "Funding, 2026"],
+    ["$1.26B", "Valuation, 2026"]
+  ],
+  "chartTitle": "The Heidi Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions. Heidi has not disclosed exact revenue; the curve follows Australian press reporting on its revenue surge and Leonis Capital's time-to-$50M tracking.",
+  "chartMax": 55,
+  "chartSources": "Sources: AFR, Forbes Australia, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded in Sydney by Dr Thomas Kelly, a practising doctor, after watching consultations lose their second half to keyboard work.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 8,
+      "note": "Free tier for individual clinicians spreads the scribe doctor-by-doctor; word of mouth in medicine does the marketing.",
+      "source": "Company / Estimated"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 25,
+      "note": "Clinics and health systems buy team plans as scribe adoption moves from individual hack to standard practice.",
+      "source": "Estimated"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Revenue surge reported by AFR as Heidi rivals the top AI scribes; Leonis charts ~26 months to $50M; a $470M raise values it at $1.26B.",
+      "source": "AFR / Forbes AU / Leonis"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~26 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Funding, 2026",
+      "value": "$470M",
+      "source": "Forbes Australia"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.26B",
+      "source": "Forbes Australia, 2026"
+    },
+    {
+      "label": "Growth motion",
+      "value": "Free clinician → clinic contracts",
+      "source": "Company"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest reported run rate",
+      "value": "~$50M",
+      "source": "AFR / Leonis, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~26 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Funding, 2026",
+      "value": "$470M",
+      "source": "Forbes Australia"
+    },
+    {
+      "label": "Valuation",
+      "value": "$1.26B",
+      "source": "Forbes Australia, 2026"
+    },
+    {
+      "label": "Founder",
+      "value": "Dr Thomas Kelly",
+      "source": "Company"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Sydney",
+      "source": "Company"
+    },
+    {
+      "label": "Free tier",
+      "value": "Individual clinicians",
+      "source": "Company"
+    },
+    {
+      "label": "Category",
+      "value": "AI medical scribe",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Free for the Doctor, Paid by the Clinic.",
+  "modelParagraphs": [
+    "Heidi's wedge is the individual clinician using it free — a doctor who stops typing through consultations becomes the internal advocate when the clinic standardizes. Conversion happens at the organization: team plans with shared templates, specialty-specific note formats and the compliance layer health systems require before any clinical tool is adopted.",
+    "The buyer economics are unusually clean: a scribe costs a fraction of a human medical scribe's salary while recovering consultation time, so clinic-level ROI is immediate and defensible in a procurement review. That dual motion — free product-led spread, paid enterprise conversion — is the engine behind the revenue surge AFR reported in 2026."
+  ],
+  "revenueMix": [
+    ["Clinic team plans", "Per-clinician subscriptions bought by practices and clinics."],
+    ["Health system contracts", "Enterprise agreements with integration and compliance requirements."],
+    ["Free clinician tier", "Individual doctors on free plans seed demand inside organizations."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Heidi's ARR in 2026?",
+      "a": "Around $50 million. Heidi has not disclosed exact revenue; the Australian Financial Review reports a revenue surge putting it among the top AI scribes, and Leonis Capital charts roughly twenty-six months from launch to $50M. Treat the figure as reported, not company-disclosed."
+    },
+    {
+      "q": "How Much Did Heidi Raise?",
+      "a": "$470M in fresh funding in 2026, taking its valuation to $1.26B, per Forbes Australia — among the largest raises for a health AI company of its age."
+    },
+    {
+      "q": "Who Founded Heidi?",
+      "a": "Dr Thomas Kelly, a practising doctor in Sydney, founded the company in 2023. The founding insight was clinical: consultations were being halved by documentation work, so the note should be drafted, not typed."
+    },
+    {
+      "q": "How Does Heidi Make Money If It's Free for Doctors?",
+      "a": "Individual clinicians use it free; revenue comes from clinic and health-system contracts — per-clinician team plans plus enterprise agreements carrying the compliance and integration weight organizations demand."
+    },
+    {
+      "q": "How Does Heidi Compare with Abridge or Nuance?",
+      "a": "All three sell ambient documentation, but Heidi grew from a free individual-clinician wedge upward, while Abridge and Nuance sell top-down into health systems. AFR's 2026 reporting framed Heidi's revenue as rivaling the top of the category."
+    }
+  ],
+  "ctaTitle": "Free Tier That Converts Clinics? Bill the Org, Not Just the Doctor.",
+  "ctaDescription": "Clink runs freemium-to-paid conversion, per-clinician seat billing and enterprise health-system invoicing with compliance-ready records for clinical AI.",
+  "ctaLabel": "Bill Clinical AI",
+  "ctaHref": "/contact"
+}

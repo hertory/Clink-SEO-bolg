@@ -1,0 +1,158 @@
+{
+  "slug": "parloa",
+  "name": "Parloa",
+  "domain": "parloa.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/parloa",
+  "h1": "Parloa ARR: $50M+ and a $1B-Plus Voice AI Unicorn.",
+  "intro": "Parloa builds voice AI agents for contact centers — phone lines answered by agents that resolve real customer requests instead of playing menus. The company itself announced surpassing $50M revenue, reached roughly fourteen months from its AI platform launch per Leonis Capital, and raised a $350M Series D after a $1B-valuation round in 2025. The sourced timeline is below.",
+  "metaTitle": "Parloa ARR: $50M+ Revenue, $350M Series D, $1B Valuation (2026)",
+  "metaDescription": "Parloa revenue and funding: $50M+ revenue announced by the company in 2026, fourteen months from launch to $50M per Leonis, $350M Series D after its $1B-unicorn round — with sources.",
+  "ogDescription": "Voice AI for contact centers: company-announced $50M+ revenue and a $350M Series D — the Parloa timeline, sourced.",
+  "heroStats": [
+    ["$50M+", "Revenue, company-announced"],
+    ["14 months", "Launch to $50M, per Leonis"],
+    ["$350M", "Series D, 2026"],
+    ["$1B+", "Valuation since 2025"]
+  ],
+  "chartTitle": "The Parloa Revenue Curve.",
+  "chartIntro": "Annualized revenue in USD millions, 2023 to 2026. Parloa announced surpassing $50M revenue itself in 2026 — one of the few AI companies on this list whose mark is company-stated rather than estimated.",
+  "chartMax": 55,
+  "chartSources": "Sources: Parloa press, PR Newswire, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2018",
+      "date": "2018",
+      "arr": 0,
+      "note": "Founded in Berlin by Malte Kosub and Stefan Ostowski, originally building conversational tooling for enterprise contact centers.",
+      "source": "Company"
+    },
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 5,
+      "note": "Launches its AI Agent Management Platform — voice agents that handle live customer calls — as LLM quality makes phone resolution finally work.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "June 2024",
+      "arr": 15,
+      "note": "Raises a $66M Series B as voice AI deployments go live with major German and US enterprises; Microsoft partnership deepens.",
+      "source": "Press"
+    },
+    {
+      "label": "Apr '25",
+      "date": "April 2025",
+      "arr": 30,
+      "note": "A $120M Series C values Parloa above $1B — Europe's voice AI unicorn — with contact-center agents in production at scale.",
+      "source": "Press"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Company announces surpassing $50M revenue and builds on a $350M Series D; Leonis charts roughly fourteen months from AI platform launch to $50M.",
+      "source": "Parloa / Leonis"
+    }
+  ],
+  "speed": [
+    {
+      "label": "AI launch → $50M",
+      "value": "~14 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Unicorn round",
+      "value": "$120M at $1B+, Apr 2025",
+      "source": "Press"
+    },
+    {
+      "label": "Series D",
+      "value": "$350M",
+      "source": "PR Newswire, 2026"
+    },
+    {
+      "label": "Revenue basis",
+      "value": "Company-announced",
+      "source": "Parloa press"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest revenue",
+      "value": "$50M+",
+      "source": "Parloa, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~14 months from AI launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Series D",
+      "value": "$350M",
+      "source": "PR Newswire, 2026"
+    },
+    {
+      "label": "Series C",
+      "value": "$120M at $1B+ valuation",
+      "source": "April 2025"
+    },
+    {
+      "label": "Series B",
+      "value": "$66M",
+      "source": "June 2024"
+    },
+    {
+      "label": "Founded",
+      "value": "2018, Berlin",
+      "source": "Company"
+    },
+    {
+      "label": "Founders",
+      "value": "Malte Kosub, Stefan Ostowski",
+      "source": "Company"
+    },
+    {
+      "label": "Category",
+      "value": "Voice AI for contact centers",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Price the Conversation, Not the Software Seat.",
+  "modelParagraphs": [
+    "Parloa's product answers the phone: voice AI agents that authenticate the caller, resolve the actual request and hand off cleanly when they shouldn't. The economics that made contact centers a software market — per-minute telephony — carry over, which is why Parloa's revenue scales with conversations handled rather than administrator seats.",
+    "Contracts combine a platform fee for the agent-management layer with usage tied to call volume, deployed through enterprise contact-center integrations and a Microsoft partnership. The buyer is the operations executive who already pays per-minute for worse outcomes, which makes ROI math unusually direct for enterprise AI."
+  ],
+  "revenueMix": [
+    ["Platform fees", "Enterprise contracts for deploying and managing voice agents."],
+    ["Conversation usage", "Volume-based pricing tied to calls handled."],
+    ["Partner channel", "Microsoft and contact-center integrations extend distribution."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Parloa's Revenue in 2026?",
+      "a": "Parloa itself announced surpassing $50M revenue in 2026 — a company-stated figure, not an estimate. Leonis Capital separately charts the company at roughly fourteen months from AI platform launch to the $50M mark."
+    },
+    {
+      "q": "How Much Has Parloa Raised?",
+      "a": "A $66M Series B in June 2024, a $120M Series C at a $1B-plus valuation in April 2025, and a $350M Series D in 2026, per company announcements and PR Newswire."
+    },
+    {
+      "q": "What Does Parloa Sell?",
+      "a": "An AI Agent Management Platform for contact centers: voice agents that resolve live customer calls end-to-end, plus the management layer enterprises need to deploy, monitor and audit them alongside human agents."
+    },
+    {
+      "q": "Why Did It Take Off in 2023-24 Rather than 2018?",
+      "a": "Parloa was founded in 2018, but phone resolution only became viable when LLMs made natural conversation robust. Once calls actually resolved, contact centers — which already budget per-minute telephony spend — switched budget quickly."
+    },
+    {
+      "q": "How Does Parloa Charge?",
+      "a": "Enterprise platform contracts plus usage pricing tied to conversation volume — aligned with the per-minute cost structure contact-center operators already run."
+    }
+  ],
+  "ctaTitle": "Voice AI Bills by the Minute. Clink Meters It.",
+  "ctaDescription": "Clink meters conversation-based pricing, consolidates platform fees and usage into procurement-ready invoices, and handles global tax for voice AI sold into enterprises.",
+  "ctaLabel": "Meter Voice AI Revenue",
+  "ctaHref": "/contact"
+}

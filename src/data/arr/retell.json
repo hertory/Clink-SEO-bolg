@@ -1,0 +1,151 @@
+{
+  "slug": "retell",
+  "name": "Retell AI",
+  "domain": "retellai.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/retell",
+  "h1": "Retell AI ARR: $60M, Up 650% Year over Year.",
+  "intro": "Retell AI sells the infrastructure layer for voice agents — a conversation API with turn-taking, interruption handling and telephony that developers use to build AI phone products. Sacra estimates its run rate at $60M, growing 650% year over year, about twenty-seven months after launch per Leonis Capital. The sourced numbers are below.",
+  "metaTitle": "Retell AI ARR: $60M Run Rate, +650% YoY (2026)",
+  "metaDescription": "Retell AI revenue: ~$60M/year run rate per Sacra in 2026, up 650% year over year, ~27 months from launch to $50M per Leonis Capital — voice agent infrastructure with sources.",
+  "ogDescription": "The conversation API behind AI phone agents: $60M and +650% YoY — the Retell AI timeline, sourced.",
+  "heroStats": [
+    ["~$60M", "Run rate, per Sacra"],
+    ["+650%", "Year-over-year growth"],
+    ["27 months", "Launch to $50M, per Leonis"],
+    ["Developers", "The customer, not enterprises"]
+  ],
+  "chartTitle": "The Retell AI Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions, 2024 to 2026. Retell has not disclosed exact revenue; the curve follows Sacra's estimates, including its 650% year-over-year growth figure.",
+  "chartMax": 65,
+  "chartSources": "Sources: Sacra, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded by Shangding Gu, a Stanford PhD, to fix the hardest part of voice AI: not speaking, but listening — turn-taking and interruption in real conversation.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 4,
+      "note": "The conversation API launches; developer teams building AI phone products adopt it instead of stitching speech-to-text, LLM and telephony stacks together.",
+      "source": "Company / Estimated"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 15,
+      "note": "Voice-agent products multiply across reminders, receptionists and outbound sales — each one metering Retell minutes.",
+      "source": "Estimated"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 60,
+      "note": "Sacra estimates $60M/year, up 650% YoY; Leonis Capital charts roughly twenty-seven months from launch to $50M.",
+      "source": "Sacra / Leonis"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~27 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "YoY growth",
+      "value": "+650%",
+      "source": "Sacra, 2026"
+    },
+    {
+      "label": "Run rate",
+      "value": "~$60M/year",
+      "source": "Sacra, 2026"
+    },
+    {
+      "label": "Founder",
+      "value": "Shangding Gu (Stanford)",
+      "source": "Company"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$60M",
+      "source": "Sacra, 2026"
+    },
+    {
+      "label": "Growth rate",
+      "value": "+650% YoY",
+      "source": "Sacra, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~27 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Company"
+    },
+    {
+      "label": "Founder",
+      "value": "Shangding Gu",
+      "source": "Company"
+    },
+    {
+      "label": "Pricing model",
+      "value": "Usage-based, per minute",
+      "source": "Company"
+    },
+    {
+      "label": "Disclosed revenue",
+      "value": "None; Sacra estimates",
+      "source": "—"
+    },
+    {
+      "label": "Category",
+      "value": "Voice AI infrastructure",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Metered Minutes: The AWS Pattern for Phone Agents.",
+  "modelParagraphs": [
+    "Retell's insight is that voice AI products don't fail on the model's ability to speak — they fail on conversation mechanics: when to talk, how to handle interruption, how to stay natural across latency. Retell productized those mechanics into a conversation API with telephony attached, so a developer team can ship an AI phone line without assembling a speech stack.",
+    "Pricing is usage-based per minute, which makes revenue compound with every product built on top: each customer's success raises their spend automatically. That's the infrastructure pattern — metered consumption, no enterprise sales cycle — and it's why the 650% growth figure is structurally plausible rather than promotional."
+  ],
+  "revenueMix": [
+    ["Per-minute API usage", "Metered conversation minutes across voice-agent products."],
+    ["Telephony & numbers", "Calling infrastructure billed alongside the API."],
+    ["Volume tiers", "Discounted rates as customer call volume scales."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Retell AI's ARR in 2026?",
+      "a": "Around $60 million per Sacra, growing about 650% year over year. Retell has not disclosed exact revenue; treat the figure as a research estimate. Leonis Capital independently charts roughly twenty-seven months from launch to $50M."
+    },
+    {
+      "q": "What Does Retell AI Sell?",
+      "a": "A conversation API for building voice agents: turn-taking, interruption handling and natural pacing, plus telephony. Developers use it to ship AI phone products without assembling their own speech-to-text, LLM and calling stack."
+    },
+    {
+      "q": "Why Is It Growing 650% a Year?",
+      "a": "Usage-based pricing on an infrastructure layer: every voice-agent product built on Retell meters minutes, and successful customers raise spend automatically as their call volume grows — no new sales motion required."
+    },
+    {
+      "q": "Who Founded Retell AI?",
+      "a": "Shangding Gu, a Stanford PhD, founded the company in 2023. The founding focus was conversation mechanics — the listening side of voice AI — rather than model quality."
+    },
+    {
+      "q": "How Is Retell Different from ElevenLabs?",
+      "a": "ElevenLabs leads with voice synthesis — making speech sound human. Retell leads with conversation orchestration — deciding when and how the agent talks within a live phone call. Developers often use both layers in the same product."
+    }
+  ],
+  "ctaTitle": "Usage-Based AI Infrastructure Needs Metered Billing.",
+  "ctaDescription": "Clink meters per-minute API usage, handles prepaid credits and thresholds, and consolidates metered invoices for infrastructure products that bill on consumption.",
+  "ctaLabel": "Meter API Revenue",
+  "ctaHref": "/contact"
+}

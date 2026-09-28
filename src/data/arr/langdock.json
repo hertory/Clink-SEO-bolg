@@ -1,0 +1,151 @@
+{
+  "slug": "langdock",
+  "name": "Langdock",
+  "domain": "langdock.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/langdock",
+  "h1": "Langdock ARR: ~$50M for the EU-Native AI Platform for Companies.",
+  "intro": "Langdock is the central AI platform for organizations — chat with every major model, company knowledge connected, agents and automations on top — with European data residency as the deal-closing differentiator. Leonis Capital charts roughly $50M reached in thirty-six months; Dealroom pegs the run rate around $40M. The reported numbers are below.",
+  "metaTitle": "Langdock ARR: ~$50M Revenue for the Enterprise AI Platform (2026)",
+  "metaDescription": "Langdock revenue: ~$50M per Leonis Capital in 2026 with Dealroom tracking ~$40M, 36 months from launch, EU data residency — the sourced timeline.",
+  "ogDescription": "Every model, company knowledge, agents — with EU data residency: the Langdock timeline, sourced.",
+  "heroStats": [
+    ["~$50M", "Per Leonis, 2026"],
+    ["36 months", "Launch to $50M"],
+    ["EU hosting", "Data-residency differentiator"],
+    ["Model-agnostic", "One platform, every LLM"]
+  ],
+  "chartTitle": "The Langdock Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions. Langdock has not disclosed exact revenue; Leonis Capital charts ~$50M reached in thirty-six months while Dealroom separately tracks ~$40M — a spread typical of estimated run rates.",
+  "chartMax": 55,
+  "chartSources": "Sources: Leonis Capital, Dealroom.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded in Berlin by Jonas Niehues and Lucca Brehm to give companies one governed platform for AI instead of scattered individual subscriptions.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 8,
+      "note": "Platform launches: chat across major models with company knowledge connected, hitting the compliance checklist European buyers run.",
+      "source": "Company / Estimated"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 25,
+      "note": "Agents and workflow automation ship on top of chat, deepening the platform beyond a model front-end; mid-market adoption grows.",
+      "source": "Estimated"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Leonis Capital charts ~$50M in thirty-six months; Dealroom separately notes the run rate crossing ~$40M as EU data residency wins regulated buyers.",
+      "source": "Leonis / Dealroom"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~36 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Dealroom tracking",
+      "value": "~$40M ARR",
+      "source": "Dealroom, 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Berlin",
+      "source": "Company"
+    },
+    {
+      "label": "Core differentiator",
+      "value": "EU data residency",
+      "source": "Company"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Run rate, Leonis",
+      "value": "~$50M",
+      "source": "Leonis Capital, 2026"
+    },
+    {
+      "label": "Run rate, Dealroom",
+      "value": "~$40M",
+      "source": "Dealroom, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~36 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, Berlin",
+      "source": "Company"
+    },
+    {
+      "label": "Founders",
+      "value": "Jonas Niehues, Lucca Brehm",
+      "source": "Company"
+    },
+    {
+      "label": "Product surface",
+      "value": "Chat + knowledge + agents",
+      "source": "Company"
+    },
+    {
+      "label": "Disclosed revenue",
+      "value": "None; figures estimated",
+      "source": "—"
+    },
+    {
+      "label": "Category",
+      "value": "Enterprise AI platform",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Sell Governance, Not Access to a Model.",
+  "modelParagraphs": [
+    "Any employee can buy a ChatGPT subscription; what they can't buy is one AI platform the company governs — every major model behind one interface, company knowledge connected with permissions intact, usage auditable, data staying in the EU. That governance layer is what Langdock prices, which is why model releases help rather than threaten it.",
+    "Revenue is per-seat platform subscriptions with enterprise contracts for the compliance tier — data residency, permissions and audit — the checklist items European regulated buyers require before adoption. The thirty-six-month path to $50M is slower than consumer AI ramps, but each contract lands the whole organization rather than a single user."
+  ],
+  "revenueMix": [
+    ["Per-seat subscriptions", "Platform access priced per employee across the organization."],
+    ["Enterprise contracts", "Compliance tier: data residency, permissions, audit."],
+    ["Knowledge integrations", "Connectors that deepen platform lock-in per deployment."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Langdock's ARR in 2026?",
+      "a": "Estimates cluster between $40M and $50M: Leonis Capital charts roughly $50M reached in thirty-six months, while Dealroom separately tracks ~$40M. Langdock has not disclosed revenue; treat the range as estimates."
+    },
+    {
+      "q": "What Does Langdock Sell?",
+      "a": "A central AI platform for organizations: chat with every major model, company knowledge connected with permissions, and agents and automations on top — governed, audited and hosted in the EU."
+    },
+    {
+      "q": "Why Does EU Data Residency Matter So Much?",
+      "a": "Regulated European buyers — healthcare, finance, public sector — often can't send data to US-hosted AI services regardless of product quality. A platform that keeps data in the EU clears the procurement checklist those organizations run before anything else."
+    },
+    {
+      "q": "Who Founded Langdock?",
+      "a": "Jonas Niehues and Lucca Brehm founded the company in Berlin in 2023 — building the governed, organization-wide AI platform from Europe rather than a consumer chat front-end."
+    },
+    {
+      "q": "Isn't This Just a ChatGPT Wrapper?",
+      "a": "The chat layer is the least of it: the value is governance — model choice, permissions on connected knowledge, audit trails, EU residency — the parts no individual consumer subscription provides and no regulated company will skip."
+    }
+  ],
+  "ctaTitle": "Selling AI to Regulated Buyers? Bill the Whole Org.",
+  "ctaDescription": "Clink runs per-seat platform billing, mid-cycle seat changes and enterprise invoicing with tax handled across the EU — for AI platforms whose buyers demand compliance paperwork.",
+  "ctaLabel": "Bill Your AI Platform",
+  "ctaHref": "/contact"
+}

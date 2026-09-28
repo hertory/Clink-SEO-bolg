@@ -1,0 +1,151 @@
+{
+  "slug": "factory",
+  "name": "Factory",
+  "domain": "factory.com",
+  "canonical": "https://clinkbill.com/arr-leaderboard/factory",
+  "h1": "Factory ARR: ~$50M for Droids That Own Engineering Tickets.",
+  "intro": "Factory builds agent-native software development — autonomous \"Droids\" that take a ticket, write the code, run the tests and open the review, with enterprise guardrails. Tracking services put its run rate around $50M roughly ten months after the platform took off, and Leonis Capital charts it among the fastest AI companies to that mark. The reported numbers are below.",
+  "metaTitle": "Factory ARR: ~$50M Revenue and the Droids Platform (2026)",
+  "metaDescription": "Factory revenue: ~$50M ARR estimated in 2026 for the agent-native software development platform, ten months from launch to $50M per Leonis Capital — with sources.",
+  "ogDescription": "Autonomous dev agents that reached ~$50M ARR in ten months — the Factory timeline, sourced.",
+  "heroStats": [
+    ["~$50M", "Estimated ARR, 2026"],
+    ["10 months", "Launch to $50M, per Leonis"],
+    ["Droids", "Autonomous engineering agents"],
+    ["Enterprise", "Primary buyer segment"]
+  ],
+  "chartTitle": "The Factory Revenue Curve.",
+  "chartIntro": "Estimated annualized run rate in USD millions. Factory has not disclosed exact revenue; the curve combines ARR Club tracking with Leonis Capital's time-to-$50M data.",
+  "chartMax": 55,
+  "chartSources": "Sources: ARR Club, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded in San Francisco by Matan Grinberg and Eno Reyes to build software where agents — not editors — are the primary interface.",
+      "source": "Company"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 5,
+      "note": "Ships the Droids platform: autonomous agents that work tickets end-to-end inside enterprise environments, backed by Sequoia.",
+      "source": "Company / Press"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 25,
+      "note": "Enterprises adopt Droids for backlog work — migration, dependency bumps, test backfill — the tickets humans never get to.",
+      "source": "Estimated"
+    },
+    {
+      "label": "2026",
+      "date": "2026",
+      "arr": 50,
+      "note": "Reaches an estimated ~$50M run rate; Leonis Capital charts Factory at ten months from public launch to $50M ARR.",
+      "source": "ARR Club / Leonis"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~10 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founded",
+      "value": "2023, SF",
+      "source": "Company"
+    },
+    {
+      "label": "Early backer",
+      "value": "Sequoia",
+      "source": "Press, 2024"
+    },
+    {
+      "label": "Buyer motion",
+      "value": "Enterprise platform contracts",
+      "source": "Company"
+    }
+  ],
+  "facts": [
+    {
+      "label": "Latest estimated ARR",
+      "value": "~$50M",
+      "source": "ARR Club, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~10 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Company"
+    },
+    {
+      "label": "Founders",
+      "value": "Matan Grinberg, Eno Reyes",
+      "source": "Company"
+    },
+    {
+      "label": "Product",
+      "value": "Droids — autonomous dev agents",
+      "source": "Company"
+    },
+    {
+      "label": "Disclosed revenue",
+      "value": "None; figures estimated",
+      "source": "—"
+    },
+    {
+      "label": "Category",
+      "value": "Agent-native software development",
+      "source": "Company"
+    },
+    {
+      "label": "Use pattern",
+      "value": "Ticket-owning agents + human review",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "Sell Finished Tickets, Not Copilot Autocomplete.",
+  "modelParagraphs": [
+    "Factory's bet is that the valuable unit of software work is the finished ticket, not the suggested line. Droids take an issue from the backlog, work it autonomously — code, tests, migration scripts — and open a review when done, with enterprise permissions and audit trails wrapped around every run. That positions Factory against engineering headcount rather than against editor plugins, a much larger budget line.",
+    "Revenue is enterprise platform contracts: a base platform fee plus usage as Droid runs scale across an organization's repositories. Because agents work inside existing CI and code review, expansion follows visible output — the same dynamic that made code assistants spread bottom-up, but priced against completed work."
+  ],
+  "revenueMix": [
+    ["Platform contracts", "Enterprise base fees for deploying Droids across repositories."],
+    ["Usage-based runs", "Pricing that scales with the volume of agent-completed work."],
+    ["Guardrails add-ons", "Permissions, audit and compliance tiers for regulated engineering orgs."]
+  ],
+  "faqs": [
+    {
+      "q": "What Is Factory's ARR in 2026?",
+      "a": "Around $50 million, estimated. Factory has not disclosed revenue; ARR Club tracks the run rate and Leonis Capital charts the company at roughly ten months from public launch to $50M ARR. Treat the figure as an estimate."
+    },
+    {
+      "q": "What Are Droids?",
+      "a": "Factory's autonomous software engineering agents. A Droid takes an assigned ticket, writes the code, runs the tests and opens a pull request for human review — operating inside enterprise permissions and audit trails rather than as an editor plugin."
+    },
+    {
+      "q": "How Is Factory Different from Cursor or Copilot?",
+      "a": "Copilots autocomplete inside an editor with a human driving. Factory agents own tickets end-to-end in the background — the buyer's frame of reference is engineering capacity, not seats of an IDE, which is why it sells as platform contracts with usage."
+    },
+    {
+      "q": "Who Founded Factory?",
+      "a": "Matan Grinberg and Eno Reyes founded the company in San Francisco in 2023, with early backing led by Sequoia, to make agents the primary interface for software development."
+    },
+    {
+      "q": "How Does Factory Charge?",
+      "a": "Enterprise platform contracts with a base fee plus usage as agent-completed work scales. Compliance and audit tiers add on for regulated organizations."
+    }
+  ],
+  "ctaTitle": "Agents That Ship Need Billing That Meters.",
+  "ctaDescription": "Clink meters usage-based agent runs, invoices enterprise platform fees and handles procurement-ready billing for AI products that sell completed work instead of seats.",
+  "ctaLabel": "Meter Your Agents",
+  "ctaHref": "/contact"
+}

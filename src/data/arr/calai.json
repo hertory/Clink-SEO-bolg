@@ -1,0 +1,151 @@
+{
+  "slug": "calai",
+  "name": "Cal AI",
+  "domain": "calai.app",
+  "canonical": "https://clinkbill.com/arr-leaderboard/calai",
+  "h1": "Cal AI ARR: ~$50M for Calorie Tracking by Camera, Then an Exit.",
+  "intro": "Cal AI made nutrition tracking a camera action — snap the meal, get calories and macros — and rode influencer marketing to millions of downloads and an estimated ~$50M run rate, all built by founders still in their teens. In March 2026 MyFitnessPal acquired the app. The reported numbers, with sources, are below.",
+  "metaTitle": "Cal AI ARR: ~$50M Revenue and the MyFitnessPal Acquisition (2026)",
+  "metaDescription": "Cal AI revenue: ~$50M ARR estimated in 2026 for the AI calorie-tracking app founded by teenagers, acquired by MyFitnessPal in March 2026 — with sources.",
+  "ogDescription": "Point the camera at your plate: ~$50M ARR and a MyFitnessPal exit — the Cal AI timeline, sourced.",
+  "heroStats": [
+    ["~$50M", "Estimated ARR at exit"],
+    ["22 months", "Launch to $50M, per Leonis"],
+    ["Millions", "Downloads via influencers"],
+    ["Mar 2026", "Acquired by MyFitnessPal"]
+  ],
+  "chartTitle": "The Cal AI Revenue Curve.",
+  "chartIntro": "Annualized run rate in USD millions. Cal AI never disclosed exact revenue; the curve combines GetLatka's estimate with Leonis Capital's time-to-$50M tracking, ending at the March 2026 acquisition.",
+  "chartMax": 55,
+  "chartSources": "Sources: GetLatka, TechCrunch, Leonis Capital.",
+  "milestones": [
+    {
+      "label": "2023",
+      "date": "2023",
+      "arr": 0,
+      "note": "Founded by Zach Yadegari and Henry Lang Mackenzie — both teenagers — on a simple premise: tracking food by photographing it instead of typing it.",
+      "source": "Press"
+    },
+    {
+      "label": "2024",
+      "date": "2024",
+      "arr": 15,
+      "note": "Influencer marketing on TikTok and Instagram drives millions of downloads; a low-friction annual subscription converts them.",
+      "source": "Press / Estimated"
+    },
+    {
+      "label": "2025",
+      "date": "2025",
+      "arr": 40,
+      "note": "Reaches $50M annualized run rate roughly twenty-two months after launch, per Leonis Capital's tracking.",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Mar '26",
+      "date": "March 2026",
+      "arr": 50,
+      "note": "MyFitnessPal acquires Cal AI, folding the camera-first tracker into the largest nutrition platform — a two-and-a-half-year run from founding to exit.",
+      "source": "TechCrunch"
+    }
+  ],
+  "speed": [
+    {
+      "label": "Launch → $50M ARR",
+      "value": "~22 months",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Founding → exit",
+      "value": "~2.5 years",
+      "source": "2023 → Mar 2026"
+    },
+    {
+      "label": "Founders' age",
+      "value": "Teenagers at founding",
+      "source": "Press"
+    },
+    {
+      "label": "Exit",
+      "value": "MyFitnessPal acquisition",
+      "source": "TechCrunch, Mar 2026"
+    }
+  ],
+  "facts": [
+    {
+      "label": "ARR at exit",
+      "value": "~$50M",
+      "source": "GetLatka, 2026"
+    },
+    {
+      "label": "Time to $50M",
+      "value": "~22 months from launch",
+      "source": "Leonis Capital"
+    },
+    {
+      "label": "Acquired by",
+      "value": "MyFitnessPal",
+      "source": "TechCrunch, Mar 2026"
+    },
+    {
+      "label": "Founded",
+      "value": "2023",
+      "source": "Press"
+    },
+    {
+      "label": "Founders",
+      "value": "Zach Yadegari, Henry Lang Mackenzie",
+      "source": "Press"
+    },
+    {
+      "label": "Core feature",
+      "value": "Photo → calories & macros",
+      "source": "Company"
+    },
+    {
+      "label": "Growth channel",
+      "value": "Influencer marketing",
+      "source": "Press"
+    },
+    {
+      "label": "Category",
+      "value": "AI nutrition tracking",
+      "source": "Company"
+    }
+  ],
+  "modelTitle": "One Photo Instead of a Food Diary, Priced Like an App.",
+  "modelParagraphs": [
+    "Every calorie app before Cal AI died on the same friction: logging meals by hand feels like homework. Cal AI replaced the diary with the camera — photograph the plate, the model estimates calories and macros — which removed the single biggest churn driver in nutrition tracking. The product insight is deletion, not addition.",
+    "Distribution was influencer marketing at relentless volume, with a cheap annual subscription converting downloads. That combination — one-step core action, creator-driven acquisition, annual prepay — is why a team of teenagers could out-earn venture-backed health apps, and why MyFitnessPal bought it in March 2026."
+  ],
+  "revenueMix": [
+    ["Annual subscriptions", "Low-friction yearly plans converting influencer-driven downloads."],
+    ["Weekly / monthly tiers", "Shorter plans for trial-first users."],
+    ["Influencer acquisition", "Performance-priced creator marketing as the primary growth spend."]
+  ],
+  "faqs": [
+    {
+      "q": "What Was Cal AI's ARR?",
+      "a": "Around $50 million at the time of its March 2026 acquisition, estimated. Cal AI never disclosed exact revenue; the figure comes from GetLatka with Leonis Capital charting about twenty-two months from launch to $50M."
+    },
+    {
+      "q": "Who Bought Cal AI?",
+      "a": "MyFitnessPal acquired the app in March 2026, per TechCrunch — bringing the camera-first tracker and its young user base into the largest established nutrition platform."
+    },
+    {
+      "q": "Who Founded Cal AI?",
+      "a": "Zach Yadegari and Henry Lang Mackenzie founded it in 2023, both teenagers at the time. The company became the standard citation for young founders building revenue-first AI apps."
+    },
+    {
+      "q": "How Accurate Is Photo-Based Tracking?",
+      "a": "Photo estimation gives a close range, not a lab measurement — portion sizes are inferred from the image. Users accepted that trade because consistency matters more than precision in habit tracking, which is the job Cal AI actually does."
+    },
+    {
+      "q": "How Did Cal AI Grow Without Big Ad Budgets?",
+      "a": "Influencer marketing priced per download: creators demoed the camera flow on TikTok and Instagram, the app converted viewers on an annual plan, and revenue funded the next wave of placements."
+    }
+  ],
+  "ctaTitle": "Health Apps Convert on the First Session. Clink Keeps Them Paid.",
+  "ctaDescription": "Clink runs trial and annual subscription billing, failed-payment recovery and app-store-alternative web checkout for consumer health AI converting influencer traffic.",
+  "ctaLabel": "Bill Your Health App",
+  "ctaHref": "/contact"
+}
