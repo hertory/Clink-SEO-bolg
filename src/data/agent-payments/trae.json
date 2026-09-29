@@ -6,14 +6,14 @@
     "label": "Trae"
   },
   "meta": {
-    "title": "Trae × Clink — Scoped Payments for the SOLO Build",
-    "description": "Clink gives Trae a scoped purchase path with the cap set at build start, so a SOLO build that needs an API tier, a paid tool, or a checkout test keeps building instead of stopping.",
-    "ogDescription": "Trae already builds from a prompt to a preview. Clink adds the approved purchase step—capped at build start, scoped per purchase, and inside the build."
+    "title": "Trae Agentic Payments: Pay the SOLO Build's Paid Steps | Clink",
+    "description": "Trae builds from prompt to preview in one sitting. Clink adds agentic payments scoped at build start, so API tiers and paid tools never break the build.",
+    "ogDescription": "SOLO keeps shipping. Clink adds the capped purchase step—paid dependencies handled inside the build, not through a procurement detour."
   },
   "hero": {
-    "kicker": "Trae, Powered to Transact",
+    "kicker": "Trae Agentic Payments · Powered by Clink",
     "h1": "From Prompt to Shipped, Trae Can Cover the Paid Steps.",
-    "standfirst": "A SOLO build can go from prompt to preview deploy in one sitting—until the app needs something paid: an API tier, a checkout to test, a data source. Clink gives Trae a scoped purchase path, so the build keeps moving and the feature ships working.",
+    "standfirst": "A SOLO build can go from prompt to preview deploy in one sitting—until the app needs something paid: an API tier, a checkout to test, a data source. Clink gives Trae a scoped agentic payment path, so the build keeps moving and the feature ships working.",
     "ctaLabel": "See the Payment Step in the Build",
     "ctaHref": "#how-it-works",
     "flowStart": "Build Hits a Paid Step",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond the Prompt",
     "title": "Trae Can Carry the Purchase Inside the Build.",
-    "body": "SOLO turns a prompt into a working app, and working apps lean on paid pieces—API tiers, checkout flows, data sources. Clink gives Trae a controlled path from paid dependency to approved purchase to shipped feature.",
+    "body": "SOLO turns a prompt into a working app, and working apps lean on paid pieces—API tiers, checkout flows, data sources. Clink gives Trae a controlled agentic payments path from paid dependency to approved purchase to shipped feature.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -116,7 +116,7 @@
     "codeTitlePrefix": "Connect Clink MCP to",
     "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
     "thenAskLabel": "# Then Just Ask",
-    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "thenAsk": "“The recommendations feature needs the paid tier of that API—buy the option that fits the build budget and keep going.”",
     "guideLabel": "Full Agent Setup Guide",
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
@@ -220,12 +220,24 @@
   },
   "faqs": [
     {
+      "q": "Can Trae Buy What a Build Needs?",
+      "a": "Yes. API tiers, paid tools, real checkout tests—Trae purchases the paid pieces inside the budget you set at build start, without leaving the SOLO flow."
+    },
+    {
+      "q": "How Do I Enable Payments in Trae?",
+      "a": "Connect Clink through MCP and state the build budget when SOLO starts. Paid steps then request approval inside the build flow, and the credential released is scoped to that purchase only."
+    },
+    {
       "q": "Can an IDE Agent Spend Safely on a Solo Budget?",
       "a": "Yes, because the budget is yours and set before the build starts. Trae works against a per-purchase authorization—merchant, amount cap, and validity—on top of a card that is tokenized at connection. There is no stored balance, and a risk layer can auto-pause spending that falls outside your lines."
     },
     {
       "q": "Does a Purchase Interrupt the SOLO Build?",
       "a": "No. The approval appears inside the build flow you are already working in, and within the scope you set, the purchase completes without a detour to a checkout page. The build resumes on the same task, with the confirmation and entitlement attached when the feature ships."
+    },
+    {
+      "q": "Does Trae See My Card Details?",
+      "a": "No. Clink tokenizes the card at connection and releases it per approved purchase. There is no raw card in the IDE and no stored balance."
     },
     {
       "q": "Can Client Builds Stay on Their Own Budgets?",

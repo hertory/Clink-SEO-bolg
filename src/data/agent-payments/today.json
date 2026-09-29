@@ -6,14 +6,14 @@
     "label": "Today"
   },
   "meta": {
-    "title": "Today.ai × Clink — Real-World Buying for a Personal Agent",
-    "description": "See how Clink gives Today the ability to turn a natural-language request into an approved payment and a completed real-world purchase.",
-    "ogDescription": "Today understands what you need. Clink connects the products, payment approval, and fulfilment required to buy it."
+    "title": "Today.ai Agentic Payments: Buy What You Ask For | Clink",
+    "description": "Today understands what you need. Clink adds agentic payments to Today, turning a natural-language request into an approved purchase and a completed real-world order.",
+    "ogDescription": "Today gets the outcome. Clink adds the agentic payment step—approved, bounded, and completed inside the conversation."
   },
   "hero": {
-    "kicker": "Today, Powered to Transact",
+    "kicker": "Today Agentic Payments · Powered by Clink",
     "h1": "Today Can Buy What You Ask For.",
-    "standfirst": "Today understands what you need. Clink connects the products, payment approval, and fulfilment required to make it happen.",
+    "standfirst": "Today understands what you need. Clink adds the agentic payment layer—products, approval, and fulfilment—so a natural-language request ends in a completed purchase.",
     "ctaLabel": "Watch Today Buy",
     "ctaHref": "#demo",
     "flowStart": "Ask Today",
@@ -30,7 +30,7 @@
   "capabilities": {
     "eyebrow": "Beyond Answers",
     "title": "Today Can Carry the Task All the Way Through.",
-    "body": "The conversation is only the beginning. Clink gives Today a controlled path from intent to transaction to outcome.",
+    "body": "The conversation is only the beginning. Clink gives Today a controlled agentic payment path from intent to transaction to outcome.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -124,7 +124,7 @@
     "codeTitlePrefix": "Connect Clink MCP to",
     "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
     "thenAskLabel": "# Then Just Ask",
-    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "thenAsk": "“You know my usual brands—restock what we're low on, inside my weekly budget.”",
     "guideLabel": "Full Agent Setup Guide",
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
@@ -210,7 +210,7 @@
   "howTo": {
     "eyebrow": "How-To Guide",
     "title": "You Set the Boundaries.",
-    "description": "Today can move the task forward without taking control away from you.",
+    "description": "Today can complete purchases without taking control away from you.",
     "steps": [
       {
         "name": "Tell Today What You Need",
@@ -228,6 +228,14 @@
   },
   "faqs": [
     {
+      "q": "Can Today Buy Things for Me?",
+      "a": "Yes. With Clink connected, Today completes real purchases—restocks, gifts, trip items—inside the merchant, amount, and timing boundaries you approve. It never buys outside them."
+    },
+    {
+      "q": "How Do I Use Today to Make Purchases?",
+      "a": "Connect Clink through MCP, then ask Today in plain language for the outcome, your budget, and any preferences. Today turns the request into a purchase-ready choice and completes it after your approval."
+    },
+    {
       "q": "Does Today See My Card Details?",
       "a": "No. Clink handles payment credentials and authorization outside the conversation. Today receives only the information needed to complete your approved purchase."
     },
@@ -238,6 +246,10 @@
     {
       "q": "What Can Today Buy With Clink?",
       "a": "Today can complete purchases from commerce systems connected through Clink. Availability depends on the merchant, product, location, and fulfilment options for each request."
+    },
+    {
+      "q": "Is Today's Wallet a Crypto or Prepaid Wallet?",
+      "a": "No. The wallet is card-linked: Clink tokenizes your existing card and authorizes per purchase. There is no crypto balance, no preloaded funds, and nothing to top up."
     }
   ],
   "finalCta": {

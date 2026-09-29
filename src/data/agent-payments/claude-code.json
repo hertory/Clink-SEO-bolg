@@ -6,14 +6,14 @@
     "label": "Claude Code"
   },
   "meta": {
-    "title": "Claude Code × Clink — Scoped Payments Inside the Terminal",
-    "description": "Clink gives Claude Code a tokenized, per-purchase payment path, so an API top-up or a paid tool never stalls a coding session.",
-    "ogDescription": "Claude Code already works across your repo. Clink adds the approved payment step—scoped, tokenized, and inside the terminal."
+    "title": "Claude Code Agentic Payments: Pay From the Terminal | Clink",
+    "description": "Claude Code hits paid dependencies mid-task. Clink adds scoped agentic payments inside the terminal, so API top-ups and paid tools never stall the session.",
+    "ogDescription": "The repo agent gets the missing payment step—tokenized, per-purchase, and inside the terminal session."
   },
   "hero": {
-    "kicker": "Claude Code, Powered to Transact",
+    "kicker": "Claude Code Agentic Payments · Powered by Clink",
     "h1": "Claude Code Can Pay for What the Task Needs.",
-    "standfirst": "A coding agent that can refactor a repo still stops at the first paid API. Clink adds the approved payment step, so the task continues and the receipt lands in the same session.",
+    "standfirst": "A coding agent that can refactor a repo still stops at the first paid API. Clink adds the scoped agentic payment step, so the task continues and the receipt lands in the same session.",
     "ctaLabel": "See How the Payment Works",
     "ctaHref": "#how-it-works",
     "flowStart": "Task Hits a Paywall",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond Refactors",
     "title": "Claude Code Can Carry the Purchase Inside the Session.",
-    "body": "Coding tasks increasingly depend on paid dependencies—API credits, gated tools, metered services. Clink gives Claude Code a controlled path from dependency to purchase to unblocked work.",
+    "body": "Coding tasks increasingly depend on paid dependencies—API credits, gated tools, metered services. Clink gives Claude Code a controlled agentic payments path from dependency to purchase to unblocked work.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -220,6 +220,14 @@
   },
   "faqs": [
     {
+      "q": "Can Claude Code Make Payments Without Leaving the Terminal?",
+      "a": "Yes. The approval lands in the session you're already working in—merchant, amount, and purpose—before the credential is released. No checkout detour, no card in the repo."
+    },
+    {
+      "q": "How Do I Give Claude Code the Ability to Pay?",
+      "a": "Connect Clink MCP, then state the cap in the same prompt that starts the work. Every purchase after that is a scoped instruction bound to the merchant, amount, and purpose you approved."
+    },
+    {
       "q": "Can a Terminal Agent Be Trusted With a Card?",
       "a": "It never sees one. The card is tokenized at connection, and Claude Code operates on a per-purchase instruction—scope, amount, and validity are set before any credential is released."
     },
@@ -230,6 +238,10 @@
     {
       "q": "What Happens If a Purchase Fails Mid-Task?",
       "a": "The failure surfaces in the session instead of failing silently. Idempotency prevents double charges, and a retry within the approved scope is a new, auditable instruction."
+    },
+    {
+      "q": "Can I Set a Spending Limit for a Coding Task?",
+      "a": "Yes. The cap travels with the instruction that starts the task, and usage-based purchases stop at the line you drew. Overnight runs inside the cap self-serve; anything past it waits for review."
     }
   ],
   "finalCta": {

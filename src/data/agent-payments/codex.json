@@ -6,14 +6,14 @@
     "label": "Codex"
   },
   "meta": {
-    "title": "Codex × Clink — Pre-Approved Payments for Async Agent Tasks",
-    "description": "Codex runs tasks while you're away. Clink adds a scoped payment path approved up front, so the first paid API doesn't stall the run.",
-    "ogDescription": "Codex works in the background. Clink makes sure the budget and scope are approved before the run starts—not after something stalls."
+    "title": "Codex Agentic Payments: Buy What the Run Needs | Clink",
+    "description": "Codex runs tasks while you're away. Clink adds agentic payments with the scope approved up front, so the first paid dependency never stalls the run.",
+    "ogDescription": "Async runs need pre-approved buying. Clink scopes the payment before Codex starts, and every purchase lands in the task log."
   },
   "hero": {
-    "kicker": "Codex, Powered to Transact",
+    "kicker": "Codex Agentic Payments · Powered by Clink",
     "h1": "Codex Can Buy What the Run Needs—While You're Away.",
-    "standfirst": "Background tasks don't pause to ask. Clink lets you approve the payment scope before the run starts, so Codex can pass a paid dependency and keep the receipts in the task log.",
+    "standfirst": "Background tasks don't pause to ask. Clink adds an agentic payment path approved before the run starts, so Codex can pass a paid dependency and keep the receipts in the task log.",
     "ctaLabel": "See the Approval Model",
     "ctaHref": "#how-it-works",
     "flowStart": "Brief With a Budget",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond the Sandbox",
     "title": "Asynchronous Tasks Need Pre-Approved Payments.",
-    "body": "An agent that works while you're away cannot stop at every checkout. Clink moves the approval to task start: you define the scope, Codex operates inside it, and the run shows every line.",
+    "body": "An agent that works while you're away cannot stop at every checkout. Clink moves the agentic payment approval to task start: you define the scope, Codex operates inside it, and the run shows every line.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -202,7 +202,7 @@
   "howTo": {
     "eyebrow": "How-To Guide",
     "title": "Approve the Scope. Review the Run.",
-    "description": "The approval moves to the start of the task, which is what makes an unattended run safe.",
+    "description": "The agentic payment is approved at the start of the task, which is what makes an unattended run safe.",
     "steps": [
       {
         "name": "Write the Brief With the Budget",
@@ -220,8 +220,12 @@
   },
   "faqs": [
     {
-      "q": "What Happens When Codex Needs to Pay While I'm Away?",
-      "a": "It can only pay inside the scope you approved at task start—merchant type, amount, and purpose. Anything outside that envelope pauses the task for your review instead of spending."
+      "q": "Can Codex Make Purchases While I'm Away?",
+      "a": "Only inside the scope you approved at task start—merchant type, amount, and purpose. Anything outside that envelope pauses the run for your review instead of spending."
+    },
+    {
+      "q": "How Do I Let Codex Buy What a Task Needs?",
+      "a": "Put the budget in the brief. State the outcome, the spend ceiling, and any merchant constraints when you start the task—Clink locks that in as the payment scope before the run begins."
     },
     {
       "q": "Does Codex See My Card Details?",
@@ -230,6 +234,14 @@
     {
       "q": "Can I Cap the Total Spend per Task?",
       "a": "Yes. The ceiling lives in the task brief and is enforced at payment time, so a run can be bounded regardless of how many purchases it attempts."
+    },
+    {
+      "q": "What Can Codex Buy With Clink?",
+      "a": "API products paid per use—model capacity, gated tools, paid tiers for testing—plus purchases on supported commerce surfaces. Each one is bound to the run that needed it."
+    },
+    {
+      "q": "What Happens If a Purchase Fails Mid-Run?",
+      "a": "The failure surfaces in the run instead of failing silently. A retry inside the approved scope becomes a new instruction in the task log, so overnight runs recover without double charging."
     }
   ],
   "finalCta": {

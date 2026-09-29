@@ -6,14 +6,14 @@
     "label": "WorkBuddy"
   },
   "meta": {
-    "title": "WorkBuddy × Clink — Office Purchases With Approval Rules",
-    "description": "Clink gives WorkBuddy a controlled way to complete small office purchases—inside the budget and approval rules you set.",
-    "ogDescription": "Office tasks rarely end at information. Clink gives WorkBuddy a controlled way to complete small purchases—within your rules."
+    "title": "WorkBuddy Agentic Payments: Handle Office Purchases | Clink",
+    "description": "Office tasks end in purchases. Clink gives WorkBuddy agentic payments with approval rules attached—budget owner, cap, purpose—so small buys finish without the delays.",
+    "ogDescription": "Small office purchases, completed inside the rules you set, with receipts filed where finance looks."
   },
   "hero": {
-    "kicker": "WorkBuddy, Powered to Transact",
+    "kicker": "WorkBuddy Agentic Payments · Powered by Clink",
     "h1": "WorkBuddy Can Handle the Purchase Part of Office Work.",
-    "standfirst": "Office tasks rarely end at information. Clink gives WorkBuddy a controlled way to complete small purchases—inside the budget and approval rules you set.",
+    "standfirst": "Office tasks rarely end at information. Clink gives WorkBuddy controlled agentic payments—small purchases completed inside the budget and approval rules you set.",
     "ctaLabel": "See an Office Purchase End to End",
     "ctaHref": "#how-it-works",
     "flowStart": "Request Filed",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond Answers",
     "title": "Work Tasks End in Purchases. WorkBuddy Can Finish Them.",
-    "body": "Replacing a keyboard, settling a one-off fee, buying event supplies—these are the steps where tasks stall. Clink gives WorkBuddy a controlled way to finish them.",
+    "body": "Replacing a keyboard, settling a one-off fee, buying event supplies—these are the steps where tasks stall. Clink gives WorkBuddy a controlled payment path to finish them.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -220,6 +220,14 @@
   },
   "faqs": [
     {
+      "q": "Can WorkBuddy Make Office Purchases?",
+      "a": "Yes. Supplies, equipment replacements, one-off SaaS fees—WorkBuddy completes them under the approval rule that travels with the task: budget owner, cap, and purpose."
+    },
+    {
+      "q": "How Do I Let WorkBuddy Buy for the Team?",
+      "a": "Connect Clink through MCP, then assign the task as usual with the budget line and deadline. The approval rule applies automatically, and the receipt files to the request it came from."
+    },
+    {
       "q": "Who Approves Purchases in a Workplace Setting?",
       "a": "The approval rule does. Each instruction carries the budget owner and the cap, and WorkBuddy can only complete purchases the rule allows—everything else waits for the owner."
     },
@@ -230,10 +238,14 @@
     {
       "q": "How Is Spending Kept Audit-Ready?",
       "a": "Every purchase resolves to the request, the rule, and the receipt in one thread. Finance reviews the same record the team sees, without a separate reconciliation pass."
+    },
+    {
+      "q": "What Can WorkBuddy Buy?",
+      "a": "Standing office supplies, replacement equipment, team event purchases inside a cap, and metered AI services paid per use—whatever the approval rule allows, on commerce surfaces connected through Clink."
     }
   ],
   "finalCta": {
     "title": "Let WorkBuddy Finish the Purchase Part.",
-    "description": "Office purchases completed inside the approval rules you set—with the receipt filed where finance expects it."
+    "description": "Agentic payments for office purchases, completed inside the rules you set—with the receipt filed where finance expects it."
   }
 }

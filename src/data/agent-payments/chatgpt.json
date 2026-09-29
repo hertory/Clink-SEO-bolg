@@ -6,14 +6,14 @@
     "label": "ChatGPT"
   },
   "meta": {
-    "title": "ChatGPT × Clink — Purchases Without Leaving the Chat",
-    "description": "Connect ChatGPT to Clink through MCP and let the conversation end with a completed purchase—approved in chat, paid through Clink, with no second app and no stored balance.",
-    "ogDescription": "ChatGPT gets you to the decision. Clink lets the same conversation carry the purchase through, inside limits you approve."
+    "title": "ChatGPT Agentic Payments: From Advice to Purchase | Clink",
+    "description": "Ask ChatGPT what to buy, then let it buy. Clink adds agentic payments in the chat—approved in-thread, paid over card rails, no second app and no stored balance.",
+    "ogDescription": "The chat that helps you decide can now complete the purchase—inside limits you approve."
   },
   "hero": {
-    "kicker": "ChatGPT, Powered to Transact",
+    "kicker": "ChatGPT Agentic Payments · Powered by Clink",
     "h1": "ChatGPT Is the Chat You Already Have. Now It Can Finish the Purchase.",
-    "standfirst": "You already ask ChatGPT to compare options and decide what to buy. Clink connects through MCP connectors so the same conversation can carry the purchase through—approval in the chat, paid over familiar card rails, with no second app and no stored balance.",
+    "standfirst": "You already ask ChatGPT to compare options and decide what to buy. Clink connects through MCP so the same conversation can carry the agentic payment—approval in the chat, paid over familiar card rails, no second app, no stored balance.",
     "ctaLabel": "See How the Chat Pays",
     "ctaHref": "#how-it-works",
     "flowStart": "Ask in the Chat",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond the Reply",
     "title": "The Chat Shouldn't End at 'You'll Need to Buy It Yourself.'",
-    "body": "ChatGPT already helps you decide. Clink adds a controlled payment path to the conversation you're already in, so the answer can become an approved purchase instead of a to-do.",
+    "body": "ChatGPT already helps you decide. Clink adds a controlled agentic payment path to the conversation you're already in, so the answer can become an approved purchase instead of a to-do.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -116,7 +116,7 @@
     "codeTitlePrefix": "Connect Clink MCP to",
     "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
     "thenAskLabel": "# Then Just Ask",
-    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "thenAsk": "“Compare the three options above, then buy the one that fits my budget—have it arrive before Friday.”",
     "guideLabel": "Full Agent Setup Guide",
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
@@ -220,6 +220,14 @@
   },
   "faqs": [
     {
+      "q": "Can ChatGPT Buy Things for Me?",
+      "a": "Yes, in the thread where you asked. ChatGPT completes the purchase through Clink—comparison, approval, payment, confirmation—without you switching to another app."
+    },
+    {
+      "q": "How Do I Use ChatGPT to Make Purchases?",
+      "a": "Add Clink as an MCP connector in ChatGPT's settings, then ask as usual: what you need, the budget, the deadline. Purchases request approval in the conversation before anything is paid."
+    },
+    {
       "q": "Do I Need a Paid ChatGPT Plan to Connect Payments?",
       "a": "Connector availability follows what OpenAI supports on each ChatGPT plan, so access can differ between tiers. The Clink side is standard MCP—if your account can load connectors, it can connect to Clink. Plan requirements come from the ChatGPT side, not from Clink."
     },
@@ -230,6 +238,10 @@
     {
       "q": "What Stops an Unwanted Purchase in the Chat?",
       "a": "Every payment is authorized per purchase or per task, bound to the merchant, amount cap, and validity you approved. A risk layer can pause activity automatically, and anything outside the approved boundaries stops instead of spending."
+    },
+    {
+      "q": "What Can ChatGPT Buy Through Clink?",
+      "a": "Access to paid sources and reports, event tickets within your cap, approved office items, and top-ups for the tools your thread depends on—anything on commerce surfaces connected through Clink. Availability depends on the merchant and your location."
     }
   ],
   "finalCta": {

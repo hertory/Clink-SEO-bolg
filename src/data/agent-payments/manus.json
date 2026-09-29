@@ -6,14 +6,14 @@
     "label": "Manus"
   },
   "meta": {
-    "title": "Manus × Clink — Mission Budget Envelopes for Long-Horizon Agents",
-    "description": "Manus runs missions that span hours or days. Clink adds a mission-level budget envelope, so a paid dependency mid-mission never stalls the work.",
+    "title": "Manus Agentic Payments: Fund Days-Long Missions | Clink",
+    "description": "Manus runs missions for hours or days. Clink adds agentic payments under one mission envelope—every mid-mission purchase scoped, receipted, and auditable.",
     "ogDescription": "One envelope per mission: every purchase Manus makes is scoped, receipted, and auditable from kickoff to the final deliverable."
   },
   "hero": {
-    "kicker": "Manus, Powered to Transact",
-    "h1": "Manus Can Fund a Mission That Runs for Days.",
-    "standfirst": "A mission runs for hours or days, and the paid dependency lands mid-flight—a gated dataset on day two, a metered API steps from done. Clink gives Manus a mission-level budget envelope: approve it once, and every purchase inside the mission is scoped, receipted, and auditable.",
+    "kicker": "Manus Agentic Payments · Powered by Clink",
+    "h1": "Manus Can Buy What a Days-Long Mission Needs.",
+    "standfirst": "A mission runs for hours or days, and the paid dependency lands mid-flight—a gated dataset on day two, a metered API steps from done. Clink gives Manus a mission-level agentic payments envelope: approve it once, and every purchase inside the mission is scoped, receipted, and auditable.",
     "ctaLabel": "See the Mission Envelope",
     "ctaHref": "#how-it-works",
     "flowStart": "Envelope Set at Kickoff",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond Single Tasks",
     "title": "A Mission That Spans Days Needs a Budget That Does Too.",
-    "body": "Research, sourcing, and multi-vendor comparison unfold in phases over hours or days, and the paid dependency often appears mid-mission. Clink gives Manus a controlled path from dependency to purchase to delivered mission.",
+    "body": "Research, sourcing, and multi-vendor comparison unfold in phases over hours or days, and the paid dependency often appears mid-mission. Clink gives Manus a controlled agentic payments path from dependency to purchase to delivered mission.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -116,7 +116,7 @@
     "codeTitlePrefix": "Connect Clink MCP to",
     "code": "{\n  \"mcpServers\": {\n    \"clink\": {\n      \"url\": \"<YOUR_CLINK_MCP_URL>\"\n    }\n  }\n}",
     "thenAskLabel": "# Then Just Ask",
-    "thenAsk": "“Find the best option within my budget and complete the purchase.”",
+    "thenAsk": "“Run the vendor comparison. If a gated dataset blocks a step, buy it inside the $200 envelope and finish the report.”",
     "guideLabel": "Full Agent Setup Guide",
     "guideHref": "https://docs.clinkbill.com/",
     "footerNote": "MCP Available · Connector Coming Soon",
@@ -220,6 +220,14 @@
   },
   "faqs": [
     {
+      "q": "Can Manus Make Purchases During a Mission?",
+      "a": "Yes. Gated datasets, paid reports, metered compute—Manus buys what the mission needs inside the envelope approved at kickoff, and each purchase is receipted against the step it unblocked."
+    },
+    {
+      "q": "How Do I Use Manus to Buy Research and Data?",
+      "a": "Kick off the mission with the envelope and let it run. When a paid report or gated dataset becomes the blocker, Manus purchases inside the envelope and continues—no mid-mission approval loop."
+    },
+    {
       "q": "How Do I Keep a Multi-Day Manus Mission From Overspending?",
       "a": "Approve the mission envelope at kickoff. Every purchase inside the mission is authorized against that cap—merchant, amount, and validity—and budget plus top-up frequency caps bound the total. Anything outside the envelope pauses the mission instead of spending."
     },
@@ -230,6 +238,10 @@
     {
       "q": "What Can Manus Buy Mid-Mission?",
       "a": "API products paid per use—gated datasets and metered services fit the mission pattern—and purchases on supported commerce surfaces. Availability depends on the merchant and the options at each step of the mission."
+    },
+    {
+      "q": "What Happens to the Spend When the Mission Ends?",
+      "a": "The mission closes with a complete expense record: every purchase resolved to the step it unblocked, exportable as one audit trail instead of a reconciled card statement."
     }
   ],
   "finalCta": {

@@ -6,14 +6,14 @@
     "label": "OpenClaw"
   },
   "meta": {
-    "title": "OpenClaw × Clink — Real-World Errands With Scoped Payment Authority",
-    "description": "OpenClaw runs around the clock. Clink gives it scoped payment authority for the errands you delegate—orders, pickups, and paid services.",
-    "ogDescription": "An always-on agent doesn't stop at answers. Clink gives OpenClaw scoped payment authority for orders, pickups, and paid services."
+    "title": "OpenClaw Agentic Payments: Buy Within Your Lines | Clink",
+    "description": "OpenClaw runs around the clock. Clink adds scoped agentic payments for the errands you delegate—orders, pickups, paid services—each capped and expiring with the errand.",
+    "ogDescription": "Errands end with proof, not promises. Clink gives OpenClaw expiring payment authority, scoped to one errand at a time."
   },
   "hero": {
-    "kicker": "OpenClaw, Powered to Transact",
+    "kicker": "OpenClaw Agentic Payments · Powered by Clink",
     "h1": "OpenClaw Buys Within the Lines You Draw.",
-    "standfirst": "An always-on runtime doesn't stop at answers. Clink gives OpenClaw scoped payment authority for the errands you delegate—orders, pickups, and paid services.",
+    "standfirst": "An always-on runtime doesn't stop at answers. Clink gives OpenClaw a scoped agentic payment path for the errands you delegate—orders, pickups, and paid services.",
     "ctaLabel": "See an Errand End to End",
     "ctaHref": "#how-it-works",
     "flowStart": "Delegate the Errand",
@@ -22,7 +22,7 @@
   "capabilities": {
     "eyebrow": "Beyond Reminders",
     "title": "An Always-On Agent Can Carry Errands to Completion.",
-    "body": "OpenClaw is already running when the errand appears. Clink closes the last gap: a controlled way to pay for the order, the service, or the top-up the task calls for.",
+    "body": "OpenClaw is already running when the errand appears. Clink closes the last gap: a controlled payment path for the order, the service, or the top-up the task calls for.",
     "blocks": [
       {
         "eyebrow": "Understand",
@@ -220,6 +220,14 @@
   },
   "faqs": [
     {
+      "q": "Can OpenClaw Buy Things for Me?",
+      "a": "Yes—that's the point. Delegate the errand in plain words, approve the merchant, amount, and window, and OpenClaw completes the order and comes back with proof: a pickup code, an order confirmation, or a receipt."
+    },
+    {
+      "q": "How Do I Teach OpenClaw to Buy?",
+      "a": "Connect Clink through MCP, then state the errand like a message to a friend: what, from where, by when, and the ceiling. The authorization is scoped to that errand and expires when it closes."
+    },
+    {
       "q": "Is It Safe to Let an Always-On Agent Spend?",
       "a": "Always-on does not mean unguarded. Every purchase is scoped to one errand, budgets and frequency caps apply across errands, and unusual patterns pause automatic funding until you review."
     },
@@ -228,12 +236,16 @@
       "a": "Orders on supported commerce surfaces such as Shopify storefronts, pickup orders with connected partners in APAC, and API products paid per use. Availability depends on merchant and location."
     },
     {
+      "q": "Does OpenClaw See My Card Details?",
+      "a": "No. Clink tokenizes the card at connection and releases a per-errand credential. OpenClaw works with the authorization—merchant, amount, window—never the card number."
+    },
+    {
       "q": "Can I Revoke Access?",
       "a": "Yes. Authorizations expire on their own, and you can revoke an agent's payment access at any time from the wallet. Past purchases remain visible for review."
     }
   ],
   "finalCta": {
     "title": "Give OpenClaw the Errands. Keep the Authority.",
-    "description": "Delegate real purchases with scoped, expiring payment authority—and get proof every time."
+    "description": "Delegate real errands over agentic payments with scoped, expiring authority—and get proof every time."
   }
 }
