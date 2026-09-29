@@ -1,5 +1,5 @@
 ---
-title: "Stripe OpenRouter Acquisition Reported at $7B+ — What It Means for Agent Payments"
+title: "Stripe–OpenRouter $7B+: What It Means for Agent Payments | Clink"
 description: "Bloomberg reports Stripe finalized a $7B+ deal for OpenRouter, the AI model router. Here is the timeline, strategic logic, and what SaaS teams should watch."
 slug: "stripe-openrouter-acquisition"
 date: "2026-08-18"

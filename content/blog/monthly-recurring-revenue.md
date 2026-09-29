@@ -1,5 +1,5 @@
 ---
-title: "What Is MRR? — Monthly Recurring Revenue, Explained"
+title: "What Is MRR? Monthly Recurring Revenue, Explained | Clink"
 description: "MRR is the predictable monthly revenue a subscription business expects from active customers—with the formula, the four-part decomposition, and how MRR differs from ARR."
 slug: "monthly-recurring-revenue"
 date: "2026-07-29"

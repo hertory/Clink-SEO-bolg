@@ -1,5 +1,5 @@
 ---
-title: "Agentic Commerce Supported Platforms CMS — Merchant Stack (2026 Reference)"
+title: "Agentic Commerce Platforms & CMS: 2026 Reference | Clink"
 description: "Agentic commerce supported platforms CMS in 2026: verified enablement paths for Shopify, Adobe, WooCommerce, Wix, 91APP, SHOPLINE, and custom stacks."
 slug: "agentic-commerce-merchant-stack-cms"
 date: "2026-09-14"

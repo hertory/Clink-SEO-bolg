@@ -1,5 +1,5 @@
 ---
-title: "What Is a Stripe Dispute — How Chargebacks and Payment Disputes Work"
+title: "What Is a Stripe Dispute? Chargebacks, Explained | Clink"
 description: "What is a Stripe dispute? Learn chargeback vs inquiry terminology, money flow, Dashboard deadlines, reason codes, VAMP thresholds, and what merchants control."
 slug: "what-is-stripe-dispute"
 date: "2026-09-04"

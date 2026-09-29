@@ -1,5 +1,5 @@
 ---
-title: "How to Appeal Stripe Account Closed — Documents, Timeline, and Outcomes"
+title: "Appeal a Closed Stripe Account: Documents & Outcomes | Clink"
 description: "How to appeal Stripe account closed: dashboard steps, document checklist, email structure, 120-day hold timeline, and realistic outcomes."
 slug: "how-to-appeal-stripe-account-closure"
 date: "2026-09-03"

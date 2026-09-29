@@ -1,5 +1,5 @@
 ---
-title: "How to Dispute Stripe Charge — Cardholder Steps, Timelines, and What Happens Next"
+title: "How to Dispute Stripe Charge: Steps & Timelines | Clink"
 description: "How to dispute stripe charge: identify descriptors, contact merchant vs bank, Reg E/Reg Z timelines, evidence checklist, and what happens after you file."
 slug: "how-to-dispute-stripe-charge"
 date: "2026-09-05"

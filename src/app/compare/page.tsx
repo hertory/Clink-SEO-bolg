@@ -14,7 +14,7 @@ const COMPETITORS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Compare Clink — Payment Platform Comparisons",
+  title: "Compare Payment Platforms: Clink vs Alternatives | Clink",
   description:
     "Side-by-side comparisons between Clink and other payment platforms. Pricing, features, and honest pros and cons for AI-native SaaS.",
   openGraph: {

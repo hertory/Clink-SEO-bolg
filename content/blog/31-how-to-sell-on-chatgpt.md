@@ -1,5 +1,5 @@
 ---
-title: "How to Sell on ChatGPT in 2026 — Merchant Setup Guide"
+title: "How to Sell on ChatGPT in 2026: Merchant Setup Guide | Clink"
 description: "Sell on ChatGPT via Shopify Agentic Storefronts, Etsy auto-sync, or an OpenAI product feed—discovery in chat, checkout on your site, and you stay merchant of record."
 slug: "how-to-sell-on-chatgpt"
 date: "2026-09-12"

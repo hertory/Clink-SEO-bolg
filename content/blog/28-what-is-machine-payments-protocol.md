@@ -1,5 +1,5 @@
 ---
-title: "What Is Machine Payments Protocol MPP? — Stripe Agent Rails"
+title: "What Is Machine Payments Protocol MPP? Stripe Agent Rails | Clink"
 description: "MPP is Stripe and Tempo's open HTTP standard for agent payments—402 challenges, Shared Payment Tokens, subscriptions, and stablecoin settlement."
 slug: "what-is-machine-payments-protocol"
 date: "2026-09-09"

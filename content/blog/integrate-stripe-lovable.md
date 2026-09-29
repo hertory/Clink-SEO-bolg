@@ -1,5 +1,5 @@
 ---
-title: "Integrate Stripe with Lovable Apps — Built-in Payments and Go-Live Guide"
+title: "Integrate Stripe with Lovable: Go-Live Guide | Clink"
 description: "Integrate Stripe with Lovable using built-in Payments or legacy Supabase: chat setup, Payments tab, test cards, claim flow, go-live checklist, and pitfalls."
 slug: "integrate-stripe-lovable"
 date: "2026-07-23"

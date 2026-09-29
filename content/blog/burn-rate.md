@@ -1,5 +1,5 @@
 ---
-title: "What Is a Burn Rate? — Definition, Formula, and Runway"
+title: "What Is a Burn Rate? Definition, Formula, and Runway | Clink"
 description: "A burn rate is how fast a company spends cash each month. Learn gross vs net burn, the runway formula, and why subscription revenue stability changes the math."
 slug: "burn-rate"
 date: "2026-07-27"

@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/higgsfield",
   "h1": "Higgsfield ARR: $100M in Six Months, a $5.4B Valuation by Year Two.",
   "intro": "Higgsfield put cinematic camera motion — crash zooms, bullet time, crane shots — into consumer AI video generation, and monetized it with plain subscriptions. Two months after launch it was already at $11M ARR; six months in it crossed $100M; by 2026 a $400M Series B valued it at $5.4B. Every publicly reported number, with sources, is below.",
-  "metaTitle": "Higgsfield ARR: $100M Run Rate in 6 Months, $5.4B Valuation (2026)",
+  "metaTitle": "Higgsfield ARR: $100M Run Rate in 6 Months | Clink",
   "metaDescription": "Higgsfield revenue timeline: $11M ARR two months after launch, $100M crossed in six months (Sep 2025), $50M funding round, $400M Series B at a $5.4B valuation in 2026 — with sources.",
   "ogDescription": "Camera-motion AI video that went from $0 to $100M ARR in six months — the Higgsfield timeline, sourced.",
   "heroStats": [
-    ["$100M", "ARR crossed, Sep 2025"],
-    ["6 months", "From launch to $100M"],
-    ["$5.4B", "Valuation, Series B 2026"],
-    ["2M+", "Monthly active users, 2025"]
+    [
+      "$100M",
+      "ARR crossed, Sep 2025"
+    ],
+    [
+      "6 months",
+      "From launch to $100M"
+    ],
+    [
+      "$5.4B",
+      "Valuation, Series B 2026"
+    ],
+    [
+      "2M+",
+      "Monthly active users, 2025"
+    ]
   ],
   "chartTitle": "The Higgsfield Revenue Curve.",
   "chartIntro": "Annualized run rate in USD millions, 2025 to 2026. Higgsfield launched publicly in early 2025 and crossed $100M ARR by September 2025 — among the fastest ramps in consumer AI.",
@@ -125,9 +137,18 @@
     "Revenue comes from consumer subscription tiers plus credit packs for renders, the standard consumer-AI stack. The paid funnel is powered by the product's own output: every cinematic clip posted to TikTok or Instagram is an ad, which is how the company reached millions of monthly actives on unusually short timelines. The Soul image model and sketch-to-image tools widened the subscription beyond video."
   ],
   "revenueMix": [
-    ["Consumer subscriptions", "Monthly and annual tiers for video and image generation."],
-    ["Credit packs", "Pay-as-you-go renders on top of subscription allowances."],
-    ["Creator flywheel", "Output posted to social doubles as acquisition, keeping paid-UA share efficient."]
+    [
+      "Consumer subscriptions",
+      "Monthly and annual tiers for video and image generation."
+    ],
+    [
+      "Credit packs",
+      "Pay-as-you-go renders on top of subscription allowances."
+    ],
+    [
+      "Creator flywheel",
+      "Output posted to social doubles as acquisition, keeping paid-UA share efficient."
+    ]
   ],
   "faqs": [
     {

@@ -1,5 +1,5 @@
 ---
-title: "Smart Payment Routing — How Multi-PSP Orchestration Recovers 3–5% Revenue"
+title: "Smart Payment Routing: Multi-PSP Revenue Recovery | Clink"
 description: "Single-PSP stacks leak recurring revenue through regional declines and soft failures. Smart multi-PSP routing with intelligent retry turns payment rails into a recoverable MRR lever."
 slug: "smart-routing"
 date: "2026-06-29"

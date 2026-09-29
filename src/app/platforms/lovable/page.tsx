@@ -8,7 +8,7 @@ import { FinalCta } from "@/components/FinalCta";
 import clawAvatar from "@/assets/clink/claw-avatar.svg";
 
 export const metadata: Metadata = {
-  title: "Add Payments to Your Lovable App",
+  title: "Add Payments to Your Lovable App: Step-by-Step | Clink",
   description:
     "Ship global payments inside your Lovable app with Clink. Merchant-of-Record coverage, smart routing, subscription billing, and an agent-ready integration skill — from prompt to revenue.",
   alternates: { canonical: "/platforms/lovable" },

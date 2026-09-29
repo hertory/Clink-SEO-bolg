@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/coderabbit",
   "h1": "CodeRabbit ARR: ~$50M and a $1.5B Valuation.",
   "intro": "CodeRabbit turned AI code review into a category — free for open source, paid per seat for everything else — reaching an estimated ~$50M annualized run rate and a $1.5B valuation by August 2026. Every publicly reported revenue, funding and adoption number is collected below, each traced back to a source.",
-  "metaTitle": "CodeRabbit ARR: ~$50M Revenue, MRR and Growth Timeline (2026)",
+  "metaTitle": "CodeRabbit ARR: ~$50M Revenue, MRR & Growth (2026) | Clink",
   "metaDescription": "Every publicly reported CodeRabbit revenue number: ~$50M ARR estimate in 2026, the $143M Series C at $1.5B valuation, the $60M Series B, implied MRR and pricing — with sources.",
   "ogDescription": "From a code-review bot to ~$50M ARR and a $1.5B valuation — the CodeRabbit timeline, sourced.",
   "heroStats": [
-    ["~$50M", "Estimated ARR, 2026"],
-    ["~$4.2M", "Implied monthly recurring revenue"],
-    ["$1.5B", "Valuation, Series C Aug 2026"],
-    ["Free", "For open source, forever"]
+    [
+      "~$50M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "~$4.2M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "$1.5B",
+      "Valuation, Series C Aug 2026"
+    ],
+    [
+      "Free",
+      "For open source, forever"
+    ]
   ],
   "chartTitle": "The CodeRabbit Revenue Curve.",
   "chartIntro": "Estimated annualized run rate in USD millions, 2024 to 2026. CodeRabbit has not disclosed exact revenue; the ~$50M figure is a third-party estimate at the top of the seed-to-Series-C trajectory.",
@@ -125,9 +137,18 @@
     "The open-source wedge is the growth engine: every free review on a public repo is a demonstration to everyone watching that repository, and teams convert to paid seats when they bring the same reviewer into private work. Because CodeRabbit rides on top of GitHub and GitLab rather than replacing them, distribution costs stay low and the product attaches to an existing workflow."
   ],
   "revenueMix": [
-    ["Per-seat subscriptions", "Roughly $12–$24 per user per month for private repositories."],
-    ["Enterprise agreements", "Compliance, on-prem deployment and priority model access."],
-    ["Open-source funnel", "Free public-repo reviews convert watching teams into paid seats."]
+    [
+      "Per-seat subscriptions",
+      "Roughly $12–$24 per user per month for private repositories."
+    ],
+    [
+      "Enterprise agreements",
+      "Compliance, on-prem deployment and priority model access."
+    ],
+    [
+      "Open-source funnel",
+      "Free public-repo reviews convert watching teams into paid seats."
+    ]
   ],
   "faqs": [
     {

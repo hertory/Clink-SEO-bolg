@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/langdock",
   "h1": "Langdock ARR: ~$50M for the EU-Native AI Platform for Companies.",
   "intro": "Langdock is the central AI platform for organizations — chat with every major model, company knowledge connected, agents and automations on top — with European data residency as the deal-closing differentiator. Leonis Capital charts roughly $50M reached in thirty-six months; Dealroom pegs the run rate around $40M. The reported numbers are below.",
-  "metaTitle": "Langdock ARR: ~$50M Revenue for the Enterprise AI Platform (2026)",
+  "metaTitle": "Langdock ARR: ~$50M Enterprise AI Revenue | Clink",
   "metaDescription": "Langdock revenue: ~$50M per Leonis Capital in 2026 with Dealroom tracking ~$40M, 36 months from launch, EU data residency — the sourced timeline.",
   "ogDescription": "Every model, company knowledge, agents — with EU data residency: the Langdock timeline, sourced.",
   "heroStats": [
-    ["~$50M", "Per Leonis, 2026"],
-    ["36 months", "Launch to $50M"],
-    ["EU hosting", "Data-residency differentiator"],
-    ["Model-agnostic", "One platform, every LLM"]
+    [
+      "~$50M",
+      "Per Leonis, 2026"
+    ],
+    [
+      "36 months",
+      "Launch to $50M"
+    ],
+    [
+      "EU hosting",
+      "Data-residency differentiator"
+    ],
+    [
+      "Model-agnostic",
+      "One platform, every LLM"
+    ]
   ],
   "chartTitle": "The Langdock Revenue Curve.",
   "chartIntro": "Annualized run rate in USD millions. Langdock has not disclosed exact revenue; Leonis Capital charts ~$50M reached in thirty-six months while Dealroom separately tracks ~$40M — a spread typical of estimated run rates.",
@@ -118,9 +130,18 @@
     "Revenue is per-seat platform subscriptions with enterprise contracts for the compliance tier — data residency, permissions and audit — the checklist items European regulated buyers require before adoption. The thirty-six-month path to $50M is slower than consumer AI ramps, but each contract lands the whole organization rather than a single user."
   ],
   "revenueMix": [
-    ["Per-seat subscriptions", "Platform access priced per employee across the organization."],
-    ["Enterprise contracts", "Compliance tier: data residency, permissions, audit."],
-    ["Knowledge integrations", "Connectors that deepen platform lock-in per deployment."]
+    [
+      "Per-seat subscriptions",
+      "Platform access priced per employee across the organization."
+    ],
+    [
+      "Enterprise contracts",
+      "Compliance tier: data residency, permissions, audit."
+    ],
+    [
+      "Knowledge integrations",
+      "Connectors that deepen platform lock-in per deployment."
+    ]
   ],
   "faqs": [
     {

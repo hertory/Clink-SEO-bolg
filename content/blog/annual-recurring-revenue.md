@@ -1,5 +1,5 @@
 ---
-title: "ARR Meaning — Annual Recurring Revenue, Explained"
+title: "ARR Meaning: Annual Recurring Revenue, Explained | Clink"
 description: "ARR meaning: the predictable subscription revenue a SaaS company expects in a year—with the formula, ARR vs MRR, and the data quality behind it."
 slug: "annual-recurring-revenue"
 date: "2026-07-28"

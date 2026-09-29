@@ -1,5 +1,5 @@
 ---
-title: "Clink Agent Wallet: Now Live on Familiar Card Rails"
+title: "Clink Agent Wallet: Now Live on Familiar Card Rails | Clink"
 description: "The Clink Agent Wallet is generally available: card-linked agent payments for Shopify checkout flows, APAC pickup, and per-use API purchases."
 slug: "clink-launches-agent-wallet"
 date: "2026-09-22"

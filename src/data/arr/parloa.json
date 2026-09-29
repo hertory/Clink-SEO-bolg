@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/parloa",
   "h1": "Parloa ARR: $50M+ and a $1B-Plus Voice AI Unicorn.",
   "intro": "Parloa builds voice AI agents for contact centers — phone lines answered by agents that resolve real customer requests instead of playing menus. The company itself announced surpassing $50M revenue, reached roughly fourteen months from its AI platform launch per Leonis Capital, and raised a $350M Series D after a $1B-valuation round in 2025. The sourced timeline is below.",
-  "metaTitle": "Parloa ARR: $50M+ Revenue, $350M Series D, $1B Valuation (2026)",
+  "metaTitle": "Parloa ARR: $50M+ $350M Series D, $1B Valuation (2026) | Clink",
   "metaDescription": "Parloa revenue and funding: $50M+ revenue announced by the company in 2026, fourteen months from launch to $50M per Leonis, $350M Series D after its $1B-unicorn round — with sources.",
   "ogDescription": "Voice AI for contact centers: company-announced $50M+ revenue and a $350M Series D — the Parloa timeline, sourced.",
   "heroStats": [
-    ["$50M+", "Revenue, company-announced"],
-    ["14 months", "Launch to $50M, per Leonis"],
-    ["$350M", "Series D, 2026"],
-    ["$1B+", "Valuation since 2025"]
+    [
+      "$50M+",
+      "Revenue, company-announced"
+    ],
+    [
+      "14 months",
+      "Launch to $50M, per Leonis"
+    ],
+    [
+      "$350M",
+      "Series D, 2026"
+    ],
+    [
+      "$1B+",
+      "Valuation since 2025"
+    ]
   ],
   "chartTitle": "The Parloa Revenue Curve.",
   "chartIntro": "Annualized revenue in USD millions, 2023 to 2026. Parloa announced surpassing $50M revenue itself in 2026 — one of the few AI companies on this list whose mark is company-stated rather than estimated.",
@@ -125,9 +137,18 @@
     "Contracts combine a platform fee for the agent-management layer with usage tied to call volume, deployed through enterprise contact-center integrations and a Microsoft partnership. The buyer is the operations executive who already pays per-minute for worse outcomes, which makes ROI math unusually direct for enterprise AI."
   ],
   "revenueMix": [
-    ["Platform fees", "Enterprise contracts for deploying and managing voice agents."],
-    ["Conversation usage", "Volume-based pricing tied to calls handled."],
-    ["Partner channel", "Microsoft and contact-center integrations extend distribution."]
+    [
+      "Platform fees",
+      "Enterprise contracts for deploying and managing voice agents."
+    ],
+    [
+      "Conversation usage",
+      "Volume-based pricing tied to calls handled."
+    ],
+    [
+      "Partner channel",
+      "Microsoft and contact-center integrations extend distribution."
+    ]
   ],
   "faqs": [
     {

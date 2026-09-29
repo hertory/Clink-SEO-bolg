@@ -1,5 +1,5 @@
 ---
-title: "AI Companies by ARR — The Absolute Revenue Leaderboard"
+title: "AI Companies by ARR: The Absolute Revenue Leaderboard | Clink"
 description: "Which AI companies earn the most? A ranked look at revenue run rates in August 2026—plus gross vs net accounting, lab vs app scope, and how to read the numbers honestly."
 slug: "best-ai-companies-by-arr"
 date: "2026-08-19"

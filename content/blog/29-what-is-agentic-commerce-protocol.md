@@ -1,5 +1,5 @@
 ---
-title: "What Is Agentic Commerce Protocol ACP? — Instant Checkout"
+title: "What Is Agentic Commerce Protocol ACP? Instant Checkout | Clink"
 description: "ACP is OpenAI and Stripe's open agent commerce standard—checkout APIs, delegated payment tokens, and product feeds for ChatGPT discovery."
 slug: "what-is-agentic-commerce-protocol"
 date: "2026-09-10"

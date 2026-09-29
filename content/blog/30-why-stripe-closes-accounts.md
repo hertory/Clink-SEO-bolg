@@ -1,5 +1,5 @@
 ---
-title: "Why Stripe Closed or Suspended Your Account — Common Triggers Ranked by Frequency"
+title: "Stripe Account Closed or Suspended: Common Triggers | Clink"
 description: "Why Stripe closed my account? Ranked triggers—disputes, VAMP thresholds, volume spikes, KYC, restricted businesses—with official policy and merchant-report caveats."
 slug: "why-stripe-closes-accounts"
 date: "2026-09-02"

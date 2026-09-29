@@ -1,5 +1,5 @@
 ---
-title: "Guardrails Pattern: Why Cloudflare Wallets Matter for Agent Payments"
+title: "Cloudflare Wallets: Guardrails for Agent Payments | Clink"
 description: "Cloudflare Wallets and cloudflare.pay put identity and capped spend on the same rail. Here is what the guardrails pattern means for SaaS agentic commerce."
 slug: "cloudflare-wallets-agent-payments"
 date: "2026-08-04"

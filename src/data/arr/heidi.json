@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/heidi",
   "h1": "Heidi ARR: ~$50M and a $1.26B Valuation for the AI Medical Scribe.",
   "intro": "Heidi is an AI medical scribe that drafts clinical notes from the consultation so doctors stop typing through appointments. Australian press reports a revenue surge putting it among the top AI scribes globally, Leonis Capital charts roughly twenty-six months from launch to $50M, and a $470M raise in 2026 valued it at $1.26B. The sourced numbers are below.",
-  "metaTitle": "Heidi Health ARR: ~$50M Revenue, $470M Raise, $1.26B Valuation (2026)",
+  "metaTitle": "Heidi Health ARR: ~$50M $470M Raise, $1.26B Valuation | Clink",
   "metaDescription": "Heidi Health revenue: ~$50M run rate reported as it rivals the top AI scribes, $470M fresh funding at a $1.26B valuation in 2026 — with sources.",
   "ogDescription": "The Australian AI scribe that rivals the giants: ~$50M ARR and a $1.26B valuation — the Heidi timeline, sourced.",
   "heroStats": [
-    ["~$50M", "Reported run rate, 2026"],
-    ["26 months", "Launch to $50M, per Leonis"],
-    ["$470M", "Funding, 2026"],
-    ["$1.26B", "Valuation, 2026"]
+    [
+      "~$50M",
+      "Reported run rate, 2026"
+    ],
+    [
+      "26 months",
+      "Launch to $50M, per Leonis"
+    ],
+    [
+      "$470M",
+      "Funding, 2026"
+    ],
+    [
+      "$1.26B",
+      "Valuation, 2026"
+    ]
   ],
   "chartTitle": "The Heidi Revenue Curve.",
   "chartIntro": "Annualized run rate in USD millions. Heidi has not disclosed exact revenue; the curve follows Australian press reporting on its revenue surge and Leonis Capital's time-to-$50M tracking.",
@@ -118,9 +130,18 @@
     "The buyer economics are unusually clean: a scribe costs a fraction of a human medical scribe's salary while recovering consultation time, so clinic-level ROI is immediate and defensible in a procurement review. That dual motion — free product-led spread, paid enterprise conversion — is the engine behind the revenue surge AFR reported in 2026."
   ],
   "revenueMix": [
-    ["Clinic team plans", "Per-clinician subscriptions bought by practices and clinics."],
-    ["Health system contracts", "Enterprise agreements with integration and compliance requirements."],
-    ["Free clinician tier", "Individual doctors on free plans seed demand inside organizations."]
+    [
+      "Clinic team plans",
+      "Per-clinician subscriptions bought by practices and clinics."
+    ],
+    [
+      "Health system contracts",
+      "Enterprise agreements with integration and compliance requirements."
+    ],
+    [
+      "Free clinician tier",
+      "Individual doctors on free plans seed demand inside organizations."
+    ]
   ],
   "faqs": [
     {

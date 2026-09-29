@@ -62,7 +62,7 @@ export async function generateMetadata({
   const { agent } = await params;
   const page = getAgentPaymentPage(agent);
   if (!page) {
-    return { title: "Page not found — Clink" };
+    return { title: "Page Not Found | Clink" };
   }
   return {
     title: page.meta.title,

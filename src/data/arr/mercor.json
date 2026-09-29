@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/mercor",
   "h1": "Mercor ARR: ~$2B Gross Annualized Revenue.",
   "intro": "Mercor, the AI training-data marketplace staffed by elite contractors, hit over $2 billion in gross annualized revenue in June 2026 — double its pace at the start of the year, and gross before contractor payouts. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
-  "metaTitle": "Mercor ARR: ~$2B Gross Revenue, MRR and Growth Timeline (2026)",
+  "metaTitle": "Mercor ARR: ~$2B Gross Revenue, MRR & Growth (2026) | Clink",
   "metaDescription": "Every publicly reported Mercor revenue number: $2B gross annualized revenue in June 2026, the $1B mark in February, net-revenue estimates, the $20B valuation talks and funding rounds — with sources.",
   "ogDescription": "From $0 to $1B+ in 24 months and $2B gross annualized — the full Mercor revenue timeline, sourced.",
   "heroStats": [
-    ["~$2B", "Gross annualized revenue, Jun 2026"],
-    ["~$600M", "Estimated net revenue (take rate)"],
-    ["24 months", "From $1M to $2B gross ARR"],
-    ["~$20B", "Valuation in talks, Jul 2026"]
+    [
+      "~$2B",
+      "Gross annualized revenue, Jun 2026"
+    ],
+    [
+      "~$600M",
+      "Estimated net revenue (take rate)"
+    ],
+    [
+      "24 months",
+      "From $1M to $2B gross ARR"
+    ],
+    [
+      "~$20B",
+      "Valuation in talks, Jul 2026"
+    ]
   ],
   "chartTitle": "The Mercor Gross Revenue Curve.",
   "chartIntro": "Reported gross annualized run rate in USD millions — revenue before contractor payouts — 2025 to June 2026. The run rate roughly doubled between January and June 2026.",
@@ -144,9 +156,18 @@
     "The distinction matters when comparing Mercor to peers: $361M of recognized 2025 revenue and $614M in the first half of 2026 are the net numbers. Growth depends on keeping the contractor side elastic — recruiting frontier-domain experts (PhDs, lawyers, bankers) fast enough to feed lab demand for increasingly specialized training data."
   ],
   "revenueMix": [
-    ["Gross marketplace volume", "~$2B annualized — total spend flowing through to contractors."],
-    ["Net take rate", "~30% gross margins put net revenue closer to ~$600M annualized."],
-    ["Frontier lab contracts", "Expert training data purchased by labs including OpenAI and Anthropic."]
+    [
+      "Gross marketplace volume",
+      "~$2B annualized — total spend flowing through to contractors."
+    ],
+    [
+      "Net take rate",
+      "~30% gross margins put net revenue closer to ~$600M annualized."
+    ],
+    [
+      "Frontier lab contracts",
+      "Expert training data purchased by labs including OpenAI and Anthropic."
+    ]
   ],
   "faqs": [
     {

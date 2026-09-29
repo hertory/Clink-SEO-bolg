@@ -1,5 +1,5 @@
 ---
-title: "Stripe Chargeback Prevention — Fight Fraud and Win Representment"
+title: "Stripe Chargeback Prevention: Win Representment | Clink"
 description: "Stripe chargeback prevention for SaaS and e-commerce: Radar, 3DS, compelling evidence, early fraud warnings, subscription disputes, and when to fight vs accept."
 slug: "stripe-chargeback-prevention"
 date: "2026-09-06"

@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/calai",
   "h1": "Cal AI ARR: ~$50M for Calorie Tracking by Camera, Then an Exit.",
   "intro": "Cal AI made nutrition tracking a camera action — snap the meal, get calories and macros — and rode influencer marketing to millions of downloads and an estimated ~$50M run rate, all built by founders still in their teens. In March 2026 MyFitnessPal acquired the app. The reported numbers, with sources, are below.",
-  "metaTitle": "Cal AI ARR: ~$50M Revenue and the MyFitnessPal Acquisition (2026)",
+  "metaTitle": "Cal AI ARR: ~$50M Revenue & the MyFitnessPal Acquisition | Clink",
   "metaDescription": "Cal AI revenue: ~$50M ARR estimated in 2026 for the AI calorie-tracking app founded by teenagers, acquired by MyFitnessPal in March 2026 — with sources.",
   "ogDescription": "Point the camera at your plate: ~$50M ARR and a MyFitnessPal exit — the Cal AI timeline, sourced.",
   "heroStats": [
-    ["~$50M", "Estimated ARR at exit"],
-    ["22 months", "Launch to $50M, per Leonis"],
-    ["Millions", "Downloads via influencers"],
-    ["Mar 2026", "Acquired by MyFitnessPal"]
+    [
+      "~$50M",
+      "Estimated ARR at exit"
+    ],
+    [
+      "22 months",
+      "Launch to $50M, per Leonis"
+    ],
+    [
+      "Millions",
+      "Downloads via influencers"
+    ],
+    [
+      "Mar 2026",
+      "Acquired by MyFitnessPal"
+    ]
   ],
   "chartTitle": "The Cal AI Revenue Curve.",
   "chartIntro": "Annualized run rate in USD millions. Cal AI never disclosed exact revenue; the curve combines GetLatka's estimate with Leonis Capital's time-to-$50M tracking, ending at the March 2026 acquisition.",
@@ -118,9 +130,18 @@
     "Distribution was influencer marketing at relentless volume, with a cheap annual subscription converting downloads. That combination — one-step core action, creator-driven acquisition, annual prepay — is why a team of teenagers could out-earn venture-backed health apps, and why MyFitnessPal bought it in March 2026."
   ],
   "revenueMix": [
-    ["Annual subscriptions", "Low-friction yearly plans converting influencer-driven downloads."],
-    ["Weekly / monthly tiers", "Shorter plans for trial-first users."],
-    ["Influencer acquisition", "Performance-priced creator marketing as the primary growth spend."]
+    [
+      "Annual subscriptions",
+      "Low-friction yearly plans converting influencer-driven downloads."
+    ],
+    [
+      "Weekly / monthly tiers",
+      "Shorter plans for trial-first users."
+    ],
+    [
+      "Influencer acquisition",
+      "Performance-priced creator marketing as the primary growth spend."
+    ]
   ],
   "faqs": [
     {

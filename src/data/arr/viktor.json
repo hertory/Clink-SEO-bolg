@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/viktor",
   "h1": "Viktor ARR: ~$50M for the AI Coworker That Lives in Slack.",
   "intro": "Viktor is an AI coworker — a persistent agent that works alongside teams inside Slack, Teams and email, handling background research, drafting and follow-ups. Third-party estimates put its run rate around $50M, backed by a $75M Series A led by Accel at a $450M valuation. The reported numbers and their sources are below.",
-  "metaTitle": "Viktor ARR: ~$50M Revenue, $75M Accel Series A at $450M (2026)",
+  "metaTitle": "Viktor ARR: ~$50M $75M Accel Series A at $450M (2026) | Clink",
   "metaDescription": "Viktor revenue and funding: ~$50M ARR estimated in 2026, $75M Series A led by Accel at a $450M valuation, seven months from launch to $50M — with sources.",
   "ogDescription": "An AI coworker in Slack that reached ~$50M ARR in seven months — the Viktor timeline, sourced.",
   "heroStats": [
-    ["~$50M", "Estimated ARR, 2026"],
-    ["7 months", "Launch to $50M, per Leonis"],
-    ["$75M", "Series A led by Accel"],
-    ["$450M", "Valuation, 2026"]
+    [
+      "~$50M",
+      "Estimated ARR, 2026"
+    ],
+    [
+      "7 months",
+      "Launch to $50M, per Leonis"
+    ],
+    [
+      "$75M",
+      "Series A led by Accel"
+    ],
+    [
+      "$450M",
+      "Valuation, 2026"
+    ]
   ],
   "chartTitle": "The Viktor Revenue Curve.",
   "chartIntro": "Estimated annualized run rate in USD millions. Viktor has not disclosed exact revenue; figures combine a GetLatka estimate with Leonis Capital's time-to-$50M tracking.",
@@ -118,9 +130,18 @@
     "Because the product sits inside existing messaging surfaces, distribution rides the collaboration suite rather than a standalone app download — every teammate who watches the coworker deliver in-channel becomes a potential activated seat. That in-workflow visibility is what compresses the typical enterprise sales cycle for AI employees into a team-level credit-card purchase."
   ],
   "revenueMix": [
-    ["Team subscriptions", "Per-seat pricing for the AI coworker across Slack and Teams workspaces."],
-    ["Annual contracts", "Committed plans for departments standardizing on delegated background work."],
-    ["Expansion seats", "In-channel visibility converts watchers into additional paid seats."]
+    [
+      "Team subscriptions",
+      "Per-seat pricing for the AI coworker across Slack and Teams workspaces."
+    ],
+    [
+      "Annual contracts",
+      "Committed plans for departments standardizing on delegated background work."
+    ],
+    [
+      "Expansion seats",
+      "In-channel visibility converts watchers into additional paid seats."
+    ]
   ],
   "faqs": [
     {

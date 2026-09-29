@@ -7,7 +7,7 @@ import { getAllPosts } from "@/lib/blog-server";
 import type { BlogPost } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Payment Infrastructure & Agent Payments Blog",
+  title: "Agent Payments & Billing Blog: Guides and Analysis | Clink",
   description:
     "Guides and analysis on payment infrastructure, subscription billing, smart routing, and the agent economy — from the team building Clink.",
   alternates: { canonical: "/blog" },

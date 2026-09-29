@@ -172,7 +172,7 @@ const COL_3 = [QUOTES[2], QUOTES[5], QUOTES[0]];
 
 /* ---------- Metadata ---------- */
 export const metadata: Metadata = {
-  title: "Clink — Payment Infrastructure for an AI-Native World",
+  title: "Payment Infrastructure for an AI-Native World | Clink",
   description:
     "One API for 100+ local payment methods, usage-based pricing, and built-in tax handling. Clink is payment & subscription billing infrastructure for AI-native SaaS.",
   alternates: { canonical: "/" },

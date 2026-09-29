@@ -1,5 +1,5 @@
 ---
-title: "Fastest Growing AI Companies ARR — Velocity Ranked"
+title: "Fastest Growing AI Companies ARR: Velocity Ranked | Clink"
 description: "Fastest growing AI companies by ARR velocity: who hit $100M fastest, sprint times to $500M/$1B, and what run-rate growth hides in retention and collection."
 slug: "fastest-growing-ai-companies-arr"
 date: "2026-08-20"

@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/emergent",
   "h1": "Emergent ARR: ~$120M and Growing 70% in Four Months.",
   "intro": "Emergent, the agentic app-building platform, went from launch to a reported ~$120M annualized run rate in roughly two years — growing about 70% in four months on its way to a $1.5B valuation. Every publicly reported revenue, funding and usage number is collected below, each traced back to a source.",
-  "metaTitle": "Emergent ARR: ~$120M Revenue, MRR and Growth Timeline (2026)",
+  "metaTitle": "Emergent ARR: ~$120M Revenue, MRR & Growth (2026) | Clink",
   "metaDescription": "Every publicly reported Emergent (emergent.ai) revenue number: ~$120M ARR in July 2026, +70% in four months, the $130M Series C at $1.5B, implied MRR and usage metrics — with sources.",
   "ogDescription": "From launch to ~$120M ARR and a $1.5B valuation — the Emergent revenue timeline, sourced.",
   "heroStats": [
-    ["~$120M", "Reported ARR, July 2026"],
-    ["~$10M", "Implied monthly recurring revenue"],
-    ["+70%", "Run-rate growth in 4 months"],
-    ["$1.5B", "Valuation, Series C"]
+    [
+      "~$120M",
+      "Reported ARR, July 2026"
+    ],
+    [
+      "~$10M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "+70%",
+      "Run-rate growth in 4 months"
+    ],
+    [
+      "$1.5B",
+      "Valuation, Series C"
+    ]
   ],
   "chartTitle": "The Emergent Revenue Curve.",
   "chartIntro": "Reported annualized run rate in USD millions, 2025 to July 2026. Company-reported figures — the ~$120M mark came roughly 70% above the level four months earlier.",
@@ -125,9 +137,18 @@
     "The customer base skews broader than developer tools: 200,000+ paying customers and 12M+ apps built point to non-technical founders and operators shipping internal tools, storefronts and consumer apps. That volume keeps average revenue per user modest but the aggregate run rate compounding."
   ],
   "revenueMix": [
-    ["Subscription plans", "Tiered monthly plans for individual builders and teams."],
-    ["Usage credits", "Agent builds and app operations billed by consumption."],
-    ["Paying-customer volume", "200K+ paying users at a modest average revenue per user."]
+    [
+      "Subscription plans",
+      "Tiered monthly plans for individual builders and teams."
+    ],
+    [
+      "Usage credits",
+      "Agent builds and app operations billed by consumption."
+    ],
+    [
+      "Paying-customer volume",
+      "200K+ paying users at a modest average revenue per user."
+    ]
   ],
   "faqs": [
     {

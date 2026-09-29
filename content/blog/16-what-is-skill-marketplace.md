@@ -1,5 +1,5 @@
 ---
-title: "What Is a Skill Marketplace? — How AI Agents Discover, Install, and Pay for Skills"
+title: "What Is a Skill Marketplace? Agent Skills, Explained | Clink"
 description: "What a skill marketplace is, how AI agents discover, install, and pay for skills, and how reviewed marketplaces compare with open catalogs."
 slug: "what-is-skill-marketplace"
 date: "2026-08-05"

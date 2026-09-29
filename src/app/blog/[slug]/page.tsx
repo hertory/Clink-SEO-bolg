@@ -24,7 +24,7 @@ export async function generateMetadata({
     const { meta } = getPost(slug);
     const canonical = `/blog/${slug}`;
     return {
-      title: meta.title,
+      title: meta.title.endsWith("Clink") ? meta.title : `${meta.title} | Clink`,
       description: meta.description,
       keywords: meta.keywords.join(", "),
       alternates: { canonical },
@@ -42,7 +42,7 @@ export async function generateMetadata({
       },
     };
   } catch {
-    return { title: "Article not found — Clink" };
+    return { title: "Article Not Found | Clink" };
   }
 }
 

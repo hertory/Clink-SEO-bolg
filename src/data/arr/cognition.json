@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/cognition",
   "h1": "Cognition ARR: ~$900M After a 13x Year.",
   "intro": "Cognition, the company behind Devin and the Windsurf acquisition, grew its run rate roughly 13x in twelve months — from under $70M in late 2025 to nearly $900M by September 2026, when it raised $2B at a $48B valuation. Every publicly reported revenue, funding and valuation number is collected below, each traced back to a source.",
-  "metaTitle": "Cognition ARR: ~$900M Revenue, MRR and Growth Timeline (2026)",
+  "metaTitle": "Cognition ARR: ~$900M Revenue, MRR & Growth (2026) | Clink",
   "metaDescription": "Every publicly reported Cognition (Devin) revenue number: ~$900M ARR and $48B valuation in September 2026, the 13x-in-12-months ramp, implied MRR, the Windsurf acquisition and funding rounds — with sources.",
   "ogDescription": "From Devin's launch to ~$900M ARR and a $48B valuation — the full Cognition revenue timeline, sourced.",
   "heroStats": [
-    ["~$900M", "Reported ARR, September 2026"],
-    ["~$75M", "Implied monthly recurring revenue"],
-    ["13x", "Run-rate growth in 12 months"],
-    ["$48B", "Valuation, Series E Sep 2026"]
+    [
+      "~$900M",
+      "Reported ARR, September 2026"
+    ],
+    [
+      "~$75M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "13x",
+      "Run-rate growth in 12 months"
+    ],
+    [
+      "$48B",
+      "Valuation, Series E Sep 2026"
+    ]
   ],
   "chartTitle": "The Cognition Revenue Curve.",
   "chartIntro": "Reported annualized run rate in USD millions, late 2025 to September 2026. Nearly all of the curve is the last twelve months — a 13x ramp that took the company from under $70M to nearly $900M.",
@@ -137,9 +149,18 @@
     "The Windsurf acquisition added a conventional per-seat IDE business and enterprise distribution. Investors in the September 2026 round cited this combination — autonomous agents plus an incumbent-style developer footprint — as the reason AI coding is not being treated as a winner-take-all market against Cursor, GitHub Copilot and Claude Code."
   ],
   "revenueMix": [
-    ["Devin subscriptions", "Seat plans for autonomous engineering agents, with usage beyond the base quota."],
-    ["Usage-based agent billing", "Long-running tasks billed by compute consumption."],
-    ["Windsurf IDE seats", "Per-seat editor revenue and enterprise distribution from the July 2025 acquisition."]
+    [
+      "Devin subscriptions",
+      "Seat plans for autonomous engineering agents, with usage beyond the base quota."
+    ],
+    [
+      "Usage-based agent billing",
+      "Long-running tasks billed by compute consumption."
+    ],
+    [
+      "Windsurf IDE seats",
+      "Per-seat editor revenue and enterprise distribution from the July 2025 acquisition."
+    ]
   ],
   "faqs": [
     {

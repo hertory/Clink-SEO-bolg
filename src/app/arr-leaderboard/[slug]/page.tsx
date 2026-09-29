@@ -16,7 +16,7 @@ export async function generateMetadata({
   const profile = getArrProfile(slug);
   if (!profile) {
     return {
-      title: "Company Not Found — ARR Leaderboard",
+      title: "Company Not Found | Clink",
       robots: { index: false },
     };
   }

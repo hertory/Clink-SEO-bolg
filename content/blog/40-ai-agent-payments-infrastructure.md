@@ -1,5 +1,5 @@
 ---
-title: "AI Agent Payments Infrastructure — The 2026 Stack, Explained"
+title: "AI Agent Payments Infrastructure: The 2026 Stack | Clink"
 description: "AI agent payments infrastructure explained: wallets, controls, rails, acceptance, settlement — and how to choose card, stablecoin, or protocol rails."
 slug: "ai-agent-payments-infrastructure"
 date: "2026-09-24"

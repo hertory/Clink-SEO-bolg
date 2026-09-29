@@ -1,5 +1,5 @@
 ---
-title: "Clink Wallet vs Cloudflare Wallets: Two Paths"
+title: "Clink Wallet vs Cloudflare Wallets: Two Paths | Clink"
 description: "Clink Wallet vs Cloudflare Wallets: two paths to agent payments. Compare status, funding, guardrails, and merchant acceptance, as of September 2026."
 slug: "clink-wallet-vs-cloudflare-wallets"
 date: "2026-09-26"

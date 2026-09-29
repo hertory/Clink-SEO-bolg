@@ -1,5 +1,5 @@
 ---
-title: "What Is the AP2 Agent Payments Protocol? — Mandates and FIDO"
+title: "AP2 Agent Payments Protocol: Mandates and FIDO | Clink"
 description: "AP2 is Google's open Agent Payments Protocol for verifiable AI agent transactions. Learn mandates, Human Not Present flows, and FIDO Alliance governance."
 slug: "what-is-ap2-agent-payments-protocol"
 date: "2026-09-07"

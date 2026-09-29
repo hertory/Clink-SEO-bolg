@@ -1,5 +1,5 @@
 ---
-title: "MoR vs PSP — How to Choose the Right Payment Infrastructure Model"
+title: "MoR vs PSP: Choosing Payment Infrastructure Models | Clink"
 description: "Merchant of Record vs Payment Service Provider: a framework for SaaS teams weighing tax, brand ownership, routing control, and when a hybrid model beats a forced binary."
 slug: "mor-vs-psp"
 date: "2026-06-29"

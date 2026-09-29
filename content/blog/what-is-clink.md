@@ -1,5 +1,5 @@
 ---
-title: "What Is Clink — Payment Infrastructure for an AI-Native World"
+title: "What Is Clink: AI-Native Payment Infrastructure | Clink"
 description: "Clink is payment infrastructure that unifies subscription billing, multi-PSP smart routing, tax calculation, and Early Access agent payments—so global SaaS teams integrate once instead of stitching processors."
 slug: "what-is-clink"
 date: "2026-06-23"

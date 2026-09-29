@@ -1,5 +1,5 @@
 ---
-title: "What Is NRR? — Net Revenue Retention, Explained"
+title: "What Is NRR? Net Revenue Retention, Explained | Clink"
 description: "NRR is the revenue a SaaS company retains from existing customers, including expansions, over a year. Learn the formula, why NRR above 100% matters, and NRR vs GRR."
 slug: "net-revenue-retention"
 date: "2026-07-30"

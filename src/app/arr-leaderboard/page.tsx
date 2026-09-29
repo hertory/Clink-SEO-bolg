@@ -54,7 +54,7 @@ const faqJsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "The ARR Leaderboard: Fastest-Growing AI Companies (2026)",
+  title: "ARR Leaderboard: Fastest-Growing AI Companies (2026) | Clink",
   description:
     "Every publicly reported annualized revenue number for the fastest-growing AI companies — Anthropic, OpenAI, Cursor, ElevenLabs, Lovable and more — ranked, sourced and dated.",
   alternates: { canonical: CANONICAL },

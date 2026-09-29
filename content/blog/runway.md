@@ -1,5 +1,5 @@
 ---
-title: "What Is Runway? — How Startup Cash Runway Works"
+title: "What Is Runway? How Startup Cash Runway Works | Clink"
 description: "Runway is how many months a startup can operate before running out of cash. Learn the formula, the 18–24 month rule, and why modeling it as a range matters."
 slug: "runway"
 date: "2026-07-31"

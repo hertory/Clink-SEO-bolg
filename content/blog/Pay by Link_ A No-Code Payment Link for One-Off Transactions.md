@@ -1,5 +1,5 @@
 ---
-title: "Pay by Link: Fast, Temporary Payment Links for Any Deal"
+title: "Pay by Link: Fast, Temporary Payment Links for Any Deal | Clink"
 description: "Clink's Pay by Link lets merchants generate a shareable, time-limited payment link right from the Dashboard. Enter an amount, currency, description, and payer email, and the link is ready to send."
 slug: "pay-by-link"
 date: "2026-08-17"

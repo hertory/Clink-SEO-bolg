@@ -1,5 +1,5 @@
 ---
-title: "Clink Launches Skill Marketplace — Monetize Agent Skills Natively"
+title: "Clink Launches Skill Marketplace: Monetize Agent Skills | Clink"
 description: "Clink Skill Marketplace is live: publish reviewed agent skills and monetize them natively — settlement, credit recharge, and tips built into the payment platform."
 slug: "clink-launches-skill-marketplace"
 date: "2026-08-06"

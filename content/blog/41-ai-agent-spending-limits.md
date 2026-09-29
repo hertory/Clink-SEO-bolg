@@ -1,5 +1,5 @@
 ---
-title: "AI Agent Spending Limits: Control Patterns That Work"
+title: "AI Agent Spending Limits: Control Patterns That Work | Clink"
 description: "AI agent spending limits turn autonomous purchases into controlled ones. See which control stops which failure mode, from budgets to approvals."
 slug: "ai-agent-spending-limits"
 date: "2026-09-25"

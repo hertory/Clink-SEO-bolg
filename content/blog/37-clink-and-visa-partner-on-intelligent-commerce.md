@@ -1,5 +1,5 @@
 ---
-title: "Announcing Clink's Partnership with Visa Intelligent Commerce"
+title: "Clink and Visa Partner on Intelligent Commerce | Clink"
 description: "Clink and Visa bring Visa Intelligent Commerce to an agent wallet for Shopify, APAC pickup, and API products with user-controlled payments."
 slug: "clink-and-visa-partner-on-intelligent-commerce"
 date: "2026-09-17"

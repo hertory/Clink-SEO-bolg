@@ -39,10 +39,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://clinkbill.com",
   ),
-  title: {
-    default: "Clink — Payment Infrastructure for an AI-Native World",
-    template: "%s — Clink",
-  },
+  title: "Payment Infrastructure for an AI-Native World | Clink",
   description:
     "Clink is payment & subscription billing infrastructure for AI-native SaaS — one API for 100+ local payment methods, usage-based pricing, and built-in tax handling.",
   openGraph: {

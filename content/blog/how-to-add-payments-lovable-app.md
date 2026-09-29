@@ -1,5 +1,5 @@
 ---
-title: "How to Add Payments to a Lovable App — Paddle, Stripe, or Clink"
+title: "How to Add Payments to a Lovable App: Paddle, Stripe, or Clink"
 description: "Add subscriptions and one-time payments to a Lovable app with built-in Paddle or Stripe—then graduate to Clink’s portable billing and clink-integ-skills when one provider is no longer enough."
 slug: "how-to-add-payments-lovable-app"
 date: "2026-07-22"

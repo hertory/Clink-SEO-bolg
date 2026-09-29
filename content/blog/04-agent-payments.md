@@ -1,5 +1,5 @@
 ---
-title: "AI Agents Need Payments Too — Agent-Native Transaction Rails"
+title: "AI Agent Payments: Agent-Native Transaction Rails | Clink"
 description: "Browser sessions, 3DS, and CAPTCHAs break when the buyer is an LLM. Agent-native payments need scoped caps, browserless auth, and machine-readable audit—Clink for Claw is Early Access."
 slug: "agent-payments"
 date: "2026-06-29"

@@ -1,5 +1,5 @@
 ---
-title: "What Is x402 Agent Payments? — HTTP 402 Protocol Explained"
+title: "What Is x402 Agent Payments? HTTP 402 Protocol Explained | Clink"
 description: "x402 is the open HTTP payment protocol for AI agents and APIs. Learn the 402 flow, facilitators, stablecoins, and Linux Foundation governance."
 slug: "what-is-x402"
 date: "2026-09-08"

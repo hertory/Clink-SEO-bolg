@@ -1,5 +1,5 @@
 ---
-title: "Agentic Commerce Supported PSP Payment Processors — 2026 Reference"
+title: "Agentic Commerce PSPs: Payment Processors (2026) | Clink"
 description: "Agentic commerce supported PSP payment processors in 2026: Stripe ACS, Adyen Agentic, Worldpay, Nuvei, Antom, and more with live status, protocols, and regions."
 slug: "agentic-commerce-merchant-stack-psp"
 date: "2026-09-15"

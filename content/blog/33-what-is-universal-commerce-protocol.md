@@ -1,5 +1,5 @@
 ---
-title: "What Is Universal Commerce Protocol UCP? — Google and Shopify"
+title: "Universal Commerce Protocol (UCP): Google & Shopify | Clink"
 description: "UCP is Google and Shopify's open standard for agentic commerce—full-journey checkout, embedded payments, and multi-transport APIs."
 slug: "what-is-universal-commerce-protocol"
 date: "2026-09-11"

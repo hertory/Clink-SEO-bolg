@@ -15,7 +15,7 @@ const CANONICAL = "/compare/stripe";
 const heroImageUrl = stripeCompare.hero.image.src;
 
 export const metadata: Metadata = {
-  title: "Clink vs Stripe (2026) — Honest Comparison",
+  title: "Clink vs Stripe: Honest 2026 Comparison | Clink",
   description:
     "Clink vs Stripe: 100+ local payment methods, MoR tax handling, usage-based billing, and smart routing — compared honestly against Stripe's strengths.",
   openGraph: {

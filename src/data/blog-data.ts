@@ -4,7 +4,7 @@ import type { BlogPost } from "@/lib/blog";
 export const BLOG_POSTS: BlogPost[] = [
   {
     "slug": "clink-wallet-vs-cloudflare-wallets",
-    "title": "Clink Wallet vs Cloudflare Wallets: Two Paths",
+    "title": "Clink Wallet vs Cloudflare Wallets: Two Paths | Clink",
     "description": "Clink Wallet vs Cloudflare Wallets: two paths to agent payments. Compare status, funding, guardrails, and merchant acceptance, as of September 2026.",
     "date": "2026-09-26",
     "category": "Agentic Payments",
@@ -41,7 +41,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "ai-agent-spending-limits",
-    "title": "AI Agent Spending Limits: Control Patterns That Work",
+    "title": "AI Agent Spending Limits: Control Patterns That Work | Clink",
     "description": "AI agent spending limits turn autonomous purchases into controlled ones. See which control stops which failure mode, from budgets to approvals.",
     "date": "2026-09-25",
     "category": "Agentic Payments",
@@ -78,7 +78,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "ai-agent-payments-infrastructure",
-    "title": "AI Agent Payments Infrastructure — The 2026 Stack, Explained",
+    "title": "AI Agent Payments Infrastructure: The 2026 Stack | Clink",
     "description": "AI agent payments infrastructure explained: wallets, controls, rails, acceptance, settlement — and how to choose card, stablecoin, or protocol rails.",
     "date": "2026-09-24",
     "category": "Agentic Payments",
@@ -115,7 +115,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-ai-agent-wallet",
-    "title": "What Is an AI Agent Wallet? Two Families, One Map",
+    "title": "What Is an AI Agent Wallet? Two Families, One Map | Clink",
     "description": "An AI agent wallet lets an autonomous agent hold and spend money under human-set constraints. See the two wallet families and the guardrails they share.",
     "date": "2026-09-23",
     "category": "Agentic Payments",
@@ -152,7 +152,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "clink-launches-agent-wallet",
-    "title": "Clink Agent Wallet: Now Live on Familiar Card Rails",
+    "title": "Clink Agent Wallet: Now Live on Familiar Card Rails | Clink",
     "description": "The Clink Agent Wallet is generally available: card-linked agent payments for Shopify checkout flows, APAC pickup, and per-use API purchases.",
     "date": "2026-09-22",
     "category": "Agentic Payments",
@@ -189,7 +189,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "clink-and-visa-partner-on-intelligent-commerce",
-    "title": "Announcing Clink's Partnership with Visa Intelligent Commerce",
+    "title": "Clink and Visa Partner on Intelligent Commerce | Clink",
     "description": "Clink and Visa bring Visa Intelligent Commerce to an agent wallet for Shopify, APAC pickup, and API products with user-controlled payments.",
     "date": "2026-09-17",
     "category": "Agentic Payments",
@@ -220,7 +220,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "agentic-commerce-merchant-stack-psp",
-    "title": "Agentic Commerce Supported PSP Payment Processors — 2026 Reference",
+    "title": "Agentic Commerce PSPs: Payment Processors (2026) | Clink",
     "description": "Agentic commerce supported PSP payment processors in 2026: Stripe ACS, Adyen Agentic, Worldpay, Nuvei, Antom, and more with live status, protocols, and regions.",
     "date": "2026-09-15",
     "category": "Agentic Payments",
@@ -257,7 +257,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "agentic-commerce-merchant-stack-cms",
-    "title": "Agentic Commerce Supported Platforms CMS — Merchant Stack (2026 Reference)",
+    "title": "Agentic Commerce Platforms & CMS: 2026 Reference | Clink",
     "description": "Agentic commerce supported platforms CMS in 2026: verified enablement paths for Shopify, Adobe, WooCommerce, Wix, 91APP, SHOPLINE, and custom stacks.",
     "date": "2026-09-14",
     "category": "Agentic Payments",
@@ -294,7 +294,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "agentic-commerce-agent-channels",
-    "title": "Agentic Commerce Agent Channels — Supported List (2026 Reference)",
+    "title": "Agentic Commerce Channels: Supported List (2026) | Clink",
     "description": "A verified 2026 reference of agentic commerce agent channels—ChatGPT, Copilot, Gemini, messaging apps, and enterprise agents with live status and protocols.",
     "date": "2026-09-13",
     "category": "Agentic Payments",
@@ -331,7 +331,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-sell-on-chatgpt",
-    "title": "How to Sell on ChatGPT in 2026 — Merchant Setup Guide",
+    "title": "How to Sell on ChatGPT in 2026: Merchant Setup Guide | Clink",
     "description": "Sell on ChatGPT via Shopify Agentic Storefronts, Etsy auto-sync, or an OpenAI product feed—discovery in chat, checkout on your site, and you stay merchant of record.",
     "date": "2026-09-12",
     "category": "Agentic Payments",
@@ -369,7 +369,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-universal-commerce-protocol",
-    "title": "What Is Universal Commerce Protocol UCP? — Google and Shopify",
+    "title": "Universal Commerce Protocol (UCP): Google & Shopify | Clink",
     "description": "UCP is Google and Shopify's open standard for agentic commerce—full-journey checkout, embedded payments, and multi-transport APIs.",
     "date": "2026-09-11",
     "category": "Agentic Payments",
@@ -407,7 +407,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-agentic-commerce-protocol",
-    "title": "What Is Agentic Commerce Protocol ACP? — Instant Checkout",
+    "title": "What Is Agentic Commerce Protocol ACP? Instant Checkout | Clink",
     "description": "ACP is OpenAI and Stripe's open agent commerce standard—checkout APIs, delegated payment tokens, and product feeds for ChatGPT discovery.",
     "date": "2026-09-10",
     "category": "Agentic Payments",
@@ -445,7 +445,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-machine-payments-protocol",
-    "title": "What Is Machine Payments Protocol MPP? — Stripe Agent Rails",
+    "title": "What Is Machine Payments Protocol MPP? Stripe Agent Rails | Clink",
     "description": "MPP is Stripe and Tempo's open HTTP standard for agent payments—402 challenges, Shared Payment Tokens, subscriptions, and stablecoin settlement.",
     "date": "2026-09-09",
     "category": "Agentic Payments",
@@ -483,7 +483,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-x402",
-    "title": "What Is x402 Agent Payments? — HTTP 402 Protocol Explained",
+    "title": "What Is x402 Agent Payments? HTTP 402 Protocol Explained | Clink",
     "description": "x402 is the open HTTP payment protocol for AI agents and APIs. Learn the 402 flow, facilitators, stablecoins, and Linux Foundation governance.",
     "date": "2026-09-08",
     "category": "Agentic Payments",
@@ -521,7 +521,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-ap2-agent-payments-protocol",
-    "title": "What Is the AP2 Agent Payments Protocol? — Mandates and FIDO",
+    "title": "AP2 Agent Payments Protocol: Mandates and FIDO | Clink",
     "description": "AP2 is Google's open Agent Payments Protocol for verifiable AI agent transactions. Learn mandates, Human Not Present flows, and FIDO Alliance governance.",
     "date": "2026-09-07",
     "category": "Agentic Payments",
@@ -559,7 +559,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "stripe-chargeback-prevention",
-    "title": "Stripe Chargeback Prevention — Fight Fraud and Win Representment",
+    "title": "Stripe Chargeback Prevention: Win Representment | Clink",
     "description": "Stripe chargeback prevention for SaaS and e-commerce: Radar, 3DS, compelling evidence, early fraud warnings, subscription disputes, and when to fight vs accept.",
     "date": "2026-09-06",
     "category": "Stripe Risk",
@@ -597,7 +597,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-dispute-stripe-charge",
-    "title": "How to Dispute Stripe Charge — Cardholder Steps, Timelines, and What Happens Next",
+    "title": "How to Dispute Stripe Charge: Steps & Timelines | Clink",
     "description": "How to dispute stripe charge: identify descriptors, contact merchant vs bank, Reg E/Reg Z timelines, evidence checklist, and what happens after you file.",
     "date": "2026-09-05",
     "category": "Stripe Risk",
@@ -635,7 +635,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-stripe-dispute",
-    "title": "What Is a Stripe Dispute — How Chargebacks and Payment Disputes Work",
+    "title": "What Is a Stripe Dispute? Chargebacks, Explained | Clink",
     "description": "What is a Stripe dispute? Learn chargeback vs inquiry terminology, money flow, Dashboard deadlines, reason codes, VAMP thresholds, and what merchants control.",
     "date": "2026-09-04",
     "category": "Stripe Risk",
@@ -673,7 +673,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-appeal-stripe-account-closure",
-    "title": "How to Appeal Stripe Account Closed — Documents, Timeline, and Outcomes",
+    "title": "Appeal a Closed Stripe Account: Documents & Outcomes | Clink",
     "description": "How to appeal Stripe account closed: dashboard steps, document checklist, email structure, 120-day hold timeline, and realistic outcomes.",
     "date": "2026-09-03",
     "category": "Stripe Risk",
@@ -711,7 +711,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "why-stripe-closes-accounts",
-    "title": "Why Stripe Closed or Suspended Your Account — Common Triggers Ranked by Frequency",
+    "title": "Stripe Account Closed or Suspended: Common Triggers | Clink",
     "description": "Why Stripe closed my account? Ranked triggers—disputes, VAMP thresholds, volume spikes, KYC, restricted businesses—with official policy and merchant-report caveats.",
     "date": "2026-09-02",
     "category": "Stripe Risk",
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "stripe-account-suspended",
-    "title": "Stripe Account Suspended, Closed, or Frozen — What It Means and What to Do in the First 72 Hours",
+    "title": "Stripe Account Suspended or Frozen: First 72 Hours | Clink",
     "description": "Stripe account suspended, closed, or frozen? Learn restriction types, payout holds vs payment pauses, and a first-72-hour action checklist for SaaS founders.",
     "date": "2026-09-01",
     "category": "Stripe Risk",
@@ -787,7 +787,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "fastest-growing-ai-companies-arr",
-    "title": "Fastest Growing AI Companies ARR — Velocity Ranked",
+    "title": "Fastest Growing AI Companies ARR: Velocity Ranked | Clink",
     "description": "Fastest growing AI companies by ARR velocity: who hit $100M fastest, sprint times to $500M/$1B, and what run-rate growth hides in retention and collection.",
     "date": "2026-08-20",
     "category": "Comparison",
@@ -825,7 +825,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "best-ai-companies-by-arr",
-    "title": "AI Companies by ARR — The Absolute Revenue Leaderboard",
+    "title": "AI Companies by ARR: The Absolute Revenue Leaderboard | Clink",
     "description": "Which AI companies earn the most? A ranked look at revenue run rates in August 2026—plus gross vs net accounting, lab vs app scope, and how to read the numbers honestly.",
     "date": "2026-08-19",
     "category": "Comparison",
@@ -863,7 +863,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "stripe-openrouter-acquisition",
-    "title": "Stripe OpenRouter Acquisition Reported at $7B+ — What It Means for Agent Payments",
+    "title": "Stripe–OpenRouter $7B+: What It Means for Agent Payments | Clink",
     "description": "Bloomberg reports Stripe finalized a $7B+ deal for OpenRouter, the AI model router. Here is the timeline, strategic logic, and what SaaS teams should watch.",
     "date": "2026-08-18",
     "category": "Industry News",
@@ -901,7 +901,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "pay-by-link",
-    "title": "Pay by Link: Fast, Temporary Payment Links for Any Deal",
+    "title": "Pay by Link: Fast, Temporary Payment Links for Any Deal | Clink",
     "description": "Clink's Pay by Link lets merchants generate a shareable, time-limited payment link right from the Dashboard. Enter an amount, currency, description, and payer email, and the link is ready to send.",
     "date": "2026-08-17",
     "category": "Product",
@@ -927,7 +927,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "clink-launches-skill-marketplace",
-    "title": "Clink Launches Skill Marketplace — Monetize Agent Skills Natively",
+    "title": "Clink Launches Skill Marketplace: Monetize Agent Skills | Clink",
     "description": "Clink Skill Marketplace is live: publish reviewed agent skills and monetize them natively — settlement, credit recharge, and tips built into the payment platform.",
     "date": "2026-08-06",
     "category": "Product",
@@ -965,7 +965,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-skill-marketplace",
-    "title": "What Is a Skill Marketplace? — How AI Agents Discover, Install, and Pay for Skills",
+    "title": "What Is a Skill Marketplace? Agent Skills, Explained | Clink",
     "description": "What a skill marketplace is, how AI agents discover, install, and pay for skills, and how reviewed marketplaces compare with open catalogs.",
     "date": "2026-08-05",
     "category": "Product",
@@ -1003,7 +1003,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "cloudflare-wallets-agent-payments",
-    "title": "Guardrails Pattern: Why Cloudflare Wallets Matter for Agent Payments",
+    "title": "Cloudflare Wallets: Guardrails for Agent Payments | Clink",
     "description": "Cloudflare Wallets and cloudflare.pay put identity and capped spend on the same rail. Here is what the guardrails pattern means for SaaS agentic commerce.",
     "date": "2026-08-04",
     "category": "Industry News",
@@ -1041,7 +1041,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "runway",
-    "title": "What Is Runway? — How Startup Cash Runway Works",
+    "title": "What Is Runway? How Startup Cash Runway Works | Clink",
     "description": "Runway is how many months a startup can operate before running out of cash. Learn the formula, the 18–24 month rule, and why modeling it as a range matters.",
     "date": "2026-07-31",
     "category": "Glossary",
@@ -1079,7 +1079,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "net-revenue-retention",
-    "title": "What Is NRR? — Net Revenue Retention, Explained",
+    "title": "What Is NRR? Net Revenue Retention, Explained | Clink",
     "description": "NRR is the revenue a SaaS company retains from existing customers, including expansions, over a year. Learn the formula, why NRR above 100% matters, and NRR vs GRR.",
     "date": "2026-07-30",
     "category": "Glossary",
@@ -1117,7 +1117,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "monthly-recurring-revenue",
-    "title": "What Is MRR? — Monthly Recurring Revenue, Explained",
+    "title": "What Is MRR? Monthly Recurring Revenue, Explained | Clink",
     "description": "MRR is the predictable monthly revenue a subscription business expects from active customers—with the formula, the four-part decomposition, and how MRR differs from ARR.",
     "date": "2026-07-29",
     "category": "Glossary",
@@ -1155,7 +1155,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "annual-recurring-revenue",
-    "title": "ARR Meaning — Annual Recurring Revenue, Explained",
+    "title": "ARR Meaning: Annual Recurring Revenue, Explained | Clink",
     "description": "ARR meaning: the predictable subscription revenue a SaaS company expects in a year—with the formula, ARR vs MRR, and the data quality behind it.",
     "date": "2026-07-28",
     "category": "Glossary",
@@ -1193,7 +1193,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "burn-rate",
-    "title": "What Is a Burn Rate? — Definition, Formula, and Runway",
+    "title": "What Is a Burn Rate? Definition, Formula, and Runway | Clink",
     "description": "A burn rate is how fast a company spends cash each month. Learn gross vs net burn, the runway formula, and why subscription revenue stability changes the math.",
     "date": "2026-07-27",
     "category": "Glossary",
@@ -1231,7 +1231,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-add-payments-replit-app",
-    "title": "How to Add Payments to Replit Apps — Stripe, Whop, Then Clink",
+    "title": "How to Add Payments to Replit Apps: Stripe, Whop, Then Clink",
     "description": "Add payments on Replit with Agent-driven Stripe, Whop for instant digital sales, or Clink when the paid gate and platform-tied billing become limits.",
     "date": "2026-07-26",
     "category": "Product",
@@ -1270,7 +1270,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-add-payments-v0-app",
-    "title": "How to Add Payments to v0 Apps — Stripe, Paddle Kit, Then Clink",
+    "title": "How to Add Payments to v0 Apps: Stripe, Paddle Kit, Then Clink",
     "description": "Add payments to a v0 app with Vercel Marketplace Stripe key exchange or Paddle’s Starter Kit—plus the Next.js middleware webhook signature trap.",
     "date": "2026-07-25",
     "category": "Product",
@@ -1309,7 +1309,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-add-payments-bolt-app",
-    "title": "How to Add Payments to Bolt.new Apps — Stripe Built-in, Then Clink",
+    "title": "How to Add Payments to Bolt.new Apps: Stripe Built-in, Then Clink",
     "description": "Add subscriptions and one-time payments to a Bolt.new app with native Stripe via Settings, fix four webhook failure modes, then know when Clink is the next step.",
     "date": "2026-07-24",
     "category": "Product",
@@ -1348,7 +1348,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "integrate-stripe-lovable",
-    "title": "Integrate Stripe with Lovable Apps — Built-in Payments and Go-Live Guide",
+    "title": "Integrate Stripe with Lovable: Go-Live Guide | Clink",
     "description": "Integrate Stripe with Lovable using built-in Payments or legacy Supabase: chat setup, Payments tab, test cards, claim flow, go-live checklist, and pitfalls.",
     "date": "2026-07-23",
     "category": "Product",
@@ -1387,7 +1387,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "how-to-add-payments-lovable-app",
-    "title": "How to Add Payments to a Lovable App — Paddle, Stripe, or Clink",
+    "title": "How to Add Payments to a Lovable App: Paddle, Stripe, or Clink",
     "description": "Add subscriptions and one-time payments to a Lovable app with built-in Paddle or Stripe—then graduate to Clink’s portable billing and clink-integ-skills when one provider is no longer enough.",
     "date": "2026-07-22",
     "category": "Product",
@@ -1426,7 +1426,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "agent-payments",
-    "title": "AI Agents Need Payments Too — Agent-Native Transaction Rails",
+    "title": "AI Agent Payments: Agent-Native Transaction Rails | Clink",
     "description": "Browser sessions, 3DS, and CAPTCHAs break when the buyer is an LLM. Agent-native payments need scoped caps, browserless auth, and machine-readable audit—Clink for Claw is Early Access.",
     "date": "2026-06-29",
     "category": "Agentic Payments",
@@ -1465,7 +1465,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "mor-vs-psp",
-    "title": "MoR vs PSP — How to Choose the Right Payment Infrastructure Model",
+    "title": "MoR vs PSP: Choosing Payment Infrastructure Models | Clink",
     "description": "Merchant of Record vs Payment Service Provider: a framework for SaaS teams weighing tax, brand ownership, routing control, and when a hybrid model beats a forced binary.",
     "date": "2026-06-29",
     "category": "Comparison",
@@ -1504,7 +1504,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "smart-routing",
-    "title": "Smart Payment Routing — How Multi-PSP Orchestration Recovers 3–5% Revenue",
+    "title": "Smart Payment Routing: Multi-PSP Revenue Recovery | Clink",
     "description": "Single-PSP stacks leak recurring revenue through regional declines and soft failures. Smart multi-PSP routing with intelligent retry turns payment rails into a recoverable MRR lever.",
     "date": "2026-06-29",
     "category": "Product",
@@ -1543,7 +1543,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "what-is-clink",
-    "title": "What Is Clink — Payment Infrastructure for an AI-Native World",
+    "title": "What Is Clink: AI-Native Payment Infrastructure | Clink",
     "description": "Clink is payment infrastructure that unifies subscription billing, multi-PSP smart routing, tax calculation, and Early Access agent payments—so global SaaS teams integrate once instead of stitching processors.",
     "date": "2026-06-23",
     "category": "Product",

@@ -1,5 +1,5 @@
 ---
-title: "What Is an AI Agent Wallet? Two Families, One Map"
+title: "What Is an AI Agent Wallet? Two Families, One Map | Clink"
 description: "An AI agent wallet lets an autonomous agent hold and spend money under human-set constraints. See the two wallet families and the guardrails they share."
 slug: "what-is-ai-agent-wallet"
 date: "2026-09-23"

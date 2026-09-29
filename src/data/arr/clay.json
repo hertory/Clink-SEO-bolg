@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/clay",
   "h1": "Clay ARR: $150M and a $7.1B Valuation.",
   "intro": "Clay, the AI-powered go-to-market platform, reached an estimated $150M annualized run rate by May 2026 and raised a $115M Series D at a $7.1B valuation with more than 17,000 teams building on it. Every publicly reported revenue, funding and adoption number is collected below, each traced back to a source.",
-  "metaTitle": "Clay ARR: $150M Revenue, MRR and Growth Timeline (2026)",
+  "metaTitle": "Clay ARR: $150M Revenue, MRR & Growth (2026) | Clink",
   "metaDescription": "Every publicly reported Clay revenue number: ~$150M ARR estimate in May 2026, the $115M Series D at $7.1B, the $3.1B extension round, implied MRR and pricing — with sources.",
   "ogDescription": "From GTM engineering cult to ~$150M ARR and a $7.1B valuation — the Clay revenue timeline, sourced.",
   "heroStats": [
-    ["$150M", "Estimated ARR, May 2026"],
-    ["~$12.5M", "Implied monthly recurring revenue"],
-    ["17,000+", "Teams building on Clay"],
-    ["$7.1B", "Valuation, Series D"]
+    [
+      "$150M",
+      "Estimated ARR, May 2026"
+    ],
+    [
+      "~$12.5M",
+      "Implied monthly recurring revenue"
+    ],
+    [
+      "17,000+",
+      "Teams building on Clay"
+    ],
+    [
+      "$7.1B",
+      "Valuation, Series D"
+    ]
   ],
   "chartTitle": "The Clay Revenue Curve.",
   "chartIntro": "Estimated annualized run rate in USD millions, 2024 to May 2026. Clay has not disclosed exact revenue; figures are third-party estimates consistent with its valuation trajectory.",
@@ -130,9 +142,18 @@
     "Distribution is bottom-up through a practitioner community — the self-described GTM engineering movement — plus an agency ecosystem that builds client workflows on Clay. A free tier seeds individual users; team plans and enterprise agreements convert as workflows become core infrastructure for outbound sales and marketing."
   ],
   "revenueMix": [
-    ["Seat + credit subscriptions", "Plans from roughly $134 to $800 per month, priced by usage."],
-    ["Agent and enrichment credits", "Claygent research and data enrichment billed by consumption."],
-    ["Agency ecosystem", "GTM agencies building and reselling client workflows on Clay."]
+    [
+      "Seat + credit subscriptions",
+      "Plans from roughly $134 to $800 per month, priced by usage."
+    ],
+    [
+      "Agent and enrichment credits",
+      "Claygent research and data enrichment billed by consumption."
+    ],
+    [
+      "Agency ecosystem",
+      "GTM agencies building and reselling client workflows on Clay."
+    ]
   ],
   "faqs": [
     {

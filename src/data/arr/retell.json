@@ -5,14 +5,26 @@
   "canonical": "https://clinkbill.com/arr-leaderboard/retell",
   "h1": "Retell AI ARR: $60M, Up 650% Year over Year.",
   "intro": "Retell AI sells the infrastructure layer for voice agents — a conversation API with turn-taking, interruption handling and telephony that developers use to build AI phone products. Sacra estimates its run rate at $60M, growing 650% year over year, about twenty-seven months after launch per Leonis Capital. The sourced numbers are below.",
-  "metaTitle": "Retell AI ARR: $60M Run Rate, +650% YoY (2026)",
+  "metaTitle": "Retell AI ARR: $60M Run Rate, +650% YoY (2026) | Clink",
   "metaDescription": "Retell AI revenue: ~$60M/year run rate per Sacra in 2026, up 650% year over year, ~27 months from launch to $50M per Leonis Capital — voice agent infrastructure with sources.",
   "ogDescription": "The conversation API behind AI phone agents: $60M and +650% YoY — the Retell AI timeline, sourced.",
   "heroStats": [
-    ["~$60M", "Run rate, per Sacra"],
-    ["+650%", "Year-over-year growth"],
-    ["27 months", "Launch to $50M, per Leonis"],
-    ["Developers", "The customer, not enterprises"]
+    [
+      "~$60M",
+      "Run rate, per Sacra"
+    ],
+    [
+      "+650%",
+      "Year-over-year growth"
+    ],
+    [
+      "27 months",
+      "Launch to $50M, per Leonis"
+    ],
+    [
+      "Developers",
+      "The customer, not enterprises"
+    ]
   ],
   "chartTitle": "The Retell AI Revenue Curve.",
   "chartIntro": "Annualized run rate in USD millions, 2024 to 2026. Retell has not disclosed exact revenue; the curve follows Sacra's estimates, including its 650% year-over-year growth figure.",
@@ -118,9 +130,18 @@
     "Pricing is usage-based per minute, which makes revenue compound with every product built on top: each customer's success raises their spend automatically. That's the infrastructure pattern — metered consumption, no enterprise sales cycle — and it's why the 650% growth figure is structurally plausible rather than promotional."
   ],
   "revenueMix": [
-    ["Per-minute API usage", "Metered conversation minutes across voice-agent products."],
-    ["Telephony & numbers", "Calling infrastructure billed alongside the API."],
-    ["Volume tiers", "Discounted rates as customer call volume scales."]
+    [
+      "Per-minute API usage",
+      "Metered conversation minutes across voice-agent products."
+    ],
+    [
+      "Telephony & numbers",
+      "Calling infrastructure billed alongside the API."
+    ],
+    [
+      "Volume tiers",
+      "Discounted rates as customer call volume scales."
+    ]
   ],
   "faqs": [
     {
