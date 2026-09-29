@@ -9,7 +9,7 @@ author: "Clink Team"
 readingMinutes: 10
 ---
 
-# Pay by Link: A No-Code Payment Link for One-Off Transactions
+# Pay by Link: Fast, Temporary Payment Links for Any Deal
 
 Clink has introduced **Pay by Link**, a new way for merchants to create and share payment links directly from the Dashboard.
 

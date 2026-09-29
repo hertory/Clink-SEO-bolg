@@ -77,14 +77,28 @@ function main() {
 
   const posts: BlogPost[] = [];
   const contentMap: Record<string, string> = {};
+  const slugOwners = new Map<string, string>();
 
   for (const file of files) {
     const fullPath = path.join(BLOG_DIR, file);
     const raw = fs.readFileSync(fullPath, "utf-8");
     const { data, content } = matter(raw);
+    const slug = typeof data.slug === "string" ? data.slug.trim() : "";
+
+    if (!slug) {
+      throw new Error(`Missing required frontmatter slug in ${file}`);
+    }
+
+    const existingOwner = slugOwners.get(slug);
+    if (existingOwner) {
+      throw new Error(
+        `Duplicate blog slug "${slug}" in ${existingOwner} and ${file}`,
+      );
+    }
+    slugOwners.set(slug, file);
 
     const post: BlogPost = {
-      slug: data.slug || "",
+      slug,
       title: data.title || "",
       description: data.description || "",
       date: toDateString(data.date),
